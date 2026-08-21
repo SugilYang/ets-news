@@ -1,11 +1,32 @@
 {
-  "generated_at": "2026-08-21T08:18:09.926852+09:00",
+  "generated_at": "2026-08-22T08:15:46.442670+09:00",
   "paper": "이티에스",
   "sections": [
     {
       "id": "headline",
       "name": "종합 헤드라인",
       "articles": [
+        {
+          "title": "기보, ‘M&A 플랫폼’으로 245억 규모 M&A 성사",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WFNsSDRXM3VOUEI3cGRoSFl0SXNYMGxsWDNRRkNaS0JnQ3FFQzFBMlFkVUEyZEZRc3NjYVJpdU8tajBMaWNIT3IyMnpDa0V6eUhPZTVtck1oMXpuWThvSVFYTWNNTm5VR1ZoTXlBem15ZkFFYXJDZnRoQQ?oc=5",
+          "source": "부산일보",
+          "published": "2026-08-21T11:04:15+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "인터캐피탈, APS이노베이션-ERAE M&A 자문… K뷰티 신사업 진출 지원",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SQ1BucHkzdnFPa3VrbFdhbW9HTk9hS1VWX1h0SlMwcGw0c2tVbWFrX3QxYjhZdi15ZGpNeXBVUHl4b0w3Z3U5TWFGTkFFOE9xVllsUURPOU5XU3ltYUE?oc=5",
+          "source": "투데이안",
+          "published": "2026-08-21T10:40:00+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "APS이노베이션과 이래의 M&A, 기보 플랫폼서 성사돼",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Ba0hia2phX0UtX3YxNGlmQlQtZG1GTHhUQ1RsRVpqWEFEYVFWTnZOMFlGdEZYdm5vZWdNa3VFMGRPZ3l6Nld3MjhoaE9zbDJQR0dLYVg1akdHZw?oc=5",
+          "source": "한국경제",
+          "published": "2026-08-21T10:36:43+09:00",
+          "placeholder": false
+        },
         {
           "title": "이차전지 소재·부품 및 장비전 'K-BATTERY SHOW 2026', 9월 9일 킨텍스서 개막... 국내외 185개 社 참가!",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBONlZzMzVVRmtmMld6cnNnLURQZFFpWUlvMjBLV0w1bFI3UUNqUTZXTEtGeGpRd3dfdzhidF9tWUUtUEJkVUVnZmNWcWFqS1I1V3dic19kX3J4ZXBTbmlxakVGUGFKaFF4VTR30gFrQVVfeXFMUE42VnMzNVVGa2YyV3pyc2ctRFBkUWlZSW8yMEtXTDVsUjdRQ2pRNldMS0Z4alF3d193OGJ0X21ZRS1QQmRVRWdmY1ZxYWpLUjVXd2JzX2RfcnhlcFNuaXFqRUZQYUpoUXhVNHc?oc=5",
@@ -21,27 +42,6 @@
           "placeholder": false
         },
         {
-          "title": "\"간판도 하나의 경쟁력\" 대구경북 기업 사명 변경 잇따라",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81aXRuYjNKdVhQVjF3UXE1eGh0bDFoLUhzeHBsTU9qdFdrWkpZTjNIN2J2MVJXdFBlaGpMLWxSd3lqMUtvTVBLb01kVHNTandBWDhKVzRkTFR0MXBpR0tUUVFn?oc=5",
-          "source": "매일신문",
-          "published": "2026-08-20T14:32:55+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "2차전지 장비 설치 및 유지보수 인재 채용 > 벼룩시장",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLXJQN09uNkZMcGtLRUFCNTVnVGtzOHYzU1NZb2hISC1YZmJEbnhaeUFybnM2ckc3OGRQVHNEZzY3bVlrcEVRc1lfRlhDczJJS1c1VXYtZVVDdjEwZzhxVDFFOTcxSXhaUGtLT3hGSENGTVVCUUhTQ2FKZlpId2s0LThOWWVWYmNMenVOTzRnaExDUmpWQnFTdkdKTTlUWWl4YUJ3?oc=5",
-          "source": "SeattleN",
-          "published": "2026-08-18T19:52:06+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "전기차 투자 속도 조절에 2차전지 휘청… 폐배터리·장비주는 웃었다",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90Zkx0Q2hqbXpPSFlobldXNVNRNUlySkN0YXpSYzJGRzg3MExRTURUbTRxYUhwNTVReTJ0UkU0dW9aeFVxUDJtVEVCeVE5TGIxUU5IM3lldW56cVJxRVZrYk1lV3VPdGVrZUk1VTAzWF94NjjSAXdBVV95cUxQYnBmcGlHdmo4WUR5NmpXUUVmYnM1a0d6X2pIOG5nbFR4bUphbWtfRlBLYlJ4aGtNMThlcjZ0LW1BSkFOdmZEWmxyazhyaEZIbnF2NHM0X3dSTjdkUGE0Yzc4NlQ3Z3o1akpQRkFxQ1AtWVNjQmZWSQ?oc=5",
-          "source": "핀포인트뉴스",
-          "published": "2026-08-14T11:13:39+09:00",
-          "placeholder": false
-        },
-        {
           "title": "배터리 전극 캘린더링 장비 시장 규모 [2034]",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTDAxTmsybENNVlRIakw0V3hES05fY3FkSXpYdG5Da2RaSVdtakJsUVZIdF91SFFYaFRPSGVSVDBpa3N5OHM3WWdzMmxoZDJhZFBFUzdZTHVfRnE5QXVua0lqMjZ3Ym5Gb3VwTExWTHVOTmtiS2NEbGpQMDdZR0hzOWdzU05DUU5FSjJoVFBDTjl0X0VqY0puZ3gtZ3c1bjlSaFNlMFJNUmlPQQ?oc=5",
           "source": "Fortune Business Insights",
@@ -52,7 +52,14 @@
           "title": "검사장비 발 넓히는 ISP… 반도체·이차전지까지 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BMVRPUkJqcVZQTDZNRy1CVXpRaDFpM3lEY1N3blcwM0pBc0l2ZGllSm8yNlZrc29Xa2l1aThrLVpQQ24yODh1ZU03NzdhMUpiQUNscnlrZ0pNNDYzYlhQSXpsMEgyQWltbjdpQdIBckFVX3lxTE5aU1ZkVkpJUjluS3dPbGZ0b1IzN2Y2ZGhpLTBJTnNKZTR3MW5Pbklqc1dLa18yZGpBbVZ6U255ZjFmUG0yQktINVNELU40ZXdyMW40dU54ZzFERXdVWXROSnJqWWhWVFFRUWc1Y3dKOUNidw?oc=5",
           "source": "머니투데이",
-          "published": "2026-08-12T04:01:00+09:00",
+          "published": "2026-08-12T16:00:00+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "글로벌 제조사 뚫었다…디에스케이, OLED·2차전지 자동화 수주 모멘텀",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zTWpDVEtYNWNoUkVHQW9hV2Q4eFdVaG4wQUx5bENSRW1pb3BxSzhCMTh4WVluQzBoejlKbXI2SlhKUEFPR1pSVHJLVko5TEU4bU8wazhiaFZia20wTkc5MVFVSUFnT1VFMU9JTlg4c3A3YzjSAXdBVV95cUxObkllbDh5eFFnY004WkxfMnBNTEUyNHVmQVRxVTZvaEtWZTZKUTBBeEdiajNibXh6VF9odDV5amlWLUx1U3RFeElTNS12OGpDc1RHWnRja2xvS25mVk55U2ZkTjBFYThUQmxkQ3gta2xhME5aN1hJUQ?oc=5",
+          "source": "핀포인트뉴스",
+          "published": "2026-08-12T15:40:45+09:00",
           "placeholder": false
         },
         {
@@ -61,13 +68,6 @@
           "source": "마켓인",
           "published": "2026-08-06T10:40:49+09:00",
           "placeholder": false
-        },
-        {
-          "title": "케이엔에스, 이차전지 제조사향 46파이 배터리 자동화 설비 수주",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uRlRrMUdGZFViZUNNM2JpbjljLWtYWEpXVXlvc2NhQ2l6WlRJeE1Tay13cjl5RE9GdXRrREFaSlJ5cHl6R21fTmdsVmRrR0hqQ3lqSXY1MFVNZXJDd2tJWnkyeG0?oc=5",
-          "source": "서울경제TV",
-          "published": "2026-08-05T16:00:00+09:00",
-          "placeholder": false
         }
       ]
     },
@@ -75,6 +75,13 @@
       "id": "company",
       "name": "기업·고객사 동향",
       "articles": [
+        {
+          "title": "LG에너지솔루션, 4%대 급락... 외인·기관 매도세 '직격탄' : 기업주식정보",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0zaFBlbnA4SkY5R25xTGJPbi16bHJrZFhUUjAyeTdITGdaS3V6TU1lVTJrT0lRTHFPLW5iemVaeENTdVE3RDJ4dFBB?oc=5",
+          "source": "재경일보",
+          "published": "2026-08-21T15:47:00+09:00",
+          "placeholder": false
+        },
         {
           "title": "배터리 특허출원 10만여건… 올 상반기 R&D, 역대 최대 7259억원",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbklicGoyeHFPYVVld1VCS0FxSTR4TzZySDRCSWk5WFNGNkYxZWZkdERadmRJcnEyWTBzaFViemJhbEFUTk9fVC00OXN6RkNMWjkwVUlvaXhkMG1meGN1eWpoSWxqamJWNFBuNHpFNlpGdWZYLW5DcU5DSW4ycGJBSUtidDhUTTZ5MFdGcTkydw?oc=5",
@@ -87,20 +94,6 @@
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QcGtNZVdnZEVERU1GWUZ6V0NDbHA0QXRqdzFVTGpWRmJQVk1mcFNzZzdJNUtWVVN6ZUIwbzYxMmJsOF9OdHVXSDhWT0NvaS1UT1RTMEZpMmwzNEF0WDQyeg?oc=5",
           "source": "메트로신문",
           "published": "2026-08-20T13:14:53+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "[특징주] LG에너지솔루션, 반기보고서 호실적 기대감에 상승세 : 기업주식정보",
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wSi02OHNpc1dKdzMweDFCd2MwZExxbFZpbnF3cjZZS2N0YnFWeEo4WFJWM1NjY0RXLUhnOGpqQ3lZMldOQzMwLWRR?oc=5",
-          "source": "재경일보",
-          "published": "2026-08-20T10:22:00+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "LG엔솔 김동명, ‘리밸런싱’ 승부수 통했다…“ESS 생산라인 대 전환, ‘캐즘 한파’ 넘는다”",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ibnNPQ2U2RjczTjNiYWFobDhqWkRVWHl0Z2VvSjQ3S3JrVlVuRjVpTWxKMTRJMWVTNm1uZ09IWkJWTUFVVXFMaEFiLWs4Y09CYWliWDZucEpOcmxKckZUd3FHcVQ1ZGNuXzFv?oc=5",
-          "source": "CEO스코어데일리",
-          "published": "2026-08-20T07:00:00+09:00",
           "placeholder": false
         },
         {
@@ -130,6 +123,13 @@
           "source": "미디어펜",
           "published": "2026-08-19T09:04:59+09:00",
           "placeholder": false
+        },
+        {
+          "title": "LG에너지솔루션, 미 정부·방산기업과 드론 배터리 공급 논의｜Global Money Club",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PaGpwZ01wQ3JidTQwSmtoNWlKbFM3WDJLTFVoRHdrZFBubDhKSUFiNXB5ZEgwTUNXTE16Vmo5TDUxOWNPQ0J4ZzNZSWRMWWZ6U2U5Uml1ZlNrRms?oc=5",
+          "source": "중앙일보",
+          "published": "2026-08-19T08:25:51+09:00",
+          "placeholder": false
         }
       ]
     },
@@ -138,59 +138,59 @@
       "name": "안전·산업재해",
       "articles": [
         {
-          "title": "세종 아파트서 배터리 화재 잇따라…\"열폭주 추정\"",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mWm81NllfR3hyRFk4OTlaOFpJUWsyY20yZkdDSnlDRnpvT1pVanI1eUEtQUtCUUpFcFpyQTduYUR4UjJRVjFUd0R4bFJrS2c?oc=5",
-          "source": "v.daum.net",
-          "published": "2026-08-21T06:52:52+09:00",
+          "title": "전북소방 ‘리튬이온배터리 화재’ 5~8월 집중",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SWlZUMU13SFRsLVYxUFAwRGhFOTBsMEtrWjkwN2Y5ZGs1MUJkSnNnWjhDSERYVElObVJFYTNjNmhybG5DRC10ME82NFhvMWhXcWdWM0hiTmJqeXFCcVRlaWhveHRwXzlXb3RSUUlB0gFuQVVfeXFMT1JaVlQxTXdIVGwtVjFQUDBEaEU5MGwwS2taOTA3ZjlkazUxQmRKc2daOENIRFhUSU5tUkVhM2M2aHJsbkNELXQwTzY0WG8xaFdxZ1YzSGJOYmp5cUJxVGVpaG94dHBfOVdvdFJRSUE?oc=5",
+          "source": "세이프투데이",
+          "published": "2026-08-22T02:55:53+09:00",
           "placeholder": false
         },
         {
-          "title": "SK온 헝가리 공장, 노동자 65명 안전 위협…4억4600만원 과태료",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tV3NBRkNraVp5SWRtZHp4NUVmaFhHTk5FV2NYNG9GRzRnLU1IWFc2UnA2YTN3UmhCcTRUdHZ3OU5oS0JOTXJnQVoyN1MwcFR5WHlJ?oc=5",
-          "source": "KPI뉴스",
-          "published": "2026-08-20T11:37:16+09:00",
+          "title": "목포시, 리튬이온배터리 올바른 분리배출 홍보로 화재 사고 예방 총력 > 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2dXFTc214dEM4TzZwNUpiYm9ucHVmdVFRbzZtQkZIQzJjWFdHd3c0NUpOUEkzdU1ib3ZtR2VWWVVVWXR6SEg3VXdJNXB1QVBHOXlDNk9WTzk5NmhNZ1Z0b2Z1NkVkOTZ6aF8zOVdsUDc?oc=5",
+          "source": "더코리아",
+          "published": "2026-08-21T23:29:00+09:00",
           "placeholder": false
         },
         {
-          "title": "SK온 이반차 공장 안전 위반 1억포린트 벌금 부과",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUGJ4VnV1RUc1QnJZblFCcEdZcEZ0ZjJjMVI4ekZwUlJsQnFxV1AtX3FqOVVGcVdpYS1ocDAzUkt0d05QZkMxWjRpRTVpVThBRkdZTklrTmtHM1VfbDBZeHd0RjlpLTUzcGUxcG0wYUdCdnp0Q3Jzd2JQdTV0TFBMclViR2ZGbjg?oc=5",
-          "source": "글로벌이코노믹",
-          "published": "2026-08-20T06:38:06+09:00",
+          "title": "전북 리튬이온배터리 화재 절반 이상 충전 중 발생…여름철 집중",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tMTVMZTFNYklOWGJiZmNoeE1kazYxUWtkc3JGUS1OYnhSaGZDZXVCZU8xTUpxNlBPNV9FdW85TExaYUdZbE9Kb3d0UkVQdnhRYWo0dGdXRjZYUzJySVhzV21kaXhKYktkdjVYZ1AxaDhlUQ?oc=5",
+          "source": "웹이코노미",
+          "published": "2026-08-21T16:50:34+09:00",
           "placeholder": false
         },
         {
-          "title": "진천소방서, 2차 전지 물류창고 중점 화재 예방활동 강화",
-          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE95RFJEZFVDSkw1TVR5U0M0MjctLVJ3S3RQcGd2NkRBY0pGMWtXRWlpMENmby1MamowNFVYZE5oa0hjRklD?oc=5",
-          "source": "소방방재신문",
-          "published": "2026-08-19T14:00:00+09:00",
+          "title": "리튬이온배터리 화재 절반 충전 중 발생",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qcmhZU2RlZGZBTzhsZHRMMmpFSzJ5N0VRdzJOMjJCYlJwVktqLVZic2hYaGxqWVhQblhuTG5pVGJ1MFNUS1Rqa2hxU2JIQjk1NXhLa1NWc3JVWmJKRXBXRWwxSUtJc1BaS09ZbkhPQ2c?oc=5",
+          "source": "B world",
+          "published": "2026-08-21T16:15:12+09:00",
           "placeholder": false
         },
         {
-          "title": "열차 내 리튬 배터리 휴대 금지…‘만약 갖고 탔다면?’",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xM2ZnaVN6bkgwVktKdTk4Qkp0YmZqSVluN0tpVmxId1BDd0s5VUFnaUFnU3JoTUtBemp1T0lfNDNmSllpdDFrM0s1X3Fsb29NRFVpNFFyM2dXY0tjdXQ5MnN6aU1SOVBUR21jMHlRONIBZkFVX3lxTE1pQkF2VnJ2dk03bndXRWstQi02RkhNVVByclozckpHanlzYmx3NERneFQtRE1odFF4UVZ1dndWVkFKQXNyT21iaGs1bzBMNEJzMzVwc05VeGRwZUVnSWdac09YazRSZw?oc=5",
-          "source": "동아일보",
-          "published": "2026-08-18T17:33:05+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "토론토 배터리 화재 올해에만 85건",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oUkVPQWtHdlJRVXU5Y3lzbHpXZDB3b1loY3ROaGwyYTdySGFaVzVCWUhKR184UkgyN0xJVUthaGdWLXdqMmhYazBWaTA4aDlpU1FVSUVEUlFMT3JrcDhCUjlrX19wZw?oc=5",
-          "source": "캐나다 한국일보",
-          "published": "2026-08-18T16:03:00+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "진천소방서, 대형 물류창고 2차전지 화재예방 현장 점검",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5dmI2algzdlNrNnZUbUFsc0R3aDR3cVRBNW1TYzdyTkVmUm1uRGdLYXpYYUdPRl9qMkdJNVlIcU5RRkhfekVCMjRRc2VOeExUVUU2RFkxZ19XZnZHeVZrNE0zZXl5aWpUOEU5S2N2WjA?oc=5",
-          "source": "충청일보",
-          "published": "2026-08-17T16:00:00+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "전기 이륜차 배터리 화재…6천 대 리콜 결정, 리튬이온 배터리 안전성 검증 강화",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQ0RFaFlZQUZ5ZHRlVS02bDNSbU5uN2kwV1dGNGZyNFlnYXN5eEtPb0JNWWRHSVBtem1TeGVabm1HRkRESjJVV1J2SVJXUjAwNmMxS3RHQzAwMklrdGIxalJ5dS16Z09T?oc=5",
+          "title": "전북 리튬이온배터리 화재 급증…충전 중 절반 이상 발생",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9acTdXczQ5QUg3OWJ0MVBWSldJZGM4WkE1VUVPUEREcW1Cd2ROTFE1V3NUYjd6eGtneVZYcmR1b2JpV2JxekVxT2xPblNUVEpRbWxFc21WR0NmTWdUay1fVlRya0xCZDVu?oc=5",
           "source": "공감신문",
-          "published": "2026-08-16T15:23:53+09:00",
+          "published": "2026-08-21T15:43:21+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "'과충전 안돼요'…전북서 리튬이온배터리 화재 5년간 128건",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwLTFZTUtZb19MUk5YMGxPVkNnMFNJX096SGJaY2VYLS1DazlQelJ2c2tMRklmR1I3UVJXMTR1Z2Z6LTFlX29SZ1pSR01IRS14dk1FYThvZ05feldwRFU4WdIBYEFVX3lxTFBwLTFZTUtZb19MUk5YMGxPVkNnMFNJX096SGJaY2VYLS1DazlQelJ2c2tMRklmR1I3UVJXMTR1Z2Z6LTFlX29SZ1pSR01IRS14dk1FYThvZ05feldwRFU4WQ?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-08-21T15:20:33+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "전북소방, 리튬이온배터리 화재 절반 이상 충전 중 발생…5~8월 집중",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LM3dPT2pwR3AxcnY3eGNOZmFXcGhmVGMxdDVXb2o1ZjVia0liNFRmanEyc0xseVNua05WZG4tbS1ZSGFad0NfZEwyUHQ5RzZCYTVCMWZrV2lTWmkxT0lxTURNR0EtX3c3?oc=5",
+          "source": "투데이안",
+          "published": "2026-08-21T13:57:05+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "침대 옆에 충전하며 잠 들었는데…배터리 발화 추정 화재 잇따라",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrb2JCT2c5VkFGSFVwMWYwWTFzanZNVnRER2tTNDIxanhXY1QtbTZLVGdkOEVQdnEtV0FQbDVtRjR6Y3g1MEtGZ1JJV2RnNVNKZk9BVjg3THlPVG1WcXRrbnNJdGk3R2cx?oc=5",
+          "source": "한겨레",
+          "published": "2026-08-21T10:35:00+09:00",
           "placeholder": false
         }
       ]
@@ -200,52 +200,52 @@
       "name": "고용노동부·산업안전보건",
       "articles": [
         {
-          "title": "3년 전 미국서도 끼임사… HL만도 대표, 중대재해법 위반 입건",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0TjRRY01WT2hOTnhyc0dTT21TNWpvVTZJNXZtOFFaNmJCQmp6aVdiNnpRaUwxSGpyTjF3MG5seHo1NmQtNEVBTERGVGFEOWZCOFFNYW5JdFJnN3BqdDBmRUxvYUx5Q1kyb01lTXF4UQ?oc=5",
-          "source": "한겨레21",
-          "published": "2026-08-20T23:32:00+09:00",
+          "title": "경기도, 안전보건관리책임자 교육..중대산업재해 예방강화",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCSTJ0TmhmbDZnaUpxWm1JZDBxeGVJclQyM1ZRanVaUTlNRjZEMXNQUnJMTmxiTXBTR3IwdkJoVDFTWjR1SUIzaF9NOVl3aEtoY1o4bEJyR2RSRmpodkd3M1h3b1hVUHotWFRmddIBb0FVX3lxTE1sLUROWVRPaDI4UWtvYnhJR252dXE4OUpFdHpwWEJ1bHljNGk5Rjg2SmV3NHBUdnRTSVR4MlQ1RFVMR3FhYWJzRVJ2dzRrb196S3k5WWJVS0lvV3JSY0h5SXhoM0k0aGFRanlVXzFMZw?oc=5",
+          "source": "한스경제",
+          "published": "2026-08-21T20:00:47+09:00",
           "placeholder": false
         },
         {
-          "title": "\"아파도 말 못 해…손가락 끊어져도 공상 처리\" 하나머티리얼즈 노조 폭로",
-          "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNTVlTUU82N0Z4Znl4czk3M1FfOVJvcm91eFlxdVhDcXI2SG5IaFlqZ0xZeDJKVXNZWmN0QXM3YVVPb3BmWEZQVUxUQlNBNXJRUFBTandGamFxWXBYTEExOVNtYXdieVdTeUZkU1Y2LUtwWV85LVpEaURnTmc4WTJGWGlLY05vQTdGVVFVMVhFc0ZzdUdsNGtCTGVucWhxSlhEb2duUzcyOFN5VEY1aWRlc1U2cjNEWW0wUThvSHhvRTlVUWN2RUlsOWZpWmk2SzcwUWVBd1VKWkVnbnZVbDR0UTFqRWFkUDhUcmNpMkdDd2h4N2lpSnBhVVgwNUl5R0FZdkRrTVRaYVdtU0J4Z0hVRlV2MFJMN2dnN2FWZzdwTnpMSGNIdlJaQi1LRHpzYzlZSmt1ag?oc=5",
-          "source": "뉴스필드",
-          "published": "2026-08-20T21:30:47+09:00",
+          "title": "4개월 새 3명 숨진 SK지오센트릭…검찰, SK이노베이션까지 압수수색",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pOW4xNGx1bHpfZnYxQnJ2QldwZk5fOWZnZVU5aURxUjJhYVZqV01IQ1JORWpiLUh6RUZWRzFBSUkzV0tqb3dFTFloRXVkWGVwSHBrYXpNWVI5V1YyUTd3bWdEN1M?oc=5",
+          "source": "ppss.kr",
+          "published": "2026-08-21T16:26:56+09:00",
           "placeholder": false
         },
         {
-          "title": "4년 만에 재판행 '2명 사망' SK지오센트릭, 중처법은 빠졌다",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TbER4SWE3R2JSQWt4WWphMW1TdG9Ocmxyei1Qa0tRUy1tMndZSzF6U0tHS3hhMTRENmdhMWZreG1xbGZjUFA1bHNmWVR4U2RhYXJz?oc=5",
-          "source": "네이트",
-          "published": "2026-08-20T19:50:08+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "동일제강 중대재해 항소심도 경영진 형사책임 인정",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9zbHBpVXRuYVhJY3NqRUdsdks4UDQyWTBUMzRpRzZkaS15Z09FTUFXY0xaY2kwSlhLdWJqc0xpenNmcmVUZjRBNmRLNnZCZS1VS3ktYWtsSTRVTXgyMEFTazFIeEY4ek1WTnpiN1lqVdIBc0FVX3lxTFAxNlFhc0hCLTU4RWFsbTM5aVA0X216eGJqUFN5bV9SMWVnaWdzTkNfMnBhOGlUamI5aFc2anZCUjBmVkRsR3Y0b09XazNsd0hGV0ZyY0NtYm53QkpPajl2bHZ5TElFSGVaYWFNeFpOcTFlUlU?oc=5",
-          "source": "세이프타임즈",
-          "published": "2026-08-20T18:24:21+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "군산조선소 사망사고, 왜 현대중공업 수사는 조용한가",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZYldmam5KVVRCRmJGUHpXYkZPN3VEYmtUakJBSHk1WmlhMUxTTldIbmwyVDZyVVF0YllLQldPd09nV09vUElDbm53Q2VIOFVMQ0FnU3ZCOFpZNkRqY1VBTWhyZE9DQQ?oc=5",
-          "source": "전민일보",
-          "published": "2026-08-20T18:23:25+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "노동부, ‘철강·금속 불황’ 충남 당진 고용위기 선제대응지역 지정",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBUkk3ZFN2MmNSNEF5Q0JCR0o3dE8tdXMxdTZHajhRQUpwb2ZrOXdMcXpjTFBDcDFQS2lBdVdtcUNGaUFpbTYwVTV1M0hnZGV1emVQTldzdW1HY1E?oc=5",
+          "title": "[단독] 검찰, SK이노베이션·SK지오센트릭 압수수색…중대재해처벌법 위반 혐의",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90dUhjczZzY3BNcVhhSHlNUVoxTVZZcVpmS25KcW03emhJQnFKLWZFdG5aTlFIT2liT1VBdXdYSGJROWF3VUN2M2E0UmsyTk96NzJfLTRGVGF0bU0?oc=5",
           "source": "KBS 뉴스",
-          "published": "2026-08-20T17:46:00+09:00",
+          "published": "2026-08-21T16:01:00+09:00",
           "placeholder": false
         },
         {
-          "title": "고려아연 온산제련소, 안전 포스터 공모전 시상",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFWFZhZk9qNWpXU0tsMzRhTUdVN0o1ZS1ROFI5VUp4ZzNKa01TMFBBYjJwUHd0OUduN1JUVHlHeXRsRDdkOE5qZ0lZQkNSVXpTYUhkRFFQSDY3QUdRYWNvelNyNzM0RnlTaFZLcw?oc=5",
-          "source": "굿모닝경제",
-          "published": "2026-08-20T16:26:43+09:00",
+          "title": "\"안전은 처벌보다 예방이 우선\"...추미애, 중대산업재해 예방 주문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjUG84Q2dJTHhJNTBRVFRzcDY4Y2JJZ1N0SVVIekRJcjdHZXJCaXpfb0R0eVpIN3hSak5OcmppSEltT241Q1pERHEwZ2hDbmVfVUx2a3drSjhSSXJQUzlQQ0VNZmFJaDZZ?oc=5",
+          "source": "팍스경제TV",
+          "published": "2026-08-21T14:15:40+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "경기도, 중대산업재해 예방 위한 ‘안전보건관리책임자 교육’ 실시",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6V2dJekdEZVVOWEhGMjBOM2NpeU1vS3NMNUh0VC1UcXQ1ZG5zWW1ENjBKR3pVd2pHRWJfUFRTVW9MVTU0eXpGREJncjZncmNWbmlXTzlMY0ZKY2xJTllzbEhraUZ2YzB2NVNr?oc=5",
+          "source": "수원일보",
+          "published": "2026-08-21T13:43:09+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "\"하나로마트 지게차 사망사고, 중대재해처벌법 적용 엄정 처벌하라\"",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56ZXlmb0VoWEM1dHduQ1VobWNLS203NVpiSVF2MjJfWmh5U0lqUUlEM2JCd3RDWHNkSWxyRVRraGdxTXMxRkZ3VFdldlB0OF9NdWJHUEFGbGpZUGJ6aGw1TEtnTjJOay1TdUpCQWYxUzlYUzg?oc=5",
+          "source": "헤드라인제주",
+          "published": "2026-08-21T11:53:37+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "추미애 \"중대재해처벌법은 처벌 목적 아냐...같은 예산 쓰더라도 안전이 가장 기본\"",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NNFVQM09mcUN3eEhMaUJXeFVHMEYzMGhoWUtUaWQ4OEtoV2ZUWmQtVTNCRlo0ZWc0TDB4TktHMWM3bS1fVS1vYUp5REFERXRFNHp4bmpiSG5xUllIM3o0bl9WR25QeXhpWFU0UXBB?oc=5",
+          "source": "gukjenews.com",
+          "published": "2026-08-21T11:49:31+09:00",
           "placeholder": false
         }
       ]
@@ -255,6 +255,13 @@
       "name": "경제·산업 전망",
       "articles": [
         {
+          "title": "고려아연 '자원순환 동박' 출격…배터리 소재 판 흔들까",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VNVdNaWVSWTV6ZEFMZGRycXIxQTFnRzd4UlQ3NmNlcndfSFJOLVFhZXBYWGVBSEFzVVMyQmZHUU1EWi1qdXI1SXB1QVhQTzF6VmZaVThDRjk2M045U2cxWVhicmRuWndULUZyTVNxONIBb0FVX3lxTE1VNVdNaWVSWTV6ZEFMZGRycXIxQTFnRzd4UlQ3NmNlcndfSFJOLVFhZXBYWGVBSEFzVVMyQmZHUU1EWi1qdXI1SXB1QVhQTzF6VmZaVThDRjk2M045U2cxWVhicmRuWndULUZyTVNxOA?oc=5",
+          "source": "한국아이닷컴",
+          "published": "2026-08-21T15:05:34+09:00",
+          "placeholder": false
+        },
+        {
           "title": "AMR 힘 빠진 티로보틱스, 포드 수주로 반등할까",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15S0FZR0hPeWtKdWVrUWxJUTA5Y1FSbDFaZkYxMjJhdFE0R3ppU01TdUxoa3hxVmJKcEFxSFNVSWkwWXlkSE1mSjJZMldydllCRVMzNkktaHlPOFE3OXc?oc=5",
           "source": "동행미디어 시대",
@@ -262,10 +269,10 @@
           "placeholder": false
         },
         {
-          "title": "포스코, 中 '배터리 시장' 뚫었다…리튬 사업 성과낸 비결",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5INC1zNFcyZXFxd1ZDcUtUUkE0WVRIY0I0UW9paTlEbXNJbUp6QldKWGd4MU1TaW1kOHFiYXRJcWdDaU9PdUVIQWZOckxRaUtJNlQxRHNOZDJLSW9OR0xoZXd6LU9FVzjSAWtBVV95cUxQV0diazJwcXY1MTB0cWU4dmlJa0ZhOWVKNkZ2R1dqRVkzRmlrS1JkeEVndl9LTFlQZVlzQ2FJYk5aWUtsNGRYM2R5M0g0enhsb0lpd3NGZnFIMVJEWjByYnE2T1VKMGp1My12MA?oc=5",
-          "source": "SR타임스",
-          "published": "2026-08-20T18:37:32+09:00",
+          "title": "전고체 배터리 소재 全 라인업 구축",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSFJxa1QwVy1PektfdjVEVWF5Y0JtTFAzbHJyUzVhMkprUGNSSV9obzhlbWQtUkJ2M0lRUnNQTUtSbWcwNmVRcW9VNDB6TGFnMDNfd0FuVkdKVlN1ejA4VjM1NU9QVzd5UHhuTjFhSXlfYjZpNThtcnRRZWpacERVNFB1VWRqNGlCekFVM21GWQ?oc=5",
+          "source": "조선일보",
+          "published": "2026-08-21T00:32:12+09:00",
           "placeholder": false
         },
         {
@@ -273,13 +280,6 @@
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OZkNTZXNFNDdOcHNUZ2xqc3piN1N2Vkl2Yk5faXdZOWdmVUhGNkNXNklCajRfYXhaY2RLbG8xV21heXBneG5RdDJQeU9FTGl4cjZUS0R6bE9oY0wxM0p4LUxxRDE4Wm56M0ZVMzJqNDQ1NEHSAXdBVV95cUxONmtSenV2cUE4ZGhaSHRhZ2ZUa1RaU0NxNnc5eWJHRHJsMkZfdHUtbTAtVFRWaDRTN1BYRDNIa0lFcVJ6TXpIRHdTRUtOMHJkakpSX1EzVFFCOUN2VGVDclJ1c3F2bmVmN0xqUHZRVG5HbmpmMGVJUQ?oc=5",
           "source": "핀포인트뉴스",
           "published": "2026-08-20T14:12:47+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "포스코, 中 롱바이그룹과 맞손…배터리급 리튬으로 중국 시장 공략",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fQVJQOG1kcGdZamVvQjFXTHM1dlNMWUNwOVJOdUhrd01oc3VUUHBGbE9Zd2FTNXllZ3VxRzg1U3M1aGh2YmpOMzhJMG5sdkhCeko2ZWkzaEd1U3pCWFhEcWFQY2ltdTRHRG80TA?oc=5",
-          "source": "페로타임즈",
-          "published": "2026-08-19T23:55:00+09:00",
           "placeholder": false
         },
         {
@@ -305,7 +305,7 @@
         },
         {
           "title": "포스코그룹, 중국 배터리 소재 시장 정조준…롱바이와 리튬 공급망 협력",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hMjBOMnJwMG1tcFNaZU9sd2tpRDluZEFYYndhSV8wWEIwT0hPNUZ2ODFQUmV2N1RSRlFpcnFpaGhuaVFiNjZSYVhkZmJ5elZJOVV2RzVsWGR0SjZQem1zc3RyMmczOUJsVzN1QdIBdEFVX3lxTE83MTNOcEpEVlhHQkhydWp3OXlPSER1SnBSQkF5Z0tVUFVpT192UWhyZXRic01lVkNxYTY2LW1JNC1OZXBtMXBDbVFGcHVlakpmcllBdmVCQVNrbXdaem5NV012WFVyZGZuZlhHa185VDBoNDRN?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zb0FPc0VxY1lLY1RrcmMyMkctMC16WUNPUThraHRjZkxWQW1iTWY5Z3c2elgwek41X0gwTkZJb3pIaVQydFdXZDhBQldfTkF4U1BCTjhtS0NHZUpwb2g1ekxFQmhiS2c0aGtBRzNFREJtQdIBdEFVX3lxTE83MTNOcEpEVlhHQkhydWp3OXlPSER1SnBSQkF5Z0tVUFVpT192UWhyZXRic01lVkNxYTY2LW1JNC1OZXBtMXBDbVFGcHVlakpmcllBdmVCQVNrbXdaem5NV012WFVyZGZuZlhHa185VDBoNDRN?oc=5",
           "source": "더퍼스트미디어",
           "published": "2026-08-19T17:17:37+09:00",
           "placeholder": false
@@ -317,10 +317,24 @@
       "name": "AMR·스마트팩토리",
       "articles": [
         {
-          "title": "엑소텍, 물류 자동화와 전략과 글로벌 도입 사례 공유한다",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13bXVpRXppRnMtbmVCdERaWDlhNGF2dlYyNzZScjROcFRYa2VHNUFDblQ3YlJfXzJKekR1Ql84Z0ZaOEdCckkxNGE2bXRVSDltSTUxTXY0eVpUQnFOMzNhamZZeUI4aDFvbmxQNzh3?oc=5",
-          "source": "elec4",
-          "published": "2026-08-21T01:39:51+09:00",
+          "title": "AI·반도체 '두뇌'부터 로봇공장 '용접'까지…산업계 인력난 숨통 틔운다",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MZmY2RXA5UER3enhhMVFMWFdhd19UZ2FZNDlTYm9JNjdsU2J1anA0QjlGSkQwSWt2ZHRFeGd6TVBBZEczRWFZNnBSeW9wOU5mSjRDNVJiakRpZDl4MjRJQUdjWXfSAWpBVV95cUxQRGZpcU5oZUVZOWlLM1MyUXN6c3BSNVVRTlFrdE5OUlNsYnBnYjlVN3VsOU84V0pkUGZpc0VNMXFnQnBiLUw1QVdBX3R6c1VpNjNYVTFlZndsX0xUTmROdGxMOWctZ3kxa3lB?oc=5",
+          "source": "뉴스1",
+          "published": "2026-08-22T06:02:00+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "[KPCA SHOW 2026 프리뷰] 크레셈, AI 비전 검사·인라인 자동화로 스마트 팩토리 구현 앞당긴다",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uSFhKMDBZaUgxTHMwa0VLTmRTWEtRRi1hVjFYUzFVb044R29jTW44clJfa0xBOXVUNTlrNy1LdDd5aFNjaFJ3MlFQSGRKVFpkcTdxN3JXcTZHdy1falpF?oc=5",
+          "source": "헬로티",
+          "published": "2026-08-21T15:23:25+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "[피지컬 AI ㉛] DX, 스마트 팩토리, 피지컬 AI의 삼위일체 - 자율 의사결정 체계로의 진화",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RZWxna3BQZkJkWEpaSlZZSVl4UDFJUlZmbkl5ZDRPbmp4dUVLdXRNU0Ixa3VuMC1Pd3NUQUt4VFRzUVVUUjlvak9GSVdWZVVKX212M2FYWHNIbndYUUtjSklxaXNHMkxOMjFZNA?oc=5",
+          "source": "미디어피아",
+          "published": "2026-08-21T13:24:23+09:00",
           "placeholder": false
         },
         {
@@ -331,31 +345,17 @@
           "placeholder": false
         },
         {
+          "title": "스마트 팩토리 시장 규모, 점유율, 성장률, 분석, 보고서, 2034년",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxeXpjbUc4MjJFdnBRRk5ZTnBZaHFJUlBJSnVWcHRObjVZVElvTHBOMlI2bk9zN0lMbnRVMy1JSVFNWktWMmhrQ3A0YjZPNFozanUxbTFlVVl0dEtCRnV3clN2c3FqS3BzakE?oc=5",
+          "source": "Straits Research",
+          "published": "2026-08-18T16:00:00+09:00",
+          "placeholder": false
+        },
+        {
           "title": "스마트팩토리주 엇갈린 행보... 검사·로봇 일부 반등 vs 대형 IT·설비주 흔들",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRY1JtMXJSQjNBZnFFM3RfQk80SWl4R0pIVEtRd1lxLXNvejc2SlBiU3IxUzZ5dndYRU9yNWtKdTRBQ0IxU2pCRXFab2Z0YkVlMjZnNGdlRXZGSXpvanRQbWVaMmp5OERSaXJFY0ZJTXZPbG_SAXdBVV95cUxPY3N6ZVJKdzQxeFpkd2JIY0IwWEtJaE5DSS1HWFRlWnlPZHYxODBTYjBUN0MzaWJtNGJhSnlBMGVuU0xsaHJiaDRiQ3VFNmZ2T09JS2t6V2dBeGVWOUdRbmttUGZtUE0waEo0cndaVjJFbXF1S1RQQQ?oc=5",
           "source": "핀포인트뉴스",
           "published": "2026-08-18T15:00:34+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "[실적+] 로보스타, LG전자향 스마트팩토리 공급 날개…상반기 매출 52%↑",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfVUdoSnpSN1o5VHJmamswV21RaVVCRXZzYmtoTm42SzBlWkNyRzFQLUhkZmNIOVAxVHBSV3pKOW95cC1mQVczWmVfWkplN3JfQm5vTG9icU9Rb0dHdWdDTGJPR19mUUdq?oc=5",
-          "source": "녹색경제신문",
-          "published": "2026-08-18T13:26:24+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "AI 집중 제어의 역설 — 스마트팩토리 생산 마비가 드러낸 복원력 공백",
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vVFZVQXYzR1Y2NWdLN2gta0Z0aWtnSGx6b1ctUTFSYzlvRU5uRHlqSjdxUzNYQm9OOEgwVmNFZ3ZwbVItSjc1b2dn?oc=5",
-          "source": "뉴스N연합",
-          "published": "2026-08-17T06:36:00+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "LG전자, 브라질 파라나 新공장 가동...AI·산업용 로봇 기반 스마트팩토리 솔루션 도입",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aSWNrOURLbXRRWWdoTEtITWt0amlTaE5jbmlFUE1TS1FVRlE0VGhoUDZzWTlUNVhyTmx3MnBUZE02bXhCVHVoMEh3YnpoME5aaUVGeTgxZUZQUEg5THpXWnNSU29DdVU?oc=5",
-          "source": "인공지능신문",
-          "published": "2026-08-16T15:11:06+09:00",
           "placeholder": false
         },
         {
@@ -372,6 +372,41 @@
       "name": "글로벌 배터리",
       "articles": [
         {
+          "title": "삼성SDI, 삼성디스플레이 지분 4조4천억원 매각…미국 배터리공장 등 투자",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRWXpFTG9DcUMxazM5LWhZdWhkXzh0d29lckhIV3hJMVhuZG9YdVZQbFZFMDFPZE1nNjRsUjNXLXJ3aThydFZ6SVd6RXdrTEQ1OVQ1aTZKcnhxVlhyTHFTX0N1VlNYMFB6MGNhYTI1SGVEY0E?oc=5",
+          "source": "스페셜타임스",
+          "published": "2026-08-21T16:54:38+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "삼성SDI, 삼성D 지분 4.4조원어치 매각…미국 공장 등 투자(종합)",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4aE9ucnQ5RWJIYnFkNEVHa2ZZM1ZRQlBLSHY4LVlRZ1VKYnNRMy1YaHh6UWVGMFZsQ1RWR29XWFNfQThTclNCekRIekxVTTRvM0lrQ3hyU1ZuT2xRbkZwVtIBYEFVX3lxTFB4aE9ucnQ5RWJIYnFkNEVHa2ZZM1ZRQlBLSHY4LVlRZ1VKYnNRMy1YaHh6UWVGMFZsQ1RWR29XWFNfQThTclNCekRIekxVTTRvM0lrQ3hyU1ZuT2xRbkZwVg?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-08-21T16:47:45+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "삼성SDI, 삼성D 지분 매각으로 4.4조 확보…美공장 등 투자(종합) |",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ocVRITDFOYVNfR1RMUDI2d1RybVRYVExtOFJ2YUdMUVNuVkZCMjVLd1BULXhjNGg1YUtDUXo2WWdOM2h2bEJTOUt5TFhEOVcweWRpVmpVd19oZHRON1l4UW9SN0JjR29mQXItT204RkVfTlVy?oc=5",
+          "source": "연합인포맥스",
+          "published": "2026-08-21T16:44:06+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "삼성SDI 삼성디스플레이 보유지분 매각으로 4조4천억 확보, 미국 배터리 공장 건설에 투입될 듯",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPaWhuUGc3ay1nWlgzZXBvMl9PQUoxMnE0WGtyZzNxZHVsRFczMGdoa3RtcnpCcmhzaTlxR2ZQbzk0QjZ0dUQ3aWFXTlhiZG1XZDlrazdMeExxZ3pYWVE1VThpLUZiWjc3YWdUT0otbWFscTA?oc=5",
+          "source": "비즈니스포스트",
+          "published": "2026-08-21T16:34:43+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "“한 회사에 안 맡긴다”…현대차그룹, 배터리 공급망 재편 본격화",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1cmVmTE5iTVE0b21JUVB0YzBOYnVJMDdvN0NVR0FLWkhjVm5VR0JIYmhkU0hNaWhnbnFqRTV1RXd6d29zVVBBZUh4WTNjbGxCUlVEdGtiQ3NVTDRPZmFKX010eXIyS1U3eGNwczZXS0hIZw?oc=5",
+          "source": "인더스트리뉴스",
+          "published": "2026-08-21T14:18:51+09:00",
+          "placeholder": false
+        },
+        {
           "title": "LG에너지솔루션, 미 랜싱 공장 가동으로 북미 배터리 공급망 강화",
           "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNEdCWXhIZXhseFh1UlVKcmdFdlJtQjhVU1ZqTkoyeFBaQVFtRHFSNzdfTGJ1aGNSZzNOU1otZTYxQ0FCNHp4bUt2MW8xTGRaOTk4ZVFJYk9zeTJLUTI3ak5GLVZVU0I1SE52aTdDYVphUGpYaHhoOXlTRnhOVnNELWR1MzIza3lSRC00akxzRnZISUxQUDNOU25ibHhlTEcwaFlfS0xPN1hUOUdVeHdJQ0ZHSlhDX2lkRTdHN1ZNc0ZZWDFUbXpGX0RORzN2SjhSYTZidWJrM3gtT0hjYXFiVVFOY1U5ejN3eEtONW56Yko5WFc4TWV5aUt1aHBXLTg0dVhv?oc=5",
           "source": "다나와 자동차",
@@ -384,41 +419,6 @@
           "source": "더칼럼니스트",
           "published": "2026-08-20T20:43:08+09:00",
           "placeholder": false
-        },
-        {
-          "title": "LG엔솔, 美 방산 배터리 진출 검토…전기차·ESS 넘어 영토 넓히나",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcExTXzk0R3hRMG8xMW50dnhOLVBHdGpOTU0zMnFLaEJtTFpwLUdXU3VHT29JS012VGdNX1Q0NTAtb0lBeFZwdmQ0ZE43VjZOLVBTbUp6TFhtaFZDUkp1WkowVEY?oc=5",
-          "source": "서울경제TV",
-          "published": "2026-08-20T09:22:16+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "김동명 LG엔솔 대표, GM 떠난 미국 랜싱공장 ‘황금알 낳는 거위’ 만든다",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SdHg5SDJqQU1ETXRKWjN6b05WdWhjTk1SVTlJQ2toZjVYSkF0NWx5Qi1qQkI0X3dhdGpwZ2k2Rzh4Q3hIOFhZMGg1Z2VpcnlPTnN1V09PWU96dHJNZEZ3RlpOZHI5a0ZTcEd3c1Izb09JNEp4aXBv?oc=5",
-          "source": "이코노미트리뷴",
-          "published": "2026-08-19T22:48:57+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "LG에너지솔루션, 미국 랜싱 공장 가동...ESS 전략 강화",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmWV9aRzBDR1lCRi1Ta3VKd3M3ekRLQnNjd3liTklJOXp4bmcxRWlMZkJqdU5wRUZEaGdrZkFRaE1WZmMta21wamtKUXBQQkVzZ0NjenBLNDUxV1JkUFZlWkVqel9la0NZbFhnbtIBcEFVX3lxTE5CU2pJU3E5c3h3Wmpuck5OdjRYUG1GdUNfT1MtRGpYWTRMbzBMSkEzR1hlNVpJZmY3VWJnSFRRSDFlQjQ1Qms1VXlmbDBDbF91LW1BT2RZRW9qWUk4UWVTWUhCU25XYS1FeFhsRjF4SkQ?oc=5",
-          "source": "전기신문",
-          "published": "2026-08-19T13:29:20+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "LG에너지솔루션, 미국 미시간 랜싱 공장 본격 가동…ESS·전기차용 배터리 생산",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ld25NVDZhUU9PLTZBeUhQWTYtRXNhZDdmTWdYdEpVcUFJYnFlXzFHRmZjR25tWXRLY0ZpNGpvRE1hcTFfbmpOSW5qMmt4dEdzTHVGNFI4ckxJdlNwTl9wOElndXdNb203ZzA0?oc=5",
-          "source": "BBS불교방송",
-          "published": "2026-08-19T10:56:34+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "LG엔솔, 美 랜싱 공장 가동…연간 35GWh ESS·EV 배터리 생산",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXN2NYUkxXNFdaWGgtNHJGYXdLSGhsVV9BNUNGWFpIM1haX2Q0cEFybEtUSC1ScnNNNFZGQ05LaXlOblpZdFpYX0xIX2lVdXdfV1U1d01ma2xLXzk3?oc=5",
-          "source": "뉴스;트리",
-          "published": "2026-08-19T10:41:21+09:00",
-          "placeholder": false
         }
       ]
     },
@@ -427,24 +427,45 @@
       "name": "기술 동향",
       "articles": [
         {
-          "title": "고체 배터리는 1회 충전으로 1,000km를 주행할 수 있도록 테스트 중이며, 수명은 거의 100만 km에 달할 것으로 예상됩니다.",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZzVYamF0NFRwWm5STThyTkRDSUllMVFZWl9uWXgyUFFqS2VTNm8zZ3g2TVBkMzJlT0tWYVd0YmF5dm9VNXR3MzBHT3ZMQUR4OVB4ZGU5NFlBOFRRNV8xRVpTeDRPeVZ0YnRBelVEaXRxZFQxSzhHRm9JWG1mSHl4UEVESHRUQ2pDSmc3czlrb0xMdw?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-08-21T04:20:03+09:00",
+          "title": "\"꿈의 배터리, 이제는 양산 싸움\"···현대차·SK온이 팩토리얼에 베팅한 이유",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GUGFhWHZzc056dlowaFdrRGp5ZEs2NnltV2ZQWm92YU1fVkF3aDBVbkhhSmpvUERqVnEtdlk4MWNkOE5jbThiVi1EOHVodG5yY0lzcTE1bFVVSWh4WlB1T3dFcXFLdVVxTlE?oc=5",
+          "source": "뉴스웨이",
+          "published": "2026-08-22T08:00:00+09:00",
           "placeholder": false
         },
         {
-          "title": "전고체 배터리 소재 全 라인업 구축",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSFJxa1QwVy1PektfdjVEVWF5Y0JtTFAzbHJyUzVhMkprUGNSSV9obzhlbWQtUkJ2M0lRUnNQTUtSbWcwNmVRcW9VNDB6TGFnMDNfd0FuVkdKVlN1ejA4VjM1NU9QVzd5UHhuTjFhSXlfYjZpNThtcnRRZWpacERVNFB1VWRqNGlCekFVM21GWQ?oc=5",
-          "source": "조선일보",
-          "published": "2026-08-21T00:32:12+09:00",
+          "title": "삼성SDI, 4.5조 실탄 확보…美 공장·전고체 배터리 투입 - 조선비즈",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRW5JV2s5ZnZDWjRfTGNtV2dZWXhjU2NVSE53TURsXzYtUmI4eC0tVzFtZ013OVkwaUNKWTdIQ3cyYWExdmxaRmo0VUxJNHdHWmVQOFBKTkQ0T1FDNmtQZEVlcFV5QlZiNGJOeGpiRENWT0I1bjVtMGcxZDYwazB1aFNfQXXSAZgBQVVfeXFMTWt5a01vR3ltcHBhcjZuUksxelhEbmhpZUFiWkl4eVNISzBPNEhxaFVxSnEyc0hzZXhvR0VyYkdmU0JjcnlKTVJTRUJJWnRRcFpreWotbzB1VWpwV3pFNG1ybGx1SmtvSGx1UG4wSHg3eEEzZkplWlJwaTVDYzBrTWU0NWhYU21uM3doekJ1X3l2SWxUYVFwbXI?oc=5",
+          "source": "Chosunbiz",
+          "published": "2026-08-21T18:29:00+09:00",
           "placeholder": false
         },
         {
-          "title": "배터리 특허출원 10만여건… 올 상반기 R&D, 역대 최대 7259억원",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbklicGoyeHFPYVVld1VCS0FxSTR4TzZySDRCSWk5WFNGNkYxZWZkdERadmRJcnEyWTBzaFViemJhbEFUTk9fVC00OXN6RkNMWjkwVUlvaXhkMG1meGN1eWpoSWxqamJWNFBuNHpFNlpGdWZYLW5DcU5DSW4ycGJBSUtidDhUTTZ5MFdGcTkydw?oc=5",
+          "title": "삼성SDI '실탄 4.5조원' 장전…美 생산라인, 전고체 등 투자확대 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lZWxZOFdWM2lWbTE1X1dhU3FmY2tGdWVza3ZMVmF5T1RNQzI1U3hCMmdOWHFHQ1lnX0dWT0sxbDRLekEtNHdBQTJETVVGLTRCNnJWcEdrWE5MeFRScGZJT0J4R0pHNk42aXVJOdIBckFVX3lxTFBTeWFsaEtRU0s0U2lvN2dLN2NfUFpoLXVFNEc5VDZ3OC1LZGJScHRJbDlGelE2ZmVYU2k0R1VlbGptTXBnSmNZVXJTVU9FaEs3czZ0ejE4Y2FTLVFIY0REMGpZWEFleW5SSUdqZXJiMlZ1UQ?oc=5",
+          "source": "머니투데이",
+          "published": "2026-08-21T17:04:55+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "삼성SDI, 삼성 디스플레이 지분 일부 처분…4.4조 확보",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ2JjYmZodmlSaWxsUmp2eU9XVGFpcENpdEN4eUozM0VVeDhtZThhUXpQc21qcElMOUZzZmRtem5HRWNFbVRkZmR2NENjdWJ5Z2xqSnl0UE43RkpRbFFHdmdRVFJvMkpERVVVYTJJMHB1MUg5Y3IyNVFXZ2pHdDJteGJvN1MxUC03SHpGTTN0QQ?oc=5",
           "source": "조선일보",
-          "published": "2026-08-21T00:32:12+09:00",
+          "published": "2026-08-21T16:35:13+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "中 지리 車, 500Wh/kg 전고체 배터리 실차 검증…2027년 파일럿 적용",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BWFZCVG4tTlpEVDlqWkhmTlZNZHBVV2hBTWJBSkVOZHlsbkZOcVd0TVlEbDFDVDczbEZDNXFJVnFhMENZZG5ZVXFSbUxSYThQRDhFVVlINjgyWHZYOXp3MmZXakdydXl0ZFBRNEdIc3AxNG8?oc=5",
+          "source": "디지털투데이",
+          "published": "2026-08-21T10:59:28+09:00",
+          "placeholder": false
+        },
+        {
+          "title": "\"2027년 꿈의 배터리 시험대 오른다\"… 中 배터리 '빅4', 전고체 배터리 시범 생산 총력",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM25fQTRGdUcxdEpTY1psWThYQlFMQnU2S0Zxb2ZIeW5nbk96b2pIRWwwRUNZenEyV3Bub2QyY3Ayb0ZKeUs2ZmlyU2xrUFJ2MUZ2RXdJRnYxRVZLbDVoYkZrR1YwTVQ0b19Qcy1NaVZzRTRtR05ZN0R5TEpHcmEyYnJaYm9BM1FN?oc=5",
+          "source": "글로벌이코노믹",
+          "published": "2026-08-21T08:19:27+09:00",
           "placeholder": false
         },
         {
@@ -452,27 +473,6 @@
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GbXlLaXdfTnowU0o1UndKZWVWRy1FdklUVnBvNWpXYUN5VGphYmlkZ0ZmVUpiUWdwYnZIemlhZXo2bWpDMlFTUEkwWXNfakR1c25pYUt0OGJORHF5THZkTkVrWTB3UDJyT3JkRGJyOFRteVk?oc=5",
           "source": "비즈니스포스트",
           "published": "2026-08-20T15:00:36+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "정의선 \"전동화 다음 카드는 '전고체배터리·EREV'\"",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54eXozUzVfbU1Ralk2RlR1Ry1oNEdiZFVaYTFqeGxSMk9ELTFCWGtwb0FvZUREdG5oQzJsRW9COExtVmhvZDZhSFg1VnV4QWM?oc=5",
-          "source": "v.daum.net",
-          "published": "2026-08-20T14:47:06+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "LG엔솔·삼성SDI, 수익성 부담 속 ESS·차세대 배터리 투자 지속",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QcGtNZVdnZEVERU1GWUZ6V0NDbHA0QXRqdzFVTGpWRmJQVk1mcFNzZzdJNUtWVVN6ZUIwbzYxMmJsOF9OdHVXSDhWT0NvaS1UT1RTMEZpMmwzNEF0WDQyeg?oc=5",
-          "source": "메트로신문",
-          "published": "2026-08-20T13:14:53+09:00",
-          "placeholder": false
-        },
-        {
-          "title": "배터리산업 미래 전략 한자리에… ‘BATTERY KOREA 2026’ 9월 21일 개최",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VMEpqVFk5NEhVT2ZMZkppRDJucjVkUWlEOFhZeEtkMkl0clZvX19mWmdBTlU3Mjk5MEhTellXYUdXNTJKU3NDdFFlb3BRakpoN1gzWDhjMWI5VmVtMFdUT1hJVVFRcTZSaWVwajdPNk5RQQ?oc=5",
-          "source": "인더스트리뉴스",
-          "published": "2026-08-20T10:55:23+09:00",
           "placeholder": false
         }
       ]

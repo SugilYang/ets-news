@@ -1,0 +1,67 @@
+# ────────────────────────────────────────────────────────────────
+# 이티에스 영업 인텔리전스 — 감시 대상 설정
+#
+# 매일 아침 이 파일을 기준으로 뉴스를 조사·정제해 브리핑을 만듭니다.
+# 코드 몰라도 아래 목록만 고치면 됩니다. (넣기: 줄 추가 / 빼기: 줄 삭제
+# 또는 앞에 #을 붙여 주석 처리 / 잠시 끄기: enabled: false)
+# 수정 후 저장하면 다음 아침 브리핑부터 반영됩니다.
+# ────────────────────────────────────────────────────────────────
+
+company:
+  name: "ETS (이티에스)"
+  products: ["전해액 주액 설비", "이차전지 조립 관련 장비", "AMR(자율주행로봇)"]
+
+sections:
+
+  # ── 고객사 (기존) ──
+  - id: customer_lgensol
+    title: "LG에너지솔루션 (글로벌 전체)"
+    type: customer          # customer | prospect | competitor | amr | industry
+    priority: 3             # 별 개수(1~3)
+    enabled: true
+    watch: ["수주", "투자", "증설", "신규 공장", "라인 전환", "ESS", "원통형", "각형", "파우치"]
+    keywords: ["LG에너지솔루션", "LG엔솔", "Ultium", "애리조나", "미시간", "오하이오", "폴란드", "오창", "인도네시아", "캐나다 윈저"]
+
+  # ── 잠재고객 (이차전지 제조사 전체) ──
+  - id: prospects_makers
+    title: "잠재고객 — 이차전지 제조사 전체"
+    type: prospect
+    priority: 2
+    enabled: true
+    watch: ["신규 공장", "증설", "투자", "전고체", "LFP", "벤더", "장비 발주"]
+    keywords: ["삼성SDI", "SK온", "파나소닉", "CATL", "BYD", "ACC", "PowerCo", "도요타 배터리", "노스볼트", "인도 배터리"]
+
+  # ── 경쟁사 (전해액 주액기 집중) ──
+  - id: competitors_filling
+    title: "경쟁사 — 전해액 주액기"
+    type: competitor
+    priority: 2
+    enabled: true
+    watch: ["수주", "공급계약", "전해액 주액", "주입기", "턴키"]
+    companies: ["하나기술"]     # ← 아는 주액기 경쟁사를 계속 추가하세요
+
+  # ── 전후공정 동향 (앞·뒷라인, 발주 선행지표) ──
+  - id: process_prepost
+    title: "전후공정 동향 (앞·뒷라인)"
+    type: industry
+    priority: 1
+    enabled: true
+    companies: ["씨아이에스", "원익피앤이", "피엔티", "엠플러스"]
+
+  # ── AMR·스마트팩토리 ──
+  - id: amr
+    title: "AMR·스마트팩토리"
+    type: amr
+    priority: 1
+    enabled: true
+    keywords: ["AMR", "자율주행로봇", "물류자동화", "스마트팩토리"]
+
+  # ── 업계 동향(거시) ──
+  - id: industry_macro
+    title: "업계 동향"
+    type: industry
+    priority: 1
+    enabled: true
+    keywords: ["이차전지 업황", "배터리 투자", "ESS 수요", "IRA", "보조금", "관세"]
+
+# 새 섹션이 필요하면 위 블록을 복사해서 추가하세요. (예: 환율·관세, 인사·조직 변화 등)

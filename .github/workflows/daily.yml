@@ -1,16 +1,13 @@
 name: 매일 아침 브리핑 자동 생성
 
 # 매일 08:00 KST(=23:00 UTC 전날) GitHub 서버가 혼자 실행합니다. 무료·무인·API 키 없음.
+#
+# ★ 자동 실행 일시 중지 상태 (최종 확정 전). 다시 켜려면 아래 schedule 2줄의 # 만 지우면 됩니다.
+#   지금은 Actions 탭 → "매일 아침 브리핑 자동 생성" → Run workflow 로만 수동 실행됩니다.
 on:
-  schedule:
-    - cron: "0 23 * * *"
+  # schedule:
+  #   - cron: "0 23 * * *"
   workflow_dispatch: {}
-  push:
-    branches: [ main ]
-    paths:
-      - "scripts/collect.py"
-      - "watchlist.yml"
-      - ".github/workflows/daily.yml"
 
 permissions:
   contents: write

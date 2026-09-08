@@ -97,10 +97,22 @@ NUM_RE = re.compile(r"(\d[\d,\.]*\s?(?:조|억|만|천|GWh|MWh|kWh|Wh|%|달러|�
 def highlight(text: str) -> str:
     return NUM_RE.sub(r"<b>\1</b>", html.escape(text, quote=False))
 
+# 기사 본문에 섞여 들어오는 안내문·홍보문·구독 유도·주가 티커 문장 (걸리면 그 문장만 제거)
+BOILERPLATE = re.compile(
+    r"(Google 검색에서|구글 검색에서|더 자주 볼 수 있습니다|더 궁금한 점|앨리스가|AI가 요약|"
+    r"클릭하세요|클릭하시면|구독하기|구독하세요|뉴스레터|카카오톡 채널|채널 추가|"
+    r"무단 전재|무단전재|재배포 금지|저작권자|Copyright|ⓒ|©|"
+    r"기사 제보|제보는|광고문의|광고 문의|"
+    r"관련 기사|관련기사|기사 원문|원문 보기|사진=|사진 =|\[사진|"
+    r"기자\s*=|기자입니다|"
+    r"\d{1,3}(,\d{3})+원\s*[▲▼]|"
+    r"로그인|회원가입|공유하기|스크랩|글자 크기|글씨 크기)"
+)
+
 def sentences(text: str) -> list[str]:
     text = re.sub(r"\s+", " ", text).strip()
     parts = re.split(r"(?<=[다요음임됨함\.\!\?])\s+(?=[\"'“‘\(\[A-Z0-9가-힣])", text)
-    return [p.strip() for p in parts if len(p.strip()) >= 12]
+    return [p.strip() for p in parts if len(p.strip()) >= 12 and not BOILERPLATE.search(p)]
 
 def host(u: str) -> str:
     return urllib.parse.urlparse(u).netloc.replace("www.", "")

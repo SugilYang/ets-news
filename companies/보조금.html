@@ -9,9 +9,10 @@
   --sans:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--text);font-family:var(--sans);line-height:1.6;
-  font-variant-numeric:tabular-nums}
+  font-variant-numeric:tabular-nums;word-break:keep-all;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+b,strong{font-weight:700}
 a{color:inherit}
 .wrap{max-width:1200px;margin:0 auto;padding:0 18px 48px}
 
@@ -40,12 +41,12 @@ a{color:inherit}
 /* 날짜 이동 */
 .datenav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0 0;
   background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:13px}
-.datenav a{text-decoration:none;color:var(--accent-ink);font-weight:700;padding:4px 8px;border-radius:6px}
+.datenav a{text-decoration:none;color:var(--accent-ink);font-weight:700;padding:4px 8px;border-radius:6px;white-space:nowrap}
 .datenav a:hover{background:var(--accent-bg)}
-.datenav .cur{font-weight:800;color:var(--ink);font-size:14px}
-.datenav .dis{color:#b9c2cd;padding:4px 8px}
+.datenav .cur{font-weight:800;color:var(--ink);font-size:14px;white-space:nowrap;text-align:center}
+.datenav .dis{color:#b9c2cd;padding:4px 8px;white-space:nowrap}
 .lead{margin:14px 0 0;background:var(--accent-bg);border-left:4px solid var(--accent);border-radius:0 8px 8px 0;
-  padding:10px 14px;font-size:13.5px;color:var(--accent-ink)}
+  padding:10px 14px;font-size:13.5px;line-height:1.7;color:var(--accent-ink)}
 .lead b{color:var(--ink)}
 
 /* 카드 */
@@ -63,15 +64,15 @@ a{color:inherit}
 .card-body{padding:2px 16px 8px}
 .item{padding:12px 0;border-bottom:1px solid var(--line)}
 .item:last-child{border-bottom:0}
-.item .h{margin:0;font-size:15px;font-weight:700;line-height:1.45;color:var(--ink);text-wrap:balance}
+.item .h{margin:0;font-size:15px;font-weight:700;line-height:1.5;color:var(--ink);text-wrap:pretty}
 .item .h a{text-decoration:none;border-bottom:1px solid transparent}
 .item .h a:hover{color:var(--accent-ink);border-bottom-color:var(--accent)}
 .item .h a::after{content:" ↗";font-size:11px;color:var(--accent);font-weight:500}
-.item .b{margin:5px 0 0;font-size:13.2px;color:var(--text);line-height:1.7;max-width:72ch}
-.item .b b{color:var(--ink)}
-.item .meta{margin-top:6px;font-size:11.5px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.chip{display:inline-block;font-size:11px;font-weight:700;padding:1px 8px;border-radius:20px;
-  background:var(--accent-bg);color:var(--accent-ink)}
+.item .b{margin:6px 0 0;font-size:13.5px;color:var(--text);line-height:1.75;max-width:72ch}
+.item .b b{color:var(--ink);font-weight:700}
+.item .meta{margin-top:7px;font-size:11.5px;line-height:1.5;color:var(--muted);display:flex;gap:6px 8px;flex-wrap:wrap;align-items:center}
+.chip{display:inline-block;font-size:11px;font-weight:700;line-height:1.5;padding:1px 8px;border-radius:20px;
+  background:var(--accent-bg);color:var(--accent-ink);white-space:nowrap}
 .chip.k{background:var(--c-slate-bg);color:var(--c-slate)}
 .accent-blue .icon{background:var(--c-blue-bg)} .accent-blue .card-head{border-bottom-color:var(--c-blue)}
 .accent-teal .icon{background:var(--c-teal-bg)} .accent-teal .card-head{border-bottom-color:var(--c-teal)}
@@ -121,9 +122,19 @@ a{color:inherit}
 .footer{margin-top:24px;font-size:11.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;line-height:1.7}
 
 @media(max-width:640px){
-  .mast-inner{gap:12px} .brand .logo{height:36px} .brand .name{font-size:19px}
-  .mast-meta{margin-left:0;text-align:left;width:100%}
-  .item .h{font-size:14.5px}
+  .wrap{padding:0 12px 40px}
+  .mast-inner{gap:10px;padding:12px 14px} .brand{gap:12px} .brand .logo{height:34px} .brand .divider{height:30px}
+  .brand .name{font-size:18px} .brand .name small{font-size:9.5px;letter-spacing:.16em}
+  .mast-meta{margin-left:0;text-align:left;width:100%;font-size:12.5px} .mast-meta b{display:inline;margin-right:8px}
+  .nav-inner{padding:0 4px} .nav a{font-size:13px;padding:10px 9px}
+  .datenav{padding:7px 8px;font-size:12.5px;gap:6px} .datenav a,.datenav .dis{padding:4px 4px}
+  .datenav .cur{font-size:13px} .datenav .ed,.datenav .dt{display:none}
+  .lead{font-size:13px;padding:9px 12px}
+  .card-head{padding:11px 13px} .card-head h3{font-size:16px} .card-body{padding:2px 13px 6px}
+  .item{padding:11px 0} .item .h{font-size:15px;line-height:1.5} .item .b{font-size:14px;line-height:1.75;max-width:none}
+  .item .meta{font-size:11.5px}
+  .page-title{font-size:20px}
+  .arc{padding:12px 13px;gap:10px} .arc .date{width:96px;font-size:14px}
 }
 @media print{
   .nav,.datenav,.sbar,.scount{display:none!important}
@@ -132,4 +143,4 @@ a{color:inherit}
   .item .h a::after{content:""}
   a{text-decoration:none}
 }
-</style></head><body><header class="masthead"><div class="mast-inner"><div class="brand"><img class="logo" src="../assets/logo.png" alt="ETS"><span class="divider"></span><div class="name"><small>ETS INDUSTRY BRIEFING</small>이티에스 산업 브리핑</div></div><div class="mast-meta"></div></div></header><nav class="nav"><div class="nav-inner"><a href="../index.html" class="">오늘 브리핑</a><a href="../archive.html" class="">지난 자료</a><a href="../companies/index.html" class="on">회사별</a><a href="../search.html" class="">검색</a><a href="../weekly.html" class="">주간 요약</a></div></nav><div class="wrap"><div class="page-title">보조금</div><p class="page-sub">누적 1건 · 최신순</p><div class="dgroup"><h3><b>2026-09-08</b>화요일 · 1건</h3><div class="list"><article class="item"><h4 class="h"><a href="https://www.yna.co.kr/view/AKR20260908067000052" target="_blank" rel="noopener">"지난해 경남 지방투자촉진보조금 1천17억 중 473억만 집행"</a></h4><p class="b">(창원=연합뉴스) 이정훈 기자 = 경남도가 투자협약 체결 후 실제 투자에 나선 기업을 지원하는 지방투자촉진보조금 집행률이 지난해의 경우 편성 예산의 절반에도 미치지 못한 것으로 나타났다. 경남도의회 경제환경위원회는 <b>2025년</b> 회계연도 경남도 결산심사를 하며 지방투자촉진보조금 미집행 문제를 지적했다고 8일 밝혔다. 지방투자촉진보조금은 수도권에서 경남으로 본사·공장·연구소를 이전하거나 신증설 투자 협약을 한 기업이 공장·설비 착공 신고일로부터 <b>3개월</b> 이내 또는 입지 계약 체결일로부터 <b>1년</b> 이내에 지급한다.</p><div class="meta"><span class="chip">보조금</span> · <span class="chip k">정책·시장</span> · yna.co.kr · 2026-09-08</div></article></div></div></div></body></html>
+</style></head><body><header class="masthead"><div class="mast-inner"><div class="brand"><img class="logo" src="../assets/logo.png" alt="ETS"><span class="divider"></span><div class="name"><small>ETS INDUSTRY BRIEFING</small>이티에스 산업 브리핑</div></div><div class="mast-meta"></div></div></header><nav class="nav"><div class="nav-inner"><a href="../index.html" class="">오늘 브리핑</a><a href="../archive.html" class="">지난 자료</a><a href="../companies/index.html" class="on">회사별</a><a href="../search.html" class="">검색</a><a href="../weekly.html" class="">주간 요약</a></div></nav><div class="wrap"><div class="page-title">보조금</div><p class="page-sub">누적 1건 · 최신순</p><div class="dgroup"><h3><b>2026-09-08</b>화요일 · 1건</h3><div class="list"><article class="item"><h4 class="h"><a href="https://www.yna.co.kr/view/AKR20260908067000052" target="_blank" rel="noopener">"지난해 경남 지방투자촉진보조금 1천17억 중 473억만 집행"</a></h4><p class="b">경남도의회 경제환경위원회는 <b>2025년</b> 회계연도 경남도 결산심사를 하며 지방투자촉진보조금 미집행 문제를 지적했다고 8일 밝혔다. 지방투자촉진보조금은 수도권에서 경남으로 본사·공장·연구소를 이전하거나 신증설 투자 협약을 한 기업이 공장·설비 착공 신고일로부터 <b>3개월</b> 이내 또는 입지 계약 체결일로부터 <b>1년</b> 이내에 지급한다.</p><div class="meta"><span class="chip">보조금</span> · <span class="chip k">정책·시장</span> · yna.co.kr · 2026-09-08</div></article></div></div></div></body></html>

@@ -71,9 +71,10 @@ STYLE = """
   --sans:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--text);font-family:var(--sans);line-height:1.6;
-  font-variant-numeric:tabular-nums}
+  font-variant-numeric:tabular-nums;word-break:keep-all;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+b,strong{font-weight:700}
 a{color:inherit}
 .wrap{max-width:1200px;margin:0 auto;padding:0 18px 48px}
 
@@ -102,12 +103,12 @@ a{color:inherit}
 /* 날짜 이동 */
 .datenav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0 0;
   background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:13px}
-.datenav a{text-decoration:none;color:var(--accent-ink);font-weight:700;padding:4px 8px;border-radius:6px}
+.datenav a{text-decoration:none;color:var(--accent-ink);font-weight:700;padding:4px 8px;border-radius:6px;white-space:nowrap}
 .datenav a:hover{background:var(--accent-bg)}
-.datenav .cur{font-weight:800;color:var(--ink);font-size:14px}
-.datenav .dis{color:#b9c2cd;padding:4px 8px}
+.datenav .cur{font-weight:800;color:var(--ink);font-size:14px;white-space:nowrap;text-align:center}
+.datenav .dis{color:#b9c2cd;padding:4px 8px;white-space:nowrap}
 .lead{margin:14px 0 0;background:var(--accent-bg);border-left:4px solid var(--accent);border-radius:0 8px 8px 0;
-  padding:10px 14px;font-size:13.5px;color:var(--accent-ink)}
+  padding:10px 14px;font-size:13.5px;line-height:1.7;color:var(--accent-ink)}
 .lead b{color:var(--ink)}
 
 /* 카드 */
@@ -125,15 +126,15 @@ a{color:inherit}
 .card-body{padding:2px 16px 8px}
 .item{padding:12px 0;border-bottom:1px solid var(--line)}
 .item:last-child{border-bottom:0}
-.item .h{margin:0;font-size:15px;font-weight:700;line-height:1.45;color:var(--ink);text-wrap:balance}
+.item .h{margin:0;font-size:15px;font-weight:700;line-height:1.5;color:var(--ink);text-wrap:pretty}
 .item .h a{text-decoration:none;border-bottom:1px solid transparent}
 .item .h a:hover{color:var(--accent-ink);border-bottom-color:var(--accent)}
 .item .h a::after{content:" ↗";font-size:11px;color:var(--accent);font-weight:500}
-.item .b{margin:5px 0 0;font-size:13.2px;color:var(--text);line-height:1.7;max-width:72ch}
-.item .b b{color:var(--ink)}
-.item .meta{margin-top:6px;font-size:11.5px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.chip{display:inline-block;font-size:11px;font-weight:700;padding:1px 8px;border-radius:20px;
-  background:var(--accent-bg);color:var(--accent-ink)}
+.item .b{margin:6px 0 0;font-size:13.5px;color:var(--text);line-height:1.75;max-width:72ch}
+.item .b b{color:var(--ink);font-weight:700}
+.item .meta{margin-top:7px;font-size:11.5px;line-height:1.5;color:var(--muted);display:flex;gap:6px 8px;flex-wrap:wrap;align-items:center}
+.chip{display:inline-block;font-size:11px;font-weight:700;line-height:1.5;padding:1px 8px;border-radius:20px;
+  background:var(--accent-bg);color:var(--accent-ink);white-space:nowrap}
 .chip.k{background:var(--c-slate-bg);color:var(--c-slate)}
 .accent-blue .icon{background:var(--c-blue-bg)} .accent-blue .card-head{border-bottom-color:var(--c-blue)}
 .accent-teal .icon{background:var(--c-teal-bg)} .accent-teal .card-head{border-bottom-color:var(--c-teal)}
@@ -183,9 +184,19 @@ a{color:inherit}
 .footer{margin-top:24px;font-size:11.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;line-height:1.7}
 
 @media(max-width:640px){
-  .mast-inner{gap:12px} .brand .logo{height:36px} .brand .name{font-size:19px}
-  .mast-meta{margin-left:0;text-align:left;width:100%}
-  .item .h{font-size:14.5px}
+  .wrap{padding:0 12px 40px}
+  .mast-inner{gap:10px;padding:12px 14px} .brand{gap:12px} .brand .logo{height:34px} .brand .divider{height:30px}
+  .brand .name{font-size:18px} .brand .name small{font-size:9.5px;letter-spacing:.16em}
+  .mast-meta{margin-left:0;text-align:left;width:100%;font-size:12.5px} .mast-meta b{display:inline;margin-right:8px}
+  .nav-inner{padding:0 4px} .nav a{font-size:13px;padding:10px 9px}
+  .datenav{padding:7px 8px;font-size:12.5px;gap:6px} .datenav a,.datenav .dis{padding:4px 4px}
+  .datenav .cur{font-size:13px} .datenav .ed,.datenav .dt{display:none}
+  .lead{font-size:13px;padding:9px 12px}
+  .card-head{padding:11px 13px} .card-head h3{font-size:16px} .card-body{padding:2px 13px 6px}
+  .item{padding:11px 0} .item .h{font-size:15px;line-height:1.5} .item .b{font-size:14px;line-height:1.75;max-width:none}
+  .item .meta{font-size:11.5px}
+  .page-title{font-size:20px}
+  .arc{padding:12px 13px;gap:10px} .arc .date{width:96px;font-size:14px}
 }
 @media print{
   .nav,.datenav,.sbar,.scount{display:none!important}
@@ -260,9 +271,9 @@ def datenav(dates: list[str], cur: str, base: str, weekday: str, edition: str) -
     i = dates.index(cur) if cur in dates else -1
     older = dates[i + 1] if 0 <= i < len(dates) - 1 else None
     newer = dates[i - 1] if i > 0 else None
-    left = (f'<a href="{base}briefings/{older}.html">◀ 이전 {older}</a>' if older else '<span class="dis">◀ 이전</span>')
-    right = (f'<a href="{base}briefings/{newer}.html">다음 {newer} ▶</a>' if newer else '<span class="dis">다음 ▶</span>')
-    return (f'<div class="datenav">{left}<span class="cur">{esc(cur)} ({esc(weekday)}) · {esc(edition)}</span>{right}</div>')
+    left = (f'<a href="{base}briefings/{older}.html">◀ 이전<span class="dt"> {older}</span></a>' if older else '<span class="dis">◀ 이전</span>')
+    right = (f'<a href="{base}briefings/{newer}.html">다음<span class="dt"> {newer}</span> ▶</a>' if newer else '<span class="dis">다음 ▶</span>')
+    return (f'<div class="datenav">{left}<span class="cur">{esc(cur)} ({esc(weekday)})<span class="ed"> · {esc(edition)}</span></span>{right}</div>')
 
 # ---------------------------------------------------------------- pages
 def brief_page(d: dict, dates: list[str], base: str, active: str) -> str:

@@ -9,6 +9,9 @@
 - 공개 주소: `https://sugilyang.github.io/ets-news/` (Settings → Pages → Deploy from a branch → main / (root))
 
 ## 매일 어떻게 도나 (무료·무인)
+> **현재 자동 실행은 일시 중지 상태**입니다(최종 확정 전). `.github/workflows/daily.yml` 의 `schedule` 두 줄 앞 `#` 을 지우면 다시 매일 아침 돕니다.
+> 중지 중에도 Actions 탭 → Run workflow 로 수동 생성은 가능합니다.
+
 `.github/workflows/daily.yml` 이 매일 23:00 UTC(=08:00 KST) 자동 실행:
 1. `scripts/collect.py` — `watchlist.yml` 기준으로 뉴스 검색(Google News·Bing News RSS, 한/영) → 기사 원문에서 **리드 문단 추출** → 최근 7일과 중복 제거 → `data/<오늘>.json`
 2. `render.py` — 홈·아카이브·회사별·검색·주간 페이지 재생성
@@ -21,9 +24,7 @@
 저장하면 자동으로 반영됩니다(다음 아침, 또는 Actions 탭 → Run workflow로 즉시).
 
 ## 회사 로고
-상단 브랜드 바에 로고가 표시됩니다.
-- 기본: `assets/logo.svg` (원본 로고를 벡터로 재현한 버전)
-- **원본 파일을 쓰려면** `assets/logo.png` 로 업로드하면 자동으로 원본이 우선 표시됩니다(높이 44px로 축소).
+상단 브랜드 바에 원본 로고 `assets/logo.png` 가 높이 44px(모바일 34px)로 축소 표시됩니다. 파일을 바꿔 넣으면 그대로 반영됩니다.
 
 ## 구조
 ```

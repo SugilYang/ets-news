@@ -1,10 +1,9 @@
-name: 매일 아침 브리핑 자동 생성
+name: (예비) API 키로 브리핑 생성 — 수동 실행 전용
 
-# 매일 08:00 KST(=23:00 UTC 전날)에 GitHub 서버가 혼자 실행합니다. 사람 개입 없음.
+# 평소 매일 아침 생성은 Claude(Max) 예약 세션이 담당합니다.
+# 이 워크플로는 ANTHROPIC_API_KEY(Secrets)를 등록한 경우에만, Actions 탭에서 수동으로 돌리는 예비 수단입니다.
 on:
-  schedule:
-    - cron: "0 23 * * *"
-  workflow_dispatch: {}     # Actions 탭에서 '지금 실행'도 가능
+  workflow_dispatch: {}
 
 permissions:
   contents: write

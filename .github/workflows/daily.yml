@@ -33,21 +33,29 @@ jobs:
       - name: 의존성 설치
         run: pip install -r requirements.txt
 
-      - name: 뉴스 수집·원문 리드 추출 → data/<오늘>.json
-        run: python3 scripts/collect.py
+      - name: 뉴스 수집·원문 리드 추출 → data/<오늘>.json (로그 저장)
+        id: collect
+        continue-on-error: true
+        run: |
+          mkdir -p logs
+          set -o pipefail
+          { echo "=== $(TZ=Asia/Seoul date '+%F %T KST') 실행 ==="; python3 scripts/collect.py; } 2>&1 | tee logs/last-run.txt
 
       - name: 지면 생성
+        if: steps.collect.outcome == 'success'
         run: python3 render.py
 
-      - name: 커밋·푸시
+      - name: 커밋·푸시 (실행 로그 포함)
+        if: always()
         run: |
+          echo "결과: ${{ steps.collect.outcome }}" >> logs/last-run.txt
           git config user.name "ETS News Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data index.html archive.html search.html search-index.json weekly.html briefings companies
+          git add -A
           if git diff --staged --quiet; then
-            echo "변경 없음(이미 생성됨)"
+            echo "변경 없음"
           else
-            git commit -m "자동 발행: $(TZ=Asia/Seoul date +%F)"
+            git commit -m "자동 발행: $(TZ=Asia/Seoul date +%F) (${{ steps.collect.outcome }})"
             for i in 1 2 3 4; do
               git push && break
               git pull --rebase origin main && sleep $((2**i))

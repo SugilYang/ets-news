@@ -11,6 +11,7 @@ watchlist.yml 의 섹션별 키워드로 뉴스 검색(RSS: Google News·Bing Ne
 """
 from __future__ import annotations
 
+import base64
 import html
 import json
 import re
@@ -41,7 +42,9 @@ BING = "https://www.bing.com/news/search?q={q}&format=rss&mkt={mkt}"
 
 FRESH_HOURS = 48          # 우선 수집 범위
 FALLBACK_DAYS = 7         # 부족할 때 확장 범위
-MAX_ARTICLE_FETCH = 70    # 원문 추출 시도 상한(실행 시간 보호)
+MAX_ARTICLE_FETCH = 50    # 원문 추출 시도 상한(실행 시간 보호)
+MAX_QUERIES_PER_SECTION = 8
+MAX_ENTRIES_PER_FEED = 12
 
 SESSION = requests.Session()
 SESSION.headers.update(UA)
@@ -100,7 +103,7 @@ def search(query: str, lang: str) -> list[dict]:
     urls = [GN_KO.format(q=q), BING.format(q=q, mkt="ko-KR")] if lang == "ko" else [GN_EN.format(q=q), BING.format(q=q, mkt="en-US")]
     out = []
     for u in urls:
-        for e in fetch_feed(u)[:15]:
+        for e in fetch_feed(u)[:MAX_ENTRIES_PER_FEED]:
             title, src_t = split_title_source(e.get("title", ""))
             if not title:
                 continue
@@ -114,6 +117,50 @@ def search(query: str, lang: str) -> list[dict]:
     return out
 
 # ----------------------------------------------------------------- 원문 URL·본문
+def decode_gnews(link: str) -> str | None:
+    """Google News RSS 링크(news.google.com/rss/articles/<id>)를 실제 기사 URL로 해독."""
+    try:
+        p = urllib.parse.urlparse(link)
+        if "news.google.com" not in p.netloc:
+            return None
+        parts = [x for x in p.path.split("/") if x]
+        if "articles" not in parts:
+            return None
+        gid = parts[parts.index("articles") + 1]
+        # 1) 구형 id: base64 안에 URL이 그대로 들어 있음
+        try:
+            raw = base64.urlsafe_b64decode(gid + "=" * (-len(gid) % 4))
+            m = re.search(rb"https?://[^\x00-\x20\"']+", raw)
+            if m:
+                u = m.group(0).decode("utf-8", "ignore")
+                if "google.com" not in u:
+                    return u
+        except Exception:
+            pass
+        # 2) 신형 id: 안내 페이지의 서명/타임스탬프로 batchexecute 호출
+        r = SESSION.get(link, timeout=(5, 10))
+        m_au = re.search(r'data-n-au="([^"]+)"', r.text)
+        if m_au:
+            return html.unescape(m_au.group(1))
+        sg = re.search(r'data-n-a-sg="([^"]+)"', r.text)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', r.text)
+        if not (sg and ts):
+            return None
+        inner = ["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, ["KR:ko"], None, None, None, None, None, None,
+                                 None, None, None, None, None, None, None, None, None, None, 1],
+                                "ko", "KR", 1, [2, 3, 4, 8], 1, 1, None, 0, 0, None, 0], gid, int(ts.group(1)), sg.group(1)]
+        payload = [[["Fbv4je", json.dumps(inner), None, "generic"]]]
+        resp = SESSION.post("https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                            data={"f.req": json.dumps(payload)},
+                            headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+                            timeout=(5, 12))
+        tail = resp.text.split("garturlres")[-1] if "garturlres" in resp.text else resp.text
+        m = re.search(r'https?://(?!news\.google)[^"\\\s\]]+', tail.replace("\\/", "/"))
+        return m.group(0) if m else None
+    except Exception:
+        return None
+
+
 def resolve_url(link: str) -> str:
     """Google/Bing 중간 링크를 실제 기사 URL로."""
     try:
@@ -122,6 +169,10 @@ def resolve_url(link: str) -> str:
             qs = urllib.parse.parse_qs(p.query)
             if qs.get("url"):
                 return qs["url"][0]
+        if "news.google.com" in p.netloc:
+            real = decode_gnews(link)
+            if real:
+                return real
         r = SESSION.get(link, timeout=(5, 10), allow_redirects=True)
         final = r.url
         if "news.google.com" in urllib.parse.urlparse(final).netloc:
@@ -195,7 +246,7 @@ def section_queries(sec: dict) -> list[tuple[str, str]]:
     if sec.get("type") in ("global",):
         for n in names[:4]:
             qs.append((f"{n} battery plant OR gigafactory OR investment", "en"))
-    return qs[:16]
+    return qs[:MAX_QUERIES_PER_SECTION]
 
 def entity_of(sec: dict, title: str, body: str) -> str:
     hay = f"{title} {body}"

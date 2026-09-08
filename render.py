@@ -58,7 +58,7 @@ def parse_date(s: str) -> _date | None:
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900'
-         '&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">')
+         '&family=Noto+Sans+KR:wght@400;500;700&family=Nunito:wght@800&display=swap" rel="stylesheet">')
 
 STYLE = """
 :root{
@@ -82,6 +82,8 @@ a{color:inherit}
 .mast-inner{max-width:1200px;margin:0 auto;padding:14px 18px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:16px;min-width:0}
 .brand .logo{height:44px;width:auto;display:block}
+.brand .logo-svg{display:block;line-height:0}
+.brand .logo-svg svg{height:44px;width:auto;display:block}
 .brand .divider{width:1px;height:38px;background:var(--line)}
 .brand .name{font-family:var(--serif);font-weight:800;font-size:23px;color:var(--ink);line-height:1.15;letter-spacing:.01em}
 .brand .name small{display:block;font-family:var(--sans);font-weight:500;font-size:10.5px;color:var(--brand-gray);
@@ -195,6 +197,16 @@ a{color:inherit}
 """
 
 # ---------------------------------------------------------------- shell
+def brand_logo(base: str) -> str:
+    """회사 로고: assets/logo.png(원본)가 있으면 그것을, 없으면 assets/logo.svg(벡터 재현)를 인라인으로."""
+    png = ROOT / "assets" / "logo.png"
+    svg = ROOT / "assets" / "logo.svg"
+    if png.exists():
+        return f'<img class="logo" src="{base}assets/logo.png" alt="ETS"><span class="divider"></span>'
+    if svg.exists():
+        return f'<span class="logo-svg">{svg.read_text(encoding="utf-8")}</span><span class="divider"></span>'
+    return ""
+
 def head(title: str, active: str, base: str, meta_html: str = "") -> str:
     nav = "".join(
         f'<a href="{base}{href}" class="{"on" if key == active else ""}">{esc(label)}</a>'
@@ -205,9 +217,7 @@ def head(title: str, active: str, base: str, meta_html: str = "") -> str:
         f'<meta name="viewport" content="width=device-width, initial-scale=1">'
         f'<title>{esc(title)}</title>{FONTS}<style>{STYLE}</style></head><body>'
         f'<header class="masthead"><div class="mast-inner">'
-        f'<div class="brand"><img class="logo" src="{base}{LOGO}" alt="ETS" '
-        f'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'none\'">'
-        f'<span class="divider"></span>'
+        f'<div class="brand">{brand_logo(base)}'
         f'<div class="name"><small>{esc(SITE_EN)}</small>{esc(SITE)}</div></div>'
         f'<div class="mast-meta">{meta_html}</div>'
         f'</div></header>'

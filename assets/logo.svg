@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 150" role="img" aria-label="ETS">
+  <title>ETS</title>
+  <!-- 마크: 청록 스트로크 (원본 로고를 벡터로 재현한 버전 — assets/logo.png 가 올라오면 자동으로 원본이 사용됩니다) -->
+  <g transform="translate(18,12) rotate(-13 72 66)" fill="none" stroke="#0A9A86" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="16" y="32" width="118" height="80" rx="22"/>
+    <path d="M 40 62 C 58 44 92 44 106 58 C 118 70 90 86 62 82"/>
+    <path d="M 4 50 L 62 34"/>
+  </g>
+  <!-- 워드마크: 회색 ETS -->
+  <text x="176" y="111" font-family="Nunito,'Arial Rounded MT Bold','Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="98" letter-spacing="8" fill="#5C6670">ETS</text>
+</svg>

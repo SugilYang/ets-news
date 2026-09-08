@@ -18,8 +18,8 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 BRIEF_DIR = ROOT / "briefings"
 
-SITE = "이티에스 이차전지 산업 브리핑"
-SITE_EN = "ETS BATTERY INDUSTRY BRIEFING"
+SITE = "이티에스 산업 브리핑"
+SITE_EN = "ETS INDUSTRY BRIEFING"
 
 def esc(v) -> str:
     return html.escape(str(v if v is not None else ""), quote=True)

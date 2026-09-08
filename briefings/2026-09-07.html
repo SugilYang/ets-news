@@ -1,50 +1,133 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>이티에스 산업 브리핑 — 2026-09-07</title><style>
-:root{--ink:#15202b;--bg:#eef1f5;--card:#fff;--muted:#6b7688;--line:#e4e8ee;
-  --blue:#1f4e79;--blue-bg:#eaf1f9;--teal:#0f766e;--teal-bg:#e6f4f2;
-  --red:#b83b2e;--red-bg:#fbecea;--purple:#6d28d9;--purple-bg:#f1ebfb;
-  --gray:#516073;--gray-bg:#eef1f5;--amber:#9a6b00;--amber-bg:#fbf3df}
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>이티에스 산업 브리핑 — 2026-09-07</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet"><style>
+:root{
+  --ink:#16202b;--text:#2b3644;--muted:#6a7688;--paper:#f3f5f8;--card:#fff;--line:#e1e6ed;
+  --accent:#0e9b86;--accent-bg:#e3f4f0;--accent-ink:#0b7a6a;--brand-gray:#5b6670;
+  --c-blue:#1d4f8a;--c-blue-bg:#e9f0f9;--c-teal:#0e9b86;--c-teal-bg:#e3f4f0;
+  --c-violet:#5b3fb8;--c-violet-bg:#efeafb;--c-rust:#b8442e;--c-rust-bg:#fbebe7;
+  --c-amber:#946400;--c-amber-bg:#faf2dc;--c-slate:#4b5b70;--c-slate-bg:#eceff4;
+  --serif:'Noto Serif KR','Apple SD Gothic Neo','Malgun Gothic',serif;
+  --sans:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);
-  font-family:'Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif;line-height:1.55}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--sans);line-height:1.6;
+  font-variant-numeric:tabular-nums}
 a{color:inherit}
-.wrap{max-width:1200px;margin:0 auto;padding:0 16px 44px}
-.masthead{background:var(--ink);color:#fff;padding:16px 24px}
-.mast-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px}
-.mast-title{font-size:27px;font-weight:800}
-.mast-title small{display:block;font-size:11px;font-weight:600;color:#9fb2c9;letter-spacing:.22em;margin-bottom:4px}
-.mast-meta{text-align:right;font-size:13px;color:#c7d2e0}
-.nav{background:#1e2c3a;border-top:1px solid #2c3e50}
-.nav-inner{max-width:1200px;margin:0 auto;display:flex;gap:4px;padding:0 20px}
-.nav a{color:#c7d2e0;font-size:13.5px;font-weight:600;padding:10px 14px;text-decoration:none;border-bottom:3px solid transparent}
-.nav a:hover{color:#fff}.nav a.on{color:#fff;border-bottom-color:#2a7de1}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}
-@media(max-width:820px){.grid{grid-template-columns:1fr}}
+.wrap{max-width:1200px;margin:0 auto;padding:0 18px 48px}
+
+/* 브랜드 바(제호) */
+.masthead{background:#fff;border-bottom:3px solid var(--accent)}
+.mast-inner{max-width:1200px;margin:0 auto;padding:14px 18px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:16px;min-width:0}
+.brand .logo{height:44px;width:auto;display:block}
+.brand .divider{width:1px;height:38px;background:var(--line)}
+.brand .name{font-family:var(--serif);font-weight:800;font-size:23px;color:var(--ink);line-height:1.15;letter-spacing:.01em}
+.brand .name small{display:block;font-family:var(--sans);font-weight:500;font-size:10.5px;color:var(--brand-gray);
+  letter-spacing:.22em;margin-bottom:3px}
+.mast-meta{margin-left:auto;text-align:right;font-size:13px;color:var(--muted);line-height:1.4}
+.mast-meta b{display:block;color:var(--ink);font-size:14px}
+
+/* 내비 */
+.nav{background:#1e2a36}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;gap:2px;padding:0 10px;overflow-x:auto}
+.nav a{color:#c9d3df;font-size:13.5px;font-weight:600;padding:11px 14px;text-decoration:none;
+  border-bottom:3px solid transparent;white-space:nowrap}
+.nav a:hover{color:#fff}
+.nav a.on{color:#fff;border-bottom-color:var(--accent)}
+
+/* 날짜 이동 */
+.datenav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0 0;
+  background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:13px}
+.datenav a{text-decoration:none;color:var(--accent-ink);font-weight:700;padding:4px 8px;border-radius:6px}
+.datenav a:hover{background:var(--accent-bg)}
+.datenav .cur{font-weight:800;color:var(--ink);font-size:14px}
+.datenav .dis{color:#b9c2cd;padding:4px 8px}
+.lead{margin:14px 0 0;background:var(--accent-bg);border-left:4px solid var(--accent);border-radius:0 8px 8px 0;
+  padding:10px 14px;font-size:13.5px;color:var(--accent-ink)}
+.lead b{color:var(--ink)}
+
+/* 카드 */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+@media(max-width:840px){.grid{grid-template-columns:1fr}}
 .full{grid-column:1 / -1}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 1px 3px rgba(20,32,43,.05)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  box-shadow:0 1px 2px rgba(22,32,43,.04)}
 .card-head{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:2px solid var(--line)}
-.card-head .icon{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;flex:none}
-.card-head h3{margin:0;font-size:16.5px;font-weight:800}
-.card-head .sub{font-size:12px;color:var(--muted);font-weight:500}
-.card-head .cnt{margin-left:auto;font-size:11px;color:var(--muted);background:var(--gray-bg);padding:2px 9px;border-radius:20px}
-.card-body{padding:4px 16px 10px}
-.item{padding:11px 0;border-bottom:1px solid var(--line)}
+.card-head .icon{width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+  font-size:17px;flex:none}
+.card-head h3{margin:0;font-family:var(--serif);font-size:17px;font-weight:800;color:var(--ink)}
+.card-head .sub{font-family:var(--sans);font-size:12px;color:var(--muted);font-weight:500;margin-left:4px}
+.card-head .cnt{margin-left:auto;font-size:11px;color:var(--muted);background:var(--c-slate-bg);padding:2px 9px;border-radius:20px}
+.card-body{padding:2px 16px 8px}
+.item{padding:12px 0;border-bottom:1px solid var(--line)}
 .item:last-child{border-bottom:0}
-.item .h{font-weight:700;font-size:14.5px;line-height:1.4}
-.item .b{font-size:13px;color:#374151;margin-top:4px;line-height:1.65}
+.item .h{margin:0;font-size:15px;font-weight:700;line-height:1.45;color:var(--ink);text-wrap:balance}
+.item .h a{text-decoration:none;border-bottom:1px solid transparent}
+.item .h a:hover{color:var(--accent-ink);border-bottom-color:var(--accent)}
+.item .h a::after{content:" ↗";font-size:11px;color:var(--accent);font-weight:500}
+.item .b{margin:5px 0 0;font-size:13.2px;color:var(--text);line-height:1.7;max-width:72ch}
 .item .b b{color:var(--ink)}
-.item .src{display:inline-block;font-size:11px;color:var(--muted);margin-top:5px}
-.accent-blue .icon{background:var(--blue-bg)}.accent-blue .card-head{border-bottom-color:var(--blue)}
-.accent-teal .icon{background:var(--teal-bg)}.accent-teal .card-head{border-bottom-color:var(--teal)}
-.accent-red .icon{background:var(--red-bg)}.accent-red .card-head{border-bottom-color:var(--red)}
-.accent-purple .icon{background:var(--purple-bg)}.accent-purple .card-head{border-bottom-color:var(--purple)}
-.accent-amber .icon{background:var(--amber-bg)}.accent-amber .card-head{border-bottom-color:var(--amber)}
-.accent-gray .icon{background:var(--gray-bg)}
-.footer{margin-top:22px;font-size:11.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;line-height:1.7}
-.arc-list{margin-top:20px;display:grid;gap:10px}
-.arc{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;text-decoration:none;box-shadow:0 1px 3px rgba(20,32,43,.05)}
-.arc:hover{border-color:#2a7de1}
-.arc .date{flex:none;font-weight:800;font-size:15px;width:120px}
+.item .meta{margin-top:6px;font-size:11.5px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chip{display:inline-block;font-size:11px;font-weight:700;padding:1px 8px;border-radius:20px;
+  background:var(--accent-bg);color:var(--accent-ink)}
+.chip.k{background:var(--c-slate-bg);color:var(--c-slate)}
+.accent-blue .icon{background:var(--c-blue-bg)} .accent-blue .card-head{border-bottom-color:var(--c-blue)}
+.accent-teal .icon{background:var(--c-teal-bg)} .accent-teal .card-head{border-bottom-color:var(--c-teal)}
+.accent-violet .icon{background:var(--c-violet-bg)} .accent-violet .card-head{border-bottom-color:var(--c-violet)}
+.accent-rust .icon{background:var(--c-rust-bg)} .accent-rust .card-head{border-bottom-color:var(--c-rust)}
+.accent-amber .icon{background:var(--c-amber-bg)} .accent-amber .card-head{border-bottom-color:var(--c-amber)}
+.accent-slate .icon{background:var(--c-slate-bg)} .accent-slate .card-head{border-bottom-color:var(--c-slate)}
+/* 구버전 호환 */
+.accent-purple .icon{background:var(--c-violet-bg)} .accent-purple .card-head{border-bottom-color:var(--c-violet)}
+.accent-red .icon{background:var(--c-rust-bg)} .accent-red .card-head{border-bottom-color:var(--c-rust)}
+.accent-gray .icon{background:var(--c-slate-bg)}
+
+/* 목록 페이지 공통 */
+.page-title{font-family:var(--serif);font-size:22px;font-weight:800;color:var(--ink);margin:22px 0 4px}
+.page-sub{font-size:13px;color:var(--muted);margin:0 0 6px}
+.arc-list{margin-top:16px;display:grid;gap:10px}
+.arc{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;
+  padding:13px 16px;text-decoration:none}
+.arc:hover{border-color:var(--accent)}
+.arc .date{flex:none;font-weight:800;font-size:15px;width:118px;color:var(--ink)}
 .arc .date small{display:block;color:var(--muted);font-weight:500;font-size:11px}
-.arc .top{font-size:13px;color:var(--muted)}.arc .top b{color:var(--ink)}
-.page-title{font-size:20px;font-weight:800;margin:22px 0 4px}
-</style></head><body><header class="masthead"><div class="mast-inner"><div class="mast-title"><small>ETS INDUSTRY BRIEFING</small>이티에스 산업 브리핑</div><div class="mast-meta">2026-09-07 (월) · 조간</div></div></header><div class="nav"><div class="nav-inner"><a href="index.html" class="">오늘 브리핑</a><a href="archive.html" class="on">지난 자료</a></div></div><div class="wrap"><div class="grid"><div class="card accent-blue full"><div class="card-head"><div class="icon">🏭</div><div><h3>LG에너지솔루션 <span class="sub">글로벌</span></h3></div><span class="cnt">4건</span></div><div class="card-body"><div class="item"><div class="h">상반기 매출 14.1조·신규수주 3조원↑</div><div class="b">상반기 매출 <b>14조1,152억원(+10.5% YoY)</b>, 2분기 매출 7조5,602억·영업이익 1,133억. 상반기 중 <b>AI 데이터센터(하이퍼스케일러) 프로젝트 포함 3조원 이상 신규 수주</b> 확보. ESS 사업 확대로 흑자 방어.</div><span class="src">배터리인사이드·한국경제 (’26.7)</span></div><div class="item"><div class="h">미 DTE Energy에 ESS 6GWh(약 2.4조원) 공급</div><div class="b">미국 전력사 DTE에 <b>ESS 6GWh(약 2.4조원)</b> 공급계약 체결, 누적 ESS 수주 <b>140GWh 돌파</b>. 북미 5개 생산거점 가동, 팩·링크 단위 생산능력 확대 추진.</div><span class="src">다음뉴스 (’26.5)</span></div><div class="item"><div class="h">애리조나 46시리즈 원통형 10GWh↑ 신규 수주</div><div class="b">애리조나 법인 통해 <b>46시리즈(원통형) 연 10GWh 이상 다년 공급</b> 신규 수주 → 원통형 신규 라인 구축 필요.</div><span class="src">디일렉</span></div><div class="item"><div class="h">하반기 중점: ESS 수익성·EV 가동률·차세대전지</div><div class="b">하반기 계획으로 ①ESS 수익성 개선·수주 확대 ②EV 수주기회·가동률 개선 ③제품 고도화·차세대전지 준비를 제시. 1분기 IRA AMPC 보조금 <b>4,577억원</b> 수령.</div><span class="src">배터리인사이드</span></div></div></div><div class="card accent-teal"><div class="card-head"><div class="icon">🔋</div><div><h3>국내 배터리사 <span class="sub">삼성SDI · SK온</span></h3></div><span class="cnt">2건</span></div><div class="card-body"><div class="item"><div class="h">삼성SDI — 2분기 흑자전환·전고체 2027 양산</div><div class="b">1분기 매출 3조5,764억·영업손실 1,556억(<b>적자 64% 축소</b>) → 2분기 흑자전환. ‘인터배터리 2026’에서 <b>파우치형 전고체 샘플 첫 공개</b>, 2027년 하반기 양산 목표(첫 적용 분야 휴머노이드). 미국 ESS 수주 2029년까지 확보, 2028년부터 수요>생산능력 전망.</div><span class="src">디일렉·배터리투데이</span></div><div class="item"><div class="h">SK온 — 창립 후 첫 연간 흑자 전망</div><div class="b">2026년 <b>첫 연간 배터리 흑자</b>(영업익 약 1,500억) 전망. <b>미국 ESS 1.5조원 수주</b>, 네오볼타파워에 LFP 파우치 <b>9GWh 공급(’27~’31)</b>. 올해 글로벌 수주 20GWh 이상 목표, ESS 확대·재무구조 안정화 집중.</div><span class="src">머니투데이 (’26.9)·허프포스트</span></div></div></div><div class="card accent-purple"><div class="card-head"><div class="icon">🌐</div><div><h3>글로벌 배터리사 <span class="sub">CATL · 파나소닉</span></h3></div><span class="cnt">2건</span></div><div class="card-body"><div class="item"><div class="h">CATL — 스페인 50GWh LFP 공장 착공(스텔란티스 JV)</div><div class="b">스페인 아라곤에 스텔란티스와 <b>50GWh LFP</b> 합작공장 착공. 총 <b>41억유로(약 6조원)</b>, EU 지원금 3억유로. <b>2026년 말 부분가동 → 2028 완공.</b> 유럽서 BYD와 함께 점유율 확대.</div><span class="src">뉴데일리</span></div><div class="item"><div class="h">파나소닉 — 캔자스 $4B·네바다 전환 가속</div><div class="b">캔자스 <b>40억달러(약 5.5조)</b> 공장 + 네바다 공장 전환으로 원가구조 안정화. 2026년 1월 배터리 사용량 3.1GWh로 글로벌 4위.</div><span class="src">enkiai·솔라투데이</span></div></div></div><div class="card accent-red"><div class="card-head"><div class="icon">🛠</div><div><h3>장비·전해액 주액 수주 <span class="sub">국내 장비사</span></h3></div><span class="cnt">2건</span></div><div class="card-body"><div class="item"><div class="h">하나기술 — 영국 조립 턴키 1,614억 수주</div><div class="b">영국 고객사와 2차전지 조립공정 라인 <b>턴키 1억467만달러(약 1,614억, 작년 매출의 172%)</b> 계약. PO 4건 = 장비 8,902만달러 + 설치·서비스 1,563만달러, 기간 ’26.6~’30.12. 이번 건 포함 <b>수주잔액 5,000억원대</b>(연매출 5배 초과). 인도 대형고객 확보 기대. 조립+<b>전해액주입기</b> 보유.</div><span class="src">뉴스핌·알파비즈 (’26.6)</span></div><div class="item"><div class="h">장비업황 — 2026 실적 턴어라운드 진입 평가</div><div class="b">증권가는 국내 이차전지 장비사가 2025년 대규모 공급계약을 잇달아 확보하며 <b>2026년 실적 턴어라운드</b>에 진입한다고 평가(중장기 매출 가시성 확대).</div><span class="src">유안타증권·디일렉</span></div></div></div><div class="card accent-amber"><div class="card-head"><div class="icon">📊</div><div><h3>정책·시장 <span class="sub">AMPC · 수출 · 시황</span></h3></div><span class="cnt">3건</span></div><div class="card-body"><div class="item"><div class="h">K배터리 3사, 7분기 만에 동반 흑자</div><div class="b">ESS·AI 데이터센터 수요가 EV 캐즘을 상쇄하며 LG엔솔·삼성SDI·SK온이 <b>7분기 만에 동반 흑자</b> 전환.</div><span class="src">뉴스스페이스</span></div><div class="item"><div class="h">美 AMPC 축소·IRA 세액공제 폐지 추진</div><div class="b">AMPC 만료가 <b>2032→2031년 말로 단축</b>, 하원 공화당은 전기차 세액공제 ’26년 말 종료·AMPC ’31년 단계폐지 개편안 발표. 다만 1분기 AMPC 수령액은 LG 4,577억·삼성SDI 1,094억·SK온 1,708억으로 <b>여전히 실적 버팀목</b>. 미국 신규 배터리공장 40여개 중 우선 13개, 그중 <b>11개에 한국 3사 참여</b>.</div><span class="src">여성경제신문·PwC</span></div><div class="item"><div class="h">2026 업황 반등 — 장비는 공정전환이 변수</div><div class="b">ESS+AI 데이터센터發 수요로 업황 반등. 장비(Tier3)는 단기 capex freeze 압박 속 <b>ESS 스태킹·건식공정 전환</b>이 새 수요 축으로 부상.</div><span class="src">다음뉴스</span></div></div></div><div class="card accent-gray"><div class="card-head"><div class="icon">🤖</div><div><h3>AMR·스마트팩토리 <span class="sub">제조·물류 자동화</span></h3></div><span class="cnt">1건</span></div><div class="card-body"><div class="item"><div class="h">글로벌 AMR 시장 연 15% 성장</div><div class="b">글로벌 AMR 시장 <b>2025년 22.5억 → 2030년 45.6억달러(연평균 15.1%)</b>. 국내 제조 인력난으로 공장·물류 도입 가속, 무인지게차·창고자동화 결합 스마트팩토리 패키지 확산.</div><span class="src">다음뉴스·인더스트리뉴스 (’26.4)</span></div></div></div></div><div class="footer">출처: 배터리인사이드·한국경제·머니투데이·디일렉·뉴스핌·뉴데일리·여성경제신문·PwC·다음뉴스 등 (실제판은 각 아이템에 원문 링크 연결)<br>본 브리핑은 공개 보도를 정제·요약한 사실 정보이며, 수치·계약 세부는 원문/공시로 최종 확인하시기 바랍니다.<br>이티에스 산업 브리핑 · 매일 아침 8시 자동 발행</div></div></body></html>
+.arc .top{font-size:13px;color:var(--muted)} .arc .top b{color:var(--ink)}
+
+/* 회사별 */
+.co-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:16px}
+.co{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;text-decoration:none}
+.co:hover{border-color:var(--accent)}
+.co .n{font-family:var(--serif);font-weight:800;font-size:16px;color:var(--ink)}
+.co .m{font-size:12px;color:var(--muted);margin-top:4px}
+.co .m b{color:var(--accent-ink)}
+.dgroup{margin-top:18px}
+.dgroup h3{font-size:13px;color:var(--muted);font-weight:700;letter-spacing:.04em;margin:0 0 6px;
+  padding-bottom:6px;border-bottom:2px solid var(--line)}
+.dgroup h3 b{color:var(--ink);font-size:15px;margin-right:8px}
+.list{background:#fff;border:1px solid var(--line);border-radius:12px;padding:2px 16px 8px}
+
+/* 검색 */
+.sbar{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+.sbar input,.sbar select{font:inherit;font-size:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.sbar input{flex:1;min-width:220px}
+.sbar input:focus,.sbar select:focus{outline:2px solid var(--accent);outline-offset:1px}
+.scount{font-size:12.5px;color:var(--muted);margin:10px 2px 0}
+.sres{margin-top:10px}
+.sres .item .meta{margin-top:4px}
+
+/* 푸터 */
+.footer{margin-top:24px;font-size:11.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;line-height:1.7}
+
+@media(max-width:640px){
+  .mast-inner{gap:12px} .brand .logo{height:36px} .brand .name{font-size:19px}
+  .mast-meta{margin-left:0;text-align:left;width:100%}
+  .item .h{font-size:14.5px}
+}
+@media print{
+  .nav,.datenav,.sbar,.scount{display:none!important}
+  body{background:#fff} .masthead{border-bottom:2px solid #000}
+  .card,.list{box-shadow:none;border-color:#bbb;break-inside:avoid;page-break-inside:avoid}
+  .item .h a::after{content:""}
+  a{text-decoration:none}
+}
+</style></head><body><header class="masthead"><div class="mast-inner"><div class="brand"><img class="logo" src="../assets/logo.png" alt="ETS" onerror="this.style.display='none';this.nextElementSibling.style.display='none'"><span class="divider"></span><div class="name"><small>ETS INDUSTRY BRIEFING</small>이티에스 산업 브리핑</div></div><div class="mast-meta"><b>2026-09-07 (월)</b>조간 · 매일 08:00 발행</div></div></header><nav class="nav"><div class="nav-inner"><a href="../index.html" class="">오늘 브리핑</a><a href="../archive.html" class="on">지난 자료</a><a href="../companies/index.html" class="">회사별</a><a href="../search.html" class="">검색</a><a href="../weekly.html" class="">주간 요약</a></div></nav><div class="wrap"><div class="datenav"><span class="dis">◀ 이전</span><span class="cur">2026-09-07 (월) · 조간</span><span class="dis">다음 ▶</span></div><div class="lead"><b>오늘의 요약</b> · LG엔솔 상반기 신규수주 3조↑·46시리즈 10GWh · 삼성SDI 전고체 2027 양산 · SK온 첫 연간흑자 전망 · 하나기술 영국 턴키 1,614억 · 美 AMPC 축소</div><div class="grid"><section class="card accent-blue full"><div class="card-head"><div class="icon">🏭</div><h3>LG에너지솔루션<span class="sub">글로벌 전체</span></h3><span class="cnt">7건</span></div><div class="card-body"><article class="item"><h4 class="h">상반기 매출 14.1조원·신규 수주 3조원 이상 확보</h4><p class="b">상반기 매출 <b>14조1,152억원(전년 대비 +10.5%)</b>, 2분기 매출 7조5,602억·영업이익 1,133억원. 상반기 중 AI 데이터센터(하이퍼스케일러) 프로젝트를 포함해 <b>3조원 이상의 신규 수주</b>를 확보했다고 밝혔다. EV 수요 둔화 속에서 ESS 사업 확대가 흑자를 방어한 구조.</p><div class="meta">배터리인사이드·한국경제 · 2026-07</div></article><article class="item"><h4 class="h"><a href="https://v.daum.net/v/20260529065417745" target="_blank" rel="noopener">미 DTE Energy와 ESS 6GWh(약 2.4조원) 공급계약</a></h4><p class="b">미국 전력사 DTE Energy에 <b>ESS 6GWh(약 2.4조원)</b>를 공급하는 계약을 체결했다. 이로써 누적 ESS 수주는 <b>140GWh</b>를 넘어섰다. 북미 5개 생산거점을 가동 중이며, 팩·링크 단위 생산능력 확대를 추진한다.</p><div class="meta">다음뉴스 · 2026-05-29</div></article><article class="item"><h4 class="h"><a href="https://www.thelec.kr/news/articleView.html?idxno=33880" target="_blank" rel="noopener">애리조나서 46시리즈 원통형 연 10GWh 이상 다년 공급 수주</a></h4><p class="b">애리조나 법인을 통해 <b>46시리즈(원통형) 배터리를 연 10GWh 이상</b> 다년간 공급하는 신규 수주를 확보했다. 원통형 신규 라인 구축이 필요한 물량이다.</p><div class="meta">디일렉 · 2026</div></article><article class="item"><h4 class="h"><a href="https://www.finance-scope.com/article/view/scp202601300013" target="_blank" rel="noopener">2026년 사업 축: EV→ESS 전환, 북미 ESS 50GWh 목표</a></h4><p class="b">2026년 전략의 핵심으로 북미 데이터센터·전력망 투자에 따른 ESS 수요를 제시했다. 기존 EV 라인을 ESS용으로 전환해 투자 효율을 높이고, <b>2026년 말까지 북미 ESS 생산능력 50GWh 이상</b>을 확보할 계획이다.</p><div class="meta">파이낸스스코프(컨퍼런스콜) · 2026-01-30</div></article><article class="item"><h4 class="h"><a href="https://news.lgensol.com/company-news/press-releases/5163/" target="_blank" rel="noopener">미시간 랜싱 공장 양산 개시</a></h4><p class="b">미시간주 랜싱의 신규 배터리 공장(투자 약 20억달러)이 양산을 시작했다고 발표했다. 북미 생산거점 확대의 일환.</p><div class="meta">LG에너지솔루션 뉴스룸 · 2026</div></article><article class="item"><h4 class="h"><a href="https://www.industrynews.co.kr/news/articleView.html?idxno=48209" target="_blank" rel="noopener">오창 원통형 라인 신·증설에 4조원 투자(2026년까지)</a></h4><p class="b">충청북도·청주시와 오창산업단지에 <b>총 4조원</b> 규모의 배터리 생산시설 신·증설 투자 협약을 맺었다. 원통형 배터리 라인 신·증설과 설비투자에 투입되며 약 1,800명을 신규 채용할 계획이다.</p><div class="meta">인더스트리뉴스 · 2023</div></article><article class="item"><h4 class="h">하반기 중점 과제와 1분기 AMPC 4,577억원 수령</h4><p class="b">하반기 계획으로 ①ESS 수익성 개선·수주 확대 ②EV 수주기회·가동률 개선 ③제품 고도화·차세대전지 준비를 제시했다. 1분기 IRA 첨단제조생산세액공제(AMPC)로 <b>4,577억원</b>을 수령했다.</p><div class="meta">배터리인사이드 · 2026-07</div></article></div></section><section class="card accent-teal"><div class="card-head"><div class="icon">🔋</div><h3>국내 배터리사<span class="sub">삼성SDI · SK온</span></h3><span class="cnt">4건</span></div><div class="card-body"><article class="item"><h4 class="h"><a href="https://www.thelec.kr/news/articleView.html?idxno=55771" target="_blank" rel="noopener">삼성SDI, 1분기 적자 64% 축소·2분기 흑자 전환</a></h4><p class="b">1분기 매출 3조5,764억원·영업손실 1,556억원으로 전년 대비 매출 12.6% 증가, <b>영업손실 64.2% 축소</b>. 2분기에는 흑자로 전환했다. 데이터센터 중심 ESS 수요로 신규 고객 수주를 확대 중이며, 미국 ESS 수주량이 2029년까지 생산능력의 상당 부분을 채우고 2028년부터 수요가 생산능력을 초과할 수 있다고 밝혔다.</p><div class="meta"><span class="chip">삼성SDI</span> · 디일렉(1분기 컨퍼런스콜) · 2026-04</div></article><article class="item"><h4 class="h"><a href="https://www.batterynews.co.kr/news/articleView.html?idxno=685" target="_blank" rel="noopener">삼성SDI, 파우치형 전고체 샘플 공개·2027년 하반기 양산 목표</a></h4><p class="b">'인터배터리 2026'에서 피지컬 AI용 <b>파우치형 전고체 배터리 샘플</b>을 처음 공개했다. <b>2027년 하반기 양산</b>을 준비 중이며 첫 상용화 적용 분야는 휴머노이드 로봇으로 예상된다. 2026년을 '턴어라운드 원년'으로 설정.</p><div class="meta"><span class="chip">삼성SDI</span> · 배터리투데이 · 2026-03</div></article><article class="item"><h4 class="h"><a href="https://www.mt.co.kr/industry/2026/08/21/2026082116295289572" target="_blank" rel="noopener">삼성SDI, 4.5조원 투자 여력 확보·인디애나 뉴칼라일 가동</a></h4><p class="b"><b>4.5조원</b>의 투자 재원을 바탕으로 미국 인디애나 뉴칼라일(스텔란티스 JV) 공장 가동, 헝가리 공장 풀가동, 전고체·LFP 신규 라인 투자를 진행 중이다.</p><div class="meta"><span class="chip">삼성SDI</span> · 머니투데이 · 2026-08-21</div></article><article class="item"><h4 class="h"><a href="https://www.mt.co.kr/industry/2026/09/01/2026083120015424030" target="_blank" rel="noopener">SK온, 창립 후 첫 연간 흑자 전망·미국 ESS 1.5조원 수주</a></h4><p class="b">2026년 창립(2021년 10월) 이래 <b>첫 연간 배터리 영업이익 흑자</b>(약 1,500억원) 달성이 전망된다. <b>미국 ESS 1.5조원</b> 수주에 이어 네오볼타파워에 LFP 파우치 배터리셀 <b>9GWh(2027~2031년)</b>를 공급한다. 올해 글로벌 수주 20GWh 이상을 목표로 ESS 확대와 재무구조 안정화에 집중.</p><div class="meta"><span class="chip">SK온</span> · 머니투데이 · 2026-09-01</div></article></div></section><section class="card accent-violet"><div class="card-head"><div class="icon">🌐</div><h3>글로벌 배터리사<span class="sub">CATL · 파나소닉</span></h3><span class="cnt">2건</span></div><div class="card-body"><article class="item"><h4 class="h"><a href="https://www.newspim.com/news/view/20241211000066" target="_blank" rel="noopener">CATL·스텔란티스, 스페인 50GWh LFP 합작공장(41억유로)</a></h4><p class="b">스페인 아라곤 사라고사에 <b>50GWh 규모 LFP</b> 합작공장을 건설한다. 총 투자 <b>41억유로(약 6조원)</b>, EU 지원금 3억유로. <b>2026년 말 부분 가동, 2028년 완공</b> 목표. 유럽 시장에서 BYD와 함께 점유율을 확대 중이다.</p><div class="meta"><span class="chip">CATL</span> · 뉴스핌 · 2024-12-11</div></article><article class="item"><h4 class="h"><a href="https://enkiai.com/ev/panasonic-battery-plant-kansas/" target="_blank" rel="noopener">파나소닉, 캔자스 40억달러 공장 가동·네바다 전환</a></h4><p class="b">캔자스주 드소토에 <b>40억달러(약 5.5조원)</b>를 투자한 배터리 공장과 네바다 공장 전환으로 원가구조를 안정화하고 있다. 2026년 1월 기준 배터리 사용량 3.1GWh로 글로벌 4위.</p><div class="meta"><span class="chip">파나소닉</span> · enkiai·솔라투데이 · 2026</div></article></div></section><section class="card accent-rust"><div class="card-head"><div class="icon">🛠</div><h3>장비·전해액 주액 수주<span class="sub">국내 장비사</span></h3><span class="cnt">2건</span></div><div class="card-body"><article class="item"><h4 class="h"><a href="https://www.newspim.com/news/view/20260610001210" target="_blank" rel="noopener">하나기술, 영국 고객사 조립공정 턴키 1,614억원 수주</a></h4><p class="b">영국 고객사와 2차전지 조립공정 라인 턴키 계약 <b>1억467만달러(약 1,614억원, 전년 매출의 172%)</b>를 체결했다. 발주서 4건으로 장비 8,902만달러와 설치·서비스 1,563만달러로 구성되며 계약기간은 2026년 6월~2030년 12월. 이번 건을 포함한 <b>수주잔액은 5,000억원대</b>(연매출의 5배 초과). 하나기술은 조립 장비와 <b>전해액 주입기</b>를 보유하고 있으며 인도 대형 고객 확보도 기대하고 있다.</p><div class="meta"><span class="chip">하나기술</span> · 뉴스핌 · 2026-06-10</div></article><article class="item"><h4 class="h">국내 장비사, 2026년 실적 턴어라운드 진입 평가</h4><p class="b">증권가는 국내 이차전지 장비사가 2025년 대규모 공급계약을 잇달아 확보하면서 <b>2026년 실적 턴어라운드</b>에 진입한다고 평가했다. 중장기 매출 가시성이 확대됐다는 분석.</p><div class="meta"><span class="chip">장비업계</span> · 유안타증권·디일렉 · 2026</div></article></div></section><section class="card accent-amber"><div class="card-head"><div class="icon">📊</div><h3>정책·시장<span class="sub">AMPC · 수출 · 시황</span></h3><span class="cnt">3건</span></div><div class="card-body"><article class="item"><h4 class="h"><a href="https://www.newsspace.kr/news/article.html?no=15033" target="_blank" rel="noopener">K배터리 3사, 7분기 만에 동반 흑자</a></h4><p class="b">ESS·AI 데이터센터 수요가 EV 캐즘을 상쇄하면서 LG에너지솔루션·삼성SDI·SK온이 <b>7분기 만에 동반 흑자</b>로 전환했다.</p><div class="meta"><span class="chip">배터리 3사</span> · 뉴스스페이스 · 2026-08</div></article><article class="item"><h4 class="h"><a href="https://www.womaneconomy.co.kr/news/articleView.html?idxno=235523" target="_blank" rel="noopener">美 AMPC 만료 2031년으로 단축·IRA 세액공제 폐지 추진</a></h4><p class="b">AMPC(첨단제조생산세액공제) 만료 시점이 <b>2032년 말→2031년 말</b>로 단축됐다. 미 하원 공화당은 전기차 세액공제를 2026년 말 종료하고 AMPC를 2031년까지 단계 폐지하는 세제 개편안을 발표했다. 다만 1분기 AMPC 수령액은 LG엔솔 4,577억·삼성SDI 1,094억·SK온 1,708억원으로 여전히 실적의 버팀목. 2030년까지 미국에 신규 배터리 공장 40여 곳이 예정돼 있으며, 우선 건설 13곳 중 <b>11곳에 한국 3사가 참여</b>한다.</p><div class="meta"><span class="chip">미국 정책</span> · 여성경제신문·삼일PwC · 2026</div></article><article class="item"><h4 class="h"><a href="https://v.daum.net/v/20251119080650949" target="_blank" rel="noopener">2026년 업황 반등 전망 — ESS·AI 데이터센터가 성장 동력</a></h4><p class="b">천연가스 가격 상승으로 ESS 경제성이 뚜렷해지고 AI 데이터센터 확장이 ESS 수요를 키우며 2026년 업황이 반등할 것으로 전망됐다. 장비(Tier 3)는 단기 capex freeze 압박이 있으나 <b>ESS 스태킹·건식공정 전환</b>이 새로운 수요 축으로 부상.</p><div class="meta"><span class="chip">시장 전망</span> · 다음뉴스 · 2025-11-19</div></article></div></section><section class="card accent-slate"><div class="card-head"><div class="icon">🤖</div><h3>AMR·스마트팩토리<span class="sub">제조·물류 자동화</span></h3><span class="cnt">1건</span></div><div class="card-body"><article class="item"><h4 class="h"><a href="https://v.daum.net/v/20260407170311658" target="_blank" rel="noopener">글로벌 AMR 시장, 2030년 45.6억달러로 연 15% 성장</a></h4><p class="b">세계 AMR 시장은 <b>2025년 22.5억달러에서 2030년 45.6억달러(연평균 15.1%)</b>로 성장할 전망이다. 국내는 제조업 비중이 높고 인력난이 심해 도입이 가속되고 있으며, AMR·무인지게차·창고자동화를 결합한 스마트팩토리 패키지가 확산 중이다.</p><div class="meta"><span class="chip">AMR 시장</span> · 다음뉴스·인더스트리뉴스 · 2026-04-07</div></article></div></section></div><div class="footer">출처: 배터리인사이드·한국경제·머니투데이·디일렉·뉴스핌·배터리투데이·여성경제신문·삼일PwC·다음뉴스·LG에너지솔루션 뉴스룸 등. 제목을 누르면 원문으로 이동합니다.<br>본 브리핑은 공개 보도를 정제·요약한 사실 정보이며, 수치·계약 세부는 원문/공시로 최종 확인하시기 바랍니다.<br>이티에스 산업 브리핑 · 매일 아침 8시 자동 발행</div></div></body></html>

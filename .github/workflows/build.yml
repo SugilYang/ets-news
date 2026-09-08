@@ -1,0 +1,59 @@
+name: 지면 자동 빌드(안전망)
+
+# data/ 나 생성기가 바뀌어 푸시되면 JSON을 검증하고 지면을 다시 생성해 커밋합니다.
+# (매일 아침 자동 생성 세션이 렌더링을 빠뜨려도 사이트가 항상 최신 데이터로 유지됩니다)
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "data/**"
+      - "render.py"
+      - "assets/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: JSON 유효성 검사
+        run: |
+          set -e
+          for f in data/*.json; do
+            python3 - "$f" <<'PY'
+import json, sys
+p = sys.argv[1]
+d = json.load(open(p, encoding="utf-8"))
+assert d.get("date") and d.get("cards"), f"{p}: date/cards 누락"
+n = sum(len(c.get("items", [])) for c in d["cards"])
+assert n >= 3, f"{p}: 아이템이 너무 적음({n}건)"
+print(f"OK {p}: {len(d['cards'])}섹션 {n}건")
+PY
+          done
+
+      - name: 지면 생성
+        run: python3 render.py
+
+      - name: 산출물 커밋
+        run: |
+          git config user.name "ETS News Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html archive.html search.html search-index.json weekly.html briefings companies
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "자동 빌드: 지면 재생성 ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

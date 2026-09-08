@@ -1,67 +1,105 @@
-# ────────────────────────────────────────────────────────────────
-# 이티에스 영업 인텔리전스 — 감시 대상 설정
+# ══════════════════════════════════════════════════════════════════
+#  이티에스 산업 브리핑 — 감시 대상 설정 (v2)
 #
-# 매일 아침 이 파일을 기준으로 뉴스를 조사·정제해 브리핑을 만듭니다.
-# 코드 몰라도 아래 목록만 고치면 됩니다. (넣기: 줄 추가 / 빼기: 줄 삭제
-# 또는 앞에 #을 붙여 주석 처리 / 잠시 끄기: enabled: false)
-# 수정 후 저장하면 다음 아침 브리핑부터 반영됩니다.
-# ────────────────────────────────────────────────────────────────
+#  매일 아침 이 파일을 기준으로 뉴스를 조사·정제해 브리핑을 만듭니다.
+#  코드 몰라도 됩니다. 규칙 3가지:
+#    · 넣기  : 줄을 추가
+#    · 빼기  : 줄을 지우거나 앞에 #을 붙여 주석 처리
+#    · 잠시 끄기 : enabled: false
+#  저장하면 다음 아침 브리핑부터 반영됩니다.
+# ══════════════════════════════════════════════════════════════════
 
 company:
   name: "ETS (이티에스)"
   products: ["전해액 주액 설비", "이차전지 조립 관련 장비", "AMR(자율주행로봇)"]
 
+# ── 작성 원칙 (자동 생성 세션이 따르는 규칙) ────────────────────────
+rules:
+  style: "사실(팩트) 중심. 무슨 일이 있었는지, 수치·날짜·출처를 반드시 포함. 주관적 판단·영업 시사점·우선순위·고객/경쟁사 라벨 금지. 확인 안 된 수치는 쓰지 않음."
+  item_length: "아이템당 3~5문장(배경→핵심 수치→후속 일정). 제목은 핵심 수치/사실을 담아 25자 내외."
+  items_per_section: {min: 3, max: 8}
+  freshness: "최근 1~2일 우선, 없으면 최근 1주. 기사 보도일을 date 필드에 기록."
+  dedupe: "최근 7일치 data/*.json 과 제목·URL이 겹치는 기사는 제외(새 소식만). 같은 사안의 후속 보도는 '후속:' 접두어로 1건만."
+  sources_kr: ["디일렉", "전자신문", "머니투데이", "한국경제", "매일경제", "뉴스핌", "이데일리", "연합뉴스", "배터리인사이드", "배터리투데이", "인더스트리뉴스", "헬로티", "고용노동부"]
+  sources_en: ["Reuters", "Bloomberg", "Electrive", "Battery-News.de", "Benchmark Mineral Intelligence", "BloombergNEF", "The Elec(EN)"]
+  link: "가능하면 원문 URL을 url 필드에 기록(클릭 시 기사로 이동)."
+
+# ── 섹션 (카드) ────────────────────────────────────────────────────
+#  type   : customer | maker | global | equipment | material | amr | policy
+#  accent : blue | teal | violet | rust | amber | slate   (카드 색)
 sections:
 
-  # ── 고객사 (기존) ──
-  - id: customer_lgensol
-    title: "LG에너지솔루션 (글로벌 전체)"
-    type: customer          # customer | prospect | competitor | amr | industry
-    priority: 3             # 별 개수(1~3)
+  - id: lgensol
+    title: "LG에너지솔루션"
+    subtitle: "글로벌 전체"
+    type: customer
+    accent: blue
+    icon: "🏭"
+    full: true
     enabled: true
-    watch: ["수주", "투자", "증설", "신규 공장", "라인 전환", "ESS", "원통형", "각형", "파우치"]
-    keywords: ["LG에너지솔루션", "LG엔솔", "Ultium", "애리조나", "미시간", "오하이오", "폴란드", "오창", "인도네시아", "캐나다 윈저"]
+    sites: ["오창", "폴란드 브로츠와프", "미국 미시간 홀랜드", "미국 미시간 랜싱", "미국 애리조나", "미국 오하이오(혼다 JV)", "미국 테네시(GM Ultium)", "캐나다 온타리오 윈저(NextStar)", "인도네시아(현대차 JV)", "중국 난징"]
+    watch: ["수주", "공급계약", "투자", "증설", "신규 공장", "라인 전환", "ESS", "46시리즈", "원통형", "각형", "파우치", "실적", "가동", "양산"]
+    keywords: ["LG에너지솔루션", "LG엔솔", "LGES", "LG Energy Solution", "Ultium Cells", "NextStar"]
 
-  # ── 잠재고객 (이차전지 제조사 전체) ──
-  - id: prospects_makers
-    title: "잠재고객 — 이차전지 제조사 전체"
-    type: prospect
-    priority: 2
+  - id: makers_kr
+    title: "국내 배터리사"
+    subtitle: "삼성SDI · SK온"
+    type: maker
+    accent: teal
+    icon: "🔋"
     enabled: true
-    watch: ["신규 공장", "증설", "투자", "전고체", "LFP", "벤더", "장비 발주"]
-    keywords: ["삼성SDI", "SK온", "파나소닉", "CATL", "BYD", "ACC", "PowerCo", "도요타 배터리", "노스볼트", "인도 배터리"]
+    companies: ["삼성SDI", "SK온"]
+    watch: ["수주", "투자", "증설", "전고체", "LFP", "ESS", "실적", "흑자", "신규 공장", "양산"]
 
-  # ── 경쟁사 (전해액 주액기 집중) ──
-  - id: competitors_filling
-    title: "경쟁사 — 전해액 주액기"
-    type: competitor
-    priority: 2
+  - id: makers_global
+    title: "글로벌 배터리사"
+    subtitle: "CATL · 파나소닉 · BYD 등"
+    type: global
+    accent: violet
+    icon: "🌐"
     enabled: true
-    watch: ["수주", "공급계약", "전해액 주액", "주입기", "턴키"]
-    companies: ["하나기술"]     # ← 아는 주액기 경쟁사를 계속 추가하세요
+    companies: ["CATL", "파나소닉", "BYD", "ACC", "PowerCo", "노스볼트 후속(Lyten 등)", "Tata Agratas", "Prime Planet(도요타)", "Envision AESC", "Freyr"]
+    watch: ["신규 공장", "착공", "가동", "투자", "증설", "수주", "합작", "gigafactory", "LFP", "solid-state"]
 
-  # ── 전후공정 동향 (앞·뒷라인, 발주 선행지표) ──
-  - id: process_prepost
-    title: "전후공정 동향 (앞·뒷라인)"
-    type: industry
-    priority: 1
+  - id: equipment
+    title: "장비·전해액 주액 수주"
+    subtitle: "국내 장비사"
+    type: equipment
+    accent: rust
+    icon: "🛠"
     enabled: true
-    companies: ["씨아이에스", "원익피앤이", "피엔티", "엠플러스"]
+    companies_filling: ["하나기술"]        # ← 전해액 주액기 만드는 회사를 계속 추가하세요
+    companies_line: ["씨아이에스", "원익피앤이", "피엔티", "엠플러스", "코엠", "디에이테크놀로지", "유일에너테크", "나인테크"]   # 앞·뒷라인(전극/활성화 등)
+    watch: ["수주", "공급계약", "공시", "턴키", "전해액 주액", "주입기", "조립", "수주잔고", "실적"]
 
-  # ── AMR·스마트팩토리 ──
+  - id: materials
+    title: "전해액·소재"
+    subtitle: "전해액 · 첨가제"
+    type: material
+    accent: slate
+    icon: "🧪"
+    enabled: true
+    companies: ["엔켐", "동화일렉트로라이트", "솔브레인", "천보", "후성"]
+    watch: ["전해액", "증설", "공급계약", "가격", "수출"]
+
   - id: amr
     title: "AMR·스마트팩토리"
+    subtitle: "제조·물류 자동화"
     type: amr
-    priority: 1
+    accent: slate
+    icon: "🤖"
     enabled: true
-    keywords: ["AMR", "자율주행로봇", "물류자동화", "스마트팩토리"]
+    keywords: ["AMR", "자율주행로봇", "물류로봇", "물류자동화", "스마트팩토리", "무인지게차"]
+    watch: ["도입", "시장", "수주", "공급", "규제", "표준"]
 
-  # ── 업계 동향(거시) ──
-  - id: industry_macro
-    title: "업계 동향"
-    type: industry
-    priority: 1
+  - id: policy_market
+    title: "정책·시장"
+    subtitle: "AMPC · 수출 · 시황"
+    type: policy
+    accent: amber
+    icon: "📊"
     enabled: true
-    keywords: ["이차전지 업황", "배터리 투자", "ESS 수요", "IRA", "보조금", "관세"]
+    keywords: ["IRA", "AMPC", "관세", "보조금", "이차전지 수출", "배터리 시황", "ESS 수요", "리튬 가격", "고용노동부 배터리"]
+    watch: ["법안", "시행령", "관세율", "수출 통계", "가격"]
 
-# 새 섹션이 필요하면 위 블록을 복사해서 추가하세요. (예: 환율·관세, 인사·조직 변화 등)
+# 새 섹션이 필요하면 위 블록을 복사해서 추가하세요. (예: 환율·관세, 인사·조직, 특정 지역)

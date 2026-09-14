@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-이티에스 산업 브리핑 — 무료 자동 수집기 (GitHub Actions에서 매일 실행, 과금·API 키·사람 개입 없음)
+이티에스 영업 브리핑 — 무료 자동 수집기 v3 (GitHub Actions에서 월~금 아침 실행, 과금·API 키·사람 개입 없음)
 
-수집원(3종, 모두 무료):
-  1) 언론사 직접 RSS(원문 링크·요약·날짜 포함)  → 섹션 키워드로 필터
-  2) Google News RSS 검색(한/영)                   → 링크 해독 후 원문 추출
-  3) Bing News RSS 검색(한/영)                     → 원문 링크 직접 제공
+흐름:  watchlist.yml(고객·경쟁사·키워드·규칙)
+       → 언론사/기관 RSS + Google News·Bing News 검색(한/영)
+       → 원문 링크 해독 → 리드 문단 추출 → 1~2문장 브리프
+       → 카테고리(①시장 ②고객사 ③업계 ④Project ⑤기술/정책) · 등급(A/B/C) · 신뢰도(★) · 태그
+       → 사안 기억(db/topics.json, 30일): 이미 실은 사안은 수치·일정이 바뀐 경우에만 '후속'으로 재게재
+       → data/<날짜>.json (스키마 v4)
 
-각 기사: 제목 · 원문 리드 문단(첫 3~5문장) 또는 RSS 요약 · 매체 · 보도일 · URL
-주관적 판단 없음. 최근 7일치와 제목/URL 중복 제외. 오늘 파일이 있으면 아무것도 하지 않음.
+주말·공휴일은 발행하지 않음. 오늘 파일이 있으면 아무것도 하지 않음. 판단 문장 없음(규칙표 결과만 기록).
 """
 from __future__ import annotations
 
@@ -24,14 +25,14 @@ from pathlib import Path
 
 import feedparser
 import requests
-import yaml
 from bs4 import BeautifulSoup
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import brieflib as B  # noqa: E402
+
+ROOT = B.ROOT
 DATA = ROOT / "data"
-WATCHLIST = ROOT / "watchlist.yml"
 KST = timezone(timedelta(hours=9))
-WEEKDAYS = ["월", "화", "수", "목", "금", "토", "일"]
 
 UA = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -41,39 +42,23 @@ GN_KO = "https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
 GN_EN = "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 BING = "https://www.bing.com/news/search?q={q}&format=rss&mkt={mkt}"
 
-# 언론사 직접 RSS (없는 주소는 자동으로 건너뜀)
-PUBLISHER_FEEDS = [
-    "https://www.hankyung.com/feed/industry", "https://www.hankyung.com/feed/economy",
-    "https://www.yna.co.kr/rss/industry.xml", "https://www.yna.co.kr/rss/economy.xml",
-    "https://www.mk.co.kr/rss/30100041/", "https://www.mk.co.kr/rss/50200011/",
-    "https://rss.etnews.com/Section901.xml", "https://rss.etnews.com/Section902.xml",
-    "https://www.thelec.kr/rss/allArticle.xml", "https://www.industrynews.co.kr/rss/allArticle.xml",
-    "https://www.batterynews.co.kr/rss/allArticle.xml", "https://www.hellot.net/rss/allArticle.xml",
-    "https://www.newspim.com/rss/newspim_all.xml", "https://rss.edaily.co.kr/edaily_news.xml",
-    "https://www.mt.co.kr/rss/mt_news.xml", "https://www.sedaily.com/RSS/S1N1.xml",
-    "https://www.ddaily.co.kr/rss/S1N1.xml", "https://www.fnnews.com/rss/fnnews_economy.xml",
-]
-
-FRESH_HOURS = 48
-FALLBACK_DAYS = 21
-MAX_ARTICLE_FETCH = 60
-MAX_QUERIES_PER_SECTION = 6
-MAX_ENTRIES_PER_FEED = 12
-MIN_BODY = 60
+MAX_ARTICLE_FETCH = 110
+MAX_ENTRIES_PER_FEED = 10
+MIN_BODY = 40
 
 SESSION = requests.Session()
 SESSION.headers.update(UA)
+
 
 # ----------------------------------------------------------------- 유틸
 def now_kst() -> datetime:
     return datetime.now(tz=KST)
 
-def norm_title(t: str) -> str:
-    return re.sub(r"[^0-9a-z가-힣]+", "", (t or "").lower())[:40]
 
 def clean(s: str) -> str:
     s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
     return re.sub(r"\s+", " ", s).strip()
+
 
 def split_title_source(raw: str) -> tuple[str, str]:
     raw = clean(raw)
@@ -82,6 +67,7 @@ def split_title_source(raw: str) -> tuple[str, str]:
         if head and len(tail) <= 30:
             return head.strip(), tail.strip()
     return raw, ""
+
 
 def to_dt(entry) -> datetime | None:
     st = entry.get("published_parsed") or entry.get("updated_parsed")
@@ -92,30 +78,6 @@ def to_dt(entry) -> datetime | None:
     except Exception:
         return None
 
-NUM_RE = re.compile(r"(\d[\d,\.]*\s?(?:조|억|만|천|GWh|MWh|kWh|Wh|%|달러|유로|원|배|년|개월|건|개|톤|대|GW|MW|억원|만원|명))")
-
-def highlight(text: str) -> str:
-    return NUM_RE.sub(r"<b>\1</b>", html.escape(text, quote=False))
-
-# 기사 본문에 섞여 들어오는 안내문·홍보문·구독 유도·주가 티커 문장 (걸리면 그 문장만 제거)
-BOILERPLATE = re.compile(
-    r"(Google 검색에서|구글 검색에서|더 자주 볼 수 있습니다|더 궁금한 점|앨리스가|AI가 요약|"
-    r"클릭하세요|클릭하시면|구독하기|구독하세요|뉴스레터|카카오톡 채널|채널 추가|"
-    r"무단 전재|무단전재|재배포 금지|저작권자|Copyright|ⓒ|©|"
-    r"기사 제보|제보는|광고문의|광고 문의|"
-    r"관련 기사|관련기사|기사 원문|원문 보기|사진=|사진 =|\[사진|"
-    r"기자\s*=|기자입니다|"
-    r"\d{1,3}(,\d{3})+원\s*[▲▼]|"
-    r"로그인|회원가입|공유하기|스크랩|글자 크기|글씨 크기)"
-)
-
-def sentences(text: str) -> list[str]:
-    text = re.sub(r"\s+", " ", text).strip()
-    parts = re.split(r"(?<=[다요음임됨함\.\!\?])\s+(?=[\"'“‘\(\[A-Z0-9가-힣])", text)
-    return [p.strip() for p in parts if len(p.strip()) >= 12 and not BOILERPLATE.search(p)]
-
-def host(u: str) -> str:
-    return urllib.parse.urlparse(u).netloc.replace("www.", "")
 
 # ----------------------------------------------------------------- 피드
 def fetch_feed(url: str):
@@ -127,34 +89,37 @@ def fetch_feed(url: str):
     except Exception:
         return []
 
-def entry_to_item(e, origin: str) -> dict | None:
-    title, src_t = split_title_source(e.get("title", ""))
+
+def entry_to_item(e, origin: str, feed_url: str = "") -> dict | None:
+    raw = e.get("title", "")
+    link = e.get("link", "")
+    if "dart.fss.or.kr" in (feed_url + link):
+        title, src_t = clean(raw), "DART 공시"
+    else:
+        title, src_t = split_title_source(raw)
     if not title:
         return None
     src = ""
     if isinstance(e.get("source"), dict):
         src = clean(e["source"].get("title", ""))
-    link = e.get("link", "")
-    return {"title": title, "link": link, "source": src or src_t or host(link),
-            "published": to_dt(e), "summary": clean(e.get("summary", "") or e.get("description", ""))[:700],
+    return {"title": title, "link": link, "source": src or src_t or B.host(link),
+            "published": to_dt(e), "summary": clean(e.get("summary", "") or e.get("description", ""))[:900],
             "origin": origin}
 
-_PUB_CACHE: list[dict] | None = None
-def publisher_items() -> list[dict]:
-    global _PUB_CACHE
-    if _PUB_CACHE is None:
-        items, ok = [], 0
-        for u in PUBLISHER_FEEDS:
-            ents = fetch_feed(u)
-            if ents:
-                ok += 1
-            for e in ents[:80]:
-                it = entry_to_item(e, "pub")
-                if it:
-                    items.append(it)
-        print(f"  · 언론사 RSS {ok}/{len(PUBLISHER_FEEDS)}개 응답, 기사 {len(items)}건")
-        _PUB_CACHE = items
-    return _PUB_CACHE
+
+def feed_items(feeds: list[str]) -> list[dict]:
+    items, ok = [], 0
+    for u in feeds:
+        ents = fetch_feed(u)
+        if ents:
+            ok += 1
+        for e in ents[:120]:
+            it = entry_to_item(e, "pub", u)
+            if it:
+                items.append(it)
+    print(f"  · 언론사/기관 RSS {ok}/{len(feeds)}개 응답, 기사 {len(items)}건")
+    return items
+
 
 def search(query: str, lang: str) -> list[dict]:
     q = urllib.parse.quote(query)
@@ -167,6 +132,7 @@ def search(query: str, lang: str) -> list[dict]:
             if it:
                 out.append(it)
     return out
+
 
 # ----------------------------------------------------------------- 원문 URL·본문
 def decode_gnews(link: str) -> str | None:
@@ -219,6 +185,7 @@ def decode_gnews(link: str) -> str | None:
     except Exception:
         return None
 
+
 def resolve_url(link: str) -> str:
     try:
         p = urllib.parse.urlparse(link)
@@ -227,11 +194,11 @@ def resolve_url(link: str) -> str:
             if qs.get("url"):
                 return qs["url"][0]
         if "news.google.com" in p.netloc:
-            real = decode_gnews(link)
-            return real or link
+            return decode_gnews(link) or link
         return link
     except Exception:
         return link
+
 
 BODY_SELECTORS = [
     "article", "#articleBody", "#article-view-content-div", ".article_body", ".article-body",
@@ -239,7 +206,9 @@ BODY_SELECTORS = [
     "#dic_area", ".news-article-body", "#news_body_area", ".view_con", "#CmAdContent", ".article-content",
 ]
 
+
 def extract_lead(url: str) -> tuple[str, str]:
+    """→ (본문 앞부분 텍스트, 최종 URL)"""
     try:
         r = SESSION.get(url, timeout=(5, 10), allow_redirects=True)
         if r.status_code != 200 or not r.text:
@@ -258,155 +227,209 @@ def extract_lead(url: str) -> tuple[str, str]:
         text = " ".join(paras) if paras else (node.get_text(" ", strip=True) if node else "")
         text = re.sub(r"^\[[^\]]{2,25}\]\s*", "", text)
         text = re.sub(r"^[가-힣A-Za-z\s]{2,15}기자\s*=\s*", "", text)
-        lead, total = [], 0
-        for s in sentences(text):
-            lead.append(s); total += len(s)
-            if (len(lead) >= 3 and total >= 180) or len(lead) >= 5 or total >= 420:
-                break
-        body = " ".join(lead).strip()
-        return (body if len(body) >= MIN_BODY else ""), r.url
+        return text[:1500], r.url
     except Exception:
         return "", url
 
-# ----------------------------------------------------------------- 수집 본체
-def load_recent_keys(days: int = 7) -> tuple[set, set]:
-    titles, urls = set(), set()
-    for f in sorted(DATA.glob("*.json"), reverse=True)[:days]:
-        try:
-            d = json.loads(f.read_text(encoding="utf-8"))
-        except Exception:
-            continue
-        for c in d.get("cards", []):
-            for it in c.get("items", []):
-                titles.add(norm_title(it.get("h", "")))
-                if it.get("url"):
-                    urls.add(it["url"].split("?")[0])
-    return titles, urls
 
-def section_terms(sec: dict) -> list[str]:
-    names = (sec.get("companies") or []) + (sec.get("companies_filling") or []) + (sec.get("companies_line") or []) \
-            + (sec.get("keywords") or []) + (sec.get("sites") or [])
-    return [n.split("(")[0].strip() for n in names if n and len(n.split("(")[0].strip()) >= 2]
-
-def section_queries(sec: dict) -> list[tuple[str, str]]:
-    watch = sec.get("watch") or []
-    names = (sec.get("companies") or []) + (sec.get("companies_filling") or []) + (sec.get("companies_line") or []) + (sec.get("keywords") or [])
-    qs: list[tuple[str, str]] = []
-    for n in names[:MAX_QUERIES_PER_SECTION]:
-        w = " ".join(watch[:2]) if watch else ""
-        is_en = bool(re.fullmatch(r"[A-Za-z0-9 \-\(\)\.]+", n)) and sec.get("type") in ("global", "policy")
-        qs.append((f"{n} {w}".strip(), "en" if is_en else "ko"))
+# ----------------------------------------------------------------- 검색어 생성
+def build_queries(wl: dict) -> list[tuple[str, str, str]]:
+    """→ [(query, lang, label)]"""
+    qs: list[tuple[str, str, str]] = []
+    cw = wl.get("customer_watch") or {}
+    for c in wl.get("customers") or []:
+        lang = c.get("lang", "ko")
+        watch = cw.get(lang) or []
+        if watch:
+            qs.append((f'{c["name"]} ({" OR ".join(watch[:6])})', lang, f'고객 {c["name"]}'))
+        if lang == "en" and cw.get("ko"):
+            qs.append((f'{c["name"]} ({" OR ".join((cw.get("ko") or [])[:4])})', "ko", f'고객 {c["name"]}(국내보도)'))
+    kw = wl.get("competitor_watch") or {}
+    for c in wl.get("competitors") or []:
+        lang = c.get("lang", "ko")
+        watch = kw.get(lang) or []
+        qs.append((f'{c["name"]} ({" OR ".join(watch[:4])})' if watch else c["name"], lang, f'경쟁 {c["name"]}'))
+    mq = wl.get("market_queries") or {}
+    for q in mq.get("ko") or []:
+        qs.append((q, "ko", f"시장 {q}"))
+    for q in mq.get("en") or []:
+        qs.append((q, "en", f"시장 {q}"))
     return qs
 
-def entity_of(sec: dict, text: str) -> str:
-    low = text.lower()
-    for key in section_terms(sec):
-        if key.lower() in low:
-            return key
-    return sec.get("title", "")
 
-def matches_section(sec: dict, it: dict) -> bool:
-    hay = f"{it['title']} {it['summary']}".lower()
-    return any(t.lower() in hay for t in section_terms(sec))
+# ----------------------------------------------------------------- 발행 여부
+def should_publish(now: datetime, wl: dict) -> tuple[bool, str]:
+    sch = wl.get("schedule") or {}
+    today = now.strftime("%Y-%m-%d")
+    if sch.get("weekdays_only", True) and now.weekday() >= 5:
+        return False, f"{today} 은 주말이라 발행하지 않습니다."
+    if today in set(sch.get("holidays") or []):
+        return False, f"{today} 은 공휴일이라 발행하지 않습니다."
+    return True, ""
 
-def collect_section(sec: dict, rules: dict, seen_titles: set, seen_urls: set, budget: dict) -> list[dict]:
-    now = now_kst()
-    lim = rules.get("items_per_section", {}) if isinstance(rules, dict) else {}
-    mn, mx = int(lim.get("min", 3)), int(lim.get("max", 8))
 
-    pool: dict[str, dict] = {}
-    # 1) 언론사 RSS(키워드 필터) 2) 검색 RSS
-    for it in publisher_items():
-        if matches_section(sec, it):
-            k = norm_title(it["title"])
-            if k and k not in pool and k not in seen_titles:
-                pool[k] = it
-    for q, lang in section_queries(sec):
-        for it in search(q, lang):
-            k = norm_title(it["title"])
-            if k and k not in pool and k not in seen_titles:
-                pool[k] = it
+def window_hours(now: datetime, wl: dict) -> int:
+    sch = wl.get("schedule") or {}
+    if now.weekday() == 0:
+        return int(sch.get("window_hours_monday", 84))
+    return int(sch.get("window_hours", 36))
 
-    cands = list(pool.values())
-    for it in cands:
-        if it["published"] is None:
-            it["published"] = now - timedelta(hours=FRESH_HOURS - 1)   # 날짜 없으면 최근으로 간주
-    fresh = [e for e in cands if (now - e["published"]) <= timedelta(hours=FRESH_HOURS)]
-    if len(fresh) < mn:
-        fresh = [e for e in cands if (now - e["published"]) <= timedelta(days=FALLBACK_DAYS)]
-    # 원문 링크가 확실한 것(언론사·Bing) 우선, 그다음 최신순
-    fresh.sort(key=lambda e: (e["origin"] == "gnews", -e["published"].timestamp()))
 
-    stats = {"pub": 0, "bing": 0, "gnews": 0, "extracted": 0, "summary": 0, "skipped": 0}
-    items = []
-    for e in fresh:
-        if len(items) >= mx or budget["fetch"] <= 0:
-            break
-        budget["fetch"] -= 1
-        url = resolve_url(e["link"])
-        if url.split("?")[0] in seen_urls:
-            continue
-        body, final = ("", url)
-        if "news.google.com" not in host(url):
-            body, final = extract_lead(url)
-        if body:
-            stats["extracted"] += 1
-        elif len(e["summary"]) >= MIN_BODY:
-            body = e["summary"]; stats["summary"] += 1
-        else:
-            stats["skipped"] += 1
-            continue
-        stats[e["origin"]] = stats.get(e["origin"], 0) + 1
-        items.append({
-            "h": html.escape(e["title"], quote=False),
-            "b": highlight(body),
-            "src": e["source"] or host(final),
-            "url": final if "news.google.com" not in host(final) else e["link"],
-            "company": entity_of(sec, f"{e['title']} {body}"),
-            "date": e["published"].strftime("%Y-%m-%d"),
-        })
-        seen_titles.add(norm_title(e["title"])); seen_urls.add(final.split("?")[0])
-        time.sleep(0.2)
-    print(f"  · {sec.get('title')}: 후보 {len(cands)}(최근 {len(fresh)}) → 게재 {len(items)} "
-          f"[원문추출 {stats['extracted']}, 요약사용 {stats['summary']}, 제외 {stats['skipped']} | 언론사 {stats['pub']}, bing {stats['bing']}, gnews {stats['gnews']}]")
-    return items
-
+# ----------------------------------------------------------------- 본체
 def main() -> int:
     now = now_kst()
-    today, wd = now.strftime("%Y-%m-%d"), WEEKDAYS[now.weekday()]
+    today = now.strftime("%Y-%m-%d")
+    wl = B.load_watchlist()
+    ok, why = should_publish(now, wl)
+    if not ok:
+        print(why); return 0
     out = DATA / f"{today}.json"
     if out.exists():
         print(f"이미 생성됨: {out.name}"); return 0
 
-    wl = yaml.safe_load(WATCHLIST.read_text(encoding="utf-8")) or {}
     rules = wl.get("rules") or {}
-    seen_titles, seen_urls = load_recent_keys()
-    budget = {"fetch": MAX_ARTICLE_FETCH}
+    clf = B.Classifier(wl)
+    mem = B.TopicMemory(int(rules.get("topic_memory_days", 30)))
+    mem.prune(now.date())
+    hours = window_hours(now, wl)
+    print(f"=== {today} ({B.WEEKDAYS[now.weekday()]}) 수집 시작 · 최근 {hours}시간 · 기억된 사안 {len(mem.rows)}건")
 
-    cards, total = [], 0
-    for sec in wl.get("sections", []):
-        if not sec.get("enabled", True):
+    # 1) 후보 수집
+    pool: dict[str, dict] = {}
+    seen_nt = {r.get("nt") for r in mem.rows}
+    seen_url = {r.get("url", "").split("?")[0] for r in mem.rows}
+
+    def add(it: dict, label: str):
+        k = B.norm_title(it["title"])
+        if not k or k in pool or k in seen_nt:
+            return
+        pre = clf.classify(it["title"], it["summary"])
+        if not pre:
+            return
+        it["pre"] = pre; it["label"] = label
+        pool[k] = it
+
+    for it in feed_items(wl.get("feeds") or []):
+        add(it, "RSS")
+    queries = build_queries(wl)
+    print(f"  · 검색어 {len(queries)}개 (Google News + Bing News)")
+    for q, lang, label in queries:
+        for it in search(q, lang):
+            add(it, label)
+        time.sleep(0.15)
+
+    cands = list(pool.values())
+    for it in cands:
+        if it["published"] is None:
+            it["published"] = now - timedelta(hours=1)
+    fresh = [e for e in cands if (now - e["published"]) <= timedelta(hours=hours)]
+    order = {"A": 0, "B": 1, "C": 2}
+    fresh.sort(key=lambda e: (order.get(e["pre"]["grade"], 3), e["origin"] == "gnews", -e["published"].timestamp()))
+    print(f"  · 후보 {len(cands)}건 → 기간 내 {len(fresh)}건")
+
+    # 2) 원문 확인·브리프·분류·사안 기억
+    n_sent = int(rules.get("brief_sentences", 2)); max_chars = int(rules.get("brief_max_chars", 170))
+    cap = int(rules.get("items_per_section_max", 10))
+    need_change = bool(rules.get("followup_needs_change", True))
+    sections = clf.skeleton()
+    sec_index = {s["id"]: s for s in sections}
+    counts: dict[str, int] = {}
+    stats = {"fetched": 0, "published": 0, "followup": 0, "suppressed": 0, "nobody": 0, "unclassified": 0, "capped": 0}
+    budget = MAX_ARTICLE_FETCH
+    seq = 0
+
+    for e in fresh:
+        if budget <= 0:
+            break
+        budget -= 1; stats["fetched"] += 1
+        url = resolve_url(e["link"])
+        if url.split("?")[0] in seen_url:
             continue
-        items = collect_section(sec, rules, seen_titles, seen_urls, budget)
-        total += len(items)
-        cards.append({"id": sec.get("id"), "accent": sec.get("accent", "slate"), "icon": sec.get("icon", "•"),
-                      "title": sec.get("title", ""), "subtitle": sec.get("subtitle", ""),
-                      "full": bool(sec.get("full", False)), "items": items})
+        lead, final = ("", url)
+        if "news.google.com" not in B.host(url):
+            lead, final = extract_lead(url)
+        text = lead if len(lead) >= MIN_BODY else e["summary"]
+        brief = B.make_brief(text, n_sent, max_chars)
+        if len(brief) < MIN_BODY:
+            stats["nobody"] += 1
+            continue
+        cls = clf.classify(e["title"], f"{brief} {lead[:600]}")
+        if not cls:
+            stats["unclassified"] += 1
+            continue
+        if counts.get(cls["cat"], 0) >= cap:
+            stats["capped"] += 1
+            continue
+        final_url = final if "news.google.com" not in B.host(final) else e["link"]
+        item = {
+            "id": f"{today}-{seq}",
+            "h": html.escape(e["title"], quote=False),
+            "b": B.highlight(brief),
+            "src": e["source"] or B.host(final_url),
+            "url": final_url,
+            "date": e["published"].strftime("%Y-%m-%d"),
+            "cat": cls["cat"], "group": cls["group"], "entity": cls["entity"], "related": cls["related"],
+            "tags": cls["tags"], "grade": cls["grade"], "rel": clf.reliability(final_url),
+            "followup": None,
+        }
+        prev = mem.find(item["entity"], item["cat"], item["group"], e["title"], final_url)
+        if prev:
+            changes = B.TopicMemory.change(prev, e["title"], brief)
+            if need_change and not changes:
+                stats["suppressed"] += 1
+                continue
+            item["followup"] = {"prev_date": prev.get("date", ""), "prev_h": prev.get("h", ""),
+                                "change": ", ".join(changes[:5])}
+            stats["followup"] += 1
+        sec = sec_index[cls["cat"]]
+        grp = next((g for g in sec["groups"] if g["id"] == cls["group"]), None)
+        if grp is None:
+            grp = {"id": cls["group"], "title": "", "items": []}; sec["groups"].append(grp)
+        grp["items"].append(item)
+        counts[cls["cat"]] = counts.get(cls["cat"], 0) + 1
+        mem.remember(item, today)
+        seen_nt.add(B.norm_title(e["title"])); seen_url.add(final_url.split("?")[0])
+        seq += 1; stats["published"] += 1
+        time.sleep(0.2)
 
-    if total < 3:
-        print(f"수집 결과가 너무 적어({total}건) 오늘 파일을 만들지 않습니다.", file=sys.stderr)
+    total = stats["published"]
+    print(f"  · 원문확인 {stats['fetched']} → 게재 {total} (후속 {stats['followup']}) | 미변경 제외 {stats['suppressed']}, "
+          f"본문없음 {stats['nobody']}, 분류불가 {stats['unclassified']}, 섹션초과 {stats['capped']}")
+    for s in sections:
+        n = sum(len(g["items"]) for g in s["groups"])
+        print(f"    - {s['title']}: {n}건")
+
+    if total < int(rules.get("min_items_to_publish", 2)):
+        print(f"수집 결과가 너무 적어({total}건) 오늘 호를 만들지 않습니다.", file=sys.stderr)
         return 1
 
-    heads = [c["items"][0]["h"] for c in cards if c["items"]][:6]
-    summary = " · ".join(re.sub(r"<[^>]+>", "", h)[:28] for h in heads)
-    srcs = sorted({it["src"] for c in cards for it in c["items"] if it.get("src")})
-    data = {"date": today, "weekday": wd, "edition": "조간", "summary": summary, "cards": cards,
-            "sources": "출처: " + "·".join(srcs[:14]) + " 등. 제목을 누르면 원문으로 이동합니다.",
-            "note": "본 브리핑은 공개 보도의 원문 리드 문단(또는 요약)을 자동 추출·정리한 사실 정보이며, 수치·계약 세부는 원문/공시로 최종 확인하시기 바랍니다."}
+    # 3) 1면 톱(A등급 → 신뢰도 → 최신)
+    allitems = [it for s in sections for g in s["groups"] for it in g["items"]]
+    tops = sorted([it for it in allitems if it["grade"] == "A"], key=lambda it: (-it["rel"], it["date"]), reverse=False)
+    tops = sorted(tops, key=lambda it: (-it["rel"], -int(it["date"].replace("-", ""))))[:4]
+    if not tops:
+        tops = sorted([it for it in allitems if it["grade"] == "B"], key=lambda it: (-it["rel"], -int(it["date"].replace("-", ""))))[:1]
+    site = wl.get("site") or {}
+    hol = set((wl.get("schedule") or {}).get("holidays") or [])
+    data = {
+        "schema": 4,
+        "date": today, "weekday": B.WEEKDAYS[now.weekday()],
+        "edition": site.get("edition", "조간"),
+        "issue_no": B.issue_no(site.get("first_issue_date", today), today, hol),
+        "window_hours": hours,
+        "summary": " · ".join(B.strip_tags(it["h"])[:30] for it in tops[:4]),
+        "top": [it["id"] for it in tops],
+        "sections": sections,
+        "stats": stats,
+        "sources": sorted({it["src"] for it in allitems if it.get("src")}),
+        "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오.",
+    }
     DATA.mkdir(exist_ok=True)
-    out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"저장 {out.name} · 섹션 {len(cards)}개 · 아이템 {total}건")
+    out.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    mem.save()
+    print(f"저장 {out.name} · 제{data['issue_no']}호 · {total}건 · 톱 {len(tops)}건 · 사안 DB {len(mem.rows)}건")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

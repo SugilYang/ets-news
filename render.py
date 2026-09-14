@@ -1,438 +1,650 @@
 #!/usr/bin/env python3
 """
-이티에스 산업 브리핑 — 지면 생성기 v3
+이티에스 영업 브리핑 — 지면 생성기 v4 (신문 형식)
 
-data/*.json (하루치 내용)을 읽어 정적 사이트를 생성합니다.
-  index.html                : 홈 = 가장 최근 브리핑
-  briefings/<날짜>.html     : 날짜별 브리핑 (◀ 이전 / 다음 ▶ 이동)
-  archive.html              : 지난 자료 목록
-  companies/index.html      : 회사별 모아보기 목록
-  companies/<회사>.html     : 회사별 누적 타임라인
-  search.html               : 검색(키워드·회사)
-  weekly.html               : 최근 7일 회사별 주간 요약(사실 롤업)
-  search-index.json         : 검색 인덱스
-
-원칙: 사실(팩트) 중심. 디자인은 이 파일에 고정, 내용은 data/로 매일 추가.
-표준 라이브러리만 사용.
+data/<날짜>.json(스키마 v4) → index.html(최신 호) · briefings/<날짜>.html · archive.html(달력) ·
+companies/*.html(회사별 누적) · search.html + search-index.json · weekly.html + weekly/<주>.html(주간 종합 3면)
+표준 라이브러리 + PyYAML(watchlist 읽기)만 사용.
 """
 from __future__ import annotations
-import html, json, re, sys
+
+import calendar
+import html
+import json
+import re
+import sys
 from datetime import date as _date, timedelta
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(Path(__file__).resolve().parent / "scripts"))
+import brieflib as B  # noqa: E402
+
+ROOT = B.ROOT
 DATA = ROOT / "data"
 BRIEF = ROOT / "briefings"
 COMP = ROOT / "companies"
+WEEK = ROOT / "weekly"
 
-SITE = "이티에스 산업 브리핑"
-SITE_EN = "ETS INDUSTRY BRIEFING"
-LOGO = "assets/logo.png"   # 회사 로고 (없으면 자동 숨김)
+WL = B.load_watchlist()
+SITE = (WL.get("site") or {}).get("name", "이티에스 영업 브리핑")
+SITE_EN = (WL.get("site") or {}).get("name_en", "ETS SALES BRIEFING")
+NAV = [("index.html", "오늘 브리핑", "today"), ("archive.html", "지난 호", "archive"),
+       ("companies/index.html", "회사별", "companies"), ("search.html", "검색", "search"),
+       ("weekly.html", "주간 종합", "weekly")]
+CAT_TITLE = {c["id"]: c.get("title", c["id"]) for c in WL.get("categories") or []}
+CUSTOMER_NAMES = [c["name"] for c in WL.get("customers") or []]
+COMPETITORS = WL.get("competitors") or []
+COMPETITOR_NAMES = [c["name"] for c in COMPETITORS]
 
-NAV = [
-    ("index.html", "오늘 브리핑", "today"),
-    ("archive.html", "지난 자료", "archive"),
-    ("companies/index.html", "회사별", "companies"),
-    ("search.html", "검색", "search"),
-    ("weekly.html", "주간 요약", "weekly"),
-]
+esc = lambda s: html.escape(str(s or ""), quote=True)  # noqa: E731
 
-# ---------------------------------------------------------------- utils
-def esc(v) -> str:
-    return html.escape(str(v if v is not None else ""), quote=True)
 
-def strip_tags(s: str) -> str:
-    return re.sub(r"<[^>]+>", "", s or "")
+def slug(s: str) -> str:
+    return re.sub(r"[^0-9A-Za-z가-힣]+", "-", s).strip("-").lower() or "x"
 
-def slug(name: str) -> str:
-    s = re.sub(r"[^0-9A-Za-z가-힣]+", "-", name or "").strip("-").lower()
-    return s or "etc"
 
 def parse_date(s: str) -> _date | None:
     try:
-        y, m, d = s.split("-"); return _date(int(y), int(m), int(d))
+        return _date.fromisoformat(s)
     except Exception:
         return None
 
-# ---------------------------------------------------------------- style
-FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
-         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900'
-         '&family=Noto+Sans+KR:wght@400;500;700&family=Nunito:wght@800&display=swap" rel="stylesheet">')
 
-STYLE = """
+def short_date(s: str) -> str:
+    d = parse_date(s)
+    return f"{d.month}/{d.day}" if d else s
+
+
+FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900'
+         '&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">')
+
+STYLE = r"""
 :root{
-  --ink:#16202b;--text:#2b3644;--muted:#6a7688;--paper:#f3f5f8;--card:#fff;--line:#e1e6ed;
-  --accent:#0e9b86;--accent-bg:#e3f4f0;--accent-ink:#0b7a6a;--brand-gray:#5b6670;
-  --c-blue:#1d4f8a;--c-blue-bg:#e9f0f9;--c-teal:#0e9b86;--c-teal-bg:#e3f4f0;
-  --c-violet:#5b3fb8;--c-violet-bg:#efeafb;--c-rust:#b8442e;--c-rust-bg:#fbebe7;
-  --c-amber:#946400;--c-amber-bg:#faf2dc;--c-slate:#4b5b70;--c-slate-bg:#eceff4;
+  --ink:#111417;--text:#2a2f36;--muted:#6b7280;--faint:#9aa3ad;--rule:#1b1f24;--hair:#d9d5cc;--hair2:#e8e4da;
+  --paper:#efece4;--sheet:#fbfaf6;--accent:#b3261e;--accent-bg:#fbeeed;--brand:#0e9b86;--brand-bg:#e4f3ef;
   --serif:'Noto Serif KR','Apple SD Gothic Neo','Malgun Gothic',serif;
   --sans:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--text);font-family:var(--sans);line-height:1.6;
   font-variant-numeric:tabular-nums;word-break:keep-all;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
-b,strong{font-weight:700}
 a{color:inherit}
-.wrap{max-width:1200px;margin:0 auto;padding:0 18px 48px}
+b,strong{font-weight:700}
+.sheet{max-width:1180px;margin:14px auto 40px;background:var(--sheet);border:1px solid var(--hair);box-shadow:0 1px 3px rgba(0,0,0,.06);padding:0 28px 34px}
 
-/* 브랜드 바(제호) */
-.masthead{background:#fff;border-bottom:3px solid var(--accent)}
-.mast-inner{max-width:1200px;margin:0 auto;padding:14px 18px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:16px;min-width:0}
-.brand .logo{height:44px;width:auto;display:block}
-.brand .logo-svg{display:block;line-height:0}
-.brand .logo-svg svg{height:44px;width:auto;display:block}
-.brand .divider{width:1px;height:38px;background:var(--line)}
-.brand .name{font-family:var(--serif);font-weight:800;font-size:23px;color:var(--ink);line-height:1.15;letter-spacing:.01em}
-.brand .name small{display:block;font-family:var(--sans);font-weight:500;font-size:10.5px;color:var(--brand-gray);
-  letter-spacing:.22em;margin-bottom:3px}
-.mast-meta{margin-left:auto;text-align:right;font-size:13px;color:var(--muted);line-height:1.4}
-.mast-meta b{display:block;color:var(--ink);font-size:14px}
+/* ── 제호 ── */
+.mast{border-top:4px solid var(--rule);border-bottom:1px solid var(--rule);padding:16px 0 12px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px}
+.mast .left{display:flex;align-items:center;gap:14px}
+.mast .logo{height:44px;width:auto;display:block}
+.mast .center{text-align:center}
+.mast .en{font-family:var(--sans);font-size:11px;letter-spacing:.32em;color:var(--muted);font-weight:500;margin-bottom:2px}
+.mast .name{font-family:var(--serif);font-weight:900;font-size:40px;line-height:1.1;color:var(--ink);letter-spacing:.02em;text-decoration:none;display:block}
+.mast .right{text-align:right;font-size:12.5px;color:var(--muted);line-height:1.5}
+.mast .right b{display:block;color:var(--ink);font-size:14px;font-family:var(--serif)}
+.dateline{border-bottom:3px double var(--rule);display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;font-size:13px;color:var(--ink)}
+.dateline .issue{font-family:var(--serif);font-weight:700}
+.dateline .pub{color:var(--muted)}
+.nav{display:flex;justify-content:center;gap:0;border-bottom:1px solid var(--rule);margin-bottom:6px;overflow-x:auto}
+.nav a{padding:9px 18px;font-size:13.5px;font-weight:700;text-decoration:none;color:var(--ink);border-left:1px solid var(--hair);white-space:nowrap;letter-spacing:.02em}
+.nav a:first-child{border-left:0}
+.nav a.on{color:var(--brand);box-shadow:inset 0 -3px 0 var(--brand)}
+.nav a:hover{background:#f1efe8}
 
-/* 내비 */
-.nav{background:#1e2a36}
-.nav-inner{max-width:1200px;margin:0 auto;display:flex;gap:2px;padding:0 10px;overflow-x:auto}
-.nav a{color:#c9d3df;font-size:13.5px;font-weight:600;padding:11px 14px;text-decoration:none;
-  border-bottom:3px solid transparent;white-space:nowrap}
-.nav a:hover{color:#fff}
-.nav a.on{color:#fff;border-bottom-color:var(--accent)}
+/* ── 호 이동 ── */
+.issuenav{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);padding:8px 0 0}
+.issuenav a{color:var(--ink);text-decoration:none;font-weight:700}
+.issuenav a:hover{color:var(--brand)}
+.issuenav .dis{color:var(--faint)}
 
-/* 날짜 이동 */
-.datenav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0 0;
-  background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:13px}
-.datenav a{text-decoration:none;color:var(--accent-ink);font-weight:700;padding:4px 8px;border-radius:6px;white-space:nowrap}
-.datenav a:hover{background:var(--accent-bg)}
-.datenav .cur{font-weight:800;color:var(--ink);font-size:14px;white-space:nowrap;text-align:center}
-.datenav .dis{color:#b9c2cd;padding:4px 8px;white-space:nowrap}
-.lead{margin:14px 0 0;background:var(--accent-bg);border-left:4px solid var(--accent);border-radius:0 8px 8px 0;
-  padding:10px 14px;font-size:13.5px;line-height:1.7;color:var(--accent-ink)}
-.lead b{color:var(--ink)}
+/* ── 1면 톱 ── */
+.front{display:grid;grid-template-columns:7fr 4fr;gap:0 28px;padding:18px 0 20px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+.front .lead-story{border-right:1px solid var(--hair);padding-right:28px}
+.kicker{font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin-bottom:6px}
+.lead-story h1{font-family:var(--serif);font-weight:900;font-size:31px;line-height:1.3;margin:0 0 10px;color:var(--ink)}
+.lead-story h1 a{text-decoration:none}
+.lead-story h1 a:hover{color:var(--accent)}
+.lead-story .b{font-size:15.5px;line-height:1.75;margin:0 0 8px;color:var(--text)}
+.front .side h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--muted);font-weight:700;margin:0 0 6px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
+.front .side .item{padding:10px 0}
+.front .side .item .h{font-size:16px}
+.front .side .item .b{display:none}
+.summary{font-size:13px;color:var(--muted);padding:6px 0 0;border-top:1px dotted var(--hair);margin-top:6px}
+.summary b{color:var(--ink)}
 
-/* 카드 */
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
-@media(max-width:840px){.grid{grid-template-columns:1fr}}
-.full{grid-column:1 / -1}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
-  box-shadow:0 1px 2px rgba(22,32,43,.04)}
-.card-head{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:2px solid var(--line)}
-.card-head .icon{width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;
-  font-size:17px;flex:none}
-.card-head h3{margin:0;font-family:var(--serif);font-size:17px;font-weight:800;color:var(--ink)}
-.card-head .sub{font-family:var(--sans);font-size:12px;color:var(--muted);font-weight:500;margin-left:4px}
-.card-head .cnt{margin-left:auto;font-size:11px;color:var(--muted);background:var(--c-slate-bg);padding:2px 9px;border-radius:20px}
-.card-body{padding:2px 16px 8px}
-.item{padding:12px 0;border-bottom:1px solid var(--line)}
+/* ── 섹션 ── */
+.section{margin:18px 0 6px}
+.sec-head{display:flex;align-items:baseline;gap:10px;border-top:3px solid var(--rule);border-bottom:1px solid var(--rule);padding:7px 0 6px;margin-bottom:10px}
+.sec-head .no{font-family:var(--serif);font-weight:900;font-size:18px;color:var(--ink)}
+.sec-head h2{font-family:var(--serif);font-weight:900;font-size:21px;margin:0;color:var(--ink);letter-spacing:.01em}
+.sec-head .sub{font-size:12.5px;color:var(--muted)}
+.sec-head .cnt{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.cols{column-count:3;column-gap:28px;column-rule:1px solid var(--hair)}
+.cols.two{column-count:2}
+.group{break-inside:avoid;margin-bottom:8px}
+.group h3{font-family:var(--serif);font-size:14.5px;font-weight:700;color:var(--ink);margin:0 0 2px;padding:4px 0;border-bottom:2px solid var(--ink);display:flex;align-items:center;gap:8px}
+.group h3 .gcnt{font-family:var(--sans);font-size:11px;color:var(--muted);font-weight:500;margin-left:auto}
+.item{break-inside:avoid;padding:10px 0;border-bottom:1px dotted var(--hair)}
 .item:last-child{border-bottom:0}
-.item .h{margin:0;font-size:15px;font-weight:700;line-height:1.5;color:var(--ink);text-wrap:pretty}
-.item .h a{text-decoration:none;border-bottom:1px solid transparent}
-.item .h a:hover{color:var(--accent-ink);border-bottom-color:var(--accent)}
-.item .h a::after{content:" ↗";font-size:11px;color:var(--accent);font-weight:500}
-.item .b{margin:6px 0 0;font-size:13.5px;color:var(--text);line-height:1.75;max-width:72ch}
-.item .b b{color:var(--ink);font-weight:700}
-.item .meta{margin-top:7px;font-size:11.5px;line-height:1.5;color:var(--muted);display:flex;gap:6px 8px;flex-wrap:wrap;align-items:center}
-.chip{display:inline-block;font-size:11px;font-weight:700;line-height:1.5;padding:1px 8px;border-radius:20px;
-  background:var(--accent-bg);color:var(--accent-ink);white-space:nowrap}
-.chip.k{background:var(--c-slate-bg);color:var(--c-slate)}
-.accent-blue .icon{background:var(--c-blue-bg)} .accent-blue .card-head{border-bottom-color:var(--c-blue)}
-.accent-teal .icon{background:var(--c-teal-bg)} .accent-teal .card-head{border-bottom-color:var(--c-teal)}
-.accent-violet .icon{background:var(--c-violet-bg)} .accent-violet .card-head{border-bottom-color:var(--c-violet)}
-.accent-rust .icon{background:var(--c-rust-bg)} .accent-rust .card-head{border-bottom-color:var(--c-rust)}
-.accent-amber .icon{background:var(--c-amber-bg)} .accent-amber .card-head{border-bottom-color:var(--c-amber)}
-.accent-slate .icon{background:var(--c-slate-bg)} .accent-slate .card-head{border-bottom-color:var(--c-slate)}
-/* 구버전 호환 */
-.accent-purple .icon{background:var(--c-violet-bg)} .accent-purple .card-head{border-bottom-color:var(--c-violet)}
-.accent-red .icon{background:var(--c-rust-bg)} .accent-red .card-head{border-bottom-color:var(--c-rust)}
-.accent-gray .icon{background:var(--c-slate-bg)}
+.item .h{margin:0;font-family:var(--serif);font-size:16.5px;font-weight:700;line-height:1.45;color:var(--ink);text-wrap:pretty}
+.item .h a{text-decoration:none}
+.item .h a:hover{color:var(--accent)}
+.item .b{margin:5px 0 0;font-size:13.5px;line-height:1.7;color:var(--text)}
+.item .b b{color:var(--ink)}
+.meta{margin-top:6px;font-size:11.5px;line-height:1.6;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.meta .src{color:var(--ink);font-weight:500}
+.meta .more{margin-left:auto;text-decoration:none;color:var(--brand);font-weight:700;white-space:nowrap}
+.meta .more:hover{text-decoration:underline}
+.stars{color:#c9a227;letter-spacing:-.05em;font-size:11px}
+.stars .off{color:#d9d5cc}
+.g{display:inline-block;font-size:10.5px;font-weight:700;line-height:1.4;padding:0 6px;border-radius:2px;border:1px solid var(--ink);color:var(--ink);letter-spacing:.04em}
+.g.A{background:var(--accent);border-color:var(--accent);color:#fff}
+.g.B{background:var(--ink);color:#fff}
+.g.C{color:var(--muted);border-color:var(--faint)}
+.tag{display:inline-block;font-size:10.5px;line-height:1.5;padding:0 6px;border-radius:2px;background:#eeece5;color:#4b5563}
+.tag.key{background:var(--brand-bg);color:#0b6f60;font-weight:700}
+.ent{font-weight:700;color:var(--ink)}
+.rel{color:var(--faint)}
+.fu{margin-top:6px;font-size:12.5px;color:var(--accent);background:var(--accent-bg);border-left:3px solid var(--accent);padding:4px 8px;line-height:1.55}
+.fu b{color:var(--accent)}
+.empty{font-size:13px;color:var(--faint);font-style:italic;padding:6px 0 10px}
 
-/* 목록 페이지 공통 */
-.page-title{font-family:var(--serif);font-size:22px;font-weight:800;color:var(--ink);margin:22px 0 4px}
-.page-sub{font-size:13px;color:var(--muted);margin:0 0 6px}
-.arc-list{margin-top:16px;display:grid;gap:10px}
-.arc{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;
-  padding:13px 16px;text-decoration:none}
-.arc:hover{border-color:var(--accent)}
-.arc .date{flex:none;font-weight:800;font-size:15px;width:118px;color:var(--ink)}
-.arc .date small{display:block;color:var(--muted);font-weight:500;font-size:11px}
-.arc .top{font-size:13px;color:var(--muted)} .arc .top b{color:var(--ink)}
+/* ── 지난 호(달력) ── */
+.page-title{font-family:var(--serif);font-size:26px;font-weight:900;color:var(--ink);margin:22px 0 4px}
+.page-sub{font-size:13px;color:var(--muted);margin:0 0 12px}
+.months{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:8px}
+.month{border:1px solid var(--hair);background:#fff;padding:12px 14px 14px}
+.month h3{font-family:var(--serif);font-size:17px;margin:0 0 8px;color:var(--ink);display:flex;justify-content:space-between;align-items:baseline}
+.month h3 small{font-family:var(--sans);font-size:11.5px;color:var(--muted);font-weight:500}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center;font-size:12.5px}
+.cal .wd{font-size:11px;color:var(--muted);font-weight:700;padding:2px 0 4px}
+.cal .wd.sun,.cal .d.sun{color:#b3261e}
+.cal .wd.sat,.cal .d.sat{color:#1d4f8a}
+.cal .d{padding:6px 0;border:1px solid transparent;color:var(--faint);border-radius:3px;line-height:1.2}
+.cal .d.has{border-color:var(--ink);color:var(--ink);font-weight:700;text-decoration:none;background:#fff}
+.cal .d.has:hover{background:var(--ink);color:#fff}
+.cal .d.has small{display:block;font-size:9.5px;font-weight:500;color:var(--muted)}
+.cal .d.has:hover small{color:#ddd}
+.cal .d.off{opacity:.35}
+.arc-list{margin-top:18px;border-top:1px solid var(--rule)}
+.arc{display:flex;gap:14px;align-items:baseline;padding:10px 2px;border-bottom:1px dotted var(--hair);text-decoration:none}
+.arc:hover{background:#f4f2ec}
+.arc .no{font-family:var(--serif);font-weight:700;width:60px;flex:none;color:var(--ink)}
+.arc .date{flex:none;width:170px;color:var(--ink);font-weight:500}
+.arc .top{font-size:13px;color:var(--muted)}
 
-/* 회사별 */
-.co-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:16px}
-.co{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;text-decoration:none}
-.co:hover{border-color:var(--accent)}
-.co .n{font-family:var(--serif);font-weight:800;font-size:16px;color:var(--ink)}
-.co .m{font-size:12px;color:var(--muted);margin-top:4px}
-.co .m b{color:var(--accent-ink)}
-.dgroup{margin-top:18px}
-.dgroup h3{font-size:13px;color:var(--muted);font-weight:700;letter-spacing:.04em;margin:0 0 6px;
-  padding-bottom:6px;border-bottom:2px solid var(--line)}
-.dgroup h3 b{color:var(--ink);font-size:15px;margin-right:8px}
-.list{background:#fff;border:1px solid var(--line);border-radius:12px;padding:2px 16px 8px}
+/* ── 회사별 ── */
+.co-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin:8px 0 18px}
+.co{background:#fff;border:1px solid var(--hair);padding:12px 14px;text-decoration:none}
+.co:hover{border-color:var(--ink)}
+.co .n{font-family:var(--serif);font-weight:700;font-size:16px;color:var(--ink)}
+.co .m{font-size:12px;color:var(--muted);margin-top:3px}
+.co .m b{color:var(--brand)}
+.dgroup{margin-top:16px}
+.dgroup h3{font-family:var(--serif);font-size:15px;color:var(--ink);margin:0 0 4px;padding-bottom:4px;border-bottom:2px solid var(--ink)}
+.dgroup h3 small{font-family:var(--sans);font-weight:500;color:var(--muted);font-size:12px;margin-left:8px}
+.list{padding:0 2px}
 
-/* 검색 */
-.sbar{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
-.sbar input,.sbar select{font:inherit;font-size:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}
-.sbar input{flex:1;min-width:220px}
-.sbar input:focus,.sbar select:focus{outline:2px solid var(--accent);outline-offset:1px}
+/* ── 검색 ── */
+.sbar{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:8px;margin-top:8px}
+.sbar2{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:8px;align-items:center}
+.sbar input,.sbar select,.sbar2 input,.sbar2 select{font:inherit;font-size:14px;padding:9px 11px;border:1px solid var(--hair);background:#fff;width:100%}
+.sbar input:focus,.sbar select:focus,.sbar2 input:focus{outline:2px solid var(--brand);outline-offset:1px}
+.sbar2 label{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px}
 .scount{font-size:12.5px;color:var(--muted);margin:10px 2px 0}
-.sres{margin-top:10px}
-.sres .item .meta{margin-top:4px}
+.sres{margin-top:6px;border-top:1px solid var(--rule)}
 
-/* 푸터 */
-.footer{margin-top:24px;font-size:11.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;line-height:1.7}
+/* ── 주간 종합 ── */
+.wk-page{margin-top:18px;border:1px solid var(--rule);padding:14px 18px 16px;background:#fff}
+.wk-head{display:flex;align-items:baseline;gap:12px;border-bottom:3px double var(--rule);padding-bottom:8px;margin-bottom:12px}
+.wk-head .p{font-family:var(--serif);font-weight:900;font-size:22px;color:var(--ink)}
+.wk-head .t{font-family:var(--serif);font-weight:700;font-size:17px;color:var(--ink)}
+.wk-head .r{margin-left:auto;font-size:12.5px;color:var(--muted)}
+.wk-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:0 18px}
+.wk-cols.three{grid-template-columns:repeat(3,1fr)}
+.wk-col{border-left:1px solid var(--hair);padding-left:14px;min-width:0}
+.wk-col:first-child{border-left:0;padding-left:0}
+.wk-col h4{font-family:var(--serif);font-size:15px;font-weight:700;color:var(--ink);margin:0 0 6px;padding:4px 0;border-bottom:2px solid var(--ink);display:flex;gap:8px;align-items:baseline}
+.wk-col h4 small{margin-left:auto;font-family:var(--sans);font-weight:500;font-size:11px;color:var(--muted)}
+.wk-col .item{padding:8px 0}
+.wk-col .item .h{font-size:14.5px}
+.wk-col .item .b{font-size:12.5px;line-height:1.6}
+.wk-table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:14px}
+.wk-table th,.wk-table td{border-bottom:1px solid var(--hair);padding:6px 8px;text-align:left;vertical-align:top}
+.wk-table th{background:#f3f1ea;color:var(--ink);font-weight:700;border-bottom:2px solid var(--ink)}
+.wk-table td.c{text-align:center}
+.wk-table tr.g td:first-child{font-weight:700}
+.wk-nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.wk-nav a{font-size:12.5px;padding:4px 10px;border:1px solid var(--hair);text-decoration:none;color:var(--ink);background:#fff}
+.wk-nav a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 
+/* ── 푸터 ── */
+.footer{margin-top:26px;border-top:3px double var(--rule);padding-top:10px;font-size:11.5px;color:var(--muted);line-height:1.7}
+
+@media(max-width:1000px){.cols{column-count:2} .front{grid-template-columns:1fr} .front .lead-story{border-right:0;padding-right:0;padding-bottom:12px;border-bottom:1px solid var(--hair);margin-bottom:8px}
+  .wk-cols{grid-template-columns:1fr 1fr} .wk-cols.three{grid-template-columns:1fr 1fr}}
 @media(max-width:640px){
-  .wrap{padding:0 12px 40px}
-  .mast-inner{gap:10px;padding:12px 14px} .brand{gap:12px} .brand .logo{height:34px} .brand .divider{height:30px}
-  .brand .name{font-size:18px} .brand .name small{font-size:9.5px;letter-spacing:.16em}
-  .mast-meta{margin-left:0;text-align:left;width:100%;font-size:12.5px} .mast-meta b{display:inline;margin-right:8px}
-  .nav-inner{padding:0 4px} .nav a{font-size:13px;padding:10px 9px}
-  .datenav{padding:7px 8px;font-size:12.5px;gap:6px} .datenav a,.datenav .dis{padding:4px 4px}
-  .datenav .cur{font-size:13px} .datenav .ed,.datenav .dt{display:none}
-  .lead{font-size:13px;padding:9px 12px}
-  .card-head{padding:11px 13px} .card-head h3{font-size:16px} .card-body{padding:2px 13px 6px}
-  .item{padding:11px 0} .item .h{font-size:15px;line-height:1.5} .item .b{font-size:14px;line-height:1.75;max-width:none}
-  .item .meta{font-size:11.5px}
-  .page-title{font-size:20px}
-  .arc{padding:12px 13px;gap:10px} .arc .date{width:96px;font-size:14px}
+  .sheet{margin:0;border:0;padding:0 14px 30px;box-shadow:none}
+  .mast{grid-template-columns:1fr;gap:6px;text-align:center;padding:12px 0 8px}
+  .mast .left{justify-content:center} .mast .logo{height:34px}
+  .mast .name{font-size:26px} .mast .en{font-size:9.5px;letter-spacing:.22em}
+  .mast .right{text-align:center;font-size:12px} .mast .right b{display:inline;margin-right:8px;font-size:13px}
+  .dateline{font-size:12px;flex-wrap:wrap} .dateline .pub{display:none}
+  .nav{justify-content:flex-start} .nav a{padding:9px 11px;font-size:13px}
+  .lead-story h1{font-size:23px} .lead-story .b{font-size:14.5px}
+  .cols,.cols.two{column-count:1}
+  .item .h{font-size:16px} .item .b{font-size:14px;line-height:1.75}
+  .sec-head h2{font-size:19px} .sec-head .sub{display:none}
+  .wk-cols,.wk-cols.three{grid-template-columns:1fr} .wk-col{border-left:0;padding-left:0}
+  .wk-page{padding:12px 12px 14px}
+  .sbar{grid-template-columns:1fr 1fr} .sbar input{grid-column:1 / -1} .sbar2{grid-template-columns:1fr 1fr}
+  .arc .date{width:auto} .arc .no{width:48px}
 }
 @media print{
-  .nav,.datenav,.sbar,.scount{display:none!important}
-  body{background:#fff} .masthead{border-bottom:2px solid #000}
-  .card,.list{box-shadow:none;border-color:#bbb;break-inside:avoid;page-break-inside:avoid}
-  .item .h a::after{content:""}
-  a{text-decoration:none}
+  body{background:#fff} .sheet{margin:0;border:0;box-shadow:none;max-width:none;padding:0}
+  .nav,.issuenav,.sbar,.sbar2,.scount,.wk-nav{display:none!important}
+  .meta .more{display:none} a{text-decoration:none}
+  .section,.group,.item,.wk-page{break-inside:avoid;page-break-inside:avoid}
 }
 """
 
-# ---------------------------------------------------------------- shell
+# ---------------------------------------------------------------- 공통 조각
 def brand_logo(base: str) -> str:
-    """회사 로고: assets/logo.png(원본)가 있으면 그것을, 없으면 assets/logo.svg(벡터 재현)를 인라인으로."""
     png = ROOT / "assets" / "logo.png"
-    svg = ROOT / "assets" / "logo.svg"
-    if png.exists():
-        return f'<img class="logo" src="{base}assets/logo.png" alt="ETS"><span class="divider"></span>'
-    if svg.exists():
-        return f'<span class="logo-svg">{svg.read_text(encoding="utf-8")}</span><span class="divider"></span>'
-    return ""
+    return f'<img class="logo" src="{base}assets/logo.png" alt="ETS">' if png.exists() else ""
 
-def head(title: str, active: str, base: str, meta_html: str = "") -> str:
-    nav = "".join(
-        f'<a href="{base}{href}" class="{"on" if key == active else ""}">{esc(label)}</a>'
-        for href, label, key in NAV
-    )
+
+def head(title: str, active: str, base: str, issue_html: str = "", date_html: str = "") -> str:
+    nav = "".join(f'<a href="{base}{href}" class="{"on" if key == active else ""}">{esc(label)}</a>' for href, label, key in NAV)
     return (
         f'<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8">'
         f'<meta name="viewport" content="width=device-width, initial-scale=1">'
-        f'<title>{esc(title)}</title>{FONTS}<style>{STYLE}</style></head><body>'
-        f'<header class="masthead"><div class="mast-inner">'
-        f'<div class="brand">{brand_logo(base)}'
-        f'<div class="name"><small>{esc(SITE_EN)}</small>{esc(SITE)}</div></div>'
-        f'<div class="mast-meta">{meta_html}</div>'
-        f'</div></header>'
-        f'<nav class="nav"><div class="nav-inner">{nav}</div></nav>'
+        f'<title>{esc(title)}</title>{FONTS}<style>{STYLE}</style></head><body><div class="sheet">'
+        f'<header class="mast"><div class="left">{brand_logo(base)}</div>'
+        f'<div class="center"><div class="en">{esc(SITE_EN)}</div><a class="name" href="{base}index.html">{esc(SITE)}</a></div>'
+        f'<div class="right">{issue_html}</div></header>'
+        f'<div class="dateline">{date_html or "<span></span>"}<span class="pub">월~금 08:00 발행 · 공개 보도·공시 기반 · 사실만 기록</span></div>'
+        f'<nav class="nav">{nav}</nav>'
     )
 
-FOOT = "</body></html>"
 
-# ---------------------------------------------------------------- pieces
-def render_item(it: dict, base: str, card_title: str = "", show_card: bool = False) -> str:
-    h = it.get("h", "")
+FOOT_NOTE = ("본 브리핑은 공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. "
+             "등급 A=즉시보고 B=Daily C=Weekly, ★=출처 신뢰도(공시·IR 5, 정부·주요언론 4, 협회·채용·특허 3). 수치·계약 세부는 원문/공시로 확인하십시오.")
+
+
+def foot(extra: str = "") -> str:
+    return f'<div class="footer">{extra}{("<br>" if extra else "")}{esc(FOOT_NOTE)}<br>{esc(SITE)}</div></div></body></html>'
+
+
+def stars(n: int) -> str:
+    n = max(1, min(5, int(n or 2)))
+    return f'<span class="stars" title="출처 신뢰도 {n}/5">{"★" * n}<span class="off">{"★" * (5 - n)}</span></span>'
+
+
+def grade_badge(g: str) -> str:
+    label = {"A": "A 즉시", "B": "B", "C": "C"}.get(g, g)
+    return f'<span class="g {esc(g)}" title="중요도 {esc(g)}">{esc(label)}</span>'
+
+
+def tag_html(tags: list[str]) -> str:
+    return "".join(f'<span class="tag{" key" if t in ("주액", "RFQ", "리스크") else ""}">{esc(t)}</span>' for t in (tags or [])[:5])
+
+
+def render_item(it: dict, show_entity: bool = True, show_cat: bool = False, brief: bool = True) -> str:
     url = it.get("url")
+    h = it.get("h", "")
     hh = f'<a href="{esc(url)}" target="_blank" rel="noopener">{h}</a>' if url else h
-    body = f'<p class="b">{it.get("b","")}</p>' if it.get("b") else ""
-    meta = []
-    co = it.get("company")
-    if co and co != card_title:
-        meta.append(f'<span class="chip">{esc(co)}</span>')
-    if show_card and card_title:
-        meta.append(f'<span class="chip k">{esc(card_title)}</span>')
+    body = f'<p class="b">{it.get("b","")}</p>' if brief and it.get("b") else ""
+    meta = [grade_badge(it.get("grade", "C"))]
+    if show_entity and it.get("entity"):
+        meta.append(f'<span class="ent">{esc(it["entity"])}</span>')
+    if show_cat:
+        meta.append(f'<span class="tag">{esc(CAT_TITLE.get(it.get("cat",""), it.get("cat","")))}</span>')
     if it.get("src"):
-        meta.append(esc(it["src"]))
+        meta.append(f'<span class="src">{esc(it["src"])}</span>')
     if it.get("date"):
-        meta.append(esc(it["date"]))
-    return (f'<article class="item"><h4 class="h">{hh}</h4>{body}'
-            f'<div class="meta">{" · ".join(meta)}</div></article>')
+        meta.append(f'<span>{esc(it["date"])}</span>')
+    meta.append(stars(it.get("rel", 2)))
+    if it.get("tags"):
+        meta.append(tag_html(it["tags"]))
+    if url:
+        meta.append(f'<a class="more" href="{esc(url)}" target="_blank" rel="noopener">원문 보기 ↗</a>')
+    fu = ""
+    f = it.get("followup")
+    if f:
+        ch = f.get("change") or ""
+        fu = (f'<div class="fu"><b>후속</b> · {esc(short_date(f.get("prev_date","")))} 게재분 대비 달라진 수치·일정: {esc(ch) if ch else "—"}</div>')
+    return f'<article class="item" id="{esc(it.get("id",""))}"><h4 class="h">{hh}</h4>{body}{fu}<div class="meta">{" ".join(meta)}</div></article>'
 
-def render_card(c: dict, base: str) -> str:
-    items = c.get("items", [])
-    sub = f'<span class="sub">{esc(c["subtitle"])}</span>' if c.get("subtitle") else ""
-    full = " full" if c.get("full") else ""
-    body = "".join(render_item(it, base, c.get("title", "")) for it in items)
-    return (f'<section class="card accent-{esc(c.get("accent","slate"))}{full}">'
-            f'<div class="card-head"><div class="icon">{esc(c.get("icon","•"))}</div>'
-            f'<h3>{esc(c.get("title"))}{sub}</h3><span class="cnt">{len(items)}건</span></div>'
-            f'<div class="card-body">{body}</div></section>')
 
-def datenav(dates: list[str], cur: str, base: str, weekday: str, edition: str) -> str:
-    # dates: 최신순
+# ---------------------------------------------------------------- 호(일간) 지면
+def all_items(d: dict) -> list[dict]:
+    return [it for s in d.get("sections", []) for g in s.get("groups", []) for it in g.get("items", [])]
+
+
+def issue_meta_html(d: dict) -> tuple[str, str]:
+    no = d.get("issue_no") or 0
+    right = f'<b>제{no}호</b>{esc(B.kdate(d.get("date","")))}'
+    dl = f'<span class="issue">제{no}호 · {esc(B.kdate(d.get("date","")))} · {esc(d.get("edition","조간"))}</span>'
+    return right, dl
+
+
+def issuenav(dates: list[str], cur: str, base: str) -> str:
     i = dates.index(cur) if cur in dates else -1
     older = dates[i + 1] if 0 <= i < len(dates) - 1 else None
     newer = dates[i - 1] if i > 0 else None
-    left = (f'<a href="{base}briefings/{older}.html">◀ 이전<span class="dt"> {older}</span></a>' if older else '<span class="dis">◀ 이전</span>')
-    right = (f'<a href="{base}briefings/{newer}.html">다음<span class="dt"> {newer}</span> ▶</a>' if newer else '<span class="dis">다음 ▶</span>')
-    return (f'<div class="datenav">{left}<span class="cur">{esc(cur)} ({esc(weekday)})<span class="ed"> · {esc(edition)}</span></span>{right}</div>')
+    left = f'<a href="{base}briefings/{older}.html">◀ 이전 호 {esc(older)}</a>' if older else '<span class="dis">◀ 이전 호</span>'
+    right = f'<a href="{base}briefings/{newer}.html">다음 호 {esc(newer)} ▶</a>' if newer else '<span class="dis">다음 호 ▶</span>'
+    return f'<div class="issuenav">{left}<span>{esc(cur)}</span>{right}</div>'
 
-# ---------------------------------------------------------------- pages
-def brief_page(d: dict, dates: list[str], base: str, active: str) -> str:
-    date = d.get("date", ""); wd = d.get("weekday", ""); ed = d.get("edition", "조간")
-    meta = f'<b>{esc(date)} ({esc(wd)})</b>{esc(ed)} · 매일 08:00 발행'
-    cards = "".join(render_card(c, base) for c in d.get("cards", []))
-    lead = f'<div class="lead"><b>오늘의 요약</b> · {d["summary"]}</div>' if d.get("summary") else ""
-    return (head(f"{SITE} — {date}", active, base, meta) +
-            f'<div class="wrap">{datenav(dates, date, base, wd, ed)}{lead}'
-            f'<div class="grid">{cards}</div>'
-            f'<div class="footer">{d.get("sources","")}<br>{d.get("note","")}<br>{esc(SITE)} · 매일 아침 8시 자동 발행</div>'
-            f'</div>' + FOOT)
 
-def archive_page(items: list[dict]) -> str:
+def front_html(d: dict) -> str:
+    items = {it["id"]: it for it in all_items(d)}
+    tops = [items[i] for i in d.get("top", []) if i in items]
+    if not tops:
+        return ""
+    lead, side = tops[0], tops[1:]
+    url = lead.get("url")
+    h1 = f'<a href="{esc(url)}" target="_blank" rel="noopener">{lead["h"]}</a>' if url else lead["h"]
+    kicker = f'{esc(CAT_TITLE.get(lead.get("cat",""), ""))}' + (f' · {esc(lead["entity"])}' if lead.get("entity") else "")
+    meta = render_item(lead, show_entity=False, brief=False)
+    meta = re.sub(r'^<article[^>]*><h4 class="h">.*?</h4>', "", meta, flags=re.S).replace("</article>", "")
+    lead_html = (f'<div class="lead-story"><div class="kicker">오늘의 1면 · {kicker}</div><h1>{h1}</h1>'
+                 f'<p class="b">{lead.get("b","")}</p>{meta}</div>')
+    side_html = ""
+    if side:
+        side_html = '<div class="side"><h2>주요 기사</h2>' + "".join(render_item(it, brief=False) for it in side) + "</div>"
+    return f'<div class="front">{lead_html}{side_html}</div>'
+
+
+def section_html(sec: dict, no: int, exclude: set[str]) -> str:
+    groups = []
+    total = 0
+    for g in sec.get("groups", []):
+        its = [it for it in g.get("items", []) if it["id"] not in exclude]
+        if not its:
+            continue
+        total += len(its)
+        title = g.get("title") or ""
+        gh = f'<h3>{esc(title)}<span class="gcnt">{len(its)}건</span></h3>' if title else ""
+        groups.append(f'<div class="group">{gh}{"".join(render_item(it, show_entity=not title or title in ("글로벌 · 기타",) or sec["id"] in ("project","competitor")) for it in its)}</div>')
+    n_front = sum(1 for g in sec.get("groups", []) for it in g.get("items", []) if it["id"] in exclude)
+    cnt = f'{total}건' + (f' · 1면 {n_front}건' if n_front else "")
+    empty = "오늘 소식은 1면에 실렸습니다." if n_front else "오늘은 새 소식이 없습니다."
+    body = f'<div class="cols{" two" if total <= 3 else ""}">{"".join(groups)}</div>' if groups else f'<div class="empty">{empty}</div>'
+    circ = "①②③④⑤⑥⑦⑧⑨"[no - 1] if 1 <= no <= 9 else str(no)
+    return (f'<section class="section" id="{esc(sec["id"])}"><div class="sec-head"><span class="no">{circ}</span>'
+            f'<h2>{esc(sec.get("title",""))}</h2><span class="sub">{esc(sec.get("subtitle",""))}</span><span class="cnt">{cnt}</span></div>{body}</section>')
+
+
+def brief_page(d: dict, dates: list[str], base: str, active: str, week_link: str = "") -> str:
+    right, dl = issue_meta_html(d)
+    tops = set(d.get("top", []))
+    secs = "".join(section_html(s, i + 1, tops) for i, s in enumerate(d.get("sections", [])))
+    n = len(all_items(d))
+    summary = f'<div class="summary"><b>오늘의 요약</b> · {esc(d["summary"])}</div>' if d.get("summary") else ""
+    wk = f'<div class="summary">이번 주 <a href="{week_link}">주간 종합면</a>이 준비되었습니다.</div>' if week_link else ""
+    srcs = d.get("sources") or []
+    src_line = ("출처: " + esc("·".join(srcs[:16])) + (" 등" if len(srcs) > 16 else "")) if srcs else ""
+    return (head(f"{SITE} 제{d.get('issue_no',0)}호 — {d.get('date','')}", active, base, right, dl) +
+            issuenav(dates, d.get("date", ""), base) + front_html(d) + summary + wk + secs +
+            foot(f"{src_line} · 오늘 {n}건"))
+
+
+# ---------------------------------------------------------------- 지난 호(달력)
+def archive_page(issues: list[dict]) -> str:
+    by_date = {d["date"]: d for d in issues}
+    dates = sorted(by_date)
+    if not dates:
+        return head(f"{SITE} — 지난 호", "archive", "") + '<div class="page-title">지난 호</div>' + foot()
+    first, last = parse_date(dates[0]), parse_date(dates[-1])
+    hol = set((WL.get("schedule") or {}).get("holidays") or [])
+    months = []
+    y, m = last.year, last.month
+    while (y, m) >= (first.year, first.month):
+        cal = calendar.Calendar(firstweekday=6)  # 일요일 시작
+        cells = []
+        for wd, lab in enumerate(["일", "월", "화", "수", "목", "금", "토"]):
+            cells.append(f'<div class="wd{" sun" if wd == 0 else (" sat" if wd == 6 else "")}">{lab}</div>')
+        n_month = 0
+        for day in cal.itermonthdates(y, m):
+            if day.month != m:
+                cells.append('<div class="d off"></div>'); continue
+            key = day.isoformat()
+            wdc = " sun" if day.weekday() == 6 else (" sat" if day.weekday() == 5 else "")
+            if key in by_date:
+                n_month += 1
+                cnt = len(all_items(by_date[key]))
+                cells.append(f'<a class="d has{wdc}" href="briefings/{key}.html" title="제{by_date[key].get("issue_no",0)}호">{day.day}<small>{cnt}건</small></a>')
+            else:
+                off = " off" if (day.weekday() >= 5 or key in hol) else ""
+                cells.append(f'<div class="d{wdc}{off}">{day.day}</div>')
+        months.append(f'<div class="month"><h3>{y}년 {m}월<small>{n_month}호</small></h3><div class="cal">{"".join(cells)}</div></div>')
+        m -= 1
+        if m == 0:
+            y, m = y - 1, 12
     rows = []
-    for d in items:
-        summ = d.get("summary") or ((d.get("cards") or [{}])[0].get("items") or [{}])[0].get("h", "")
-        rows.append(f'<a class="arc" href="briefings/{esc(d["date"])}.html">'
-                    f'<div class="date">{esc(d["date"])}<small>{esc(d.get("weekday",""))}요일 · {esc(d.get("edition","조간"))}</small></div>'
-                    f'<div class="top">{summ}</div></a>')
-    return (head(f"{SITE} — 지난 자료", "archive", "") +
-            f'<div class="wrap"><div class="page-title">지난 자료</div><p class="page-sub">총 {len(items)}건 · 날짜를 누르면 그날 브리핑으로 이동</p>'
-            f'<div class="arc-list">{"".join(rows)}</div></div>' + FOOT)
+    for d in issues:
+        rows.append(f'<a class="arc" href="briefings/{esc(d["date"])}.html"><span class="no">제{d.get("issue_no",0)}호</span>'
+                    f'<span class="date">{esc(B.kdate(d["date"]))}</span><span class="top">{esc(d.get("summary",""))}</span></a>')
+    return (head(f"{SITE} — 지난 호", "archive", "") +
+            f'<div class="page-title">지난 호</div><p class="page-sub">총 {len(issues)}호 · 달력의 날짜를 누르면 그날 지면으로 이동합니다. 회색은 주말·공휴일(발행 없음).</p>'
+            f'<div class="months">{"".join(months)}</div><div class="arc-list">{"".join(rows)}</div>' + foot())
 
-def collect(items: list[dict]):
-    """모든 아이템을 (date, weekday, card_title, item) 로 펼침(최신순)."""
-    out = []
-    for d in items:
-        for c in d.get("cards", []):
-            for it in c.get("items", []):
-                out.append((d.get("date", ""), d.get("weekday", ""), c.get("title", ""), it))
-    return out
 
-def company_of(card_title: str, it: dict) -> str:
-    return it.get("company") or card_title
+# ---------------------------------------------------------------- 회사별
+def flat(issues: list[dict]) -> list[tuple[str, dict]]:
+    return [(d["date"], it) for d in issues for it in all_items(d)]
 
-def companies_pages(items: list[dict]):
-    flat = collect(items)
+
+def companies_pages(issues: list[dict]) -> dict[str, str]:
     by: dict[str, list] = {}
-    for date, wd, ct, it in flat:
-        by.setdefault(company_of(ct, it), []).append((date, wd, ct, it))
-    # 목록
-    tiles = []
-    for name, rows in sorted(by.items(), key=lambda kv: (-len(kv[1]), kv[0])):
-        latest = max(r[0] for r in rows)
-        tiles.append(f'<a class="co" href="{slug(name)}.html"><div class="n">{esc(name)}</div>'
-                     f'<div class="m"><b>{len(rows)}건</b> · 최근 {esc(latest)}</div></a>')
-    index_html = (head(f"{SITE} — 회사별", "companies", "../") +
-                  f'<div class="wrap"><div class="page-title">회사별 모아보기</div>'
-                  f'<p class="page-sub">회사를 누르면 날짜별 누적 기록을 볼 수 있습니다 · {len(by)}개 회사</p>'
-                  f'<div class="co-grid">{"".join(tiles)}</div></div>' + FOOT)
-    pages = {"index.html": index_html}
+    for date, it in flat(issues):
+        names = ([it["entity"]] if it.get("entity") else []) + list(it.get("related") or [])
+        for n in names:
+            by.setdefault(n, []).append((date, it))
+    def tiles(names: list[str]) -> str:
+        out = []
+        for n in names:
+            rows = by.get(n, [])
+            if not rows:
+                continue
+            out.append(f'<a class="co" href="{slug(n)}.html"><div class="n">{esc(n)}</div><div class="m"><b>{len(rows)}건</b> · 최근 {esc(rows[0][0])}</div></a>')
+        return "".join(out)
+    cust = tiles(CUSTOMER_NAMES); comp = tiles(COMPETITOR_NAMES)
+    others = tiles(sorted(n for n in by if n not in CUSTOMER_NAMES and n not in COMPETITOR_NAMES))
+    idx = (head(f"{SITE} — 회사별", "companies", "../") +
+           '<div class="page-title">회사별 모아보기</div><p class="page-sub">회사를 누르면 날짜별 누적 기록을 볼 수 있습니다.</p>' +
+           (f'<div class="dgroup"><h3>고객사</h3></div><div class="co-grid">{cust}</div>' if cust else "") +
+           (f'<div class="dgroup"><h3>경쟁사</h3></div><div class="co-grid">{comp}</div>' if comp else "") +
+           (f'<div class="dgroup"><h3>기타</h3></div><div class="co-grid">{others}</div>' if others else "") + foot())
+    pages = {"index.html": idx}
     for name, rows in by.items():
         groups: dict[str, list] = {}
-        for date, wd, ct, it in rows:
-            groups.setdefault(date, []).append((wd, ct, it))
+        for date, it in rows:
+            groups.setdefault(date, []).append(it)
         blocks = []
         for date in sorted(groups, reverse=True):
-            wd = groups[date][0][0]
-            inner = "".join(render_item(it, "../", ct, show_card=True) for _, ct, it in groups[date])
-            blocks.append(f'<div class="dgroup"><h3><b>{esc(date)}</b>{esc(wd)}요일 · {len(groups[date])}건</h3>'
-                          f'<div class="list">{inner}</div></div>')
-        pages[f"{slug(name)}.html"] = (
-            head(f"{SITE} — {name}", "companies", "../") +
-            f'<div class="wrap"><div class="page-title">{esc(name)}</div>'
-            f'<p class="page-sub">누적 {len(rows)}건 · 최신순</p>{"".join(blocks)}</div>' + FOOT)
+            inner = "".join(render_item(it, show_entity=it.get("entity") != name, show_cat=True) for it in groups[date])
+            blocks.append(f'<div class="dgroup"><h3>{esc(B.kdate(date))}<small>{len(groups[date])}건</small></h3><div class="list">{inner}</div></div>')
+        info = next((c for c in COMPETITORS if c["name"] == name), None)
+        sub = f'경쟁사 {esc(info.get("grade",""))}등급 · {esc(info.get("country",""))} · {esc(info.get("scope",""))}' if info else ("고객사" if name in CUSTOMER_NAMES else "")
+        pages[f"{slug(name)}.html"] = (head(f"{SITE} — {name}", "companies", "../") +
+                                       f'<div class="page-title">{esc(name)}</div><p class="page-sub">{sub}{" · " if sub else ""}누적 {len(rows)}건 · 최신순</p>{"".join(blocks)}' + foot())
     return pages
 
-def search_page(items: list[dict]) -> tuple[str, list[dict]]:
-    flat = collect(items)
+
+# ---------------------------------------------------------------- 검색
+def search_page(issues: list[dict]) -> tuple[str, list[dict]]:
     idx = []
-    for date, wd, ct, it in flat:
-        idx.append({"d": date, "c": ct, "co": company_of(ct, it), "h": strip_tags(it.get("h", "")),
-                    "b": strip_tags(it.get("b", "")), "u": it.get("url", ""), "s": it.get("src", "")})
-    cos = sorted({r["co"] for r in idx})
-    opts = "".join(f'<option value="{esc(c)}">{esc(c)}</option>' for c in cos)
-    js = """
+    for date, it in flat(issues):
+        idx.append({"d": date, "c": it.get("cat", ""), "ct": CAT_TITLE.get(it.get("cat", ""), ""), "e": it.get("entity", ""),
+                    "r": " ".join(it.get("related") or []), "t": " ".join(it.get("tags") or []), "g": it.get("grade", "C"),
+                    "rl": it.get("rel", 2), "h": B.strip_tags(it.get("h", "")), "b": B.strip_tags(it.get("b", "")),
+                    "u": it.get("url", ""), "s": it.get("src", ""), "f": 1 if it.get("followup") else 0})
+    ents = sorted({r["e"] for r in idx if r["e"]})
+    cats = [(c["id"], c.get("title", "")) for c in WL.get("categories") or []]
+    ent_opts = "".join(f'<option value="{esc(e)}">{esc(e)}</option>' for e in ents)
+    cat_opts = "".join(f'<option value="{esc(i)}">{esc(t)}</option>' for i, t in cats)
+    js = r"""
 (function(){
   var idx=JSON.parse(document.getElementById('idx').textContent);
-  var q=document.getElementById('q'),co=document.getElementById('co'),res=document.getElementById('res'),cnt=document.getElementById('cnt');
+  var $=function(i){return document.getElementById(i)};
+  var q=$('q'),cat=$('cat'),ent=$('ent'),gr=$('gr'),df=$('df'),dt=$('dt'),res=$('res'),cnt=$('cnt');
   function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]});}
+  function stars(n){n=Math.max(1,Math.min(5,n|0));return '<span class="stars">'+'★'.repeat(n)+'<span class="off">'+'★'.repeat(5-n)+'</span></span>';}
   function run(){
-    var t=q.value.trim().toLowerCase(),c=co.value;
+    var t=q.value.trim().toLowerCase(),c=cat.value,e=ent.value,g=gr.value,a=df.value,b=dt.value;
+    var terms=t?t.split(/\s+/):[];
     var out=idx.filter(function(r){
-      if(c&&r.co!==c)return false;
-      if(!t)return true;
-      return (r.h+' '+r.b+' '+r.co+' '+r.c).toLowerCase().indexOf(t)>=0;
+      if(c&&r.c!==c)return false; if(e&&r.e!==e&&r.r.indexOf(e)<0)return false; if(g&&r.g!==g)return false;
+      if(a&&r.d<a)return false; if(b&&r.d>b)return false;
+      if(!terms.length)return true;
+      var hay=(r.h+' '+r.b+' '+r.e+' '+r.r+' '+r.t+' '+r.s).toLowerCase();
+      return terms.every(function(w){return hay.indexOf(w)>=0});
     });
     cnt.textContent=out.length+'건';
     res.innerHTML=out.map(function(r){
       var h=r.u?'<a href="'+esc(r.u)+'" target="_blank" rel="noopener">'+esc(r.h)+'</a>':esc(r.h);
-      return '<article class="item"><h4 class="h">'+h+'</h4><p class="b">'+esc(r.b)+'</p>'+
-        '<div class="meta"><span class="chip">'+esc(r.co)+'</span><span class="chip k">'+esc(r.c)+'</span>'+esc(r.s)+' · '+esc(r.d)+'</div></article>';
+      var tags=r.t?r.t.split(' ').map(function(x){return '<span class="tag">'+esc(x)+'</span>'}).join(''):'';
+      return '<article class="item"><h4 class="h">'+h+'</h4>'+(r.b?'<p class="b">'+esc(r.b)+'</p>':'')+
+        '<div class="meta"><span class="g '+esc(r.g)+'">'+esc(r.g)+'</span>'+(r.e?'<span class="ent">'+esc(r.e)+'</span>':'')+
+        '<span class="tag">'+esc(r.ct)+'</span><span class="src">'+esc(r.s)+'</span><span>'+esc(r.d)+'</span>'+stars(r.rl)+tags+
+        (r.f?'<span class="tag key">후속</span>':'')+(r.u?'<a class="more" href="'+esc(r.u)+'" target="_blank" rel="noopener">원문 보기 ↗</a>':'')+'</div></article>';
     }).join('')||'<p class="page-sub">결과가 없습니다.</p>';
   }
-  q.addEventListener('input',run);co.addEventListener('change',run);run();
+  [q,cat,ent,gr,df,dt].forEach(function(el){el.addEventListener('input',run);el.addEventListener('change',run);});
+  var p=new URLSearchParams(location.search); if(p.get('q')){q.value=p.get('q');} if(p.get('e')){ent.value=p.get('e');}
+  run();
 })();"""
     page = (head(f"{SITE} — 검색", "search", "") +
-            f'<div class="wrap"><div class="page-title">검색</div><p class="page-sub">키워드나 회사로 누적 기사를 찾습니다 (총 {len(idx)}건)</p>'
-            f'<div class="sbar"><input id="q" type="search" placeholder="예: 전해액, ESS, 46시리즈, 수주">'
-            f'<select id="co"><option value="">모든 회사</option>{opts}</select></div>'
-            f'<div class="scount" id="cnt"></div><div class="sres list" id="res"></div>'
+            f'<div class="page-title">검색</div><p class="page-sub">키워드·카테고리·회사·등급·기간으로 누적 {len(idx)}건에서 찾습니다. 여러 단어는 모두 포함된 것만.</p>'
+            f'<div class="sbar"><input id="q" type="search" placeholder="예: 전해액 주액, ESS 수주, 46시리즈, 착공">'
+            f'<select id="cat"><option value="">모든 카테고리</option>{cat_opts}</select>'
+            f'<select id="ent"><option value="">모든 회사</option>{ent_opts}</select>'
+            f'<select id="gr"><option value="">모든 등급</option><option value="A">A 즉시</option><option value="B">B Daily</option><option value="C">C Weekly</option></select></div>'
+            f'<div class="sbar2"><label>부터 <input id="df" type="date"></label><label>까지 <input id="dt" type="date"></label><span class="scount" id="cnt"></span></div>'
+            f'<div class="sres list" id="res"></div>'
             f'<script id="idx" type="application/json">{json.dumps(idx, ensure_ascii=False)}</script>'
-            f'<script>{js}</script></div>' + FOOT)
+            f'<script>{js}</script>' + foot())
     return page, idx
 
-def weekly_page(items: list[dict]) -> str:
-    if not items:
-        return ""
-    latest = parse_date(items[0].get("date", "")) or _date.today()
-    start = latest - timedelta(days=6)
-    flat = [(d, wd, ct, it) for d, wd, ct, it in collect(items)
-            if (parse_date(d) or latest) >= start]
-    by: dict[str, list] = {}
-    for d, wd, ct, it in flat:
-        by.setdefault(company_of(ct, it), []).append((d, ct, it))
-    blocks = []
-    for name, rows in sorted(by.items(), key=lambda kv: (-len(kv[1]), kv[0])):
-        inner = "".join(
-            f'<article class="item"><h4 class="h">'
-            + (f'<a href="{esc(it.get("url"))}" target="_blank" rel="noopener">{it.get("h","")}</a>' if it.get("url") else it.get("h",""))
-            + f'</h4><div class="meta"><span class="chip k">{esc(ct)}</span>{esc(it.get("src",""))} · {esc(d)}</div></article>'
-            for d, ct, it in sorted(rows, key=lambda r: r[0], reverse=True))
-        blocks.append(f'<div class="dgroup"><h3><b>{esc(name)}</b>{len(rows)}건</h3><div class="list">{inner}</div></div>')
-    return (head(f"{SITE} — 주간 요약", "weekly", "") +
-            f'<div class="wrap"><div class="page-title">주간 요약</div>'
-            f'<p class="page-sub">{start.isoformat()} ~ {latest.isoformat()} · 회사별 사실 기록 롤업 · {len(flat)}건</p>'
-            f'{"".join(blocks) or "<p class=page-sub>해당 기간 자료가 없습니다.</p>"}</div>' + FOOT)
+
+# ---------------------------------------------------------------- 주간 종합(3면)
+def weekly_html(issues_in_week: list[dict], label: str, mon: str, fri: str, all_labels: list[str], cur_label: str, base: str) -> str:
+    rows = flat(sorted(issues_in_week, key=lambda d: d["date"], reverse=True))
+    n_issues = len(issues_in_week)
+
+    def col(title: str, its: list[dict], show_entity=True) -> str:
+        inner = "".join(render_item(it, show_entity=show_entity) for it in its) or '<div class="empty">이번 주 새 소식 없음</div>'
+        return f'<div class="wk-col"><h4>{esc(title)}<small>{len(its)}건</small></h4>{inner}</div>'
+
+    # 1면: 시장/산업동향 (전기차·이차전지·반도체·스마트팩토리/AMR) — market + tech_policy
+    mk = {"ev": [], "battery": [], "semi": [], "fa": []}
+    for d, it in rows:
+        if it["cat"] == "market":
+            mk.setdefault(it.get("group", "battery"), []).append(it)
+        elif it["cat"] == "tech_policy":
+            mk.setdefault(it.get("market_group") or "battery", []).append(it)
+    p1 = ('<div class="wk-page"><div class="wk-head"><span class="p">1면</span><span class="t">시장 / 산업 동향</span><span class="r">시장규모·수요전망·정책·기술 Trend</span></div>'
+          f'<div class="wk-cols">{col("전기차", mk["ev"], False)}{col("이차전지", mk["battery"], False)}{col("반도체", mk["semi"], False)}{col("스마트팩토리 · AMR", mk["fa"], False)}</div></div>')
+    # 2면: 고객사 동향 (LG엔솔·SDI·SK on·기타) — customer + project
+    cu = {"LG에너지솔루션": [], "삼성SDI": [], "SK온": [], "기타": []}
+    for d, it in rows:
+        if it["cat"] in ("customer", "project"):
+            cu[it["entity"] if it.get("entity") in cu else "기타"].append(it)
+    p2 = ('<div class="wk-page"><div class="wk-head"><span class="p">2면</span><span class="t">고객사 동향</span><span class="r">CAPEX·신공장·증설·JV·연기/취소 · Project/RFQ</span></div>'
+          f'<div class="wk-cols">{col("LG에너지솔루션", cu["LG에너지솔루션"], False)}{col("삼성SDI", cu["삼성SDI"], False)}{col("SK온", cu["SK온"], False)}{col("글로벌 · 기타", cu["기타"], True)}</div></div>')
+    # 3면: 업계 동향 (경쟁사 A/B + 등급표)
+    co = {"A": [], "B": [], "기타": []}
+    cnt_by: dict[str, int] = {}
+    for d, it in rows:
+        if it["cat"] == "competitor":
+            g = next((c.get("grade") for c in COMPETITORS if c["name"] == it.get("entity")), None)
+            co["A" if g == "A" else ("B" if g == "B" else "기타")].append(it)
+            cnt_by[it.get("entity", "")] = cnt_by.get(it.get("entity", ""), 0) + 1
+    trs = []
+    for c in COMPETITORS:
+        n = cnt_by.get(c["name"], 0)
+        link = f'<a href="{base}companies/{slug(c["name"])}.html">{esc(c["name"])}</a>' if n else esc(c["name"])
+        trs.append(f'<tr class="g"><td>{link}</td><td class="c">{esc(c.get("grade",""))}</td><td>{esc(c.get("country",""))}</td><td>{esc(c.get("scope",""))}</td><td class="c">{n or "–"}</td></tr>')
+    table = ('<table class="wk-table"><thead><tr><th>경쟁사</th><th>등급</th><th>국가</th><th>주요 장비·범위</th><th>이번 주 보도</th></tr></thead>'
+             f'<tbody>{"".join(trs)}</tbody></table>')
+    p3 = ('<div class="wk-page"><div class="wk-head"><span class="p">3면</span><span class="t">업계 동향</span><span class="r">경쟁사 수주·신규장비·기술·해외진출</span></div>'
+          f'<div class="wk-cols three">{col("A등급 경쟁사", co["A"])}{col("B등급 경쟁사", co["B"])}{col("기타 업계", co["기타"])}</div>{table}</div>')
+    nav = "".join(f'<a href="{base}weekly/{l}.html" class="{"on" if l == cur_label else ""}">{esc(l)}</a>' for l in all_labels)
+    total = len(rows)
+    right = f'<b>주간 종합</b>{esc(mon)} ~ {esc(fri)}'
+    dl = f'<span class="issue">주간 종합 {esc(label)} · {esc(B.kdate(mon))} ~ {esc(B.kdate(fri))}</span>'
+    return (head(f"{SITE} — 주간 종합 {label}", "weekly", base, right, dl) +
+            f'<div class="page-title">주간 종합 <small style="font-family:var(--sans);font-size:14px;color:var(--muted);font-weight:500">{esc(label)} · 발행 {n_issues}호 · {total}건</small></div>'
+            f'<p class="page-sub">그 주 월~금 지면을 「시장/산업 · 고객사 · 업계」 3면으로 모았습니다. 회의 자료로 그대로 인쇄해 쓸 수 있습니다.</p>'
+            f'<div class="wk-nav">{nav}</div>{p1}{p2}{p3}' + foot())
+
+
+def weekly_pages(issues: list[dict]) -> tuple[dict[str, str], str, dict[str, str]]:
+    """→ (weekly/<label>.html 들, 최신 label, {date: label})"""
+    weeks: dict[str, list] = {}
+    meta: dict[str, tuple[str, str]] = {}
+    date_label: dict[str, str] = {}
+    for d in issues:
+        label, mon, fri = B.week_of(d["date"])
+        weeks.setdefault(label, []).append(d); meta[label] = (mon, fri); date_label[d["date"]] = label
+    labels = sorted(weeks, reverse=True)
+    pages = {}
+    for l in labels:
+        mon, fri = meta[l]
+        pages[f"{l}.html"] = weekly_html(weeks[l], l, mon, fri, labels, l, "../")
+    latest = labels[0] if labels else ""
+    return pages, latest, date_label
+
 
 # ---------------------------------------------------------------- main
 def load_all() -> list[dict]:
     out = []
     for f in sorted(DATA.glob("*.json"), reverse=True):
         try:
-            out.append(json.loads(f.read_text(encoding="utf-8")))
+            d = json.loads(f.read_text(encoding="utf-8"))
         except Exception as e:
-            print(f"  ! {f.name}: {e}", file=sys.stderr)
+            print(f"  ! {f.name}: {e}", file=sys.stderr); continue
+        if d.get("schema") != 4:
+            print(f"  ! {f.name}: 구 스키마 — scripts/migrate_v4.py 실행 필요, 건너뜀", file=sys.stderr); continue
+        out.append(d)
     out.sort(key=lambda x: x.get("date", ""), reverse=True)
     return out
 
+
 def main() -> int:
-    items = load_all()
-    if not items:
+    issues = load_all()
+    if not issues:
         print("data/*.json 없음", file=sys.stderr); return 1
-    dates = [d["date"] for d in items]
-    BRIEF.mkdir(exist_ok=True); COMP.mkdir(exist_ok=True)
-    for d in items:
-        (BRIEF / f'{d["date"]}.html').write_text(brief_page(d, dates, "../", "archive"), encoding="utf-8")
-    (ROOT / "index.html").write_text(brief_page(items[0], dates, "", "today"), encoding="utf-8")
-    (ROOT / "archive.html").write_text(archive_page(items), encoding="utf-8")
-    for name, html_ in companies_pages(items).items():
+    dates = [d["date"] for d in issues]
+    BRIEF.mkdir(exist_ok=True); COMP.mkdir(exist_ok=True); WEEK.mkdir(exist_ok=True)
+    wpages, latest_week, date_label = weekly_pages(issues)
+    for name, html_ in wpages.items():
+        (WEEK / name).write_text(html_, encoding="utf-8")
+    for d in issues:
+        wl = f'../weekly/{date_label[d["date"]]}.html' if parse_date(d["date"]).weekday() == 4 else ""
+        (BRIEF / f'{d["date"]}.html').write_text(brief_page(d, dates, "../", "archive", wl), encoding="utf-8")
+    top = issues[0]
+    wl0 = f'weekly/{date_label[top["date"]]}.html' if parse_date(top["date"]).weekday() == 4 else ""
+    (ROOT / "index.html").write_text(brief_page(top, dates, "", "today", wl0), encoding="utf-8")
+    (ROOT / "archive.html").write_text(archive_page(issues), encoding="utf-8")
+    for name, html_ in companies_pages(issues).items():
         (COMP / name).write_text(html_, encoding="utf-8")
-    spage, idx = search_page(items)
+    spage, idx = search_page(issues)
     (ROOT / "search.html").write_text(spage, encoding="utf-8")
     (ROOT / "search-index.json").write_text(json.dumps(idx, ensure_ascii=False), encoding="utf-8")
-    (ROOT / "weekly.html").write_text(weekly_page(items), encoding="utf-8")
-    n_items = sum(len(c.get("items", [])) for d in items for c in d.get("cards", []))
-    print(f"생성 완료: {len(items)}일치 · 아이템 {n_items}건 · 홈={items[0]['date']} · 회사별 {len(list(COMP.glob('*.html')))-1}개")
+    if latest_week:
+        wk = weekly_html([d for d in issues if date_label[d["date"]] == latest_week], latest_week,
+                         *B.week_of(next(d["date"] for d in issues if date_label[d["date"]] == latest_week))[1:],
+                         sorted(set(date_label.values()), reverse=True), latest_week, "")
+        (ROOT / "weekly.html").write_text(wk, encoding="utf-8")
+    n_items = sum(len(all_items(d)) for d in issues)
+    print(f"생성 완료: {len(issues)}호 · {n_items}건 · 최신 제{top.get('issue_no',0)}호({top['date']}) · 회사별 {len(list(COMP.glob('*.html')))-1}개 · 주간 {len(wpages)}개")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

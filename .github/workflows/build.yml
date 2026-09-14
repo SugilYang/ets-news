@@ -1,13 +1,14 @@
 name: 지면 자동 빌드(안전망)
 
-# data/ 나 생성기가 바뀌어 푸시되면 JSON을 검증하고 지면을 다시 생성해 커밋합니다.
-# (매일 아침 자동 생성 세션이 렌더링을 빠뜨려도 사이트가 항상 최신 데이터로 유지됩니다)
+# data/·watchlist·생성기가 바뀌어 푸시되면 JSON을 검증하고 지면을 다시 생성해 커밋합니다.
 on:
   push:
     branches: [ main ]
     paths:
       - "data/**"
       - "render.py"
+      - "scripts/brieflib.py"
+      - "watchlist.yml"
       - "assets/**"
   workflow_dispatch: {}
 
@@ -28,6 +29,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: 의존성 설치
+        run: pip install pyyaml
+
       - name: JSON 유효성 검사
         run: |
           set -e
@@ -36,10 +40,10 @@ jobs:
 import json, sys
 p = sys.argv[1]
 d = json.load(open(p, encoding="utf-8"))
-assert d.get("date") and d.get("cards"), f"{p}: date/cards 누락"
-n = sum(len(c.get("items", [])) for c in d["cards"])
-assert n >= 3, f"{p}: 아이템이 너무 적음({n}건)"
-print(f"OK {p}: {len(d['cards'])}섹션 {n}건")
+assert d.get("schema") == 4 and d.get("date") and d.get("sections"), f"{p}: v4 스키마 아님(date/sections)"
+n = sum(len(g.get("items", [])) for s in d["sections"] for g in s.get("groups", []))
+assert n >= 1, f"{p}: 아이템 없음"
+print(f"OK {p}: 제{d.get('issue_no',0)}호 {len(d['sections'])}섹션 {n}건")
 PY
           done
 
@@ -50,7 +54,7 @@ PY
         run: |
           git config user.name "ETS News Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add index.html archive.html search.html search-index.json weekly.html briefings companies
+          git add index.html archive.html search.html search-index.json weekly.html briefings companies weekly
           if git diff --staged --quiet; then
             echo "변경 없음"
           else

@@ -1,12 +1,13 @@
-name: 매일 아침 브리핑 자동 생성
+name: 영업 브리핑 자동 발행 (월~금)
 
-# 매일 08:00 KST(=23:00 UTC 전날) GitHub 서버가 혼자 실행합니다. 무료·무인·API 키 없음.
+# 월~금 08:00 KST(=일~목 23:00 UTC) GitHub 서버가 혼자 실행합니다. 무료·무인·API 키 없음.
+# 주말·공휴일(watchlist.yml schedule.holidays)은 collect.py 가 스스로 건너뜁니다.
 #
 # ★ 자동 실행 일시 중지 상태 (최종 확정 전). 다시 켜려면 아래 schedule 2줄의 # 만 지우면 됩니다.
-#   지금은 Actions 탭 → "매일 아침 브리핑 자동 생성" → Run workflow 로만 수동 실행됩니다.
+#   지금은 Actions 탭 → "영업 브리핑 자동 발행" → Run workflow 로만 수동 실행됩니다.
 on:
   # schedule:
-  #   - cron: "0 23 * * *"
+  #   - cron: "0 23 * * 0-4"
   workflow_dispatch: {}
 
 permissions:
@@ -19,7 +20,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +31,7 @@ jobs:
       - name: 의존성 설치
         run: pip install -r requirements.txt
 
-      - name: 뉴스 수집·원문 리드 추출 → data/<오늘>.json (로그 저장)
+      - name: 뉴스 수집·분류·등급 → data/<오늘>.json + db/topics.json (로그 저장)
         id: collect
         continue-on-error: true
         run: |

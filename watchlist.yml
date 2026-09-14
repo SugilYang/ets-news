@@ -1,105 +1,228 @@
 # ══════════════════════════════════════════════════════════════════
-#  이티에스 산업 브리핑 — 감시 대상 설정 (v2)
+#  이티에스 영업 브리핑 — 감시 대상·규칙 설정 (v3)
 #
-#  매일 아침 이 파일을 기준으로 뉴스를 조사·정제해 브리핑을 만듭니다.
+#  근거: 「일일·주간 시장동향 정보보고 체계 구축」(PPT) + Market Intelligence V5(엑셀)
+#  매일 아침 이 파일 하나를 기준으로 뉴스를 찾고 → 카테고리로 나누고 → 등급을 찍습니다.
+#
 #  코드 몰라도 됩니다. 규칙 3가지:
-#    · 넣기  : 줄을 추가
-#    · 빼기  : 줄을 지우거나 앞에 #을 붙여 주석 처리
+#    · 넣기      : 줄을 추가
+#    · 빼기      : 줄을 지우거나 앞에 # 을 붙여 주석 처리
 #    · 잠시 끄기 : enabled: false
-#  저장하면 다음 아침 브리핑부터 반영됩니다.
+#  저장하면 다음 발행부터 반영됩니다.
 # ══════════════════════════════════════════════════════════════════
 
-company:
-  name: "ETS (이티에스)"
-  products: ["전해액 주액 설비", "이차전지 조립 관련 장비", "AMR(자율주행로봇)"]
+site:
+  name: "이티에스 영업 브리핑"
+  name_en: "ETS SALES BRIEFING"
+  edition: "조간"
+  first_issue_date: "2026-09-07"        # 제1호 날짜(호수 계산 기준)
 
-# ── 작성 원칙 (자동 생성 세션이 따르는 규칙) ────────────────────────
+# ── 발행 일정 ──────────────────────────────────────────────────────
+schedule:
+  weekdays_only: true                    # 월~금만 발행 (토·일은 건너뜀)
+  window_hours: 36                       # 화~금: 최근 36시간 기사
+  window_hours_monday: 84                # 월요일: 금요일 저녁 이후(주말 포함) 84시간
+  holidays:                              # 이 날짜는 발행하지 않음 (YYYY-MM-DD)
+    - "2026-09-24"   # 추석 연휴
+    - "2026-09-25"
+    - "2026-10-03"   # 개천절
+    - "2026-10-09"   # 한글날
+    - "2026-12-25"   # 성탄절
+    - "2027-01-01"   # 신정
+
+# ── 작성 원칙 ──────────────────────────────────────────────────────
 rules:
-  style: "사실(팩트) 중심. 무슨 일이 있었는지, 수치·날짜·출처를 반드시 포함. 주관적 판단·영업 시사점·우선순위·고객/경쟁사 라벨 금지. 확인 안 된 수치는 쓰지 않음."
-  item_length: "아이템당 3~5문장(배경→핵심 수치→후속 일정). 제목은 핵심 수치/사실을 담아 25자 내외."
-  items_per_section: {min: 3, max: 8}
-  freshness: "최근 1~2일 우선, 없으면 최근 1주. 기사 보도일을 date 필드에 기록."
-  dedupe: "최근 7일치 data/*.json 과 제목·URL이 겹치는 기사는 제외(새 소식만). 같은 사안의 후속 보도는 '후속:' 접두어로 1건만."
-  sources_kr: ["디일렉", "전자신문", "머니투데이", "한국경제", "매일경제", "뉴스핌", "이데일리", "연합뉴스", "배터리인사이드", "배터리투데이", "인더스트리뉴스", "헬로티", "고용노동부"]
-  sources_en: ["Reuters", "Bloomberg", "Electrive", "Battery-News.de", "Benchmark Mineral Intelligence", "BloombergNEF", "The Elec(EN)"]
-  link: "가능하면 원문 URL을 url 필드에 기록(클릭 시 기사로 이동)."
+  style: "사실만. 주체·수치·날짜·출처. 판단·시사점·전망 문장은 쓰지 않음."
+  brief_sentences: 2                     # 항목당 본문 문장 수(1~2). 나머지는 원문 링크로.
+  brief_max_chars: 170
+  items_per_section_max: 10
+  topic_memory_days: 30                  # 한 번 실은 사안은 30일간 기억, 바뀐 것만 '후속'으로 재게재
+  followup_needs_change: true            # 수치·일정이 달라져야만 후속으로 실음
+  min_items_to_publish: 2                # 이보다 적으면 그날 호를 만들지 않음
 
-# ── 섹션 (카드) ────────────────────────────────────────────────────
-#  type   : customer | maker | global | equipment | material | amr | policy
-#  accent : blue | teal | violet | rust | amber | slate   (카드 색)
-sections:
+# ── 출처 신뢰도 (PPT 기준 ★) ─ 도메인으로 자동 판정 ───────────────────
+reliability:
+  5: ["dart.fss.or.kr", "sec.gov", "lgensol.com", "samsungsdi.co.kr", "samsungsdi.com", "sk-on.com", "skinnonews.com",
+      "catl.com", "byd.com", "panasonic.com", "irgo.co.kr"]
+  4: ["yna.co.kr", "hankyung.com", "mk.co.kr", "sedaily.com", "edaily.co.kr", "mt.co.kr", "fnnews.com", "newspim.com",
+      "etnews.com", "thelec.kr", "thelec.net", "ddaily.co.kr", "reuters.com", "bloomberg.com", "ft.com", "wsj.com", "nikkei.com",
+      "motie.go.kr", "moel.go.kr", "korea.kr", "me.go.kr", "energy.gov", "ec.europa.eu",
+      "kbs.co.kr", "mbc.co.kr", "sbs.co.kr", "chosun.com", "joongang.co.kr", "donga.com", "hani.co.kr", "khan.co.kr",
+      "news1.kr", "newsis.com", "asiae.co.kr", "ajunews.com", "biz.heraldcorp.com", "heraldcorp.com", "businesspost.co.kr"]
+  3: ["industrynews.co.kr", "batterynews.co.kr", "hellot.net", "electrive.com", "batteriesnews.com", "energy-storage.news",
+      "cnevpost.com", "carnewschina.com", "electrek.co", "insideevs.com", "batterytech.kr", "kipris.or.kr", "patents.google.com",
+      "jobkorea.co.kr", "saramin.co.kr", "linkedin.com", "kita.net", "kbia.or.kr", "semi.org"]
+  # 그 외 도메인은 ★2
 
-  - id: lgensol
-    title: "LG에너지솔루션"
-    subtitle: "글로벌 전체"
-    type: customer
-    accent: blue
-    icon: "🏭"
-    full: true
+# ── 중요도 (PPT 기준 A/B/C) ─ 제목·본문 키워드로 자동 판정 ─────────────
+importance:
+  A:   # 즉시보고: 대규모 투자, RFQ, 투자취소/연기, 경쟁사 대형수주
+    any: ["RFQ", "입찰", "장비 발주", "장비발주", "공급사 선정", "공급업체 선정", "벤더 선정", "우선협상",
+          "투자 취소", "투자취소", "투자 연기", "투자연기", "투자 중단", "가동 중단", "공장 폐쇄", "철수", "감산",
+          "신공장", "신규 공장", "기가팩토리", "gigafactory", "착공", "장비 반입", "장비반입", "양산 개시", "SOP",
+          "tender", "equipment order", "cancel", "delay", "suspend", "plant closure", "groundbreaking"]
+    money_with: ["수주", "공급계약", "공급 계약", "투자", "증설", "계약 체결", "order", "contract", "investment", "expansion"]
+    money_min_krw_100m: 500              # 위 단어 + 500억원(0.5조) 이상 금액이 같이 나오면 A
+  B:   # Daily: 고객 실적·투자 진행, 주요 산업 변화
+    any: ["수주", "공급계약", "공급 계약", "투자", "증설", "실적", "영업이익", "매출", "합작", "JV", "MOU", "양산", "가동",
+          "ESS", "전고체", "LFP", "46시리즈", "46계열", "각형", "파우치", "원통형", "보조금", "세액공제", "관세", "IRA", "AMPC",
+          "채용", "해외법인", "특허", "인증", "벤더 등록", "order", "capacity", "subsidy", "tariff", "patent"]
+  # 그 외는 C (Weekly·일반)
+
+# ── 산업 앵커 ─ 시장·기술/정책 기사는 아래 단어 중 하나는 있어야 실림(무관한 정책·경제 기사 차단) ──
+anchors: ["배터리", "이차전지", "2차전지", "전기차", "ESS", "에너지저장", "전고체", "양극재", "음극재", "전해액", "전해질", "리튬", "분리막",
+          "반도체", "HBM", "파운드리", "AMR", "AGV", "로봇", "스마트팩토리", "공장자동화", "물류자동화", "물류 자동화", "무인지게차", "장비",
+          "battery", "EV", "electric vehicle", "gigafactory", "semiconductor", "robot", "automation", "electrolyte"]
+
+# ── 카테고리 (PPT ①~⑤) ─ 지면 순서 ─────────────────────────────────
+#  매 항목은 아래 순서로 판정됩니다: 경쟁사 이름 → 고객사 이름(+Project 신호) → 기술/정책 → 시장/산업
+categories:
+  - id: project
+    title: "Project · RFQ"
+    subtitle: "투자지역·규모·일정 · RFQ/발주 신호"
+    order: 1
     enabled: true
-    sites: ["오창", "폴란드 브로츠와프", "미국 미시간 홀랜드", "미국 미시간 랜싱", "미국 애리조나", "미국 오하이오(혼다 JV)", "미국 테네시(GM Ultium)", "캐나다 온타리오 윈저(NextStar)", "인도네시아(현대차 JV)", "중국 난징"]
-    watch: ["수주", "공급계약", "투자", "증설", "신규 공장", "라인 전환", "ESS", "46시리즈", "원통형", "각형", "파우치", "실적", "가동", "양산"]
-    keywords: ["LG에너지솔루션", "LG엔솔", "LGES", "LG Energy Solution", "Ultium Cells", "NextStar"]
+    signals: ["RFQ", "입찰", "장비 발주", "장비발주", "공급사 선정", "공급업체 선정", "벤더", "우선협상", "착공", "장비 반입", "장비반입",
+              "SOP", "양산 개시", "준공", "환경허가", "건축허가", "tender", "equipment order", "vendor selection", "groundbreaking", "move-in", "permit"]
 
-  - id: makers_kr
-    title: "국내 배터리사"
-    subtitle: "삼성SDI · SK온"
-    type: maker
-    accent: teal
-    icon: "🔋"
+  - id: customer
+    title: "고객사 동향"
+    subtitle: "CAPEX · 신공장 · 증설 · JV · 연기/취소"
+    order: 2
     enabled: true
-    companies: ["삼성SDI", "SK온"]
-    watch: ["수주", "투자", "증설", "전고체", "LFP", "ESS", "실적", "흑자", "신규 공장", "양산"]
+    groups:                              # 지면 소제목 (순서대로)
+      - {id: lgensol, title: "LG에너지솔루션", companies: ["LG에너지솔루션"]}
+      - {id: sdi, title: "삼성SDI", companies: ["삼성SDI"]}
+      - {id: skon, title: "SK온", companies: ["SK온"]}
+      - {id: global, title: "글로벌 · 기타", companies: ["CATL", "BYD", "Panasonic Energy", "Northvolt", "ACC", "PowerCo", "Envision AESC",
+                                                        "Tata Agratas", "Prime Planet", "Freyr", "Ultium Cells", "StarPlus", "NextStar", "Blue Oval SK", "EVE", "CALB", "Gotion", "SVOLT", "AESC"]}
 
-  - id: makers_global
-    title: "글로벌 배터리사"
-    subtitle: "CATL · 파나소닉 · BYD 등"
-    type: global
-    accent: violet
-    icon: "🌐"
+  - id: competitor
+    title: "업계 동향"
+    subtitle: "경쟁사 수주 · 신규장비 · 기술 · 해외진출"
+    order: 3
     enabled: true
-    companies: ["CATL", "파나소닉", "BYD", "ACC", "PowerCo", "노스볼트 후속(Lyten 등)", "Tata Agratas", "Prime Planet(도요타)", "Envision AESC", "Freyr"]
-    watch: ["신규 공장", "착공", "가동", "투자", "증설", "수주", "합작", "gigafactory", "LFP", "solid-state"]
 
-  - id: equipment
-    title: "장비·전해액 주액 수주"
-    subtitle: "국내 장비사"
-    type: equipment
-    accent: rust
-    icon: "🛠"
+  - id: tech_policy
+    title: "기술 · 정책"
+    subtitle: "특허 · 공정변화 · 보조금 · 국가별 정책"
+    order: 4
     enabled: true
-    companies_filling: ["하나기술"]        # ← 전해액 주액기 만드는 회사를 계속 추가하세요
-    companies_line: ["씨아이에스", "원익피앤이", "피엔티", "엠플러스", "코엠", "디에이테크놀로지", "유일에너테크", "나인테크"]   # 앞·뒷라인(전극/활성화 등)
-    watch: ["수주", "공급계약", "공시", "턴키", "전해액 주액", "주입기", "조립", "수주잔고", "실적"]
+    signals: ["보조금", "세액공제", "관세", "IRA", "AMPC", "FEOC", "현지화", "법안", "시행령", "규제", "인허가", "고용노동부", "산업통상자원부", "산업부",
+              "특허", "전고체", "건식전극", "실리콘 음극", "나트륨", "리튬메탈", "신공정", "subsidy", "tax credit", "tariff", "regulation", "solid-state", "dry electrode", "patent"]
 
-  - id: materials
-    title: "전해액·소재"
-    subtitle: "전해액 · 첨가제"
-    type: material
-    accent: slate
-    icon: "🧪"
+  - id: market
+    title: "시장 · 산업"
+    subtitle: "시장규모 · 수요전망 · 기술 Trend"
+    order: 5
     enabled: true
-    companies: ["엔켐", "동화일렉트로라이트", "솔브레인", "천보", "후성"]
-    watch: ["전해액", "증설", "공급계약", "가격", "수출"]
+    groups:
+      - {id: ev, title: "전기차", keywords: ["전기차", "EV", "전기차 판매", "전기차 보조금", "EV sales", "전기차 수요", "테슬라", "Tesla", "현대차 전기차"]}
+      - {id: battery, title: "이차전지", keywords: ["이차전지", "배터리", "K-배터리", "battery", "ESS", "LFP", "리튬", "양극재", "음극재", "분리막", "전해액", "전해질"]}
+      - {id: semi, title: "반도체", keywords: ["반도체", "HBM", "파운드리", "fab", "팹", "웨이퍼", "2나노", "첨단패키징"]}
+      - {id: fa, title: "스마트팩토리 · AMR", keywords: ["AMR", "AGV", "자율주행로봇", "물류로봇", "물류자동화", "스마트팩토리", "공장자동화", "무인지게차", "피지컬 AI", "휴머노이드", "digital twin", "MES"]}
 
-  - id: amr
-    title: "AMR·스마트팩토리"
-    subtitle: "제조·물류 자동화"
-    type: amr
-    accent: slate
-    icon: "🤖"
-    enabled: true
-    keywords: ["AMR", "자율주행로봇", "물류로봇", "물류자동화", "스마트팩토리", "무인지게차"]
-    watch: ["도입", "시장", "수주", "공급", "규제", "표준"]
+# ── 고객사 (엑셀 Matrix + PPT) ─ 이름·별칭·검색어 ──────────────────────
+customers:
+  - {name: "LG에너지솔루션", aliases: ["LG엔솔", "LGES", "LG Energy Solution", "엘지에너지솔루션"], lang: ko, grade: A,
+     sites: ["오창", "폴란드", "미시간", "애리조나", "오하이오", "테네시", "온타리오", "인도네시아", "난징"]}
+  - {name: "삼성SDI", aliases: ["Samsung SDI", "SDI"], lang: ko, grade: A, sites: ["천안", "울산", "헝가리", "괴드", "인디애나", "코코모", "말레이시아", "시안"]}
+  - {name: "SK온", aliases: ["SK on", "SK On", "에스케이온", "SK이노베이션"], lang: ko, grade: A, sites: ["서산", "헝가리", "조지아", "켄터키", "테네시", "옌청"]}
+  - {name: "CATL", aliases: ["닝더스다이", "宁德时代", "Contemporary Amperex"], lang: en, grade: A}
+  - {name: "BYD", aliases: ["비야디", "FinDreams"], lang: en, grade: A}
+  - {name: "Panasonic Energy", aliases: ["파나소닉", "Panasonic"], lang: en, grade: B}
+  - {name: "Northvolt", aliases: ["노스볼트", "Lyten"], lang: en, grade: B}
+  - {name: "PowerCo", aliases: ["파워코", "폭스바겐 배터리"], lang: en, grade: B}
+  - {name: "ACC", aliases: ["Automotive Cells Company"], lang: en, grade: B}
+  - {name: "Envision AESC", aliases: ["AESC", "엔비전"], lang: en, grade: B}
+  - {name: "Tata Agratas", aliases: ["Agratas", "타타 배터리"], lang: en, grade: B}
+  - {name: "EVE", aliases: ["EVE Energy", "이브에너지"], lang: en, grade: B}
+  - {name: "CALB", aliases: ["중창신항"], lang: en, grade: B}
+  - {name: "Gotion", aliases: ["궈쉬안", "Gotion High-Tech"], lang: en, grade: B}
+  - {name: "SVOLT", aliases: ["에스볼트"], lang: en, grade: B}
 
-  - id: policy_market
-    title: "정책·시장"
-    subtitle: "AMPC · 수출 · 시황"
-    type: policy
-    accent: amber
-    icon: "📊"
-    enabled: true
-    keywords: ["IRA", "AMPC", "관세", "보조금", "이차전지 수출", "배터리 시황", "ESS 수요", "리튬 가격", "고용노동부 배터리"]
-    watch: ["법안", "시행령", "관세율", "수출 통계", "가격"]
+# 고객사 검색어 묶음 (이름 + 아래 단어) — 엑셀 Keyword DB '투자·일정·구매·정책·인허가'
+customer_watch:
+  ko: ["투자", "증설", "신공장", "착공", "양산", "수주", "공급계약", "RFQ", "장비", "ESS", "실적", "합작", "연기", "취소"]
+  en: ["investment", "capacity expansion", "new plant", "groundbreaking", "equipment", "RFQ", "supplier", "ESS", "delay", "cancel"]
 
-# 새 섹션이 필요하면 위 블록을 복사해서 추가하세요. (예: 환율·관세, 인사·조직, 특정 지역)
+# ── 경쟁사 (엑셀 Competitor DB 22개사) ─ 등급·주요 장비 ────────────────
+competitors:
+  # 국내 이차전지 장비
+  - {name: "엠플러스", aliases: ["mPLUS", "엠플러스(mPLUS)"], grade: A, country: "한국", scope: "조립 Turn-key · AMR"}
+  - {name: "하나기술", aliases: ["Hana Technology"], grade: A, country: "한국", scope: "조립·화성·모듈팩 · 전해액 주액"}
+  - {name: "필에너지", aliases: ["Philenergy"], grade: A, country: "한국", scope: "노칭·스태킹 · 46계열"}
+  - {name: "유일에너테크", aliases: ["Youil Energy Tech"], grade: A, country: "한국", scope: "레이저 노칭·스태킹"}
+  - {name: "우원기술", aliases: ["Woowon"], grade: A, country: "한국", scope: "노칭·스태킹"}
+  - {name: "디에이테크놀로지", aliases: ["DA Technology", "디에이텍"], grade: A, country: "한국", scope: "각형·원통형 조립 · 주액"}
+  - {name: "나인테크", aliases: ["Naintech"], grade: B, country: "한국", scope: "라미네이션·스태킹"}
+  - {name: "피엔티", aliases: ["PNT", "피앤티"], grade: B, country: "한국", scope: "전극 · 모듈/팩"}
+  - {name: "톱텍", aliases: ["TOPTEC"], grade: B, country: "한국", scope: "탭웰딩·패키징"}
+  - {name: "시스템알앤디", aliases: ["System R&D"], grade: B, country: "한국", scope: "조립 자동화"}
+  # 국내 FA·AMR
+  - {name: "코윈테크", aliases: ["Cowintech"], grade: A, country: "한국", scope: "공정물류 · AGV/AMR"}
+  - {name: "SFA", aliases: ["에스에프에이"], grade: A, country: "한국", scope: "물류·공장자동화"}
+  - {name: "현대무벡스", aliases: ["Hyundai Movex"], grade: B, country: "한국", scope: "물류자동화 · 로봇"}
+  - {name: "티로보틱스", aliases: ["T-Robotics"], grade: B, country: "한국", scope: "AMR/AGV"}
+  - {name: "에스엠코어", aliases: ["SMCore", "SM코어"], grade: B, country: "한국", scope: "스마트팩토리 · AGV"}
+  # 해외
+  - {name: "LEAD Intelligent", aliases: ["Wuxi Lead", "리드인텔리전트", "先导智能"], grade: A, country: "중국", scope: "셀 조립 전반 · 주액 · 물류", lang: en}
+  - {name: "Yinghe", aliases: ["Yinghe Technology", "잉허", "赢合科技"], grade: A, country: "중국", scope: "전극~조립 Turn-key", lang: en}
+  - {name: "Geesun", aliases: ["Geesun Intelligent", "지선"], grade: A, country: "중국", scope: "와인딩·스태킹", lang: en}
+  - {name: "Autowell", aliases: ["Autowell Technology", "无锡奥特维"], grade: A, country: "중국", scope: "각형 조립라인", lang: en}
+  - {name: "MiR", aliases: ["Mobile Industrial Robots"], grade: A, country: "덴마크", scope: "AMR", lang: en}
+  - {name: "Geekplus", aliases: ["Geek+", "긱플러스"], grade: A, country: "중국", scope: "AMR · Fleet", lang: en}
+  - {name: "Dematic", aliases: ["데마틱"], grade: B, country: "미국/독일", scope: "물류자동화 SI", lang: en}
+
+competitor_watch:
+  ko: ["수주", "공급계약", "공시", "신규 장비", "특허", "해외 법인", "채용", "실적"]
+  en: ["order", "contract", "new equipment", "patent", "subsidiary", "hiring"]
+
+# ── 시장·기술·정책 검색어 (엑셀 Keyword DB 요약) ─────────────────────
+market_queries:
+  ko: ["전기차 판매 전망", "전기차 보조금 관세", "이차전지 투자 증설", "배터리 ESS 수요", "전고체 배터리 양산", "LFP 배터리 투자",
+       "반도체 설비투자 HBM", "스마트팩토리 AMR 도입", "물류로봇 시장", "배터리 보조금 IRA AMPC", "고용노동부 배터리", "산업부 이차전지"]
+  en: ["global EV sales outlook", "battery gigafactory investment", "electrolyte filling equipment", "AMR factory logistics battery",
+       "EV tariff subsidy policy", "solid-state battery pilot line"]
+
+# ── 태그 (항목에 작은 표식으로 붙음) ───────────────────────────────────
+tags:
+  주액:   ["전해액 주액", "주액기", "주액 설비", "진공 주액", "함침", "electrolyte filling", "electrolyte injection", "EL Filling"]
+  AMR:    ["AMR", "AGV", "자율주행로봇", "물류로봇", "무인지게차", "mobile robot"]
+  ESS:    ["ESS", "에너지저장장치", "energy storage"]
+  전고체: ["전고체", "solid-state", "solid state"]
+  46시리즈: ["46시리즈", "46계열", "4680", "4695", "46-series"]
+  각형:   ["각형", "prismatic"]
+  투자:   ["투자", "증설", "신공장", "착공", "investment", "expansion"]
+  수주:   ["수주", "공급계약", "공급 계약", "order", "contract"]
+  RFQ:    ["RFQ", "입찰", "장비 발주", "장비발주", "tender"]
+  리스크: ["취소", "연기", "중단", "철수", "감산", "폐쇄", "cancel", "delay", "suspend", "closure"]
+  정책:   ["보조금", "세액공제", "관세", "IRA", "AMPC", "규제", "subsidy", "tariff", "tax credit"]
+  실적:   ["실적", "영업이익", "매출", "revenue", "operating profit"]
+  채용:   ["채용", "hiring"]
+  특허:   ["특허", "patent"]
+
+# ── 수집원 (언론사·기관 RSS, 무료·키 없음). 응답 없는 주소는 자동 건너뜀 ─
+feeds:
+  - "https://dart.fss.or.kr/api/todayRSS.xml"                 # 금감원 전자공시 오늘의 공시 ★5
+  - "https://www.korea.kr/rss/policy.xml"                     # 정책브리핑 ★4
+  - "https://www.hankyung.com/feed/industry"
+  - "https://www.hankyung.com/feed/economy"
+  - "https://www.yna.co.kr/rss/industry.xml"
+  - "https://www.yna.co.kr/rss/economy.xml"
+  - "https://www.mk.co.kr/rss/30100041/"
+  - "https://www.mk.co.kr/rss/50200011/"
+  - "https://rss.etnews.com/Section901.xml"
+  - "https://rss.etnews.com/Section902.xml"
+  - "https://www.thelec.kr/rss/allArticle.xml"
+  - "https://www.industrynews.co.kr/rss/allArticle.xml"
+  - "https://www.batterynews.co.kr/rss/allArticle.xml"
+  - "https://www.hellot.net/rss/allArticle.xml"
+  - "https://www.newspim.com/rss/newspim_all.xml"
+  - "https://rss.edaily.co.kr/edaily_news.xml"
+  - "https://www.mt.co.kr/rss/mt_news.xml"
+  - "https://www.sedaily.com/RSS/S1N1.xml"
+  - "https://www.ddaily.co.kr/rss/S1N1.xml"
+  - "https://www.fnnews.com/rss/fnnews_economy.xml"
+  - "https://www.electrive.com/feed/"
+  - "https://www.energy-storage.news/feed/"

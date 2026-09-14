@@ -99,7 +99,7 @@ b,strong{font-weight:700}
 .issuenav .dis{color:var(--faint)}
 
 /* ── 1면 톱 ── */
-.front{display:grid;grid-template-columns:7fr 4fr;gap:0 24px;padding:12px 0 10px;border-bottom:1px solid var(--rule);margin-bottom:0}
+.front{display:grid;grid-template-columns:3fr 2fr;gap:0 24px;padding:12px 0 10px;border-bottom:1px solid var(--rule);margin-bottom:0}
 .front .lcol{border-right:1px solid var(--hair);padding-right:24px;min-width:0} .front .rcol{min-width:0}
 .front .guide{border-right:0;padding-right:0;margin-top:10px} .front .legend{margin-top:10px}
 .kicker{font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin-bottom:6px}
@@ -108,8 +108,8 @@ b,strong{font-weight:700}
 .lead-story h1 a:hover{color:var(--accent)}
 .lead-story .b{font-size:14.5px;line-height:1.7;margin:0 0 4px;color:var(--text)}
 .front .side h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--muted);font-weight:700;margin:0 0 6px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
-.front .side .item{padding:6px 0}
-.front .side .item .h{font-size:15px}
+.front .side .item{padding:4px 0}
+.front .side .item .h{font-size:14.5px}
 .front .side .item .b{display:none}
 .summary{font-size:13px;color:var(--muted);padding:6px 0 0;border-top:1px dotted var(--hair);margin-top:6px}
 .front{border-bottom:3px double var(--rule)}
@@ -124,6 +124,20 @@ b,strong{font-weight:700}
 .legend dt{font-weight:700;color:var(--ink);white-space:nowrap} .legend dd{margin:0}
 .summary b{color:var(--ink)}
 
+
+/* ── 한 줄 항목 ── */
+.item .row{display:flex;align-items:baseline;gap:7px}
+.item .row .g{flex:none;position:relative;top:-1px}
+.legend-bar{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:11px;line-height:1.7;color:var(--muted);
+  background:#f3f1ea;border:1px solid var(--hair);padding:5px 10px;margin:8px 0 0}
+.legend-bar .lb-t{font-weight:700;color:var(--ink);letter-spacing:.12em;font-size:10.5px;padding-right:8px;border-right:1px solid var(--hair)}
+.legend-bar .lb-g b{color:var(--ink);font-weight:700}
+.legend-bar .lb-note{color:var(--faint);margin-left:auto}
+.fu-mini{display:inline-block;font-size:10.5px;font-weight:700;color:var(--accent);border-left:3px solid var(--accent);background:var(--accent-bg);padding:0 5px}
+.front .side{margin-top:8px;border-top:1px solid var(--rule)}
+.front .side h2{border-bottom:0;padding-top:6px}
+.front .rcol .guide{margin-top:0}
+
 /* ── 섹션 ── */
 .section{margin:10px 0 0} .section.thin .sec-head{border-top-width:1px;padding:4px 0;margin-bottom:0}
 .sec-head{display:flex;align-items:baseline;gap:10px;border-top:3px solid var(--rule);border-bottom:1px solid var(--rule);padding:5px 0 4px;margin-bottom:4px}
@@ -136,14 +150,14 @@ b,strong{font-weight:700}
 .group{break-inside:avoid;margin-bottom:4px}
 .group h3{font-family:var(--serif);font-size:13.5px;font-weight:700;color:var(--ink);margin:0;padding:3px 0 2px;border-bottom:2px solid var(--ink);display:flex;align-items:center;gap:8px}
 .group h3 .gcnt{font-family:var(--sans);font-size:11px;color:var(--muted);font-weight:500;margin-left:auto}
-.item{break-inside:avoid;padding:6px 0;border-bottom:1px dotted var(--hair)}
+.item{break-inside:avoid;padding:4px 0;border-bottom:1px dotted var(--hair)}
 .item:last-child{border-bottom:0}
-.item .h{margin:0;font-family:var(--serif);font-size:15px;font-weight:700;line-height:1.4;color:var(--ink);text-wrap:pretty}
+.item .h{margin:0;font-family:var(--serif);font-size:14.5px;font-weight:700;line-height:1.4;color:var(--ink);text-wrap:pretty}
 .item .h a{text-decoration:none}
 .item .h a:hover{color:var(--accent)}
 .item .b{margin:2px 0 0;font-size:13px;line-height:1.55;color:var(--text)}
 .item .b b{color:var(--ink)}
-.meta{margin-top:3px;font-size:11px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 7px;align-items:center}
+.meta{margin-top:1px;font-size:10.5px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 7px;align-items:center}
 .meta .src{color:var(--ink);font-weight:500}
 .meta .more{margin-left:auto;text-decoration:none;color:var(--brand);font-weight:700;white-space:nowrap}
 .meta .more:hover{text-decoration:underline}
@@ -245,6 +259,7 @@ b,strong{font-weight:700}
   .nav{justify-content:flex-start} .nav a{padding:9px 11px;font-size:13px}
   .lead-story h1{font-size:21px} .lead-story .b{font-size:14px}
   .cols,.cols.two,.cols.three{column-count:1}
+  .legend-bar{font-size:10.5px;gap:2px 10px} .legend-bar .lb-note{display:none}
   .guide-row{grid-template-columns:1fr} .guide{border-right:0;padding-right:0}
   .front .lcol{border-right:0;padding-right:0;border-bottom:1px solid var(--hair);padding-bottom:8px;margin-bottom:6px}
   .item .h{font-size:15px} .item .b{font-size:13.5px;line-height:1.6}
@@ -320,12 +335,13 @@ def clamp_brief(b: str, max_chars: int = BRIEF_MAX) -> str:
 
 
 def render_item(it: dict, show_entity: bool = True, show_cat: bool = False, brief: bool = True) -> str:
+    """한 줄 항목: [등급] 제목 — 회사 · 매체 · 날짜 · ★ · 태그.  본문 한 문장은 A등급만(나머지는 원문 링크)."""
     url = it.get("url")
     h = it.get("h", "")
     hh = f'<a href="{esc(url)}" target="_blank" rel="noopener">{h}</a>' if url else h
-    bb = clamp_brief(it.get("b", "")) if brief else ""
+    bb = clamp_brief(it.get("b", "")) if (brief and it.get("grade") == "A") else ""
     body = f'<p class="b">{bb}</p>' if bb else ""
-    meta = [grade_badge(it.get("grade", "C"))]
+    meta = []
     if show_entity and it.get("entity"):
         meta.append(f'<span class="ent">{esc(it["entity"])}</span>')
     if show_cat:
@@ -333,18 +349,27 @@ def render_item(it: dict, show_entity: bool = True, show_cat: bool = False, brie
     if it.get("src"):
         meta.append(f'<span class="src">{esc(it["src"])}</span>')
     if it.get("date"):
-        meta.append(f'<span>{esc(it["date"])}</span>')
+        meta.append(f'<span>{esc(short_date(it["date"]))}</span>')
     meta.append(stars(it.get("rel", 2)))
     if it.get("tags"):
-        meta.append(tag_html(it["tags"]))
-    if url:
-        meta.append(f'<a class="more" href="{esc(url)}" target="_blank" rel="noopener">원문 보기 ↗</a>')
+        meta.append(tag_html(it["tags"][:3]))
     fu = ""
     f = it.get("followup")
     if f:
         ch = f.get("change") or ""
-        fu = (f'<div class="fu"><b>후속</b> · {esc(short_date(f.get("prev_date","")))} 게재분 대비 달라진 수치·일정: {esc(ch) if ch else "—"}</div>')
-    return f'<article class="item" id="{esc(it.get("id",""))}"><h4 class="h">{hh}</h4>{body}{fu}<div class="meta">{" ".join(meta)}</div></article>'
+        fu = f'<div class="fu"><b>후속</b> {esc(short_date(f.get("prev_date","")))} 게재분과 달라진 수치·일정: {esc(ch) if ch else "—"}</div>'
+    return (f'<article class="item" id="{esc(it.get("id",""))}"><div class="row">{grade_badge(it.get("grade","C"))}'
+            f'<h4 class="h">{hh}</h4></div>{body}{fu}<div class="meta">{" ".join(meta)}</div></article>')
+
+
+LEGEND_BAR = (
+    '<div class="legend-bar"><span class="lb-t">범례</span>'
+    '<span class="lb-g"><span class="g A">A 즉시</span> 대규모 투자·RFQ·취소/연기·경쟁사 대형수주 &nbsp;<span class="g B">B</span> 수주·투자 진행·실적·정책 &nbsp;<span class="g C">C</span> 일반 동향</span>'
+    f'<span class="lb-g"><b>출처 신뢰도</b> {stars(5)} 공시·IR &nbsp;{stars(4)} 정부·주요 언론 &nbsp;{stars(3)} 전문지·협회·채용·특허 &nbsp;{stars(2)} 그 외</span>'
+    '<span class="lb-g"><b>태그</b> <span class="tag key">주액</span> 당사 핵심 장비 &nbsp;<span class="tag key">RFQ</span> 입찰·발주 &nbsp;<span class="tag key">리스크</span> 연기·취소</span>'
+    '<span class="lb-g"><span class="fu-mini">후속</span> 이미 실린 사안의 수치·일정 변경</span>'
+    '<span class="lb-g lb-note">공개 보도·공시의 제목만 기록, 판단 없음. 본문 한 줄은 A등급만, 세부는 제목 클릭</span></div>'
+)
 
 
 # ---------------------------------------------------------------- 호(일간) 지면
@@ -373,7 +398,7 @@ def sales_guide_html(d: dict) -> str:
             lines.append(f'<li><a href="#{esc(it["id"])}">{grade_badge(it.get("grade","C"))} {esc(say)}</a>'
                          f'<small>{esc(B.strip_tags(it.get("h",""))[:44])}</small></li>')
             break
-        if len(lines) >= 7:
+        if len(lines) >= 5:
             break
     body = f'<ul>{"".join(lines)}</ul>' if lines else '<p class="empty">오늘은 규칙에 걸린 영업 신호가 없습니다.</p>'
     return f'<div class="guide"><h2>오늘의 영업 포인트 <small>규칙표(watchlist.yml sales_guide) 자동 연결</small></h2>{body}</div>'
@@ -417,14 +442,22 @@ def front_html(d: dict) -> str:
     url = lead.get("url")
     h1 = f'<a href="{esc(url)}" target="_blank" rel="noopener">{lead["h"]}</a>' if url else lead["h"]
     kicker = f'{esc(CAT_TITLE.get(lead.get("cat",""), ""))}' + (f' · {esc(lead["entity"])}' if lead.get("entity") else "")
-    meta = render_item(lead, show_entity=False, brief=False)
-    meta = re.sub(r'^<article[^>]*><h4 class="h">.*?</h4>', "", meta, flags=re.S).replace("</article>", "")
+    meta_parts = [grade_badge(lead.get("grade", "C"))]
+    if lead.get("src"):
+        meta_parts.append(f'<span class="src">{esc(lead["src"])}</span>')
+    if lead.get("date"):
+        meta_parts.append(f'<span>{esc(short_date(lead["date"]))}</span>')
+    meta_parts.append(stars(lead.get("rel", 2)))
+    if lead.get("tags"):
+        meta_parts.append(tag_html(lead["tags"][:4]))
+    if url:
+        meta_parts.append(f'<a class="more" href="{esc(url)}" target="_blank" rel="noopener">원문 보기 ↗</a>')
+    meta = f'<div class="meta">{" ".join(meta_parts)}</div>'
     lead_html = (f'<div class="lead-story"><div class="kicker">오늘의 1면 · {kicker}</div><h1>{h1}</h1>'
                  f'<p class="b">{clamp_brief(lead.get("b",""), BRIEF_MAX + 40)}</p>{meta}</div>')
     side_html = ('<div class="side"><h2>주요 기사</h2>' + "".join(render_item(it, brief=False) for it in side) + "</div>") if side else ""
-    # 왼쪽: 1면 톱 + 영업 포인트 / 오른쪽: 주요 기사 + 범례  (빈 공간 없이)
-    return (f'<div class="front"><div class="lcol">{lead_html}{sales_guide_html(d)}</div>'
-            f'<div class="rcol">{side_html}{LEGEND}</div></div>')
+    return (f'<div class="front"><div class="lcol">{lead_html}{side_html}</div>'
+            f'<div class="rcol">{sales_guide_html(d)}</div></div>')
 
 
 def section_html(sec: dict, no: int, exclude: set[str]) -> str:
@@ -436,7 +469,7 @@ def section_html(sec: dict, no: int, exclude: set[str]) -> str:
             continue
         total += len(its)
         title = g.get("title") or ""
-        gh = f'<h3>{esc(title)}<span class="gcnt">{len(its)}건</span></h3>' if title else ""
+        gh = f'<h3>{esc(title)}</h3>' if title else ""
         groups.append(f'<div class="group">{gh}{"".join(render_item(it, show_entity=not title or title in ("글로벌 · 기타",) or sec["id"] in ("project","competitor")) for it in its)}</div>')
     n_front = sum(1 for g in sec.get("groups", []) for it in g.get("items", []) if it["id"] in exclude)
     circ = "①②③④⑤⑥⑦⑧⑨"[no - 1] if 1 <= no <= 9 else str(no)
@@ -445,7 +478,7 @@ def section_html(sec: dict, no: int, exclude: set[str]) -> str:
         return (f'<section class="section thin" id="{esc(sec["id"])}"><div class="sec-head"><span class="no">{circ}</span>'
                 f'<h2>{esc(sec.get("title",""))}</h2><span class="cnt">{note}</span></div></section>')
     cnt = f'{total}건' + (f' · 1면 {n_front}건' if n_front else "")
-    ncol = "one" if total <= 4 else ("two" if total <= 10 else "three")
+    ncol = "one" if total <= 6 else "two"
     body = f'<div class="cols {ncol}">{"".join(groups)}</div>'
     return (f'<section class="section" id="{esc(sec["id"])}"><div class="sec-head"><span class="no">{circ}</span>'
             f'<h2>{esc(sec.get("title",""))}</h2><span class="sub">{esc(sec.get("subtitle",""))}</span><span class="cnt">{cnt}</span></div>{body}</section>')
@@ -456,12 +489,12 @@ def brief_page(d: dict, dates: list[str], base: str, active: str, week_link: str
     tops = set(d.get("top", []))
     secs = "".join(section_html(s, i + 1, tops) for i, s in enumerate(d.get("sections", [])))
     n = len(all_items(d))
-    guide = '' if d.get('top') else f'<div class="guide-row">{sales_guide_html(d)}{LEGEND}</div>'
+    guide = '' if d.get('top') else f'<div class="guide-row">{sales_guide_html(d)}</div>'
     wk = f'<div class="summary">이번 주 <a href="{week_link}">주간 종합면</a>이 준비되었습니다.</div>' if week_link else ""
     srcs = d.get("sources") or []
     src_line = ("출처: " + esc("·".join(srcs[:16])) + (" 등" if len(srcs) > 16 else "")) if srcs else ""
     return (head(f"{SITE} 제{d.get('issue_no',0)}호 — {d.get('date','')}", active, base, right, dl) +
-            issuenav(dates, d.get("date", ""), base) + front_html(d) + guide + wk + secs +
+            LEGEND_BAR + issuenav(dates, d.get("date", ""), base) + front_html(d) + guide + wk + secs +
             foot(f"{src_line} · 오늘 {n}건"))
 
 

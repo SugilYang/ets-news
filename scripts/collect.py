@@ -337,6 +337,7 @@ def main() -> int:
     n_sent = int(rules.get("brief_sentences", 2)); max_chars = int(rules.get("brief_max_chars", 170))
     cap = int(rules.get("items_per_section_max", 12))
     cap_co = int(rules.get("items_per_company_max", 3))
+    cap_grp = int(rules.get("items_per_group_max", 3))
     need_change = bool(rules.get("followup_needs_change", True))
     sections = clf.skeleton()
     sec_index = {s["id"]: s for s in sections}
@@ -368,7 +369,8 @@ def main() -> int:
         if not cls:
             stats["unclassified"] += 1
             continue
-        if counts.get(cls["cat"], 0) >= cap or co_counts.get((cls["cat"], cls["entity"]), 0) >= (cap_co if cls["entity"] else 10**6):
+        if (counts.get(cls["cat"], 0) >= cap or co_counts.get((cls["cat"], cls["entity"]), 0) >= (cap_co if cls["entity"] else 10**6)
+                or co_counts.get(("grp", cls["cat"], cls["group"]), 0) >= cap_grp):
             stats["capped"] += 1
             continue
         final_url = final if "news.google.com" not in B.host(final) else e["link"]
@@ -402,6 +404,7 @@ def main() -> int:
         grp["items"].append(item)
         counts[cls["cat"]] = counts.get(cls["cat"], 0) + 1
         co_counts[(cls["cat"], cls["entity"])] = co_counts.get((cls["cat"], cls["entity"]), 0) + 1
+        co_counts[("grp", cls["cat"], cls["group"])] = co_counts.get(("grp", cls["cat"], cls["group"]), 0) + 1
         mem.remember(item, today)
         seen_nt.add(B.norm_title(e["title"])); seen_url.add(final_url.split("?")[0])
         seq += 1; stats["published"] += 1

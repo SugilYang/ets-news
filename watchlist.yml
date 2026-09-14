@@ -35,8 +35,9 @@ rules:
   style: "사실만. 주체·수치·날짜·출처. 판단·시사점·전망 문장은 쓰지 않음."
   brief_sentences: 1                     # 항목당 본문 문장 수. 핵심 한 문장만, 나머지는 원문 링크로.
   brief_max_chars: 90
-  items_per_section_max: 12
-  items_per_company_max: 3               # 한 면에서 같은 회사 기사는 최대 3건
+  items_per_section_max: 8               # 면당 최대 건수
+  items_per_group_max: 3                 # 소제목(LG엔솔·전기차 등)당 최대 건수
+  items_per_company_max: 2               # 한 면에서 같은 회사 기사는 최대 2건
   topic_memory_days: 30                  # 한 번 실은 사안은 30일간 기억, 바뀐 것만 '후속'으로 재게재
   followup_needs_change: true            # 수치·일정이 달라져야만 후속으로 실음
   min_items_to_publish: 2                # 이보다 적으면 그날 호를 만들지 않음

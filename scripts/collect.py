@@ -213,7 +213,7 @@ def extract_lead(url: str) -> tuple[str, str]:
         r = SESSION.get(url, timeout=(5, 10), allow_redirects=True)
         if r.status_code != 200 or not r.text:
             return "", url
-        soup = BeautifulSoup(r.text, "lxml")
+        soup = BeautifulSoup(r.content, "lxml")   # 바이트로 넘겨 페이지의 charset(EUC-KR 등)을 스스로 읽게 함
         for t in soup(["script", "style", "nav", "header", "footer", "aside", "figure", "iframe", "noscript"]):
             t.decompose()
         node = None
@@ -227,6 +227,8 @@ def extract_lead(url: str) -> tuple[str, str]:
         text = " ".join(paras) if paras else (node.get_text(" ", strip=True) if node else "")
         text = re.sub(r"^\[[^\]]{2,25}\]\s*", "", text)
         text = re.sub(r"^[가-힣A-Za-z\s]{2,15}기자\s*=\s*", "", text)
+        if sum(1 for ch in text[:400] if "À" <= ch <= "ÿ") > 20:   # 인코딩 깨짐(ÀÌ±â¼ö…)이면 버림
+            return "", r.url
         return text[:1500], r.url
     except Exception:
         return "", url
@@ -303,6 +305,8 @@ def main() -> int:
         k = B.norm_title(it["title"])
         if not k or k in pool or k in seen_nt:
             return
+        if re.search(r"\d{6}\.(SZ|SS|HK|KS|KQ)\b|\(\d{6}\)|주가 정보|Stock Price|stock quote", it["title"], flags=re.I):
+            return   # 종목 시세 페이지
         pre = clf.classify(it["title"], it["summary"])
         if not pre:
             return
@@ -329,12 +333,15 @@ def main() -> int:
 
     # 2) 원문 확인·브리프·분류·사안 기억
     n_sent = int(rules.get("brief_sentences", 2)); max_chars = int(rules.get("brief_max_chars", 170))
-    cap = int(rules.get("items_per_section_max", 10))
+    cap = int(rules.get("items_per_section_max", 12))
+    cap_co = int(rules.get("items_per_company_max", 3))
     need_change = bool(rules.get("followup_needs_change", True))
     sections = clf.skeleton()
     sec_index = {s["id"]: s for s in sections}
     counts: dict[str, int] = {}
-    stats = {"fetched": 0, "published": 0, "followup": 0, "suppressed": 0, "nobody": 0, "unclassified": 0, "capped": 0}
+    co_counts: dict[tuple, int] = {}
+    stats = {"fetched": 0, "published": 0, "headline_only": 0, "followup": 0, "suppressed": 0, "sameday": 0,
+             "nobody": 0, "unclassified": 0, "capped": 0}
     budget = MAX_ARTICLE_FETCH
     seq = 0
 
@@ -350,14 +357,16 @@ def main() -> int:
             lead, final = extract_lead(url)
         text = lead if len(lead) >= MIN_BODY else e["summary"]
         brief = B.make_brief(text, n_sent, max_chars)
-        if len(brief) < MIN_BODY:
-            stats["nobody"] += 1
-            continue
-        cls = clf.classify(e["title"], f"{brief} {lead[:600]}")
+        nt_b, nt_t = B.norm_title(brief)[:30], B.norm_title(e["title"])[:30]
+        if brief and (nt_b == nt_t or nt_b.startswith(nt_t[:20]) and len(brief) < len(e["title"]) + 30):
+            brief = ""            # RSS 요약이 제목을 되풀이한 것 → 제목만 싣고 본문은 원문 링크로
+        if not brief:
+            stats["headline_only"] += 1
+        cls = clf.classify(e["title"], f"{brief} {lead[:600]} {e['summary'][:300]}")
         if not cls:
             stats["unclassified"] += 1
             continue
-        if counts.get(cls["cat"], 0) >= cap:
+        if counts.get(cls["cat"], 0) >= cap or co_counts.get((cls["cat"], cls["entity"]), 0) >= (cap_co if cls["entity"] else 10**6):
             stats["capped"] += 1
             continue
         final_url = final if "news.google.com" not in B.host(final) else e["link"]
@@ -373,6 +382,9 @@ def main() -> int:
             "followup": None,
         }
         prev = mem.find(item["entity"], item["cat"], item["group"], e["title"], final_url)
+        if prev and prev.get("date") == today:
+            stats["sameday"] += 1     # 같은 날 같은 사안의 다른 매체 보도 → 1건만
+            continue
         if prev:
             changes = B.TopicMemory.change(prev, e["title"], brief)
             if need_change and not changes:
@@ -387,14 +399,15 @@ def main() -> int:
             grp = {"id": cls["group"], "title": "", "items": []}; sec["groups"].append(grp)
         grp["items"].append(item)
         counts[cls["cat"]] = counts.get(cls["cat"], 0) + 1
+        co_counts[(cls["cat"], cls["entity"])] = co_counts.get((cls["cat"], cls["entity"]), 0) + 1
         mem.remember(item, today)
         seen_nt.add(B.norm_title(e["title"])); seen_url.add(final_url.split("?")[0])
         seq += 1; stats["published"] += 1
         time.sleep(0.2)
 
     total = stats["published"]
-    print(f"  · 원문확인 {stats['fetched']} → 게재 {total} (후속 {stats['followup']}) | 미변경 제외 {stats['suppressed']}, "
-          f"본문없음 {stats['nobody']}, 분류불가 {stats['unclassified']}, 섹션초과 {stats['capped']}")
+    print(f"  · 원문확인 {stats['fetched']} → 게재 {total} (후속 {stats['followup']}, 제목만 {stats['headline_only']}) | "
+          f"미변경 제외 {stats['suppressed']}, 같은날 중복 {stats['sameday']}, 분류불가 {stats['unclassified']}, 건수초과 {stats['capped']}")
     for s in sections:
         n = sum(len(g["items"]) for g in s["groups"])
         print(f"    - {s['title']}: {n}건")
@@ -405,10 +418,12 @@ def main() -> int:
 
     # 3) 1면 톱(A등급 → 신뢰도 → 최신)
     allitems = [it for s in sections for g in s["groups"] for it in g["items"]]
-    tops = sorted([it for it in allitems if it["grade"] == "A"], key=lambda it: (-it["rel"], it["date"]), reverse=False)
-    tops = sorted(tops, key=lambda it: (-it["rel"], -int(it["date"].replace("-", ""))))[:4]
+    corder = {cid: i for i, cid in enumerate(clf.cat_order)}
+    def topkey(it):   # 카테고리 순서(Project → 고객사 → 업계 …) → 신뢰도 → 최신
+        return (corder.get(it["cat"], 9), -it["rel"], -int(it["date"].replace("-", "")))
+    tops = sorted([it for it in allitems if it["grade"] == "A" and it["b"]], key=topkey)[:4]
     if not tops:
-        tops = sorted([it for it in allitems if it["grade"] == "B"], key=lambda it: (-it["rel"], -int(it["date"].replace("-", ""))))[:1]
+        tops = sorted([it for it in allitems if it["grade"] == "B" and it["b"]], key=topkey)[:1]
     site = wl.get("site") or {}
     hol = set((wl.get("schedule") or {}).get("holidays") or [])
     first = str(site.get("first_issue_date") or "").strip()

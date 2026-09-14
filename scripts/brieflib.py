@@ -163,6 +163,8 @@ class Classifier:
                     n = n.strip()
                     if not n:
                         continue
+                    if not re.fullmatch(r"[A-Za-z0-9&\-\+\. ]+", n) and len(n) < 3:
+                        continue   # 2글자 한글 별칭은 오탐(인명 등)이 잦아 쓰지 않음
                     esc = re.escape(n)
                     if re.fullmatch(r"[A-Za-z0-9&\-\+\. ]+", n) and len(n) <= 6:
                         regs.append(rf"(?<![A-Za-z0-9]){esc}(?![A-Za-z0-9])")
@@ -239,6 +241,8 @@ class Classifier:
         """→ {cat, group, entity, related, tags, grade} 또는 None(감시 대상 아님)."""
         text = f"{title} {body}"
         head = title
+        if self._any(self.wl.get("exclude_all"), text):          # 정치·부동산 등 무관 기사
+            return None
         ents = self.entities(text)
         comp = [e for k, e in ents if k == "competitor"]
         cust = [e for k, e in ents if k == "customer"]
@@ -267,6 +271,8 @@ class Classifier:
                         break
                 return {"cat": "customer", "group": grp, "entity": e["name"],
                         "related": [c["name"] for c in cust[1:3]], "tags": tags, "grade": grade}
+        if self._any(self.wl.get("exclude_market"), head):      # 시장·정책면에서는 증권 시황·ETF·목표가 기사 제외
+            return None
         if "tech_policy" in self.cats and self._any(techpol.get("signals"), text) and self.anchored(text):
             mg = self.market_group(text)
             return {"cat": "tech_policy", "group": "all", "entity": "", "related": [], "tags": tags, "grade": grade, "market_group": mg}

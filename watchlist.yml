@@ -35,7 +35,8 @@ rules:
   style: "사실만. 주체·수치·날짜·출처. 판단·시사점·전망 문장은 쓰지 않음."
   brief_sentences: 2                     # 항목당 본문 문장 수(1~2). 나머지는 원문 링크로.
   brief_max_chars: 170
-  items_per_section_max: 10
+  items_per_section_max: 12
+  items_per_company_max: 3               # 한 면에서 같은 회사 기사는 최대 3건
   topic_memory_days: 30                  # 한 번 실은 사안은 30일간 기억, 바뀐 것만 '후속'으로 재게재
   followup_needs_change: true            # 수치·일정이 달라져야만 후속으로 실음
   min_items_to_publish: 2                # 이보다 적으면 그날 호를 만들지 않음
@@ -68,6 +69,12 @@ importance:
           "ESS", "전고체", "LFP", "46시리즈", "46계열", "각형", "파우치", "원통형", "보조금", "세액공제", "관세", "IRA", "AMPC",
           "채용", "해외법인", "특허", "인증", "벤더 등록", "order", "capacity", "subsidy", "tariff", "patent"]
   # 그 외는 C (Weekly·일반)
+
+# ── 제외어 ─ 어느 면이든 싣지 않음(정치·부동산·연예 등) ──
+exclude_all: ["청문회", "후보자", "인사청문", "부동산", "집값", "아파트", "국회의원", "대선", "총선", "검찰", "재판", "콘서트", "아이돌", "드라마",
+              "ETF", "상장지수", "펀드 수익률", "종목코드", "주식 추천"]
+# ── 시장·기술/정책 면에서만 제외(고객사·경쟁사 면에는 그대로 실림) ─ 증권 시황·목표가류 ──
+exclude_market: ["목표가", "주가", "급락", "급등", "수익률", "증권 리포트", "종목", "코스피", "코스닥", "주주환원", "배당", "시가총액", "투자의견"]
 
 # ── 산업 앵커 ─ 시장·기술/정책 기사는 아래 단어 중 하나는 있어야 실림(무관한 정책·경제 기사 차단) ──
 anchors: ["배터리", "이차전지", "2차전지", "전기차", "ESS", "에너지저장", "전고체", "양극재", "음극재", "전해액", "전해질", "리튬", "분리막",
@@ -168,7 +175,7 @@ competitors:
   # 해외
   - {name: "LEAD Intelligent", aliases: ["Wuxi Lead", "리드인텔리전트", "先导智能"], grade: A, country: "중국", scope: "셀 조립 전반 · 주액 · 물류", lang: en}
   - {name: "Yinghe", aliases: ["Yinghe Technology", "잉허", "赢合科技"], grade: A, country: "중국", scope: "전극~조립 Turn-key", lang: en}
-  - {name: "Geesun", aliases: ["Geesun Intelligent", "지선"], grade: A, country: "중국", scope: "와인딩·스태킹", lang: en}
+  - {name: "Geesun", aliases: ["Geesun Intelligent", "지선인텔리전트"], grade: A, country: "중국", scope: "와인딩·스태킹", lang: en}
   - {name: "Autowell", aliases: ["Autowell Technology", "无锡奥特维"], grade: A, country: "중국", scope: "각형 조립라인", lang: en}
   - {name: "MiR", aliases: ["Mobile Industrial Robots"], grade: A, country: "덴마크", scope: "AMR", lang: en}
   - {name: "Geekplus", aliases: ["Geek+", "긱플러스"], grade: A, country: "중국", scope: "AMR · Fleet", lang: en}

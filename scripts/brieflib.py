@@ -175,6 +175,8 @@ class Classifier:
 
     def entities(self, text: str) -> list[tuple[str, dict]]:
         t = strip_tags(text)
+        for bad in self.wl.get("entity_not") or []:      # 이름이 겹치는 다른 회사(SFA반도체 등)는 지우고 판정
+            t = t.replace(bad, " ")
         found = []
         for kind, e, rx in self._ent_patterns:
             if rx.search(t):

@@ -38,7 +38,7 @@ b,strong{font-weight:700}
 .issuenav .dis{color:var(--faint)}
 
 /* ── 1면 톱 ── */
-.front{display:grid;grid-template-columns:7fr 4fr;gap:0 24px;padding:12px 0 10px;border-bottom:1px solid var(--rule);margin-bottom:0}
+.front{display:grid;grid-template-columns:3fr 2fr;gap:0 24px;padding:12px 0 10px;border-bottom:1px solid var(--rule);margin-bottom:0}
 .front .lcol{border-right:1px solid var(--hair);padding-right:24px;min-width:0} .front .rcol{min-width:0}
 .front .guide{border-right:0;padding-right:0;margin-top:10px} .front .legend{margin-top:10px}
 .kicker{font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin-bottom:6px}
@@ -47,8 +47,8 @@ b,strong{font-weight:700}
 .lead-story h1 a:hover{color:var(--accent)}
 .lead-story .b{font-size:14.5px;line-height:1.7;margin:0 0 4px;color:var(--text)}
 .front .side h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--muted);font-weight:700;margin:0 0 6px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
-.front .side .item{padding:6px 0}
-.front .side .item .h{font-size:15px}
+.front .side .item{padding:4px 0}
+.front .side .item .h{font-size:14.5px}
 .front .side .item .b{display:none}
 .summary{font-size:13px;color:var(--muted);padding:6px 0 0;border-top:1px dotted var(--hair);margin-top:6px}
 .front{border-bottom:3px double var(--rule)}
@@ -63,6 +63,20 @@ b,strong{font-weight:700}
 .legend dt{font-weight:700;color:var(--ink);white-space:nowrap} .legend dd{margin:0}
 .summary b{color:var(--ink)}
 
+
+/* ── 한 줄 항목 ── */
+.item .row{display:flex;align-items:baseline;gap:7px}
+.item .row .g{flex:none;position:relative;top:-1px}
+.legend-bar{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:11px;line-height:1.7;color:var(--muted);
+  background:#f3f1ea;border:1px solid var(--hair);padding:5px 10px;margin:8px 0 0}
+.legend-bar .lb-t{font-weight:700;color:var(--ink);letter-spacing:.12em;font-size:10.5px;padding-right:8px;border-right:1px solid var(--hair)}
+.legend-bar .lb-g b{color:var(--ink);font-weight:700}
+.legend-bar .lb-note{color:var(--faint);margin-left:auto}
+.fu-mini{display:inline-block;font-size:10.5px;font-weight:700;color:var(--accent);border-left:3px solid var(--accent);background:var(--accent-bg);padding:0 5px}
+.front .side{margin-top:8px;border-top:1px solid var(--rule)}
+.front .side h2{border-bottom:0;padding-top:6px}
+.front .rcol .guide{margin-top:0}
+
 /* ── 섹션 ── */
 .section{margin:10px 0 0} .section.thin .sec-head{border-top-width:1px;padding:4px 0;margin-bottom:0}
 .sec-head{display:flex;align-items:baseline;gap:10px;border-top:3px solid var(--rule);border-bottom:1px solid var(--rule);padding:5px 0 4px;margin-bottom:4px}
@@ -75,14 +89,14 @@ b,strong{font-weight:700}
 .group{break-inside:avoid;margin-bottom:4px}
 .group h3{font-family:var(--serif);font-size:13.5px;font-weight:700;color:var(--ink);margin:0;padding:3px 0 2px;border-bottom:2px solid var(--ink);display:flex;align-items:center;gap:8px}
 .group h3 .gcnt{font-family:var(--sans);font-size:11px;color:var(--muted);font-weight:500;margin-left:auto}
-.item{break-inside:avoid;padding:6px 0;border-bottom:1px dotted var(--hair)}
+.item{break-inside:avoid;padding:4px 0;border-bottom:1px dotted var(--hair)}
 .item:last-child{border-bottom:0}
-.item .h{margin:0;font-family:var(--serif);font-size:15px;font-weight:700;line-height:1.4;color:var(--ink);text-wrap:pretty}
+.item .h{margin:0;font-family:var(--serif);font-size:14.5px;font-weight:700;line-height:1.4;color:var(--ink);text-wrap:pretty}
 .item .h a{text-decoration:none}
 .item .h a:hover{color:var(--accent)}
 .item .b{margin:2px 0 0;font-size:13px;line-height:1.55;color:var(--text)}
 .item .b b{color:var(--ink)}
-.meta{margin-top:3px;font-size:11px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 7px;align-items:center}
+.meta{margin-top:1px;font-size:10.5px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 7px;align-items:center}
 .meta .src{color:var(--ink);font-weight:500}
 .meta .more{margin-left:auto;text-decoration:none;color:var(--brand);font-weight:700;white-space:nowrap}
 .meta .more:hover{text-decoration:underline}
@@ -184,6 +198,7 @@ b,strong{font-weight:700}
   .nav{justify-content:flex-start} .nav a{padding:9px 11px;font-size:13px}
   .lead-story h1{font-size:21px} .lead-story .b{font-size:14px}
   .cols,.cols.two,.cols.three{column-count:1}
+  .legend-bar{font-size:10.5px;gap:2px 10px} .legend-bar .lb-note{display:none}
   .guide-row{grid-template-columns:1fr} .guide{border-right:0;padding-right:0}
   .front .lcol{border-right:0;padding-right:0;border-bottom:1px solid var(--hair);padding-bottom:8px;margin-bottom:6px}
   .item .h{font-size:15px} .item .b{font-size:13.5px;line-height:1.6}
@@ -199,4 +214,4 @@ b,strong{font-weight:700}
   .meta .more{display:none} a{text-decoration:none}
   .section,.group,.item,.wk-page{break-inside:avoid;page-break-inside:avoid}
 }
-</style></head><body><div class="sheet"><header class="mast"><div class="left"><img class="logo" src="../assets/logo.png" alt="ETS"></div><div class="center"><div class="en">ETS SALES BRIEFING</div><a class="name" href="../index.html">이티에스 영업 브리핑</a></div><div class="right"></div></header><div class="dateline"><span></span><span class="pub">월~금 08:00 발행 · 공개 보도·공시 기반 · 사실만 기록</span></div><nav class="nav"><a href="../index.html" class="">오늘 브리핑</a><a href="../archive.html" class="">지난 호</a><a href="../companies/index.html" class="on">회사별</a><a href="../search.html" class="">검색</a><a href="../weekly.html" class="">주간 종합</a></nav><div class="page-title">BYD</div><p class="page-sub">고객사 · 누적 3건 · 최신순</p><div class="dgroup"><h3>2026년 9월 15일 화요일<small>3건</small></h3><div class="list"><article class="item" id="2026-09-15-13"><h4 class="h"><a href="https://www.theguru.co.kr/news/article.html?no=107025" target="_blank" rel="noopener">BYD "내년 '전고체 배터리 탑재' 전기차 첫 공개"</a></h4><p class="b">14일 스페인 자동차 전문 매체 카와우 에스파냐(Carwow.es)에 따르면 스텔라 리(Stella Li) BYD 수석 부사장은 최근 발렌시아에서 진행된…</p><div class="meta"><span class="g B" title="중요도 B">B</span> <span class="tag">고객사 동향</span> <span class="src">더구루</span> <span>2026-09-14</span> <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> <span class="tag">전고체</span> <a class="more" href="https://www.theguru.co.kr/news/article.html?no=107025" target="_blank" rel="noopener">원문 보기 ↗</a></div></article><article class="item" id="2026-09-15-17"><h4 class="h"><a href="https://www.electrive.com/2026/09/14/byd-brings-ett-44-electric-truck-to-europe/" target="_blank" rel="noopener">BYD brings ETT 44 electric truck to Europe</a></h4><p class="b">BYD is entering the European heavy-duty electric truck market with the ETT 44.</p><div class="meta"><span class="g B" title="중요도 B">B</span> <span class="tag">고객사 동향</span> <span class="src">electrive.com</span> <span>2026-09-14</span> <span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> <a class="more" href="https://www.electrive.com/2026/09/14/byd-brings-ett-44-electric-truck-to-europe/" target="_blank" rel="noopener">원문 보기 ↗</a></div></article><article class="item" id="2026-09-15-19"><h4 class="h"><a href="https://www.msn.com/en-us/news/other/byd-claims-solid-state-battery-lead-in-2027-demo-chief-scientist-cites-unscaled-dry-rooms/ar-AA2cdaJP" target="_blank" rel="noopener">BYD claims solid-state battery lead in 2027 demo; chief scientist cites unscaled dry rooms</a></h4><p class="b">BYD solid-state battery 2027: Executive VP Stella Li confirmed a demonstration vehicle…</p><div class="meta"><span class="g C" title="중요도 C">C</span> <span class="tag">고객사 동향</span> <span class="src">bing.com</span> <span>2026-09-14</span> <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> <span class="tag">전고체</span> <a class="more" href="https://www.msn.com/en-us/news/other/byd-claims-solid-state-battery-lead-in-2027-demo-chief-scientist-cites-unscaled-dry-rooms/ar-AA2cdaJP" target="_blank" rel="noopener">원문 보기 ↗</a></div></article></div></div><div class="footer">본 브리핑은 공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 등급 A=즉시보고 B=Daily C=Weekly, ★=출처 신뢰도(공시·IR 5, 정부·주요언론 4, 협회·채용·특허 3). 수치·계약 세부는 원문/공시로 확인하십시오.<br>이티에스 영업 브리핑</div></div></body></html>
+</style></head><body><div class="sheet"><header class="mast"><div class="left"><img class="logo" src="../assets/logo.png" alt="ETS"></div><div class="center"><div class="en">ETS SALES BRIEFING</div><a class="name" href="../index.html">이티에스 영업 브리핑</a></div><div class="right"></div></header><div class="dateline"><span></span><span class="pub">월~금 08:00 발행 · 공개 보도·공시 기반 · 사실만 기록</span></div><nav class="nav"><a href="../index.html" class="">오늘 브리핑</a><a href="../archive.html" class="">지난 호</a><a href="../companies/index.html" class="on">회사별</a><a href="../search.html" class="">검색</a><a href="../weekly.html" class="">주간 종합</a></nav><div class="page-title">BYD</div><p class="page-sub">고객사 · 누적 2건 · 최신순</p><div class="dgroup"><h3>2026년 9월 15일 화요일<small>2건</small></h3><div class="list"><article class="item" id="2026-09-15-12"><div class="row"><span class="g B" title="중요도 B">B</span><h4 class="h"><a href="https://www.theguru.co.kr/news/article.html?no=107025" target="_blank" rel="noopener">BYD "내년 '전고체 배터리 탑재' 전기차 첫 공개"</a></h4></div><div class="meta"><span class="tag">고객사 동향</span> <span class="src">더구루</span> <span>9/14</span> <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> <span class="tag">전고체</span></div></article><article class="item" id="2026-09-15-15"><div class="row"><span class="g B" title="중요도 B">B</span><h4 class="h"><a href="https://www.electrive.com/2026/09/14/byd-brings-ett-44-electric-truck-to-europe/" target="_blank" rel="noopener">BYD brings ETT 44 electric truck to Europe</a></h4></div><div class="meta"><span class="tag">고객사 동향</span> <span class="src">electrive.com</span> <span>9/14</span> <span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span></div></article></div></div><div class="footer">본 브리핑은 공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 등급 A=즉시보고 B=Daily C=Weekly, ★=출처 신뢰도(공시·IR 5, 정부·주요언론 4, 협회·채용·특허 3). 수치·계약 세부는 원문/공시로 확인하십시오.<br>이티에스 영업 브리핑</div></div></body></html>

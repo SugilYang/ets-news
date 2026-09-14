@@ -243,6 +243,8 @@ class Classifier:
         head = title
         if self._any(self.wl.get("exclude_all"), text):          # 정치·부동산 등 무관 기사
             return None
+        if self._any(self.wl.get("exclude_title"), head):        # 주식·증권 기사(제목 기준)
+            return None
         ents = self.entities(text)
         comp = [e for k, e in ents if k == "competitor"]
         cust = [e for k, e in ents if k == "customer"]

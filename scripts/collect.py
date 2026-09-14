@@ -251,6 +251,8 @@ def build_queries(wl: dict) -> list[tuple[str, str, str]]:
         lang = c.get("lang", "ko")
         watch = kw.get(lang) or []
         qs.append((f'{c["name"]} ({" OR ".join(watch[:4])})' if watch else c["name"], lang, f'경쟁 {c["name"]}'))
+        if c.get("grade") == "A" and lang == "ko" and len(c["name"]) >= 3:
+            qs.append((c["name"], "ko", f'경쟁 {c["name"]}(전체)'))   # A등급 국내 경쟁사는 회사명만으로도 한 번 더
     mq = wl.get("market_queries") or {}
     for q in mq.get("ko") or []:
         qs.append((q, "ko", f"시장 {q}"))

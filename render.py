@@ -212,7 +212,9 @@ b,strong{font-weight:700}
 .list{padding:0 2px}
 
 /* ── 검색 ── */
-.sbar{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:8px;margin-top:8px}
+.sbar{display:grid;grid-template-columns:2fr 1fr 1fr 1fr auto;gap:8px;margin-top:8px}
+.btn{font:inherit;font-size:14px;font-weight:700;padding:9px 18px;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--brand);border-color:var(--brand)} .btn.ghost{background:#fff;color:var(--ink);font-weight:500;padding:6px 12px;font-size:12.5px}
 .sbar2{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:8px;align-items:center}
 .sbar input,.sbar select,.sbar2 input,.sbar2 select{font:inherit;font-size:14px;padding:9px 11px;border:1px solid var(--hair);background:#fff;width:100%}
 .sbar input:focus,.sbar select:focus,.sbar2 input:focus{outline:2px solid var(--brand);outline-offset:1px}
@@ -266,7 +268,7 @@ b,strong{font-weight:700}
   .sec-head h2{font-size:19px} .sec-head .sub{display:none}
   .wk-cols,.wk-cols.three{grid-template-columns:1fr} .wk-col{border-left:0;padding-left:0}
   .wk-page{padding:12px 12px 14px}
-  .sbar{grid-template-columns:1fr 1fr} .sbar input{grid-column:1 / -1} .sbar2{grid-template-columns:1fr 1fr}
+  .sbar{grid-template-columns:1fr 1fr} .sbar input{grid-column:1 / -1} .sbar .btn{grid-column:1 / -1} .sbar2{grid-template-columns:1fr 1fr}
   .arc .date{width:auto} .arc .no{width:48px}
 }
 @media print{
@@ -620,17 +622,23 @@ def search_page(issues: list[dict]) -> tuple[str, list[dict]]:
         (r.f?'<span class="tag key">후속</span>':'')+(r.u?'<a class="more" href="'+esc(r.u)+'" target="_blank" rel="noopener">원문 보기 ↗</a>':'')+'</div></article>';
     }).join('')||'<p class="page-sub">결과가 없습니다.</p>';
   }
-  [q,cat,ent,gr,df,dt].forEach(function(el){el.addEventListener('input',run);el.addEventListener('change',run);});
+  [cat,ent,gr,df,dt].forEach(function(el){el.addEventListener('change',run);});
+  document.getElementById('sform').addEventListener('submit',function(e){e.preventDefault();run();});
+  document.getElementById('go').addEventListener('click',run);
+  document.getElementById('reset').addEventListener('click',function(){q.value='';cat.value='';ent.value='';gr.value='';df.value='';dt.value='';run();q.focus();});
   var p=new URLSearchParams(location.search); if(p.get('q')){q.value=p.get('q');} if(p.get('e')){ent.value=p.get('e');}
   run();
 })();"""
     page = (head(f"{SITE} — 검색", "search", "") +
             f'<div class="page-title">검색</div><p class="page-sub">키워드·카테고리·회사·등급·기간으로 누적 {len(idx)}건에서 찾습니다. 여러 단어는 모두 포함된 것만.</p>'
-            f'<div class="sbar"><input id="q" type="search" placeholder="예: 전해액 주액, ESS 수주, 46시리즈, 착공">'
+            f'<form class="sbar" id="sform" onsubmit="return false"><input id="q" type="search" placeholder="예: 전해액 주액, ESS 수주, 46시리즈, 착공">'
             f'<select id="cat"><option value="">모든 카테고리</option>{cat_opts}</select>'
             f'<select id="ent"><option value="">모든 회사</option>{ent_opts}</select>'
-            f'<select id="gr"><option value="">모든 등급</option><option value="A">A 즉시</option><option value="B">B Daily</option><option value="C">C Weekly</option></select></div>'
-            f'<div class="sbar2"><label>부터 <input id="df" type="date"></label><label>까지 <input id="dt" type="date"></label><span class="scount" id="cnt"></span></div>'
+            f'<select id="gr"><option value="">모든 등급</option><option value="A">A 즉시</option><option value="B">B Daily</option><option value="C">C Weekly</option></select>'
+            f'<button type="submit" id="go" class="btn">검색</button></form>'
+            f'<div class="sbar2"><label>부터 <input id="df" type="date"></label><label>까지 <input id="dt" type="date"></label>'
+            f'<span><button type="button" id="reset" class="btn ghost">초기화</button> <span class="scount" id="cnt"></span></span></div>'
+            f'<p class="page-sub" style="margin-top:6px">검색어를 넣고 <b>검색</b>을 누르거나 Enter. 조건을 고르면 바로 걸러집니다. 검색어를 비우고 검색하면 조건에 맞는 전체가 나옵니다.</p>'
             f'<div class="sres list" id="res"></div>'
             f'<script id="idx" type="application/json">{json.dumps(idx, ensure_ascii=False)}</script>'
             f'<script>{js}</script>' + foot())

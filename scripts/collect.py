@@ -411,11 +411,15 @@ def main() -> int:
         tops = sorted([it for it in allitems if it["grade"] == "B"], key=lambda it: (-it["rel"], -int(it["date"].replace("-", ""))))[:1]
     site = wl.get("site") or {}
     hol = set((wl.get("schedule") or {}).get("holidays") or [])
+    first = str(site.get("first_issue_date") or "").strip()
+    if not first:   # 비어 있으면 가장 오래된 발행일(없으면 오늘)이 제1호
+        older = sorted(f.stem for f in DATA.glob("????-??-??.json"))
+        first = older[0] if older else today
     data = {
         "schema": 4,
         "date": today, "weekday": B.WEEKDAYS[now.weekday()],
         "edition": site.get("edition", "조간"),
-        "issue_no": B.issue_no(site.get("first_issue_date", today), today, hol),
+        "issue_no": B.issue_no(first, today, hol),
         "window_hours": hours,
         "summary": " · ".join(B.strip_tags(it["h"])[:30] for it in tops[:4]),
         "top": [it["id"] for it in tops],

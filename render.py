@@ -615,10 +615,23 @@ def load_all() -> list[dict]:
     return out
 
 
+def placeholder_page() -> str:
+    right = "<b>준비 중</b>첫 호 발행 전"
+    dl = '<span class="issue">아직 발행된 호가 없습니다</span>'
+    body = ('<div class="page-title">첫 호를 기다리고 있습니다</div>'
+            '<p class="page-sub">월~금 아침 8시 자동 발행이 시작되면 이 자리에 제1호가 실립니다. '
+            '(GitHub → Actions → "영업 브리핑 자동 발행" → Run workflow 로 지금 바로 만들 수도 있습니다.)</p>')
+    return head(SITE, "today", "", right, dl) + body + foot()
+
+
 def main() -> int:
     issues = load_all()
     if not issues:
-        print("data/*.json 없음", file=sys.stderr); return 1
+        ph = placeholder_page()
+        for name in ("index.html", "archive.html", "search.html", "weekly.html"):
+            (ROOT / name).write_text(ph, encoding="utf-8")
+        COMP.mkdir(exist_ok=True); (COMP / "index.html").write_text(placeholder_page().replace('href="index.html"', 'href="../index.html"'), encoding="utf-8")
+        print("data/*.json 없음 — 첫 호 발행 전 안내 페이지를 생성했습니다."); return 0
     dates = [d["date"] for d in issues]
     BRIEF.mkdir(exist_ok=True); COMP.mkdir(exist_ok=True); WEEK.mkdir(exist_ok=True)
     wpages, latest_week, date_label = weekly_pages(issues)

@@ -14,7 +14,7 @@
 한 번 실은 사안은 30일간 기억해 **수치·일정이 바뀐 경우에만 '후속'** 으로 다시 실립니다(무엇이 바뀌었는지 한 줄 표시).
 
 > **현재 자동 실행은 일시 중지 상태**입니다(최종 확정 전). `.github/workflows/daily.yml` 의 `schedule` 두 줄 앞 `#` 을 지우면 월~금 매일 아침 돕니다.
-> 중지 중에도 Actions 탭 → Run workflow 로 수동 생성은 가능합니다.
+> 중지 중에도 Actions 탭 → Run workflow 로 수동 생성은 가능합니다. 예전 데이터는 모두 지웠으므로 **첫 발행일이 제1호**가 됩니다.
 
 ## 매일 어떻게 도나 (무료·무인)
 `.github/workflows/daily.yml` 이 일~목 23:00 UTC(=월~금 08:00 KST) 실행:
@@ -44,7 +44,6 @@
 ```
 scripts/collect.py        수집·분류·등급·사안 기억 → data JSON (무료, API 키 없음)
 scripts/brieflib.py       분류·등급·후속 판정 공통 라이브러리(규칙표 적용만 함)
-scripts/migrate_v4.py     구 데이터 변환(1회용)
 render.py                 신문 지면 생성기 (오늘·지난 호 달력·회사별·검색·주간 3면)
 watchlist.yml             감시 대상·규칙 (여기만 고치면 됨)
 data/<날짜>.json          하루치 내용(영구 보관)   db/topics.json  사안 기억(30일)

@@ -35,6 +35,7 @@ jobs:
       - name: JSON 유효성 검사
         run: |
           set -e
+          shopt -s nullglob
           for f in data/*.json; do
             python3 - "$f" <<'PY'
 import json, sys

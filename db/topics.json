@@ -1,0 +1,837 @@
+{
+ "days": 30,
+ "topics": [
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "삼성·SK가 점찍은 클린룸 강자들…반도체 투자에 실적 훈풍",
+   "nt": "삼성sk가점찍은클린룸강자들반도체투자에실적훈풍",
+   "tk": [
+    "sk가",
+    "강자들",
+    "반도체",
+    "삼성",
+    "실적",
+    "점찍은",
+    "클린룸",
+    "투자에",
+    "훈풍"
+   ],
+   "nums": [
+    "5개"
+   ],
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62239"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "8월 ICT 수출 599.8억 달러 '역대 최대'… AI 인프라 수요 확대로 반도체·SSD 질주",
+   "nt": "8월ict수출5998억달러역대최대ai인프라수요확대로반도체ssd질주",
+   "tk": [
+    "599",
+    "8억",
+    "8월",
+    "ai",
+    "ict",
+    "ssd",
+    "달러",
+    "반도체",
+    "수요",
+    "수출",
+    "역대",
+    "인프라",
+    "질주",
+    "최대",
+    "확대로"
+   ],
+   "nums": [
+    "162.6%",
+    "2026년",
+    "228억",
+    "4,000만",
+    "599.8억",
+    "599억",
+    "600억",
+    "8,000만"
+   ],
+   "url": "https://www.mtnews.net/news/articleView.html?idxno=25955"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전자·SK하이닉스, 한전 '25조 전기료 선납' 제안 거절",
+   "nt": "삼성전자sk하이닉스한전25조전기료선납제안거절",
+   "tk": [
+    "25조",
+    "sk하이닉스",
+    "거절",
+    "삼성전자",
+    "선납",
+    "전기료",
+    "제안",
+    "한전"
+   ],
+   "nums": [
+    "25조",
+    "5년"
+   ],
+   "url": "https://www.etnews.com/20260914000406"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "네이버벤처스, 美 '포지트론 AI'에 신규 투자…성장 단계 스타트업 본격 발굴",
+   "nt": "네이버벤처스포지트론ai에신규투자성장단계스타트업본격발굴",
+   "tk": [
+    "ai",
+    "네이버벤처스",
+    "단계",
+    "발굴",
+    "본격",
+    "성장",
+    "스타트업",
+    "신규",
+    "투자",
+    "포지트론"
+   ],
+   "nums": [
+    "1조",
+    "4440억",
+    "7500만",
+    "8억"
+   ],
+   "url": "https://www.etnews.com/20260914000311"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "Egypt’s BME, China’s CATL plan battery plant with investment above $39m",
+   "nt": "egyptsbmechinascatlplanbatteryplantwithi",
+   "tk": [
+    "39m",
+    "above",
+    "battery",
+    "bme",
+    "catl",
+    "china",
+    "egypt",
+    "investment",
+    "plan",
+    "plant",
+    "with"
+   ],
+   "nums": [
+    "$39m"
+   ],
+   "url": "https://www.arabnews.com/business/egypts-bme-chinas-catl-plan-battery-plant-with-investment-above-39m-3001546"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "10분에 로봇 1대씩…'로봇이 로봇 만드는 공장' 가동",
+   "nt": "10분에로봇1대씩로봇이로봇만드는공장가동",
+   "tk": [
+    "10분에",
+    "1대씩",
+    "가동",
+    "공장",
+    "로봇",
+    "로봇이",
+    "만드는"
+   ],
+   "nums": [
+    "1대",
+    "1만"
+   ],
+   "url": "https://www.etnews.com/20260914000402"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "LG화학, 中 장화웨이와 맞손…반도체 세정용 초고순도 IPA 공급망 구축",
+   "nt": "lg화학장화웨이와맞손반도체세정용초고순도ipa공급망구축",
+   "tk": [
+    "ipa",
+    "lg화학",
+    "공급망",
+    "구축",
+    "맞손",
+    "반도체",
+    "세정용",
+    "장화웨이와",
+    "초고순도"
+   ],
+   "nums": [],
+   "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85965"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Strong Sales, EV Momentum And Tariff Risks Define The Road Ahead For Autos",
+   "nt": "strongsalesevmomentumandtariffrisksdefin",
+   "tk": [
+    "ahead",
+    "and",
+    "autos",
+    "define",
+    "ev",
+    "for",
+    "momentum",
+    "risks",
+    "road",
+    "sales",
+    "strong",
+    "tariff",
+    "the"
+   ],
+   "nums": [],
+   "url": "https://seekingalpha.com/article/4946094-strong-sales-ev-momentum-tariff-risks-define-road-ahead-autos"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전자 4%·하이닉스 6% 급락 … 아시아 반도체 관련주에 '직격탄'",
+   "nt": "삼성전자4하이닉스6급락아시아반도체관련주에직격탄",
+   "tk": [
+    "관련주에",
+    "급락",
+    "반도체",
+    "삼성전자",
+    "아시아",
+    "직격탄",
+    "하이닉스"
+   ],
+   "nums": [
+    "4%",
+    "4.05%",
+    "6%",
+    "6.35%"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12152397"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Trina signs 1GWh MoU to help developer meet ‘unique technical and delivery requirements’ of Japan’s battery storage mark",
+   "nt": "trinasigns1gwhmoutohelpdevelopermeetuniq",
+   "tk": [
+    "1gwh",
+    "and",
+    "battery",
+    "delivery",
+    "developer",
+    "help",
+    "japan",
+    "market",
+    "meet",
+    "mou",
+    "of",
+    "requirements",
+    "signs",
+    "storage",
+    "technical",
+    "to",
+    "trina",
+    "unique"
+   ],
+   "nums": [
+    "1GWh"
+   ],
+   "url": "https://www.energy-storage.news/trina-signs-1gwh-mou-to-help-developer-meet-unique-technical-and-delivery-requirements-of-japans-battery-storage-market/"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "비야디, 전고체 2027년 시연에도 주가 18%↓…2030년 상용화 지연",
+   "nt": "비야디전고체2027년시연에도주가182030년상용화지연",
+   "tk": [
+    "18",
+    "2027년",
+    "2030년",
+    "비야디",
+    "상용화",
+    "시연에도",
+    "전고체",
+    "주가",
+    "지연"
+   ],
+   "nums": [
+    "18%",
+    "2027년",
+    "2030년"
+   ],
+   "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026091421414634412bd56fbc3c_1"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "우리로, 136억원 규모 AI 데이터센터 광소자 공급계약",
+   "nt": "우리로136억원규모ai데이터센터광소자공급계약",
+   "tk": [
+    "136억원",
+    "ai",
+    "공급계약",
+    "광소자",
+    "규모",
+    "데이터센터",
+    "우리로"
+   ],
+   "nums": [
+    "136억",
+    "16만",
+    "1천"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260914123500030"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "신한다산운용,SOL AI반도체소부장 ETF 1개월 수익률 23.14%",
+   "nt": "신한다산운용solai반도체소부장etf1개월수익률2314",
+   "tk": [
+    "14",
+    "1개월",
+    "23",
+    "ai반도체소부장",
+    "etf",
+    "sol",
+    "수익률",
+    "신한다산운용"
+   ],
+   "nums": [
+    "1개월",
+    "23.14%"
+   ],
+   "url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=493789"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "NH證 삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원",
+   "nt": "nh삼성sdi각형원통형선호로수주경쟁력강화목표가73만원",
+   "tk": [
+    "73만원",
+    "nh",
+    "각형",
+    "강화",
+    "경쟁력",
+    "목표가",
+    "삼성sdi",
+    "선호로",
+    "수주",
+    "원통형"
+   ],
+   "nums": [
+    "22%",
+    "73만"
+   ],
+   "url": "https://www.ajunews.com/view/20260915081201632"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, ESS 수주 가시성 확대…목표가 22%↑-NH",
+   "nt": "삼성sdiess수주가시성확대목표가22nh",
+   "tk": [
+    "22",
+    "ess",
+    "nh",
+    "가시성",
+    "목표가",
+    "삼성sdi",
+    "수주",
+    "확대"
+   ],
+   "nums": [
+    "22%"
+   ],
+   "url": "https://www.edaily.co.kr/News/Read?newsId=02492806645580448&mediaCodeNo=257"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "NH證 “LG에너지솔루션, ESS 수주 부족 우려 과도…목표가 48만원”",
+   "nt": "nhlg에너지솔루션ess수주부족우려과도목표가48만원",
+   "tk": [
+    "48만원",
+    "ess",
+    "lg에너지솔루션",
+    "nh",
+    "과도",
+    "목표가",
+    "부족",
+    "수주",
+    "우려"
+   ],
+   "nums": [
+    "48만"
+   ],
+   "url": "https://www.etoday.co.kr/news/view/2625463"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "HS효성에너지솔루션코리아-현대자동차·기아, 실리콘 음극재 생산공장 신설 투자협약 체결...사용후 배터리 에너지저장장치 활용 ‘UBESS’ 실증사업 추진",
+   "nt": "hs효성에너지솔루션코리아현대자동차기아실리콘음극재생산공장신설투자협약체결사용",
+   "tk": [
+    "hs효성에너지솔루션코리아",
+    "ubess",
+    "기아",
+    "배터리",
+    "사용후",
+    "생산공장",
+    "신설",
+    "실리콘",
+    "실증사업",
+    "에너지저장장치",
+    "음극재",
+    "체결",
+    "추진",
+    "투자협약",
+    "현대자동차",
+    "활용"
+   ],
+   "nums": [],
+   "url": "http://www.wsobi.com/news/articleView.html?idxno=318155"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD \"내년 '전고체 배터리 탑재' 전기차 첫 공개\"",
+   "nt": "byd내년전고체배터리탑재전기차첫공개",
+   "tk": [
+    "byd",
+    "공개",
+    "내년",
+    "배터리",
+    "전고체",
+    "전기차",
+    "탑재"
+   ],
+   "nums": [],
+   "url": "https://www.theguru.co.kr/news/article.html?no=107025"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "LG에너지솔루션",
+   "cat": "project",
+   "group": "all",
+   "h": "배터리 3사,ESS 수주전…국내 생산·안전성 맞붙는다",
+   "nt": "배터리3사ess수주전국내생산안전성맞붙는다",
+   "tk": [
+    "3사",
+    "ess",
+    "국내",
+    "맞붙는다",
+    "배터리",
+    "생산",
+    "수주전",
+    "안전성"
+   ],
+   "nums": [
+    "19.1%",
+    "1GW",
+    "25.2%",
+    "55.8%"
+   ],
+   "url": "https://theviewers.co.kr/View.aspx?No=4225407"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD, 2027년 전고체 배터리 실증 차량 공개…2030년 상용화 목표",
+   "nt": "byd2027년전고체배터리실증차량공개2030년상용화목표",
+   "tk": [
+    "2027년",
+    "2030년",
+    "byd",
+    "공개",
+    "목표",
+    "배터리",
+    "상용화",
+    "실증",
+    "전고체",
+    "차량"
+   ],
+   "nums": [
+    "2027년",
+    "2030년"
+   ],
+   "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026091406452193172bd56fbc3c_1"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD brings ETT 44 electric truck to Europe",
+   "nt": "bydbringsett44electrictrucktoeurope",
+   "tk": [
+    "44",
+    "brings",
+    "byd",
+    "electric",
+    "ett",
+    "europe",
+    "to",
+    "truck"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/14/byd-brings-ett-44-electric-truck-to-europe/"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Mercedes-Backed ProLogium Claims To Have Cracked The Solid-State Battery Puzzle",
+   "nt": "mercedesbackedprologiumclaimstohavecrack",
+   "tk": [
+    "backed",
+    "battery",
+    "claims",
+    "cracked",
+    "have",
+    "mercedes",
+    "prologium",
+    "puzzle",
+    "solid",
+    "state",
+    "the",
+    "to"
+   ],
+   "nums": [],
+   "url": "https://autos.yahoo.com/ev-and-future-tech/articles/mercedes-backed-prologium-claims-cracked-190029531.html"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD claims solid-state battery lead in 2027 demo; chief scientist cites unscaled dry rooms",
+   "nt": "bydclaimssolidstatebatteryleadin2027demo",
+   "tk": [
+    "2027",
+    "battery",
+    "byd",
+    "chief",
+    "cites",
+    "claims",
+    "demo",
+    "dry",
+    "in",
+    "lead",
+    "rooms",
+    "scientist",
+    "solid",
+    "state",
+    "unscaled"
+   ],
+   "nums": [
+    "2027"
+   ],
+   "url": "https://www.msn.com/en-us/news/other/byd-claims-solid-state-battery-lead-in-2027-demo-chief-scientist-cites-unscaled-dry-rooms/ar-AA2cdaJP"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "Geesun",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "홍지선 \"서울 집값 하향안정 바람직\"…2차 이전으로 수도권 분산(종합)",
+   "nt": "홍지선서울집값하향안정바람직2차이전으로수도권분산종합",
+   "tk": [
+    "2차",
+    "바람직",
+    "분산",
+    "서울",
+    "수도권",
+    "이전으로",
+    "종합",
+    "집값",
+    "하향안정",
+    "홍지선"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260914078151003"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "Geesun",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "홍지선 \"부동산 세제개편 방향성 공감…실수요자 우선공급 필요\"(종합)",
+   "nt": "홍지선부동산세제개편방향성공감실수요자우선공급필요종합",
+   "tk": [
+    "공감",
+    "방향성",
+    "부동산",
+    "세제개편",
+    "실수요자",
+    "우선공급",
+    "종합",
+    "필요",
+    "홍지선"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260914058251003"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "中 반도체 공장, 장비 3대 중 1대 '메이드 인 차이나'",
+   "nt": "반도체공장장비3대중1대메이드인차이나",
+   "tk": [
+    "1대",
+    "3대",
+    "공장",
+    "메이드",
+    "반도체",
+    "장비",
+    "차이나"
+   ],
+   "nums": [
+    "1대",
+    "23%",
+    "35%",
+    "3대"
+   ],
+   "url": "https://www.etnews.com/20260914000280"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Global Solid-State Batteries Market Poised for Growth Through 2036 as EV Demand, Safer Energy Storage and Manufacturing ",
+   "nt": "globalsolidstatebatteriesmarketpoisedfor",
+   "tk": [
+    "2036",
+    "accelerate",
+    "and",
+    "as",
+    "batteries",
+    "demand",
+    "energy",
+    "ev",
+    "for",
+    "global",
+    "growth",
+    "investments",
+    "manufacturing",
+    "market",
+    "poised",
+    "safer",
+    "solid",
+    "state",
+    "storage",
+    "through"
+   ],
+   "nums": [
+    "2036"
+   ],
+   "url": "https://finance.yahoo.com/energy/articles/global-solid-state-batteries-market-125800853.html"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "Geesun",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "홍지선 \"용산공원 부수공간 중심으로 주택공급 살펴볼 것\"(종합)",
+   "nt": "홍지선용산공원부수공간중심으로주택공급살펴볼것종합",
+   "tk": [
+    "부수공간",
+    "살펴볼",
+    "용산공원",
+    "종합",
+    "주택공급",
+    "중심으로",
+    "홍지선"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260914052951003"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG, 추석 앞두고 협력사에 6000억 조기 지급…1조 2000억 금융 지원까지",
+   "nt": "lg추석앞두고협력사에6000억조기지급1조2000억금융지원까지",
+   "tk": [
+    "1조",
+    "2000억",
+    "6000억",
+    "lg",
+    "금융",
+    "앞두고",
+    "조기",
+    "지급",
+    "지원까지",
+    "추석",
+    "협력사에"
+   ],
+   "nums": [
+    "1조",
+    "2000억",
+    "6000억",
+    "8개"
+   ],
+   "url": "https://www.etnews.com/20260914000209"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "기업연구소 세계 무대로…산업부, GATC에 6년간 2895억원 투입",
+   "nt": "기업연구소세계무대로산업부gatc에6년간2895억원투입",
+   "tk": [
+    "2895억원",
+    "6년간",
+    "gatc에",
+    "기업연구소",
+    "무대로",
+    "산업부",
+    "세계",
+    "투입"
+   ],
+   "nums": [
+    "2026년",
+    "2031년",
+    "2895억",
+    "6년"
+   ],
+   "url": "https://www.ajunews.com/view/20260914100509486"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "Geesun",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "홍지선 \"장모 차입금 상환유예 연장은 자녀 학비 마련 목적\"(종합)",
+   "nt": "홍지선장모차입금상환유예연장은자녀학비마련목적종합",
+   "tk": [
+    "마련",
+    "목적",
+    "상환유예",
+    "연장은",
+    "자녀",
+    "장모",
+    "종합",
+    "차입금",
+    "학비",
+    "홍지선"
+   ],
+   "nums": [
+    "3년"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260914065451003"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "Geesun",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "홍지선 \"공공기관 이전, 기관 수보다 지역경제 효과로 평가해야\"",
+   "nt": "홍지선공공기관이전기관수보다지역경제효과로평가해야",
+   "tk": [
+    "공공기관",
+    "기관",
+    "수보다",
+    "이전",
+    "지역경제",
+    "평가해야",
+    "홍지선",
+    "효과로"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260914078100003"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "자동화했는데 고용 37% 늘었다…조일공업이 보여준 제조업 전환의 조건",
+   "nt": "자동화했는데고용37늘었다조일공업이보여준제조업전환의조건",
+   "tk": [
+    "37",
+    "고용",
+    "늘었다",
+    "보여준",
+    "자동화했는데",
+    "전환의",
+    "제조업",
+    "조건",
+    "조일공업이"
+   ],
+   "nums": [
+    "133명",
+    "2022년",
+    "37%",
+    "97명"
+   ],
+   "url": "https://www.hantoday.net/news/articleView.html?idxno=54897"
+  },
+  {
+   "date": "2026-09-15",
+   "entity": "LEAD Intelligent",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "Wuxi Lead Intelligent Equipment CO.,LTD. (300450.SZ)",
+   "nt": "wuxileadintelligentequipmentcoltd300450s",
+   "tk": [
+    "300450",
+    "co",
+    "equipment",
+    "intelligent",
+    "lead",
+    "ltd",
+    "sz",
+    "wuxi"
+   ],
+   "nums": [],
+   "url": "https://finance.yahoo.com/quote/300450.SZ/"
+  }
+ ]
+}

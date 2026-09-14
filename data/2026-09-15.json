@@ -1,0 +1,768 @@
+{
+ "schema": 4,
+ "date": "2026-09-15",
+ "weekday": "화",
+ "edition": "조간",
+ "issue_no": 1,
+ "window_hours": 36,
+ "summary": "NH證 삼성SDI, 각형·원통형 선호로 수주 경쟁력 강 · 삼성·SK가 점찍은 클린룸 강자들…반도체 투자에 실적  · 삼성전자·SK하이닉스, 한전 '25조 전기료 선납' 제 · 네이버벤처스, 美 '포지트론 AI'에 신규 투자…성장 ",
+ "top": [
+  "2026-09-15-13",
+  "2026-09-15-0",
+  "2026-09-15-2",
+  "2026-09-15-3"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-09-15-18",
+       "h": "배터리 3사,ESS 수주전…국내 생산·안전성 맞붙는다",
+       "b": "3차 중앙계약시장 최대 <b>1GW</b> 전망 1·2차 누적 삼성SDI <b>55.8%</b> 선두…SK온 <b>25.2%</b>·LG엔솔 <b>19.1%</b> 국내 생산·공급망·화재 안전성 주요 평가 요소로 정부의 에너지저장장치(ESS) 3차 중앙계약시장 입찰을 앞두고 국내 배터리 3사의 수주 경쟁이 예상된다.",
+       "src": "뷰어스",
+       "url": "https://theviewers.co.kr/View.aspx?No=4225407",
+       "date": "2026-09-14",
+       "cat": "project",
+       "group": "all",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "수주",
+        "RFQ",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-09-15-15",
+       "h": "NH證 “LG에너지솔루션, ESS 수주 부족 우려 과도…목표가 48만원”",
+       "b": "주민우 NH투자증권 연구원은 15일 “경쟁사 대비 ESS 수주 모멘텀이 제한적이라는 오해로 상대적인 주가 부진이 나타났지만 오히려 매수 기회로 판단한다”며 “올해 ESS 수주 목표 90기가와트시(GWh) 가운데 상당 부분이 하반기에 집중돼 있어 남은 기간 대규모 수주가 기대된다”고 밝혔다.",
+       "src": "이투데이",
+       "url": "https://www.etoday.co.kr/news/view/2625463",
+       "date": "2026-09-15",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-28",
+       "h": "LG, 추석 앞두고 협력사에 6000억 조기 지급…1조 2000억 금융 지원까지",
+       "b": "LG가 추석 명절을 앞두고 협력사 납품대금을 조기에 지급한다. LG전자, LG이노텍, LG화학, LG에너지솔루션, LG생활건강, LG유플러스, LG CNS, D&amp;O 등 <b>8개</b> 계열사는 납품대금을 최대 13일 앞당겨 지급하기로 했다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260914000209",
+       "date": "2026-09-14",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-09-15-13",
+       "h": "NH證 삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원",
+       "b": "삼성SDI가 각형·원통형 배터리에 대한 선호 확대와 ESS 수주 가시성 개선에 힘입어 기업가치 재평가(리레이팅)가 가능하다는 전망이 나왔다. <b>22%</b> 높인 <b>73만</b>원으로 상향했다.",
+       "src": "아주경제",
+       "url": "https://www.ajunews.com/view/20260915081201632",
+       "date": "2026-09-15",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형",
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-14",
+       "h": "삼성SDI, ESS 수주 가시성 확대…목표가 22%↑-NH",
+       "b": "삼성SDI, ESS 수주 가시성 확대…목표가 <b>22%</b>↑-NH edaily.co.kr",
+       "src": "edaily.co.kr",
+       "url": "https://www.edaily.co.kr/News/Read?newsId=02492806645580448&mediaCodeNo=257",
+       "date": "2026-09-15",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": []
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-09-15-4",
+       "h": "Egypt’s BME, China’s CATL plan battery plant with investment above $39m",
+       "b": "Egypt’s BME, China’s CATL plan battery plant with investment above $39m Arab News",
+       "src": "Arab News",
+       "url": "https://www.arabnews.com/business/egypts-bme-chinas-catl-plan-battery-plant-with-investment-above-39m-3001546",
+       "date": "2026-09-13",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-10",
+       "h": "비야디, 전고체 2027년 시연에도 주가 18%↓…2030년 상용화 지연",
+       "b": "비야디, 전고체 <b>2027년</b> 시연에도 주가 <b>18%</b>↓…<b>2030년</b> 상용화 지연",
+       "src": "bing.com",
+       "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026091421414634412bd56fbc3c_1",
+       "date": "2026-09-14",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-17",
+       "h": "BYD \"내년 '전고체 배터리 탑재' 전기차 첫 공개\"",
+       "b": "14일 스페인 자동차 전문 매체 카와우 에스파냐(Carwow.es)에 따르면 스텔라 리(Stella Li) BYD 수석 부사장은 최근 발렌시아에서 진행된 인터뷰에서 \"BYD는 전고체 배터리 기술과 상용화 부문에서 선두를 달리고 있다\"며 \"이를 증명하기 위해 내년에 전고체 배터리 기술을 적용한 첫 번째 모델을 선보일 것\"이라고 밝혔다.",
+       "src": "더구루",
+       "url": "https://www.theguru.co.kr/news/article.html?no=107025",
+       "date": "2026-09-14",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-19",
+       "h": "BYD, 2027년 전고체 배터리 실증 차량 공개…2030년 상용화 목표",
+       "b": "BYD, <b>2027년</b> 전고체 배터리 실증 차량 공개…<b>2030년</b> 상용화 목표",
+       "src": "글로벌이코노믹",
+       "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026091406452193172bd56fbc3c_1",
+       "date": "2026-09-14",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": {
+        "prev_date": "2026-09-15",
+        "prev_h": "BYD \"내년 '전고체 배터리 탑재' 전기차 첫 공개\"",
+        "change": "2027년, 2030년"
+       }
+      },
+      {
+       "id": "2026-09-15-20",
+       "h": "BYD brings ETT 44 electric truck to Europe",
+       "b": "BYD is entering the European heavy-duty electric truck market with the ETT 44.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/14/byd-brings-ett-44-electric-truck-to-europe/",
+       "date": "2026-09-14",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-22",
+       "h": "BYD claims solid-state battery lead in 2027 demo; chief scientist cites unscaled dry rooms",
+       "b": "BYD solid-state battery 2027: Executive VP Stella Li confirmed a demonstration vehicle next year, but the 1,000-unit fleet targets premium brands Yangwang and Denza, not mass-market buyers.",
+       "src": "bing.com",
+       "url": "https://www.msn.com/en-us/news/other/byd-claims-solid-state-battery-lead-in-2027-demo-chief-scientist-cites-unscaled-dry-rooms/ar-AA2cdaJP",
+       "date": "2026-09-14",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-09-15-23",
+       "h": "홍지선 \"서울 집값 하향안정 바람직\"…2차 이전으로 수도권 분산(종합)",
+       "b": "홍 후보자는 일자리와 인구가 수도권에 집중된 국토구조가 주택 수요와 주거비 부담을 높이는 요인이라고 진단하면서, 지방에 양질의 일자리와 정주 기반을 확충해 수도권으로 쏠리는 수요를 완화해야 한다고 강조했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260914078151003",
+       "date": "2026-09-14",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "Geesun",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-24",
+       "h": "홍지선 \"부동산 세제개편 방향성 공감…실수요자 우선공급 필요\"(종합)",
+       "b": "홍 후보자는 인사청문회를 앞두고 이날 국회 국토교통위원회에 제출한 서면 답변자료에서 \"부동산 세제 개편은 공정 과세, 과세 형평 및 주택시장에 미치는 영향 등 여러 측면을 면밀히 고려해 검토할 문제\"라며 이같이 말했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260914058251003",
+       "date": "2026-09-14",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "Geesun",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-27",
+       "h": "홍지선 \"용산공원 부수공간 중심으로 주택공급 살펴볼 것\"(종합)",
+       "b": "홍 후보자는 인사청문회를 앞두고 이날 국회 국토교통위원회에 제출한 서면답변서에서 \"현재 정부는 용산공원 전체를 개발하겠다는 것이 아니라 전체 부지를 대상으로 어느 곳이 주택 건설에 적합한지 검토해보고 있는 단계로 알고 있다\"며 이같이 말했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260914052951003",
+       "date": "2026-09-14",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "Geesun",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-30",
+       "h": "홍지선 \"장모 차입금 상환유예 연장은 자녀 학비 마련 목적\"(종합)",
+       "b": "홍 후보자는 인사청문회를 앞두고 국회 국토교통위원회에 제출한 서면답변서에서 차입금 원금 상환 유예기간을 최근 <b>3년</b>으로 연장했고 이는 사실상 증여에 해당한다는 지적에 이같이 답변했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260914065451003",
+       "date": "2026-09-14",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "Geesun",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-31",
+       "h": "홍지선 \"공공기관 이전, 기관 수보다 지역경제 효과로 평가해야\"",
+       "b": "홍 후보자는 인사청문회를 앞두고 국회 국토교통위원회에 14일 제출한 서면답변서에서 \"(공공기관 이전은) 이전기관 수나 이전 인원과 같은 양적 지표만으로 평가하기에는 한계가 있다\"며 \"지역인재 채용과 고용 창출, 기업 유치·투자, 지역 산업과의 연계, 정주 인구 증가 등 실질적인 효과가 반드시 함께 평가돼야 한다\"고 말했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260914078100003",
+       "date": "2026-09-14",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "Geesun",
+       "related": [],
+       "tags": [
+        "투자",
+        "채용"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-33",
+       "h": "Wuxi Lead Intelligent Equipment CO.,LTD. (300450.SZ)",
+       "b": "002460.SZ Ganfeng Lithium Group Co., Ltd.",
+       "src": "bing.com",
+       "url": "https://finance.yahoo.com/quote/300450.SZ/",
+       "date": "2026-09-14",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "LEAD Intelligent",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-09-15-7",
+       "h": "Strong Sales, EV Momentum And Tariff Risks Define The Road Ahead For Autos",
+       "b": "Despite speedbumps in the form of tariffs and higher gas prices, auto demand is still strong and the EV market is beginning to pick up, says Itay Michaeli of TD Cowen.",
+       "src": "bing.com",
+       "url": "https://seekingalpha.com/article/4946094-strong-sales-ev-momentum-tariff-risks-define-road-ahead-autos",
+       "date": "2026-09-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-16",
+       "h": "HS효성에너지솔루션코리아-현대자동차·기아, 실리콘 음극재 생산공장 신설 투자협약 체결...사용후 배터리 에너지저장장치 활용 ‘UBESS’ 실증사업 추진",
+       "b": "HSÈ¿¼º¿¡³ÊÁö¼Ö·ç¼ÇÄÚ¸®¾Æ(ÁÖ)´Â 14ÀÏ ¿ï»ê ½ÃÃ» º»°ü 7Ãþ ½ÃÀå½Ç¿¡¼­ ÀÌ±â¼ö HSÈ¿¼º¿¡³ÊÁö¼Ö·ç¼ÇÄÚ¸®¾Æ(ÁÖ) ´ëÇ¥¿Í ±è»ó¿í ¿ï»ê ½ÃÀå µîÀÌ Âü¼®ÇÑ °¡¿îµ¥ ½Ç¸®ÄÜ À½±ØÀç »ý»ê°øÀå ½Å¼³À» À§ÇÑ ÅõÀÚÇù¾à(MOU)À» Ã¼°áÇß´Ù.",
+       "src": "여성소비자신문",
+       "url": "http://www.wsobi.com/news/articleView.html?idxno=318155",
+       "date": "2026-09-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-21",
+       "h": "Mercedes-Backed ProLogium Claims To Have Cracked The Solid-State Battery Puzzle",
+       "b": "Solid-state batteries have occupied an awkward position in the EV world for years.",
+       "src": "bing.com",
+       "url": "https://autos.yahoo.com/ev-and-future-tech/articles/mercedes-backed-prologium-claims-cracked-190029531.html",
+       "date": "2026-09-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-25",
+       "h": "中 반도체 공장, 장비 3대 중 1대 '메이드 인 차이나'",
+       "b": "중국 내 자국산 반도체 장비 비중이 공장(팹) 설치 장비 <b>3대</b> 중 1꼴로 급속히 증가한 것으로 나타났다. 14일 중국 반도체 분석업체 집미망(이지웨이)에 따르면 중국산 반도체 장비 점유율은 판매 기준 약 <b>23%</b>, 설치 기준은 <b>35%</b>로 집계됐다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260914000280",
+       "date": "2026-09-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-26",
+       "h": "Global Solid-State Batteries Market Poised for Growth Through 2036 as EV Demand, Safer Energy Storage and Manufacturing Investments Accelerate",
+       "b": "Demand for safer, higher-density batteries is rising across EVs, electronics, aerospace, medical devices and grid storage, creating opportunities in materials, manufacturing and partnerships. Dublin, Sept.",
+       "src": "bing.com",
+       "url": "https://finance.yahoo.com/energy/articles/global-solid-state-batteries-market-125800853.html",
+       "date": "2026-09-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "전고체",
+        "투자"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-29",
+       "h": "기업연구소 세계 무대로…산업부, GATC에 6년간 2895억원 투입",
+       "b": "정부가 중소·중견기업 연구소를 글로벌 기술거점으로 육성하기 위해 올해부터 <b>2031년</b>까지 <b>2895억</b>원을 투입한다. 산업통상부는 14일 충북 청주 샘씨엔에스에서 '<b>2026년</b> 글로벌 우수기업연구소(GATC) 지정서 수여식'을 개최한다고 밝혔다.",
+       "src": "bing.com",
+       "url": "https://www.ajunews.com/view/20260914100509486",
+       "date": "2026-09-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-32",
+       "h": "자동화했는데 고용 37% 늘었다…조일공업이 보여준 제조업 전환의 조건",
+       "b": "자동차 부품 중소기업이 생산공정을 자동화하면서 동시에 고용을 늘린 사례가 나왔다. 울산 북구 자동차 부품기업 조일공업은 <b>2022년</b> <b>97명</b>이던 직원을 올해 9월 <b>133명</b>까지 늘렸다.",
+       "src": "bing.com",
+       "url": "https://www.hantoday.net/news/articleView.html?idxno=54897",
+       "date": "2026-09-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "리스크"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": []
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-09-15-0",
+       "h": "삼성·SK가 점찍은 클린룸 강자들…반도체 투자에 실적 훈풍",
+       "b": "인공지능(AI) 확산으로 반도체 시설투자가 활발하면서 국내 클린룸 기업들의 실적이 크게 개선됐다. 매출 증가율 상위 <b>5개</b> 기업은 세보엠이씨, 신성이엔지, 엑사이엔씨, 한양이엔지, 케이엔솔 순이었다.",
+       "src": "thelec.kr",
+       "url": "https://www.thelec.kr/news/articleView.html?idxno=62239",
+       "date": "2026-09-15",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-9",
+       "h": "Trina signs 1GWh MoU to help developer meet ‘unique technical and delivery requirements’ of Japan’s battery storage market",
+       "b": "Trina Storage, the battery storage arm of major Chinese solar PV company Trinasolar, has signed a <b>1GWh</b> Memorandum of Understanding (MoU) to supply products in Japan.",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/trina-signs-1gwh-mou-to-help-developer-meet-unique-technical-and-delivery-requirements-of-japans-battery-storage-market/",
+       "date": "2026-09-14",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-09-15-1",
+       "h": "8월 ICT 수출 599.8억 달러 '역대 최대'… AI 인프라 수요 확대로 반도체·SSD 질주",
+       "b": "<b>2026년</b> 8월 정보통신산업(ICT) 수출액이 <b>600억</b> 달러에 육박하며 역대 최고 실적을 갈아치웠다. 산업통상부와 과학기술정보통신부가 발표한 '<b>2026년</b> 8월 정보통신산업(ICT) 수출입 동향'에 따르면, 8월 ICT 수출액은 전년 동월(<b>228억</b> <b>4,000만</b> 달러) 대비 <b>162.6%</b> 증가한 <b>599억</b> <b>8,000만</b> 달러를 기록했다.",
+       "src": "bing.com",
+       "url": "https://www.mtnews.net/news/articleView.html?idxno=25955",
+       "date": "2026-09-14",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-2",
+       "h": "삼성전자·SK하이닉스, 한전 '25조 전기료 선납' 제안 거절",
+       "b": "삼성전자와 SK하이닉스가 한국전력이 제안한 총 <b>25조</b>원 규모의 전기요금 선납 방안을 받아들이지 않기로 했다. 한전은 선납금을 국가 기간 전력망 투자에 활용할 계획이었지만 반도체 기업들은 <b>5년</b> 치 전기료를 한꺼번에 지급하는 데 따른 부담 등을 고려한 것으로 전해졌다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260914000406",
+       "date": "2026-09-14",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-3",
+       "h": "네이버벤처스, 美 '포지트론 AI'에 신규 투자…성장 단계 스타트업 본격 발굴",
+       "b": "네이버벤처스가 미국 인공지능(AI) 추론 반도체 스타트업 포지트론 AI에 신규 투자했다. 14일 네이버에 따르면 네이버벤처스는 이달 초 글로벌 투자자들과 함께 <b>8억</b><b>7500만</b>달러(약 <b>1조</b><b>4440억</b>원) 규모 포지트론 AI 시리즈C 투자에 참여했다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260914000311",
+       "date": "2026-09-14",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-6",
+       "h": "LG화학, 中 장화웨이와 맞손…반도체 세정용 초고순도 IPA 공급망 구축",
+       "b": "LG화학이 반도체 소재 시장 공략을 위해 세정 소재의 글로벌 공급망을 중국 현지에 구축한다. LG화학은 중국 정밀화학 소재 선도기업 장화웨이(Jiangyin Jianghua Microelectronics Materials)와 반도체용 초고순도 IPA(이소프로필알코올) 사업 협력을 위한 업무협약(MOU)을 체결했다고 14일 밝혔다.",
+       "src": "industrynews.co.kr",
+       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85965",
+       "date": "2026-09-15",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-8",
+       "h": "삼성전자 4%·하이닉스 6% 급락 … 아시아 반도체 관련주에 '직격탄'",
+       "b": "삼성전자가 AI CAPEX 축소 우려가 제기되면서 전 거래일 대비 <b>4.05%</b> 하락했습니다. SK하이닉스가 AI 투자 속도 조절론 여파로 <b>6.35%</b> 하락 을 기록했습니다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12152397",
+       "date": "2026-09-14",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-11",
+       "h": "우리로, 136억원 규모 AI 데이터센터 광소자 공급계약",
+       "b": "우리로는 지난 11일 중국 광통신 전문기업 VSUNLIGHT와 <b>1천</b><b>16만</b>달러(약 <b>136억</b>원) 규모의 데이터센터 광소자(CWDM AWG) 공급계약을 체결했다. 이번 계약은 우리로가 체결한 단일 광통신 부품 공급계약 가운데 최대 규모다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260914123500030",
+       "date": "2026-09-14",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-15-12",
+       "h": "신한다산운용,SOL AI반도체소부장 ETF 1개월 수익률 23.14%",
+       "b": "신한자산운용은 인공지능(AI) 반도체 투자 확대의 수혜가 메모리 대형주를 넘어 소재·부품·장비 기업으로 확산되면서 국내 최대 규모의 반도체 소부장 ETF인 ‘SOL AI반도체소부장 ETF’(종목코드: 455850)에 투자자들의 관심이 높아지고 있다고 밝혔다.",
+       "src": "bing.com",
+       "url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=493789",
+       "date": "2026-09-14",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": [
+      {
+       "id": "2026-09-15-5",
+       "h": "10분에 로봇 1대씩…'로봇이 로봇 만드는 공장' 가동",
+       "b": "로봇이 로봇 생산을 돕는 대규모 휴머노이드 공장이 가동을 시작했습니다. 이 공장은 연간 최대 <b>1만</b> 대 생산 규모로 설계됐으며 목표 생산 속도는 약 10분에 <b>1대</b>입니다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260914000402",
+       "date": "2026-09-15",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 75,
+  "published": 34,
+  "followup": 1,
+  "suppressed": 2,
+  "nobody": 0,
+  "unclassified": 1,
+  "capped": 26
+ },
+ "sources": [
+  "Arab News",
+  "bing.com",
+  "edaily.co.kr",
+  "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
+  "industrynews.co.kr",
+  "mk.co.kr",
+  "thelec.kr",
+  "yna.co.kr",
+  "글로벌이코노믹",
+  "더구루",
+  "뷰어스",
+  "아주경제",
+  "여성소비자신문",
+  "이투데이"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

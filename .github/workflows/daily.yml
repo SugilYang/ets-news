@@ -9,6 +9,11 @@ on:
   # schedule:
   #   - cron: "0 23 * * 0-4"
   workflow_dispatch: {}
+  push:                      # watchlist.yml 이나 이 파일을 고쳐 올리면 그 즉시 1회 실행(오늘 호가 이미 있으면 아무것도 안 함)
+    branches: [ main ]
+    paths:
+      - "watchlist.yml"
+      - ".github/workflows/daily.yml"
 
 permissions:
   contents: write

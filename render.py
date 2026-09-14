@@ -218,7 +218,7 @@ b,strong{font-weight:700}
 .sbar2{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:8px;align-items:center}
 .sbar input,.sbar select,.sbar2 input,.sbar2 select{font:inherit;font-size:14px;padding:9px 11px;border:1px solid var(--hair);background:#fff;width:100%}
 .sbar input:focus,.sbar select:focus,.sbar2 input:focus{outline:2px solid var(--brand);outline-offset:1px}
-.sbar2 label{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.sbar2 label{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
 .scount{font-size:12.5px;color:var(--muted);margin:10px 2px 0}
 .sres{margin-top:6px;border-top:1px solid var(--rule)}
 

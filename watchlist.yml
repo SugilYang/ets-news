@@ -12,8 +12,8 @@
 # ══════════════════════════════════════════════════════════════════
 
 site:
-  name: "이티에스 영업 브리핑"
-  name_en: "ETS SALES BRIEFING"
+  name: "이티에스 시장 동향"
+  name_en: "ETS MARKET INTELLIGENCE"
   edition: "조간"
   first_issue_date: ""                  # 제1호 날짜(호수 계산 기준). 비워 두면 첫 발행일이 자동으로 제1호
 

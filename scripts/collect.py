@@ -347,6 +347,7 @@ def main() -> int:
              "nobody": 0, "unclassified": 0, "capped": 0}
     budget = MAX_ARTICLE_FETCH
     seq = 0
+    cand_out: list[dict] = []     # Claude 정제 단계용 후보 기록(db/candidates-<날짜>.json)
 
     for e in fresh:
         if budget <= 0:
@@ -360,6 +361,10 @@ def main() -> int:
             lead, final = extract_lead(url)
         text = lead if len(lead) >= MIN_BODY else e["summary"]
         brief = B.make_brief(text, n_sent, max_chars)
+        cand = {"cid": len(cand_out), "title": e["title"], "url": (final if "news.google.com" not in B.host(final) else e["link"]),
+                "src": e["source"] or B.host(final), "date": e["published"].strftime("%Y-%m-%d"), "rel": clf.reliability(final),
+                "lead": (lead or e["summary"])[:700], "pre": e.get("pre"), "status": ""}
+        cand_out.append(cand)
         nt_b, nt_t = B.norm_title(brief)[:30], B.norm_title(e["title"])[:30]
         if brief and (nt_b == nt_t or nt_b.startswith(nt_t[:20]) and len(brief) < len(e["title"]) + 30):
             brief = ""            # RSS 요약이 제목을 되풀이한 것 → 제목만 싣고 본문은 원문 링크로
@@ -367,11 +372,12 @@ def main() -> int:
             stats["headline_only"] += 1
         cls = clf.classify(e["title"], f"{brief} {lead[:600]} {e['summary'][:300]}")
         if not cls:
-            stats["unclassified"] += 1
+            stats["unclassified"] += 1; cand["status"] = "unclassified"
             continue
+        cand["pre"] = cls
         if (counts.get(cls["cat"], 0) >= cap or co_counts.get((cls["cat"], cls["entity"]), 0) >= (cap_co if cls["entity"] else 10**6)
                 or co_counts.get(("grp", cls["cat"], cls["group"]), 0) >= cap_grp):
-            stats["capped"] += 1
+            stats["capped"] += 1; cand["status"] = "capped"
             continue
         final_url = final if "news.google.com" not in B.host(final) else e["link"]
         item = {
@@ -387,12 +393,12 @@ def main() -> int:
         }
         prev = mem.find(item["entity"], item["cat"], item["group"], e["title"], final_url)
         if prev and prev.get("date") == today:
-            stats["sameday"] += 1     # 같은 날 같은 사안의 다른 매체 보도 → 1건만
+            stats["sameday"] += 1; cand["status"] = "sameday"     # 같은 날 같은 사안의 다른 매체 보도 → 1건만
             continue
         if prev:
             changes = B.TopicMemory.change(prev, e["title"], brief)
             if need_change and not changes:
-                stats["suppressed"] += 1
+                stats["suppressed"] += 1; cand["status"] = "unchanged"
                 continue
             item["followup"] = {"prev_date": prev.get("date", ""), "prev_h": prev.get("h", ""),
                                 "change": ", ".join(changes[:5])}
@@ -402,6 +408,7 @@ def main() -> int:
         if grp is None:
             grp = {"id": cls["group"], "title": "", "items": []}; sec["groups"].append(grp)
         grp["items"].append(item)
+        cand["status"] = "published:" + item["id"]
         counts[cls["cat"]] = counts.get(cls["cat"], 0) + 1
         co_counts[(cls["cat"], cls["entity"])] = co_counts.get((cls["cat"], cls["entity"]), 0) + 1
         co_counts[("grp", cls["cat"], cls["group"])] = co_counts.get(("grp", cls["cat"], cls["group"]), 0) + 1
@@ -451,6 +458,11 @@ def main() -> int:
     DATA.mkdir(exist_ok=True)
     out.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     mem.save()
+    B.DB_DIR.mkdir(exist_ok=True)
+    (B.DB_DIR / f"candidates-{today}.json").write_text(
+        json.dumps({"date": today, "window_hours": hours, "candidates": cand_out}, ensure_ascii=False, indent=1), encoding="utf-8")
+    for old in sorted(B.DB_DIR.glob("candidates-*.json"))[:-5]:   # 후보 파일은 최근 5일치만 보관
+        old.unlink()
     print(f"저장 {out.name} · 제{data['issue_no']}호 · {total}건 · 톱 {len(tops)}건 · 사안 DB {len(mem.rows)}건")
     return 0
 

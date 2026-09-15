@@ -247,6 +247,27 @@ b,strong{font-weight:700}
 .wk-nav a{font-size:12.5px;padding:4px 10px;border:1px solid var(--hair);text-decoration:none;color:var(--ink);background:#fff}
 .wk-nav a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 
+/* ── 가시성 강화 ── */
+.sec-head{background:var(--ink);color:#fff;padding:6px 12px;border:0;border-left:8px solid var(--secc,#0e9b86);margin-bottom:6px}
+.sec-head .no,.sec-head h2{color:#fff} .sec-head .sub{color:#c9d3df} .sec-head .cnt{color:#e6ebf1}
+.section.thin .sec-head{background:#e9e6de;color:var(--ink);padding:4px 12px}
+.section.thin .sec-head .no,.section.thin .sec-head h2{color:var(--ink)} .section.thin .sec-head .cnt{color:var(--muted)}
+#project{--secc:#b3261e} #customer{--secc:#1d4f8a} #competitor{--secc:#5b3fb8} #tech_policy{--secc:#946400} #market{--secc:#0e9b86}
+.group h3{color:var(--secc,var(--ink));border-bottom-color:var(--secc,var(--ink))}
+.item.gA{background:#fdf3f2;border-left:4px solid var(--accent);padding-left:8px;margin:2px 0}
+.item.gA .h{font-size:15.5px}
+.g{font-size:11px;padding:1px 7px}
+.g.A{box-shadow:0 1px 0 rgba(0,0,0,.15)}
+.lead-story{background:#fff;border:1px solid var(--hair);border-top:5px solid var(--accent);padding:12px 14px 10px;margin-top:6px}
+.lead-story h1{font-size:28px}
+.front .rcol .guide{background:var(--brand-bg);border:1px solid #bfe3d9;padding:10px 12px}
+.guide h2{color:#0b6f60;border-bottom-color:#0b6f60;font-size:13px;letter-spacing:.12em}
+.guide li{font-size:14px;border-bottom-color:#cfe6df}
+.guide li a{color:#0b3d35}
+.refined{display:inline-block;background:var(--brand);color:#fff;font-size:11px;padding:0 7px;border-radius:2px;font-family:var(--sans);font-weight:700;vertical-align:1px}
+.legend-bar{background:#fff}
+@media(max-width:640px){ .lead-story h1{font-size:22px} .item.gA .h{font-size:15.5px} .sec-head{padding:5px 10px} }
+
 /* ── 푸터 ── */
 .footer{margin-top:26px;border-top:3px double var(--rule);padding-top:10px;font-size:11.5px;color:var(--muted);line-height:1.7}
 
@@ -295,7 +316,7 @@ def head(title: str, active: str, base: str, issue_html: str = "", date_html: st
         f'<header class="mast"><div class="left">{brand_logo(base)}</div>'
         f'<div class="center"><div class="en">{esc(SITE_EN)}</div><a class="name" href="{base}index.html">{esc(SITE)}</a></div>'
         f'<div class="right">{issue_html}</div></header>'
-        f'<div class="dateline">{date_html or "<span></span>"}<span class="pub">월~금 08:00 발행 · 공개 보도·공시 기반 · 사실만 기록</span></div>'
+        f'<div class="dateline">{date_html or "<span></span>"}<span class="pub">월~금 아침 발행 · 공개 보도·공시 기반 · 사실만 기록</span></div>'
         f'<nav class="nav">{nav}</nav>'
     )
 
@@ -379,7 +400,7 @@ def render_item(it: dict, show_entity: bool = True, show_cat: bool = False, brie
     if f:
         ch = f.get("change") or ""
         fu = f'<div class="fu"><b>후속</b> {esc(short_date(f.get("prev_date","")))} 게재분과 달라진 수치·일정: {esc(ch) if ch else "—"}</div>'
-    return (f'<article class="item" id="{esc(it.get("id",""))}"><div class="row">{grade_badge(it.get("grade","C"))}'
+    return (f'<article class="item g{esc(it.get("grade","C"))}" id="{esc(it.get("id",""))}"><div class="row">{grade_badge(it.get("grade","C"))}'
             f'<h4 class="h">{hh}</h4></div>{body}{fu}<div class="meta">{" ".join(meta)}</div></article>')
 
 
@@ -399,7 +420,18 @@ def all_items(d: dict) -> list[dict]:
 
 
 def sales_guide_html(d: dict) -> str:
-    """watchlist.sales_guide 규칙표에 맞는 항목 → '오늘의 영업 포인트' 한 줄씩(회사·신호·할 일)."""
+    """정제판(guide 필드)이 있으면 그 문구를, 없으면 watchlist.sales_guide 규칙표로 '오늘의 영업 포인트'."""
+    if d.get("guide"):
+        by_id = {it["id"]: it for it in all_items(d)}
+        lis = []
+        for g in d["guide"][:6]:
+            it = by_id.get(g.get("item_id"))
+            if not it:
+                continue
+            lis.append(f'<li><a href="#{esc(it["id"])}">{grade_badge(it.get("grade","C"))} {soft(esc(g.get("say","")))}</a>'
+                       f'<small>{soft(esc(B.strip_tags(it.get("h",""))[:44]))}</small></li>')
+        body = f'<ul>{"".join(lis)}</ul>' if lis else '<p class="empty">오늘은 영업 신호가 없습니다.</p>'
+        return f'<div class="guide"><h2>오늘의 영업 포인트 <small>Claude 정제</small></h2>{body}</div>'
     rules = WL.get("sales_guide") or []
     lines, seen = [], set()
     for it in all_items(d):
@@ -441,7 +473,8 @@ LEGEND = (
 def issue_meta_html(d: dict) -> tuple[str, str]:
     no = d.get("issue_no") or 0
     right = f'<b>제{no}호</b>{esc(B.kdate(d.get("date","")))}'
-    dl = f'<span class="issue">제{no}호 · {esc(B.kdate(d.get("date","")))} · {esc(d.get("edition","조간"))}</span>'
+    ref = ' · <span class="refined">Claude 정제판</span>' if d.get("refined") else ""
+    dl = f'<span class="issue">제{no}호 · {esc(B.kdate(d.get("date","")))} · {esc(d.get("edition","조간"))}{ref}</span>'
     return right, dl
 
 

@@ -106,7 +106,7 @@ b,strong{font-weight:700}
 .lead-story h1{font-family:var(--serif);font-weight:900;font-size:27px;line-height:1.3;margin:0 0 6px;color:var(--ink)}
 .lead-story h1 a{text-decoration:none}
 .lead-story h1 a:hover{color:var(--accent)}
-.lead-story .b{font-size:14.5px;line-height:1.7;margin:0 0 4px;color:var(--text)}
+.lead-story .b{font-size:14.5px;line-height:1.7;margin:0 0 4px;color:var(--text);text-wrap:pretty}
 .front .side h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--muted);font-weight:700;margin:0 0 6px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
 .front .side .item{padding:4px 0}
 .front .side .item .h{font-size:14.5px}
@@ -117,7 +117,7 @@ b,strong{font-weight:700}
 .guide{border-right:1px solid var(--hair);padding-right:20px}
 .guide h2,.legend h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin:0 0 5px;padding-bottom:4px;border-bottom:1px solid var(--rule)}
 .legend h2{color:var(--muted)} .guide h2 small{letter-spacing:0;font-weight:500;color:var(--muted);margin-left:8px;font-size:11px}
-.guide ul{list-style:none;margin:0;padding:0} .guide li{padding:4px 0;border-bottom:1px dotted var(--hair);font-size:13.5px;line-height:1.5;color:var(--ink)}
+.guide ul{list-style:none;margin:0;padding:0} .guide li{padding:4px 0;border-bottom:1px dotted var(--hair);font-size:13.5px;line-height:1.5;color:var(--ink);text-wrap:pretty}
 .guide li:last-child{border-bottom:0} .guide li a{text-decoration:none;font-weight:700} .guide li a:hover{color:var(--accent)}
 .guide li small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
 .legend dl{margin:0;font-size:11.5px;line-height:1.55;color:var(--text);display:grid;grid-template-columns:auto 1fr;gap:2px 8px}
@@ -126,8 +126,9 @@ b,strong{font-weight:700}
 
 
 /* ── 한 줄 항목 ── */
-.item .row{display:flex;align-items:baseline;gap:7px}
-.item .row .g{flex:none;position:relative;top:-1px}
+.item .row{display:block}
+.item .row .g{display:inline-block;vertical-align:2px;margin-right:6px}
+.item .row .h{display:inline}
 .legend-bar{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:11px;line-height:1.7;color:var(--muted);
   background:#f3f1ea;border:1px solid var(--hair);padding:5px 10px;margin:8px 0 0}
 .legend-bar .lb-t{font-weight:700;color:var(--ink);letter-spacing:.12em;font-size:10.5px;padding-right:8px;border-right:1px solid var(--hair)}
@@ -155,7 +156,7 @@ b,strong{font-weight:700}
 .item .h{margin:0;font-family:var(--serif);font-size:14.5px;font-weight:700;line-height:1.4;color:var(--ink);text-wrap:pretty}
 .item .h a{text-decoration:none}
 .item .h a:hover{color:var(--accent)}
-.item .b{margin:2px 0 0;font-size:13px;line-height:1.55;color:var(--text)}
+.item .b{margin:2px 0 0;font-size:13px;line-height:1.55;color:var(--text);text-wrap:pretty}
 .item .b b{color:var(--ink)}
 .meta{margin-top:1px;font-size:10.5px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 7px;align-items:center}
 .meta .src{color:var(--ink);font-weight:500}
@@ -321,6 +322,23 @@ def tag_html(tags: list[str]) -> str:
     return "".join(f'<span class="tag{" key" if t in ("주액", "RFQ", "리스크") else ""}">{esc(t)}</span>' for t in (tags or [])[:5])
 
 
+
+_SOFT_RE = re.compile(r"([·…,/\)\]】」』〕〉》]|\.{3})")
+
+def soft(html_text: str) -> str:
+    """한글 단어 중간이 아니라 구두점(· … , / 닫는 괄호) 뒤에서만 줄이 바뀌도록 보이지 않는 줄바꿈 허용점(U+200B)을 넣음.
+    태그 안은 건드리지 않음."""
+    out = []
+    for part in re.split(r"(<[^>]+>)", html_text or ""):
+        if part.startswith("<"):
+            out.append(part)
+        else:
+            part = _SOFT_RE.sub("\\1\u200b", part)
+            part = re.sub(r"(?<=[가-힣A-Za-z0-9])([·…])", "\u2060\\1", part)   # 가운뎃점·말줄임표 '앞'에서는 줄이 안 바뀌게
+            part = re.sub(r"(?<=\S)([\(\[【「『〔〈《])", "\u200b\\1", part)   # 여는 괄호 앞
+            out.append(part)
+    return "".join(out)
+
 BRIEF_MAX = int((WL.get("rules") or {}).get("brief_max_chars", 90))
 
 
@@ -340,8 +358,9 @@ def render_item(it: dict, show_entity: bool = True, show_cat: bool = False, brie
     """한 줄 항목: [등급] 제목 — 회사 · 매체 · 날짜 · ★ · 태그.  본문 한 문장은 A등급만(나머지는 원문 링크)."""
     url = it.get("url")
     h = it.get("h", "")
+    h = soft(h)
     hh = f'<a href="{esc(url)}" target="_blank" rel="noopener">{h}</a>' if url else h
-    bb = clamp_brief(it.get("b", "")) if (brief and it.get("grade") == "A") else ""
+    bb = soft(clamp_brief(it.get("b", ""))) if (brief and it.get("grade") == "A") else ""
     body = f'<p class="b">{bb}</p>' if bb else ""
     meta = []
     if show_entity and it.get("entity"):
@@ -397,8 +416,8 @@ def sales_guide_html(d: dict) -> str:
             if key in seen:
                 break
             seen.add(key)
-            lines.append(f'<li><a href="#{esc(it["id"])}">{grade_badge(it.get("grade","C"))} {esc(say)}</a>'
-                         f'<small>{esc(B.strip_tags(it.get("h",""))[:44])}</small></li>')
+            lines.append(f'<li><a href="#{esc(it["id"])}">{grade_badge(it.get("grade","C"))} {soft(esc(say))}</a>'
+                         f'<small>{soft(esc(B.strip_tags(it.get("h",""))[:44]))}</small></li>')
             break
         if len(lines) >= 5:
             break
@@ -442,7 +461,7 @@ def front_html(d: dict) -> str:
         return ""
     lead, side = tops[0], tops[1:]
     url = lead.get("url")
-    h1 = f'<a href="{esc(url)}" target="_blank" rel="noopener">{lead["h"]}</a>' if url else lead["h"]
+    h1 = f'<a href="{esc(url)}" target="_blank" rel="noopener">{soft(lead["h"])}</a>' if url else soft(lead["h"])
     kicker = f'{esc(CAT_TITLE.get(lead.get("cat",""), ""))}' + (f' · {esc(lead["entity"])}' if lead.get("entity") else "")
     meta_parts = [grade_badge(lead.get("grade", "C"))]
     if lead.get("src"):
@@ -456,7 +475,7 @@ def front_html(d: dict) -> str:
         meta_parts.append(f'<a class="more" href="{esc(url)}" target="_blank" rel="noopener">원문 보기 ↗</a>')
     meta = f'<div class="meta">{" ".join(meta_parts)}</div>'
     lead_html = (f'<div class="lead-story"><div class="kicker">오늘의 1면 · {kicker}</div><h1>{h1}</h1>'
-                 f'<p class="b">{clamp_brief(lead.get("b",""), BRIEF_MAX + 40)}</p>{meta}</div>')
+                 f'<p class="b">{soft(clamp_brief(lead.get("b",""), BRIEF_MAX + 40))}</p>{meta}</div>')
     side_html = ('<div class="side"><h2>주요 기사</h2>' + "".join(render_item(it, brief=False) for it in side) + "</div>") if side else ""
     return (f'<div class="front"><div class="lcol">{lead_html}{side_html}</div>'
             f'<div class="rcol">{sales_guide_html(d)}</div></div>')
@@ -600,7 +619,7 @@ def search_page(issues: list[dict]) -> tuple[str, list[dict]]:
   var idx=JSON.parse(document.getElementById('idx').textContent);
   var $=function(i){return document.getElementById(i)};
   var q=$('q'),cat=$('cat'),ent=$('ent'),gr=$('gr'),df=$('df'),dt=$('dt'),res=$('res'),cnt=$('cnt');
-  function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]});}
+  function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]}).replace(/([·…,\/)\]])/g,'$1\u200b');}
   function stars(n){n=Math.max(1,Math.min(5,n|0));return '<span class="stars">'+'★'.repeat(n)+'<span class="off">'+'★'.repeat(5-n)+'</span></span>';}
   function run(){
     var t=q.value.trim().toLowerCase(),c=cat.value,e=ent.value,g=gr.value,a=df.value,b=dt.value;

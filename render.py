@@ -368,6 +368,8 @@ def clamp_brief(b: str, max_chars: int = BRIEF_MAX) -> str:
     raw = B.strip_tags(b or "").strip()
     if not raw:
         return ""
+    if len(raw) <= max_chars + 40:          # 정제판처럼 이미 짧은 본문은 문장을 자르지 않고 그대로
+        return B.highlight(raw)
     ss = B.sentences(raw)
     s = ss[0] if ss else raw
     if len(s) > max_chars + 15:

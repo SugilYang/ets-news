@@ -24,6 +24,7 @@ DATA = ROOT / "data"
 BRIEF = ROOT / "briefings"
 COMP = ROOT / "companies"
 WEEK = ROOT / "weekly"
+REPORT = ROOT / "reports"
 
 WL = B.load_watchlist()
 SITE = (WL.get("site") or {}).get("name", "이티에스 영업 브리핑")
@@ -164,7 +165,7 @@ b,strong{font-weight:700}
 .meta .more:hover{text-decoration:underline}
 .stars{color:#c9a227;letter-spacing:-.05em;font-size:11px}
 .stars .off{color:#d9d5cc}
-.g{display:inline-block;font-size:10.5px;font-weight:700;line-height:1.4;padding:0 6px;border-radius:2px;border:1px solid var(--ink);color:var(--ink);letter-spacing:.04em}
+.g{display:inline-block;font-size:10.5px;font-weight:700;line-height:1.4;padding:0 6px;border-radius:2px;border:1px solid var(--ink);color:var(--ink);letter-spacing:.04em;white-space:nowrap}
 .g.A{background:var(--accent);border-color:var(--accent);color:#fff}
 .g.B{background:var(--ink);color:#fff}
 .g.C{color:var(--muted);border-color:var(--faint)}
@@ -267,6 +268,49 @@ b,strong{font-weight:700}
 .refined{display:inline-block;background:var(--brand);color:#fff;font-size:11px;padding:0 7px;border-radius:2px;font-family:var(--sans);font-weight:700;vertical-align:1px}
 .legend-bar{background:#fff}
 @media(max-width:640px){ .lead-story h1{font-size:22px} .item.gA .h{font-size:15.5px} .sec-head{padding:5px 10px} }
+
+/* ── 형식 전환·보고서 ── */
+.issuenav .mid{display:flex;align-items:center;gap:10px}
+.fmt{display:inline-flex;border:1px solid var(--ink);border-radius:3px;overflow:hidden}
+.fmt a{padding:3px 12px;font-size:12.5px;font-weight:700;text-decoration:none;color:var(--ink);background:#fff}
+.fmt a.on{background:var(--ink);color:#fff}
+.fmt a:hover{color:var(--brand)} .fmt a.on:hover{color:#fff}
+.arc .fmt{margin-left:auto} .arc .fmt a{padding:2px 9px;font-size:11.5px} .arc .no{text-decoration:none}
+.rp{background:#fff;border:1px solid var(--hair);padding:18px 22px 20px;margin-top:12px}
+.rp-head{border-bottom:3px double var(--rule);padding-bottom:8px;margin-bottom:12px}
+.rp-tag{display:inline-block;font-size:11px;letter-spacing:.18em;font-weight:700;color:#fff;background:var(--ink);padding:2px 10px;margin-bottom:6px}
+.rp h1{font-family:var(--sans);font-size:24px;font-weight:700;margin:0;color:var(--ink)}
+.rp-meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:6px 0 12px}
+.tile{border:1px solid var(--hair);padding:10px 12px;background:#fbfaf6}
+.tile.a{border-top:4px solid var(--accent)}
+.tile .tl{font-size:11.5px;color:var(--muted)}
+.tile .tv{font-family:var(--sans);font-size:30px;font-weight:600;color:var(--ink);line-height:1.15;font-variant-numeric:proportional-nums}
+.tile.a .tv{color:var(--accent)}
+.tile .tn{font-size:10.5px;color:var(--faint);line-height:1.4;margin-top:2px}
+.rp-summary{font-size:13.5px;line-height:1.6;color:var(--text);background:#f3f1ea;padding:8px 12px;margin-bottom:12px}
+.rp-summary b{color:var(--ink);margin-right:6px}
+.rp-h2{font-family:var(--sans);font-size:15px;font-weight:700;color:var(--ink);margin:10px 0 6px;padding-left:8px;border-left:4px solid var(--brand)}
+.rt{width:100%;border-collapse:collapse;font-size:12.5px;table-layout:fixed}
+.rt th{background:#eeece5;color:var(--ink);font-weight:700;text-align:left;padding:6px 8px;border-bottom:2px solid var(--ink)}
+.rt td{padding:7px 8px;border-bottom:1px solid var(--hair);vertical-align:top;line-height:1.5}
+.rt td.c,.rt th:first-child{text-align:center;width:64px}
+.rt td.ent{font-weight:700;color:var(--ink);width:120px}
+.rt td.act{color:#0b3d35;font-weight:700}
+.rt td.src{font-size:11px;color:var(--muted);width:120px}
+.rt td.t{font-family:var(--serif);font-weight:700} .rt td.t a{text-decoration:none} .rt td.t a:hover{color:var(--accent)}
+.rt td.b{color:var(--text)} .rt td.tg{width:110px}
+.rt .fu{font-weight:400}
+.rp-sec{margin-top:14px} .rp-sec h3{font-family:var(--sans);font-size:14px;font-weight:700;margin:0 0 4px;color:var(--ink)} .rp-sec h3 small{color:var(--muted);font-weight:500}
+.rp .empty{padding:4px 0 8px}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}
+  .rt,.rt tbody,.rt tr,.rt td{display:block;width:auto} .rt thead{display:none}
+  .rt tr{border:1px solid var(--hair);padding:8px 10px;margin-bottom:8px;background:#fff}
+  .rt td{padding:2px 0;border:0;line-height:1.5} .rt td.c,.rt td.ent{display:inline-block;margin-right:8px;width:auto}
+  .rt td.src{font-size:11px;width:auto} .rt td.src br{display:none} .rt td.tg{width:auto}
+  .rt td.act::before{content:"→ ";color:var(--brand)}}
+@media(max-width:640px){.rp{padding:12px 12px 14px} .rp h1{font-size:20px} .tile .tv{font-size:24px} .issuenav .mid{flex-direction:column;gap:4px}}
+@media print{.rp{border:0;padding:0} .rp.detail{break-before:page;page-break-before:always} .kpis{grid-template-columns:repeat(5,1fr)} .fmt{display:none}}
 
 /* ── 푸터 ── */
 .footer{margin-top:26px;border-top:3px double var(--rule);padding-top:10px;font-size:11.5px;color:var(--muted);line-height:1.7}
@@ -480,13 +524,18 @@ def issue_meta_html(d: dict) -> tuple[str, str]:
     return right, dl
 
 
-def issuenav(dates: list[str], cur: str, base: str) -> str:
+def issuenav(dates: list[str], cur: str, base: str, fmt: str = "paper") -> str:
+    """이전/다음 호 + 형식 전환(신문 | 보고서). fmt: paper(briefings/) | report(reports/)"""
     i = dates.index(cur) if cur in dates else -1
     older = dates[i + 1] if 0 <= i < len(dates) - 1 else None
     newer = dates[i - 1] if i > 0 else None
-    left = f'<a href="{base}briefings/{older}.html">◀ 이전 호 {esc(older)}</a>' if older else '<span class="dis">◀ 이전 호</span>'
-    right = f'<a href="{base}briefings/{newer}.html">다음 호 {esc(newer)} ▶</a>' if newer else '<span class="dis">다음 호 ▶</span>'
-    return f'<div class="issuenav">{left}<span>{esc(cur)}</span>{right}</div>'
+    d_ = "reports" if fmt == "report" else "briefings"
+    left = f'<a href="{base}{d_}/{older}.html">◀ 이전 호 {esc(older)}</a>' if older else '<span class="dis">◀ 이전 호</span>'
+    right = f'<a href="{base}{d_}/{newer}.html">다음 호 {esc(newer)} ▶</a>' if newer else '<span class="dis">다음 호 ▶</span>'
+    paper_href = f"{base}briefings/{cur}.html"; report_href = f"{base}reports/{cur}.html"
+    toggle = (f'<span class="fmt"><a href="{paper_href}" class="{"on" if fmt == "paper" else ""}">신문</a>'
+              f'<a href="{report_href}" class="{"on" if fmt == "report" else ""}">보고서</a></span>')
+    return f'<div class="issuenav">{left}<span class="mid">{toggle}<span class="cur">{esc(cur)}</span></span>{right}</div>'
 
 
 def front_html(d: dict) -> str:
@@ -554,6 +603,121 @@ def brief_page(d: dict, dates: list[str], base: str, active: str, week_link: str
             foot(f"{src_line} · 오늘 {n}건"))
 
 
+
+# ---------------------------------------------------------------- 보고서 형식(갑지·을지)
+REPORT_MARKET_TAGS = {"투자", "수주", "RFQ", "ESS", "리스크", "주액", "전고체", "각형", "46시리즈"}
+
+
+def report_items(d: dict) -> tuple[dict[str, list], int]:
+    """영업용으로 간추림: A·B등급만. 시장·산업 면은 투자·수주·RFQ 등 태그가 있는 것만. → ({cat: [items]}, 제외 건수)"""
+    keep: dict[str, list] = {}
+    dropped = 0
+    for s_ in d.get("sections", []):
+        for g in s_.get("groups", []):
+            for it in g.get("items", []):
+                ok = it.get("grade") in ("A", "B")
+                if ok and s_["id"] == "market":
+                    ok = bool(set(it.get("tags") or []) & REPORT_MARKET_TAGS)
+                if ok:
+                    keep.setdefault(s_["id"], []).append(it)
+                else:
+                    dropped += 1
+    return keep, dropped
+
+
+def guide_rows(d: dict) -> list[tuple[dict, str]]:
+    """(항목, 할 일 문구) 목록 — 정제판 guide 우선, 없으면 규칙표."""
+    by_id = {it["id"]: it for it in all_items(d)}
+    out = []
+    if d.get("guide"):
+        for g in d["guide"][:8]:
+            it = by_id.get(g.get("item_id"))
+            if it:
+                out.append((it, str(g.get("say", ""))))
+        return out
+    rules = WL.get("sales_guide") or []
+    seen = set()
+    for it in all_items(d):
+        for r in rules:
+            if it.get("cat") not in (r.get("cats") or []) or it.get("grade", "C") not in (r.get("grades") or ["A", "B"]):
+                continue
+            if not set(r.get("tags_any") or []) & set(it.get("tags") or []):
+                continue
+            ent = it.get("entity") or (it.get("related") or [""])[0] or CAT_TITLE.get(it.get("cat", ""), "")
+            say = str(r.get("say", "")).replace("{entity}", ent)
+            if say not in seen:
+                seen.add(say); out.append((it, say))
+            break
+        if len(out) >= 8:
+            break
+    return out
+
+
+def report_page(d: dict, dates: list[str], base: str, active: str) -> str:
+    right, dl = issue_meta_html(d)
+    keep, dropped = report_items(d)
+    n_all = len(all_items(d))
+    n_keep = sum(len(v) for v in keep.values())
+    n_a = sum(1 for v in keep.values() for it in v if it["grade"] == "A")
+    n_cust = len(keep.get("project", [])) + len(keep.get("customer", []))
+    n_comp = len(keep.get("competitor", []))
+    grows = guide_rows(d)
+    date = d.get("date", ""); no = d.get("issue_no", 0)
+
+    def tile(label: str, value, note: str = "", cls: str = "") -> str:
+        return f'<div class="tile {cls}"><div class="tl">{esc(label)}</div><div class="tv">{esc(value)}</div><div class="tn">{esc(note)}</div></div>'
+
+    kpis = (tile("즉시보고(A)", n_a, "대규모 투자·RFQ·취소/연기·경쟁사 대형수주", "a") +
+            tile("고객사·Project 신호", n_cust, "LG엔솔·삼성SDI·SK온·글로벌") +
+            tile("경쟁사 동향", n_comp, "장비·AMR 22개사") +
+            tile("영업 포인트", len(grows), "확인·준비할 일") +
+            tile("보고 항목 / 수집", f"{n_keep} / {n_all}", f"C등급·일반 동향 {dropped}건은 신문 형식에서"))
+
+    # 갑지: 영업 포인트 표
+    grow_html = ""
+    for k, (it, say) in enumerate(grows, 1):
+        ent = it.get("entity") or "-"
+        url = it.get("url", "")
+        link = f'<a href="{esc(url)}" target="_blank" rel="noopener">원문 ↗</a>' if url else ""
+        parts = say.split(" → ", 1)
+        sig, act = (parts[0].strip(), parts[1].strip()) if len(parts) == 2 else (say, "")
+        grow_html += (f'<tr><td class="c">{k}</td><td class="c">{grade_badge(it.get("grade","C"))}</td><td class="ent">{esc(ent)}</td>'
+                      f'<td>{soft(esc(sig))}</td><td class="act">{soft(esc(act))}</td>'
+                      f'<td class="src">{esc(it.get("src",""))} {stars(it.get("rel",2))}<br>{link}</td></tr>')
+    if not grow_html:
+        grow_html = '<tr><td colspan="6" class="empty">오늘은 영업 신호가 없습니다.</td></tr>'
+    summary = d.get("summary") or ""
+    cover = (f'<section class="rp cover"><div class="rp-head"><span class="rp-tag">갑지 · 요약</span>'
+             f'<h1>영업 정보보고</h1><div class="rp-meta">제{no}호 · {esc(B.kdate(date))} · {esc(d.get("edition","조간"))}'
+             f'{" · Claude 정제판" if d.get("refined") else " · 규칙표 판"}</div></div>'
+             f'<div class="kpis">{kpis}</div>'
+             + (f'<div class="rp-summary"><b>오늘의 요약</b> {soft(esc(summary))}</div>' if summary else "") +
+             f'<h2 class="rp-h2">오늘의 영업 포인트</h2>'
+             f'<table class="rt"><thead><tr><th>No</th><th>등급</th><th>회사</th><th>사실(신호)</th><th>영업이 할 일</th><th>출처</th></tr></thead>'
+             f'<tbody>{grow_html}</tbody></table></section>')
+
+    # 을지: 카테고리별 상세 표
+    def row(it: dict) -> str:
+        url = it.get("url", "")
+        h = f'<a href="{esc(url)}" target="_blank" rel="noopener">{soft(it.get("h",""))}</a>' if url else soft(it.get("h", ""))
+        fu = f'<div class="fu">후속 · {esc(short_date(it["followup"].get("prev_date","")))} 대비 변경: {esc(it["followup"].get("change","") or "—")}</div>' if it.get("followup") else ""
+        return (f'<tr><td class="c">{grade_badge(it.get("grade","C"))}</td><td class="ent">{esc(it.get("entity") or "-")}</td>'
+                f'<td class="t">{h}{fu}</td><td class="b">{soft(clamp_brief(it.get("b",""), 120)) or "—"}</td>'
+                f'<td class="src">{esc(it.get("src",""))}<br>{stars(it.get("rel",2))} {esc(short_date(it.get("date","")))}</td>'
+                f'<td class="tg">{tag_html(it.get("tags") or [])}</td></tr>')
+    secs = ""
+    for i, s_ in enumerate(d.get("sections", []), 1):
+        its = keep.get(s_["id"], [])
+        circ = "①②③④⑤⑥⑦⑧⑨"[i - 1] if i <= 9 else str(i)
+        body = (f'<table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead>'
+                f'<tbody>{"".join(row(it) for it in its)}</tbody></table>') if its else '<p class="empty">해당 없음</p>'
+        secs += f'<div class="rp-sec" id="{esc(s_["id"])}"><h3>{circ} {esc(s_.get("title",""))} <small>{len(its)}건</small></h3>{body}</div>'
+    detail = (f'<section class="rp detail"><div class="rp-head"><span class="rp-tag">을지 · 상세</span><h1>카테고리별 정리</h1>'
+              f'<div class="rp-meta">A·B등급만 수록. 시장·산업은 투자·수주·RFQ·ESS·리스크 관련만. 제목을 누르면 원문.</div></div>{secs}</section>')
+    return (head(f"{SITE} 보고서 제{no}호 — {date}", active, base, right, dl) +
+            issuenav(dates, date, base, "report") + cover + detail + foot())
+
+
 # ---------------------------------------------------------------- 지난 호(달력)
 def archive_page(issues: list[dict]) -> str:
     by_date = {d["date"]: d for d in issues}
@@ -588,8 +752,9 @@ def archive_page(issues: list[dict]) -> str:
             y, m = y - 1, 12
     rows = []
     for d in issues:
-        rows.append(f'<a class="arc" href="briefings/{esc(d["date"])}.html"><span class="no">제{d.get("issue_no",0)}호</span>'
-                    f'<span class="date">{esc(B.kdate(d["date"]))}</span><span class="top">{esc(d.get("summary",""))}</span></a>')
+        rows.append(f'<div class="arc"><a class="no" href="briefings/{esc(d["date"])}.html">제{d.get("issue_no",0)}호</a>'
+                    f'<span class="date">{esc(B.kdate(d["date"]))}</span><span class="top">{esc(d.get("summary",""))}</span>'
+                    f'<span class="fmt"><a href="briefings/{esc(d["date"])}.html">신문</a><a href="reports/{esc(d["date"])}.html">보고서</a></span></div>')
     return (head(f"{SITE} — 지난 호", "archive", "") +
             f'<div class="page-title">지난 호</div><p class="page-sub">총 {len(issues)}호 · 달력의 날짜를 누르면 그날 지면으로 이동합니다. 회색은 주말·공휴일(발행 없음).</p>'
             f'<div class="months">{"".join(months)}</div><div class="arc-list">{"".join(rows)}</div>' + foot())
@@ -801,17 +966,19 @@ def main() -> int:
         COMP.mkdir(exist_ok=True); (COMP / "index.html").write_text(placeholder_page().replace('href="index.html"', 'href="../index.html"'), encoding="utf-8")
         print("data/*.json 없음 — 첫 호 발행 전 안내 페이지를 생성했습니다."); return 0
     dates = [d["date"] for d in issues]
-    BRIEF.mkdir(exist_ok=True); COMP.mkdir(exist_ok=True); WEEK.mkdir(exist_ok=True)
+    BRIEF.mkdir(exist_ok=True); COMP.mkdir(exist_ok=True); WEEK.mkdir(exist_ok=True); REPORT.mkdir(exist_ok=True)
     wpages, latest_week, date_label = weekly_pages(issues)
     for name, html_ in wpages.items():
         (WEEK / name).write_text(html_, encoding="utf-8")
     for d in issues:
         wl = f'../weekly/{date_label[d["date"]]}.html' if parse_date(d["date"]).weekday() == 4 else ""
         (BRIEF / f'{d["date"]}.html').write_text(brief_page(d, dates, "../", "archive", wl), encoding="utf-8")
+        (REPORT / f'{d["date"]}.html').write_text(report_page(d, dates, "../", "archive"), encoding="utf-8")
     top = issues[0]
     wl0 = f'weekly/{date_label[top["date"]]}.html' if parse_date(top["date"]).weekday() == 4 else ""
     (ROOT / "index.html").write_text(brief_page(top, dates, "", "today", wl0), encoding="utf-8")
     (ROOT / "archive.html").write_text(archive_page(issues), encoding="utf-8")
+    (ROOT / "report.html").write_text(report_page(top, dates, "", "today"), encoding="utf-8")
     for name, html_ in companies_pages(issues).items():
         (COMP / name).write_text(html_, encoding="utf-8")
     spage, idx = search_page(issues)

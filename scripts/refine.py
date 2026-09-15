@@ -152,6 +152,10 @@ def apply(path: str) -> None:
     mem.rows = [r for r in mem.rows if r.get("date") != day]
     for it in items:
         mem.remember(it, day)
+        # 원문 제목도 함께 기억해 다음 날 같은 기사가 다른 제목으로 재등장하는 것을 막음
+        c = cands.get(next((k for k, v in cid_to_id.items() if v == it["id"]), None))
+        if c and B.norm_title(c["title"]) != B.norm_title(B.strip_tags(it["h"])):
+            mem.remember({**it, "h": c["title"]}, day)
     mem.save()
     print(f"반영 완료: {out.name} · 제{data['issue_no']}호 · {len(items)}건 · 톱 {len(top)} · 영업 포인트 {len(guide)}줄 · 사안 DB {len(mem.rows)}건")
 

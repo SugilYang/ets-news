@@ -416,6 +416,431 @@
     "30%"
    ],
    "url": "https://www.etnews.com/20260914000402"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "ICT R&D '2조원 시대'…피지컬AI·AI반도체 집중 투자",
+   "nt": "ictrd2조원시대피지컬aiai반도체집중투자",
+   "tk": [
+    "2조원",
+    "ai반도체",
+    "ict",
+    "시대",
+    "집중",
+    "투자",
+    "피지컬ai"
+   ],
+   "nums": [
+    "2027년",
+    "2조"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260915072600017"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "2031년 400조 원 시장… 中 차세대 배터리, 전고체·BESS·신흥국 삼각편대로 확장",
+   "nt": "2031년400조원시장차세대배터리전고체bess신흥국삼각편대로확장",
+   "tk": [
+    "2031년",
+    "400조",
+    "bess",
+    "배터리",
+    "삼각편대로",
+    "시장",
+    "신흥국",
+    "전고체",
+    "차세대",
+    "확장"
+   ],
+   "nums": [
+    "2031년",
+    "400조"
+   ],
+   "url": "https://www.msn.com/ko-kr/news/other/2031%EB%85%84-400%EC%A1%B0-%EC%9B%90-%EC%8B%9C%EC%9E%A5-%E4%B8%AD-%EC%B0%A8%EC%84%B8%EB%8C%80-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%A0%84%EA%B3%A0%EC%B2%B4-bess-%EC%8B%A0%ED%9D%A5%EA%B5%AD-%EC%82%BC%EA%B0%81%ED%8E%B8%EB%8C%80%EB%A1%9C-%ED%99%95%EC%9E%A5/ar-AA2ci0sh"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Scania’s new battery solution enables 720 km range",
+   "nt": "scaniasnewbatterysolutionenables720kmran",
+   "tk": [
+    "720",
+    "battery",
+    "enables",
+    "km",
+    "new",
+    "range",
+    "scania",
+    "solution"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/15/scanias-new-battery-solution-enables-720-km-range/"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "하이니켈의 마지막 승부처, ‘분체공정’… 혼합·분쇄·분급 장비가 바뀐다",
+   "nt": "하이니켈의마지막승부처분체공정혼합분쇄분급장비가바뀐다",
+   "tk": [
+    "마지막",
+    "바뀐다",
+    "분급",
+    "분쇄",
+    "분체공정",
+    "승부처",
+    "장비가",
+    "하이니켈의",
+    "혼합"
+   ],
+   "nums": [],
+   "url": "https://www.batterynews.co.kr/news/articleView.html?idxno=813"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "신라대 박상문 교수 연구팀, 전고체전지용 소재 개발",
+   "nt": "신라대박상문교수연구팀전고체전지용소재개발",
+   "tk": [
+    "개발",
+    "교수",
+    "박상문",
+    "소재",
+    "신라대",
+    "연구팀",
+    "전고체전지용"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260915131400051"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Actis subsidiary Nozomi Energy closes financing on Japanese capacity market-winning BESS",
+   "nt": "actissubsidiarynozomienergyclosesfinanci",
+   "tk": [
+    "actis",
+    "bess",
+    "capacity",
+    "closes",
+    "energy",
+    "financing",
+    "japanese",
+    "market",
+    "nozomi",
+    "on",
+    "subsidiary",
+    "winning"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/actis-subsidiary-nozomi-energy-closes-financing-on-japanese-capacity-market-winning-bess/"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼전닉스 오를 만큼 올랐다?…'반토막 전망' 나온 이유",
+   "nt": "삼전닉스오를만큼올랐다반토막전망나온이유",
+   "tk": [
+    "나온",
+    "만큼",
+    "반토막",
+    "삼전닉스",
+    "오를",
+    "올랐다",
+    "이유",
+    "전망"
+   ],
+   "nums": [
+    "148만",
+    "27만"
+   ],
+   "url": "https://www.etnews.com/20260915000347"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "초고수, 삼전 사고 삼전우는 팔았다…삼성SDI도 담아 [주식 초고수는 지금]",
+   "nt": "초고수삼전사고삼전우는팔았다삼성sdi도담아주식초고수는지금",
+   "tk": [
+    "담아",
+    "사고",
+    "삼성sdi도",
+    "삼전",
+    "삼전우는",
+    "주식",
+    "지금",
+    "초고수",
+    "초고수는",
+    "팔았다"
+   ],
+   "nums": [
+    "1%"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12153107"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "전고체 배터리 투자 훈풍… 코윈로보틱스, 2차전지 자동화 수주 모멘텀",
+   "nt": "전고체배터리투자훈풍코윈로보틱스2차전지자동화수주모멘텀",
+   "tk": [
+    "2차전지",
+    "모멘텀",
+    "배터리",
+    "수주",
+    "자동화",
+    "전고체",
+    "코윈로보틱스",
+    "투자",
+    "훈풍"
+   ],
+   "nums": [],
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=487100"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "“ESS 병목 풀리고 4680 날개 달았다…테슬라·폭스바겐 호재 탄 LG에너지솔루션”",
+   "nt": "ess병목풀리고4680날개달았다테슬라폭스바겐호재탄lg에너지솔루션",
+   "tk": [
+    "4680",
+    "ess",
+    "lg에너지솔루션",
+    "날개",
+    "달았다",
+    "병목",
+    "테슬라",
+    "폭스바겐",
+    "풀리고",
+    "호재"
+   ],
+   "nums": [
+    "3분기"
+   ],
+   "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=300986"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL Takes Over Geely-Affiliated Battery Plant as 30GWh of Capacity Under Construction Changes Hands",
+   "nt": "catltakesovergeelyaffiliatedbatteryplant",
+   "tk": [
+    "30gwh",
+    "affiliated",
+    "as",
+    "battery",
+    "capacity",
+    "catl",
+    "changes",
+    "construction",
+    "geely",
+    "hands",
+    "of",
+    "over",
+    "plant",
+    "takes",
+    "under"
+   ],
+   "nums": [
+    "30GWh"
+   ],
+   "url": "https://finance.biggo.com/news/a8d4e573-9a17-4ef4-9bf9-da912b18a766"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "각형·원통형 뜨고 ESS 커지고…삼성SDI 수주 경쟁력 '쑥'",
+   "nt": "각형원통형뜨고ess커지고삼성sdi수주경쟁력쑥",
+   "tk": [
+    "ess",
+    "각형",
+    "경쟁력",
+    "뜨고",
+    "삼성sdi",
+    "수주",
+    "원통형",
+    "커지고"
+   ],
+   "nums": [],
+   "url": "https://daily.hankooki.com/news/articleViewAmp.html?idxno=1406351"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD, 전고체 배터리 전기차 2027년 첫 출시…10년 넘은 기다림 끝나나",
+   "nt": "byd전고체배터리전기차2027년첫출시10년넘은기다림끝나나",
+   "tk": [
+    "10년",
+    "2027년",
+    "byd",
+    "기다림",
+    "끝나나",
+    "넘은",
+    "배터리",
+    "전고체",
+    "전기차",
+    "출시"
+   ],
+   "nums": [
+    "10년",
+    "2027년"
+   ],
+   "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700689"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "Dematic",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "Wurth Australia advances fulfilment capacity with Dematic automation",
+   "nt": "wurthaustraliaadvancesfulfilmentcapacity",
+   "tk": [
+    "advances",
+    "australia",
+    "automation",
+    "capacity",
+    "dematic",
+    "fulfilment",
+    "with",
+    "wurth"
+   ],
+   "nums": [],
+   "url": "https://www.australianmanufacturing.com.au/wurth-australia-advances-fulfilment-capacity-with-dematic-automation/"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "[테크 차이나] “로봇도 필요한 기능만 골라 쓴다”…란충구신, 0.98만 위안 모듈형 휴머노이드 출시",
+   "nt": "테크차이나로봇도필요한기능만골라쓴다란충구신098만위안모듈형휴머노이드출시",
+   "tk": [
+    "98만",
+    "골라",
+    "기능만",
+    "란충구신",
+    "로봇도",
+    "모듈형",
+    "쓴다",
+    "위안",
+    "차이나",
+    "출시",
+    "테크",
+    "필요한",
+    "휴머노이드"
+   ],
+   "nums": [
+    "0.98만"
+   ],
+   "url": "https://www.etnews.com/20260915000344"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD sends Toyota, Detroit clear message on solid-state batteries",
+   "nt": "bydsendstoyotadetroitclearmessageonsolid",
+   "tk": [
+    "batteries",
+    "byd",
+    "clear",
+    "detroit",
+    "message",
+    "on",
+    "sends",
+    "solid",
+    "state",
+    "toyota"
+   ],
+   "nums": [],
+   "url": "https://www.thestreet.com/automotive/byd-solid-state-battery-2027"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Ford reportedly eyeing EV production at idle Indian plant",
+   "nt": "fordreportedlyeyeingevproductionatidlein",
+   "tk": [
+    "at",
+    "ev",
+    "eyeing",
+    "ford",
+    "idle",
+    "indian",
+    "plant",
+    "production",
+    "reportedly"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/15/ford-reportedly-eyeing-ev-production-at-idle-indian-plant/"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "UK removes major barrier to cross-pavement EV charging",
+   "nt": "ukremovesmajorbarriertocrosspavementevch",
+   "tk": [
+    "barrier",
+    "charging",
+    "cross",
+    "ev",
+    "major",
+    "pavement",
+    "removes",
+    "to",
+    "uk"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/15/uk-removes-major-barrier-to-cross-pavement-ev-charging/"
+  },
+  {
+   "date": "2026-09-16",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "[부고] 윤영두(SK이노베이션 부사장)씨 부친상",
+   "nt": "부고윤영두sk이노베이션부사장씨부친상",
+   "tk": [
+    "sk이노베이션",
+    "부고",
+    "부사장",
+    "부친상",
+    "윤영두"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260915173700505"
   }
  ]
 }

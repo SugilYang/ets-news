@@ -524,15 +524,18 @@ def issue_meta_html(d: dict) -> tuple[str, str]:
     return right, dl
 
 
-def issuenav(dates: list[str], cur: str, base: str, fmt: str = "paper") -> str:
-    """이전/다음 호 + 형식 전환(신문 | 보고서). fmt: paper(briefings/) | report(reports/)"""
+def issuenav(dates: list[str], cur: str, base: str, fmt: str = "paper", active: str = "archive") -> str:
+    """이전/다음 호 + 형식 전환(신문 | 보고서). fmt: paper(briefings/) | report(reports/). 오늘 호(active=today)는 index/report 로 전환."""
     i = dates.index(cur) if cur in dates else -1
     older = dates[i + 1] if 0 <= i < len(dates) - 1 else None
     newer = dates[i - 1] if i > 0 else None
     d_ = "reports" if fmt == "report" else "briefings"
     left = f'<a href="{base}{d_}/{older}.html">◀ 이전 호 {esc(older)}</a>' if older else '<span class="dis">◀ 이전 호</span>'
     right = f'<a href="{base}{d_}/{newer}.html">다음 호 {esc(newer)} ▶</a>' if newer else '<span class="dis">다음 호 ▶</span>'
-    paper_href = f"{base}briefings/{cur}.html"; report_href = f"{base}reports/{cur}.html"
+    if active == "today":
+        paper_href, report_href = f"{base}index.html", f"{base}report.html"
+    else:
+        paper_href, report_href = f"{base}briefings/{cur}.html", f"{base}reports/{cur}.html"
     toggle = (f'<span class="fmt"><a href="{paper_href}" class="{"on" if fmt == "paper" else ""}">신문</a>'
               f'<a href="{report_href}" class="{"on" if fmt == "report" else ""}">보고서</a></span>')
     return f'<div class="issuenav">{left}<span class="mid">{toggle}<span class="cur">{esc(cur)}</span></span>{right}</div>'
@@ -599,7 +602,7 @@ def brief_page(d: dict, dates: list[str], base: str, active: str, week_link: str
     srcs = d.get("sources") or []
     src_line = ("출처: " + esc("·".join(srcs[:16])) + (" 등" if len(srcs) > 16 else "")) if srcs else ""
     return (head(f"{SITE} 제{d.get('issue_no',0)}호 — {d.get('date','')}", active, base, right, dl) +
-            LEGEND_BAR + issuenav(dates, d.get("date", ""), base) + front_html(d) + guide + wk + secs +
+            LEGEND_BAR + issuenav(dates, d.get("date", ""), base, "paper", active) + front_html(d) + guide + wk + secs +
             foot(f"{src_line} · 오늘 {n}건"))
 
 
@@ -715,7 +718,7 @@ def report_page(d: dict, dates: list[str], base: str, active: str) -> str:
     detail = (f'<section class="rp detail"><div class="rp-head"><span class="rp-tag">을지 · 상세</span><h1>카테고리별 정리</h1>'
               f'<div class="rp-meta">A·B등급만 수록. 시장·산업은 투자·수주·RFQ·ESS·리스크 관련만. 제목을 누르면 원문.</div></div>{secs}</section>')
     return (head(f"{SITE} 보고서 제{no}호 — {date}", active, base, right, dl) +
-            issuenav(dates, date, base, "report") + cover + detail + foot())
+            issuenav(dates, date, base, "report", active) + cover + detail + foot())
 
 
 # ---------------------------------------------------------------- 지난 호(달력)
@@ -972,8 +975,9 @@ def main() -> int:
         (WEEK / name).write_text(html_, encoding="utf-8")
     for d in issues:
         wl = f'../weekly/{date_label[d["date"]]}.html' if parse_date(d["date"]).weekday() == 4 else ""
-        (BRIEF / f'{d["date"]}.html').write_text(brief_page(d, dates, "../", "archive", wl), encoding="utf-8")
-        (REPORT / f'{d["date"]}.html').write_text(report_page(d, dates, "../", "archive"), encoding="utf-8")
+        act = "today" if d["date"] == issues[0]["date"] else "archive"
+        (BRIEF / f'{d["date"]}.html').write_text(brief_page(d, dates, "../", act, wl), encoding="utf-8")
+        (REPORT / f'{d["date"]}.html').write_text(report_page(d, dates, "../", act), encoding="utf-8")
     top = issues[0]
     wl0 = f'weekly/{date_label[top["date"]]}.html' if parse_date(top["date"]).weekday() == 4 else ""
     (ROOT / "index.html").write_text(brief_page(top, dates, "", "today", wl0), encoding="utf-8")

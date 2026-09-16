@@ -1,0 +1,555 @@
+{
+ "schema": 4,
+ "date": "2026-09-17",
+ "weekday": "목",
+ "edition": "조간",
+ "issue_no": 3,
+ "window_hours": 36,
+ "summary": "“대미 투자하느라 달러빚 냈는데”…금리발작에 떨고있는  · ‘3분기 연속 서프라이즈’ 삼성SDI, '중국 점유율' · 빚 갚는 SK온, 환율 하락에 재무 개선 탄력 · 삼성E&A, 연간 수주전망 이미 초과달성…증권가 “미국",
+ "top": [
+  "2026-09-17-4",
+  "2026-09-17-13",
+  "2026-09-17-21",
+  "2026-09-17-0"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-09-17-4",
+       "h": "“대미 투자하느라 달러빚 냈는데”…금리발작에 떨고있는 업종은",
+       "b": "고유가 국면에 전 세계 금리의 잣대가 되는 미국 <b>10년</b>물 국채금리가 급등하며 외화부채가 많은 기업들의 재무 건전성에 비상이 걸렸다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12154900",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-14",
+       "h": "[B트렌드] K-배터리, 북미 충격 넘어 ‘다음 수요’로… ESS·LFP·공급망 재편",
+       "b": "글로벌 전기차용 배터리 시장이 성장세를 이어가는 가운데 K-배터리의 부진 원인이 한층 선명해지고 있다.",
+       "src": "솔라투데이",
+       "url": "https://www.solartodaymag.com/news/articleView.html?idxno=20999",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-09-17-13",
+       "h": "‘3분기 연속 서프라이즈’ 삼성SDI, '중국 점유율' 뺏는 수주 모멘텀",
+       "b": "삼성 SDI 의 올해 3 분기 매출액은 전분기대비 <b>5%</b> 증가한 <b>3.95 조</b>원 , 영업이익은 <b>48%</b> 증가한 <b>3,023 억</b>원으로 <b>3 개</b> 분기 연속 서프라이즈 실적을…",
+       "src": "금융소비자뉴스",
+       "url": "https://www.newsfc.co.kr/news/articleView.html?idxno=81154",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": [
+      {
+       "id": "2026-09-17-17",
+       "h": "SK 울산CLX, 설비협력사 직원에 온누리상품권 1인당 10만원",
+       "b": "이번 전달식은 울산CLX와 설비협력사 간 상생과 동반성장 의미를 담아 이뤄졌다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260916116900057",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-21",
+       "h": "빚 갚는 SK온, 환율 하락에 재무 개선 탄력",
+       "b": "SK온이 설비투자를 줄이고 빚을 갚는 가운데 환율 하락으로 차입 부담을 더 덜어낼 것으로 예상된다.",
+       "src": "시사저널e",
+       "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423739",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-09-17-5",
+       "h": "BMZ Poland and EVE develop LMFP battery for heavy-duty commercial vehicles",
+       "b": "BMZ Poland and Chinese cell manufacturer EVE Energy are jointly developing an LMFP battery for electric commercial vehicles.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/16/bmz-poland-and-eve-develop-lmfp-battery-for-heavy-duty-commercial-vehicles/",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "global",
+       "entity": "EVE",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-6",
+       "h": "CATL unveils truck battery with up to 1,000 km range",
+       "b": "CATL has unveiled its Tectrans II battery solution for heavy-duty electric commercial vehicles at IAA Transportation.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/16/catl-unveils-truck-battery-with-up-to-1000-km-range/",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-7",
+       "h": "Hungary increases pressure on BYD and CATL",
+       "b": "Hungary's new government is taking a closer look at the major investments agreed under Viktor Orbán by Chinese companies.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/16/hungary-increases-pressure-on-byd-and-catl/",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [
+        "BYD"
+       ],
+       "tags": [
+        "투자",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-09-17-12",
+       "h": "필에너지 투자분석 2026. 09. 16",
+       "b": "필에너지 투자분석 2026.",
+       "src": "주달",
+       "url": "https://www.judal.co.kr/?view=stockAI&shareToken=ZK9hcdTDI3rYVuMF",
+       "date": "2026-09-16",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "필에너지",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-20",
+       "h": "How Are Solid-State Battery Equipment Companies Progressing in the “Last Mile” ？",
+       "b": "핵심 포인트: 9월 중순, 리위안헝, 리드인텔리전트, ST푸넝 등 장비 업체들이 전고체 배터리 장비 진행 상황을 잇달아 공개했다.",
+       "src": "Shanghai Metals Market",
+       "url": "https://news.metal.com/ko/newscontent/104118306-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%9E%A5%EB%B9%84-%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%98-%EB%A7%88%EC%A7%80%EB%A7%89-1%EB%A7%88%EC%9D%BC-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9%EC%9D%80",
+       "date": "2026-09-16",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "LEAD Intelligent",
+       "related": [],
+       "tags": [
+        "전고체",
+        "투자",
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-09-17-11",
+       "h": "M83 자회사 피앤티링크 ‘베스트서버’, 당초 매출 목표 600% 초과 달성",
+       "b": "M83의 <b>100%</b> 자회사 피앤티링크가 운영하는 서버 전문 온라인몰 ‘베스트서버’가 당초 목표를 크게 뛰어넘는 실적을 올리며 시장에 안착하고 있다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12153990",
+       "date": "2026-09-16",
+       "cat": "competitor",
+       "group": "grade_B",
+       "entity": "피엔티",
+       "related": [],
+       "tags": [
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-09-17-8",
+       "h": "中, 황화물계 전고체 핵심 원료 '황화리튬' 파일럿 양산 설비 일제 완공",
+       "b": "",
+       "src": "bing.com",
+       "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026091700231457940c8c1c064d_1",
+       "date": "2026-09-16",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-18",
+       "h": "QuantumScape Ramps Pilot Line as Solid-State Battery Markets Expand",
+       "b": "QuantumScape NYSE: QS is focusing on ramping its automated pilot production line as it…",
+       "src": "MarketBeat",
+       "url": "https://www.marketbeat.com/instant-alerts/event-quantumscape-ramps-pilot-line-as-solid-state-battery-markets-expand-2026-09-16/",
+       "date": "2026-09-17",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-19",
+       "h": "QS: Scaling solid-state battery production and expanding into new markets with strong OEM partnerships",
+       "b": "",
+       "src": "TradingView",
+       "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4176366:0-qs-scaling-solid-state-battery-production-and-expanding-into-new-markets-with-strong-oem-partnerships/",
+       "date": "2026-09-17",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-09-17-10",
+       "h": "한중엔시에스 \"美 종속회사 주식 158억원에 추가취득\"",
+       "b": "(서울=연합뉴스) 코스닥 상장사 한중엔시에스[107640]는 미국의 ESS부품&amp;EV부품&amp;CHILLER,HVAC 및 관련부품 제조 및 판매 외…",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260916104800008",
+       "date": "2026-09-16",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-15",
+       "h": "NYC selects provider for 700-point kerbside charging network",
+       "b": "New York City authorities have chosen US charging provider 'it's electric' to build a…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/16/nyc-selects-provider-for-700-point-kerbside-charging-network/",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-09-17-1",
+       "h": "DI동일, 충북도·청주시와 1107억 투자협약 체결",
+       "b": "DI동일이 충북 청주에 <b>1107억</b>원을 투자해 카본 코팅 알루미늄박 생산시설을 확대한다.",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/di%EB%8F%99%EC%9D%BC-%EC%B6%A9%EB%B6%81%EB%8F%84-%EC%B2%AD%EC%A3%BC%EC%8B%9C%EC%99%80-1107%EC%96%B5-%ED%88%AC%EC%9E%90%ED%98%91%EC%95%BD-%EC%B2%B4%EA%B2%B0/ar-AA2ckqRn",
+       "date": "2026-09-16",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-2",
+       "h": "‘1107억 추가 투자’ 디아이동일, 청주서 LFP 배터리 소재 생산",
+       "b": "충북 청주에 리튬인산철(LFP) 배터리용 소재 생산시설이 새로 들어선다.",
+       "src": "공뉴스",
+       "url": "https://www.bzeronews.com/news/articleView.html?idxno=822761",
+       "date": "2026-09-16",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-3",
+       "h": "DI동일, ‘ESS·LFP 배터리’ 시장 공략…청주에 1107억 생산시설 투자",
+       "b": "DI동일이 충북 청주에 <b>1107억</b>원을 투자해 리튬인산철(LFP) 배터리 등에 사용되는 카본코팅 알루미늄박 생산능력을 확대한다.",
+       "src": "중앙이코노미뉴스",
+       "url": "https://www.joongangenews.com/news/articleView.html?idxno=548566",
+       "date": "2026-09-16",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-09-17-0",
+       "h": "삼성E&amp;A, 연간 수주전망 이미 초과달성…증권가 “미국·중동서 수혜” [오늘 나온 보고서]",
+       "b": "아울러 올해 매출액은 전년 대비 <b>20.1%</b> 증가한 <b>10조</b><b>8000억</b>원, 영업이익은 <b>21.2%</b> 증가한 <b>9601억</b>원으로 예상했다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12153876",
+       "date": "2026-09-16",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-9",
+       "h": "호남반도체 용수 공급 위해 덕남정수장 개량…450억원 투입",
+       "b": "16일 전남광주통합특별시의회에 따르면 통합시 상수도사업본부는 전날 기후환경에너지위원회의 제1회 추가경정예산안 심사에서 덕남정수장 노후시설 개량사업에 총 <b>450억</b>원을 투입할 계획이라고 밝혔다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260916136800054",
+       "date": "2026-09-16",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-17-16",
+       "h": "비투엔 \"앤씨앤 주식 63억원어치 취득…지분율 27.7%\"",
+       "b": "(서울=연합뉴스) 코스닥 상장사 비투엔[307870]은 반도체 및 정보통신기기 제조 ,판매 업체 앤씨앤의 주식 <b>250만</b>주를 약 <b>63억</b>원에 취득한다고 16일 공시했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260916172800008",
+       "date": "2026-09-16",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": []
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 53,
+  "published": 22,
+  "headline_only": 3,
+  "followup": 0,
+  "suppressed": 0,
+  "sameday": 0,
+  "nobody": 0,
+  "unclassified": 0,
+  "capped": 13
+ },
+ "sources": [
+  "MarketBeat",
+  "Shanghai Metals Market",
+  "TradingView",
+  "bing.com",
+  "electrive.com",
+  "mk.co.kr",
+  "yna.co.kr",
+  "공뉴스",
+  "금융소비자뉴스",
+  "솔라투데이",
+  "시사저널e",
+  "주달",
+  "중앙이코노미뉴스"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

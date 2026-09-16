@@ -979,6 +979,504 @@
     "4년"
    ],
    "url": "https://www.electrive.com/2026/09/15/ford-reportedly-eyeing-ev-production-at-idle-indian-plant/"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성E&A, 연간 수주전망 이미 초과달성…증권가 “미국·중동서 수혜” [오늘 나온 보고서]",
+   "nt": "삼성ea연간수주전망이미초과달성증권가미국중동서수혜오늘나온보고서",
+   "tk": [
+    "나온",
+    "미국",
+    "보고서",
+    "삼성e",
+    "수주전망",
+    "수혜",
+    "연간",
+    "오늘",
+    "이미",
+    "중동서",
+    "증권가",
+    "초과달성"
+   ],
+   "nums": [
+    "10조",
+    "20.1%",
+    "21.2%",
+    "8000억",
+    "9601억"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12153876"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "DI동일, 충북도·청주시와 1107억 투자협약 체결",
+   "nt": "di동일충북도청주시와1107억투자협약체결",
+   "tk": [
+    "1107억",
+    "di동일",
+    "청주시와",
+    "체결",
+    "충북도",
+    "투자협약"
+   ],
+   "nums": [
+    "1107억"
+   ],
+   "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/di%EB%8F%99%EC%9D%BC-%EC%B6%A9%EB%B6%81%EB%8F%84-%EC%B2%AD%EC%A3%BC%EC%8B%9C%EC%99%80-1107%EC%96%B5-%ED%88%AC%EC%9E%90%ED%98%91%EC%95%BD-%EC%B2%B4%EA%B2%B0/ar-AA2ckqRn"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "‘1107억 추가 투자’ 디아이동일, 청주서 LFP 배터리 소재 생산",
+   "nt": "1107억추가투자디아이동일청주서lfp배터리소재생산",
+   "tk": [
+    "1107억",
+    "lfp",
+    "디아이동일",
+    "배터리",
+    "생산",
+    "소재",
+    "청주서",
+    "추가",
+    "투자"
+   ],
+   "nums": [
+    "1107억"
+   ],
+   "url": "https://www.bzeronews.com/news/articleView.html?idxno=822761"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "DI동일, ‘ESS·LFP 배터리’ 시장 공략…청주에 1107억 생산시설 투자",
+   "nt": "di동일esslfp배터리시장공략청주에1107억생산시설투자",
+   "tk": [
+    "1107억",
+    "di동일",
+    "ess",
+    "lfp",
+    "공략",
+    "배터리",
+    "생산시설",
+    "시장",
+    "청주에",
+    "투자"
+   ],
+   "nums": [
+    "1107억"
+   ],
+   "url": "https://www.joongangenews.com/news/articleView.html?idxno=548566"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "“대미 투자하느라 달러빚 냈는데”…금리발작에 떨고있는 업종은",
+   "nt": "대미투자하느라달러빚냈는데금리발작에떨고있는업종은",
+   "tk": [
+    "금리발작에",
+    "냈는데",
+    "달러빚",
+    "대미",
+    "떨고있는",
+    "업종은",
+    "투자하느라"
+   ],
+   "nums": [
+    "10년"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12154900"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "EVE",
+   "cat": "customer",
+   "group": "global",
+   "h": "BMZ Poland and EVE develop LMFP battery for heavy-duty commercial vehicles",
+   "nt": "bmzpolandandevedeveloplmfpbatteryforheav",
+   "tk": [
+    "and",
+    "battery",
+    "bmz",
+    "commercial",
+    "develop",
+    "duty",
+    "eve",
+    "for",
+    "heavy",
+    "lmfp",
+    "poland",
+    "vehicles"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/16/bmz-poland-and-eve-develop-lmfp-battery-for-heavy-duty-commercial-vehicles/"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL unveils truck battery with up to 1,000 km range",
+   "nt": "catlunveilstruckbatterywithupto1000kmran",
+   "tk": [
+    "000",
+    "battery",
+    "catl",
+    "km",
+    "range",
+    "to",
+    "truck",
+    "unveils",
+    "up",
+    "with"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/16/catl-unveils-truck-battery-with-up-to-1000-km-range/"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "Hungary increases pressure on BYD and CATL",
+   "nt": "hungaryincreasespressureonbydandcatl",
+   "tk": [
+    "and",
+    "byd",
+    "catl",
+    "hungary",
+    "increases",
+    "on",
+    "pressure"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/16/hungary-increases-pressure-on-byd-and-catl/"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "中, 황화물계 전고체 핵심 원료 '황화리튬' 파일럿 양산 설비 일제 완공",
+   "nt": "황화물계전고체핵심원료황화리튬파일럿양산설비일제완공",
+   "tk": [
+    "설비",
+    "양산",
+    "완공",
+    "원료",
+    "일제",
+    "전고체",
+    "파일럿",
+    "핵심",
+    "황화리튬",
+    "황화물계"
+   ],
+   "nums": [],
+   "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026091700231457940c8c1c064d_1"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "호남반도체 용수 공급 위해 덕남정수장 개량…450억원 투입",
+   "nt": "호남반도체용수공급위해덕남정수장개량450억원투입",
+   "tk": [
+    "450억원",
+    "개량",
+    "공급",
+    "덕남정수장",
+    "용수",
+    "위해",
+    "투입",
+    "호남반도체"
+   ],
+   "nums": [
+    "450억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260916136800054"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "한중엔시에스 \"美 종속회사 주식 158억원에 추가취득\"",
+   "nt": "한중엔시에스종속회사주식158억원에추가취득",
+   "tk": [
+    "158억원에",
+    "종속회사",
+    "주식",
+    "추가취득",
+    "한중엔시에스"
+   ],
+   "nums": [
+    "158억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260916104800008"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "피엔티",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "M83 자회사 피앤티링크 ‘베스트서버’, 당초 매출 목표 600% 초과 달성",
+   "nt": "m83자회사피앤티링크베스트서버당초매출목표600초과달성",
+   "tk": [
+    "600",
+    "m83",
+    "달성",
+    "당초",
+    "매출",
+    "목표",
+    "베스트서버",
+    "자회사",
+    "초과",
+    "피앤티링크"
+   ],
+   "nums": [
+    "100%",
+    "600%"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12153990"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "필에너지",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "필에너지 투자분석 2026. 09. 16",
+   "nt": "필에너지투자분석20260916",
+   "tk": [
+    "09",
+    "16",
+    "2026",
+    "투자분석",
+    "필에너지"
+   ],
+   "nums": [
+    "2026"
+   ],
+   "url": "https://www.judal.co.kr/?view=stockAI&shareToken=ZK9hcdTDI3rYVuMF"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "‘3분기 연속 서프라이즈’ 삼성SDI, '중국 점유율' 뺏는 수주 모멘텀",
+   "nt": "3분기연속서프라이즈삼성sdi중국점유율뺏는수주모멘텀",
+   "tk": [
+    "3분기",
+    "모멘텀",
+    "뺏는",
+    "삼성sdi",
+    "서프라이즈",
+    "수주",
+    "연속",
+    "점유율",
+    "중국"
+   ],
+   "nums": [
+    "3,023억",
+    "3.95조",
+    "3개",
+    "3분기",
+    "48%",
+    "5%"
+   ],
+   "url": "https://www.newsfc.co.kr/news/articleView.html?idxno=81154"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "[B트렌드] K-배터리, 북미 충격 넘어 ‘다음 수요’로… ESS·LFP·공급망 재편",
+   "nt": "b트렌드k배터리북미충격넘어다음수요로esslfp공급망재편",
+   "tk": [
+    "b트렌드",
+    "ess",
+    "lfp",
+    "공급망",
+    "넘어",
+    "다음",
+    "배터리",
+    "북미",
+    "수요",
+    "재편",
+    "충격"
+   ],
+   "nums": [],
+   "url": "https://www.solartodaymag.com/news/articleView.html?idxno=20999"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "NYC selects provider for 700-point kerbside charging network",
+   "nt": "nycselectsproviderfor700pointkerbsidecha",
+   "tk": [
+    "700",
+    "charging",
+    "for",
+    "kerbside",
+    "network",
+    "nyc",
+    "point",
+    "provider",
+    "selects"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/16/nyc-selects-provider-for-700-point-kerbside-charging-network/"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "비투엔 \"앤씨앤 주식 63억원어치 취득…지분율 27.7%\"",
+   "nt": "비투엔앤씨앤주식63억원어치취득지분율277",
+   "tk": [
+    "27",
+    "63억원어치",
+    "비투엔",
+    "앤씨앤",
+    "주식",
+    "지분율",
+    "취득"
+   ],
+   "nums": [
+    "250만",
+    "27.7%",
+    "63억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260916172800008"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "SK 울산CLX, 설비협력사 직원에 온누리상품권 1인당 10만원",
+   "nt": "sk울산clx설비협력사직원에온누리상품권1인당10만원",
+   "tk": [
+    "10만원",
+    "1인당",
+    "sk",
+    "설비협력사",
+    "온누리상품권",
+    "울산clx",
+    "직원에"
+   ],
+   "nums": [
+    "10만"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260916116900057"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "QuantumScape Ramps Pilot Line as Solid-State Battery Markets Expand",
+   "nt": "quantumscaperampspilotlineassolidstateba",
+   "tk": [
+    "as",
+    "battery",
+    "expand",
+    "line",
+    "markets",
+    "pilot",
+    "quantumscape",
+    "ramps",
+    "solid",
+    "state"
+   ],
+   "nums": [],
+   "url": "https://www.marketbeat.com/instant-alerts/event-quantumscape-ramps-pilot-line-as-solid-state-battery-markets-expand-2026-09-16/"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "QS: Scaling solid-state battery production and expanding into new markets with strong OEM partnerships",
+   "nt": "qsscalingsolidstatebatteryproductionande",
+   "tk": [
+    "and",
+    "battery",
+    "expanding",
+    "into",
+    "markets",
+    "new",
+    "oem",
+    "partnerships",
+    "production",
+    "qs",
+    "scaling",
+    "solid",
+    "state",
+    "strong",
+    "with"
+   ],
+   "nums": [],
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4176366:0-qs-scaling-solid-state-battery-production-and-expanding-into-new-markets-with-strong-oem-partnerships/"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "LEAD Intelligent",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "How Are Solid-State Battery Equipment Companies Progressing in the “Last Mile” ？",
+   "nt": "howaresolidstatebatteryequipmentcompanie",
+   "tk": [
+    "are",
+    "battery",
+    "companies",
+    "equipment",
+    "how",
+    "in",
+    "last",
+    "mile",
+    "progressing",
+    "solid",
+    "state",
+    "the"
+   ],
+   "nums": [],
+   "url": "https://news.metal.com/ko/newscontent/104118306-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%9E%A5%EB%B9%84-%EA%B8%B0%EC%97%85%EB%93%A4%EC%9D%98-%EB%A7%88%EC%A7%80%EB%A7%89-1%EB%A7%88%EC%9D%BC-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9%EC%9D%80"
+  },
+  {
+   "date": "2026-09-17",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "빚 갚는 SK온, 환율 하락에 재무 개선 탄력",
+   "nt": "빚갚는sk온환율하락에재무개선탄력",
+   "tk": [
+    "sk온",
+    "갚는",
+    "개선",
+    "재무",
+    "탄력",
+    "하락에",
+    "환율"
+   ],
+   "nums": [],
+   "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423739"
   }
  ]
 }

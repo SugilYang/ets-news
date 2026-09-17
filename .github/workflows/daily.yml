@@ -15,6 +15,7 @@ on:
     paths:
       - "watchlist.yml"
       - ".github/workflows/daily.yml"
+      - "db/.kick"                # scripts/kick_collect.sh 가 건드리는 파일(정제 세션이 수집을 강제 실행할 때)
 
 permissions:
   contents: write

@@ -1,0 +1,531 @@
+{
+ "schema": 4,
+ "date": "2026-09-18",
+ "weekday": "금",
+ "edition": "조간",
+ "issue_no": 4,
+ "window_hours": 36,
+ "summary": "SK온-엘앤에프, LFP 공급망 동맹...ESS 시장  · LFP 양극재 선두 엘앤에프, 삼성SDI 이어 SK온도 · SK온, 엘앤에프와 1600억 LFP 양극재 계약…ES · 3기 소부장 특화단지 거제·대전·군산·천안…민관 7.8",
+ "top": [
+  "2026-09-18-16",
+  "2026-09-18-4",
+  "2026-09-18-0",
+  "2026-09-18-2"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-09-18-9",
+       "h": "美 ESS 길 텄지만 수익성은 아직…LG엔솔 하반기 이익에 관심 커진다",
+       "b": "특히 중국산 배터리에 대한 견제와 현지 생산 지원으로 우호적인 사업 환경이 조성됐지만 ESS 물량 확대가 실제 수익성 개선으로 이어질지는 아직 확인이 필요하다는 분석이다.",
+       "src": "bing.com",
+       "url": "http://www.popcornnews.net/news/articleView.html?idxno=133342",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-09-18-4",
+       "h": "LFP 양극재 선두 엘앤에프, 삼성SDI 이어 SK온도 수주…1617억 규모",
+       "b": "국내 양극재 기업 중 리튬인산철(LFP) 제품을 가장 먼저 생산 중인 엘앤에프가 삼성SDI에 이어 SK온으로부터도 수주를 따냈다.",
+       "src": "지디넷코리아",
+       "url": "https://zdnet.co.kr/view/?no=20260917183510",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-7",
+       "h": "내년 ‘꿈의 배터리’ 달린다… 상용화 경쟁 속도전",
+       "b": "BYD가 내년 전고체 배터리 첫 탑재 차량 공개를 예고하면서 글로벌 상용화 경쟁이 달아올랐다.",
+       "src": "bing.com",
+       "url": "https://www.seoul.co.kr/news/economy/car/2026/09/18/20260918029002",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [
+        "CATL",
+        "BYD"
+       ],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": [
+      {
+       "id": "2026-09-18-0",
+       "h": "SK온, 엘앤에프와 1600억 LFP 양극재 계약…ESS '탈중국' 속도",
+       "b": "SK온이 글로벌 에너지저장장치(ESS) 수요",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/money/markets/sk%EC%98%A8-%EC%97%98%EC%95%A4%EC%97%90%ED%94%84%EC%99%80-1600%EC%96%B5-lfp-%EC%96%91%EA%B7%B9%EC%9E%AC-%EA%B3%84%EC%95%BD-ess-%ED%83%88%EC%A4%91%EA%B5%AD-%EC%86%8D%EB%8F%84/ar-AA2cpxKp",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-16",
+       "h": "SK온-엘앤에프, LFP 공급망 동맹...ESS 시장 공동대응",
+       "b": "엘앤에프의 LFP 양극재 <b>1600억</b>원어치 공급...추가 계약 가능성도 SK온 서산·조지아주 공장 등에 투입...국내외 ESS 경쟁 우위 SK온과 엘앤에프가…",
+       "src": "아주경제",
+       "url": "https://www.ajunews.com/view/20260917194927447",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-09-18-11",
+       "h": "'1회 주유·충전으로 1400㎞'…BYD 씨라이언 6 DM-i, 실주행거리 '챌린지' 열풍",
+       "b": "BYD가 출시한 플러그인 하이브리드(PHEV) SUV '씨라이언 6 DM-i'가 차주들의 자발적 '장거리 주행 챌린지' 열풍에 휩싸였다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260917000079",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-15",
+       "h": "CATL unveils truck battery with up to 1,000 km range",
+       "b": "CATL has unveiled its Tectrans II battery solution for heavy-duty electric commercial vehicles at IAA Transportation.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/16/catl-unveils-truck-battery-with-up-to-1000-km-range/",
+       "date": "2026-09-16",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-17",
+       "h": "시진핑, BYD·샤오미 이끌고 방미…美 투자·구매 협상 본격화",
+       "b": "주 시진핑 중국 국가주석의 미국 방문에 BYD와 샤오미 등 중국 대표기업 경영진이 대거 동행할 가능성이 커지고 있습니다.",
+       "src": "v.daum.net",
+       "url": "https://v.daum.net/v/GmLlW6b05D",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "투자",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-09-18-19",
+       "h": "디와이홀딩스 등, SFA 지분 43.45%로 소폭 확대",
+       "b": "- 특별관계자 장내매매로 지분 소폭 확대, 담보 제공 주식 비율은 <b>26.81%</b>로 축소 디와이홀딩스 등, SFA 지분 <b>43.45%</b>로 소폭 확대",
+       "src": "데이터투자",
+       "url": "https://www.datatooza.com/article/20260917160902935752ef39ea8b_80",
+       "date": "2026-09-17",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "SFA",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-20",
+       "h": "Geekplus opens European innovation lab in Germany",
+       "b": "",
+       "src": "roboticsandautomationnews.com",
+       "url": "https://roboticsandautomationnews.com/2026/09/17/geekplus-opens-european-innovation-lab-in-germany/104896/",
+       "date": "2026-09-18",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "Geekplus",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-09-18-8",
+       "h": "Hybrid vehicles: EU urges China to self-limit imports",
+       "b": "The European Union has reportedly called on China to voluntarily restrict its exports of hybrid cars to Europe.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/17/hybrid-vehicles-eu-urges-china-to-self-limit-imports/",
+       "date": "2026-09-17",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-13",
+       "h": "산업부, 국내외 120개사 참여 소부장 국제투자 콘퍼런스",
+       "b": "이번 행사는 글로벌 공급망 재편과 첨단기술 경쟁 속에서 국내외 소부장 기업을 연결하고 새로운 투자 기회를 발굴하기 위해 마련됐다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260917147700003",
+       "date": "2026-09-17",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-18",
+       "h": "Solid-State Battery Capacity Part 1: Solid–Liquid Batteries A Transition Route with Strong Supply and Demand",
+       "b": "핵심 요점: 고체-액체 배터리는 전고체 배터리 산업화의 선봉이다.",
+       "src": "Shanghai Metals Market",
+       "url": "https://news.metal.com/ko/newscontent/104120486-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%9A%A9%EB%9F%89-1%EB%B6%80-%EA%B3%A0%EC%B2%B4-%EC%95%A1%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%88%98%EA%B8%89%EC%9D%B4-%EA%B0%95%ED%95%9C-%EC%A0%84%ED%99%98-%EA%B2%BD%EB%A1%9C",
+       "date": "2026-09-17",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-09-18-6",
+       "h": "EZO secures €150 million to expand UK and Ireland charging networks",
+       "b": "Irish charging provider EZO has secured €150 million in senior debt financing to expand…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/17/ezo-secures-e150-million-to-expand-uk-and-ireland-charging-networks/",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-09-18-1",
+       "h": "Commissioning delays and technical gaps plague battery storage handovers, industry experts warn",
+       "b": "The transition of battery energy storage systems (BESS) from development to operations…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/commissioning-delays-and-technical-gaps-plague-battery-storage-handovers-industry-experts-warn/",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "리스크",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-10",
+       "h": "‘가상송전선’으로 혼잡 완화…기후부·한전, 전력산업 성과발표회 개최",
+       "b": "한국전력공사(한전)가 기후에너지환경부와 ‘전력산업 산·학·연 전문포럼 성과발표회’를 열고 지난 4월부터 운영한 <b>8개</b> 전문포럼의 성과를 공유했다고 17일 밝혔다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12155537",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-09-18-2",
+       "h": "3기 소부장 특화단지 거제·대전·군산·천안…민관 7.8조 투자",
+       "b": "정부는 향후 <b>5년</b>간 <b>1천</b><b>600억</b>원을 지원하고 민간도 총 <b>7조</b><b>7천</b>원을 투자할 예정이다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260917172300003",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-3",
+       "h": "“반도체 너무 올랐나”…삼전닉스 9조 판 외국인, 돈 옮겨간 곳 보니",
+       "b": "올해 국내 증시 상승을 이끌었던 외국인 투자자들이 최근 삼성전자와 SK하이닉스 등 반도체 대형주에서 대규모 매도에 나서고 있다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12155444",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-5",
+       "h": "반도체 후공정에 뭉칫돈…TSMC·인텔 첨단패키징 투자↑",
+       "b": "글로벌 반도체 기업들이 첨단패키징과 테스트 등 후공정 설비 투자를 일제히 늘리고 있다.",
+       "src": "bing.com",
+       "url": "https://www.junggi.co.kr/news/articleView.html?idxno=37803",
+       "date": "2026-09-18",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": [
+      {
+       "id": "2026-09-18-12",
+       "h": "삼성·현대차그룹, 스마트빌딩에 물류 자동화 ‘동맹’",
+       "b": "현대글로비스·삼성물산 MOU로봇 배송 서비스 결합 모델 개발배송 전 과정에 AI·로보틱스 적용 현대글로비스(086280)가 삼성물산(028260)과 우편물 로봇 배송을 뼈대로 한 스마트빌딩 물류자동화 공동사업 모델 개발에 나선다.",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/news/other/%EC%82%BC%EC%84%B1-%ED%98%84%EB%8C%80%EC%B0%A8%EA%B7%B8%EB%A3%B9-%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%B9%8C%EB%94%A9%EC%97%90-%EB%AC%BC%EB%A5%98-%EC%9E%90%EB%8F%99%ED%99%94-%EB%8F%99%EB%A7%B9/ar-AA2cp1mL",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-14",
+       "h": "현대글로비스, 삼성물산과 스마트빌딩 물류자동화 협력",
+       "b": "뉴스제공=현대글로비스, 기업이 작성하여 배포한 보도자료.",
+       "src": "bing.com",
+       "url": "https://www.hankyung.com/article/202609170284P",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 74,
+  "published": 21,
+  "headline_only": 5,
+  "followup": 0,
+  "suppressed": 0,
+  "sameday": 4,
+  "nobody": 0,
+  "unclassified": 1,
+  "capped": 31
+ },
+ "sources": [
+  "Shanghai Metals Market",
+  "bing.com",
+  "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
+  "mk.co.kr",
+  "roboticsandautomationnews.com",
+  "v.daum.net",
+  "yna.co.kr",
+  "데이터투자",
+  "아주경제",
+  "지디넷코리아"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

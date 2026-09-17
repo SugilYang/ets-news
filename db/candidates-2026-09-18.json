@@ -1,0 +1,1157 @@
+{
+ "date": "2026-09-18",
+ "window_hours": 36,
+ "candidates": [
+  {
+   "cid": 0,
+   "title": "SK온, 엘앤에프와 1600억 LFP 양극재 계약…ESS '탈중국' 속도",
+   "url": "https://www.msn.com/ko-kr/money/markets/sk%EC%98%A8-%EC%97%98%EC%95%A4%EC%97%90%ED%94%84%EC%99%80-1600%EC%96%B5-lfp-%EC%96%91%EA%B7%B9%EC%9E%AC-%EA%B3%84%EC%95%BD-ess-%ED%83%88%EC%A4%91%EA%B5%AD-%EC%86%8D%EB%8F%84/ar-AA2cpxKp",
+   "src": "bing.com",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "SK온이 글로벌 에너지저장장치(ESS) 수요 증가에 맞춰 리튬인산철(LFP) 배터리의 핵심 소재인 양극재 국내 공급망을 구축한다.SK온은 17일 서울 종로구 SK온 관훈캠퍼스에서 엘앤에프와 LFP 양극재 공급 계약을 ...",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-09-18-0"
+  },
+  {
+   "cid": 1,
+   "title": "Commissioning delays and technical gaps plague battery storage handovers, industry experts warn",
+   "url": "https://www.energy-storage.news/commissioning-delays-and-technical-gaps-plague-battery-storage-handovers-industry-experts-warn/",
+   "src": "energy-storage.news",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "The transition of battery energy storage systems (BESS) from development to operations remains fraught with technical gaps and communication breakdowns. These issues can delay revenue generation for months after commercial operation dates (COD), according to senior executives from AES Corporation and RWE. This was explained during a panel at the 2026 US Battery Asset Management Summit in Garden Grove, California, in a discussion between Rohit Patil, senior director of design engineering at developer New Leaf Energy ; Christian Lopez, senior director engineering: performance, commissioning & SCADA at power company AES Corporation ; and Grayson Zwingelberg, senior manager, asset management, re",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS",
+     "리스크",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-09-18-1"
+  },
+  {
+   "cid": 2,
+   "title": "SK온, 엘앤에프와 3년간 LFP 양극재 공급 계약…1천600억원 규모",
+   "url": "https://www.yna.co.kr/view/AKR20260917154700003",
+   "src": "yna.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 임성호 기자 = SK온이 글로벌 에너지저장장치(ESS) 수요 증가에 맞춰 리튬인산철(LFP) 배터리의 핵심 소재인 양극재 국내 공급망을 구축하며 ESS 시장 대응력을 강화한다. SK온은 17일 서울 종로구 SK온 관훈캠퍼스에서 엘앤에프와 LFP 양극재 공급 계약을 체결했다고 밝혔다. 이번 계약으로 SK온은 올해부터 오는 2028년까지 3년간 엘앤에프로부터 ESS용 LFP 배터리 생산에 필요한 고밀도 3세대 LFP 양극재 약 1천600억원어치를 공급받는다. 양사는 중장기 파트너십을 토대로 2028년 이후 추가로 최대 3년간 공급 계약을 연장하는 방안을 협의할 가능성을 열어뒀다. 향후 시장 환경과 공급성과 고객 수요 등을 고려할 예정이다. SK온은 이번 계약을 통해 확보한 LFP 양극재를 충남 서산공장과 미국 조지아주 공장 등 ESS용 LFP 배터리 셀 생산라인에 투입할 계획이다. 안정적인 비중국산 LFP 양극재 공급망을 바탕으로 국내와 미국 ESS 시장에서 경쟁 우위를 더욱 공고히 할 것으로 SK온은 기대했다. SK온은 올해 2월 국내 제2차 ESS 중앙계약시장 입찰에서 전체 용량 565㎿ 가운데 절반 이상인 284㎿(약 50.3%)를 따낸 바 있다. 지난달에는 미국 ESS 기업 네오볼타 파워와 1조5천억원 안팎의 LFP 배터리 셀 공급 계약을 체결하며 ESS 사업 영역을 넓혔다. SK온은 수주 확대에 맞춰 생산 라인",
+   "pre": {
+    "cat": "project",
+    "group": "all",
+    "entity": "SK온",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주",
+     "RFQ"
+    ],
+    "grade": "A"
+   },
+   "status": "sameday"
+  },
+  {
+   "cid": 3,
+   "title": "3기 소부장 특화단지 거제·대전·군산·천안…민관 7.8조 투자",
+   "url": "https://www.yna.co.kr/view/AKR20260917172300003",
+   "src": "yna.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 신창용 기자 = 정부가 경남 거제(조선해양플랜트), 대전(방산 전자·광학부품), 전북 군산·익산(반도체 화학소재), 충남 천안·아산(반도체 후공정) 등 4곳을 제3기 소재·부품·장비(소부장) 특화단지로 지정했다. 정부는 향후 5년간 1천600억원을 지원하고 민간도 총 7조7천원을 투자할 예정이다. 산업통상부는 17일 한국수출입은행에서 김정관 장관 주재로 제18차 소부장 경쟁력강화위원회를 열고 이같이 의결했다고 밝혔다. 이번 3기 단지는 3월 23일부터 한달간 진행된 공모에 11개 시·도가 제출한 16개 육성계획을 대상으로 집적 효과, 기반 인프라 확보 가능성, 지역 연계성 등을 종합 평가해 선정됐다. 신규 지정된 4개 특화단지는 각 지역의 핵심 성장동력과 연계해 공급망 완결성을 주도하게 된다. 먼저 조선해양플랜트 특화단지로 지정된 경남 거제는 한화오션을 앵커기업으로 삼아 액화천연가스 해양플랜트(FLNG)의 액화공정 핵심 기자재 국산화에 나선다. 2030년까지 예정된 민간투자 규모는 1조5천억원이다. 대전에는 방산 전자·광학부품 공급망이 들어선다. LIG D&A와 한화에어로스페이스 등이 참여해 KF-21, K9 등에 탑재되는 정밀 전자·광학부품을 개발한다. 민간투자 규모는 1조원이다. 군산·익산과 천안·아산은 각각 반도체 화학소재와 후공정 공급망 강화에 초점을 맞춘다. 군산·익산은 동우화인켐, 한솔케미칼, OCI, P",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-09-18-2"
+  },
+  {
+   "cid": 4,
+   "title": "“반도체 너무 올랐나”…삼전닉스 9조 판 외국인, 돈 옮겨간 곳 보니",
+   "url": "https://www.mk.co.kr/news/stock/12155444",
+   "src": "mk.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 올해 국내 증시 상승을 이끌었던 외국인 투자자들이 최근 삼성전자와 SK하이닉스 등 반도체 대형주에서 대규모 매도에 나서고 있다. 외국인의 반도체 대형주 매도세가 국내 증시 전반의 수급 악화로 번질 수 있다는 우려가 나오는 가운데, 반도체에서 빠져나온 자금이 어디로 향하고 있는지에도 투자자들의 관심이 쏠린다. 17일 한국거래소에 따르면 이달 들어 외국인 투자자는 삼성전자 주식을 3조5805억원어치 순매도했다. 지난달 삼성전자 순매도액이 8198억원이었던 것과 비교하면 매도 규모가 4배 이상으로 불어났다. SK하이닉스에서도 대규모 매도세가 이어졌다. 외국인은 지난달 SK하이닉스를 6조3992억원어치 순매도한 데 이어 이달에도 5조4949억원어치를 팔아치웠다. 삼성전자와 SK하이닉스 두 종목에서만 이달 외국인 순매도액이 9조754억원에 달한다. 같은 기간 외국인의 전체 순매도액 약 11조7039억원 가운데 77.5%가 두 종목에 집중된 셈이다. 삼성전자우까지 포함하면 쏠림 현상은 더욱 두드러진다. 외국인은 이달 삼성전자우도 3399억원어치 순매도했다. 삼성전자와 삼성전자우, SK하이닉스 등 세 종목의 순매도액을 합치면 9조4153억원으로 전체 외국인 순매도액의 약 80%에 달한다. 이 같은 반도체 대형주를 둘러싼 외국인 자금 흐름의 변화는 국내 현물시장뿐 아니라 역외 시장에서",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-09-18-3"
+  },
+  {
+   "cid": 5,
+   "title": "SK온, 엘앤에프와 LFP 양극재 공급계약…3년간 1600억원 규모",
+   "url": "https://www.etoday.co.kr/news/view/2626987",
+   "src": "이투데이",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "2028년까지 3년간 공급…최대 3년 연장 협의 서산·美 조지아 ESS용 LFP 생산라인에 투입 SK온이 엘앤에프로부터 1600억원 규모의 리튬인산철(LFP) 양극재를 공급받는다. 국내 LFP 양극재 공급망을 확보해 에너지저장장치(ESS) 시장 대응력을 높인다는 계획이다. SK온은 17일 서울 종로구 SK온 관훈캠퍼스에서 엘앤에프와 LFP 양극재 공급 계약을 체결했다고 밝혔다. 계약에 따라 SK온은 2026년부터 2028년까지 3년간 엘앤에프로부터 ESS용 LFP 배터리 생산에 필요한 양극재 약 1600억원어치를 공급받는다. 양사는 시장 환경과 공급 성과, 고객 수요 등을 고려해 2028년 이후 최대 3년간 계약을 추가 연장하는 방안도 협의할 수 있다. SK온은 확보한 LFP 양극재를 충남 서산공장과 미국 조지아주 공장 등의 ESS용 LFP 배터리 셀 생산라인에 투입할 예정이다. 중국산 소재 의존도를 낮추면서 국내와 미국 ESS 시장 공략에 활용한다는 구상이다. SK온은 ESS 수주 확대에 맞춰 생산라인도 재편하고 있다. 서산공장은 전체 생산능력 7GWh 가운데 3GWh를 ESS용 LFP 배터리 생산라인으로 전환해 내년 상반기부터 납품을 시작할 예정이다. 미국 조지아주 공장도 일부 라인을 ESS용 LFP 배터리 전용으로 전환한다. 앞서 SK온은 올해 2월 국내 제2차 ESS 중앙계약시장 입찰에서 전체 565MW 가운데 284MW를 수",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주"
+    ],
+    "grade": "A"
+   },
+   "status": "sameday"
+  },
+  {
+   "cid": 6,
+   "title": "LFP 양극재 선두 엘앤에프, 삼성SDI 이어 SK온도 수주…1617억 규모",
+   "url": "https://zdnet.co.kr/view/?no=20260917183510",
+   "src": "지디넷코리아",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "국내 양극재 기업 중 리튬인산철(LFP) 제품을 가장 먼저 생산 중인 엘앤에프가 삼성SDI에 이어 SK온으로부터도 수주를 따냈다. 엘앤에프는 SK온 및 계약상대방의 지정업체와 LFP 양극재 중장기 공급 계약을 체결했다고 17일 공시했다. 이번 계약 기간은 이날부터 2028년 12월31일까지로, 엘앤에프는 LFP 양극재를 SK온의 국내외 모든 생산법인 및 지정업체에 공급한다. SK온은 이번 계약을 통해 확보한 LFP 양극재를 국내 서산공장과 미국 조지아주 공장 등 ESS용 LFP 배터리 셀 생산라인에 투입할 계획이다. 계약 금액은 1억1820만 달러(약 1617억원) 규모다. 이는 고객 최소 의무 수량과 최근 판가를 적용해 산정된 금액으로, 향후 실제 공급 수량과 판가 등에 따라 변동될 수 있다. 이번 계약에는 2031년 12월31일까지 추가 3개년 공급을 연장할 수 있는 옵션이 포함됐다. 양사는 지난해 7월 북미 지역 LFP 배터리용 양극재 공급을 위한 업무협약(MOU)을 체결한 바 있다. 김성탄 SK온 원소재구매 실장은 “글로벌 ESS 배터리 시장에서 공급망의 탈중국화가 본격화되는 가운데, 중장기 공급 계약을 통해 우수한 품질의 국산 LFP 양극재를 선제적으로 확보했다”며 “이번 계약으로 SK온의 LFP 배터리 소재 경쟁력이 한층 강화될 것”이라고 말했다. 이병희 엘앤에프 최고운영책임자(COO)는 “이번 계약은 엘앤에프의 LFP 제",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [
+     "SK온"
+    ],
+    "tags": [
+     "ESS",
+     "수주"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-09-18-4"
+  },
+  {
+   "cid": 7,
+   "title": "반도체 후공정에 뭉칫돈…TSMC·인텔 첨단패키징 투자↑",
+   "url": "https://www.junggi.co.kr/news/articleView.html?idxno=37803",
+   "src": "bing.com",
+   "date": "2026-09-18",
+   "rel": 2,
+   "lead": "글로벌 반도체 기업들이 첨단패키징과 테스트 등 후공정 설비 투자를 일제히 늘리고 있다. 인공지능(AI) 가속기와 고대역폭메모리(HBM) 출하량이 예상보다 빠르게 늘면서, 완성된 칩을 하나의 시스템으로 연결하는 후공정 능력이 반도체 성능과 공급을 좌우하는 변수로 떠올랐기 때문이다. 대만 TSMC와 미국 인텔과 마이크론, 대만 ASE 그리고 한국의 삼성전자와 SK하이닉스 등 메모리·비메모리 업체들은 올 들어 후공정 관련 투자 계획을 잇달아 상향 조정했다는 분석이다. 한화투자증권 박준영 연구원은 16일 발간한 산업분석 보고서 '후공정 산업에 불어오는 훈풍'에서 2026~2028년을 메모리와 비메모리 업체의 증설이 동시에 진행되는 구간으로 규정했다. 그러면서 개별 기업들의 투자 계획 변화를 근거로, 그동안 전공정에 집중됐던 투자 방향이 첨단패키징과 테스트를 포함한 후공정으로도 번질 수 있다고 진단했다. ◇TSMC·인텔·ASE, 후공정 투자 상향= TSMC의 첨단패키징 기술인 CoWoS는 공급 부족이 다시 심화하고 있다. 박 연구원에 따르면, 그래픽처리장치(GPU)뿐만 아니라 자체 애플리케이션 특화 반도체(ASIC)를 개발하는 빅테크가 늘면서 첨단패키징 수요가 공급 능력을 웃돌고 있다. TSMC는 연초 2026년 설비투자(CAPEX) 규모를 520억~560억달러로 제시했으나, 2분기 실적 발표에서 이를 600억~640억달러로 상향했다. 반년 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-5"
+  },
+  {
+   "cid": 8,
+   "title": "EZO secures €150 million to expand UK and Ireland charging networks",
+   "url": "https://www.electrive.com/2026/09/17/ezo-secures-e150-million-to-expand-uk-and-ireland-charging-networks/",
+   "src": "electrive.com",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "Irish charging provider EZO has secured €150 million in senior debt financing to expand its EV charging network across the UK and Ireland. This will fund the design, installation, operation and maintenance of more than 3000 charge points - with a combined capacity of over 100 MW. According to the company, the infrastructure will primarily be deployed through long-term concessions with public-sector partners. EZO estimates that the new charging network could generate more than €1 billion in electricity sales over the next 20 years, with part of the revenue shared with the public sector. The financing is being provided by a consortium that includes Aberdeen Investments and Standard Life. EZO d",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-6"
+  },
+  {
+   "cid": 9,
+   "title": "내년 ‘꿈의 배터리’ 달린다… 상용화 경쟁 속도전",
+   "url": "https://www.seoul.co.kr/news/economy/car/2026/09/18/20260918029002",
+   "src": "bing.com",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "BYD가 내년 전고체 배터리 첫 탑재 차량 공개를 예고하면서 글로벌 상용화 경쟁이 달아올랐다. 삼성SDI는 내년 하반기 양산을 목표로 하고, CATL·지리·토요타·벤츠·BMW도 시험 생산과 실차 검증에 나섰다. 주도권은 2027년께 가려질 전망이다.",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [
+     "CATL",
+     "BYD"
+    ],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-7"
+  },
+  {
+   "cid": 10,
+   "title": "Hybrid vehicles: EU urges China to self-limit imports",
+   "url": "https://www.electrive.com/2026/09/17/hybrid-vehicles-eu-urges-china-to-self-limit-imports/",
+   "src": "electrive.com",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "The European Union has reportedly called on China to voluntarily restrict its exports of hybrid cars to Europe. Otherwise, special tariffs - already under discussion within the EU - could be imposed. Currently, these tariffs only apply to pure electric vehicles from China. The FT reports that the EU is currently still relying on China to voluntarily comply and independently limit the import of hybrid vehicles – but that this could be set to change, citing three individuals familiar with the situation. “If they will not limit their exports to our market then we will,” an EU official is quoted as saying. “This is about stopping deindustrialisation. We have to act. It’s about managed trade.” Sp",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "정책"
+    ],
+    "grade": "B",
+    "market_group": null
+   },
+   "status": "published:2026-09-18-8"
+  },
+  {
+   "cid": 11,
+   "title": "\"반도체 넘어 AI 투자 … 사모투자가 최적\"",
+   "url": "https://www.mk.co.kr/news/stock/12155676",
+   "src": "mk.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 삼성전자의 메모리반도체 가 AI 투자 확대 국면의 병목 분야로 부각됐습니다. AI 컴퓨팅 수요가 늘면서 메모리 공급 능력과 제품 경쟁력이 데이터센터 투자 흐름의 핵심 변수로 작용합니다. 12~24개월의 병목 해소 과정과 이후 메모리가격 안정 가능성을 두고 업계의 시선이 엇갈립니다. AI 인프라 투자 확대 과정에서 SK하이닉스의 메모리반도체 공급 구조가 병목 논의의 핵심으로 다뤄졌습니다. 메모리 부문의 수급과 가격 환경은 향후 시장의 기술 확산 흐름에 직간접적인 영향을 받습니다. 메모리병목 지속 여부와 가격 안정 가능성에 따라 업계 전반의 수급 구도가 달라질 전망입니다. 최근 사모시장에서는 밸류에이션 할인폭이 15년 사이 가장 큰 수준으로 벌어졌으며, 아모로소 전략가는 AI 투자 다변화의 필요성을 강조했다. 그는 초기 AI 수혜가 엔비디아와 같은 컴퓨팅 기업에 집중되었으나, 메모리 반도체가 중요한 병목으로 떠오르고 있으며, 이는 향후 12~24개월 내에 해소될 가능성이 높다고 전망했다. AI의 진정한 잠재력은 업무 흐름을 완수하는 단계에서 발휘되며, 이는 미국 경제에 15조~20조 달러의 GDP 성장을 가져올 수 있다고 덧붙였다. 개인 투자자들과 연금 가입자들은 최근 공모시장의 쏠림 현상과 밸류에이션 고평가 우려 속에서 새로운 투자 대안을 고민하게 되어요. 📈 사모시장과 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 12,
+   "title": "美 ESS 길 텄지만 수익성은 아직…LG엔솔 하반기 이익에 관심 커진다",
+   "url": "http://www.popcornnews.net/news/articleView.html?idxno=133342",
+   "src": "bing.com",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "특히 중국산 배터리에 대한 견제와 현지 생산 지원으로 우호적인 사업 환경이 조성됐지만 ESS 물량 확대가 실제 수익성 개선으로 이어질지는 아직 확인이 필요하다는 분석이다. 여기에 LG에너지솔루션이 미국 ESS 시장에 먼저 뛰어들면서 하반기 물량 증가를 얼마나 이익으로 연결할지가 향후 삼성SDI·SK온의 ESS 사업 수익성을 내다볼 핵심으로 떠오르고 있다. 17일 나이스신용평가에 따르면 올해 상반기 미국 전기차용 배터리 시장은 역성장한 반면 ESS용 배터리 시장은 지난해 같은 기간보다 약 80% 성장했다. 이는 인공지능(AI) 데이터센터 투자 확대 등으로 전력 수요가 급증하면서 ESS가 전기차 수요 둔화의 빈자리를 메울 새로운 성장축으로 떠오른 것이다. 국내 업체 중 미국 ESS 사업에서 가장 앞서 움직인 곳은 LG에너지솔루션이다. 나이스신용평가는 LG에너지솔루션의 올해 상반기 ESS 판매량은 약 10GWh로 추정된다. 지난해 말 기준 북미 ESS 생산능력이 약 20GWh였던 점을 고려하면 ESS 생산이 빠르게 늘어난 것으로 분석된다. 전체 생산설비 가동률도 전년 대비 반등했다. LG에너지솔루션의 올해 상반기 평균 가동률은 52.8%로 지난해 47.6%보다 5.2%포인트 상승했다. 이는 전기차 수요 둔화로 낮아진 생산설비 활용도를 끌어올릴 새로운 수요처가 등장했다는 의미다. 다만 문제는 물량 다음이다. ESS 판매가 늘어도 이를 실제 ",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "삼성SDI",
+     "SK온"
+    ],
+    "tags": [
+     "ESS",
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-9"
+  },
+  {
+   "cid": 13,
+   "title": "‘가상송전선’으로 혼잡 완화…기후부·한전, 전력산업 성과발표회 개최",
+   "url": "https://www.mk.co.kr/news/economy/12155537",
+   "src": "mk.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 한국전력공사(한전)가 기후에너지환경부와 ‘전력산업 산·학·연 전문포럼 성과발표회’를 열고 지난 4월부터 운영한 8개 전문포럼의 성과를 공유했다고 17일 밝혔다. 지난 4월 양 기관이 공동 출범한 이번 포럼에는 산·학·연·관 전문가 116명이 참여했다. 산업계는 현장 어젠다를 발굴하고, 학계는 기술·제도적 타당성과 실증 방안을 검증했다. 정부와 공공기관은 이를 토대로 제도 개선과 정책 반영을 모색했다. 그 결과 실제 발굴된 과제가 정책에 반영되는 성과를 거둘 수 있었다. 대표적인 게 송전망 건설 지연에 대응하는 ‘가상송전선로(VPL)’ 솔루션이다. VPL은 송전선로를 새로 짓는 대신 에너지저장장치(ESS)로 가상의 선로를 구성해 기존 설비만으로 송전 혼잡을 완화하는 방식이다. 이 사업은 2027년도 기후부 예산 정부안에 24억원이 반영돼 내년부터 착수된다. 12차 전력수급기본계획 등 국가 설비계획에도 반영할 예정이다. 2030년까지 대규모 정부 지원사업으로 확대한다. 또 재생에너지를 안정적으로 수용하기 위해 송전망 중앙계약 BESS의 그리드포밍 계통연계 기술 기준을 정립했다. 내년부터 실계통에서 운전하기 위한 시험 및 검증 체계도 11월까지 마련한다. 배전망 분야에서는 민간 ESS 활성화를 위해 기술기준 개정과 현장 실증을 추진한다. 사업 수익성을 개선하기 위한 전력시장 ",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-10"
+  },
+  {
+   "cid": 14,
+   "title": "에너지저장장치 활용 '가상 송전선' 만들어 전력망 혼잡 완화",
+   "url": "https://www.yna.co.kr/view/AKR20260917163700530",
+   "src": "yna.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 이재영 기자 = 송전선로를 새로 짓는 대신 에너지저장장치(ESS)를 활용, '가상의 선로'를 만들어 송전망 혼잡을 완화하기로 하는 등 '전력산업 산·학·연·관 전문 포럼'이 성과를 내고 있다. 기후에너지환경부와 한국전력은 17일 서울 서초구 한전아트센터에서 전력산업 산·학·연·관 전문 포럼 성과 발표회를 열었다. 포럼은 전문가 116명으로 구성돼 지난 4월 17일 출범했다. 포럼에서 논의된 ESS를 활용해 '가상송전선로'(VPL)를 구성하는 방안은 기후부 내년 예산안에 반영돼 실제 사업으로 추진된다. 현재 수립 중인 제12차 전력수급기본계획(전기본) 등 국가 전력 설비 계획에도 VPL을 반영하고 2030년까지 '대규모 정부 지원 사업'으로 확대한다는 것이 당국의 복안이다. 장주기 에너지저장장치(BESS)의 그리드포밍 계통 연계 기술 기준(그리드코드) 정립, 신축 아파트 지능형 원격 검침 설비(AMI) 한전 연계 의무화도 포럼의 성과로 평가됐다. 농·임업 부산물을 활용한 청정 바이오 에너지 사업 모델이 분산 에너지 특화 지역 모델로 반영된 점도 의미 있는 진전으로 꼽혔다. 김동철 한전 사장은 \"포럼이 짧은 기간에도 법·제도 개선과 기술 실증, 사업화 등 성과를 만들었다\"면서 \"앞으로도 기후부와 전력산업 현안을 함께 푸는 구심점으로 역할을 할 수 있도록 지원하겠다\"고 말했다.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "unclassified"
+  },
+  {
+   "cid": 15,
+   "title": "[2026 전자신문 독자위원회 3차 회의]“발표 전달 넘어 검증으로…AI 떠받치는 SW·인력 짚어야”",
+   "url": "https://www.etnews.com/20260917000245",
+   "src": "etnews.com",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "전자신문 독자위원회가 인공지능(AI) 기술과 정책을 전달하는 데 그치지 말고 실제 효과와 한계를 검증하는 보도를 확대해달라고 주문했다. AI 투자가 반도체·데이터센터 등 하드웨어에 쏠린 사이, 이를 떠받치는 소프트웨어(SW)와 개발 인력의 기초체력이 약해지고 있다는 점도 함께 짚어달라고 당부했다. 발표된 사실 다음의 질문을 던지는 보도가 전문지의 차별성이라는 목소리다. 예산이 늘었다면 줄어든 것은 무엇인지, 대형 사업이 추진된다면 사업비 산정과 조달 방식이 생태계에 어떤 영향을 주는지 확인해야 한다는 것이다. 3분기 보도 가운데 토큰 이코노미 기획과 긴급 공공 보안진단 시리즈, K게임 대도약 연재는 새로운 개념과 산업 구조를 입체적으로 짚었다는 호평을 받았다. 반면 기업이 제시한 사업계획이나 검증되지 않은 수치를 그대로 전달한 기사, 취재 범위보다 넓게 단정한 제목에 대해서는 보완이 필요하다는 지적도 제기됐다. AI의 기초인 SW와 인력 문제를 의제로 세워야 한다는 의견이 여러차례 거론됐다. 기업들이 단기 생산성 향상을 좇으며 개발자 채용을 줄이고 있지만 결국 AI를 운영하는 것은 사람이라는 점에서, 개발자 성장 사다리를 다루는 보도가 필요하다는 제언이다. 정책 보도의 사각지대도 언급됐다. 하반기 국회에서 논의될 근로자 추정제는 SW 프리랜서 개발자와 직결되는 사안인데도 관련 보도가 거의 없다는 지적이다. 의료·헬스케어 기사 분류를 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "채용"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 16,
+   "title": "'1회 주유·충전으로 1400㎞'…BYD 씨라이언 6 DM-i, 실주행거리 '챌린지' 열풍",
+   "url": "https://www.etnews.com/20260917000079",
+   "src": "etnews.com",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "BYD가 출시한 플러그인 하이브리드(PHEV) SUV '씨라이언 6 DM-i'가 차주들의 자발적 '장거리 주행 챌린지' 열풍에 휩싸였다. 3700만원대 합리적 가격으로 시작된 관심이 출고 이후 공인 수치를 웃도는 '실주행거리'로 확대되고 있다. 지난달 말 고객 인도가 시작된 씨라이언 6 DM-i의 주행거리 인증 사례가 잇따르고 있다. 1회 주유와 충전으로 서울~부산을 왕복하거나 1000~1200㎞대를 주행했다는 실차 검증 후기가 이어지면서, 일부 시승 후기에서 확인된 최대 1400㎞ 주행 기록에도 관심이 모이고 있다. 차주들이 자발적으로 연비 데이터를 공유하며 '어디까지 갈 수 있나'를 시험하는 것은 국내 PHEV 시장에서 이례적 현상이다. 씨라이언 6 DM-i는 환경부 인증 기준 1회 충전 시 70㎞를 순수 전기로 달리는 18.3㎾h LFP 블레이드 배터리와 약 60ℓ 연료탱크를 갖췄다. 순수 EV 모드로 70㎞를 주행한 뒤 남은 1330㎞를 가솔린 엔진과 회생제동으로 주행할 경우, ℓ당 약 22.2㎞ 수준의 실연비가 나와야 가능한 수치다. 비결은 BYD의 독자 기술 'DM-i' 파워트레인에 있다. DM-i는 전기모터가 주행의 중심이 되는 '전기 중심' 구조다. 도심과 저속 구간에서는 모터만으로 조용하고 민첩하게 주행하고, 배터리 잔량이 낮아지거나 큰 힘이 필요할 때만 고효율 엔진이 개입해 배터리를 충전하거나 구동력을 보탠다. 또,",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "BYD",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-11"
+  },
+  {
+   "cid": 17,
+   "title": "삼성·현대차그룹, 스마트빌딩에 물류 자동화 ‘동맹’",
+   "url": "https://www.msn.com/ko-kr/news/other/%EC%82%BC%EC%84%B1-%ED%98%84%EB%8C%80%EC%B0%A8%EA%B7%B8%EB%A3%B9-%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%B9%8C%EB%94%A9%EC%97%90-%EB%AC%BC%EB%A5%98-%EC%9E%90%EB%8F%99%ED%99%94-%EB%8F%99%EB%A7%B9/ar-AA2cp1mL",
+   "src": "bing.com",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "현대글로비스·삼성물산 MOU로봇 배송 서비스 결합 모델 개발배송 전 과정에 AI·로보틱스 적용 현대글로비스(086280)가 삼성물산(028260)과 우편물 로봇 배송을 뼈대로 한 스마트빌딩 물류자동화 공동사업 모델 개발에 나선다. 현대글로비스는 16일 서울 성수 본사에서 삼성물산 건설부문과 스마트빌딩 물류자동화 및 로봇 배송 서비스 공동 개발 업무협약(MO ...",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-12"
+  },
+  {
+   "cid": 18,
+   "title": "산업부, 국내외 120개사 참여 소부장 국제투자 콘퍼런스",
+   "url": "https://www.yna.co.kr/view/AKR20260917147700003",
+   "src": "yna.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 신창용 기자 = 산업통상부는 17일 서울 롯데호텔 월드에서 첨단산업 분야의 국내외 소재·부품·장비(소부장) 기업 120여개사가 참여한 가운데 '2026 소부장 국제투자 콘퍼런스'를 개최했다고 밝혔다. 이번 행사는 글로벌 공급망 재편과 첨단기술 경쟁 속에서 국내외 소부장 기업을 연결하고 새로운 투자 기회를 발굴하기 위해 마련됐다. 미국, 일본, 독일, 네덜란드 등 해외 기업들과 국내 소부장 기업들이 참여해 기술 협력 및 투자 방안을 모색했다. 콘퍼런스에서는 한국의 투자 환경과 외국인 투자유치 정책 설명과 함께 도레이, 앰코, 쿠리타한수 등 외국인 투자기업의 성공 사례가 공유됐다. 아울러 반도체, 피지컬 인공지능(AI), AI 데이터센터 등 3대 메가 프로젝트와 지방성장 정책인 '5극 3특 성장엔진'을 중심으로 확대될 소부장 수요와 투자 기회도 소개됐다. 전남광주통합특별시의 사례 발표를 비롯해 경기도, 대구시, 전북도 등 지방자치단체들이 지역의 산업기반과 투자 여건을 직접 소개하며 해외 소부장 기업 유치 활동을 펼쳤다. 강감찬 산업부 무역투자실장은 \"한국의 산업 생태계와 소부장 기업의 기술력은 해외 기업과의 협력과 투자를 끌어낼 수 있는 중요한 강점\"이라며 \"해외 기업들이 한국에서 발굴한 협력 기회를 실제 투자로 이어갈 수 있도록 외국인투자 인센티브를 지속 강화하고 규제와 현장 애로도 적극 해소하겠다\"고 강조했다.",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B",
+    "market_group": "semi"
+   },
+   "status": "published:2026-09-18-13"
+  },
+  {
+   "cid": 19,
+   "title": "현대글로비스, 삼성물산과 스마트빌딩 물류자동화 협력",
+   "url": "https://www.hankyung.com/article/202609170284P",
+   "src": "bing.com",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 뉴스제공=현대글로비스, 기업이 작성하여 배포한 보도자료. 세븐틴X나영석 '나나투어', 드디어 온다…1월 5일 첫 방송 그룹 세븐틴의 '출장 십오야' 상품 뽑기로 시작된 '나나투어'가 방송일을 확정 지었다.세븐틴은 18일 팬덤 플랫폼 '위버스'를 통해 tvN '나나투어 with 세븐틴...",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-14"
+  },
+  {
+   "cid": 20,
+   "title": "CATL unveils truck battery with up to 1,000 km range",
+   "url": "https://www.electrive.com/2026/09/16/catl-unveils-truck-battery-with-up-to-1000-km-range/",
+   "src": "electrive.com",
+   "date": "2026-09-16",
+   "rel": 3,
+   "lead": "CATL has unveiled its Tectrans II battery solution for heavy-duty electric commercial vehicles at IAA Transportation. At its maximum capacity, it's said to offer a range of up to 1,000 km and, according to CATL, can be charged to 80 per cent in 25 minutes using megawatt-level fast charging. This week, CATL has pushed for the spotlight at IAA Transportation in Hannover by unveiling a new battery solution for commercial vehicles. In addition to heavy-duty trucks, Tectrans II is also suitable for medium-duty trucks and buses. The battery will therefore be available in various housing formats, as well as for installation in the underbody or on the roof. However, CATL’s new solution primarily tar",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "CATL",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-15"
+  },
+  {
+   "cid": 21,
+   "title": "SK온-엘앤에프, LFP 공급망 동맹...ESS 시장 공동대응",
+   "url": "https://www.ajunews.com/view/20260917194927447",
+   "src": "아주경제",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "엘앤에프의 LFP 양극재 1600억원어치 공급...추가 계약 가능성도 SK온 서산·조지아주 공장 등에 투입...국내외 ESS 경쟁 우위 SK온과 엘앤에프가 리튬인산철(LFP) 배터리의 핵심소재인 LFP 양극재 국내 공급망을 구축을 위해 협력하며 에너지저장장치(ESS) 시장 대응력을 강화에 나섰다. 17일 SK온은 서울 종로구 SK온 관훈캠퍼스에서 엘앤에프와 LFP 양극재 공급 계약을 체결했다. 이번 계약으로 SK온은 2026년부터 2028년까지 3년간 엘앤에프로부터 1600억원 상당의 ESS용 LFP 배터리 생산에 필요한 양극재를 공급받는다. 양사는 중장기 파트너십을 토대로 향후 시장 환경과 공급 성과, 고객 수요 등을 고려해 2028년 이후 추가로 최대 3년간 공급 계약을 연장하는 방안도 협의할 방치미다. 관련기사 SK이노베이션, SK온의 美 ESS 공급계약 소식에 6%대 강세 SK온, 美서 1.5조 규모 9GWh 대형 배터리 셀 공급계약 체결 SK온은 이번 계약을 통해 확보한 LFP 양극재를 국내 서산공장과 미국 조지아주 공장 등 ESS용 LFP 배터리 셀 생산라인에 투입할 계획이다. SK온은 안정적인 비중국산 LFP 양극재 공급망을 바탕으로 국내와 미국 ESS 시장에서 경쟁 우위를 더욱 공고히 할 것으로 기대된다. 실제로 SK온은 지난 2월 국내 제2차 ESS 중앙계약시장 입찰에서 전체 565MW 가운데 절반 이상인 284MW(",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-09-18-16"
+  },
+  {
+   "cid": 22,
+   "title": "SK온, 엘앤에프서 LFP 양극재 1600억 조달…ESS 공급망 강화",
+   "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=05546486645581104",
+   "src": "마켓인",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "SK온, 엘앤에프서 LFP 양극재 1600억 조달…ESS 공급망 강화 마켓인",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 23,
+   "title": "SK온, 엘앤에프서 1600억 규모 ESS용 LFP 양극재 조달",
+   "url": "https://it.chosun.com/news/articleView.html?idxno=2023092170413",
+   "src": "IT조선",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "SK온이 배터리 소재사 엘앤에프와 대규모 리튬인산철(LFP) 양극재 공급 계약을 체결하며 에너지저장장치(ESS) 시장 대응력 강화에 나선다. SK온은 17일 서울 종로구 SK온 관훈캠퍼스에서 엘앤에프와 공급 계약 체결식을 열고 소재 분야 협업을 확정했다고 밝혔다. 이번 계약으로 SK온은 2026년부터 2028년까지 3년간 엘앤에프로부터 약 1600억원 규모의 ESS용 LFP 양극재를 조달한다. 양사는 향후 시장 환경과 고객 수요를 반영해 2028년 이후 최대 3년간 공급 계약을 추가 연장하는 방안도 논의하기로 했다. 확보한 양극재는 SK온 국내 서산공장과 미국 조지아주 공장의 ESS용 LFP 배터리 셀 생산라인에 각각 투입된다. SK온은 비중국산 LFP 양극재 공급망을 선제적으로 구축해 국내와 북미 시장에서 사업 경쟁력을 끌어올릴 계획이다. SK온은 최근 국내외 ESS 시장에서 수주 성과를 이어가고 있다. 2월 국내 제2차 ESS 중앙계약시장 입찰에서 전체 565㎿ 중 절반 이상인 284㎿(약 50.3%)를 확보했다. 8월에는 미국 ESS 기업 네오볼타 파워와 LFP 배터리 셀 공급 계약을 맺었다. 수주 물량 확대에 맞춰 생산 라인 재편에도 속도를 낸다. 충남 서산공장은 전체 7GWh 중 3GWh를 ESS용 라인으로 전환해 2027년 상반기부터 본격 납품을 시작한다. 미국 조지아주 공장도 일부 라인을 ESS용 LFP 배터리 전용으로 ",
+   "pre": {
+    "cat": "project",
+    "group": "all",
+    "entity": "SK온",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주",
+     "RFQ"
+    ],
+    "grade": "A"
+   },
+   "status": "sameday"
+  },
+  {
+   "cid": 24,
+   "title": "시진핑, BYD·샤오미 이끌고 방미…美 투자·구매 협상 본격화",
+   "url": "https://v.daum.net/v/GmLlW6b05D",
+   "src": "v.daum.net",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "다음 주 시진핑 중국 국가주석의 미국 방문에 BYD와 샤오미 등 중국 대표기업 경영진이 대거 동행할 가능성이 커지고 있습니다. 홍콩 사우스차이나모닝포스트와 블룸버그 등에 따르면 오는 24일 미중 정상회담을 앞두고 BYD 왕촨푸 회장과 샤오미, AI 데이터센터용 광트랜시버 업체 중지이노라이트, 중국은행 관계자 등이 수행 후보로 거론되고 있습니다. (예시) 가장 빠른 뉴스가 있고 다양한 정보, 쌍방향 소통이 숨쉬는 다음뉴스를 만나보세요. 다음뉴스는 국내외 주요이슈와 실시간 속보, 문화생활 및 다양한 분야의 뉴스를 입체적으로 전달하고 있습니다. 다음 주 시진핑 중국 국가주석의 미국 방문에 BYD와 샤오미 등 중국 대표기업 경영진이 대거 동행할 가능성이 커지고 있습니다. 홍콩 사우스차이나모닝포스트와 블룸버그 등에 따르면 오는 24일 미중 정상회담을 앞두고 BYD 왕촨푸 회장과 샤오미, AI 데이터센터용 광트랜시버 업체 중지이노라이트, 중국은행 관계자 등이 수행 후보로 거론되고 있습니다. BYD는 미국의 고율 관세로 시장 진입이 막힌 상황에서 트럼프 대통령이 최근 중국 자동차 업체의 미국 현지 생산을 허용할 수 있다고 밝혀, 왕 회장이 동행할 경우 투자 협상이 핵심 의제로 부상할 가능성이 있습니다. 샤오미와 중지이노라이트는 각각 전기차·스마트제조와 AI 데이터센터 핵심 부품을 대표하는 기업으로, 미중 간 AI·첨단기술 협상에서도 주목받는 기업",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "BYD",
+    "related": [],
+    "tags": [
+     "투자",
+     "정책"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-17"
+  },
+  {
+   "cid": 25,
+   "title": "[데스크pick]“전기차에서 AI 전력망 전환”...LG에너지솔루션, ESS·LMR 배터리로 날개 펼칠까",
+   "url": "https://www.newsspirit.kr/news/articleView.html?idxno=32201",
+   "src": "뉴스피릿",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "LG에너지솔루션의 성장 전략이 전기차 배터리 중심에서 에너지저장장치(ESS)와 차세대 배터리를 양축으로 빠르게 재편되고 있다. AI 데이터센터 확산에 따른 전력 수요 증가로 ESS 시장이 확대되고 있다. 서울대와 LMR 배터리 상용화 기술을 확보하고, 미국 현지 핵심광물 공급망까지 구축하면서 기술·생산·원재료 영역을 강화하며 경쟁력 강화에 나섰다. 회사는 올해 2분기 매출은 7조5602억원으로 전년 동기보다 24.8% 증가했고, 영업이익은 1133억원으로 흑자 전환했다. 상반기 매출은 14조1152억원으로 전년 동기 대비 10.5% 늘었다. 특히 ESS 매출은 상반기에 전년보다 4.6배 증가했다. 이에 따라 전사 매출에서 ESS가 차지하는 비중도 20% 후반까지 높아졌다. LG에너지솔루션은 \"상반기에 하이퍼스케일러가 최종 고객인 AI 데이터센터 프로젝트를 포함해 3조원 이상의 신규 ESS 수주를 확보\"했다고 밝혔다. 이에 따른 글로벌 계약도 증가하고 있다. 지난 5월에는 미국 미시간 최대 전력사업자 DTE에너지와 16억달러 규모의 ESS 공급계약을 체결했다. 총 6GWh 규모로 미시간주 AI 데이터센터와 전력망 등 8개 프로젝트에 약 2년간 공급하는 계약이다. 생산기반도 북미를 중심으로 확대하고 있는 모습이다. GM 합작 2기와 혼다 합작공장의 ESS 생산라인이 각각 5~6월 가동에 들어갔다. LG에너지솔루션은 올해 말까지 북미 지역",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 26,
+   "title": "Solid-State Battery Capacity Part 1: Solid–Liquid Batteries A Transition Route with Strong Supply and Demand",
+   "url": "https://news.metal.com/ko/newscontent/104120486-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%9A%A9%EB%9F%89-1%EB%B6%80-%EA%B3%A0%EC%B2%B4-%EC%95%A1%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%88%98%EA%B8%89%EC%9D%B4-%EA%B0%95%ED%95%9C-%EC%A0%84%ED%99%98-%EA%B2%BD%EB%A1%9C",
+   "src": "Shanghai Metals Market",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "핵심 요점: 고체-액체 배터리는 전고체 배터리 산업화의 선봉이다. 이미 대규모 양산 단계에 진입했으며, 2024년부터 2026년까지 여러 생산 라인이 가동될 예정이다. 2035년까지 생산능력은 약 2,000GWh에 달해 전고체 배터리의 약 1.8배에 이를 전망이며, 가동률은 50%~77%로 수급이 모두 활발하다. WeLion, 칭타오, 간펑, 타이란, 파라시스가 선두를 달리고 있다. 에너지 저장, 저고도 경제, 로봇, 상용차 분야가 가장 먼저 규모화될 것이다. 위험 요소로는 용어 혼란, 비용, 가격 경쟁, 과잉 생산능력 등이 있다. 주석: 전고체 배터리 생산능력 분석은 1부와 2부로 나뉜다. 1부는 고체-액체 배터리를 다루고, 2부는 전고체 배터리를 다룬다. 전고체 배터리로 가는 과도기적 경로로서 고체-액체 배터리도 장기간 존재할 것이므로, 현재는 전고체 배터리 체계 내에서 분석한다. 고체-액체 배터리에는 겔 상태 배터리, 고체-액체 하이브리드 배터리, 준고체 배터리, 반고체 배터리가 포함된다. 액체 전해질 질량 비율이 5%~20%인 배터리의 경우, 소량의 액체 전해질을 구속하기 위해 고체 전해질 골격이 추가된다. 전고체 배터리 생산능력 분석(1부): 선봉에 선 고체-액체 배터리 — 수급이 모두 활발한 과도기적 경로 전고체 배터리 생산능력 분석(2부): 집중적으로 배치되는 전고체 배터리 파일럿 생산 — 생산능력 계획과 수요의 불일치 ",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B",
+    "market_group": "battery"
+   },
+   "status": "published:2026-09-18-18"
+  },
+  {
+   "cid": 27,
+   "title": "디와이홀딩스 등, SFA 지분 43.45%로 소폭 확대",
+   "url": "https://www.datatooza.com/article/20260917160902935752ef39ea8b_80",
+   "src": "데이터투자",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "- 특별관계자 장내매매로 지분 소폭 확대, 담보 제공 주식 비율은 26.81%로 축소 디와이홀딩스 등, SFA 지분 43.45%로 소폭 확대",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_A",
+    "entity": "SFA",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-09-18-19"
+  },
+  {
+   "cid": 28,
+   "title": "Solid-State Battery Capacity Part 2 :Pilot Lines in Quick Succession; Capacity Planning Mismatches Demand",
+   "url": "https://news.metal.com/ko/newscontent/104120524-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%83%9D%EC%82%B0%EB%8A%A5%EB%A0%A5-2%EB%B6%80-%ED%8C%8C%EC%9D%BC%EB%9F%BF-%EB%9D%BC%EC%9D%B8-%EC%97%B0%EC%9D%B4%EC%96%B4-%EA%B0%80%EB%8F%99-%EC%83%9D%EC%82%B0%EB%8A%A5%EB%A0%A5-%EA%B3%84%ED%9A%8D%EA%B3%BC-%EC%88%98%EC%9A%94-%EA%B0%84-%EB%B6%88%EC%9D%BC%EC%B9%98",
+   "src": "Shanghai Metals Market",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "핵심 포인트: 전고체 배터리는 GWh급 파일럿 생산 집중 단계에 진입했으며, 2027~2030년이 소량 차량 탑재의 핵심 시기다. 계획 생산능력은 2035년까지 1,119GWh를 넘어설 전망이나, 2026~2030년 가동률은 1%~15%에 그쳐 수요 불일치가 심각하며, 양산 확대는 2032년 이후에야 점진적으로 시작될 것이다. 황화물계가 주류 노선으로 CATL, BYD, 궈쉬안 하이테크 등이 선도하고 있으며, 리스크는 과잉 생산능력, 기술 성숙도, 한일 특허, 비용에 있다. 주석: 전고체 배터리 생산능력 분석은 1부와 2부로 나뉜다. 1부는 고액 혼합 배터리를, 2부는 전고체 배터리를 다룬다. 고액 혼합 배터리는 전고체 배터리로 가는 과도기적 노선으로서 장기간 존재할 것이며, 현재는 전고체 배터리 체계 내에서 분석한다. 고액 혼합 배터리에는 겔 상태 배터리, 고액 하이브리드 배터리, 준고체 배터리, 반고체 배터리가 포함된다. 액체 전해질 질량 비율이 5%~20%인 배터리의 경우, 고체 전해질 골격을 추가하여 소량의 액체 전해질을 구속한다. 전고체 배터리 생산능력 분석(1부): 선봉에 선 고액 혼합 배터리 — 수요와 공급이 모두 활황인 과도기적 노선 전고체 배터리 생산능력 분석(2부): 전고체 배터리 파일럿 생산 집중 배치 — 생산능력 계획과 수요 불일치 T 본 글은 2부로, 전고체 배터리 즉 전고체 전지의 생산능력 현황을 다룬다. 데",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "CATL",
+    "related": [
+     "BYD",
+     "Gotion"
+    ],
+    "tags": [
+     "전고체",
+     "특허"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 29,
+   "title": "트럼프-시진핑 정상회담에 'BYD의 미국 투자 논의' 가능성, 현대차와 기아 경쟁자 등장하나",
+   "url": "https://www.businesspost.co.kr/BP?command=article_view&num=447477",
+   "src": "비즈니스포스트",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "트럼프-시진핑 정상회담에 'BYD의 미국 투자 논의' 가능성, 현대차와 기아 경쟁자 등장하나 비즈니스포스트",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "BYD",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 30,
+   "title": "반도체 후공정 기지개… 에이팩트, 테스트 물량 증가에 실적 개선 기대",
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=488082",
+   "src": "핀포인트뉴스",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "반도체 생산에 필요한 장비와 검사·부품을 공급하는 반도체 장비 관련주가 17일 강세를 나타내고 있다. 인공지능(AI) 반도체 시장이 빠르게 커지면서 고대역폭메모리(HBM)와 첨단 패키징 등 고부가 반도체 생산을 위한 설비 투자 확대 기대감이 관련주로 번지는 모습이다. AI 반도체 생산량이 늘어나면서 제조 공정도 갈수록 복잡해지고 있다. HBM처럼 여러 개의 메모리 칩을 적층하는 제품은 기존 메모리보다 공정과 검사 과정이 까다로운 만큼 관련 장비에 대한 수요도 함께 커질 수 있다는 분석이 나온다. 최근 글로벌 메모리 업체들이 HBM 생산능력 확대를 위한 투자를 이어가는 것도 장비업체들의 실적 기대감을 높이는 요인이다. 한국거래소에 따르면 이날 오후 3시13분 현재 에이팩트는 12.92% 상승한 6990원에 거래되고 있다. 반도체 후공정 테스트 업체인 에이팩트는 차량용 반도체와 메모리 테스트 물량 증가에 따른 가동률 회복 기대가 부각되면서 매수세가 유입되는 모습이다. 차량 전장화 가속에 따른 차량용 반도체 수요 지속과 메모리 업황의 단계적 회복세가 맞물리면서, 후공정 테스트 라인의 가동률이 빠르게 정상화될 가능성이 커졌기 때문이다. 에이팩트는 축적된 테스트 노하우와 설비 경쟁력을 바탕으로 주요 반도체 제조사 내 입지를 넓혀가고 있다. 업계에서는 차량용 및 메모리 반도체 신규 테스트 물량이 본격적으로 공급될 경우 에이팩트의 매출 증가와 함",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 31,
+   "title": "BYD, 2027년 전고체 배터리 전기차 첫 투입⋯2030년 양산 목표",
+   "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=600512",
+   "src": "엠투데이",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "BYD가 2027년 전고체 배터리를 탑재한 첫 전기차를 내놓겠다는 계획을 밝혔다. 배터리 자회사 핀드림스(FinDreams)는 같은 해 황화물계 전고체 배터리의 소량 생산을 시작하고 2030년 대량생산 단계로 확대한다는 목표다. 미국 전기차 전문매체 일렉트렉은 14일 스텔라 리 BYD 수석부사장이 스페인 자동차 매체 카와우와의 인터뷰에서 “BYD는 전고체 배터리의 상용화와 기술 측면에서 선도적인 위치에 있다”고 말했다고 전했다. 리 부사장은 이 같은 자신감을 2027년 출시할 첫 전고체 배터리 탑재 차량을 통해 입증하겠다고 밝혔다. 해당 차량은 BYD가 전고체 배터리를 적용하는 첫 양산형 전기차가 될 예정이다. 다만 구체적인 차종과 배터리 용량, 주행거리, 충전 성능은 공개되지 않았다. 일렉트렉은 덴자(Denza)와 양왕(Yangwang), 팡청바오(Fang Cheng Bao) 등 BYD의 고급 브랜드에서 먼저 전고체 배터리가 적용될 가능성이 있다고 전망했다. 전고체 배터리는 기존 리튬이온 배터리의 액체 전해질 대신 고체 전해질을 사용하는 차세대 배터리다. BYD가 개발 중인 제품은 황화물계 전고체 배터리로 알려졌다. BYD는 셀 화학조성뿐 아니라 실제 대량생산에 필요한 제조공정과 생산장비까지 함께 개발하고 있다. 리 부사장은 “배터리 기술이라면 어떤 것이든 BYD 연구개발 조직 어딘가에서 연구하고 있을 것”이라며 차세대 배터리에 대",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "BYD",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 32,
+   "title": "금리인상 직후 다시 반도체 랠리... 숨은 공신은 이것이었다",
+   "url": "https://www.mk.co.kr/news/stock/12156041",
+   "src": "mk.co.kr",
+   "date": "2026-09-18",
+   "rel": 4,
+   "lead": "미국이 다시 금리를 올린지 하루만에 눌렸던 반도체 투심이 다시 살아났습니다. 어떤 변수가 상승 랠리를 촉발했을까요. 영상과 함께 살펴봅니다. ◆ 유의사항 : 본 영상은 2026.09.18(금)에 녹화되었으며, 영상 용량으로 인해 약간의 버퍼링이 있을 수 있습니다.",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 33,
+   "title": "Panasonic Energy opens battery development centre in Osaka",
+   "url": "https://www.electrive.com/2026/09/17/panasonic-energy-opens-battery-development-centre-in-osaka/",
+   "src": "electrive.com",
+   "date": "2026-09-18",
+   "rel": 3,
+   "lead": "Panasonic Energy has opened a new research and development center for lithium-ion batteries in Kadoma, near Osaka. The so-called Energy Innovation Square consolidates the development of materials and battery cells through to prototype construction. By 2031, Panasonic aims to double its development efficiency through this initiative. The company describes the facility as a global hub for its battery development and production. The Energy Innovation Square covers material development, cell design and the construction and analysis of prototypes. The site is set to collaborate closely with the Suminoe production development facility, also located in Osaka, which focuses on manufacturing technolo",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "Panasonic Energy",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 34,
+   "title": "Porsche produces cathode active materials from recycled raw materials",
+   "url": "https://www.electrive.com/2026/09/17/porsche-produces-cathode-active-materials-from-recycled-raw-materials/",
+   "src": "electrive.com",
+   "date": "2026-09-18",
+   "rel": 3,
+   "lead": "For the first time, Porsche has succeeded in producing battery cells whose cathode active materials are made from 100 per cent recycled raw materials such as lithium, nickel, cobalt, and manganese, sourced from its own high-voltage batteries. The battery recycling startup Cylib was also involved in the project. It was last year that Porsche revealed it was working to recover raw materials from high-voltage batteries and establish as closed a material cycle as possible, as reported previously . At that time, the sports car manufacturer launched a pilot project with Aachen-based startup Cylib, in which Porsche invested in 2024 . The pilot project with Cylib was divided into three phases. In th",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 35,
+   "title": "전북도, 반도체 소재·케미컬 소부장 특화단지 선정…K-반도체 공급망 심장 된다",
+   "url": "https://www.etnews.com/20260917000518",
+   "src": "etnews.com",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "전북특별자치도는 17일 산업통상부가 공고·지정하는 제3기 소재·부품·장비(소부장)산업 특화단지 공모에서 '반도체 소재·케미컬 소부장 특화단지'로 최종 선정됐다고 밝혔다. 소부장 특화단지는 '소재·부품·장비산업 경쟁력 강화 및 공급망 안정화를 위한 특별조치법' 제45조와 시행령 제67·68조에 근거해 산업통상부 장관이 지정하는 사업이다. 앵커기업과 협력사, 연구소, 지원기관이 집적된 산업 입지를 대상으로 산업기반시설·공동연구개발 인프라 구축비 지원, 기업·대학·연구 기관 공동 기술개발, 실증설비 확충, 전문기술인력 양성, 부지 조성 및 임대료 감면, 규제 특례 등을 폭넓게 지원한다. 전북은 이번 공모에서 새만금 국가산단, 익산시 제3산단·국가산단, 완주군 일반산단 일원을 아우르는 총 2625만6000㎡ 규모를 신청지로 제시했다. 사업 기간은 2027년부터 2031년까지 5년, 사업비는 국비 450억·지방비 25억·민자 167억원 등 총 642억원이다. 앵커기업으로는 동우화인켐, PKC, 한솔케미칼, OCI가 참여한다. 도는 'K-반도체 공급망의 심장, 전북 소재·케미컬 특화단지'를 비전으로 추진 전략을 마련했다. 우선 반도체 공동연구소를 건립하고 실증·신뢰성·제품화 지원 장비를 구축하는 등 기업지원 연구 인프라를 확충한다. 이어 산·학·교육기관 협의체를 구성해 현장형 인재를 양성하고, 반도체 소재·케미컬 특성화 대학원을 운영하는 등 수",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "정책"
+    ],
+    "grade": "A",
+    "market_group": "semi"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 36,
+   "title": "Hithium unveils 20,000-cycle sodium-ion cell and 4MWh BESS",
+   "url": "https://www.energy-storage.news/hithium-unveils-20000-cycle-sodium-ion-cell-and-4mwh-bess/",
+   "src": "energy-storage.news",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "Hithium hosted a launch yesterday for its new sodium-ion (Na-ion) battery cell and energy storage system product line, promising a 30-year expected operational lifetime. In a pre-recorded video streamed live on LinkedIn, the Chinese battery manufacturer’s research institute director, Dr Aileen Wang, introduced the ∞Cell N785Ah and the battery energy storage system (BESS) ∞Power N4.0MWh. Wang said the sodium-ion battery team at Hithium was tasked several years ago with building a battery that could redefine energy storage. Having observed that lithium-ion (Li-ion) cost curves were beginning to flatten, sodium-ion was seen as a potential new driver of growth. “We did not just follow lithium-io",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 37,
+   "title": "Contracted revenue key to California BESS financing as merchant market weakens, esVolta CEO explains",
+   "url": "https://www.energy-storage.news/contracted-revenue-key-to-california-bess-financing-as-merchant-market-weakens-esvolta-ceo-explains/",
+   "src": "energy-storage.news",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "Energy-Storage.news Premium speaks with Randolph Mann, CEO at developer esVolta at the 2026 US Battery Asset Management Summit in Garden Grove, California. Standalone battery energy storage system (BESS) developers in California are increasingly relying on tolling-type contracts to achieve bankable revenue streams as merchant revenues decline, according to esVolta CEO Randolph Mann. Mann explains that tolling contracts—where utilities pay a fixed price over the contract duration—have become essential for securing project financing in the California Independent System Operator (CAISO) market. “When we’re trying to put a project together, it’s trying to make sure that we’ve got predictable eno",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주",
+     "실적"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 38,
+   "title": "AI가 바꾼 제조업 … \"배터리 양극재 검사 12시간서 실시간으로\"",
+   "url": "https://www.mk.co.kr/news/economy/12155665",
+   "src": "mk.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 에코프로비엠이 품질예측AI 를 도입해 양극재 검사에 최장 12시간 걸리던 공정을 실시간 예측 방식으로 바꿨습니다. 양산 데이터와 원재료·공정 데이터를 연동해 중간제품과 완제품의 품질 관리 공백을 줄이는 구조입니다. 업계에서는 품질 검사 항목 축소가 실제 품질 안정성과 생산 수율 개선으로 이어질 것으로 보고 있습니다. TYM이 M.AX 사업을 통해 무인 자율검사 시스템 을 구축해 트랙터 검사 시간을 23% 단축했습니다. 연간 8000대의 소형 트랙터를 대상으로 로봇 자동 체결 장치를 개발해 조립 시간도 22% 줄였습니다. 업계에서는 이번 공정 자동화 성과가 향후 생산성 향상과 원가 절감의 발판이 될 것으로 평가하고 있습니다. 포스코가 공정 내 여러 기종의 로봇을 제어하는 통합제어시스템 을 개발해 주목받았습니다. 상장사 POSCO홀딩스는 포스코그룹의 철강 사업과 핵심 포트폴리오를 보유하고 있습니다. 업계에서는 제조 현장의 로봇 통합 운영 성과가 다른 산업 현장으로 확산될 가능성에 주목하고 있습니다. 에코프로비엠과 티와이엠(TYM)은 산업통상부의 '제조업 AI 대전환(M.AX)' 사업을 통해 생산 공정의 효율성을 개선하고 품질 검사를 자동화하여 각각 품질 검사 항목과 조립 시간을 대폭 줄일 수 있었다. 이번 프로젝트는 제조업의 생산성을 높이고 품질을 강화하는 방향으로 나아가며",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 39,
+   "title": "전북, 반도체 핵심소재 생산기지로…'소부장 특화단지' 선정",
+   "url": "https://www.yna.co.kr/view/AKR20260917173600055",
+   "src": "yna.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "(전주=연합뉴스) 임채두 기자 = 전북의 전주, 군산, 익산의 산업단지가 'K 반도체 핵심소재 생산기지'로 거듭난다. 전북특별자치도는 17일 산업통상부가 공고·지정하는 제3기 소재·부품·장비산업 특화단지 공모에서 '반도체 소재·케미컬 소부장 특화단지'로 최종 선정됐다고 밝혔다. 소부장 특화단지는 앵커기업과 협력사, 연구소, 지원기관이 집적된 산업 입지를 대상으로 공동 연구개발 인프라 구축, 기업·대학·연구 기관 공동 기술개발, 전문기술 인력 양성, 부지 조성 및 임대료 감면 등을 폭넓게 지원하는 사업이다. 반도체 공정용 초고순도 화학소재(세정·식각·증착용) 기술을 고도화해 첨단반도체 슈퍼사이클에 안정적인 반도체 생산을 지원한다. 앞서 정부가 발표한 3대 메가프로젝트로 반도체(전남광주)와 AI 데이터센터(충청)의 입지가 정리됐는데, 그 틈새를 메울 '협력 생태계'가 전북에 구축되는 것이다. 도는 이번 공모에서 새만금 국가산단, 익산시 제3산단·국가산단, 완주군 일반산단을 아우르는 2천625만6천㎡를 특화단지 부지로 제시했다. 사업 기간은 2031년까지 5년으로 사업비는 국비 450억원, 지방비 25억원 등 642억원이다. 민간 기업의 투자 규모는 8천300억원에 이를 전망이다. 앵커기업으로 동우화인켐, PKC, 한솔케미칼, OCI가 참여한다. 먼저 전북도는 반도체 공동연구소를 건립하고 실증·신뢰성·제품화 지원 장비를 구축하는 등 기업지",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 40,
+   "title": "Iberian BESS market needs more flexibility, clearer frameworks and faster permitting",
+   "url": "https://www.energy-storage.news/iberian-bess-market-needs-more-flexibility-clearer-frameworks-and-faster-permitting/",
+   "src": "energy-storage.news",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "At a round table discussion around utilities in the Iberian BESS market at last week’s Battery & Energy Tech Expo in Barcelona, Spain, panellists highlighted some of the challenges in accelerating the deployment of battery energy storage systems (BESS) in the region. Asked what the single largest obstacle to faster deployment of BESS in Iberia was, Roger Casals, CEO of high-power stationary energy storage manufacturer Wattium, said it was economic. “In Europe, we have a problem. Every single operator, every single country, has its own ways of monetising grid services. In many cases, many grid services, especially those related to power, are not even monetised. “People don’t provide those ser",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 41,
+   "title": "입법조사처 \"호남 반도체산단 용수공급 안정성 우려\"",
+   "url": "https://www.yna.co.kr/view/AKR20260917143400530",
+   "src": "yna.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 이재영 기자 = 정부가 호남 반도체 산업단지 용수 공급에 활용하기로 한 댐들이 안정적으로 용수를 공급할 수 있을지 우려된다는 국회 입법조사처의 지적이 나왔다. 영산강 수계 지역과 섬진강 수계 지역 사이 '물 갈등'도 해소해야 한다고 입법조사처는 지적했다. 17일 입법조사처는 '팩트 체크 : 호남 반도체 클러스터 용수 공급안 타당성 검토' 보고서에서 \"반도체 생산 공정 특성상 용수의 양을 확보하는 것은 물론 안정적으로 공급하는 것 역시 필수\"라면서 \"(정부가 호남 반도체 산단 물 공급에 활용한다고 한) 댐들의 연도별 물 유입량과 유출량 변동성이 커서 용수를 안정적으로 공급할 수 있을지 우려된다\"고 했다. 정부는 호남 반도체 산단에 하루 65만t 정도의 공업용수가 필요하다고 판단하고 이를 동복댐 30만t, 장흥·보성강·나주댐 각각 10만t, 주암댐 5만t 등으로 나눠 공급하는 방안을 제시했다. 또 댐에 더해 광주제1하수처리장에서 하루 30만t의 하수재이용수를 공급하기로 했다. 입법조사처가 장흥댐, 보성강댐, 나주댐, 주암댐 최근 5년(2021∼2025년) 물 유출입량을 분석한 결과, 강수량이 많은 해에는 유입량이 5년 평균보다 84%나 많은 사례(2024년 보성강댐)가 나오는가 하면 강수량이 적은 해에는 평균보다 72.2%나 적은 경우(2022년 장흥댐)가 있었다. 정부가 매긴 생활·공업용수 이수 안전도를 봐도 영산강 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 42,
+   "title": "KIST, 국가임무형 R&D 본격화…반도체·휴머노이드 도전",
+   "url": "https://www.yna.co.kr/view/AKR20260917117700017",
+   "src": "yna.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 조승한 기자 = 한국과학기술연구원(KIST)은 임무중심 연구체제를 도입하고 대한민국의 미래를 바꿀 7대 임무 도전과 목표를 제시했다고 17일 밝혔다. KIST는 이날 서울 성북구 본원에서 'KIST 임무중심연구소 대국민 보고대회'를 열고 임무중심 연구체제 도입 2년간 성과와 목표를 제시했다. KIST에 따르면 KIST는 ▲ 차세대반도체연구소 ▲ 인공지능(AI)·로봇연구소▲ 기후·환경연구소 ▲ 청정수소융합연구소 ▲ 뇌과학연구소 ▲ 천연물신약사업단 ▲ 우주용복합소재연구단 등 7대 연구소를 운영하고 프로젝트 매니저(PM)를 도입해 연구체제를 개편했다. 차세대반도체연구소는 기존 컴퓨팅 대비 연산성능 1천배, 전력소비 100분의 1 수준의 무작위성 처리장치(RPU) 개발에 도전하고 양자 분야에서도 대규모 양자컴퓨터 실현에 필요한 핵심 난제 해결에 나선다. AI·로봇연구소는 LG전자[066570]와 케이펙스(KAPEX) 기술이전을 발판으로 2030년까지 산업현장과 일상에서 사람과 함께 일하는 휴머노이드 기술의 고도화와 실증에 속도를 낸다. 기후환경연구소는 AI 기반 글로벌 최고 수준 기후예측 모델 개발과 2030년까지 자체 개발 탄소흡수소재 대량생산 기술 확보를, 청정수소융합연구소는 2033년 ㎏당 1달러 수소 생산에 도전한다. 뇌과학연구소는 5천억원 규모 기술이전 성공을 바탕으로 치매 신약 최종 승인에 도전한다. 강릉분원 천",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 43,
+   "title": "“가위 줘” 지시에 척척…의사-휴머노이드 '원팀 수술' 세계 첫 시연",
+   "url": "https://www.etnews.com/20260917000387",
+   "src": "etnews.com",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "“가위 주세요.” 집도의가 요청하자 수술대 옆 휴머노이드 로봇이 트레이 위에 가지런히 놓인 여러 수술도구 중 가위를 집어들어 손잡이 부분이 앞을 향하도록 의사에게 건넸다. 도구를 집어 의사가 손에 쥐기까지 걸린 시간은 약 5초. 사용이 끝난 도구를 돌려받아 제자리에 놓기까지는 10초 남짓 소요됐다. 맞은편 다른 로봇은 수술 보조 의사와 간호사 역할을 동시에 수행했다. 한 손으로는 복강경 내시경을 잡아 수술 부위를 화면 중앙에 맞추고 다른 손으로는 수술용 집게로 조직을 잡아당겨 수술 공간을 확보했다. 삼성서울병원은 16일 서울 본원 인근 히포크라테스홀에서 아르파H 사업 일환으로 개발 중인 휴머노이드 수술 보조로봇을 처음 공개하고 염소 간을 이용한 담낭관 분리술을 시연했다. 의료진과 복수의 휴머노이드가 협업해 수술 과정을 구현한 것은 세계 처음이다. 이날 수술실 간호사와 보조 의사가 담당하는 수술 도구 전달·회수, 내시경 조작, 조직 견인 등을 로봇이 수행하는 모습을 성공적으로 시연했다. 시연에는 서로 다른 역할을 맡은 휴머노이드 로봇 두 대가 투입됐다. 첫 번째 로봇은 수술실 간호사 역할을 맡아 집도의의 음성 명령을 인식하고 수술 도구 요청-전달-사용-회수-정리로 이어지는 순환 업무 전반을 수행했다. 다른 로봇은 보조의사와 간호사 역할을 동시에 했다. 한 손으로 복강경 내시경을 잡고, 수술도구 위치를 추적해 수술 시야를 조절했다. 작은",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 44,
+   "title": "Alinta Energy receives first battery units for 250MW Reeves Plains project in South Australia",
+   "url": "https://www.energy-storage.news/alinta-energy-receives-first-battery-units-for-250mw-reeves-plains-project-in-south-australia/",
+   "src": "energy-storage.news",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "Energy generator and retailer Alinta Energy has received the first shipment of battery units for its 250MW, 4-hour Reeves Plains Battery project in South Australia, with 48 of a planned 194 units arriving on site over the past week. The delivery marks the transition into the next phase of construction on the project, located approximately 60km north of Adelaide. A total of 194 battery units and 89 inverters will be delivered to the site over the coming months. The battery units are supplied by Chinese manufacturer CATL, and the inverters by Power Electronics. Kevin Arnold, executive general manager at GenusPlus Group, the project’s principal contractor, said the equipment’s arrival reflected",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "CATL",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 45,
+   "title": "Victoria’s SEC takes stake in 1.86GWh battery storage system in Australia alongside Aware Super and Birdwood",
+   "url": "https://www.energy-storage.news/victorias-sec-takes-stake-in-1-86gwh-battery-storage-system-in-australia-alongside-aware-super-and-birdwood/",
+   "src": "energy-storage.news",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "Victoria’s State Electricity Commission (SEC) is investing up to AU$43 million (US$30 million) for a stake in the 400MW/1.86GWh Baranduda Electrical Energy Reserve near Wodonga, alongside superannuation fund Aware Super and developer Birdwood. The investment has secured the state-owned generator and retailer 50% of the battery energy storage system (BESS) project’s output through a 15-year agreement. The Victorian government said the deal was the first public-private partnership between the state and a superannuation fund to deliver a renewable energy project in Victoria. The battery will consist of four independent 100MW units, giving it a 4.65-hour duration, described by the state governme",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS",
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 46,
+   "title": "SG, 삼성전자 온양캠퍼스에 ‘에코스틸아스콘’ 납품 확정…반도체 인프라 적용 확대",
+   "url": "https://www.mk.co.kr/news/stock/12155112",
+   "src": "mk.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 아스콘 전문기업 SG가 삼성전자 온양캠퍼스에 친환경 고내구성 제강슬래그 아스콘인 ‘에코스틸아스콘’을 공급한다. SG는 삼성전자 온양캠퍼스에 에코스틸아스콘 납품을 확정하고 이달 말부터 내달 초까지 공급을 진행할 예정이라고 17일 밝혔다. 앞서 SG는 삼성전자 평택캠퍼스 제5반도체공장(P5) 현장에서 시험 적용을 거치며 우수한 성능과 현장 적용 가능성을 입증했다. 이번 온양캠퍼스 실제 납품으로 반도체 주요 사업장 내 적용 사례를 추가 확보하게 됐다. 삼성전자 온양캠퍼스는 반도체 후공정 및 패키징을 담당하는 핵심 생산거점이다. 최근 삼성전자는 인공지능(AI) 산업 성장에 따른 고대역폭메모리(HBM) 수요 증가에 맞춰 천안·온양 지역을 중심으로 생산 기반을 확충하고 있다. 에코스틸아스콘은 철강 생산 과정에서 발생하는 제강슬래그를 천연골재 대신 재활용한 친환경 도로포장재다. 일반 아스콘 대비 내구성이 뛰어남은 물론, 도로 미세먼지를 85.7% 저감하는 효과가 있어 대형 수송 차량 통행이 잦은 반도체 사업장 및 산업단지 내 비산먼지 관리에 최적화된 포장재로 평가받는다. SG 관계자는 “평택 P5 시험 적용에 이어 온양캠퍼스 납품이 확정되며 반도체 인프라 적용 사례를 확발하게 됐다”며 “삼성전자를 비롯한 국내 주요 기업 생산시설과 대규모 국가산업단지로 공급을 지속 확대해 나갈 것”이",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 47,
+   "title": "美연준, 3년만에 금리인상.. 워시 “인플레 너무 높다”",
+   "url": "https://www.mk.co.kr/news/stock/12155024",
+   "src": "mk.co.kr",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "SK하이닉스가 미국에서 처음으로 메모리 반도체를 생산하는 방안을 놓고 인텔과 협상을 진행하고 있는 것으로 알려 졌습니다. 인텔이 오하이오주에 건설 중인 반도체 생산시설 일부를 SK하이닉스가 임차하는 방안이 논의 중인데요. 기존에 인디애나주에 건설 중인 공장을 두고, 왜 인텔의 공장까지 쓰려고 하는 걸까요? 9월 17일 매일, 경제읽기 코너에서 들여다보겠습니다. ◆ 유의사항 : 본 영상은 2026. 09. 17(목)에 녹화되었으며, 영상 용량으로 인해 약간의 버퍼링이 있을 수 있습니다.",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 48,
+   "title": "NYC selects provider for 700-point kerbside charging network",
+   "url": "https://www.electrive.com/2026/09/16/nyc-selects-provider-for-700-point-kerbside-charging-network/",
+   "src": "electrive.com",
+   "date": "2026-09-17",
+   "rel": 3,
+   "lead": "New York City authorities have chosen US charging provider 'it's electric' to build a permanent street-level public EV charging network across all five city boroughs. The company will replace the city's existing pilot infrastructure and install hundreds of new charging points over the next three years. The expansion is set to bring the number of public, Level 2 street charging points in NYC up from 88 to nearly 700. The charging company said it will focus on areas with high concentrations of taxi and rideshare drivers that face limited off-street parking, an issue it calls “the biggest obstacle keeping drivers from switching to electric vehicles”. This is against the backdrop of a looming de",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 49,
+   "title": "‘A really hard problem’: Gridmatic CCO on the challenges of BESS revenue forecasting, the role of AI and load co-location",
+   "url": "https://www.energy-storage.news/a-really-hard-problem-gridmatic-cco-on-the-challenges-of-bess-revenue-forecasting-the-role-of-ai-and-load-co-location/",
+   "src": "energy-storage.news",
+   "date": "2026-09-16",
+   "rel": 3,
+   "lead": "Energy-Storage.news Premium speaks with David Miller, CCO of optimiser Gridmatic, at the 2026 US Battery Asset Management Summit in Garden Grove, California. Over the past three years, the revenue mix for battery energy storage systems (BESS) in the US has changed, David Miller says, nowhere more so than in the Electric Reliability Council of Texas (ERCOT) and California Independent System Operator (CAISO) markets. It’s no coincidence that ERCOT and CAISO are the country’s two biggest markets for BESS. “I would say three years ago, the revenue streams across markets in the US, were dominated by ancillary services for batteries, and that has changed pretty significantly both in ERCOT and CAIS",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS",
+     "실적"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 50,
+   "title": "Geekplus opens European innovation lab in Germany",
+   "url": "https://roboticsandautomationnews.com/2026/09/17/geekplus-opens-european-innovation-lab-in-germany/104896/",
+   "src": "roboticsandautomationnews.com",
+   "date": "2026-09-18",
+   "rel": 2,
+   "lead": "Geekplus opens European innovation lab in Germany roboticsandautomationnews.com",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_A",
+    "entity": "Geekplus",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-09-18-20"
+  },
+  {
+   "cid": 51,
+   "title": "ProLogium Begins Mass Production of High-Energy-Density All-Solid-State Battery, Reaching 381 Wh/kg and 903 Wh/L",
+   "url": "https://batteriesnews.com/prologium-begins-mass-production-of-high-energy-density-all-solid-state-battery-reaching-381-wh-kg-and-903-wh-l/",
+   "src": "Batteries News",
+   "date": "2026-09-18",
+   "rel": 3,
+   "lead": "ProLogium Begins Mass Production of High-Energy-Density All-Solid-State Battery, Reaching 381 Wh/kg and 903 Wh/L TÜV validates Gen 3.5 energy density; UL Solutions testing supports all-solid-state classification under GB/T 43568-2026. More than a decade of commercial production underpins a scalable Giga-level platform extending to Gen 4’s fully inorganic electrolyte system. TAIPEI, Taiwan, Sept. 02, 2026 (GLOBE NEWSWIRE) — ProLogium Technology said its Gen 3.5 Lithium Ceramic Battery (LCB) is now in mass production at its Giga-level manufacturing facility in Taiwan, moving high-energy-density all-solid-state battery technology beyond laboratory and pilot-scale development. A third-party TÜV ",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 52,
+   "title": "Geekplus Opens First European Innovation Lab in Düsseldorf to Advance AI-Powered Warehouse Robotics",
+   "url": "https://www.prnewswire.com/news-releases/geekplus-opens-first-european-innovation-lab-in-dusseldorf-to-advance-ai-powered-warehouse-robotics-302882183.html",
+   "src": "PR Newswire",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "DÜSSELDORF, Germany , Sept. 17, 2026 /PRNewswire/ -- Geekplus, a global leader in warehouse robotics, has opened its first European Innovation Lab in Düsseldorf, creating a new hub where businesses can test AI-powered robotics and automation technologies in real-world logistics scenarios. More than 150 industry leaders attended the opening, including representatives from GXO, DSV and LPP Logistics, alongside Josef Hinkel, Deputy Mayor of Düsseldorf. Geekplus expects the Lab to welcome more than 1,000 visitors annually, through customer visits, technology demonstrations and dedicated industry days. \"Düsseldorf stands for openness, international collaboration and forward-looking technologies. ",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_A",
+    "entity": "Geekplus",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "sameday"
+  },
+  {
+   "cid": 53,
+   "title": "Mature AMR Solutions for High-Temperature and Dynamic Factories",
+   "url": "https://nerdbot.com/2026/09/17/mature-amr-solutions-for-high-temperature-and-dynamic-factories/",
+   "src": "nerdbot",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "Manufacturing automation is moving factories from fixed logistics equipment, manual carts, and forklift-dependent transport toward more flexible AMR solutions. The International Federation of Robotics identifies AI, autonomy, IT/OT integration, and robot safety as major robotics trends for 2026, while the global market value of industrial robot installations has reached US$16.7 billion. In high-temperature and dynamic factories, this transition requires an AMR factory solution that can adapt to changing routes, moving obstacles, and demanding operating conditions. This article examines how to choose reliable AMR solutions for complex industrial logistics. Why Do Traditional Logistics Systems",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "AMR"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 54,
+   "title": "美 금리 인상 파고 튕겨낸 K-반도체…3중 방어막에 이상 무",
+   "url": "https://www.ajunews.com/view/20260917111153752",
+   "src": "아주경제",
+   "date": "2026-09-17",
+   "rel": 4,
+   "lead": "미국 연방준비제도(Fed·연준)의 금리 인상으로 글로벌 긴축 재정의 파고가 다시 높아졌지만, 국내 반도체 업계가 받는 충격파는 미미한 수준에 머물 것으로 전망된다. 삼성전자와 SK하이닉스가 견조한 장기 공급 계약과 막강한 현금 유동성, 고대역폭메모리(HBM) 중심의 공급자 우위 시장 구조라는 '3중 방어막'을 구축하고 있어 고금리 여파를 상쇄할 수 있다는 진단이다. 17일 외신과 업계 등에 따르면 미 연준은 이틀간 열린 연방공개시장위원회(FOMC)를 통해 기준금리를 연 3.75∼4.00%로 0.25%포인트(p) 인상하기로 결정했다. 2023년 7월 이후 3년 2개월 만의 통화 긴축 조치다. 이번 결정으로 글로벌 돈줄 죄기가 다시 시작됐지만, 삼성전자와 SK하이닉스 공급망에 미칠 파장은 찻잔 속 미풍에 그칠 것이라는 게 전문가들의 분석이다. 단단한 계약 구조가 가장 큰 버팀목 역할을 하고 있다. 금리 인상은 통상 빅테크 기업들의 투자를 위축시키는 요인으로 꼽히지만 구글·마이크로소프트(MS)·메타 등의 서버용 메모리 물량 상당수가 최대 5년 단위의 장기공급계약(LTA)으로 묶여 있기 때문이다. LTA 특성상 단기적인 금리 변동이나 자금 사정 악화를 이유로 즉각적인 주문량 조절이나 계약 해지를 단행하기가 쉽지 않다는 게 업계 중론이다. 이종환 상명대 시스템반도체공학과 교수는 \"빅테크의 AI 인프라 투자는 단기 금리 정책에 따라 흔들리는 휘",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "수주"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 55,
+   "title": "과기정통부 물류로봇 실외 레이다 허용…충전 3kW 면제",
+   "url": "https://www.jabon.co.kr/news/articleView.html?idxno=6929",
+   "src": "자본시장뉴스",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "과학기술정보통신부가 제조·물류 현장 자율이동로봇(AMR)의 실외 운용을 막던 전파 규제를 손본다. 76~81GHz 대역 물체 감지 레이다의 허용 범위를 실내에서 야외 주차장과 상·하역장 등 실외까지 넓히는 기술기준 개정안을 연내 마련한다. 산업용 무선충전기 허가 면제 기준은 1kW 이하에서 3kW 이하로 올리는 방안을 검토하고 원거리 무선충전 전용 주파수 분배안도 오는 12월까지 세운다. 방산 연구개발 전파실험 허가에는 15일 패스트트랙을 도입하고 아날로그 생활무전기 사용 기한은 2032년 말까지 늘린다. 자본시장은 실외 레이다 허용이 물류 자동화 로봇 업체의 국내 매출로 이어질지 주목하고 있다. 17일 과학기술정보통신부에 따르면 정부는 피지컬 인공지능(AI) 시대를 맞아 제조·물류 현장 자율이동로봇의 활동 반경을 넓히기 위해 전파 기술기준 개정안을 연내 마련하기로 했다. 정부는 제조·물류 현장에서 운용되는 자율이동로봇의 활동 반경을 넓히기 위해 76~81GHz 대역 물체 감지 레이다의 허용 범위를 실내에서 야외 주차장, 상·하역장 등 실외 환경까지 확대한다. 실외 작업장에서도 날씨에 구애받지 않고 고정밀 센서를 활용한 물류 자동화가 가능해질 전망이다. 로봇 충전 편의성을 높이기 위한 제도 개선도 병행된다. 산업용 무선충전기의 허가 면제 기준을 현행 1kW 이하에서 3kW 이하로 상향하는 방안을 검토하고, 고효율 전력 공급을 위한 원",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "AMR",
+     "정책",
+     "실적"
+    ],
+    "grade": "B",
+    "market_group": "fa"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 56,
+   "title": "QS: Scaling solid-state battery production and expanding into new markets with strong OEM partnerships",
+   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4176366:0-qs-scaling-solid-state-battery-production-and-expanding-into-new-markets-with-strong-oem-partnerships/",
+   "src": "TradingView",
+   "date": "2026-09-17",
+   "rel": 2,
+   "lead": "QS: Scaling solid-state battery production and expanding into new markets with strong OEM partnerships TradingView",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "capped"
+  }
+ ]
+}

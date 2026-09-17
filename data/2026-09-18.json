@@ -5,12 +5,13 @@
  "edition": "조간",
  "issue_no": 4,
  "window_hours": 36,
- "summary": "SK온-엘앤에프, LFP 공급망 동맹...ESS 시장  · LFP 양극재 선두 엘앤에프, 삼성SDI 이어 SK온도 · SK온, 엘앤에프와 1600억 LFP 양극재 계약…ES · 3기 소부장 특화단지 거제·대전·군산·천안…민관 7.8",
+ "refined": true,
+ "summary": "SK온, 엘앤에프와 LFP 양극재 1600억 공급 계약 · 3기 소부장 특화단지 4곳(천안·아산 후공정) 민관 7.8조 · 과기정통부 AMR 실외 레이다 허용 추진 · LG엔솔 상반기 ESS 매출 4.6배",
  "top": [
-  "2026-09-18-16",
-  "2026-09-18-4",
   "2026-09-18-0",
-  "2026-09-18-2"
+  "2026-09-18-7",
+  "2026-09-18-8",
+  "2026-09-18-1"
  ],
  "sections": [
   {
@@ -35,22 +36,19 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-09-18-9",
-       "h": "美 ESS 길 텄지만 수익성은 아직…LG엔솔 하반기 이익에 관심 커진다",
-       "b": "특히 중국산 배터리에 대한 견제와 현지 생산 지원으로 우호적인 사업 환경이 조성됐지만 ESS 물량 확대가 실제 수익성 개선으로 이어질지는 아직 확인이 필요하다는 분석이다.",
-       "src": "bing.com",
-       "url": "http://www.popcornnews.net/news/articleView.html?idxno=133342",
+       "id": "2026-09-18-1",
+       "h": "LG엔솔 상반기 ESS 매출 전년 대비 4.6배…전사 매출 비중 20%대 후반",
+       "b": "2분기 매출 <b>7조</b><b>5602억</b>원(+<b>24.8%</b>)·영업이익 <b>1133억</b>원 흑자 전환, 상반기 매출 <b>14조</b><b>1152억</b>원(+<b>10.5%</b>). 서울대와 LMR 상용화 기술 확보.",
+       "src": "뉴스피릿",
+       "url": "https://www.newsspirit.kr/news/articleView.html?idxno=32201",
        "date": "2026-09-17",
        "cat": "customer",
        "group": "lgensol",
        "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
+       "related": [],
        "tags": [
         "ESS",
-        "투자"
+        "실적"
        ],
        "grade": "B",
        "rel": 2,
@@ -63,40 +61,16 @@
      "title": "삼성SDI",
      "items": [
       {
-       "id": "2026-09-18-4",
-       "h": "LFP 양극재 선두 엘앤에프, 삼성SDI 이어 SK온도 수주…1617억 규모",
-       "b": "국내 양극재 기업 중 리튬인산철(LFP) 제품을 가장 먼저 생산 중인 엘앤에프가 삼성SDI에 이어 SK온으로부터도 수주를 따냈다.",
-       "src": "지디넷코리아",
-       "url": "https://zdnet.co.kr/view/?no=20260917183510",
-       "date": "2026-09-17",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [
-        "SK온"
-       ],
-       "tags": [
-        "ESS",
-        "수주"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-7",
-       "h": "내년 ‘꿈의 배터리’ 달린다… 상용화 경쟁 속도전",
-       "b": "BYD가 내년 전고체 배터리 첫 탑재 차량 공개를 예고하면서 글로벌 상용화 경쟁이 달아올랐다.",
+       "id": "2026-09-18-2",
+       "h": "삼성SDI 전고체 내년 하반기 양산 목표…BYD·CATL·토요타 등 상용화 경쟁",
+       "b": "BYD가 내년 첫 탑재 차량 공개를 예고, CATL·지리·토요타·벤츠·BMW는 시험 생산·실차 검증 단계. 주도권은 <b>2027년</b>께 판가름 전망.",
        "src": "bing.com",
        "url": "https://www.seoul.co.kr/news/economy/car/2026/09/18/20260918029002",
        "date": "2026-09-17",
        "cat": "customer",
        "group": "sdi",
        "entity": "삼성SDI",
-       "related": [
-        "CATL",
-        "BYD"
-       ],
+       "related": [],
        "tags": [
         "전고체"
        ],
@@ -112,10 +86,10 @@
      "items": [
       {
        "id": "2026-09-18-0",
-       "h": "SK온, 엘앤에프와 1600억 LFP 양극재 계약…ESS '탈중국' 속도",
-       "b": "SK온이 글로벌 에너지저장장치(ESS) 수요",
-       "src": "bing.com",
-       "url": "https://www.msn.com/ko-kr/money/markets/sk%EC%98%A8-%EC%97%98%EC%95%A4%EC%97%90%ED%94%84%EC%99%80-1600%EC%96%B5-lfp-%EC%96%91%EA%B7%B9%EC%9E%AC-%EA%B3%84%EC%95%BD-ess-%ED%83%88%EC%A4%91%EA%B5%AD-%EC%86%8D%EB%8F%84/ar-AA2cpxKp",
+       "h": "SK온, 엘앤에프와 3년간 LFP 양극재 1600억원 공급 계약",
+       "b": "2026~<b>2028년</b> ESS용 3세대 LFP 양극재 약 <b>1600억</b>원(<b>1억</b><b>1820만</b>달러), 서산·미국 조지아 ESS 셀 라인 투입. <b>2031년</b>까지 <b>3년</b> 연장 협의 가능.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260917154700003",
        "date": "2026-09-17",
        "cat": "customer",
        "group": "skon",
@@ -123,26 +97,8 @@
        "related": [],
        "tags": [
         "ESS",
-        "수주"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-16",
-       "h": "SK온-엘앤에프, LFP 공급망 동맹...ESS 시장 공동대응",
-       "b": "엘앤에프의 LFP 양극재 <b>1600억</b>원어치 공급...추가 계약 가능성도 SK온 서산·조지아주 공장 등에 투입...국내외 ESS 경쟁 우위 SK온과 엘앤에프가…",
-       "src": "아주경제",
-       "url": "https://www.ajunews.com/view/20260917194927447",
-       "date": "2026-09-17",
-       "cat": "customer",
-       "group": "skon",
-       "entity": "SK온",
-       "related": [],
-       "tags": [
-        "ESS",
-        "수주"
+        "수주",
+        "투자"
        ],
        "grade": "A",
        "rel": 4,
@@ -155,41 +111,9 @@
      "title": "글로벌 · 기타",
      "items": [
       {
-       "id": "2026-09-18-11",
-       "h": "'1회 주유·충전으로 1400㎞'…BYD 씨라이언 6 DM-i, 실주행거리 '챌린지' 열풍",
-       "b": "BYD가 출시한 플러그인 하이브리드(PHEV) SUV '씨라이언 6 DM-i'가 차주들의 자발적 '장거리 주행 챌린지' 열풍에 휩싸였다.",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20260917000079",
-       "date": "2026-09-17",
-       "cat": "customer",
-       "group": "global",
-       "entity": "BYD",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-15",
-       "h": "CATL unveils truck battery with up to 1,000 km range",
-       "b": "CATL has unveiled its Tectrans II battery solution for heavy-duty electric commercial vehicles at IAA Transportation.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/09/16/catl-unveils-truck-battery-with-up-to-1000-km-range/",
-       "date": "2026-09-16",
-       "cat": "customer",
-       "group": "global",
-       "entity": "CATL",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-17",
-       "h": "시진핑, BYD·샤오미 이끌고 방미…美 투자·구매 협상 본격화",
-       "b": "주 시진핑 중국 국가주석의 미국 방문에 BYD와 샤오미 등 중국 대표기업 경영진이 대거 동행할 가능성이 커지고 있습니다.",
+       "id": "2026-09-18-3",
+       "h": "시진핑 방미(24일 미중 정상회담)에 BYD 왕촨푸 회장 동행 가능성…미국 투자 논의",
+       "b": "SCMP·블룸버그: BYD·샤오미·중지이노라이트 등 경영진이 수행 후보로 거론, 미국 투자·구매 협상 본격화 전망.",
        "src": "v.daum.net",
        "url": "https://v.daum.net/v/GmLlW6b05D",
        "date": "2026-09-17",
@@ -203,6 +127,46 @@
        ],
        "grade": "B",
        "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-4",
+       "h": "BYD 핀드림스, 2027년 황화물계 전고체 소량 생산…2030년 대량생산 목표",
+       "b": "<b>2027년</b> 첫 전고체 탑재 양산형 전기차 출시 계획. 차종·용량·주행거리·충전 성능은 미공개.",
+       "src": "엠투데이",
+       "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=600512",
+       "date": "2026-09-17",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": {
+        "prev_date": "2026-09-16",
+        "prev_h": "",
+        "change": "핀드림스 2027년 소량 생산·2030년 대량생산 일정 추가"
+       }
+      },
+      {
+       "id": "2026-09-18-5",
+       "h": "파나소닉 에너지, 오사카 카도마에 배터리 R&amp;D 센터 개소",
+       "b": "'Energy Innovation Square'에 소재·셀 개발부터 시제품 제작까지 통합, <b>2031년</b>까지 개발 효율 <b>2배</b> 목표.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/17/panasonic-energy-opens-battery-development-centre-in-osaka/",
+       "date": "2026-09-18",
+       "cat": "customer",
+       "group": "global",
+       "entity": "Panasonic Energy",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 3,
        "followup": null
       }
      ]
@@ -219,36 +183,20 @@
      "title": "A등급 경쟁사",
      "items": [
       {
-       "id": "2026-09-18-19",
-       "h": "디와이홀딩스 등, SFA 지분 43.45%로 소폭 확대",
-       "b": "- 특별관계자 장내매매로 지분 소폭 확대, 담보 제공 주식 비율은 <b>26.81%</b>로 축소 디와이홀딩스 등, SFA 지분 <b>43.45%</b>로 소폭 확대",
-       "src": "데이터투자",
-       "url": "https://www.datatooza.com/article/20260917160902935752ef39ea8b_80",
+       "id": "2026-09-18-6",
+       "h": "Geekplus, 독일 뒤셀도르프에 첫 유럽 이노베이션 랩 개소",
+       "b": "AI 창고 로봇·자동화 실증 거점, 개소식에 GXO·DSV·LPP 등 150여 명 참석(17일).",
+       "src": "PR Newswire",
+       "url": "https://www.prnewswire.com/news-releases/geekplus-opens-first-european-innovation-lab-in-dusseldorf-to-advance-ai-powered-warehouse-robotics-302882183.html",
        "date": "2026-09-17",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "SFA",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-20",
-       "h": "Geekplus opens European innovation lab in Germany",
-       "b": "",
-       "src": "roboticsandautomationnews.com",
-       "url": "https://roboticsandautomationnews.com/2026/09/17/geekplus-opens-european-innovation-lab-in-germany/104896/",
-       "date": "2026-09-18",
        "cat": "competitor",
        "group": "grade_A",
        "entity": "Geekplus",
        "related": [],
-       "tags": [],
-       "grade": "C",
+       "tags": [
+        "AMR"
+       ],
+       "grade": "B",
        "rel": 2,
        "followup": null
       }
@@ -271,48 +219,50 @@
      "title": "",
      "items": [
       {
-       "id": "2026-09-18-8",
-       "h": "Hybrid vehicles: EU urges China to self-limit imports",
-       "b": "The European Union has reportedly called on China to voluntarily restrict its exports of hybrid cars to Europe.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/09/17/hybrid-vehicles-eu-urges-china-to-self-limit-imports/",
-       "date": "2026-09-17",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "정책"
-       ],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-13",
-       "h": "산업부, 국내외 120개사 참여 소부장 국제투자 콘퍼런스",
-       "b": "이번 행사는 글로벌 공급망 재편과 첨단기술 경쟁 속에서 국내외 소부장 기업을 연결하고 새로운 투자 기회를 발굴하기 위해 마련됐다.",
+       "id": "2026-09-18-7",
+       "h": "3기 소부장 특화단지 4곳 지정…천안·아산 반도체 후공정 등, 민관 7.8조 투자",
+       "b": "산업부 17일 의결: 거제(조선해양), 대전(방산 전자), 군산·익산(반도체 화학소재), 천안·아산(반도체 후공정). 정부 <b>5년</b> <b>1600억</b>·민간 <b>7조</b><b>7000억</b>.",
        "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20260917147700003",
+       "url": "https://www.yna.co.kr/view/AKR20260917172300003",
        "date": "2026-09-17",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
+        "정책",
         "투자"
        ],
-       "grade": "B",
+       "grade": "A",
        "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-09-18-18",
-       "h": "Solid-State Battery Capacity Part 1: Solid–Liquid Batteries A Transition Route with Strong Supply and Demand",
-       "b": "핵심 요점: 고체-액체 배터리는 전고체 배터리 산업화의 선봉이다.",
-       "src": "Shanghai Metals Market",
-       "url": "https://news.metal.com/ko/newscontent/104120486-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%9A%A9%EB%9F%89-1%EB%B6%80-%EA%B3%A0%EC%B2%B4-%EC%95%A1%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%88%98%EA%B8%89%EC%9D%B4-%EA%B0%95%ED%95%9C-%EC%A0%84%ED%99%98-%EA%B2%BD%EB%A1%9C",
+       "id": "2026-09-18-8",
+       "h": "과기정통부, AMR 실외 레이다 허용·산업용 무선충전 3kW 허가 면제 추진",
+       "b": "76~81GHz 물체감지 레이다 허용 범위를 야외 주차장·상하역장까지 넓히는 기술기준 개정안 연내 마련, 무선충전 면제 기준 <b>1kW</b>→<b>3kW</b> 검토.",
+       "src": "자본시장뉴스",
+       "url": "https://www.jabon.co.kr/news/articleView.html?idxno=6929",
        "date": "2026-09-17",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "AMR",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-9",
+       "h": "ProLogium, 381Wh/kg·903Wh/L 전고체 배터리 양산 개시",
+       "b": "TÜV가 Gen 3.5 에너지밀도 검증, UL 시험으로 GB/T 43568-2026 전고체 분류 지원(9월 2일 발표).",
+       "src": "Batteries News",
+       "url": "https://batteriesnews.com/prologium-begins-mass-production-of-high-energy-density-all-solid-state-battery-reaching-381-wh-kg-and-903-wh-l/",
+       "date": "2026-09-18",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
@@ -321,6 +271,24 @@
         "전고체"
        ],
        "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-10",
+       "h": "전고체 배터리 계획 생산능력 2035년 1119GWh…2026~2030년 가동률 1~15% 전망",
+       "b": "GWh급 파일럿 집중 단계, 2027~<b>2030년</b> 소량 차량 탑재. 황화물계 주류로 CATL·BYD·궈쉬안 선도(SMM).",
+       "src": "Shanghai Metals Market",
+       "url": "https://news.metal.com/ko/newscontent/104120524-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%83%9D%EC%82%B0%EB%8A%A5%EB%A0%A5-2%EB%B6%80-%ED%8C%8C%EC%9D%BC%EB%9F%BF-%EB%9D%BC%EC%9D%B8-%EC%97%B0%EC%9D%B4%EC%96%B4-%EA%B0%80%EB%8F%99-%EC%83%9D%EC%82%B0%EB%8A%A5%EB%A0%A5-%EA%B3%84%ED%9A%8D%EA%B3%BC-%EC%88%98%EC%9A%94-%EA%B0%84-%EB%B6%88%EC%9D%BC%EC%B9%98",
+       "date": "2026-09-17",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -336,37 +304,18 @@
     {
      "id": "ev",
      "title": "전기차",
-     "items": [
-      {
-       "id": "2026-09-18-6",
-       "h": "EZO secures €150 million to expand UK and Ireland charging networks",
-       "b": "Irish charging provider EZO has secured €150 million in senior debt financing to expand…",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/09/17/ezo-secures-e150-million-to-expand-uk-and-ireland-charging-networks/",
-       "date": "2026-09-17",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "실적"
-       ],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "battery",
      "title": "이차전지",
      "items": [
       {
-       "id": "2026-09-18-1",
-       "h": "Commissioning delays and technical gaps plague battery storage handovers, industry experts warn",
-       "b": "The transition of battery energy storage systems (BESS) from development to operations…",
-       "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/commissioning-delays-and-technical-gaps-plague-battery-storage-handovers-industry-experts-warn/",
+       "id": "2026-09-18-11",
+       "h": "기후부·한전, ESS로 '가상송전선(VPL)' 구성…내년 예산 반영, 2030년까지 확대",
+       "b": "송전선로 신설 대신 ESS로 혼잡 완화. 제12차 전력수급기본계획에 반영하고 대규모 정부 지원 사업으로 확대 계획(17일).",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260917163700530",
        "date": "2026-09-17",
        "cat": "market",
        "group": "battery",
@@ -374,19 +323,37 @@
        "related": [],
        "tags": [
         "ESS",
-        "리스크",
-        "실적"
+        "정책"
        ],
-       "grade": "A",
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-18-12",
+       "h": "호주 빅토리아주 SEC, 400MW/1.86GWh BESS에 최대 4300만 호주달러 투자",
+       "b": "Aware Super·Birdwood와 공동, <b>15년</b> 계약으로 출력 <b>50%</b> 확보.",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/victorias-sec-takes-stake-in-1-86gwh-battery-storage-system-in-australia-alongside-aware-super-and-birdwood/",
+       "date": "2026-09-17",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "B",
        "rel": 3,
        "followup": null
       },
       {
-       "id": "2026-09-18-10",
-       "h": "‘가상송전선’으로 혼잡 완화…기후부·한전, 전력산업 성과발표회 개최",
-       "b": "한국전력공사(한전)가 기후에너지환경부와 ‘전력산업 산·학·연 전문포럼 성과발표회’를 열고 지난 4월부터 운영한 <b>8개</b> 전문포럼의 성과를 공유했다고 17일 밝혔다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/economy/12155537",
+       "id": "2026-09-18-13",
+       "h": "Hithium, 2만 사이클 나트륨이온 셀(785Ah)·4MWh BESS 공개",
+       "b": "예상 수명 <b>30년</b>, ∞Cell N785Ah와 ∞Power N<b>4.0MWh</b> 제품군 출시(17일).",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/hithium-unveils-20000-cycle-sodium-ion-cell-and-4mwh-bess/",
        "date": "2026-09-17",
        "cat": "market",
        "group": "battery",
@@ -396,7 +363,7 @@
         "ESS"
        ],
        "grade": "B",
-       "rel": 4,
+       "rel": 3,
        "followup": null
       }
      ]
@@ -406,45 +373,9 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-09-18-2",
-       "h": "3기 소부장 특화단지 거제·대전·군산·천안…민관 7.8조 투자",
-       "b": "정부는 향후 <b>5년</b>간 <b>1천</b><b>600억</b>원을 지원하고 민간도 총 <b>7조</b><b>7천</b>원을 투자할 예정이다.",
-       "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20260917172300003",
-       "date": "2026-09-17",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-3",
-       "h": "“반도체 너무 올랐나”…삼전닉스 9조 판 외국인, 돈 옮겨간 곳 보니",
-       "b": "올해 국내 증시 상승을 이끌었던 외국인 투자자들이 최근 삼성전자와 SK하이닉스 등 반도체 대형주에서 대규모 매도에 나서고 있다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12155444",
-       "date": "2026-09-17",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-09-18-5",
-       "h": "반도체 후공정에 뭉칫돈…TSMC·인텔 첨단패키징 투자↑",
-       "b": "글로벌 반도체 기업들이 첨단패키징과 테스트 등 후공정 설비 투자를 일제히 늘리고 있다.",
+       "id": "2026-09-18-14",
+       "h": "TSMC·인텔·마이크론·삼성·SK하이닉스, 첨단패키징 등 후공정 투자 상향",
+       "b": "AI 가속기·HBM 출하 급증으로 2026~<b>2028년</b> 메모리·비메모리 동시 증설 구간(한화투자증권 산업분석).",
        "src": "bing.com",
        "url": "https://www.junggi.co.kr/news/articleView.html?idxno=37803",
        "date": "2026-09-18",
@@ -466,9 +397,9 @@
      "title": "스마트팩토리 · AMR",
      "items": [
       {
-       "id": "2026-09-18-12",
-       "h": "삼성·현대차그룹, 스마트빌딩에 물류 자동화 ‘동맹’",
-       "b": "현대글로비스·삼성물산 MOU로봇 배송 서비스 결합 모델 개발배송 전 과정에 AI·로보틱스 적용 현대글로비스(086280)가 삼성물산(028260)과 우편물 로봇 배송을 뼈대로 한 스마트빌딩 물류자동화 공동사업 모델 개발에 나선다.",
+       "id": "2026-09-18-15",
+       "h": "현대글로비스·삼성물산, 스마트빌딩 물류자동화·로봇 배송 공동 개발 MOU",
+       "b": "우편물 로봇 배송을 뼈대로 배송 전 과정에 AI·로보틱스 적용(16일, 성수 본사).",
        "src": "bing.com",
        "url": "https://www.msn.com/ko-kr/news/other/%EC%82%BC%EC%84%B1-%ED%98%84%EB%8C%80%EC%B0%A8%EA%B7%B8%EB%A3%B9-%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%B9%8C%EB%94%A9%EC%97%90-%EB%AC%BC%EB%A5%98-%EC%9E%90%EB%8F%99%ED%99%94-%EB%8F%99%EB%A7%B9/ar-AA2cp1mL",
        "date": "2026-09-17",
@@ -476,23 +407,27 @@
        "group": "fa",
        "entity": "",
        "related": [],
-       "tags": [],
+       "tags": [
+        "AMR"
+       ],
        "grade": "B",
        "rel": 2,
        "followup": null
       },
       {
-       "id": "2026-09-18-14",
-       "h": "현대글로비스, 삼성물산과 스마트빌딩 물류자동화 협력",
-       "b": "뉴스제공=현대글로비스, 기업이 작성하여 배포한 보도자료.",
-       "src": "bing.com",
-       "url": "https://www.hankyung.com/article/202609170284P",
+       "id": "2026-09-18-16",
+       "h": "에코프로비엠, 품질예측 AI로 양극재 검사 12시간→실시간…TYM 무인검사 23% 단축",
+       "b": "포스코는 공정 내 여러 기종 로봇을 제어하는 통합제어시스템 구축, TYM 로봇 자동 체결로 조립 <b>22%</b> 단축.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12155665",
        "date": "2026-09-17",
        "cat": "market",
        "group": "fa",
        "entity": "",
        "related": [],
-       "tags": [],
+       "tags": [
+        "AMR"
+       ],
        "grade": "B",
        "rel": 4,
        "followup": null
@@ -502,30 +437,50 @@
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-09-18-0",
+   "say": "SK온 ESS용 LFP 양극재 3년 확보(서산·조지아) → 서산·조지아 ESS 셀 라인 증설·전환 일정과 주액/조립 장비 RFQ 확인"
+  },
+  {
+   "item_id": "2026-09-18-7",
+   "say": "천안·아산 반도체 후공정 소부장 특화단지 지정 → 아산 인근 후공정 신·증설 기업의 자동화·AMR 수요 파악"
+  },
+  {
+   "item_id": "2026-09-18-8",
+   "say": "AMR 실외 레이다 허용·무선충전 3kW 면제 추진 → 실외 상하역장 AMR 제안 준비, 기술기준 개정 일정 추적"
+  },
+  {
+   "item_id": "2026-09-18-2",
+   "say": "삼성SDI 전고체 내년 하반기 양산 목표 → 전고체 라인 장비(주액 대체 공정) 사양 정보 수집"
+  },
+  {
+   "item_id": "2026-09-18-6",
+   "say": "경쟁사 Geekplus 유럽 이노베이션 랩 개소 → 유럽 고객 대상 AMR 실증 경쟁 대응 검토"
+  },
+  {
+   "item_id": "2026-09-18-1",
+   "say": "LG엔솔 ESS 매출 4.6배·비중 20%대 후반 → ESS 라인 증설·전환 투자 계획 확인"
+  }
+ ],
  "stats": {
-  "fetched": 74,
-  "published": 21,
-  "headline_only": 5,
-  "followup": 0,
-  "suppressed": 0,
-  "sameday": 4,
-  "nobody": 0,
-  "unclassified": 1,
-  "capped": 31
+  "published": 17,
+  "refined_by": "claude",
+  "rule_published": 21
  },
  "sources": [
+  "Batteries News",
+  "PR Newswire",
   "Shanghai Metals Market",
   "bing.com",
   "electrive.com",
   "energy-storage.news",
-  "etnews.com",
   "mk.co.kr",
-  "roboticsandautomationnews.com",
   "v.daum.net",
   "yna.co.kr",
-  "데이터투자",
-  "아주경제",
-  "지디넷코리아"
+  "뉴스피릿",
+  "엠투데이",
+  "자본시장뉴스"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

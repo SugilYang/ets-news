@@ -43,6 +43,28 @@ rules:
   followup_needs_change: true            # 수치·일정이 달라져야만 후속으로 실음
   min_items_to_publish: 2                # 이보다 적으면 그날 호를 만들지 않음
 
+# ── 발행 메일 ─ 정제판이 올라가면 아래 수신자에게 요약 메일 발송 (.github/workflows/mail.yml) ──
+#   enabled: true 로 바꾸고 to: 에 받는 사람을 적으면 그날부터 발송됩니다.
+#   계정·주소 같은 비밀 정보는 여기 적지 말고 GitHub 저장소 Settings → Secrets → Actions 에 등록합니다.
+mail:
+  enabled: false                         # ← 수신자 확정 후 true 로
+  mode: "gas"                            # gas(사내 Apps Script 재사용) | smtp(다우오피스 메일 직접) | api(다우오피스 API 직접)
+  to: []                                 # 예: ["hong@ets.co.kr", "kim@ets.co.kr"]  (Secrets 의 MAIL_TO 가 있으면 그쪽 우선)
+  cc: []
+  subject_prefix: ""                     # 예: "[영업본부]"
+  gas:                                   # 기존 공수 시스템 Apps Script 에 action 하나만 추가해 재사용
+    action: "sendBrief"                  # Secrets: GAS_URL(웹앱 주소), GAS_TOKEN(임의의 공유 암호)
+  smtp:                                  # Secrets: DAOU_SMTP_USER, DAOU_SMTP_PASS (선택 DAOU_SMTP_HOST, DAOU_SMTP_PORT)
+    host: "smtp.daouoffice.com"
+    port: 465
+    security: "ssl"                      # ssl | starttls
+    from: ""                             # 비우면 SMTP 계정 주소를 그대로 사용
+    from_name: "이티에스 시장 동향"
+  api:                                   # Secrets: DAOU_API_URL, DAOU_API_KEY
+    key_header: "Authorization"
+    key_prefix: "Bearer "
+    body: {to: "{to}", cc: "{cc}", subject: "{subject}", content: "{html}", contentType: "html"}
+
 # ── 출처 신뢰도 (PPT 기준 ★) ─ 도메인으로 자동 판정 ───────────────────
 reliability:
   5: ["dart.fss.or.kr", "sec.gov", "lgensol.com", "samsungsdi.co.kr", "samsungsdi.com", "sk-on.com", "skinnonews.com",

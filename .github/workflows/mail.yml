@@ -1,0 +1,54 @@
+name: 발행 메일 발송
+
+# Claude 정제판이 올라오면(커밋 메시지 'Claude 정제판:') 지정 수신자에게 요약 메일을 보냅니다.
+# 수신자·방식은 watchlist.yml 의 mail: 블록, 계정 정보는 저장소 Settings → Secrets and variables → Actions 에 등록:
+#   smtp 방식: DAOU_SMTP_USER, DAOU_SMTP_PASS  (선택: DAOU_SMTP_HOST, DAOU_SMTP_PORT)
+#   api  방식: DAOU_API_URL, DAOU_API_KEY
+# 수동 발송: Actions 탭 → 이 워크플로 → Run workflow (날짜 입력, 비우면 오늘)
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "data/*.json"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "발송할 호의 날짜(YYYY-MM-DD, 비우면 오늘)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mail
+  cancel-in-progress: false
+
+jobs:
+  mail:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, 'Claude 정제판')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install pyyaml requests
+
+      - name: 메일 발송
+        env:
+          DAOU_SMTP_USER: ${{ secrets.DAOU_SMTP_USER }}
+          DAOU_SMTP_PASS: ${{ secrets.DAOU_SMTP_PASS }}
+          DAOU_SMTP_HOST: ${{ secrets.DAOU_SMTP_HOST }}
+          DAOU_SMTP_PORT: ${{ secrets.DAOU_SMTP_PORT }}
+          DAOU_API_URL: ${{ secrets.DAOU_API_URL }}
+          DAOU_API_KEY: ${{ secrets.DAOU_API_KEY }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          DAY="${{ github.event.inputs.date }}"
+          if [ -z "$DAY" ]; then DAY=$(TZ=Asia/Seoul date +%F); fi
+          python3 scripts/send_mail.py "$DAY"

@@ -1,0 +1,284 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>이티에스 시장 동향 보고서 제5호 — 2026-09-21</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet"><style>
+:root{
+  --ink:#111417;--text:#2a2f36;--muted:#6b7280;--faint:#9aa3ad;--rule:#1b1f24;--hair:#d9d5cc;--hair2:#e8e4da;
+  --paper:#efece4;--sheet:#fbfaf6;--accent:#b3261e;--accent-bg:#fbeeed;--brand:#0e9b86;--brand-bg:#e4f3ef;
+  --serif:'Noto Serif KR','Apple SD Gothic Neo','Malgun Gothic',serif;
+  --sans:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--sans);line-height:1.6;
+  font-variant-numeric:tabular-nums;word-break:keep-all;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+b,strong{font-weight:700}
+.sheet{max-width:1180px;margin:14px auto 40px;background:var(--sheet);border:1px solid var(--hair);box-shadow:0 1px 3px rgba(0,0,0,.06);padding:0 28px 34px}
+
+/* ── 제호 ── */
+.mast{border-top:4px solid var(--rule);border-bottom:1px solid var(--rule);padding:16px 0 12px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px}
+.mast .left{display:flex;align-items:center;gap:14px}
+.mast .logo{height:44px;width:auto;display:block}
+.mast .center{text-align:center}
+.mast .en{font-family:var(--sans);font-size:11px;letter-spacing:.32em;color:var(--muted);font-weight:500;margin-bottom:2px}
+.mast .name{font-family:var(--serif);font-weight:900;font-size:40px;line-height:1.1;color:var(--ink);letter-spacing:.02em;text-decoration:none;display:block}
+.mast .right{text-align:right;font-size:12.5px;color:var(--muted);line-height:1.5}
+.mast .right b{display:block;color:var(--ink);font-size:14px;font-family:var(--serif)}
+.dateline{border-bottom:3px double var(--rule);display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;font-size:13px;color:var(--ink)}
+.dateline .issue{font-family:var(--serif);font-weight:700}
+.dateline .pub{color:var(--muted)}
+.nav{display:flex;justify-content:center;gap:0;border-bottom:1px solid var(--rule);margin-bottom:6px;overflow-x:auto}
+.nav a{padding:9px 18px;font-size:13.5px;font-weight:700;text-decoration:none;color:var(--ink);border-left:1px solid var(--hair);white-space:nowrap;letter-spacing:.02em}
+.nav a:first-child{border-left:0}
+.nav a.on{color:var(--brand);box-shadow:inset 0 -3px 0 var(--brand)}
+.nav a:hover{background:#f1efe8}
+
+/* ── 호 이동 ── */
+.issuenav{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);padding:8px 0 0}
+.issuenav a{color:var(--ink);text-decoration:none;font-weight:700}
+.issuenav a:hover{color:var(--brand)}
+.issuenav .dis{color:var(--faint)}
+
+/* ── 1면 톱 ── */
+.front{display:grid;grid-template-columns:3fr 2fr;gap:0 24px;padding:12px 0 10px;border-bottom:1px solid var(--rule);margin-bottom:0}
+.front .lcol{border-right:1px solid var(--hair);padding-right:24px;min-width:0} .front .rcol{min-width:0}
+.front .guide{border-right:0;padding-right:0;margin-top:10px} .front .legend{margin-top:10px}
+.kicker{font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin-bottom:6px}
+.lead-story h1{font-family:var(--serif);font-weight:900;font-size:27px;line-height:1.3;margin:0 0 6px;color:var(--ink)}
+.lead-story h1 a{text-decoration:none}
+.lead-story h1 a:hover{color:var(--accent)}
+.lead-story .b{font-size:14.5px;line-height:1.7;margin:0 0 4px;color:var(--text);text-wrap:pretty}
+.front .side h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--muted);font-weight:700;margin:0 0 6px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
+.front .side .item{padding:4px 0}
+.front .side .item .h{font-size:14.5px}
+.front .side .item .b{display:none}
+.summary{font-size:13px;color:var(--muted);padding:6px 0 0;border-top:1px dotted var(--hair);margin-top:6px}
+.front{border-bottom:3px double var(--rule)}
+.guide-row{display:grid;grid-template-columns:3fr 2fr;gap:0 24px;border-bottom:3px double var(--rule);padding:8px 0 8px}
+.guide{border-right:1px solid var(--hair);padding-right:20px}
+.guide h2,.legend h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin:0 0 5px;padding-bottom:4px;border-bottom:1px solid var(--rule)}
+.legend h2{color:var(--muted)} .guide h2 small{letter-spacing:0;font-weight:500;color:var(--muted);margin-left:8px;font-size:11px}
+.guide ul{list-style:none;margin:0;padding:0} .guide li{padding:4px 0;border-bottom:1px dotted var(--hair);font-size:13.5px;line-height:1.5;color:var(--ink);text-wrap:pretty}
+.guide li:last-child{border-bottom:0} .guide li a{text-decoration:none;font-weight:700} .guide li a:hover{color:var(--accent)}
+.guide li small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
+.legend dl{margin:0;font-size:11.5px;line-height:1.55;color:var(--text);display:grid;grid-template-columns:auto 1fr;gap:2px 8px}
+.legend dt{font-weight:700;color:var(--ink);white-space:nowrap} .legend dd{margin:0}
+.summary b{color:var(--ink)}
+
+
+/* ── 한 줄 항목 ── */
+.item .row{display:block}
+.item .row .g{display:inline-block;vertical-align:2px;margin-right:6px}
+.item .row .h{display:inline}
+.legend-bar{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:11px;line-height:1.7;color:var(--muted);
+  background:#f3f1ea;border:1px solid var(--hair);padding:5px 10px;margin:8px 0 0}
+.legend-bar .lb-t{font-weight:700;color:var(--ink);letter-spacing:.12em;font-size:10.5px;padding-right:8px;border-right:1px solid var(--hair)}
+.legend-bar .lb-g b{color:var(--ink);font-weight:700}
+.legend-bar .lb-note{color:var(--faint);margin-left:auto}
+.fu-mini{display:inline-block;font-size:10.5px;font-weight:700;color:var(--accent);border-left:3px solid var(--accent);background:var(--accent-bg);padding:0 5px}
+.front .side{margin-top:8px;border-top:1px solid var(--rule)}
+.front .side h2{border-bottom:0;padding-top:6px}
+.front .rcol .guide{margin-top:0}
+
+/* ── 섹션 ── */
+.section{margin:10px 0 0} .section.thin .sec-head{border-top-width:1px;padding:4px 0;margin-bottom:0}
+.sec-head{display:flex;align-items:baseline;gap:10px;border-top:3px solid var(--rule);border-bottom:1px solid var(--rule);padding:5px 0 4px;margin-bottom:4px}
+.sec-head .no{font-family:var(--serif);font-weight:900;font-size:18px;color:var(--ink)}
+.sec-head h2{font-family:var(--serif);font-weight:900;font-size:19px;margin:0;color:var(--ink);letter-spacing:.01em}
+.sec-head .sub{font-size:12.5px;color:var(--muted)}
+.sec-head .cnt{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.cols{column-count:3;column-gap:24px;column-rule:1px solid var(--hair)}
+.cols.two{column-count:2} .cols.one{column-count:1}
+.group{break-inside:avoid;margin-bottom:4px}
+.group h3{font-family:var(--serif);font-size:13.5px;font-weight:700;color:var(--ink);margin:0;padding:3px 0 2px;border-bottom:2px solid var(--ink);display:flex;align-items:center;gap:8px}
+.group h3 .gcnt{font-family:var(--sans);font-size:11px;color:var(--muted);font-weight:500;margin-left:auto}
+.item{break-inside:avoid;padding:4px 0;border-bottom:1px dotted var(--hair)}
+.item:last-child{border-bottom:0}
+.item .h{margin:0;font-family:var(--serif);font-size:14.5px;font-weight:700;line-height:1.4;color:var(--ink);text-wrap:pretty}
+.item .h a{text-decoration:none}
+.item .h a:hover{color:var(--accent)}
+.item .b{margin:2px 0 0;font-size:13px;line-height:1.55;color:var(--text);text-wrap:pretty}
+.item .b b{color:var(--ink)}
+.meta{margin-top:1px;font-size:10.5px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 7px;align-items:center}
+.meta .src{color:var(--ink);font-weight:500}
+.meta .more{margin-left:auto;text-decoration:none;color:var(--brand);font-weight:700;white-space:nowrap}
+.meta .more:hover{text-decoration:underline}
+.stars{color:#c9a227;letter-spacing:-.05em;font-size:11px}
+.stars .off{color:#d9d5cc}
+.g{display:inline-block;font-size:10.5px;font-weight:700;line-height:1.4;padding:0 6px;border-radius:2px;border:1px solid var(--ink);color:var(--ink);letter-spacing:.04em;white-space:nowrap}
+.g.A{background:var(--accent);border-color:var(--accent);color:#fff}
+.g.B{background:var(--ink);color:#fff}
+.g.C{color:var(--muted);border-color:var(--faint)}
+.tag{display:inline-block;font-size:10.5px;line-height:1.5;padding:0 6px;border-radius:2px;background:#eeece5;color:#4b5563}
+.tag.key{background:var(--brand-bg);color:#0b6f60;font-weight:700}
+.ent{font-weight:700;color:var(--ink)}
+.rel{color:var(--faint)}
+.fu{margin-top:3px;font-size:12px;color:var(--accent);background:var(--accent-bg);border-left:3px solid var(--accent);padding:4px 8px;line-height:1.55}
+.fu b{color:var(--accent)}
+.empty{font-size:13px;color:var(--faint);font-style:italic;padding:6px 0 10px}
+
+/* ── 지난 호(달력) ── */
+.page-title{font-family:var(--serif);font-size:26px;font-weight:900;color:var(--ink);margin:22px 0 4px}
+.page-sub{font-size:13px;color:var(--muted);margin:0 0 12px}
+.months{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:8px}
+.month{border:1px solid var(--hair);background:#fff;padding:12px 14px 14px}
+.month h3{font-family:var(--serif);font-size:17px;margin:0 0 8px;color:var(--ink);display:flex;justify-content:space-between;align-items:baseline}
+.month h3 small{font-family:var(--sans);font-size:11.5px;color:var(--muted);font-weight:500}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center;font-size:12.5px}
+.cal .wd{font-size:11px;color:var(--muted);font-weight:700;padding:2px 0 4px}
+.cal .wd.sun,.cal .d.sun{color:#b3261e}
+.cal .wd.sat,.cal .d.sat{color:#1d4f8a}
+.cal .d{padding:6px 0;border:1px solid transparent;color:var(--faint);border-radius:3px;line-height:1.2}
+.cal .d.has{border-color:var(--ink);color:var(--ink);font-weight:700;text-decoration:none;background:#fff}
+.cal .d.has:hover{background:var(--ink);color:#fff}
+.cal .d.has small{display:block;font-size:9.5px;font-weight:500;color:var(--muted)}
+.cal .d.has:hover small{color:#ddd}
+.cal .d.off{opacity:.35}
+.arc-list{margin-top:18px;border-top:1px solid var(--rule)}
+.arc{display:flex;gap:14px;align-items:baseline;padding:10px 2px;border-bottom:1px dotted var(--hair);text-decoration:none}
+.arc:hover{background:#f4f2ec}
+.arc .no{font-family:var(--serif);font-weight:700;width:60px;flex:none;color:var(--ink)}
+.arc .date{flex:none;width:170px;color:var(--ink);font-weight:500}
+.arc .top{font-size:13px;color:var(--muted)}
+
+/* ── 회사별 ── */
+.co-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin:8px 0 18px}
+.co{background:#fff;border:1px solid var(--hair);padding:12px 14px;text-decoration:none}
+.co:hover{border-color:var(--ink)}
+.co .n{font-family:var(--serif);font-weight:700;font-size:16px;color:var(--ink)}
+.co .m{font-size:12px;color:var(--muted);margin-top:3px}
+.co .m b{color:var(--brand)}
+.dgroup{margin-top:16px}
+.dgroup h3{font-family:var(--serif);font-size:15px;color:var(--ink);margin:0 0 4px;padding-bottom:4px;border-bottom:2px solid var(--ink)}
+.dgroup h3 small{font-family:var(--sans);font-weight:500;color:var(--muted);font-size:12px;margin-left:8px}
+.list{padding:0 2px}
+
+/* ── 검색 ── */
+.sbar{display:grid;grid-template-columns:2fr 1fr 1fr 1fr auto;gap:8px;margin-top:8px}
+.btn{font:inherit;font-size:14px;font-weight:700;padding:9px 18px;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--brand);border-color:var(--brand)} .btn.ghost{background:#fff;color:var(--ink);font-weight:500;padding:6px 12px;font-size:12.5px}
+.sbar2{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:8px;align-items:center}
+.sbar input,.sbar select,.sbar2 input,.sbar2 select{font:inherit;font-size:14px;padding:9px 11px;border:1px solid var(--hair);background:#fff;width:100%}
+.sbar input:focus,.sbar select:focus,.sbar2 input:focus{outline:2px solid var(--brand);outline-offset:1px}
+.sbar2 label{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.scount{font-size:12.5px;color:var(--muted);margin:10px 2px 0}
+.sres{margin-top:6px;border-top:1px solid var(--rule)}
+
+/* ── 주간 종합 ── */
+.wk-page{margin-top:18px;border:1px solid var(--rule);padding:14px 18px 16px;background:#fff}
+.wk-head{display:flex;align-items:baseline;gap:12px;border-bottom:3px double var(--rule);padding-bottom:8px;margin-bottom:12px}
+.wk-head .p{font-family:var(--serif);font-weight:900;font-size:22px;color:var(--ink)}
+.wk-head .t{font-family:var(--serif);font-weight:700;font-size:17px;color:var(--ink)}
+.wk-head .r{margin-left:auto;font-size:12.5px;color:var(--muted)}
+.wk-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:0 18px}
+.wk-cols.three{grid-template-columns:repeat(3,1fr)}
+.wk-col{border-left:1px solid var(--hair);padding-left:14px;min-width:0}
+.wk-col:first-child{border-left:0;padding-left:0}
+.wk-col h4{font-family:var(--serif);font-size:15px;font-weight:700;color:var(--ink);margin:0 0 6px;padding:4px 0;border-bottom:2px solid var(--ink);display:flex;gap:8px;align-items:baseline}
+.wk-col h4 small{margin-left:auto;font-family:var(--sans);font-weight:500;font-size:11px;color:var(--muted)}
+.wk-col .item{padding:8px 0}
+.wk-col .item .h{font-size:14.5px}
+.wk-col .item .b{font-size:12.5px;line-height:1.6}
+.wk-table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:14px}
+.wk-table th,.wk-table td{border-bottom:1px solid var(--hair);padding:6px 8px;text-align:left;vertical-align:top}
+.wk-table th{background:#f3f1ea;color:var(--ink);font-weight:700;border-bottom:2px solid var(--ink)}
+.wk-table td.c{text-align:center}
+.wk-table tr.g td:first-child{font-weight:700}
+.wk-nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.wk-nav a{font-size:12.5px;padding:4px 10px;border:1px solid var(--hair);text-decoration:none;color:var(--ink);background:#fff}
+.wk-nav a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ── 가시성 강화 ── */
+.sec-head{background:var(--ink);color:#fff;padding:6px 12px;border:0;border-left:8px solid var(--secc,#0e9b86);margin-bottom:6px}
+.sec-head .no,.sec-head h2{color:#fff} .sec-head .sub{color:#c9d3df} .sec-head .cnt{color:#e6ebf1}
+.section.thin .sec-head{background:#e9e6de;color:var(--ink);padding:4px 12px}
+.section.thin .sec-head .no,.section.thin .sec-head h2{color:var(--ink)} .section.thin .sec-head .cnt{color:var(--muted)}
+#project{--secc:#b3261e} #customer{--secc:#1d4f8a} #competitor{--secc:#5b3fb8} #tech_policy{--secc:#946400} #market{--secc:#0e9b86}
+.group h3{color:var(--secc,var(--ink));border-bottom-color:var(--secc,var(--ink))}
+.item.gA{background:#fdf3f2;border-left:4px solid var(--accent);padding-left:8px;margin:2px 0}
+.item.gA .h{font-size:15.5px}
+.g{font-size:11px;padding:1px 7px}
+.g.A{box-shadow:0 1px 0 rgba(0,0,0,.15)}
+.lead-story{background:#fff;border:1px solid var(--hair);border-top:5px solid var(--accent);padding:12px 14px 10px;margin-top:6px}
+.lead-story h1{font-size:28px}
+.front .rcol .guide{background:var(--brand-bg);border:1px solid #bfe3d9;padding:10px 12px}
+.guide h2{color:#0b6f60;border-bottom-color:#0b6f60;font-size:13px;letter-spacing:.12em}
+.guide li{font-size:14px;border-bottom-color:#cfe6df}
+.guide li a{color:#0b3d35}
+.refined{display:inline-block;background:var(--brand);color:#fff;font-size:11px;padding:0 7px;border-radius:2px;font-family:var(--sans);font-weight:700;vertical-align:1px}
+.legend-bar{background:#fff}
+@media(max-width:640px){ .lead-story h1{font-size:22px} .item.gA .h{font-size:15.5px} .sec-head{padding:5px 10px} }
+
+/* ── 형식 전환·보고서 ── */
+.issuenav .mid{display:flex;align-items:center;gap:10px}
+.fmt{display:inline-flex;border:1px solid var(--ink);border-radius:3px;overflow:hidden}
+.fmt a{padding:3px 12px;font-size:12.5px;font-weight:700;text-decoration:none;color:var(--ink);background:#fff}
+.fmt a.on{background:var(--ink);color:#fff}
+.fmt a:hover{color:var(--brand)} .fmt a.on:hover{color:#fff}
+.arc .fmt{margin-left:auto} .arc .fmt a{padding:2px 9px;font-size:11.5px} .arc .no{text-decoration:none}
+.rp{background:#fff;border:1px solid var(--hair);padding:18px 22px 20px;margin-top:12px}
+.rp-head{border-bottom:3px double var(--rule);padding-bottom:8px;margin-bottom:12px}
+.rp-tag{display:inline-block;font-size:11px;letter-spacing:.18em;font-weight:700;color:#fff;background:var(--ink);padding:2px 10px;margin-bottom:6px}
+.rp h1{font-family:var(--sans);font-size:24px;font-weight:700;margin:0;color:var(--ink)}
+.rp-meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:6px 0 12px}
+.tile{border:1px solid var(--hair);padding:10px 12px;background:#fbfaf6}
+.tile.a{border-top:4px solid var(--accent)}
+.tile .tl{font-size:11.5px;color:var(--muted)}
+.tile .tv{font-family:var(--sans);font-size:30px;font-weight:600;color:var(--ink);line-height:1.15;font-variant-numeric:proportional-nums}
+.tile.a .tv{color:var(--accent)}
+.tile .tn{font-size:10.5px;color:var(--faint);line-height:1.4;margin-top:2px}
+.rp-summary{font-size:13.5px;line-height:1.6;color:var(--text);background:#f3f1ea;padding:8px 12px;margin-bottom:12px}
+.rp-summary b{color:var(--ink);margin-right:6px}
+.rp-h2{font-family:var(--sans);font-size:15px;font-weight:700;color:var(--ink);margin:10px 0 6px;padding-left:8px;border-left:4px solid var(--brand)}
+.rt{width:100%;border-collapse:collapse;font-size:12.5px;table-layout:fixed}
+.rt th{background:#eeece5;color:var(--ink);font-weight:700;text-align:left;padding:6px 8px;border-bottom:2px solid var(--ink)}
+.rt td{padding:7px 8px;border-bottom:1px solid var(--hair);vertical-align:top;line-height:1.5}
+.rt td.c,.rt th:first-child{text-align:center;width:64px}
+.rt td.ent{font-weight:700;color:var(--ink);width:120px}
+.rt td.act{color:#0b3d35;font-weight:700}
+.rt td.src{font-size:11px;color:var(--muted);width:120px}
+.rt td.t{font-family:var(--serif);font-weight:700} .rt td.t a{text-decoration:none} .rt td.t a:hover{color:var(--accent)}
+.rt td.b{color:var(--text)} .rt td.tg{width:110px}
+.rt .fu{font-weight:400}
+.rp-sec{margin-top:14px} .rp-sec h3{font-family:var(--sans);font-size:14px;font-weight:700;margin:0 0 4px;color:var(--ink)} .rp-sec h3 small{color:var(--muted);font-weight:500}
+.rp .empty{padding:4px 0 8px}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}
+  .rt,.rt tbody,.rt tr,.rt td{display:block;width:auto} .rt thead{display:none}
+  .rt tr{border:1px solid var(--hair);padding:8px 10px;margin-bottom:8px;background:#fff}
+  .rt td{padding:2px 0;border:0;line-height:1.5} .rt td.c,.rt td.ent{display:inline-block;margin-right:8px;width:auto}
+  .rt td.src{font-size:11px;width:auto} .rt td.src br{display:none} .rt td.tg{width:auto}
+  .rt td.act::before{content:"→ ";color:var(--brand)}}
+@media(max-width:640px){.rp{padding:12px 12px 14px} .rp h1{font-size:20px} .tile .tv{font-size:24px} .issuenav .mid{flex-direction:column;gap:4px}}
+@media print{.rp{border:0;padding:0} .rp.detail{break-before:page;page-break-before:always} .kpis{grid-template-columns:repeat(5,1fr)} .fmt{display:none}}
+
+/* ── 푸터 ── */
+.footer{margin-top:26px;border-top:3px double var(--rule);padding-top:10px;font-size:11.5px;color:var(--muted);line-height:1.7}
+
+@media(max-width:1000px){.cols.three{column-count:2} .front{grid-template-columns:1fr} .front .lcol{border-right:0;padding-right:0;padding-bottom:10px;border-bottom:1px solid var(--hair);margin-bottom:6px}
+  .wk-cols{grid-template-columns:1fr 1fr} .wk-cols.three{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){
+  .sheet{margin:0;border:0;padding:0 14px 30px;box-shadow:none}
+  .mast{grid-template-columns:1fr;gap:6px;text-align:center;padding:12px 0 8px}
+  .mast .left{justify-content:center} .mast .logo{height:34px}
+  .mast .name{font-size:26px} .mast .en{font-size:9.5px;letter-spacing:.22em}
+  .mast .right{text-align:center;font-size:12px} .mast .right b{display:inline;margin-right:8px;font-size:13px}
+  .dateline{font-size:12px;flex-wrap:wrap} .dateline .pub{display:none}
+  .nav{justify-content:flex-start} .nav a{padding:9px 11px;font-size:13px}
+  .lead-story h1{font-size:21px} .lead-story .b{font-size:14px}
+  .cols,.cols.two,.cols.three{column-count:1}
+  .legend-bar{font-size:10.5px;gap:2px 10px} .legend-bar .lb-note{display:none}
+  .guide-row{grid-template-columns:1fr} .guide{border-right:0;padding-right:0}
+  .front .lcol{border-right:0;padding-right:0;border-bottom:1px solid var(--hair);padding-bottom:8px;margin-bottom:6px}
+  .item .h{font-size:15px} .item .b{font-size:13.5px;line-height:1.6}
+  .sec-head h2{font-size:19px} .sec-head .sub{display:none}
+  .wk-cols,.wk-cols.three{grid-template-columns:1fr} .wk-col{border-left:0;padding-left:0}
+  .wk-page{padding:12px 12px 14px}
+  .sbar{grid-template-columns:1fr 1fr} .sbar input{grid-column:1 / -1} .sbar .btn{grid-column:1 / -1} .sbar2{grid-template-columns:1fr 1fr}
+  .arc .date{width:auto} .arc .no{width:48px}
+}
+@media print{
+  body{background:#fff} .sheet{margin:0;border:0;box-shadow:none;max-width:none;padding:0}
+  .nav,.issuenav,.sbar,.sbar2,.scount,.wk-nav{display:none!important}
+  .meta .more{display:none} a{text-decoration:none}
+  .section,.group,.item,.wk-page{break-inside:avoid;page-break-inside:avoid}
+}
+</style></head><body><div class="sheet"><header class="mast"><div class="left"><img class="logo" src="../assets/logo.png" alt="ETS"></div><div class="center"><div class="en">ETS MARKET INTELLIGENCE</div><a class="name" href="../index.html">이티에스 시장 동향</a></div><div class="right"><b>제5호</b>2026년 9월 21일 월요일</div></header><div class="dateline"><span class="issue">제5호 · 2026년 9월 21일 월요일 · 조간</span><span class="pub">월~금 아침 발행 · 공개 보도·공시 기반 · 사실만 기록</span></div><nav class="nav"><a href="../index.html" class="on">오늘 브리핑</a><a href="../archive.html" class="">지난 호</a><a href="../companies/index.html" class="">회사별</a><a href="../search.html" class="">검색</a><a href="../weekly.html" class="">주간 종합</a></nav><div class="issuenav"><a href="../reports/2026-09-18.html">◀ 이전 호 2026-09-18</a><span class="mid"><span class="fmt"><a href="../index.html" class="">신문</a><a href="../report.html" class="on">보고서</a></span><span class="cur">2026-09-21</span></span><span class="dis">다음 호 ▶</span></div><section class="rp cover"><div class="rp-head"><span class="rp-tag">갑지 · 요약</span><h1>영업 정보보고</h1><div class="rp-meta">제5호 · 2026년 9월 21일 월요일 · 조간 · 규칙표 판</div></div><div class="kpis"><div class="tile a"><div class="tl">즉시보고(A)</div><div class="tv">11</div><div class="tn">대규모 투자·RFQ·취소/연기·경쟁사 대형수주</div></div><div class="tile "><div class="tl">고객사·Project 신호</div><div class="tv">8</div><div class="tn">LG엔솔·삼성SDI·SK온·글로벌</div></div><div class="tile "><div class="tl">경쟁사 동향</div><div class="tv">4</div><div class="tn">장비·AMR 22개사</div></div><div class="tile "><div class="tl">영업 포인트</div><div class="tv">7</div><div class="tn">확인·준비할 일</div></div><div class="tile "><div class="tl">보고 항목 / 수집</div><div class="tv">21 / 24</div><div class="tn">C등급·일반 동향 3건은 신문 형식에서</div></div></div><div class="rp-summary"><b>오늘의 요약</b> 삼성SDI⁠·​SK온 잇따라 고객 확보⁠…​엘앤에프 LFP 사 ·​ 한경협,​ “반도체 기반시설 확충 서둘러야” 바이오 등  ·​ 경제인협회 &quot;반도체 공장 가동 앞두고 도로⁠·​용수 아직&quot; ·​ 리스크 떠넘긴 美에 李 “수용 불가”…​2000억불 대미</div><h2 class="rp-h2">오늘의 영업 포인트</h2><table class="rt"><thead><tr><th>No</th><th>등급</th><th>회사</th><th>사실(신호)</th><th>영업이 할 일</th><th>출처</th></tr></thead><tbody><tr><td class="c">1</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">LG에너지솔루션</td><td>LG에너지솔루션 신⁠·​증설 투자</td><td class="act">라인 구성⁠·​장비 발주​(RFQ)​ 시점 확인</td><td class="src">yna.co.kr <span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span><br><a href="https://www.yna.co.kr/view/AKR20260918181100003" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">2</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">LG에너지솔루션</td><td>LG에너지솔루션 ESS 물량 확대</td><td class="act">ESS 셀 라인 증설 여부⁠·​주액/​조립 장비 수요 확인</td><td class="src">bing.com <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.ceoscoredaily.com/page/view/2026091617163962338" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">3</td><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">삼성SDI</td><td>삼성SDI 신⁠·​증설 투자</td><td class="act">라인 구성⁠·​장비 발주​(RFQ)​ 시점 확인</td><td class="src">bing.com <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=488659" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">4</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">SK온</td><td>SK온 신⁠·​증설 투자</td><td class="act">라인 구성⁠·​장비 발주​(RFQ)​ 시점 확인</td><td class="src">bing.com <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/sk%EC%98%A8-lfp-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%B3%B8%EA%B2%A9-%EC%83%9D%EC%82%B0-ess-%EC%8B%9C%EC%9E%A5-%EC%84%A0%EC%A0%90-%EA%B2%BD%EC%9F%81-%EB%B6%88%EB%B6%99%EC%97%88%EB%8B%A4/vi-AA2ctE16" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">5</td><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">SK온</td><td>SK온 ESS 물량 확대</td><td class="act">ESS 셀 라인 증설 여부⁠·​주액/​조립 장비 수요 확인</td><td class="src">디지털데일리 <span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span><br><a href="https://www.ddaily.co.kr/page/view/2026092000313322883" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">6</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">티로보틱스</td><td>경쟁사 티로보틱스 수주</td><td class="act">해당 고객⁠·​라인 경쟁 구도 확인,​ 당사 레퍼런스 정리</td><td class="src">이투데이 <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.etoday.co.kr/news/view/2627045" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">7</td><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td>정책⁠·​보조금 변화</td><td class="act">고객 투자 지역⁠·​일정 영향 확인</td><td class="src">etnews.com <span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span><br><a href="https://www.etnews.com/20260921000003" target="_blank" rel="noopener">원문 ↗</a></td></tr></tbody></table></section><section class="rp detail"><div class="rp-head"><span class="rp-tag">을지 · 상세</span><h1>카테고리별 정리</h1><div class="rp-meta">A·B등급만 수록. 시장·산업은 투자·수주·RFQ·ESS·리스크 관련만. 제목을 누르면 원문.</div></div><div class="rp-sec" id="project"><h3>① Project · RFQ <small>0건</small></h3><p class="empty">해당 없음</p></div><div class="rp-sec" id="customer"><h3>② 고객사 동향 <small>8건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">LG에너지솔루션</td><td class="t"><a href="https://www.yna.co.kr/view/AKR20260918181100003" target="_blank" rel="noopener">상반기 글로벌 ESS용 배터리 출하 71% 급증⁠…​각형이 전체의 94%</a></td><td class="b">국내 업체들이 집중 투자 중인 각형 배터리를 중심으로 한 성장세가 지속되면서 내년 ESS용 배터리 출하량은 처음으로 <b>1천</b>GWh​(기가와트시)​를 넘어설 수 있을 것으로 전망된다.</td><td class="src">yna.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/21</td><td class="tg"><span class="tag">ESS</span><span class="tag">각형</span><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">LG에너지솔루션</td><td class="t"><a href="https://www.ceoscoredaily.com/page/view/2026091617163962338" target="_blank" rel="noopener">배터리⁠·​양극재 ‘기지개’…​분리막⁠·​동박은 아직 ‘한파’,​ 극명한 ‘온도차’</a></td><td class="b">배터리⁠·​양극재 ‘기지개’…​분리막⁠·​동박은 아직 ‘한파’,​ 극명한 ‘온도차’ 국내 배터리 업계의 실적 회복세에 온도차가 뚜렷해지고 있다.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/20</td><td class="tg"><span class="tag">ESS</span><span class="tag">정책</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">삼성SDI</td><td class="t"><a href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=488659" target="_blank" rel="noopener">삼성SDI⁠·​SK온 잇따라 고객 확보⁠…​엘앤에프 LFP 사업 커진다</a></td><td class="b">전기차 시장의 성장 둔화로 배터리 소재 업계가 고전하는 가운데 엘앤에프가 중국산 의존도가 낮은 리튬인산철​(LFP)​ 양극재 시장에서 잇따라 수주를 따내고 있다.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/19</td><td class="tg"><span class="tag">투자</span><span class="tag">수주</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">삼성SDI</td><td class="t"><a href="https://www.mk.co.kr/news/stock/12156292" target="_blank" rel="noopener">삼성전자 담고 삼성SDI 던졌다 [주식 초고수는 지금]​</a></td><td class="b">미래에셋증권에서 거래하는 고수익 투자자들이 18일 오전 9시30분까지 가장 많이 순매수한 종목은 삼성전자로 집계됐다.</td><td class="src">mk.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/18</td><td class="tg"><span class="tag">투자</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">SK온</td><td class="t"><a href="https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/sk%EC%98%A8-lfp-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%B3%B8%EA%B2%A9-%EC%83%9D%EC%82%B0-ess-%EC%8B%9C%EC%9E%A5-%EC%84%A0%EC%A0%90-%EA%B2%BD%EC%9F%81-%EB%B6%88%EB%B6%99%EC%97%88%EB%8B%A4/vi-AA2ctE16" target="_blank" rel="noopener">SK온 LFP 배터리 본격 생산...​ESS 시장 선점 경쟁 불붙었다</a></td><td class="b">#SK온 #LFP배터리 #ESS #배터리산업 #이차전지 #전기차배터리 #에너지저장장치 #배터리주 #주식투자 #친환경에너지 ...​</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/18</td><td class="tg"><span class="tag">ESS</span><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">SK온</td><td class="t"><a href="https://www.ddaily.co.kr/page/view/2026092000313322883" target="_blank" rel="noopener">북미 ESS가 당긴 `탈중국`…​K-배터리,​ LFP 공급망 재편 본격화 [위클리배터리]​</a></td><td class="b">—</td><td class="src">디지털데일리<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/20</td><td class="tg"><span class="tag">ESS</span><span class="tag">수주</span><span class="tag">정책</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">Panasonic Energy</td><td class="t"><a href="https://www.g-enews.com/article/Global-Biz/2026/09/2026092001080917290c8c1c064d_1" target="_blank" rel="noopener">"테슬라 제치고 데이터센터가 효자"…​ 파나소닉,​ AI 백업 배터리 매출 EV 역전</a></td><td class="b">—</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/20</td><td class="tg"><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">Panasonic Energy</td><td class="t"><a href="https://www.mk.co.kr/news/stock/12156440" target="_blank" rel="noopener">대림통상,​ 日 파나소닉 하우징 솔루션즈에 수전 2종 신규 수주</a></td><td class="b">욕실 및 주방 주택설비 전문기업 대림통상이 일본 종합 주거설비 기업 파나소닉 하우징 솔루션즈​(PHS)​에 수전 2종을 신규 공급한다.</td><td class="src">mk.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/18</td><td class="tg"><span class="tag">수주</span><span class="tag">실적</span></td></tr></tbody></table></div><div class="rp-sec" id="competitor"><h3>③ 업계 동향 <small>4건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">SFA</td><td class="t"><a href="https://www.judal.co.kr/?view=stockAI&amp;shareToken=G35uYD8rUIkwUIlF" target="_blank" rel="noopener">SFA 투자분석 2026. 09. 19</a></td><td class="b">SFA 투자분석 2026.</td><td class="src">주달<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/19</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">SFA</td><td class="t"><a href="https://www.tbc.co.kr/news/view?id=209628" target="_blank" rel="noopener">SFA넥셀,​ 매출 반토막에도 영업이익 10배 급증</a></td><td class="b">대구의 이차전지 장비업체 SFA넥셀의 매출이 크게 줄었는데 영업이익은 오히려 약 <b>10배</b> 늘어난 것으로 나타났습니다.</td><td class="src">Tbc.co.kr<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/18</td><td class="tg"><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">티로보틱스</td><td class="t"><a href="https://www.etoday.co.kr/news/view/2627045" target="_blank" rel="noopener">티로보틱스,​ 美 생산거점 구축 추진⁠…​‘유리기판 로봇⁠·​ESS 자동화’ 수주 대응</a></td><td class="b">포드에너지 ESS 누적 <b>190억</b> 수주 확보⁠…​3분기 반도체⁠·​유리기판 진공로봇 출하 급증 실리콘밸리⁠·​텍사스 이어 제조 거점 검토⁠…​美 FCC 규제 및 현지 납기 밀착⁠…​</td><td class="src">이투데이<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/18</td><td class="tg"><span class="tag">ESS</span><span class="tag">수주</span><span class="tag">정책</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">티로보틱스</td><td class="t"><a href="https://www.market-ink.co.kr/news/articleView.html?idxno=12136" target="_blank" rel="noopener">티로보틱스,​ 미국 규제 반사이익에 현지 생산거점까지 검토</a></td><td class="b">티로보틱스가 북미 시장에서 수주를 늘려가면서 미국 내 생산 인프라 구축까지 검토하고 나섰다.</td><td class="src">마켓잉크<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 9/18</td><td class="tg"><span class="tag">AMR</span><span class="tag">ESS</span><span class="tag">수주</span><span class="tag">정책</span><span class="tag">실적</span></td></tr></tbody></table></div><div class="rp-sec" id="tech_policy"><h3>④ 기술 · 정책 <small>3건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.etnews.com/20260920000086" target="_blank" rel="noopener">리스크 떠넘긴 美에 李 “수용 불가”…​2000억불 대미 투자 합의 '급제동'</a></td><td class="b">대미 투자 프로젝트 합의가 기약 없이 표류하고 있다.</td><td class="src">etnews.com<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/20</td><td class="tg"><span class="tag">투자</span><span class="tag key">리스크</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.etnews.com/20260921000003" target="_blank" rel="noopener">한경협,​ “반도체 기반시설 확충 서둘러야” 바이오 등 정책과제 41건 건의</a></td><td class="b">한국경제인협회​(한경협)​는 반도체⁠·​디스플레이⁠·​배터리⁠·​바이오⁠·​로봇 등 국가첨단전략산업 분야 기업 투자를 가로막는 정책과제 <b>41건</b>을 규제합리화위원회 등에 건의했다고 21일 밝혔다.</td><td class="src">etnews.com<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/21</td><td class="tg"><span class="tag">투자</span><span class="tag">정책</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.yna.co.kr/view/AKR20260920032500003" target="_blank" rel="noopener">경제인협회 "반도체 공장 가동 앞두고 도로⁠·​용수 아직"</a></td><td class="b">협회는 반도체⁠·​디스플레이⁠·​배터리⁠·​바이오⁠·​로봇 등 국가첨단전략산업 분야 기업 의견을 수렴한 정책과제 <b>41건</b>을 규제합리화위원회 등에 건의했다.</td><td class="src">yna.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/21</td><td class="tg"><span class="tag">투자</span><span class="tag">정책</span></td></tr></tbody></table></div><div class="rp-sec" id="market"><h3>⑤ 시장 · 산업 <small>6건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.energy-storage.news/australias-nsw-firming-tender-delivers-3gwh-of-battery-storage-as-all-round-2-projects-go-operational/" target="_blank" rel="noopener">Australia’s NSW firming tender delivers 3GWh of battery storage as all Round 2 projects go operational</a></td><td class="b">All battery storage and demand response projects selected under ASL’s 2023 firming tender⁠…​</td><td class="src">energy-storage.news<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 9/18</td><td class="tg"><span class="tag">투자</span><span class="tag key">RFQ</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.energy-storage.news/commissioning-delays-and-technical-gaps-plague-battery-storage-handovers-industry-experts-warn/" target="_blank" rel="noopener">Commissioning delays and technical gaps plague battery storage handovers,​ industry experts warn</a></td><td class="b">The transition of battery energy storage systems (BESS)​ from development to operations⁠…​</td><td class="src">energy-storage.news<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 9/17</td><td class="tg"><span class="tag">ESS</span><span class="tag key">리스크</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.energy-storage.news/jupiter-power-closes-us1-4-billion-financing-for-10-us-bess-projects-totalling-3-8gwh/" target="_blank" rel="noopener">Jupiter Power closes US$1.4 billion financing for 10 US BESS projects totalling 3.8GWh</a></td><td class="b">US battery energy storage system (BESS)​ developer-operator Jupiter Power has closed a⁠…​</td><td class="src">energy-storage.news<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 9/18</td><td class="tg"><span class="tag">ESS</span><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.mk.co.kr/news/stock/12157285" target="_blank" rel="noopener">“삼성전자 DDR5 외주물량 싹쓸이?”…​나흘새 23% 뛴 SFA반도체 [이주의 Bull기둥]​</a></td><td class="b">인공지능​(AI)​ 투자 속도 조절론과 미국의 기준금리 인상까지 겹치며 국내 증시가 출렁인 이번 주에도 반도체 후공정에서는 불기둥이 솟았다.</td><td class="src">mk.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/20</td><td class="tg"><span class="tag">투자</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.yna.co.kr/view/AKR20260918167800003" target="_blank" rel="noopener">AI 속도조절론에도⁠…​"올해 반도체시장 1.6조달러로 성장 가속"</a></td><td class="b">최근 AI 업계 일각에서 기술 통제 상실을 우려해 제기한 '속도조절론'에도 불구하고 AI 개발 경쟁이 사그라들기는커녕 가속할 수 있다는 관측이다.</td><td class="src">yna.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/20</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.mk.co.kr/news/stock/12156848" target="_blank" rel="noopener">“언제부터 반도체 회사였지?”…​3조 넘게 쏟아붓고 랠리 합류한 이 그룹</a></td><td class="b">두산그룹이 동박적층판​(CCL)​부터 웨이퍼,​ 시스템반도체 테스트까지 반도체 사업 영역을 넓히고 있다.</td><td class="src">mk.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 9/18</td><td class="tg"><span class="tag">투자</span><span class="tag">실적</span></td></tr></tbody></table></div></section><div class="footer">본 브리핑은 공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 등급 A=즉시보고 B=Daily C=Weekly, ★=출처 신뢰도(공시·IR 5, 정부·주요언론 4, 협회·채용·특허 3). 수치·계약 세부는 원문/공시로 확인하십시오.<br>이티에스 시장 동향</div></div></body></html>

@@ -3282,151 +3282,215 @@
   },
   {
    "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "광주 반도체 클러스터 조성 설비 투자 본격 시동",
-   "nt": "광주반도체클러스터조성설비투자본격시동",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔, 美 랜싱 공장 본격 가동…AIDC·ESS 시장 대응",
+   "nt": "lg엔솔랜싱공장본격가동aidcess시장대응",
    "tk": [
-    "광주",
-    "반도체",
+    "aidc",
+    "ess",
+    "lg엔솔",
+    "가동",
+    "공장",
+    "대응",
+    "랜싱",
     "본격",
-    "설비",
-    "시동",
-    "조성",
-    "클러스터",
-    "투자"
+    "시장"
    ],
    "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20260921105700054"
+   "url": "https://biz.chosun.com/industry/company/2026/09/21/BHSBU4AIZNESLC6K4H5ZKF6QW4/"
   },
   {
    "date": "2026-09-22",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "Battery Testing & Inspection Systems: Global Market Size, Share & Trends Analysis 2026-2036",
-   "nt": "batterytestinginspectionsystemsglobalmar",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔, 美 랜싱 공장 본격 가동…AIDC·ESS 시장 선점 - 조선비즈",
+   "nt": "lg엔솔랜싱공장본격가동aidcess시장선점조선비즈",
    "tk": [
-    "2026",
-    "2036",
-    "analysis",
-    "battery",
-    "global",
-    "inspection",
-    "market",
-    "share",
-    "size",
-    "systems",
-    "testing",
-    "trends"
+    "aidc",
+    "ess",
+    "lg엔솔",
+    "가동",
+    "공장",
+    "랜싱",
+    "본격",
+    "선점",
+    "시장",
+    "조선비즈"
+   ],
+   "nums": [],
+   "url": "https://biz.chosun.com/industry/company/2026/09/21/BHSBU4AIZNESLC6K4H5ZKF6QW4/"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔 상반기 R&D 7259억 역대 최대…흑연계 전고체 2029년 EV용",
+   "nt": "lg엔솔상반기rd7259억역대최대흑연계전고체2029년ev용",
+   "tk": [
+    "2029년",
+    "7259억",
+    "ev용",
+    "lg엔솔",
+    "상반기",
+    "역대",
+    "전고체",
+    "최대",
+    "흑연계"
    ],
    "nums": [
-    "2026",
-    "2036"
+    "10만",
+    "2029년",
+    "2030년",
+    "2140건",
+    "5350건",
+    "6만",
+    "7259억"
    ],
-   "url": "https://menafn.com/1111690106/Battery-Testing-Inspection-Systems-Global-Market-Size-Share-Trends-Analysis-2026-2036"
+   "url": "https://www.joongang.co.kr/article/25463926"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "[The Company] 특허·R&D 투자로 미래 배터리 시장 선점",
+   "nt": "thecompany특허rd투자로미래배터리시장선점",
+   "tk": [
+    "company",
+    "the",
+    "미래",
+    "배터리",
+    "선점",
+    "시장",
+    "투자로",
+    "특허"
+   ],
+   "nums": [
+    "10만",
+    "2029년",
+    "2030년",
+    "2140건",
+    "5350건",
+    "6만"
+   ],
+   "url": "https://www.joongang.co.kr/article/25463926"
   },
   {
    "date": "2026-09-22",
    "entity": "삼성SDI",
    "cat": "customer",
    "group": "sdi",
-   "h": "\"삼성SDI, 전력 인프라株로 재평가돼야\"…해성디에스, 1900억 증설 투자로 성장 한계 해소 [株토피아]",
-   "nt": "삼성sdi전력인프라로재평가돼야해성디에스1900억증설투자로성장한계해소토피아",
+   "h": "삼성SDI, 로봇용 배터리는 고성능 원통형 셀→전고체로 확장",
+   "nt": "삼성sdi로봇용배터리는고성능원통형셀전고체로확장",
    "tk": [
-    "1900억",
+    "고성능",
+    "로봇용",
+    "배터리는",
     "삼성sdi",
-    "성장",
-    "인프라",
-    "재평가돼야",
-    "전력",
-    "증설",
-    "토피아",
-    "투자로",
-    "한계",
-    "해성디에스",
-    "해소"
-   ],
-   "nums": [
-    "1900억",
-    "9월21일"
-   ],
-   "url": "https://v.daum.net/v/9T37mvmjki"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "AI 반도체 병목 뚫는다…후공정 장비, 설비투자 슈퍼사이클 주역 부상",
-   "nt": "ai반도체병목뚫는다후공정장비설비투자슈퍼사이클주역부상",
-   "tk": [
-    "ai",
-    "뚫는다",
-    "반도체",
-    "병목",
-    "부상",
-    "설비투자",
-    "슈퍼사이클",
-    "장비",
-    "주역",
-    "후공정"
+    "원통형",
+    "전고체로",
+    "확장"
    ],
    "nums": [],
-   "url": "https://www.mhns.co.kr/news/articleView.html?idxno=761259"
+   "url": "https://v.daum.net/v/20260921090210767"
   },
   {
    "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "India flow battery player Delectrik talks 100MWh NTPC project award, targets gigawatt-hour order book",
-   "nt": "indiaflowbatteryplayerdelectriktalks100m",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "“AI가 두뇌면, 배터리는 심장”…삼성SDI, 전고체 배터리 로봇 시장 공략 [미리보는 헤럴드 기업포럼 2026]",
+   "nt": "ai가두뇌면배터리는심장삼성sdi전고체배터리로봇시장공략미리보는헤럴드기업포럼",
    "tk": [
-    "100mwh",
-    "award",
-    "battery",
-    "book",
-    "delectrik",
-    "flow",
-    "gigawatt",
-    "hour",
-    "india",
-    "ntpc",
-    "order",
-    "player",
-    "project",
-    "talks",
-    "targets"
+    "2026",
+    "ai가",
+    "공략",
+    "기업포럼",
+    "두뇌면",
+    "로봇",
+    "미리보는",
+    "배터리",
+    "배터리는",
+    "삼성sdi",
+    "시장",
+    "심장",
+    "전고체",
+    "헤럴드"
    ],
    "nums": [
-    "100MWh"
+    "2026"
    ],
-   "url": "https://www.energy-storage.news/india-flow-battery-player-delectrik-talks-100mwh-ntpc-project-award-targets-gigawatt-hour-order-book/"
+   "url": "https://v.daum.net/v/20260921090210767"
   },
   {
    "date": "2026-09-22",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "반도체가 수출 절반 … 무역흑자 230억달러 '역대 최대'",
-   "nt": "반도체가수출절반무역흑자230억달러역대최대",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, SVIC 85호 신기술투자조합에 297억 출자 결의",
+   "nt": "삼성sdisvic85호신기술투자조합에297억출자결의",
    "tk": [
-    "230억달러",
-    "무역흑자",
-    "반도체가",
-    "수출",
-    "역대",
-    "절반",
-    "최대"
+    "297억",
+    "85호",
+    "svic",
+    "결의",
+    "삼성sdi",
+    "신기술투자조합에",
+    "출자"
    ],
    "nums": [
-    "2000만",
-    "230억",
-    "341억"
+    "297억"
    ],
-   "url": "https://www.mk.co.kr/news/economy/12158521"
+   "url": "https://www.thepublic.kr/news/articleViewAmp.html?idxno=319566"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, 신기술 발굴에 297억원…10월부터 필요할 때 나눠 낸다",
+   "nt": "삼성sdi신기술발굴에297억원10월부터필요할때나눠낸다",
+   "tk": [
+    "10월부터",
+    "297억원",
+    "나눠",
+    "낸다",
+    "발굴에",
+    "삼성sdi",
+    "신기술",
+    "필요할"
+   ],
+   "nums": [
+    "297억"
+   ],
+   "url": "https://www.thepublic.kr/news/articleViewAmp.html?idxno=319566"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL CMO \"전고체 대규모 상용화까지 최소 5년 이상\"",
+   "nt": "catlcmo전고체대규모상용화까지최소5년이상",
+   "tk": [
+    "5년",
+    "catl",
+    "cmo",
+    "대규모",
+    "상용화까지",
+    "이상",
+    "전고체",
+    "최소"
+   ],
+   "nums": [
+    "5년",
+    "5배"
+   ],
+   "url": "https://www.theguru.co.kr/news/article.html?no=107322"
   },
   {
    "date": "2026-09-22",
@@ -3449,252 +3513,90 @@
     "콘셉트"
    ],
    "nums": [
-    "5년"
+    "5년",
+    "5배"
    ],
    "url": "https://www.theguru.co.kr/news/article.html?no=107322"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "반도체 후공정 훈풍... 하나마이크론, 패키징·테스트 외주 확대로 도약 박차",
-   "nt": "반도체후공정훈풍하나마이크론패키징테스트외주확대로도약박차",
-   "tk": [
-    "도약",
-    "박차",
-    "반도체",
-    "외주",
-    "테스트",
-    "패키징",
-    "하나마이크론",
-    "확대로",
-    "후공정",
-    "훈풍"
-   ],
-   "nums": [],
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=489011"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "韓 수출 절반은 반도체...초고수 하이닉스 ‘사자’[주식 초고수는 지금]",
-   "nt": "수출절반은반도체초고수하이닉스사자주식초고수는지금",
-   "tk": [
-    "반도체",
-    "사자",
-    "수출",
-    "절반은",
-    "주식",
-    "지금",
-    "초고수",
-    "초고수는",
-    "하이닉스"
-   ],
-   "nums": [
-    "1%"
-   ],
-   "url": "https://www.mk.co.kr/news/stock/12157905"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "북미 ESS 호황에 K배터리 수주 순풍",
-   "nt": "북미ess호황에k배터리수주순풍",
-   "tk": [
-    "ess",
-    "k배터리",
-    "북미",
-    "수주",
-    "순풍",
-    "호황에"
-   ],
-   "nums": [],
-   "url": "https://www.sidae.com/article/2026092114512811619"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "[The Company] 특허·R&D 투자로 미래 배터리 시장 선점",
-   "nt": "thecompany특허rd투자로미래배터리시장선점",
-   "tk": [
-    "company",
-    "the",
-    "미래",
-    "배터리",
-    "선점",
-    "시장",
-    "투자로",
-    "특허"
-   ],
-   "nums": [],
-   "url": "https://www.joongang.co.kr/article/25463926"
   },
   {
    "date": "2026-09-22",
    "entity": "CATL",
    "cat": "customer",
    "group": "global",
-   "h": "CATL 계열사, 브이넷그룹에 대규모 전략적 투자 단행…글로벌 배터리 리더와 협력 본격화",
-   "nt": "catl계열사브이넷그룹에대규모전략적투자단행글로벌배터리리더와협력본격화",
+   "h": "CATL, 쓰촨 야안에 14억위안(2600억) 리튬염 생산기지 건설",
+   "nt": "catl쓰촨야안에14억위안2600억리튬염생산기지건설",
    "tk": [
+    "14억위안",
+    "2600억",
     "catl",
-    "계열사",
-    "글로벌",
-    "단행",
-    "대규모",
-    "리더와",
-    "배터리",
-    "본격화",
-    "브이넷그룹에",
-    "전략적",
-    "투자",
-    "협력"
+    "건설",
+    "리튬염",
+    "생산기지",
+    "쓰촨",
+    "야안에"
    ],
    "nums": [
-    "310개",
-    "5%",
-    "552개",
-    "6%",
-    "7천"
+    "13만",
+    "14억",
+    "2600억",
+    "3만",
+    "4만",
+    "7만"
    ],
-   "url": "https://stock.mk.co.kr/news/view/1163196"
+   "url": "https://www.thecommoditiesnews.com/news/articleView.html?idxno=11852"
   },
   {
    "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "전기차·ESS로 ‘LFP배터리’ 수요↑…중국 독주 속 한국도 가세",
-   "nt": "전기차ess로lfp배터리수요중국독주속한국도가세",
-   "tk": [
-    "ess로",
-    "lfp배터리",
-    "가세",
-    "독주",
-    "수요",
-    "전기차",
-    "중국",
-    "한국도"
-   ],
-   "nums": [],
-   "url": "https://www.hani.co.kr/arti/economy/economy_general/1278920.html"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "LG에너지솔루션",
+   "entity": "CATL",
    "cat": "customer",
-   "group": "lgensol",
-   "h": "K배터리, ESS 시장 성장에 '라인 전환·품질관리' 총력",
-   "nt": "k배터리ess시장성장에라인전환품질관리총력",
+   "group": "global",
+   "h": "CATL, 2600억 투입 야안시에 리튬염 기지 건설",
+   "nt": "catl2600억투입야안시에리튬염기지건설",
    "tk": [
-    "ess",
-    "k배터리",
-    "라인",
-    "성장에",
-    "시장",
-    "전환",
-    "총력",
-    "품질관리"
+    "2600억",
+    "catl",
+    "건설",
+    "기지",
+    "리튬염",
+    "야안시에",
+    "투입"
    ],
-   "nums": [],
-   "url": "https://www.finomy.com/news/articleView.html?idxno=262078"
+   "nums": [
+    "13만",
+    "2600억",
+    "3만",
+    "4만",
+    "7만"
+   ],
+   "url": "https://www.thecommoditiesnews.com/news/articleView.html?idxno=11852"
   },
   {
    "date": "2026-09-22",
-   "entity": "삼성SDI",
+   "entity": "EVE",
    "cat": "customer",
-   "group": "sdi",
-   "h": "글로벌 ESS 배터리 시장 '각형'이 독식…삼성SDI, 전력 인프라 산업 선도 전망",
-   "nt": "글로벌ess배터리시장각형이독식삼성sdi전력인프라산업선도전망",
+   "group": "global",
+   "h": "Fluence–EVE, 2027~31년 206GWh 배터리 공급 기본계약",
+   "nt": "fluenceeve202731년206gwh배터리공급기본계약",
    "tk": [
-    "ess",
-    "각형",
-    "글로벌",
-    "독식",
-    "배터리",
-    "산업",
-    "삼성sdi",
-    "선도",
-    "시장",
-    "인프라",
-    "전력",
-    "전망"
-   ],
-   "nums": [],
-   "url": "https://www.lkp.news/news/articleView.html?idxno=84266"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "나인테크",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "나인테크 투자분석 2026. 09. 20",
-   "nt": "나인테크투자분석20260920",
-   "tk": [
-    "09",
-    "20",
-    "2026",
-    "나인테크",
-    "투자분석"
+    "2027",
+    "206gwh",
+    "31년",
+    "eve",
+    "fluence",
+    "공급",
+    "기본계약",
+    "배터리"
    ],
    "nums": [
-    "2026"
+    "16GWh",
+    "190GWh",
+    "2027",
+    "2027년",
+    "2028",
+    "206GWh",
+    "31년"
    ],
-   "url": "https://www.judal.co.kr/?view=stockAI&shareToken=yuGq53smlV0K8m3u"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "추석 고속도로 전기차 충전량 360% 늘때 충전기는 40% 증가 그쳐",
-   "nt": "추석고속도로전기차충전량360늘때충전기는40증가그쳐",
-   "tk": [
-    "360",
-    "40",
-    "고속도로",
-    "그쳐",
-    "늘때",
-    "전기차",
-    "증가",
-    "추석",
-    "충전기는",
-    "충전량"
-   ],
-   "nums": [
-    "140만",
-    "2023년",
-    "360%",
-    "40%",
-    "5천"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20260921160900003"
-  },
-  {
-   "date": "2026-09-22",
-   "entity": "",
-   "cat": "market",
-   "group": "fa",
-   "h": "180cm 로봇과 사람이 실제 격투…손까지 부러졌다",
-   "nt": "180cm로봇과사람이실제격투손까지부러졌다",
-   "tk": [
-    "180cm",
-    "격투",
-    "로봇과",
-    "부러졌다",
-    "사람이",
-    "손까지",
-    "실제"
-   ],
-   "nums": [],
-   "url": "https://www.etnews.com/20260921000368"
+   "url": "https://www.energy-storage.news/fluence-and-eve-energy-agree-206gwh-battery-supply-deal/"
   },
   {
    "date": "2026-09-22",
@@ -3715,30 +3617,88 @@
     "supply"
    ],
    "nums": [
-    "206GWh"
+    "16GWh",
+    "190GWh",
+    "2027년",
+    "2028",
+    "206GWh",
+    "31년"
    ],
    "url": "https://www.energy-storage.news/fluence-and-eve-energy-agree-206gwh-battery-supply-deal/"
   },
   {
    "date": "2026-09-22",
-   "entity": "SK온",
+   "entity": "BYD",
    "cat": "customer",
-   "group": "skon",
-   "h": "SK 울산CLX, 울산대와 'AI 해커톤' 출범…현장과제 해결 도전",
-   "nt": "sk울산clx울산대와ai해커톤출범현장과제해결도전",
+   "group": "global",
+   "h": "BYD, 브레이크 페달 부품 결함으로 중국서 18만3000대 리콜",
+   "nt": "byd브레이크페달부품결함으로중국서18만3000대리콜",
    "tk": [
-    "ai",
-    "sk",
-    "도전",
-    "울산clx",
-    "울산대와",
-    "출범",
-    "해결",
-    "해커톤",
-    "현장과제"
+    "18만3000대",
+    "byd",
+    "결함으로",
+    "리콜",
+    "부품",
+    "브레이크",
+    "중국서",
+    "페달"
+   ],
+   "nums": [
+    "18만",
+    "2014",
+    "2022년",
+    "3000대",
+    "3211대"
+   ],
+   "url": "https://www.electrive.com/2026/09/21/byd-recalls-183000-cars-in-china-over-brake-pedal-issue/"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD recalls 183,000 cars in China over brake pedal issue",
+   "nt": "bydrecalls183000carsinchinaoverbrakepeda",
+   "tk": [
+    "000",
+    "183",
+    "brake",
+    "byd",
+    "cars",
+    "china",
+    "in",
+    "issue",
+    "over",
+    "pedal",
+    "recalls"
+   ],
+   "nums": [
+    "18만",
+    "2014",
+    "2022년",
+    "3211대"
+   ],
+   "url": "https://www.electrive.com/2026/09/21/byd-recalls-183000-cars-in-china-over-brake-pedal-issue/"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "디에이테크놀로지",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "디에이테크놀로지, 상장폐지 무효 소송 기각…23일 정리매매 재개",
+   "nt": "디에이테크놀로지상장폐지무효소송기각23일정리매매재개",
+   "tk": [
+    "23일",
+    "기각",
+    "디에이테크놀로지",
+    "무효",
+    "상장폐지",
+    "소송",
+    "재개",
+    "정리매매"
    ],
    "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20260921155900057"
+   "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=867287"
   },
   {
    "date": "2026-09-22",
@@ -3760,46 +3720,349 @@
   },
   {
    "date": "2026-09-22",
-   "entity": "디에이테크놀로지",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "디에이테크놀로지, 상장폐지 따른 정리매매 개시로 주권 매매거래정지 해제",
-   "nt": "디에이테크놀로지상장폐지따른정리매매개시로주권매매거래정지해제",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "익산시, 반도체 소부장 특화단지 지정 후 첫 기업유치 회의",
+   "nt": "익산시반도체소부장특화단지지정후첫기업유치회의",
    "tk": [
-    "개시로",
-    "디에이테크놀로지",
-    "따른",
-    "매매거래정지",
-    "상장폐지",
-    "정리매매",
-    "주권",
-    "해제"
+    "기업유치",
+    "반도체",
+    "소부장",
+    "익산시",
+    "지정",
+    "특화단지",
+    "회의"
    ],
-   "nums": [],
-   "url": "https://www.digitaltoday.co.kr/disclosure/articleView.html?idxno=702205"
+   "nums": [
+    "4대"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260921148200055"
   },
   {
    "date": "2026-09-22",
-   "entity": "엠플러스",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "엠플러스 최대주주 김종성, 주식담보대출 기간 연장",
-   "nt": "엠플러스최대주주김종성주식담보대출기간연장",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "익산시, '반도체 소부장 특화단지' 훈풍 타고 기업 유치 총력",
+   "nt": "익산시반도체소부장특화단지훈풍타고기업유치총력",
    "tk": [
-    "기간",
-    "김종성",
-    "엠플러스",
-    "연장",
-    "주식담보대출",
-    "최대주주"
+    "기업",
+    "반도체",
+    "소부장",
+    "유치",
+    "익산시",
+    "총력",
+    "타고",
+    "특화단지",
+    "훈풍"
    ],
    "nums": [
-    "10억",
-    "2.54%",
-    "2026년",
-    "31만"
+    "4대"
    ],
-   "url": "https://www.datatooza.com/article/20260921153537850552ef30f49e_80"
+   "url": "https://www.yna.co.kr/view/AKR20260921148200055"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전자, 광주사업장 반도체용 HVAC 생산라인 착공…2400억",
+   "nt": "삼성전자광주사업장반도체용hvac생산라인착공2400억",
+   "tk": [
+    "2400억",
+    "hvac",
+    "광주사업장",
+    "반도체용",
+    "삼성전자",
+    "생산라인",
+    "착공"
+   ],
+   "nums": [
+    "1900억",
+    "2028년",
+    "2400억",
+    "300명",
+    "500억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260921105700054"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "광주 반도체 클러스터 조성 설비 투자 본격 시동",
+   "nt": "광주반도체클러스터조성설비투자본격시동",
+   "tk": [
+    "광주",
+    "반도체",
+    "본격",
+    "설비",
+    "시동",
+    "조성",
+    "클러스터",
+    "투자"
+   ],
+   "nums": [
+    "1900억",
+    "2028년",
+    "300명",
+    "500억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260921105700054"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "9월 1~20일 반도체 수출 341억달러…전체 수출의 47.8%",
+   "nt": "9월120일반도체수출341억달러전체수출의478",
+   "tk": [
+    "20일",
+    "341억달러",
+    "47",
+    "9월",
+    "반도체",
+    "수출",
+    "수출의",
+    "전체"
+   ],
+   "nums": [
+    "341억",
+    "46.1억",
+    "47.8%",
+    "714억",
+    "78.3%",
+    "89.8%"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12158521"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "반도체가 수출 절반 … 무역흑자 230억달러 '역대 최대'",
+   "nt": "반도체가수출절반무역흑자230억달러역대최대",
+   "tk": [
+    "230억달러",
+    "무역흑자",
+    "반도체가",
+    "수출",
+    "역대",
+    "절반",
+    "최대"
+   ],
+   "nums": [
+    "230억",
+    "46.1억",
+    "714억",
+    "78.3%",
+    "89.8%"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12158521"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "배터리 3사, ESS 라인 전환·증설…LG엔솔 올해 ESS 수주 목표 90GWh",
+   "nt": "배터리3사ess라인전환증설lg엔솔올해ess수주목표90gwh",
+   "tk": [
+    "3사",
+    "90gwh",
+    "ess",
+    "lg엔솔",
+    "라인",
+    "목표",
+    "배터리",
+    "수주",
+    "올해",
+    "전환",
+    "증설"
+   ],
+   "nums": [
+    "30GWh",
+    "461GWh",
+    "71%",
+    "76GWh",
+    "83%",
+    "90GWh"
+   ],
+   "url": "https://www.finomy.com/news/articleView.html?idxno=262078"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "K배터리, ESS 시장 성장에 '라인 전환·품질관리' 총력",
+   "nt": "k배터리ess시장성장에라인전환품질관리총력",
+   "tk": [
+    "ess",
+    "k배터리",
+    "라인",
+    "성장에",
+    "시장",
+    "전환",
+    "총력",
+    "품질관리"
+   ],
+   "nums": [
+    "30GWh",
+    "461GWh",
+    "71%",
+    "76GWh",
+    "83%"
+   ],
+   "url": "https://www.finomy.com/news/articleView.html?idxno=262078"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "올해 LFP 양극재 출하 524만톤 전망, 전년比 51%↑…비중 77%",
+   "nt": "올해lfp양극재출하524만톤전망전년51비중77",
+   "tk": [
+    "51",
+    "524만톤",
+    "77",
+    "lfp",
+    "비중",
+    "양극재",
+    "올해",
+    "전년",
+    "전망",
+    "출하"
+   ],
+   "nums": [
+    "20%",
+    "51%",
+    "524만",
+    "77%"
+   ],
+   "url": "https://www.hani.co.kr/arti/economy/economy_general/1278920.html"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "전기차·ESS로 ‘LFP배터리’ 수요↑…중국 독주 속 한국도 가세",
+   "nt": "전기차ess로lfp배터리수요중국독주속한국도가세",
+   "tk": [
+    "ess로",
+    "lfp배터리",
+    "가세",
+    "독주",
+    "수요",
+    "전기차",
+    "중국",
+    "한국도"
+   ],
+   "nums": [
+    "20%"
+   ],
+   "url": "https://www.hani.co.kr/arti/economy/economy_general/1278920.html"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "리얼월드·CJ대한통운, 물류 특화 로봇 파운데이션 모델 공동 개발",
+   "nt": "리얼월드cj대한통운물류특화로봇파운데이션모델공동개발",
+   "tk": [
+    "cj대한통운",
+    "개발",
+    "공동",
+    "로봇",
+    "리얼월드",
+    "모델",
+    "물류",
+    "특화",
+    "파운데이션"
+   ],
+   "nums": [],
+   "url": "https://wowtale.net/2026/09/21/265063/"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "리얼월드, CJ대한통운과 물류 특화 RFM 공동 개발",
+   "nt": "리얼월드cj대한통운과물류특화rfm공동개발",
+   "tk": [
+    "cj대한통운과",
+    "rfm",
+    "개발",
+    "공동",
+    "리얼월드",
+    "물류",
+    "특화"
+   ],
+   "nums": [],
+   "url": "https://wowtale.net/2026/09/21/265063/"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "추석 고속도로 EV 충전량 2년새 4.6배, 충전기는 1.4배",
+   "nt": "추석고속도로ev충전량2년새46배충전기는14배",
+   "tk": [
+    "2년새",
+    "4배",
+    "6배",
+    "ev",
+    "고속도로",
+    "추석",
+    "충전기는",
+    "충전량"
+   ],
+   "nums": [
+    "1.4배",
+    "200kW",
+    "2030년",
+    "2년",
+    "4.6배",
+    "67%"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260921160900003"
+  },
+  {
+   "date": "2026-09-22",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "추석 고속도로 전기차 충전량 360% 늘때 충전기는 40% 증가 그쳐",
+   "nt": "추석고속도로전기차충전량360늘때충전기는40증가그쳐",
+   "tk": [
+    "360",
+    "40",
+    "고속도로",
+    "그쳐",
+    "늘때",
+    "전기차",
+    "증가",
+    "추석",
+    "충전기는",
+    "충전량"
+   ],
+   "nums": [
+    "200kW",
+    "2030년",
+    "360%",
+    "40%",
+    "67%"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260921160900003"
   }
  ]
 }

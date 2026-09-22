@@ -1,0 +1,494 @@
+{
+ "schema": 4,
+ "date": "2026-09-23",
+ "weekday": "수",
+ "edition": "조간",
+ "issue_no": 7,
+ "window_hours": 36,
+ "summary": "정부가 4000억·민간서 8조 투입...차세대 배터리에 · 포스코퓨처엠, SK온과 LFP 양극재 1.1조원 공급계 · CATL 계열사, 브이넷그룹에 대규모 전략적 투자 단행 · 포스코퓨처엠, LFP 양극재 수주 행진...SK온에 1",
+ "top": [
+  "2026-09-23-13",
+  "2026-09-23-2",
+  "2026-09-23-17",
+  "2026-09-23-6"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-09-23-7",
+       "h": "이차전지업계, ‘전고체 배터리’ 전환 본격화...개발 경쟁 치열",
+       "b": "체인저로 불리는 ‘전고체 배터리(All-Solid-State Battery)’ 시장 선점을 위한 국내 기업들의 노력과 함께 미국·중국·일본과의 글로벌 기술 패권 경쟁이 한창이다.",
+       "src": "bing.com",
+       "url": "https://www.womentimes.co.kr/news/articleView.html?idxno=106401",
+       "date": "2026-09-22",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "전고체",
+        "특허"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-13",
+       "h": "정부가 4000억·민간서 8조 투입...차세대 배터리에 승부수 건다",
+       "b": "산업통상부가 차세대 배터리 경쟁력 강화를 위해 앞으로 <b>5년</b>간 약 <b>4000억</b>원을 투입하는 신규 연구개발(R&amp;D) 사업에 착수한다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12159286",
+       "date": "2026-09-22",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "전고체",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-09-23-15",
+       "h": "“배터리만 보지 마라”…ESS가 띄운 삼성SDI, 전력 인프라株 주목",
+       "b": "",
+       "src": "글로벌이코노믹",
+       "url": "https://www.g-enews.com/article/Securities/2026/09/202609221430003357153ddfb15a_1",
+       "date": "2026-09-22",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-16",
+       "h": "AI가 부른 '전력 먹는 하마'…ESS 배터리 시장 71% 폭풍 성장",
+       "b": "인공지능(AI) 데이터센터 확산에 따른 전력 수요",
+       "src": "nbn 시사경제",
+       "url": "https://www.nbnbiz.co.kr/news/articleView.html?idxno=45970",
+       "date": "2026-09-22",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": [
+      {
+       "id": "2026-09-23-2",
+       "h": "포스코퓨처엠, SK온과 LFP 양극재 1.1조원 공급계약",
+       "b": "계약기간은 내년부터 <b>2029년</b>까지 <b>3년</b>간이다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260922178700003",
+       "date": "2026-09-22",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-6",
+       "h": "포스코퓨처엠, LFP 양극재 수주 행진...SK온에 1.1조 어치 공급",
+       "b": "포스코퓨처엠이 지난달 국내 배터리사에 <b>19만</b>톤 규모 리튬인산철(LFP) 양극재 장기 공급을 합의한 데 이어, SK온과도 LFP 양극재 대형 공급 계약을 체결했다.",
+       "src": "지디넷코리아",
+       "url": "https://zdnet.co.kr/view/?no=20260922172325",
+       "date": "2026-09-22",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-09-23-14",
+       "h": "CATL’s Hungarian plant with a planned 100 GWh capacity begins trial production today",
+       "b": "CATL officially commenced trial production at its newly constructed cell manufacturing facility in Debrecen on September 22, 2026.",
+       "src": "CarNewsChina.com",
+       "url": "https://carnewschina.com/2026/09/22/catls-hungarian-plant-with-a-planned-100-gwh-capacity-begins-trial-production-today/",
+       "date": "2026-09-22",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-17",
+       "h": "CATL 계열사, 브이넷그룹에 대규모 전략적 투자 단행…글로벌 배터리 리더와 협력 본격화",
+       "b": "코스피 <b>0.15%</b> 올라 7017메타 AI에이전트 뮤즈 열풍에장초반 반도체株 중심 급등세7100 돌파 후 유가급등에 주춤추석연휴 앞두고 개인 매도세5거래일새 <b>9조</b>…",
+       "src": "매일경제 마켓",
+       "url": "https://stock.mk.co.kr/news/view/1163196",
+       "date": "2026-09-21",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": []
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-09-23-0",
+       "h": "ACEA calls for delay to stricter EU-UK battery rules",
+       "b": "From 2027, stricter rules of origin for batteries will apply to electric cars traded between the EU and the UK.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/22/acea-calls-for-delay-to-stricter-eu-uk-battery-rules/",
+       "date": "2026-09-22",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "리스크",
+        "정책"
+       ],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-1",
+       "h": "中 저가·기술 공세 맞선 K배터리…2030년까지 8조원 투자",
+       "b": "중국 배터리 업체들이 저가형 제품부터 차세대 기술까지 공세를 넓히면서 국내 배터리 업계도 대응 전략을 다변화하고 있다.",
+       "src": "bing.com",
+       "url": "https://www.ngetnews.com/news/articleView.html?idxno=553604",
+       "date": "2026-09-22",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-5",
+       "h": "박수현 \"삼성 113조 아산 투자 이행 지원…첨단산업 기반 확충\"",
+       "b": "박 지사는 이날 '충남통(通)행' 네 번째 일정으로 아산시청에서 시민들과 만나 지역 현안과 발전 구상을 설명했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260922107400063",
+       "date": "2026-09-22",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-09-23-18",
+       "h": "ChargeIndia brings 40+ charging networks into one app",
+       "b": "Indian EV charging platform ChargeIndia has launched a new aggregation service that…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/22/chargeindia-brings-40-charging-networks-into-one-app/",
+       "date": "2026-09-23",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-09-23-8",
+       "h": "Cummins to manufacture LFP batteries for commercial vehicles in Spain",
+       "b": "US motor specialist Cummins announces the construction of a battery factory in Spain.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/22/cummins-to-manufacture-lfp-batteries-for-commercial-vehicles-in-spain/",
+       "date": "2026-09-22",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-10",
+       "h": "Covenergo and Delta Capacity begin construction on 300MWh AKKU One BESS in Finland",
+       "b": "",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/covenergo-and-delta-capacity-begin-construction-on-300mwh-akku-one-bess-in-finland/",
+       "date": "2026-09-22",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-12",
+       "h": "ESS 중앙계약시장 개설…총 1천180MW 규모 사업자 선정",
+       "b": "이번에 사업자를 선정하는 ESS 규모를 육지와 제주로 나누면 각각 <b>1천</b><b>48MW</b>와 <b>148MW</b>다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260922103000530",
+       "date": "2026-09-22",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "RFQ"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-09-23-3",
+       "h": "'호남권 반도체클러스터' 2030년 6월 첫 양산 목표…내년 부지 착공",
+       "b": "전남광주통합특별시는 호남권 반도체클러스터 조성과 관련해 <b>2030년</b> 6월 첫 양산을 목표로 <b>800조</b>원 규모의 메모리 팹(Fab) 4기를 조성키로 하고 핵심 기반시설 구축을 최대한 앞당기는 전격전을 펼친다는 계획이라고 22일 밝혔다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260922000415",
+       "date": "2026-09-22",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-4",
+       "h": "광주 반도체 산단 부지 조성 내년 상반기 착공",
+       "b": "김기홍 전남광주시 반도체산업지원단장은 22일 광주청사에서 기자간담회를 하고 호남 반도체 클러스터 추진 상황을 설명했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20260922108500054",
+       "date": "2026-09-22",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-09-23-11",
+       "h": "PCB 회로, 이제 '3D 프린팅'으로…티엘비 선폭 60㎛급 양산 기술 확보",
+       "b": "반도체용 인쇄회로기판(PCB) 기업 티엘비가 3D 프린터와 금속 잉크로 회로를 그리는 PCB 공정 기술을 양산 수준까지 확보했다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20260922000293",
+       "date": "2026-09-22",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": [
+      {
+       "id": "2026-09-23-9",
+       "h": "美조지아에 아틀라스 '로봇학교' 가동",
+       "b": "현대차의 조지아 HMGMA 내부에 아틀라스 학습시설 RMAC가 본격 가동됐습니다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12159594",
+       "date": "2026-09-22",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 97,
+  "published": 19,
+  "headline_only": 7,
+  "followup": 0,
+  "suppressed": 0,
+  "sameday": 1,
+  "nobody": 0,
+  "unclassified": 0,
+  "capped": 52
+ },
+ "sources": [
+  "CarNewsChina.com",
+  "bing.com",
+  "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
+  "mk.co.kr",
+  "nbn 시사경제",
+  "yna.co.kr",
+  "글로벌이코노믹",
+  "매일경제 마켓",
+  "지디넷코리아"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

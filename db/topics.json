@@ -4697,6 +4697,405 @@
    ],
    "nums": [],
    "url": "https://www.ikld.kr/news/articleView.html?idxno=341158"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "PowerCo",
+   "cat": "customer",
+   "group": "global",
+   "h": "PowerCo postpones battery cell production in Canada",
+   "nt": "powercopostponesbatterycellproductioninc",
+   "tk": [
+    "battery",
+    "canada",
+    "cell",
+    "in",
+    "postpones",
+    "powerco",
+    "production"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/25/powerco-postpones-battery-cell-production-in-canada/"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "PowerCo",
+   "cat": "customer",
+   "group": "global",
+   "h": "Volkswagen subsidiary delays opening of $7B St. Thomas, Ont., battery plant to 2029",
+   "nt": "volkswagensubsidiarydelaysopeningof7bstt",
+   "tk": [
+    "2029",
+    "7b",
+    "battery",
+    "delays",
+    "of",
+    "ont",
+    "opening",
+    "plant",
+    "st",
+    "subsidiary",
+    "thomas",
+    "to",
+    "volkswagen"
+   ],
+   "nums": [
+    "2029"
+   ],
+   "url": "https://www.cbc.ca/news/canada/london/st-thomas-ev-battery-plant-delay-9.7356821"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "중국이 쓸어담는 휴머노이드 특허…한국 점유율은 한자릿수",
+   "nt": "중국이쓸어담는휴머노이드특허한국점유율은한자릿수",
+   "tk": [
+    "쓸어담는",
+    "점유율은",
+    "중국이",
+    "특허",
+    "한국",
+    "한자릿수",
+    "휴머노이드"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260925026700001"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "“부장님이 웬일로 법카를 주네요”…반도체 호황에 기업 결제액 사상 최대",
+   "nt": "부장님이웬일로법카를주네요반도체호황에기업결제액사상최대",
+   "tk": [
+    "결제액",
+    "기업",
+    "반도체",
+    "법카를",
+    "부장님이",
+    "사상",
+    "웬일로",
+    "주네요",
+    "최대",
+    "호황에"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12162185"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "美 AI발 전력수요 확산…K배터리 기대감",
+   "nt": "ai발전력수요확산k배터리기대감",
+   "tk": [
+    "ai발",
+    "k배터리",
+    "기대감",
+    "전력수요",
+    "확산"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/news/other/%E7%BE%8E-ai%EB%B0%9C-%EC%A0%84%EB%A0%A5%EC%88%98%EC%9A%94-%ED%99%95%EC%82%B0-k%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B8%B0%EB%8C%80%EA%B0%90/ar-AA2d4Fmo"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "“지금 포기하면 낙오”… 현대차가 원가 벽 뚫고 전고체에 사활 건 이유",
+   "nt": "지금포기하면낙오현대차가원가벽뚫고전고체에사활건이유",
+   "tk": [
+    "낙오",
+    "뚫고",
+    "사활",
+    "원가",
+    "이유",
+    "전고체에",
+    "지금",
+    "포기하면",
+    "현대차가"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/autos/%EC%A0%84%EA%B8%B0%EC%B0%A8/%EC%A7%80%EA%B8%88-%ED%8F%AC%EA%B8%B0%ED%95%98%EB%A9%B4-%EB%82%99%EC%98%A4-%ED%98%84%EB%8C%80%EC%B0%A8%EA%B0%80-%EC%9B%90%EA%B0%80-%EB%B2%BD-%EB%9A%AB%EA%B3%A0-%EC%A0%84%EA%B3%A0%EC%B2%B4%EC%97%90-%EC%82%AC%ED%99%9C-%EA%B1%B4-%EC%9D%B4%EC%9C%A0/ar-AA2d4MAV"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "홍콩 재벌 손잡은 美 에너베뉴, 中서 '니켈-수소 ESS' 첫 양산… LFP 독점에 도전장",
+   "nt": "홍콩재벌손잡은에너베뉴서니켈수소ess첫양산lfp독점에도전장",
+   "tk": [
+    "ess",
+    "lfp",
+    "니켈",
+    "도전장",
+    "독점에",
+    "손잡은",
+    "수소",
+    "양산",
+    "에너베뉴",
+    "재벌",
+    "홍콩"
+   ],
+   "nums": [
+    "80%"
+   ],
+   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%EC%9E%AC%EC%83%9D-%EC%97%90%EB%84%88%EC%A7%80/%ED%99%8D%EC%BD%A9-%EC%9E%AC%EB%B2%8C-%EC%86%90%EC%9E%A1%EC%9D%80-%E7%BE%8E-%EC%97%90%EB%84%88%EB%B2%A0%EB%89%B4-%E4%B8%AD%EC%84%9C-%EB%8B%88%EC%BC%88-%EC%88%98%EC%86%8C-ess-%EC%B2%AB-%EC%96%91%EC%82%B0-lfp-%EB%8F%85%EC%A0%90%EC%97%90-%EB%8F%84%EC%A0%84%EC%9E%A5/ar-AA2d4kqm"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "황화리튬부터 전해질까지…전고체 배터리 핵심 소재주 다시 햇볕",
+   "nt": "황화리튬부터전해질까지전고체배터리핵심소재주다시햇볕",
+   "tk": [
+    "다시",
+    "배터리",
+    "소재주",
+    "전고체",
+    "전해질까지",
+    "핵심",
+    "햇볕",
+    "황화리튬부터"
+   ],
+   "nums": [],
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490503"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "금리 민감도 약해진 반도체株…외국인 수급·3분기 실적 관건",
+   "nt": "금리민감도약해진반도체외국인수급3분기실적관건",
+   "tk": [
+    "3분기",
+    "관건",
+    "금리",
+    "민감도",
+    "반도체",
+    "수급",
+    "실적",
+    "약해진",
+    "외국인"
+   ],
+   "nums": [
+    "3분기"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12162046"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "반도체 호황에 … 법인카드 사용액 역대 최대",
+   "nt": "반도체호황에법인카드사용액역대최대",
+   "tk": [
+    "반도체",
+    "법인카드",
+    "사용액",
+    "역대",
+    "최대",
+    "호황에"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12162006"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "대미투자 1호 가스발전 추진에 ESS 기대감…K-배터리 신시장",
+   "nt": "대미투자1호가스발전추진에ess기대감k배터리신시장",
+   "tk": [
+    "1호",
+    "ess",
+    "가스발전",
+    "기대감",
+    "대미투자",
+    "배터리",
+    "신시장",
+    "추진에"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260923070500003"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "\"전력망 유연성 높이는 에너지저장장치 특허 한국이 주도\"",
+   "nt": "전력망유연성높이는에너지저장장치특허한국이주도",
+   "tk": [
+    "높이는",
+    "에너지저장장치",
+    "유연성",
+    "전력망",
+    "주도",
+    "특허",
+    "한국이"
+   ],
+   "nums": [
+    "4개",
+    "4천",
+    "605건"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260923088200063"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "미국 ESS, 2032년까지 저장용량 1TWh 목표…K배터리 성장 기회",
+   "nt": "미국ess2032년까지저장용량1twh목표k배터리성장기회",
+   "tk": [
+    "1twh",
+    "2032년까지",
+    "ess",
+    "k배터리",
+    "기회",
+    "목표",
+    "미국",
+    "성장",
+    "저장용량"
+   ],
+   "nums": [
+    "2032년"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260923076400003"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "꿈의 배터리 '전고체' 첫 무대가 자동차 아닌 로봇인 이유",
+   "nt": "꿈의배터리전고체첫무대가자동차아닌로봇인이유",
+   "tk": [
+    "꿈의",
+    "로봇인",
+    "무대가",
+    "배터리",
+    "아닌",
+    "이유",
+    "자동차",
+    "전고체"
+   ],
+   "nums": [
+    "2027년"
+   ],
+   "url": "https://www.dailian.co.kr/news/view/1694211"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "K-배터리 3사, AI 데이터센터發 ESS 수요 선점…美 투자 확대",
+   "nt": "k배터리3사ai데이터센터ess수요선점투자확대",
+   "tk": [
+    "3사",
+    "ai",
+    "ess",
+    "데이터센터",
+    "배터리",
+    "선점",
+    "수요",
+    "투자",
+    "확대"
+   ],
+   "nums": [],
+   "url": "https://www.sankyungtoday.com/news/articleView.html?idxno=63271"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, 보수적 기조가 결실로… ESS·전고체로 캐즘 정면돌파",
+   "nt": "삼성sdi보수적기조가결실로ess전고체로캐즘정면돌파",
+   "tk": [
+    "ess",
+    "결실로",
+    "기조가",
+    "보수적",
+    "삼성sdi",
+    "전고체로",
+    "정면돌파",
+    "캐즘"
+   ],
+   "nums": [],
+   "url": "https://www.g-enews.com/article/Industry/2026/09/202609231141486854139bf6e4b2_1"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "엠플러스",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "엠플러스 투자분석 2026. 09. 24",
+   "nt": "엠플러스투자분석20260924",
+   "tk": [
+    "09",
+    "2026",
+    "24",
+    "엠플러스",
+    "투자분석"
+   ],
+   "nums": [
+    "2026"
+   ],
+   "url": "https://www.judal.co.kr/?view=stockAI&shareToken=dCtJkIBqMd2yFJgG"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "[아프리카 녹색전환] ②\"소리 없이 바뀐다\"…현지서 본 전기차 혁명",
+   "nt": "아프리카녹색전환소리없이바뀐다현지서본전기차혁명",
+   "tk": [
+    "녹색전환",
+    "바뀐다",
+    "소리",
+    "아프리카",
+    "없이",
+    "전기차",
+    "혁명",
+    "현지서"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260923165500099"
+  },
+  {
+   "date": "2026-09-28",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "[아프리카 녹색전환] ①전력난 속 태양광·전기차 채비…中·UAE 공세",
+   "nt": "아프리카녹색전환전력난속태양광전기차채비uae공세",
+   "tk": [
+    "uae",
+    "공세",
+    "녹색전환",
+    "아프리카",
+    "전기차",
+    "전력난",
+    "채비",
+    "태양광"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260914111100898"
   }
  ]
 }

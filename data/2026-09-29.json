@@ -5,12 +5,13 @@
  "edition": "조간",
  "issue_no": 9,
  "window_hours": 36,
- "summary": "﻿LG에너지솔루션, 올 상반기 R&D에 역대 최대 투자 · Gotion, VW plan $3.67 billion  · LG에너지솔루션, 엔비디아 ESS 올라탔지만…GM 합작 · 삼성전기, 국내·베트남 기판 증설에 6조7천억원 투자(",
+ "refined": true,
+ "summary": "Echion–이티에스 XNO 셀 공동개발 MoU · Gotion–폭스바겐 유럽 32.2억유로 합작 · 삼성전기 패키지기판 6.78조 투자 · 中 배터리 5개년 계획 2030년 전고체",
  "top": [
-  "2026-09-29-11",
-  "2026-09-29-2",
-  "2026-09-29-13",
-  "2026-09-29-0"
+  "2026-09-29-0",
+  "2026-09-29-1",
+  "2026-09-29-6",
+  "2026-09-29-2"
  ],
  "sections": [
   {
@@ -21,7 +22,24 @@
     {
      "id": "all",
      "title": "",
-     "items": []
+     "items": [
+      {
+       "id": "2026-09-29-0",
+       "h": "Echion, 이티에스(ETS)와 니오븀 음극재 XNO 셀 공동개발 MoU",
+       "b": "ETS가 셀 설계·제조기술 제공 및 실증 셀 위탁생산 담당. Echion 파트너 중 첫 '토털 배터리 솔루션 공급사'(electrive 28일).",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/28/echion-secures-ets-as-partner-for-niobium-anode-material/",
+       "date": "2026-09-28",
+       "cat": "project",
+       "group": "all",
+       "entity": "ETS",
+       "related": [],
+       "tags": [],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      }
+     ]
     }
    ]
   },
@@ -35,29 +53,9 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-09-29-11",
-       "h": "﻿LG에너지솔루션, 올 상반기 R&amp;D에 역대 최대 투자… 미래 시장 선점 ‘광폭 행보’ - 조선비즈",
-       "b": "LG에너지솔루션이 전기차 캐즘(chasm·일시적 수요",
-       "src": "Chosunbiz",
-       "url": "https://biz.chosun.com/industry/company/2026/09/28/SJJHTAYO2BD7XLVNYGDFFVB37Y/?outputType=amp",
-       "date": "2026-09-28",
-       "cat": "customer",
-       "group": "lgensol",
-       "entity": "LG에너지솔루션",
-       "related": [],
-       "tags": [
-        "전고체",
-        "투자",
-        "특허"
-       ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-13",
-       "h": "LG에너지솔루션, 엔비디아 ESS 올라탔지만…GM 합작공장 600명 아직 무기한 해고",
-       "b": "LG에너지솔루션이 인공지능(AI) 데이터센터용 에너지저장장치(ESS)를 새 성장축으로 밀고 있다.",
+       "id": "2026-09-29-2",
+       "h": "LG엔솔–GM 오하이오 공장 8월 재가동…600명은 해고 지속",
+       "b": "1월 셀 생산 중단 후 8월 <b>700명</b> 복귀(로이터 15일). 2분기 영업이익 <b>1133억</b> 중 IRA 보조금 <b>2410억</b> 제외 시 <b>1277억</b> 손실, 상반기 별도 영업손실 <b>1조</b><b>3590억</b>.",
        "src": "뉴스필드",
        "url": "https://newsfield.net/lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-ess-%EC%98%AC%EB%9D%BC%ED%83%94%EC%A7%80%EB%A7%8Cgm-%ED%95%A9%EC%9E%91%EA%B3%B5%EC%9E%A5-600/",
        "date": "2026-09-28",
@@ -67,13 +65,29 @@
        "related": [],
        "tags": [
         "ESS",
-        "투자",
         "리스크",
-        "정책",
         "실적"
        ],
-       "grade": "A",
+       "grade": "B",
        "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-09-29-3",
+       "h": "LG엔솔, 美 B2U Storage와 세컨드라이프 BESS 파트너십",
+       "b": "",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/lg-energy-solution-partners-with-b2u-storage-for-second-life-us-bess-projects/",
+       "date": "2026-09-28",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "C",
+       "rel": 3,
        "followup": null
       }
      ]
@@ -81,125 +95,33 @@
     {
      "id": "sdi",
      "title": "삼성SDI",
-     "items": [
-      {
-       "id": "2026-09-29-10",
-       "h": "[IB토마토]삼성SDI, 전기차 공장 ESS로 돌린다…4.4조 실탄 확보",
-       "b": "삼성SDI, 전기차 공장 ESS로 돌린다…<b>4.4조</b> 실탄 확보 newstomato.com",
-       "src": "newstomato.com",
-       "url": "https://www.newstomato.com/ReadNews.aspx?no=1314675",
-       "date": "2026-09-29",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "ESS"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-12",
-       "h": "AI 전력 수요에 美 ESS '1TWh 시대'…K배터리, 전기차 라인 돌린다",
-       "b": "인공지능(AI) 데이터센터 확산으로 미국 전력 수요가 급증하면서 에너지저장장치(ESS) 시장이 빠르게 커지고 있다.",
-       "src": "v.daum.net",
-       "url": "https://v.daum.net/v/xvysI9sAhD?f=p",
-       "date": "2026-09-28",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "ESS"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "skon",
      "title": "SK온",
-     "items": [
-      {
-       "id": "2026-09-29-15",
-       "h": "SK온, 미국서 국내 복귀…“서산 ESS라인 전환 재가동”",
-       "b": "",
-       "src": "쿠키뉴스",
-       "url": "https://www.kukinews.com/article/view/kuk202604230142",
-       "date": "2026-09-28",
-       "cat": "customer",
-       "group": "skon",
-       "entity": "SK온",
-       "related": [],
-       "tags": [
-        "ESS"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "global",
      "title": "글로벌 · 기타",
      "items": [
       {
-       "id": "2026-09-29-2",
-       "h": "Gotion, VW plan $3.67 billion investment in European battery supply chain",
-       "b": "Gotion High-tech (SZSE: 002074) and Volkswagen Group plan to jointly invest about €3.22…",
+       "id": "2026-09-29-1",
+       "h": "Gotion–폭스바겐, 유럽·북아프리카 배터리에 32.2억유로 공동투자",
+       "b": "스페인·슬로바키아·모로코 <b>3개</b> 합작사(28일 공시). Gotion <b>16억</b>·PowerCo <b>16.2억</b>유로 단계 출자, 최대 프로젝트 발렌시아 <b>22.6억</b>유로.",
        "src": "CnEVPost",
        "url": "https://cnevpost.com/2026/09/28/gotion-vw-plan-investment-european-battery-chain/",
        "date": "2026-09-28",
        "cat": "customer",
        "group": "global",
        "entity": "Gotion",
-       "related": [
-        "PowerCo"
-       ],
+       "related": [],
        "tags": [
         "투자"
        ],
        "grade": "A",
        "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-5",
-       "h": "“중국 손잡더니”…폭스바겐, 1.5조 쏟아부어 유럽에 LFP 공장 짓는다",
-       "b": "“중국 손잡더니”…폭스바겐, <b>1.7조</b> 쏟아부어 유럽에 LFP 공장 짓는다",
-       "src": "bing.com",
-       "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026092906403778962bd56fbc3c_1",
-       "date": "2026-09-28",
-       "cat": "customer",
-       "group": "global",
-       "entity": "PowerCo",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-8",
-       "h": "전기버스 보조금 문턱 높이자 중국산에 밀리던 국산 '질주'",
-       "b": "올해 상반기 국산 전기버스 비중이 <b>77.7%</b> 를 기록하며 반등세를 이어가고 있습니다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/economy/12162968",
-       "date": "2026-09-28",
-       "cat": "customer",
-       "group": "global",
-       "entity": "BYD",
-       "related": [],
-       "tags": [
-        "정책"
-       ],
-       "grade": "B",
-       "rel": 4,
        "followup": null
       }
      ]
@@ -233,31 +155,11 @@
      "title": "",
      "items": [
       {
-       "id": "2026-09-29-3",
-       "h": "줄잇는 韓 '전고체 특허'.. 내년 '꿈의 배터리' 車 달린다[only이데일리]",
-       "b": "‘꿈의 배터리’로 불리는 전고체 배터리가 연구개발(R&amp;D)을 넘어 상용화 경쟁의 무대로 이동하고 있다.",
-       "src": "bing.com",
-       "url": "https://www.msn.com/ko-kr/news/other/%EC%A4%84%EC%9E%87%EB%8A%94-%E9%9F%93-%EC%A0%84%EA%B3%A0%EC%B2%B4-%ED%8A%B9%ED%97%88-%EB%82%B4%EB%85%84-%EA%BF%88%EC%9D%98-%EB%B0%B0%ED%84%B0%EB%A6%AC-%E8%BB%8A-%EB%8B%AC%EB%A6%B0%EB%8B%A4-only%EC%9D%B4%EB%8D%B0%EC%9D%BC%EB%A6%AC/ar-AA2d8QAs",
-       "date": "2026-09-28",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "전고체",
-        "투자",
-        "특허"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
        "id": "2026-09-29-4",
-       "h": "\"투자 뒤처지면 낙오\"…한·중·일·독 '꿈의 배터리' 대전 막 올랐다[only이데일...",
-       "b": "“투자에서 뒤처지면 자칫 낙오할 수 있다.” 국내 배터리 3사가 이달 들어 전고체 배터리 관련 특허를 잇따라 공개한 것은 미래 전략 산업에 대한 이같은 위기감이 깔려 있기 때문이다.",
-       "src": "bing.com",
-       "url": "https://www.msn.com/ko-kr/news/other/%ED%88%AC%EC%9E%90-%EB%92%A4%EC%B2%98%EC%A7%80%EB%A9%B4-%EB%82%99%EC%98%A4-%ED%95%9C-%EC%A4%91-%EC%9D%BC-%EB%8F%85-%EA%BF%88%EC%9D%98-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%8C%80%EC%A0%84-%EB%A7%89-%EC%98%AC%EB%9E%90%EB%8B%A4-only%EC%9D%B4%EB%8D%B0%EC%9D%BC/ar-AA2d9cJI",
+       "h": "中 공신부, 배터리 산업 5개년 계획…2030년 전고체 대규모 적용",
+       "b": "MIIT 등 <b>7개</b> 부처 공동 발표(2026~30). 나트륨이온·급속충전·재활용·산업 통합도 목표.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/28/china-to-bring-solid-state-batteries-to-mass-production-by-2030/",
        "date": "2026-09-28",
        "cat": "tech_policy",
        "group": "all",
@@ -265,29 +167,28 @@
        "related": [],
        "tags": [
         "전고체",
-        "투자",
-        "특허"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-7",
-       "h": "EU urges UK to raise tariffs on Chinese electric vehicles",
-       "b": "Brussels is apparently making demands of the UK for its closer integration of the UK into its 'Made in Europe' industrial policy.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/09/28/eu-reportedly-urges-uk-to-raise-tariffs-on-chinese-electric-vehicles/",
-       "date": "2026-09-28",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
         "정책"
        ],
        "grade": "B",
        "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-29-5",
+       "h": "프롤로지움, 메르세데스-벤츠와 Gen4 전고체 셀 공동 테스트 계약",
+       "b": "벤츠 자체 시설·외부 기관에서 전기·열·안전성 검증(28일). <b>2016년</b>부터 Gen3 공동개발, 됭케르크 생산기지 추진, SPAC 합병 기업가치 <b>38억</b>달러.",
+       "src": "ajunews.com",
+       "url": "https://www.ajunews.com/view/20260928173058681",
+       "date": "2026-09-28",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 4,
        "followup": null
       }
      ]
@@ -304,28 +205,12 @@
      "title": "전기차",
      "items": [
       {
-       "id": "2026-09-29-16",
-       "h": "Tesla charging bays vandalised in Australia just days after opening",
-       "b": "Two different Tesla Supercharger sites have been vandalised in Ballarat, Victoria, as 28…",
+       "id": "2026-09-29-7",
+       "h": "니오·지리, 충전·배터리 교환 사업 통합…지리 6.4억위안 출자",
+       "b": "지리가 자회사 Yiyi Power와 <b>6.4억</b>위안(약 <b>8400만</b>유로)을 Nio Power에 출자해 <b>30%</b> 지분 확보, 네트워크 연결·공동 표준 개발.",
        "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/09/28/tesla-charging-bays-vandalised-in-australia-just-days-after-opening/",
-       "date": "2026-09-29",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-17",
-       "h": "Mahindra’s Charge_iN network expands and opens first EV station with HPCL",
-       "b": "Charge_iN by Mahindra has reached 200 live EV charging points across India.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/09/28/mahindras-charge_in-network-expands-and-opens-first-ev-station-with-hpcl/",
-       "date": "2026-09-29",
+       "url": "https://www.electrive.com/2026/09/28/nio-and-geely-integrate-charging-and-battery-swap-operations/",
+       "date": "2026-09-28",
        "cat": "market",
        "group": "ev",
        "entity": "",
@@ -333,8 +218,26 @@
        "tags": [
         "투자"
        ],
-       "grade": "C",
+       "grade": "B",
        "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-09-29-8",
+       "h": "국산 전기버스 비중 상반기 77.7% 역대 최고…보조금 기준 강화 영향",
+       "b": "배터리 에너지밀도 기준 보조금 차등으로 LFP 탑재 중국산 실구매가 상승. 국산 전기승용차 비중은 하락 지속.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12162968",
+       "date": "2026-09-28",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "C",
+       "rel": 4,
        "followup": null
       }
      ]
@@ -344,46 +247,30 @@
      "title": "이차전지",
      "items": [
       {
-       "id": "2026-09-29-6",
-       "h": "EnerVenue opens factory, secures first multi-MWh order for 30,000-cycle nickel-hydrogen batteries at Chinese oilfield",
-       "b": "Nickel-hydrogen battery company EnerVenue has secured its first commercial order at multi-MWh scale.",
+       "id": "2026-09-29-10",
+       "h": "호주 Waratah Super Battery 상업운전 최종 개시(Akaysha)",
+       "b": "",
        "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/enervenue-opens-factory-secures-first-multi-mwh-order-for-30000-cycle-nickel-hydrogen-batteries-at-chinese-oilfield/",
+       "url": "https://www.energy-storage.news/australias-most-powerful-battery-storage-system-officially-completed/",
        "date": "2026-09-28",
        "cat": "market",
        "group": "battery",
        "entity": "",
        "related": [],
        "tags": [
-        "수주"
+        "ESS"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 3,
        "followup": null
       },
       {
-       "id": "2026-09-29-14",
-       "h": "\"1회 완충 1,000km 주행\"… 中 둥펑자동차, 350Wh/kg급 '고체-액체 복합 배터리' 양산 돌입",
+       "id": "2026-09-29-11",
+       "h": "EnerVenue, 니켈-수소 배터리 첫 다중 MWh 수주…공장 개소",
        "b": "",
-       "src": "글로벌이코노믹",
-       "url": "https://www.g-enews.com/article/Global-Biz/2026/09/2026092722522713320c8c1c064d_1",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/enervenue-opens-factory-secures-first-multi-mwh-order-for-30000-cycle-nickel-hydrogen-batteries-at-chinese-oilfield/",
        "date": "2026-09-28",
-       "cat": "market",
-       "group": "battery",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-18",
-       "h": "Mercedes-Benz to assemble electric GLC in Thailand",
-       "b": "The mid-size SUV will be the second model based on the MB.EA architecture to be built locally.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/09/28/mercedes-benz-to-assemble-electric-glc-in-thailand/",
-       "date": "2026-09-29",
        "cat": "market",
        "group": "battery",
        "entity": "",
@@ -400,9 +287,9 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-09-29-0",
-       "h": "삼성전기, 국내·베트남 기판 증설에 6조7천억원 투자(종합)",
-       "b": "삼성전기는 28일 국내 세종사업장 내 패키지기판 생산시설 증설에 <b>4조</b><b>2천</b><b>700억</b>원을 투자한다고 공시했다.",
+       "id": "2026-09-29-6",
+       "h": "삼성전기, 세종·베트남 패키지기판 증설에 6조7800억 투자",
+       "b": "세종 <b>4조</b><b>2700억</b>(<b>2028년</b> 5월까지, 9월 양산)·베트남 <b>2조</b><b>5100억</b>(28일 공시). AI 서버용 FC-BGA 생산능력 확대.",
        "src": "yna.co.kr",
        "url": "https://www.yna.co.kr/view/AKR20260928144851003",
        "date": "2026-09-28",
@@ -418,11 +305,11 @@
        "followup": null
       },
       {
-       "id": "2026-09-29-1",
-       "h": "삼성전기, 세종 패키지기판 생산시설에 4조2천억원 투자",
-       "b": "삼성전기는 국내 세종사업장 내 패키지기판 생산시설 증설에 <b>4조</b><b>2천</b><b>700억</b>원을 투자한다고 28일 공시했다.",
+       "id": "2026-09-29-9",
+       "h": "ISC, 베트남 테스트소켓 계열사에 297억 출자",
+       "b": "28일 공시. 목적은 추가 거점 확보 및 인프라 투자.",
        "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20260928144800003",
+       "url": "https://www.yna.co.kr/view/AKR20260928120300008",
        "date": "2026-09-28",
        "cat": "market",
        "group": "semi",
@@ -431,25 +318,7 @@
        "tags": [
         "투자"
        ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-09-29-9",
-       "h": "“추석도 지났고, 내 주식은 어디로 가나?”…美 물가·마이크론 실적에 쏠린 눈",
-       "b": "인공지능(AI) 반도체 종목들의 반등으로 지난 주 코스피가 7000선을 탈환한 가운데 추석 연휴 이후에도 강세를 이어갈 수 있을지 주목된다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12162236",
-       "date": "2026-09-28",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "실적"
-       ],
-       "grade": "B",
+       "grade": "C",
        "rel": 4,
        "followup": null
       }
@@ -463,30 +332,41 @@
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-09-29-0",
+   "say": "Echion–ETS XNO 음극재 셀 공동개발 MoU → 실증 셀 위탁생산 일정·셀 설계 인력 배정, 니오븀 음극 수요처(급속충전 상용차·산업용"
+  },
+  {
+   "item_id": "2026-09-29-1",
+   "say": "Gotion–PowerCo 발렌시아 22.6억유로 합작 → 사군토 셀 공장 장비 발주 재개 시점과 Gotion 측 장비 조달 창구 확인"
+  },
+  {
+   "item_id": "2026-09-29-6",
+   "say": "삼성전기 세종 FC-BGA 4.27조 증설(2028년 9월 양산) → 세종 신규 라인 물류 자동화·AMR 입찰 일정 파악"
+  },
+  {
+   "item_id": "2026-09-29-2",
+   "say": "LG엔솔–GM 오하이오 EV 라인 감산 지속 → 오하이오 라인 ESS 전환 투자 여부와 기존 장비 개조 수요 확인"
+  },
+  {
+   "item_id": "2026-09-29-4",
+   "say": "중국 2030년 전고체 대규모 적용 5개년 계획 → 중국 고객(CATL·BYD·Gotion) 전고체 파일럿 라인 장비 사양 정보 수집"
+  }
+ ],
  "stats": {
-  "fetched": 75,
-  "published": 19,
-  "headline_only": 4,
-  "followup": 0,
-  "suppressed": 0,
-  "sameday": 0,
-  "nobody": 0,
-  "unclassified": 0,
-  "capped": 34
+  "published": 12,
+  "refined_by": "claude",
+  "rule_published": 19
  },
  "sources": [
-  "Chosunbiz",
   "CnEVPost",
-  "bing.com",
+  "ajunews.com",
   "electrive.com",
   "energy-storage.news",
   "mk.co.kr",
-  "newstomato.com",
-  "v.daum.net",
   "yna.co.kr",
-  "글로벌이코노믹",
-  "뉴스필드",
-  "쿠키뉴스"
+  "뉴스필드"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

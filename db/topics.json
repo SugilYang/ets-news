@@ -6557,51 +6557,77 @@
   },
   {
    "date": "2026-10-01",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Xiaomi officially launches Sky Nomad series in China",
-   "nt": "xiaomiofficiallylaunchesskynomadseriesin",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "얼티엄셀즈 테네시 공장 각형 LMR 전환…2028년 완료 목표",
+   "nt": "얼티엄셀즈테네시공장각형lmr전환2028년완료목표",
    "tk": [
-    "china",
-    "in",
-    "launches",
-    "nomad",
-    "officially",
-    "series",
-    "sky",
-    "xiaomi"
+    "2028년",
+    "lmr",
+    "각형",
+    "공장",
+    "목표",
+    "얼티엄셀즈",
+    "완료",
+    "전환",
+    "테네시"
    ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/09/30/xiaomi-officially-launches-sky-nomad-series-in-china/"
+   "nums": [
+    "2028년",
+    "33%"
+   ],
+   "url": "https://www.yna.co.kr/amp/view/AKR20260930026300003"
   },
   {
    "date": "2026-10-01",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "광양만권, 이차전지 특화단지 지정…10조 투자 K배터리 거점",
-   "nt": "광양만권이차전지특화단지지정10조투자k배터리거점",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔, GM 합작공장서 세계 첫 각형 LMR배터리 양산 추진",
+   "nt": "lg엔솔gm합작공장서세계첫각형lmr배터리양산추진",
    "tk": [
-    "10조",
-    "k배터리",
-    "거점",
-    "광양만권",
-    "이차전지",
-    "지정",
-    "투자",
-    "특화단지"
+    "gm",
+    "lg엔솔",
+    "lmr배터리",
+    "각형",
+    "세계",
+    "양산",
+    "추진",
+    "합작공장서"
    ],
    "nums": [
-    "10조"
+    "33%"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20260930166000054"
+   "url": "https://www.yna.co.kr/amp/view/AKR20260930026300003"
   },
   {
    "date": "2026-10-01",
    "entity": "Gotion",
-   "cat": "project",
-   "group": "all",
+   "cat": "customer",
+   "group": "global",
+   "h": "Gotion, 사우디 첫 유틸리티급 BESS 6GWh 공급사 선정",
+   "nt": "gotion사우디첫유틸리티급bess6gwh공급사선정",
+   "tk": [
+    "6gwh",
+    "bess",
+    "gotion",
+    "공급사",
+    "사우디",
+    "선정",
+    "유틸리티급"
+   ],
+   "nums": [
+    "3개",
+    "6GWh"
+   ],
+   "url": "https://www.energy-storage.news/gotion-to-supply-6gwh-of-battery-storage-for-saudi-arabias-first-utility-scale-bess-tender/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "Gotion",
+   "cat": "customer",
+   "group": "global",
    "h": "Gotion to supply 6GWh of battery storage for Saudi Arabia’s first utility-scale BESS tender",
    "nt": "gotiontosupply6gwhofbatterystorageforsau",
    "tk": [
@@ -6622,54 +6648,169 @@
     "utility"
    ],
    "nums": [
+    "3개",
     "6GWh"
    ],
    "url": "https://www.energy-storage.news/gotion-to-supply-6gwh-of-battery-storage-for-saudi-arabias-first-utility-scale-bess-tender/"
   },
   {
    "date": "2026-10-01",
-   "entity": "SK온",
+   "entity": "Gotion",
    "cat": "customer",
-   "group": "skon",
-   "h": "포스코퓨처엠, LFP 수주 훈풍에도…차입금 4조 '부담'",
-   "nt": "포스코퓨처엠lfp수주훈풍에도차입금4조부담",
+   "group": "global",
+   "h": "Gotion, 전고체 'Jinshi' 셀 목표 400Wh/kg…장기 원가 150달러/kWh",
+   "nt": "gotion전고체jinshi셀목표400whkg장기원가150달러kwh",
    "tk": [
-    "4조",
-    "lfp",
-    "부담",
-    "수주",
-    "차입금",
-    "포스코퓨처엠",
-    "훈풍에도"
+    "150달러",
+    "400wh",
+    "gotion",
+    "jinshi",
+    "kg",
+    "kwh",
+    "목표",
+    "원가",
+    "장기",
+    "전고체"
    ],
    "nums": [
-    "4조"
+    "150달러",
+    "350Wh",
+    "400Wh"
    ],
-   "url": "https://v.daum.net/v/20260930074030658"
+   "url": "https://www.electrive.com/2026/09/30/gotion-targets-400-wh-kg-solid-state-batteries/"
   },
   {
    "date": "2026-10-01",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "Boston sues Trump administration over $20m EV charger grant cancellation",
-   "nt": "bostonsuestrumpadministrationover20mevch",
+   "entity": "Gotion",
+   "cat": "customer",
+   "group": "global",
+   "h": "Gotion targets 400 Wh/kg solid-state batteries",
+   "nt": "gotiontargets400whkgsolidstatebatteries",
    "tk": [
-    "20m",
-    "administration",
-    "boston",
-    "cancellation",
-    "charger",
-    "ev",
-    "grant",
-    "over",
-    "sues",
-    "trump"
+    "400",
+    "batteries",
+    "gotion",
+    "kg",
+    "solid",
+    "state",
+    "targets",
+    "wh"
    ],
    "nums": [
-    "$20m"
+    "350Wh",
+    "400Wh"
    ],
-   "url": "https://www.electrive.com/2026/09/29/boston-sues-trump-administration-over-20m-ev-charger-grant-cancellation/"
+   "url": "https://www.electrive.com/2026/09/30/gotion-targets-400-wh-kg-solid-state-batteries/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "SK온, 3차 ESS 중앙계약시장(1180MW) 입찰 준비",
+   "nt": "sk온3차ess중앙계약시장1180mw입찰준비",
+   "tk": [
+    "1180mw",
+    "3차",
+    "ess",
+    "sk온",
+    "입찰",
+    "준비",
+    "중앙계약시장"
+   ],
+   "nums": [
+    "1180MW",
+    "15년"
+   ],
+   "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171047"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "ESS로 실적 반전 노리는 SK온… 정부 수주 의존도 커지나",
+   "nt": "ess로실적반전노리는sk온정부수주의존도커지나",
+   "tk": [
+    "ess로",
+    "sk온",
+    "노리는",
+    "반전",
+    "수주",
+    "실적",
+    "의존도",
+    "정부",
+    "커지나"
+   ],
+   "nums": [
+    "15년"
+   ],
+   "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171047"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "ACC",
+   "cat": "customer",
+   "group": "global",
+   "h": "스텔란티스, ACC 배터리 부족에 프랑스 2개 공장 가동 중단",
+   "nt": "스텔란티스acc배터리부족에프랑스2개공장가동중단",
+   "tk": [
+    "2개",
+    "acc",
+    "가동",
+    "공장",
+    "배터리",
+    "부족에",
+    "스텔란티스",
+    "중단",
+    "프랑스"
+   ],
+   "nums": [
+    "2개"
+   ],
+   "url": "https://www.electrive.com/2026/09/30/battery-shortage-stellantis-pauses-ev-production-in-france/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "ACC",
+   "cat": "customer",
+   "group": "global",
+   "h": "Battery shortage: Stellantis pauses EV production in France",
+   "nt": "batteryshortagestellantispausesevproduct",
+   "tk": [
+    "battery",
+    "ev",
+    "france",
+    "in",
+    "pauses",
+    "production",
+    "shortage",
+    "stellantis"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/30/battery-shortage-stellantis-pauses-ev-production-in-france/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "현대무벡스",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "현대무벡스, 금호타이어 함평 신공장 물류자동화 720억 수주",
+   "nt": "현대무벡스금호타이어함평신공장물류자동화720억수주",
+   "tk": [
+    "720억",
+    "금호타이어",
+    "물류자동화",
+    "수주",
+    "신공장",
+    "함평",
+    "현대무벡스"
+   ],
+   "nums": [
+    "2028년",
+    "720억"
+   ],
+   "url": "https://www.straightnews.co.kr/news/articleViewAmp.html?idxno=312264"
   },
   {
    "date": "2026-10-01",
@@ -6689,9 +6830,32 @@
     "현대무벡스"
    ],
    "nums": [
+    "2028년",
     "720억"
    ],
    "url": "https://www.straightnews.co.kr/news/articleViewAmp.html?idxno=312264"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "나인테크",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "나인테크, 각형 조립 핵심 'Z-스태킹' 장비 기술 확보",
+   "nt": "나인테크각형조립핵심z스태킹장비기술확보",
+   "tk": [
+    "각형",
+    "기술",
+    "나인테크",
+    "스태킹",
+    "장비",
+    "조립",
+    "핵심",
+    "확보"
+   ],
+   "nums": [
+    "10억"
+   ],
+   "url": "https://www.datatooza.com/article/2026093011150034e80ea65769_80"
   },
   {
    "date": "2026-10-01",
@@ -6715,10 +6879,34 @@
    ],
    "nums": [
     "1.4조",
-    "1조",
-    "4000억"
+    "10억"
    ],
    "url": "https://www.datatooza.com/article/2026093011150034e80ea65769_80"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "SFA, 아산 'ART 이노베이션 센터' 개소…2030년 물류 완전 무인화",
+   "nt": "sfa아산art이노베이션센터개소2030년물류완전무인화",
+   "tk": [
+    "2030년",
+    "art",
+    "sfa",
+    "개소",
+    "무인화",
+    "물류",
+    "센터",
+    "아산",
+    "완전",
+    "이노베이션"
+   ],
+   "nums": [
+    "2030년",
+    "90%"
+   ],
+   "url": "https://www.etnews.com/20260930000331"
   },
   {
    "date": "2026-10-01",
@@ -6739,238 +6927,136 @@
     "자율제조"
    ],
    "nums": [
-    "2030년"
+    "2030년",
+    "90%"
    ],
    "url": "https://www.etnews.com/20260930000331"
   },
   {
    "date": "2026-10-01",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "Ultium Cells retrofits Tennessee plant for LMR cell production",
-   "nt": "ultiumcellsretrofitstennesseeplantforlmr",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "SFA–레인보우로보틱스, AI 자율제조·로봇 기술 공동개발 MOU",
+   "nt": "sfa레인보우로보틱스ai자율제조로봇기술공동개발mou",
    "tk": [
-    "cell",
-    "cells",
-    "for",
-    "lmr",
-    "plant",
-    "production",
-    "retrofits",
-    "tennessee",
-    "ultium"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/09/30/ultium-cells-retrofits-tennessee-plant-for-lmr-cell-production/"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "Gotion",
-   "cat": "customer",
-   "group": "global",
-   "h": "Volkswagen’s new LFP battery JVs with Gotion will adjust EV and BESS cell production split based on demand",
-   "nt": "volkswagensnewlfpbatteryjvswithgotionwil",
-   "tk": [
-    "adjust",
-    "and",
-    "based",
-    "battery",
-    "bess",
-    "cell",
-    "demand",
-    "ev",
-    "gotion",
-    "jvs",
-    "lfp",
-    "new",
-    "on",
-    "production",
-    "split",
-    "volkswagen",
-    "will",
-    "with"
-   ],
-   "nums": [],
-   "url": "https://www.energy-storage.news/volkswagens-new-lfp-battery-jvs-with-gotion-will-adjust-ev-and-bess-cell-production-split-based-on-demand/"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "2분기 파운드리 2.0 시장 25%↑…AI 인프라 확장 효과",
-   "nt": "2분기파운드리20시장25ai인프라확장효과",
-   "tk": [
-    "25",
-    "2분기",
     "ai",
-    "시장",
-    "인프라",
-    "파운드리",
-    "확장",
-    "효과"
+    "mou",
+    "sfa",
+    "공동개발",
+    "기술",
+    "레인보우로보틱스",
+    "로봇",
+    "자율제조"
    ],
-   "nums": [
-    "11%",
-    "25%",
-    "2분기",
-    "966억"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20260930170600003"
+   "nums": [],
+   "url": "https://biz.chosun.com/industry/company/2026/09/30/7S5O5GCDAJA2PCRV753RDMWQ3A/?outputType=native"
   },
   {
    "date": "2026-10-01",
-   "entity": "",
-   "cat": "market",
-   "group": "fa",
-   "h": "'휴머노이드 양산' 에이로봇, 안산에 400억 들여 신사옥 건립",
-   "nt": "휴머노이드양산에이로봇안산에400억들여신사옥건립",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "SFA-레인보우로보틱스, ‘로봇 기술 공동 개발’ 업무협약 체결 - 조선비즈",
+   "nt": "sfa레인보우로보틱스로봇기술공동개발업무협약체결조선비즈",
    "tk": [
-    "400억",
-    "건립",
-    "들여",
-    "신사옥",
-    "안산에",
-    "양산",
-    "에이로봇",
-    "휴머노이드"
+    "sfa",
+    "개발",
+    "공동",
+    "기술",
+    "레인보우로보틱스",
+    "로봇",
+    "업무협약",
+    "조선비즈",
+    "체결"
    ],
-   "nums": [
-    "400억"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20260930150200061"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "중국 전고체 배터리 2030 승부…한국은 어디까지 왔나",
-   "nt": "중국전고체배터리2030승부한국은어디까지왔나",
-   "tk": [
-    "2030",
-    "배터리",
-    "승부",
-    "어디까지",
-    "왔나",
-    "전고체",
-    "중국",
-    "한국은"
-   ],
-   "nums": [
-    "2030"
-   ],
-   "url": "https://dspdaily.com/news/view.php?no=27692"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "[르포]“14년 만에 韓 도입 성공”…SK이노 E&S, 호주서 생산기반 확보",
-   "nt": "르포14년만에도입성공sk이노es호주서생산기반확보",
-   "tk": [
-    "14년",
-    "sk이노",
-    "도입",
-    "르포",
-    "만에",
-    "생산기반",
-    "성공",
-    "호주서",
-    "확보"
-   ],
-   "nums": [
-    "14년"
-   ],
-   "url": "https://www.etnews.com/20260930000229"
+   "nums": [],
+   "url": "https://biz.chosun.com/industry/company/2026/09/30/7S5O5GCDAJA2PCRV753RDMWQ3A/?outputType=native"
   },
   {
    "date": "2026-10-01",
    "entity": "",
    "cat": "tech_policy",
    "group": "all",
-   "h": "차세대 ESS 배터리로 떠오른 나트륨…한·중 대표기업 시장 선점 나서",
-   "nt": "차세대ess배터리로떠오른나트륨한중대표기업시장선점나서",
+   "h": "광양만권, 국가첨단전략산업 이차전지 특화단지 지정…투자 약 10조",
+   "nt": "광양만권국가첨단전략산업이차전지특화단지지정투자약10조",
    "tk": [
-    "ess",
-    "나서",
-    "나트륨",
-    "대표기업",
-    "떠오른",
-    "배터리로",
-    "선점",
-    "시장",
-    "차세대"
+    "10조",
+    "광양만권",
+    "국가첨단전략산업",
+    "이차전지",
+    "지정",
+    "투자",
+    "특화단지"
    ],
    "nums": [
-    "6조"
+    "10조",
+    "3724억",
+    "3조",
+    "4조",
+    "5303억",
+    "5조",
+    "645만",
+    "6개",
+    "7551억",
+    "7개",
+    "8600억"
    ],
-   "url": "https://www.hankyung.com/article/202609179867G"
+   "url": "https://www.yna.co.kr/view/AKR20260930166000054"
   },
   {
    "date": "2026-10-01",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG엔솔, 싼 망간 활용… 차세대 배터리 양산 준비",
-   "nt": "lg엔솔싼망간활용차세대배터리양산준비",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "광양만권, 이차전지 특화단지 지정…10조 투자 K배터리 거점",
+   "nt": "광양만권이차전지특화단지지정10조투자k배터리거점",
    "tk": [
-    "lg엔솔",
-    "망간",
-    "배터리",
-    "양산",
-    "준비",
-    "차세대",
-    "활용"
+    "10조",
+    "k배터리",
+    "거점",
+    "광양만권",
+    "이차전지",
+    "지정",
+    "투자",
+    "특화단지"
    ],
-   "nums": [],
-   "url": "https://www.chosun.com/economy/industry-company/2026/10/01/4RKUTY3CR5CIJBI6LRQJV7T3JE/"
+   "nums": [
+    "10조",
+    "3724억",
+    "3조",
+    "4조",
+    "5303억",
+    "5조",
+    "645만",
+    "6개",
+    "7551억",
+    "7개",
+    "8600억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930166000054"
   },
   {
    "date": "2026-10-01",
-   "entity": "ACC",
-   "cat": "customer",
-   "group": "global",
-   "h": "ACC Opens 2.4 MTPA Salai Banwa Plant and Adds 1 MTPA Kalamboli Capacity",
-   "nt": "accopens24mtpasalaibanwaplantandadds1mtp",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "이수스페셜티케미컬, 10월 황화리튬 연산 150t 상업생산 개시",
+   "nt": "이수스페셜티케미컬10월황화리튬연산150t상업생산개시",
    "tk": [
-    "acc",
-    "adds",
-    "and",
-    "banwa",
-    "capacity",
-    "kalamboli",
-    "mtpa",
-    "opens",
-    "plant",
-    "salai"
+    "10월",
+    "150t",
+    "개시",
+    "상업생산",
+    "연산",
+    "이수스페셜티케미컬",
+    "황화리튬"
    ],
-   "nums": [],
-   "url": "https://www.sahi.com/news/acc-opens-2-4-mtpa-salai-banwa-plant-and-adds-1-mtpa-kalamboli-capacity"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "“ESS 믿고 올랐는데”…리튬 가격 추락, CATL·에코프로 등 ‘비상’ [머니+]",
-   "nt": "ess믿고올랐는데리튬가격추락catl에코프로등비상머니",
-   "tk": [
-    "catl",
-    "ess",
-    "가격",
-    "리튬",
-    "머니",
-    "믿고",
-    "비상",
-    "에코프로",
-    "올랐는데",
-    "추락"
+   "nums": [
+    "1000억",
+    "800억"
    ],
-   "nums": [],
-   "url": "https://m.ekn.kr/view.php?key=20260930025570445"
+   "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=10017"
   },
   {
    "date": "2026-10-01",
@@ -6991,7 +7077,10 @@
     "전고체",
     "황화리튬"
    ],
-   "nums": [],
+   "nums": [
+    "1000억",
+    "800억"
+   ],
    "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=10017"
   },
   {
@@ -6999,50 +7088,6 @@
    "entity": "",
    "cat": "tech_policy",
    "group": "all",
-   "h": "\"2030년 전고체 배터리 상용화\"…중국, 차세대 배터리 총공세",
-   "nt": "2030년전고체배터리상용화중국차세대배터리총공세",
-   "tk": [
-    "2030년",
-    "배터리",
-    "상용화",
-    "전고체",
-    "중국",
-    "차세대",
-    "총공세"
-   ],
-   "nums": [
-    "2026",
-    "2030",
-    "2030년"
-   ],
-   "url": "https://www.energyprosumer.info/6457"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "SK온",
-   "cat": "project",
-   "group": "all",
-   "h": "ESS로 실적 반전 노리는 SK온… 정부 수주 의존도 커지나",
-   "nt": "ess로실적반전노리는sk온정부수주의존도커지나",
-   "tk": [
-    "ess로",
-    "sk온",
-    "노리는",
-    "반전",
-    "수주",
-    "실적",
-    "의존도",
-    "정부",
-    "커지나"
-   ],
-   "nums": [],
-   "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171047"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "",
-   "cat": "market",
-   "group": "fa",
    "h": "대구·경북, 휴머노이드 로봇 국가첨단전략산업 특화단지 통합 지정",
    "nt": "대구경북휴머노이드로봇국가첨단전략산업특화단지통합지정",
    "tk": [
@@ -7055,99 +7100,220 @@
     "특화단지",
     "휴머노이드"
    ],
-   "nums": [],
+   "nums": [
+    "4대"
+   ],
    "url": "https://www.etnews.com/20261001000023"
   },
   {
    "date": "2026-10-01",
    "entity": "",
    "cat": "market",
-   "group": "semi",
-   "h": "세수펑크 끝낸 63조 초과세수…국채 덜 찍고 민생에 더 풀겠단 정부",
-   "nt": "세수펑크끝낸63조초과세수국채덜찍고민생에더풀겠단정부",
+   "group": "fa",
+   "h": "에이로봇, 안산에 400억 신사옥…산업용 휴머노이드 양산",
+   "nt": "에이로봇안산에400억신사옥산업용휴머노이드양산",
    "tk": [
-    "63조",
-    "국채",
-    "끝낸",
-    "민생에",
-    "세수펑크",
-    "정부",
-    "찍고",
-    "초과세수",
-    "풀겠단"
+    "400억",
+    "산업용",
+    "신사옥",
+    "안산에",
+    "양산",
+    "에이로봇",
+    "휴머노이드"
    ],
    "nums": [
-    "63조"
+    "1만",
+    "400억"
    ],
-   "url": "https://www.mk.co.kr/news/economy/12165531"
+   "url": "https://www.yna.co.kr/view/AKR20260930150200061"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "'휴머노이드 양산' 에이로봇, 안산에 400억 들여 신사옥 건립",
+   "nt": "휴머노이드양산에이로봇안산에400억들여신사옥건립",
+   "tk": [
+    "400억",
+    "건립",
+    "들여",
+    "신사옥",
+    "안산에",
+    "양산",
+    "에이로봇",
+    "휴머노이드"
+   ],
+   "nums": [
+    "1만",
+    "400억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930150200061"
   },
   {
    "date": "2026-10-01",
    "entity": "",
    "cat": "market",
    "group": "battery",
-   "h": "[팩트체크] 보조배터리 부풀어 오르면 소금물에 넣어라?…화재 대응법은",
-   "nt": "팩트체크보조배터리부풀어오르면소금물에넣어라화재대응법은",
+   "h": "탄산리튬 가격 연중 최저 12만2800위안/t…9월 약 25% 급락",
+   "nt": "탄산리튬가격연중최저12만2800위안t9월약25급락",
    "tk": [
-    "넣어라",
-    "대응법은",
-    "보조배터리",
-    "부풀어",
-    "소금물에",
-    "오르면",
-    "팩트체크",
-    "화재"
-   ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20260930110000518"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "Geekplus",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "Shaping tomorrow's warehouse: Geekplus and LPP Logistics transform retail logistics through intelligent automation",
-   "nt": "shapingtomorrowswarehousegeekplusandlppl",
-   "tk": [
-    "and",
-    "automation",
-    "geekplus",
-    "intelligent",
-    "logistics",
-    "lpp",
-    "retail",
-    "shaping",
-    "through",
-    "tomorrow",
-    "transform",
-    "warehouse"
-   ],
-   "nums": [],
-   "url": "https://www.prnewswire.com/news-releases/shaping-tomorrows-warehouse-geekplus-and-lpp-logistics-transform-retail-logistics-through-intelligent-automation-302894303.html"
-  },
-  {
-   "date": "2026-10-01",
-   "entity": "SFA",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "SFA “2030년 완전 무인화”…레인보우로보틱스 손잡고 사업화 속도[현장]",
-   "nt": "sfa2030년완전무인화레인보우로보틱스손잡고사업화속도현장",
-   "tk": [
-    "2030년",
-    "sfa",
-    "레인보우로보틱스",
-    "무인화",
-    "사업화",
-    "속도",
-    "손잡고",
-    "완전",
-    "현장"
+    "12만2800위안",
+    "25",
+    "9월",
+    "가격",
+    "급락",
+    "연중",
+    "최저",
+    "탄산리튬"
    ],
    "nums": [
-    "2000억",
-    "2030년"
+    "12만",
+    "16만",
+    "20만",
+    "25%"
    ],
-   "url": "https://www.edaily.co.kr/News/Read?newsId=02079526645608656&mediaCodeNo=257"
+   "url": "https://m.ekn.kr/view.php?key=20260930025570445"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "“ESS 믿고 올랐는데”…리튬 가격 추락, CATL·에코프로 등 ‘비상’ [머니+]",
+   "nt": "ess믿고올랐는데리튬가격추락catl에코프로등비상머니",
+   "tk": [
+    "catl",
+    "ess",
+    "가격",
+    "리튬",
+    "머니",
+    "믿고",
+    "비상",
+    "에코프로",
+    "올랐는데",
+    "추락"
+   ],
+   "nums": [
+    "12만",
+    "16만",
+    "20만"
+   ],
+   "url": "https://m.ekn.kr/view.php?key=20260930025570445"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "9월 D램·낸드 고정가 역대 최고…4분기 PC D램 13~18% 인상 전망",
+   "nt": "9월d램낸드고정가역대최고4분기pcd램1318인상전망",
+   "tk": [
+    "13",
+    "18",
+    "4분기",
+    "9월",
+    "d램",
+    "pc",
+    "고정가",
+    "낸드",
+    "역대",
+    "인상",
+    "전망",
+    "최고"
+   ],
+   "nums": [
+    "0.4%",
+    "18%",
+    "21개월",
+    "26달러",
+    "30.6달러",
+    "4.0%",
+    "4분기"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930184700003"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "9월 D램·낸드 가격 또 역대 최고…상승폭은 둔화",
+   "nt": "9월d램낸드가격또역대최고상승폭은둔화",
+   "tk": [
+    "9월",
+    "d램",
+    "가격",
+    "낸드",
+    "둔화",
+    "상승폭은",
+    "역대",
+    "최고"
+   ],
+   "nums": [
+    "0.4%",
+    "21개월",
+    "26달러",
+    "30.6달러",
+    "4.0%"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930184700003"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "2분기 파운드리 2.0 매출 966억달러, 25%↑…TSMC 비중 42%",
+   "nt": "2분기파운드리20매출966억달러25tsmc비중42",
+   "tk": [
+    "25",
+    "2분기",
+    "42",
+    "966억달러",
+    "tsmc",
+    "매출",
+    "비중",
+    "파운드리"
+   ],
+   "nums": [
+    "25%",
+    "29%",
+    "2분기",
+    "3%",
+    "4%",
+    "42%",
+    "549억",
+    "966억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930170600003"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "2분기 파운드리 2.0 시장 25%↑…AI 인프라 확장 효과",
+   "nt": "2분기파운드리20시장25ai인프라확장효과",
+   "tk": [
+    "25",
+    "2분기",
+    "ai",
+    "시장",
+    "인프라",
+    "파운드리",
+    "확장",
+    "효과"
+   ],
+   "nums": [
+    "25%",
+    "29%",
+    "2분기",
+    "3%",
+    "4%",
+    "549억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930170600003"
   }
  ]
 }

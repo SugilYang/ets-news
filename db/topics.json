@@ -6554,6 +6554,600 @@
     "121%"
    ],
    "url": "https://www.yna.co.kr/view/AKR20260929162200003"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Xiaomi officially launches Sky Nomad series in China",
+   "nt": "xiaomiofficiallylaunchesskynomadseriesin",
+   "tk": [
+    "china",
+    "in",
+    "launches",
+    "nomad",
+    "officially",
+    "series",
+    "sky",
+    "xiaomi"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/30/xiaomi-officially-launches-sky-nomad-series-in-china/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "광양만권, 이차전지 특화단지 지정…10조 투자 K배터리 거점",
+   "nt": "광양만권이차전지특화단지지정10조투자k배터리거점",
+   "tk": [
+    "10조",
+    "k배터리",
+    "거점",
+    "광양만권",
+    "이차전지",
+    "지정",
+    "투자",
+    "특화단지"
+   ],
+   "nums": [
+    "10조"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930166000054"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "Gotion",
+   "cat": "project",
+   "group": "all",
+   "h": "Gotion to supply 6GWh of battery storage for Saudi Arabia’s first utility-scale BESS tender",
+   "nt": "gotiontosupply6gwhofbatterystorageforsau",
+   "tk": [
+    "6gwh",
+    "arabia",
+    "battery",
+    "bess",
+    "first",
+    "for",
+    "gotion",
+    "of",
+    "saudi",
+    "scale",
+    "storage",
+    "supply",
+    "tender",
+    "to",
+    "utility"
+   ],
+   "nums": [
+    "6GWh"
+   ],
+   "url": "https://www.energy-storage.news/gotion-to-supply-6gwh-of-battery-storage-for-saudi-arabias-first-utility-scale-bess-tender/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "포스코퓨처엠, LFP 수주 훈풍에도…차입금 4조 '부담'",
+   "nt": "포스코퓨처엠lfp수주훈풍에도차입금4조부담",
+   "tk": [
+    "4조",
+    "lfp",
+    "부담",
+    "수주",
+    "차입금",
+    "포스코퓨처엠",
+    "훈풍에도"
+   ],
+   "nums": [
+    "4조"
+   ],
+   "url": "https://v.daum.net/v/20260930074030658"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Boston sues Trump administration over $20m EV charger grant cancellation",
+   "nt": "bostonsuestrumpadministrationover20mevch",
+   "tk": [
+    "20m",
+    "administration",
+    "boston",
+    "cancellation",
+    "charger",
+    "ev",
+    "grant",
+    "over",
+    "sues",
+    "trump"
+   ],
+   "nums": [
+    "$20m"
+   ],
+   "url": "https://www.electrive.com/2026/09/29/boston-sues-trump-administration-over-20m-ev-charger-grant-cancellation/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "현대무벡스",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "현대무벡스, 금호타이어 함평 신공장에 720억원 스마트 물류 구축",
+   "nt": "현대무벡스금호타이어함평신공장에720억원스마트물류구축",
+   "tk": [
+    "720억원",
+    "구축",
+    "금호타이어",
+    "물류",
+    "스마트",
+    "신공장에",
+    "함평",
+    "현대무벡스"
+   ],
+   "nums": [
+    "720억"
+   ],
+   "url": "https://www.straightnews.co.kr/news/articleViewAmp.html?idxno=312264"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "나인테크",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "나인테크, LG엔솔 세계 첫 ‘LMR 각형’ 1.4조 승부수…각형 핵심 ‘Z-스태킹’ 장비 개발",
+   "nt": "나인테크lg엔솔세계첫lmr각형14조승부수각형핵심z스태킹장비개발",
+   "tk": [
+    "4조",
+    "lg엔솔",
+    "lmr",
+    "각형",
+    "개발",
+    "나인테크",
+    "세계",
+    "스태킹",
+    "승부수",
+    "장비",
+    "핵심"
+   ],
+   "nums": [
+    "1.4조",
+    "1조",
+    "4000억"
+   ],
+   "url": "https://www.datatooza.com/article/2026093011150034e80ea65769_80"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "SFA, 자율제조 로봇 실증거점 구축…2030년 물류 완전 무인화",
+   "nt": "sfa자율제조로봇실증거점구축2030년물류완전무인화",
+   "tk": [
+    "2030년",
+    "sfa",
+    "구축",
+    "로봇",
+    "무인화",
+    "물류",
+    "실증거점",
+    "완전",
+    "자율제조"
+   ],
+   "nums": [
+    "2030년"
+   ],
+   "url": "https://www.etnews.com/20260930000331"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "Ultium Cells retrofits Tennessee plant for LMR cell production",
+   "nt": "ultiumcellsretrofitstennesseeplantforlmr",
+   "tk": [
+    "cell",
+    "cells",
+    "for",
+    "lmr",
+    "plant",
+    "production",
+    "retrofits",
+    "tennessee",
+    "ultium"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/30/ultium-cells-retrofits-tennessee-plant-for-lmr-cell-production/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "Gotion",
+   "cat": "customer",
+   "group": "global",
+   "h": "Volkswagen’s new LFP battery JVs with Gotion will adjust EV and BESS cell production split based on demand",
+   "nt": "volkswagensnewlfpbatteryjvswithgotionwil",
+   "tk": [
+    "adjust",
+    "and",
+    "based",
+    "battery",
+    "bess",
+    "cell",
+    "demand",
+    "ev",
+    "gotion",
+    "jvs",
+    "lfp",
+    "new",
+    "on",
+    "production",
+    "split",
+    "volkswagen",
+    "will",
+    "with"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/volkswagens-new-lfp-battery-jvs-with-gotion-will-adjust-ev-and-bess-cell-production-split-based-on-demand/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "2분기 파운드리 2.0 시장 25%↑…AI 인프라 확장 효과",
+   "nt": "2분기파운드리20시장25ai인프라확장효과",
+   "tk": [
+    "25",
+    "2분기",
+    "ai",
+    "시장",
+    "인프라",
+    "파운드리",
+    "확장",
+    "효과"
+   ],
+   "nums": [
+    "11%",
+    "25%",
+    "2분기",
+    "966억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930170600003"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "'휴머노이드 양산' 에이로봇, 안산에 400억 들여 신사옥 건립",
+   "nt": "휴머노이드양산에이로봇안산에400억들여신사옥건립",
+   "tk": [
+    "400억",
+    "건립",
+    "들여",
+    "신사옥",
+    "안산에",
+    "양산",
+    "에이로봇",
+    "휴머노이드"
+   ],
+   "nums": [
+    "400억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20260930150200061"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "중국 전고체 배터리 2030 승부…한국은 어디까지 왔나",
+   "nt": "중국전고체배터리2030승부한국은어디까지왔나",
+   "tk": [
+    "2030",
+    "배터리",
+    "승부",
+    "어디까지",
+    "왔나",
+    "전고체",
+    "중국",
+    "한국은"
+   ],
+   "nums": [
+    "2030"
+   ],
+   "url": "https://dspdaily.com/news/view.php?no=27692"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "[르포]“14년 만에 韓 도입 성공”…SK이노 E&S, 호주서 생산기반 확보",
+   "nt": "르포14년만에도입성공sk이노es호주서생산기반확보",
+   "tk": [
+    "14년",
+    "sk이노",
+    "도입",
+    "르포",
+    "만에",
+    "생산기반",
+    "성공",
+    "호주서",
+    "확보"
+   ],
+   "nums": [
+    "14년"
+   ],
+   "url": "https://www.etnews.com/20260930000229"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "차세대 ESS 배터리로 떠오른 나트륨…한·중 대표기업 시장 선점 나서",
+   "nt": "차세대ess배터리로떠오른나트륨한중대표기업시장선점나서",
+   "tk": [
+    "ess",
+    "나서",
+    "나트륨",
+    "대표기업",
+    "떠오른",
+    "배터리로",
+    "선점",
+    "시장",
+    "차세대"
+   ],
+   "nums": [
+    "6조"
+   ],
+   "url": "https://www.hankyung.com/article/202609179867G"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔, 싼 망간 활용… 차세대 배터리 양산 준비",
+   "nt": "lg엔솔싼망간활용차세대배터리양산준비",
+   "tk": [
+    "lg엔솔",
+    "망간",
+    "배터리",
+    "양산",
+    "준비",
+    "차세대",
+    "활용"
+   ],
+   "nums": [],
+   "url": "https://www.chosun.com/economy/industry-company/2026/10/01/4RKUTY3CR5CIJBI6LRQJV7T3JE/"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "ACC",
+   "cat": "customer",
+   "group": "global",
+   "h": "ACC Opens 2.4 MTPA Salai Banwa Plant and Adds 1 MTPA Kalamboli Capacity",
+   "nt": "accopens24mtpasalaibanwaplantandadds1mtp",
+   "tk": [
+    "acc",
+    "adds",
+    "and",
+    "banwa",
+    "capacity",
+    "kalamboli",
+    "mtpa",
+    "opens",
+    "plant",
+    "salai"
+   ],
+   "nums": [],
+   "url": "https://www.sahi.com/news/acc-opens-2-4-mtpa-salai-banwa-plant-and-adds-1-mtpa-kalamboli-capacity"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "“ESS 믿고 올랐는데”…리튬 가격 추락, CATL·에코프로 등 ‘비상’ [머니+]",
+   "nt": "ess믿고올랐는데리튬가격추락catl에코프로등비상머니",
+   "tk": [
+    "catl",
+    "ess",
+    "가격",
+    "리튬",
+    "머니",
+    "믿고",
+    "비상",
+    "에코프로",
+    "올랐는데",
+    "추락"
+   ],
+   "nums": [],
+   "url": "https://m.ekn.kr/view.php?key=20260930025570445"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "이수스페셜티케미컬, 10월 황화리튬 상업생산 돌입…전고체 배터리 '원가 장벽' 깬다",
+   "nt": "이수스페셜티케미컬10월황화리튬상업생산돌입전고체배터리원가장벽깬다",
+   "tk": [
+    "10월",
+    "깬다",
+    "돌입",
+    "배터리",
+    "상업생산",
+    "원가",
+    "이수스페셜티케미컬",
+    "장벽",
+    "전고체",
+    "황화리튬"
+   ],
+   "nums": [],
+   "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=10017"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "\"2030년 전고체 배터리 상용화\"…중국, 차세대 배터리 총공세",
+   "nt": "2030년전고체배터리상용화중국차세대배터리총공세",
+   "tk": [
+    "2030년",
+    "배터리",
+    "상용화",
+    "전고체",
+    "중국",
+    "차세대",
+    "총공세"
+   ],
+   "nums": [
+    "2026",
+    "2030",
+    "2030년"
+   ],
+   "url": "https://www.energyprosumer.info/6457"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SK온",
+   "cat": "project",
+   "group": "all",
+   "h": "ESS로 실적 반전 노리는 SK온… 정부 수주 의존도 커지나",
+   "nt": "ess로실적반전노리는sk온정부수주의존도커지나",
+   "tk": [
+    "ess로",
+    "sk온",
+    "노리는",
+    "반전",
+    "수주",
+    "실적",
+    "의존도",
+    "정부",
+    "커지나"
+   ],
+   "nums": [],
+   "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171047"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "대구·경북, 휴머노이드 로봇 국가첨단전략산업 특화단지 통합 지정",
+   "nt": "대구경북휴머노이드로봇국가첨단전략산업특화단지통합지정",
+   "tk": [
+    "경북",
+    "국가첨단전략산업",
+    "대구",
+    "로봇",
+    "지정",
+    "통합",
+    "특화단지",
+    "휴머노이드"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261001000023"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "세수펑크 끝낸 63조 초과세수…국채 덜 찍고 민생에 더 풀겠단 정부",
+   "nt": "세수펑크끝낸63조초과세수국채덜찍고민생에더풀겠단정부",
+   "tk": [
+    "63조",
+    "국채",
+    "끝낸",
+    "민생에",
+    "세수펑크",
+    "정부",
+    "찍고",
+    "초과세수",
+    "풀겠단"
+   ],
+   "nums": [
+    "63조"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12165531"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "[팩트체크] 보조배터리 부풀어 오르면 소금물에 넣어라?…화재 대응법은",
+   "nt": "팩트체크보조배터리부풀어오르면소금물에넣어라화재대응법은",
+   "tk": [
+    "넣어라",
+    "대응법은",
+    "보조배터리",
+    "부풀어",
+    "소금물에",
+    "오르면",
+    "팩트체크",
+    "화재"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20260930110000518"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "Geekplus",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "Shaping tomorrow's warehouse: Geekplus and LPP Logistics transform retail logistics through intelligent automation",
+   "nt": "shapingtomorrowswarehousegeekplusandlppl",
+   "tk": [
+    "and",
+    "automation",
+    "geekplus",
+    "intelligent",
+    "logistics",
+    "lpp",
+    "retail",
+    "shaping",
+    "through",
+    "tomorrow",
+    "transform",
+    "warehouse"
+   ],
+   "nums": [],
+   "url": "https://www.prnewswire.com/news-releases/shaping-tomorrows-warehouse-geekplus-and-lpp-logistics-transform-retail-logistics-through-intelligent-automation-302894303.html"
+  },
+  {
+   "date": "2026-10-01",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "SFA “2030년 완전 무인화”…레인보우로보틱스 손잡고 사업화 속도[현장]",
+   "nt": "sfa2030년완전무인화레인보우로보틱스손잡고사업화속도현장",
+   "tk": [
+    "2030년",
+    "sfa",
+    "레인보우로보틱스",
+    "무인화",
+    "사업화",
+    "속도",
+    "손잡고",
+    "완전",
+    "현장"
+   ],
+   "nums": [
+    "2000억",
+    "2030년"
+   ],
+   "url": "https://www.edaily.co.kr/News/Read?newsId=02079526645608656&mediaCodeNo=257"
   }
  ]
 }

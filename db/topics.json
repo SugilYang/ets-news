@@ -7314,6 +7314,504 @@
     "549억"
    ],
    "url": "https://www.yna.co.kr/view/AKR20260930170600003"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "“이재용·최태원이 개미 살리러 온다”…300조 실적으로 박스권 뚫나",
+   "nt": "이재용최태원이개미살리러온다300조실적으로박스권뚫나",
+   "tk": [
+    "300조",
+    "개미",
+    "뚫나",
+    "박스권",
+    "살리러",
+    "실적으로",
+    "온다",
+    "이재용",
+    "최태원이"
+   ],
+   "nums": [
+    "300조"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12166681"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "현대위아, 슬로바키아 신공장 가동…유럽 생산거점 구축",
+   "nt": "현대위아슬로바키아신공장가동유럽생산거점구축",
+   "tk": [
+    "가동",
+    "구축",
+    "생산거점",
+    "슬로바키아",
+    "신공장",
+    "유럽",
+    "현대위아"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12165941"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "정부, 7.9조원 기업투자 신속 지원…전기차·수소·반도체 규제 개선",
+   "nt": "정부79조원기업투자신속지원전기차수소반도체규제개선",
+   "tk": [
+    "9조원",
+    "개선",
+    "규제",
+    "기업투자",
+    "반도체",
+    "수소",
+    "신속",
+    "전기차",
+    "정부",
+    "지원"
+   ],
+   "nums": [
+    "7.9조"
+   ],
+   "url": "https://www.nocutnews.co.kr/news/6585387"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "“첨단산업 투자, 빠르게”…전기차 전환 행정단축·반도체 팹 증설속도↑",
+   "nt": "첨단산업투자빠르게전기차전환행정단축반도체팹증설속도",
+   "tk": [
+    "반도체",
+    "빠르게",
+    "전기차",
+    "전환",
+    "증설속도",
+    "첨단산업",
+    "투자",
+    "행정단축"
+   ],
+   "nums": [
+    "1년",
+    "3년"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12165574"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Xiaomi officially launches Sky Nomad series in China",
+   "nt": "xiaomiofficiallylaunchesskynomadseriesin",
+   "tk": [
+    "china",
+    "in",
+    "launches",
+    "nomad",
+    "officially",
+    "series",
+    "sky",
+    "xiaomi"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/30/xiaomi-officially-launches-sky-nomad-series-in-china/"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "독자 기술 갖춘 '슈퍼 을' 중견기업 키운다…1조 투입해 '졸업유예제' 도입",
+   "nt": "독자기술갖춘슈퍼을중견기업키운다1조투입해졸업유예제도입",
+   "tk": [
+    "1조",
+    "갖춘",
+    "기술",
+    "도입",
+    "독자",
+    "슈퍼",
+    "졸업유예제",
+    "중견기업",
+    "키운다",
+    "투입해"
+   ],
+   "nums": [
+    "1조"
+   ],
+   "url": "https://www.etnews.com/20261001000475"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "'괴물 실적' 예고한 삼전닉스 … 문제는 수급",
+   "nt": "괴물실적예고한삼전닉스문제는수급",
+   "tk": [
+    "괴물",
+    "문제는",
+    "삼전닉스",
+    "수급",
+    "실적",
+    "예고한"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/stock/12166399"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "Ultium Cells retrofits Tennessee plant for LMR cell production",
+   "nt": "ultiumcellsretrofitstennesseeplantforlmr",
+   "tk": [
+    "cell",
+    "cells",
+    "for",
+    "lmr",
+    "plant",
+    "production",
+    "retrofits",
+    "tennessee",
+    "ultium"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/09/30/ultium-cells-retrofits-tennessee-plant-for-lmr-cell-production/"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔, 46시리즈 북미 공략 가속… 전기 상용차로 고객군 확대",
+   "nt": "lg엔솔46시리즈북미공략가속전기상용차로고객군확대",
+   "tk": [
+    "46시리즈",
+    "lg엔솔",
+    "가속",
+    "고객군",
+    "공략",
+    "북미",
+    "상용차로",
+    "전기",
+    "확대"
+   ],
+   "nums": [],
+   "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=359952"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "SFA \"반도체 장비 실적, 디스플레이 추월\"",
+   "nt": "sfa반도체장비실적디스플레이추월",
+   "tk": [
+    "sfa",
+    "디스플레이",
+    "반도체",
+    "실적",
+    "장비",
+    "추월"
+   ],
+   "nums": [],
+   "url": "https://v.daum.net/v/6PSkVjpXAt?f=p"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "LG에너지솔루션",
+   "cat": "project",
+   "group": "all",
+   "h": "LG엔솔, 3차 ESS 수주전서 배터리 4대 핵심 소재 국산화…중국 의존도 '제로' 만든다",
+   "nt": "lg엔솔3차ess수주전서배터리4대핵심소재국산화중국의존도제로만든다",
+   "tk": [
+    "3차",
+    "4대",
+    "ess",
+    "lg엔솔",
+    "국산화",
+    "만든다",
+    "배터리",
+    "소재",
+    "수주전서",
+    "의존도",
+    "제로",
+    "중국",
+    "핵심"
+   ],
+   "nums": [
+    "100%",
+    "2조",
+    "4대"
+   ],
+   "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=192720"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "ESS 넘어 서버 바로 옆까지…배터리 3사, AI 데이터센터 ‘전원’ 파고든다",
+   "nt": "ess넘어서버바로옆까지배터리3사ai데이터센터전원파고든다",
+   "tk": [
+    "3사",
+    "ai",
+    "ess",
+    "넘어",
+    "데이터센터",
+    "바로",
+    "배터리",
+    "서버",
+    "옆까지",
+    "전원",
+    "파고든다"
+   ],
+   "nums": [
+    "1050억"
+   ],
+   "url": "https://www.edaily.co.kr/News/Read?newsId=04847846645608656&mediaCodeNo=257"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "HBM·AI 투자 훈풍…반도체 장비·소재주까지 폭발적 상승랠리",
+   "nt": "hbmai투자훈풍반도체장비소재주까지폭발적상승랠리",
+   "tk": [
+    "ai",
+    "hbm",
+    "반도체",
+    "상승랠리",
+    "소재주까지",
+    "장비",
+    "투자",
+    "폭발적",
+    "훈풍"
+   ],
+   "nums": [],
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=491873"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "SK온, ESS 전환기에 5억달러 만기…수주 확대·차환 병행",
+   "nt": "sk온ess전환기에5억달러만기수주확대차환병행",
+   "tk": [
+    "5억달러",
+    "ess",
+    "sk온",
+    "만기",
+    "병행",
+    "수주",
+    "전환기에",
+    "차환",
+    "확대"
+   ],
+   "nums": [
+    "1월23일",
+    "5억"
+   ],
+   "url": "https://www.ngetnews.com/news/articleView.html?idxno=553885"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "ACC",
+   "cat": "customer",
+   "group": "global",
+   "h": "ACC Opens 2.4 MTPA Salai Banwa Plant and Adds 1 MTPA Kalamboli Capacity",
+   "nt": "accopens24mtpasalaibanwaplantandadds1mtp",
+   "tk": [
+    "acc",
+    "adds",
+    "and",
+    "banwa",
+    "capacity",
+    "kalamboli",
+    "mtpa",
+    "opens",
+    "plant",
+    "salai"
+   ],
+   "nums": [],
+   "url": "https://www.sahi.com/news/acc-opens-2-4-mtpa-salai-banwa-plant-and-adds-1-mtpa-kalamboli-capacity"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Student VENTRA EV project aims to capture tyre and brake wear particles",
+   "nt": "studentventraevprojectaimstocapturetyrea",
+   "tk": [
+    "aims",
+    "and",
+    "brake",
+    "capture",
+    "ev",
+    "particles",
+    "project",
+    "student",
+    "to",
+    "tyre",
+    "ventra",
+    "wear"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/01/student-ventra-ev-project-aims-to-capture-tyre-and-brake-wear-particles/"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Norway: Tesla Model Y made up a quarter of new passenger car sales in September",
+   "nt": "norwayteslamodelymadeupaquarterofnewpass",
+   "tk": [
+    "car",
+    "in",
+    "made",
+    "model",
+    "new",
+    "norway",
+    "of",
+    "passenger",
+    "quarter",
+    "sales",
+    "september",
+    "tesla",
+    "up"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/01/norway-tesla-model-y-made-up-a-quarter-of-new-passenger-car-sales-in-september/"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "대구기계부품연구원, 이차전지 원자재 분자단위 분석 기반구축사업 연계 수요기업 네트워킹 세미나 개최",
+   "nt": "대구기계부품연구원이차전지원자재분자단위분석기반구축사업연계수요기업네트워킹세미",
+   "tk": [
+    "개최",
+    "기반구축사업",
+    "네트워킹",
+    "대구기계부품연구원",
+    "분석",
+    "분자단위",
+    "세미나",
+    "수요기업",
+    "연계",
+    "원자재",
+    "이차전지"
+   ],
+   "nums": [
+    "2026년"
+   ],
+   "url": "https://www.etnews.com/20261001000482"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD, Leapmotor Continue EV Sales Streak; Tesla Deliveries On Deck",
+   "nt": "bydleapmotorcontinueevsalesstreakteslade",
+   "tk": [
+    "byd",
+    "continue",
+    "deck",
+    "deliveries",
+    "ev",
+    "leapmotor",
+    "on",
+    "sales",
+    "streak",
+    "tesla"
+   ],
+   "nums": [],
+   "url": "https://www.investors.com/news/byd-tesla-leapmotor-xiaomi-xpeng-li-auto-electric-vehicle-china/"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "현대차그룹, 아이오닉3·EV2 배터리 조달 다변화…삼성SDI·CATL·SK온 낙점 [배터리레이다]",
+   "nt": "현대차그룹아이오닉3ev2배터리조달다변화삼성sdicatlsk온낙점배터리레이",
+   "tk": [
+    "catl",
+    "ev2",
+    "sk온",
+    "낙점",
+    "다변화",
+    "배터리",
+    "배터리레이다",
+    "삼성sdi",
+    "아이오닉3",
+    "조달",
+    "현대차그룹"
+   ],
+   "nums": [
+    "2배"
+   ],
+   "url": "https://www.ddaily.co.kr/page/view/2026100113575634143"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "Gotion",
+   "cat": "customer",
+   "group": "global",
+   "h": "Batteries: Volkswagen and Gotion to invest 3.22 billion € in Europe and Africa",
+   "nt": "batteriesvolkswagenandgotiontoinvest322b",
+   "tk": [
+    "22",
+    "africa",
+    "and",
+    "batteries",
+    "billion",
+    "europe",
+    "gotion",
+    "in",
+    "invest",
+    "to",
+    "volkswagen"
+   ],
+   "nums": [],
+   "url": "https://africa-news-agency.com/batteries-volkswagen-and-gotion-to-invest-3-22-billion-e-in-europe-and-africa/"
+  },
+  {
+   "date": "2026-10-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "고점서 28% 빠진 삼성SDI…개미들 '줍줍' 기회 열렸다",
+   "nt": "고점서28빠진삼성sdi개미들줍줍기회열렸다",
+   "tk": [
+    "28",
+    "개미들",
+    "고점서",
+    "기회",
+    "빠진",
+    "삼성sdi",
+    "열렸다",
+    "줍줍"
+   ],
+   "nums": [
+    "28%"
+   ],
+   "url": "https://www.hankyung.com/article/202610017323i"
   }
  ]
 }

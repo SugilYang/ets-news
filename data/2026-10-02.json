@@ -1,0 +1,554 @@
+{
+ "schema": 4,
+ "date": "2026-10-02",
+ "weekday": "금",
+ "edition": "조간",
+ "issue_no": 12,
+ "window_hours": 36,
+ "summary": "LG엔솔, 3차 ESS 수주전서 배터리 4대 핵심 소재 · SK온, ESS 전환기에 5억달러 만기…수주 확대·차환 · “첨단산업 투자, 빠르게”…전기차 전환 행정단축·반도체 · 정부, 7.9조원 기업투자 신속 지원…전기차·수소·반도",
+ "top": [
+  "2026-10-02-10",
+  "2026-10-02-13",
+  "2026-10-02-3",
+  "2026-10-02-2"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-02-10",
+       "h": "LG엔솔, 3차 ESS 수주전서 배터리 4대 핵심 소재 국산화…중국 의존도 '제로' 만든다",
+       "b": "LG에너지솔루션이 총 <b>2조</b>원 규모로 개막한 정부의 제3차 ESS(에너지저장장치) 중앙계약시장 입찰에서 배터리 핵심 소재부터 셀 생산까지 전 과정을 <b>100%</b>…",
+       "src": "위키리크스한국",
+       "url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=192720",
+       "date": "2026-10-01",
+       "cat": "project",
+       "group": "all",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "수주",
+        "RFQ"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-10-02-7",
+       "h": "Ultium Cells retrofits Tennessee plant for LMR cell production",
+       "b": "Ultium Cells plans to convert its battery cell plant in Spring Hill, Tennessee, USA, to produce prismatic LMR cells.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/30/ultium-cells-retrofits-tennessee-plant-for-lmr-cell-production/",
+       "date": "2026-09-30",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "각형"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-8",
+       "h": "LG엔솔, 46시리즈 북미 공략 가속… 전기 상용차로 고객군 확대",
+       "b": "LG에너지솔루션이 차세대 원통형 배터리 ‘46시리즈’ 적용 영역을 북미 전기 상용차 시장으로 넓힌다.",
+       "src": "비즈트리뷴",
+       "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=359952",
+       "date": "2026-10-01",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "46시리즈",
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-10-02-19",
+       "h": "현대차그룹, 아이오닉3·EV2 배터리 조달 다변화…삼성SDI·CATL·SK온 낙점 [배터리레이다]",
+       "b": "",
+       "src": "디지털데일리",
+       "url": "https://www.ddaily.co.kr/page/view/2026100113575634143",
+       "date": "2026-10-01",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [
+        "SK온",
+        "CATL"
+       ],
+       "tags": [
+        "각형"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-21",
+       "h": "고점서 28% 빠진 삼성SDI…개미들 '줍줍' 기회 열렸다",
+       "b": "삼성SDI가 전기차 업황 침체에 대응해 북미 시장을 중심으로 ESS(에너지저장장치) 생산 능력을 대폭 확대하며 사업 다각화에 나서자, 내년도 실적 개선 전망과 함께 증권가의 목표주가 상향이 이어지고 있습니다.",
+       "src": "한국경제",
+       "url": "https://www.hankyung.com/article/202610017323i",
+       "date": "2026-10-01",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": [
+      {
+       "id": "2026-10-02-13",
+       "h": "SK온, ESS 전환기에 5억달러 만기…수주 확대·차환 병행",
+       "b": "SK온이 전기차 배터리 생산시설을 에너지저장장치(ESS)용으로 전환하며 가동률 회복에 나선 가운데 내년 1월 23일 <b>5억</b>달러 규모의 해외사채 만기를 맞는다.",
+       "src": "뉴스저널리즘",
+       "url": "https://www.ngetnews.com/news/articleView.html?idxno=553885",
+       "date": "2026-10-01",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-10-02-14",
+       "h": "ACC Opens 2.4 MTPA Salai Banwa Plant and Adds 1 MTPA Kalamboli Capacity",
+       "b": "ACC has scaled up its regional operations with a newly opened 2.4 MTPA grinding plant in…",
+       "src": "Sahi",
+       "url": "https://www.sahi.com/news/acc-opens-2-4-mtpa-salai-banwa-plant-and-adds-1-mtpa-kalamboli-capacity",
+       "date": "2026-09-30",
+       "cat": "customer",
+       "group": "global",
+       "entity": "ACC",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-18",
+       "h": "BYD, Leapmotor Continue EV Sales Streak; Tesla Deliveries On Deck",
+       "b": "China's languishing electric vehicle market continued to offer a mixed bag of results for carmakers.",
+       "src": "bing.com",
+       "url": "https://www.investors.com/news/byd-tesla-leapmotor-xiaomi-xpeng-li-auto-electric-vehicle-china/",
+       "date": "2026-10-01",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-20",
+       "h": "Batteries: Volkswagen and Gotion to invest 3.22 billion € in Europe and Africa",
+       "b": "",
+       "src": "africa-news-agency.com",
+       "url": "https://africa-news-agency.com/batteries-volkswagen-and-gotion-to-invest-3-22-billion-e-in-europe-and-africa/",
+       "date": "2026-10-01",
+       "cat": "customer",
+       "group": "global",
+       "entity": "Gotion",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-10-02-9",
+       "h": "SFA \"반도체 장비 실적, 디스플레이 추월\"",
+       "b": "\"SFA(056190)는 인공지능(AI) 등장에 가장 도움을 많이 받고 있는 기업이다.",
+       "src": "v.daum.net",
+       "url": "https://v.daum.net/v/6PSkVjpXAt?f=p",
+       "date": "2026-10-01",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "SFA",
+       "related": [],
+       "tags": [
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-17",
+       "h": "대구기계부품연구원, 이차전지 원자재 분자단위 분석 기반구축사업 연계 수요기업 네트워킹 세미나 개최",
+       "b": "대구기계부품연구원(DMI·원장 송규호)은 1일 호텔인터불고 대구에서 '이차전지 원자재 분자단위 분석 기반구축사업'의 <b>2026년</b> 수요기업 네트워킹 세미나를 개최했다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261001000482",
+       "date": "2026-10-01",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "SFA",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-02-2",
+       "h": "정부, 7.9조원 기업투자 신속 지원…전기차·수소·반도체 규제 개선",
+       "b": "강원 경남 광주 대구 대전 부산 영동 울산 전남 전북 제주 청주 포항 총리실 교육 노동 보건/의료 인권/복지 경제정책 정책 일반 정부, '현장중심 기업투자·혁신…",
+       "src": "bing.com",
+       "url": "https://www.nocutnews.co.kr/news/6585387",
+       "date": "2026-10-01",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "RFQ",
+        "정책"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-3",
+       "h": "“첨단산업 투자, 빠르게”…전기차 전환 행정단축·반도체 팹 증설속도↑",
+       "b": "정부가 내연차 공장의 전기차 전환을 지원하기 위해 현대자동차를 중심으로 인허가와 영향평가 등 각종 행정절차를 기존 <b>3년</b> 이상에서 <b>1년</b> 이내로 단축할 방침이다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12165574",
+       "date": "2026-10-01",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-5",
+       "h": "독자 기술 갖춘 '슈퍼 을' 중견기업 키운다…1조 투입해 '졸업유예제' 도입",
+       "b": "정부가 우리 경제의 허리 역할을 하는 중견기업의 기술 자립과 글로벌 경쟁력 강화를 위해 <b>1조</b>원 규모의 '데카코어 프로젝트'를 가동하고 인공지능(AI) 전환을 전폭 지원한다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261001000475",
+       "date": "2026-10-01",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책",
+        "특허"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-10-02-1",
+       "h": "현대위아, 슬로바키아 신공장 가동…유럽 생산거점 구축",
+       "b": "현대위아가 슬로바키아 신공장에서 본격적으로 차량 핵심부품을 양산하며 유럽 지역을 공략에 시동을 걸었다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12165941",
+       "date": "2026-10-01",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-15",
+       "h": "Student VENTRA EV project aims to capture tyre and brake wear particles",
+       "b": "Students at TU Eindhoven have developed an electric car concept called VENTRA, which is…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/01/student-ventra-ev-project-aims-to-capture-tyre-and-brake-wear-particles/",
+       "date": "2026-10-02",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-16",
+       "h": "Norway: Tesla Model Y made up a quarter of new passenger car sales in September",
+       "b": "Norway recorded 18,511 new electric car sales in September - while all other powertrain…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/01/norway-tesla-model-y-made-up-a-quarter-of-new-passenger-car-sales-in-september/",
+       "date": "2026-10-01",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-10-02-4",
+       "h": "Xiaomi officially launches Sky Nomad series in China",
+       "b": "Xiaomi is expanding its automotive lineup beyond battery-electric models for the first time.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/09/30/xiaomi-officially-launches-sky-nomad-series-in-china/",
+       "date": "2026-10-01",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "RFQ"
+       ],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-11",
+       "h": "ESS 넘어 서버 바로 옆까지…배터리 3사, AI 데이터센터 ‘전원’ 파고든다",
+       "b": "'적색수배' KOK 자금총책 지갑 보니…국내외 거래소로 <b>1050억</b>대 현금화",
+       "src": "edaily.co.kr",
+       "url": "https://www.edaily.co.kr/News/Read?newsId=04847846645608656&mediaCodeNo=257",
+       "date": "2026-10-01",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-10-02-0",
+       "h": "“이재용·최태원이 개미 살리러 온다”…300조 실적으로 박스권 뚫나",
+       "b": "메모리 반도체 업체 중 3위인 미국 마이크론이 가장 먼저 실적 시즌 스타트를 순조롭게 끊은 가운데 1·2위인 삼성전자와 SK하이닉스가 바통을 이어받을 채비를 하고 있다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12166681",
+       "date": "2026-10-02",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-6",
+       "h": "'괴물 실적' 예고한 삼전닉스 … 문제는 수급",
+       "b": "메모리 반도체 3위 마이크론 이 순조로운 실적 출발을 알리며 삼성전자와 SK하이닉스로 이어지는 업황의 선행 지표 역할을 하고 있습니다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12166399",
+       "date": "2026-10-01",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-02-12",
+       "h": "HBM·AI 투자 훈풍…반도체 장비·소재주까지 폭발적 상승랠리",
+       "b": "반도체와반도체장비 업종이 1일 강한 상승세를 나타내고 있다.",
+       "src": "핀포인트뉴스",
+       "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=491873",
+       "date": "2026-10-01",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": []
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 80,
+  "published": 22,
+  "headline_only": 3,
+  "followup": 0,
+  "suppressed": 0,
+  "sameday": 0,
+  "nobody": 0,
+  "unclassified": 0,
+  "capped": 38
+ },
+ "sources": [
+  "Sahi",
+  "africa-news-agency.com",
+  "bing.com",
+  "edaily.co.kr",
+  "electrive.com",
+  "etnews.com",
+  "mk.co.kr",
+  "v.daum.net",
+  "뉴스저널리즘",
+  "디지털데일리",
+  "비즈트리뷴",
+  "위키리크스한국",
+  "핀포인트뉴스",
+  "한국경제"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

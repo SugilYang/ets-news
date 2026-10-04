@@ -5,11 +5,13 @@
  "edition": "조간",
  "issue_no": 13,
  "window_hours": 84,
- "summary": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는  · “이재용·최태원이 개미 살리러 온다”…300조 실적으로 · LA Metro orders 200 electric b",
+ "refined": true,
+ "summary": "LG엔솔 벤츠 46100 원통형 2028년 공급 · 삼성전자 용인 국가산단 360조 · 피엔티엠에스 태국법인 설립 · BMW Gen6 배터리 공장 양산",
  "top": [
-  "2026-10-05-3",
   "2026-10-05-0",
-  "2026-10-05-5"
+  "2026-10-05-6",
+  "2026-10-05-4",
+  "2026-10-05-1"
  ],
  "sections": [
   {
@@ -34,32 +36,27 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-10-05-2",
-       "h": "ESS로 눈 돌린 K배터리…전기차 공장까지 사업 재편 속도",
-       "b": "2분기 실적 개선을 이끈 ESS 수요가 3분기에도 이어지면서 LG에너지솔루션·삼성SDI·SK온 등 배터리 3사는 ESS 수주 확대와 생산라인 전환을 통해 사업 재편에 속도를 내고 있다.",
-       "src": "bing.com",
-       "url": "https://www.ziksir.com/news/articleView.html?idxno=148191",
-       "date": "2026-10-04",
+       "id": "2026-10-05-0",
+       "h": "LG엔솔, 벤츠 차세대 EV에 46100 원통형 셀 공급…2028년 납품",
+       "b": "디일렉 보도(electrive 3일): 46시리즈 신규 규격, 내년 생산라인 구축 착수·<b>2028년</b> 공급 시작.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/03/lg-energy-solution-to-supply-46100-round-cells-to-mercedes/",
+       "date": "2026-10-03",
        "cat": "customer",
        "group": "lgensol",
        "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
+       "related": [],
        "tags": [
-        "ESS",
-        "투자",
-        "수주",
-        "실적"
+        "46시리즈",
+        "수주"
        ],
-       "grade": "B",
-       "rel": 2,
+       "grade": "A",
+       "rel": 3,
        "followup": null
       },
       {
-       "id": "2026-10-05-6",
-       "h": "LG에너지솔루션 폴란드 공장도 LFP로 체질 전환, 김동명 유럽 ESS 시장 정조준",
+       "id": "2026-10-05-1",
+       "h": "LG엔솔, 폴란드 공장도 LFP로 전환…유럽 ESS 시장 대응",
        "b": "",
        "src": "businesspost.co.kr",
        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=448544",
@@ -80,34 +77,15 @@
     {
      "id": "sdi",
      "title": "삼성SDI",
-     "items": [
-      {
-       "id": "2026-10-05-11",
-       "h": "삼성SDI 투자분석 2026. 10. 01",
-       "b": "삼성SDI 투자분석 2026.",
-       "src": "주달",
-       "url": "https://www.judal.co.kr/?view=stockAI&shareToken=m4FM3t5KkRu1gvku",
-       "date": "2026-10-01",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "skon",
      "title": "SK온",
      "items": [
       {
-       "id": "2026-10-05-8",
-       "h": "현대차·SK온 美 배터리 JV ‘HSBMA’로 확정…IRA 대응 공급망 본격 가동",
+       "id": "2026-10-05-2",
+       "h": "현대차·SK온 美 배터리 합작법인 'HSBMA' 확정",
        "b": "",
        "src": "kukinews.com",
        "url": "https://www.kukinews.com/article/view/kuk202603270083",
@@ -117,7 +95,8 @@
        "entity": "SK온",
        "related": [],
        "tags": [
-        "정책"
+        "정책",
+        "투자"
        ],
        "grade": "B",
        "rel": 2,
@@ -130,9 +109,9 @@
      "title": "글로벌 · 기타",
      "items": [
       {
-       "id": "2026-10-05-16",
-       "h": "September was BYD’s strongest month of the year so far",
-       "b": "With a total of 463,561 'NEVs' delivered, Chinese manufacturer BYD recorded its strongest month of 2026 so far.",
+       "id": "2026-10-05-3",
+       "h": "BYD 9월 NEV 46만3561대…올해 최다, 전년比 17%↑",
+       "b": "8월 <b>44만</b><b>293대</b> 대비 <b>5.3%</b> 증가. BEV 증가·PHEV 감소, 유럽 등 수출 기여.",
        "src": "electrive.com",
        "url": "https://www.electrive.com/2026/10/02/september-was-byds-strongest-month-of-the-year-so-far/",
        "date": "2026-10-02",
@@ -140,43 +119,11 @@
        "group": "global",
        "entity": "BYD",
        "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-05-18",
-       "h": "Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology",
-       "b": "Automakers are going all-in on developing solid-state batteries, the next-generation…",
-       "src": "finance.biggo.com",
-       "url": "https://finance.biggo.com/news/fd1548d8-1522-43b3-98dd-1b590f1a010f",
-       "date": "2026-10-04",
-       "cat": "customer",
-       "group": "global",
-       "entity": "BYD",
-       "related": [],
        "tags": [
-        "전고체"
+        "실적"
        ],
        "grade": "C",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-05-19",
-       "h": "CATL to increase workforce at its Debrecen battery plant",
-       "b": "",
-       "src": "The Debrecen Sun -",
-       "url": "https://www.debrecensun.hu/local/2026/10/02/catl-to-increase-workforce-at-its-debrecen-battery-plant/",
-       "date": "2026-10-02",
-       "cat": "customer",
-       "group": "global",
-       "entity": "CATL",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 2,
+       "rel": 3,
        "followup": null
       }
      ]
@@ -191,53 +138,16 @@
     {
      "id": "grade_A",
      "title": "A등급 경쟁사",
-     "items": [
-      {
-       "id": "2026-10-05-10",
-       "h": "문희승 이사, 필에너지 주식 5000주 ↑…지분율 0.02%",
-       "b": "등록번호 : 서울,아54780 / 등록일자 : <b>2023년</b> 04월 04일 / 발행일자 : <b>2023년</b> 04월 04일 제호 : 데이터투자 / 발행인·편집인 : 주지숙…",
-       "src": "데이터투자",
-       "url": "https://www.datatooza.com/article/20261002162343343852ef38f741_80",
-       "date": "2026-10-02",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "필에너지",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-05-17",
-       "h": "AI가 부른 완전 무인화…SFA, 생산라인 통째로 자동화한다",
-       "b": "생성형 인공지능(AI)의 확산으로 제조 현장의 자동화 수준이 개별 공정을 넘어 생산라인 전체로 확대되면서 SFA가 주목받고 있다.",
-       "src": "핀포인트뉴스",
-       "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=492561",
-       "date": "2026-10-04",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "SFA",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "grade_B",
      "title": "B등급 경쟁사",
      "items": [
       {
-       "id": "2026-10-05-20",
-       "h": "피엔티엠에스, 태국정부 2차전지 핵심 파트너로…\"연내 태국법인 설립\" - 머니투데이",
-       "b": "태국을 비롯한 동남아시아 진출 교두보를 마련함과 동시에 현지 생산라인 확대까지 노린다.",
+       "id": "2026-10-05-4",
+       "h": "피엔티엠에스, 태국 OSMEP와 MOU…연내 태국법인 설립",
+       "b": "2일 구미 본사 협약. 연말까지 분리막 설비 2세트 공급계약 추진, 태국법인이 피엔티 설비 공급까지 담당 예정.",
        "src": "머니투데이",
        "url": "https://www.mt.co.kr/index.php/stock/2026/10/02/2026100213553689306",
        "date": "2026-10-02",
@@ -245,7 +155,10 @@
        "group": "grade_B",
        "entity": "피엔티",
        "related": [],
-       "tags": [],
+       "tags": [
+        "투자",
+        "수주"
+       ],
        "grade": "B",
        "rel": 4,
        "followup": null
@@ -264,26 +177,8 @@
      "title": "",
      "items": [
       {
-       "id": "2026-10-05-4",
-       "h": "전기차 시장 판도 바꿀 ‘게임체인저’… 車 업계, 전고체 배터리 개발에 사활",
-       "b": "이 때문에 전고체 배터리는 전기차 시장의 판도를 흔들 ‘게임",
-       "src": "bing.com",
-       "url": "https://news.chosun.com/svc/list_out/content.html?catid=12&scode=www&contid=2026100400205&css_url=.%2Fcss%2FdefaultStyle.css",
-       "date": "2026-10-04",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "전고체"
-       ],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-05-7",
-       "h": "중국, 2030년 전고체 배터리 양산 공식화…지리·니오 동맹 출범",
+       "id": "2026-10-05-5",
+       "h": "중국, 2030년 전고체 양산 공식화…지리·니오 동맹 출범",
        "b": "",
        "src": "g-enews.com",
        "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026100505530020382bd56fbc3c_1",
@@ -293,29 +188,16 @@
        "entity": "",
        "related": [],
        "tags": [
-        "전고체"
+        "전고체",
+        "정책"
        ],
        "grade": "B",
        "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-05-15",
-       "h": "Hyundai leads solid-state battery race as Korea, Japan, China chase EV edge",
-       "b": "Carmakers, including Hyundai Motor, are pouring their efforts into developing Solid-state Battery.",
-       "src": "bing.com",
-       "url": "https://biz.chosun.com/en/en-industry/2026/10/04/X22BFCFPOFEENHHMI5SI2BNWTU/",
-       "date": "2026-10-03",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "전고체"
-       ],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
+       "followup": {
+        "prev_date": "2026-09-29",
+        "prev_h": "",
+        "change": "지리·니오 전고체 동맹 출범"
+       }
       }
      ]
     }
@@ -331,21 +213,55 @@
      "title": "전기차",
      "items": [
       {
-       "id": "2026-10-05-13",
-       "h": "“전기차만 타면 속이 '울렁', 안 하던 구토까지”… 유독 멀미 심한 이유는?",
-       "b": "전기차를 탈 때 유독 멀미가 심해진다고 호소하는 승객들이 늘면서 그 원인에 관심이 쏠리고 있다.",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261004000011",
-       "date": "2026-10-04",
+       "id": "2026-10-05-9",
+       "h": "BMW 이를바흐 배터리 공장 양산 개시…Gen6 고전압 배터리",
+       "b": "착공 <b>2년</b> 반 만에 양산. 뮌헨 신형 i3용 우선 공급, Neue Klasse 수요로 생산 확대.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/02/bmw-begins-gen6-battery-production-in-irlbach-straskirchen/",
+       "date": "2026-10-02",
        "cat": "market",
        "group": "ev",
        "entity": "",
        "related": [],
        "tags": [
-        "리스크"
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-05-10",
+       "h": "LA 메트로, ENC 전기버스 220대 발주…美 교통당국 40피트 최대",
+       "b": "AXESS EVO-BE 40피트 모델, LA 메트로 이사회 승인.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/02/la-metro-orders-200-electric-buses-from-enc/",
+       "date": "2026-10-02",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "수주"
        ],
        "grade": "C",
-       "rel": 4,
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-05-11",
+       "h": "영국 9월 BEV 등록 9만9199대, 36.3%↑…월간 최다",
+       "b": "SMMT 잠정치.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/02/uk-posts-strongest-ever-month-for-bev-registrations-in-september/",
+       "date": "2026-10-02",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
        "followup": null
       }
      ]
@@ -355,30 +271,12 @@
      "title": "이차전지",
      "items": [
       {
-       "id": "2026-10-05-5",
-       "h": "LA Metro orders 200 electric buses from ENC",
-       "b": "The LA Metro has awarded ENC a contract to supply 220 40-foot AXESS EVO-BE battery electric buses.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/02/la-metro-orders-200-electric-buses-from-enc/",
-       "date": "2026-10-02",
-       "cat": "market",
-       "group": "battery",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "수주"
-       ],
-       "grade": "A",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-05-9",
-       "h": "북미 ESS 기회 열린 ‘K-배터리’라지만…3사 사업화 속도는 ‘온도차’",
+       "id": "2026-10-05-12",
+       "h": "노스랜드파워, 폴란드 CM 계약 BESS 1.2GWh 금융 종결",
        "b": "",
-       "src": "kukinews.com",
-       "url": "https://www.kukinews.com/article/view/kuk202608040154",
-       "date": "2026-10-03",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/canadas-northland-power-closes-financing-on-1-2gwh-of-cm-contracted-bess-projects-in-poland/",
+       "date": "2026-10-02",
        "cat": "market",
        "group": "battery",
        "entity": "",
@@ -386,8 +284,26 @@
        "tags": [
         "ESS"
        ],
-       "grade": "B",
-       "rel": 2,
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-05-13",
+       "h": "불가리아 242MWp 태양광+773MWh BESS 하이브리드 상업운전",
+       "b": "Renalfa IPP·Eurowind.",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/renalfa-ipp-eurowind-inaugurate-solar-plus-storage-hybrid-renewable-energy-park-in-bulgaria/",
+       "date": "2026-10-02",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "C",
+       "rel": 3,
        "followup": null
       }
      ]
@@ -397,31 +313,30 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-10-05-0",
-       "h": "“이재용·최태원이 개미 살리러 온다”…300조 실적으로 박스권 뚫나",
-       "b": "메모리 반도체 업체 중 3위인 미국 마이크론이 가장 먼저 실적 시즌 스타트를 순조롭게 끊은 가운데 1·2위인 삼성전자와 SK하이닉스가 바통을 이어받을 채비를 하고 있다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12166681",
-       "date": "2026-10-02",
+       "id": "2026-10-05-6",
+       "h": "삼성전자 용인 국가산단 360조 투자…소부장·팹리스 70여 곳 입주 전망",
+       "b": "3~4일 용인 과학축제 전시(4일). 일자리 약 <b>160만</b> 개 효과, 열병합 발전 전기·열을 지역사회에도 공급 계획.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261004000009",
+       "date": "2026-10-04",
        "cat": "market",
        "group": "semi",
        "entity": "",
        "related": [],
        "tags": [
-        "투자",
-        "실적"
+        "투자"
        ],
        "grade": "A",
        "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-05-1",
-       "h": "‘검색’에서 ‘위임’으로 ... AI가 마지막 클릭을 가져가는 시대가 온다",
-       "b": "9월 22일 뉴욕 증시에서는 묘한 장면이 펼쳐졌다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12168056",
-       "date": "2026-10-05",
+       "id": "2026-10-05-7",
+       "h": "마이크론, 2027 회계연도 상반기 설비투자 250억달러…하반기 더 확대",
+       "b": "FY4분기(6~8월) 매출 <b>542.3억</b>달러 사상 최고(전년 <b>5배</b>). 전문가들은 유의미한 공급 증가는 내후년 하반기로 전망(4일).",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261002179200008",
+       "date": "2026-10-04",
        "cat": "market",
        "group": "semi",
        "entity": "",
@@ -434,21 +349,20 @@
        "followup": null
       },
       {
-       "id": "2026-10-05-3",
-       "h": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",
-       "b": "생산력 향상으로 가격이 내려가면 그만큼 이익에도 영향을 줄 수 있어서다.",
+       "id": "2026-10-05-8",
+       "h": "SK하이닉스, HBM·호남 투자 속 솔리다임 자금조달 고심",
+       "b": "솔리다임 웨이퍼 생산 <b>93만</b>→<b>96만</b>→<b>99만</b>장 정체, YMTC는 올해 <b>201만</b>장 전망(옴디아). 미국 상장설에 \"확정 없음\"(4일).",
        "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261002179200008",
+       "url": "https://www.yna.co.kr/view/AKR20261002140900003",
        "date": "2026-10-04",
        "cat": "market",
        "group": "semi",
        "entity": "",
        "related": [],
        "tags": [
-        "투자",
-        "실적"
+        "투자"
        ],
-       "grade": "A",
+       "grade": "C",
        "rel": 4,
        "followup": null
       }
@@ -457,70 +371,47 @@
     {
      "id": "fa",
      "title": "스마트팩토리 · AMR",
-     "items": [
-      {
-       "id": "2026-10-05-12",
-       "h": "수원 정조대왕 능행차, 로봇 공연·시민 퍼레이드 이어 왕실 행렬",
-       "b": "지난 4일 오후 경기 수원 화성행궁광장.",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261005000003",
-       "date": "2026-10-05",
-       "cat": "market",
-       "group": "fa",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-05-14",
-       "h": "[정보통신 미래모임 30년] 100자 메시지- 김정하 LS티라유텍 대표",
-       "b": "창립 30주년을 축하합니다.",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261004000016",
-       "date": "2026-10-04",
-       "cat": "market",
-       "group": "fa",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-10-05-0",
+   "say": "LG엔솔 벤츠용 46100 원통형 신규격, 내년 라인 구축 → 46시리즈 신규 라인 장비 RFQ 시점·설치 위치 확인, 원통형 조립·주액 장비 "
+  },
+  {
+   "item_id": "2026-10-05-1",
+   "say": "LG엔솔 폴란드 공장 LFP 전환 → 브로츠와프 라인 전환 개조 장비 수요와 일정 확인"
+  },
+  {
+   "item_id": "2026-10-05-4",
+   "say": "피엔티엠에스 태국법인·분리막 설비 2세트 추진 → 태국 EV·ESS 셀 투자 동향과 후공정 장비 입찰 정보 확보"
+  },
+  {
+   "item_id": "2026-10-05-6",
+   "say": "삼성전자 용인 국가산단 360조·소부장 70여 곳 입주 → 용인 팹·협력사 신설 라인의 물류 자동화·AMR 수요 추적"
+  },
+  {
+   "item_id": "2026-10-05-9",
+   "say": "BMW 이를바흐 Gen6 배터리 공장 양산 → 유럽 완성차 자체 팩 공장 증설에 따른 팩 조립 장비 입찰 정보 확인"
+  }
+ ],
  "stats": {
-  "fetched": 71,
-  "published": 21,
-  "headline_only": 6,
-  "followup": 0,
-  "suppressed": 0,
-  "sameday": 0,
-  "nobody": 0,
-  "unclassified": 4,
-  "capped": 29
+  "published": 14,
+  "refined_by": "claude",
+  "rule_published": 21
  },
  "sources": [
-  "The Debrecen Sun -",
-  "bing.com",
   "businesspost.co.kr",
   "electrive.com",
+  "energy-storage.news",
   "etnews.com",
-  "finance.biggo.com",
   "g-enews.com",
   "kukinews.com",
-  "mk.co.kr",
   "yna.co.kr",
-  "데이터투자",
-  "머니투데이",
-  "주달",
-  "핀포인트뉴스"
+  "머니투데이"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

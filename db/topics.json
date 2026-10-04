@@ -8059,6 +8059,474 @@
     "589MWh"
    ],
    "url": "https://www.energy-storage.news/financial-services-group-orix-builds-589mwh-of-bess-in-japan-after-securing-first-external-investment/"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "“이재용·최태원이 개미 살리러 온다”…300조 실적으로 박스권 뚫나",
+   "nt": "이재용최태원이개미살리러온다300조실적으로박스권뚫나",
+   "tk": [
+    "300조",
+    "개미",
+    "뚫나",
+    "박스권",
+    "살리러",
+    "실적으로",
+    "온다",
+    "이재용",
+    "최태원이"
+   ],
+   "nums": [
+    "300조"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12166681"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "‘검색’에서 ‘위임’으로 ... AI가 마지막 클릭을 가져가는 시대가 온다",
+   "nt": "검색에서위임으로ai가마지막클릭을가져가는시대가온다",
+   "tk": [
+    "ai가",
+    "가져가는",
+    "검색",
+    "마지막",
+    "시대가",
+    "에서",
+    "온다",
+    "위임",
+    "으로",
+    "클릭을"
+   ],
+   "nums": [
+    "9월22일"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12168056"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "ESS로 눈 돌린 K배터리…전기차 공장까지 사업 재편 속도",
+   "nt": "ess로눈돌린k배터리전기차공장까지사업재편속도",
+   "tk": [
+    "ess로",
+    "k배터리",
+    "공장까지",
+    "돌린",
+    "사업",
+    "속도",
+    "재편",
+    "전기차"
+   ],
+   "nums": [
+    "2분기",
+    "3분기"
+   ],
+   "url": "https://www.ziksir.com/news/articleView.html?idxno=148191"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",
+   "nt": "반도체설비투자확대로공급확대내후년하반기는돼야",
+   "tk": [
+    "공급",
+    "내후년",
+    "돼야",
+    "반도체",
+    "설비투자",
+    "하반기는",
+    "확대",
+    "확대로"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261002179200008"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "전기차 시장 판도 바꿀 ‘게임체인저’… 車 업계, 전고체 배터리 개발에 사활",
+   "nt": "전기차시장판도바꿀게임체인저업계전고체배터리개발에사활",
+   "tk": [
+    "개발에",
+    "게임체인저",
+    "바꿀",
+    "배터리",
+    "사활",
+    "시장",
+    "업계",
+    "전고체",
+    "전기차",
+    "판도"
+   ],
+   "nums": [],
+   "url": "https://news.chosun.com/svc/list_out/content.html?catid=12&scode=www&contid=2026100400205&css_url=.%2Fcss%2FdefaultStyle.css"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "LA Metro orders 200 electric buses from ENC",
+   "nt": "lametroorders200electricbusesfromenc",
+   "tk": [
+    "200",
+    "buses",
+    "electric",
+    "enc",
+    "from",
+    "la",
+    "metro",
+    "orders"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/02/la-metro-orders-200-electric-buses-from-enc/"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG에너지솔루션 폴란드 공장도 LFP로 체질 전환, 김동명 유럽 ESS 시장 정조준",
+   "nt": "lg에너지솔루션폴란드공장도lfp로체질전환김동명유럽ess시장정조준",
+   "tk": [
+    "ess",
+    "lfp로",
+    "lg에너지솔루션",
+    "공장도",
+    "김동명",
+    "시장",
+    "유럽",
+    "전환",
+    "정조준",
+    "체질",
+    "폴란드"
+   ],
+   "nums": [],
+   "url": "https://www.businesspost.co.kr/BP?command=article_view&num=448544"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "중국, 2030년 전고체 배터리 양산 공식화…지리·니오 동맹 출범",
+   "nt": "중국2030년전고체배터리양산공식화지리니오동맹출범",
+   "tk": [
+    "2030년",
+    "공식화",
+    "니오",
+    "동맹",
+    "배터리",
+    "양산",
+    "전고체",
+    "중국",
+    "지리",
+    "출범"
+   ],
+   "nums": [
+    "2030년"
+   ],
+   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026100505530020382bd56fbc3c_1"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "현대차·SK온 美 배터리 JV ‘HSBMA’로 확정…IRA 대응 공급망 본격 가동",
+   "nt": "현대차sk온배터리jvhsbma로확정ira대응공급망본격가동",
+   "tk": [
+    "hsbma",
+    "ira",
+    "jv",
+    "sk온",
+    "가동",
+    "공급망",
+    "대응",
+    "배터리",
+    "본격",
+    "현대차",
+    "확정"
+   ],
+   "nums": [],
+   "url": "https://www.kukinews.com/article/view/kuk202603270083"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "북미 ESS 기회 열린 ‘K-배터리’라지만…3사 사업화 속도는 ‘온도차’",
+   "nt": "북미ess기회열린k배터리라지만3사사업화속도는온도차",
+   "tk": [
+    "3사",
+    "ess",
+    "기회",
+    "라지만",
+    "배터리",
+    "북미",
+    "사업화",
+    "속도는",
+    "열린",
+    "온도차"
+   ],
+   "nums": [],
+   "url": "https://www.kukinews.com/article/view/kuk202608040154"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "필에너지",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "문희승 이사, 필에너지 주식 5000주 ↑…지분율 0.02%",
+   "nt": "문희승이사필에너지주식5000주지분율002",
+   "tk": [
+    "02",
+    "5000주",
+    "문희승",
+    "이사",
+    "주식",
+    "지분율",
+    "필에너지"
+   ],
+   "nums": [
+    "0.02%",
+    "04월04일",
+    "2023년"
+   ],
+   "url": "https://www.datatooza.com/article/20261002162343343852ef38f741_80"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI 투자분석 2026. 10. 01",
+   "nt": "삼성sdi투자분석20261001",
+   "tk": [
+    "01",
+    "10",
+    "2026",
+    "삼성sdi",
+    "투자분석"
+   ],
+   "nums": [
+    "2026"
+   ],
+   "url": "https://www.judal.co.kr/?view=stockAI&shareToken=m4FM3t5KkRu1gvku"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "수원 정조대왕 능행차, 로봇 공연·시민 퍼레이드 이어 왕실 행렬",
+   "nt": "수원정조대왕능행차로봇공연시민퍼레이드이어왕실행렬",
+   "tk": [
+    "공연",
+    "능행차",
+    "로봇",
+    "수원",
+    "시민",
+    "왕실",
+    "이어",
+    "정조대왕",
+    "퍼레이드",
+    "행렬"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261005000003"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "“전기차만 타면 속이 '울렁', 안 하던 구토까지”… 유독 멀미 심한 이유는?",
+   "nt": "전기차만타면속이울렁안하던구토까지유독멀미심한이유는",
+   "tk": [
+    "구토까지",
+    "멀미",
+    "속이",
+    "심한",
+    "울렁",
+    "유독",
+    "이유는",
+    "전기차만",
+    "타면",
+    "하던"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261004000011"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "[정보통신 미래모임 30년] 100자 메시지- 김정하 LS티라유텍 대표",
+   "nt": "정보통신미래모임30년100자메시지김정하ls티라유텍대표",
+   "tk": [
+    "100자",
+    "30년",
+    "ls티라유텍",
+    "김정하",
+    "대표",
+    "메시지",
+    "미래모임",
+    "정보통신"
+   ],
+   "nums": [
+    "30년"
+   ],
+   "url": "https://www.etnews.com/20261004000016"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Hyundai leads solid-state battery race as Korea, Japan, China chase EV edge",
+   "nt": "hyundaileadssolidstatebatteryraceaskorea",
+   "tk": [
+    "as",
+    "battery",
+    "chase",
+    "china",
+    "edge",
+    "ev",
+    "hyundai",
+    "japan",
+    "korea",
+    "leads",
+    "race",
+    "solid",
+    "state"
+   ],
+   "nums": [],
+   "url": "https://biz.chosun.com/en/en-industry/2026/10/04/X22BFCFPOFEENHHMI5SI2BNWTU/"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "September was BYD’s strongest month of the year so far",
+   "nt": "septemberwasbydsstrongestmonthoftheyears",
+   "tk": [
+    "byd",
+    "far",
+    "month",
+    "of",
+    "september",
+    "so",
+    "strongest",
+    "the",
+    "was",
+    "year"
+   ],
+   "nums": [
+    "2026"
+   ],
+   "url": "https://www.electrive.com/2026/10/02/september-was-byds-strongest-month-of-the-year-so-far/"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "AI가 부른 완전 무인화…SFA, 생산라인 통째로 자동화한다",
+   "nt": "ai가부른완전무인화sfa생산라인통째로자동화한다",
+   "tk": [
+    "ai가",
+    "sfa",
+    "무인화",
+    "부른",
+    "생산라인",
+    "완전",
+    "자동화한다",
+    "통째로"
+   ],
+   "nums": [],
+   "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=492561"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology",
+   "nt": "hyundaimotortoyotabydintensifyracetodeve",
+   "tk": [
+    "battery",
+    "byd",
+    "develop",
+    "dream",
+    "hyundai",
+    "intensify",
+    "motor",
+    "race",
+    "solid",
+    "state",
+    "technology",
+    "to",
+    "toyota"
+   ],
+   "nums": [],
+   "url": "https://finance.biggo.com/news/fd1548d8-1522-43b3-98dd-1b590f1a010f"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL to increase workforce at its Debrecen battery plant",
+   "nt": "catltoincreaseworkforceatitsdebrecenbatt",
+   "tk": [
+    "at",
+    "battery",
+    "catl",
+    "debrecen",
+    "increase",
+    "its",
+    "plant",
+    "to",
+    "workforce"
+   ],
+   "nums": [],
+   "url": "https://www.debrecensun.hu/local/2026/10/02/catl-to-increase-workforce-at-its-debrecen-battery-plant/"
+  },
+  {
+   "date": "2026-10-05",
+   "entity": "피엔티",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "피엔티엠에스, 태국정부 2차전지 핵심 파트너로…\"연내 태국법인 설립\" - 머니투데이",
+   "nt": "피엔티엠에스태국정부2차전지핵심파트너로연내태국법인설립머니투데이",
+   "tk": [
+    "2차전지",
+    "머니투데이",
+    "설립",
+    "연내",
+    "태국법인",
+    "태국정부",
+    "파트너로",
+    "피엔티엠에스",
+    "핵심"
+   ],
+   "nums": [],
+   "url": "https://www.mt.co.kr/index.php/stock/2026/10/02/2026100213553689306"
   }
  ]
 }

@@ -5,9 +5,12 @@
  "edition": "조간",
  "issue_no": 14,
  "window_hours": 36,
- "summary": "India’s BESS ambition: From im",
+ "refined": true,
+ "summary": "테슬라–LG엔솔 43억달러 LFP 셀 계약 추진(랜싱) · 도요타 북미 배터리 센터 개소 · Statkraft–Greenvolt 폴란드 BESS 400MW · 한-사우디 첨단산업 협력",
  "top": [
-  "2026-10-06-0"
+  "2026-10-06-0",
+  "2026-10-06-5",
+  "2026-10-06-6"
  ],
  "sections": [
   {
@@ -32,43 +35,27 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-10-06-1",
-       "h": "LG Energy Solution signs MoU with US startup Indigotech",
-       "b": "LG Energy Solution has signed a non-binding memorandum of understanding with Indigotech…",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/05/lg-energy-solution-signs-mou-with-us-startup-indigotech/",
+       "id": "2026-10-06-0",
+       "h": "테슬라–LG엔솔 43억달러 LFP 셀 계약 추진…랜싱 내년 생산",
+       "b": "메가팩3 탑재용, 미시간 랜싱 공장(옛 GM 합작 부지)에서 내년 생산 예정(더구루 5일). EVE파워는 플루언스와 다년 마스터 공급계약.",
+       "src": "더구루",
+       "url": "https://theguru.co.kr/mobile/article.html?no=107790",
        "date": "2026-10-05",
        "cat": "customer",
        "group": "lgensol",
        "entity": "LG에너지솔루션",
        "related": [],
        "tags": [
-        "46시리즈"
+        "ESS",
+        "수주"
        ],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-06-4",
-       "h": "中 배터리, ESS까지 확장…K배터리 ‘탈중국’으로 맞불",
-       "b": "中, 전력망용 저장장치 배터리 장악 미국서 탈중국 공급망 수요",
-       "src": "아시아투데이",
-       "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261005010001147",
-       "date": "2026-10-05",
-       "cat": "customer",
-       "group": "lgensol",
-       "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
-       "tags": [
-        "ESS"
-       ],
-       "grade": "B",
+       "grade": "A",
        "rel": 2,
-       "followup": null
+       "followup": {
+        "prev_date": "2026-09-22",
+        "prev_h": "",
+        "change": "테슬라 43억달러 LFP 구매 계약 추진·메가팩3 탑재 공개"
+       }
       }
      ]
     },
@@ -87,25 +74,9 @@
      "title": "글로벌 · 기타",
      "items": [
       {
-       "id": "2026-10-06-7",
-       "h": "BYD’s premium brand unveils the Denza Z9S",
-       "b": "The premium brand Denza from the Chinese BYD Group has unveiled the Denza Z9S, a fully…",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/05/byds-premium-brand-unveils-mid-range-electric-sedan-with-the-denza-z9s/",
-       "date": "2026-10-05",
-       "cat": "customer",
-       "group": "global",
-       "entity": "BYD",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-06-8",
-       "h": "CATL opens largest Ning Service Centre outside Asia in Oslo",
-       "b": "CATL has opened its largest Ning Service Center outside Asia in Oslo.",
+       "id": "2026-10-06-1",
+       "h": "CATL, 오슬로에 아시아 외 최대 'Ning Service' 센터 개소…8000㎡",
+       "b": "9월 24일 개소. 북유럽 대상 배터리 진단·정비·수리·세컨드라이프·재활용 서비스.",
        "src": "electrive.com",
        "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/",
        "date": "2026-10-05",
@@ -149,29 +120,27 @@
      "title": "",
      "items": [
       {
-       "id": "2026-10-06-0",
-       "h": "India’s BESS ambition: From import dependence to manufacturing scale",
-       "b": "Debmalya Sen, president of the India Energy Storage Alliance (IESA), on a dynamic market…",
-       "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/indias-bess-ambition-from-import-dependence-to-manufacturing-scale/",
-       "date": "2026-10-05",
+       "id": "2026-10-06-2",
+       "h": "한-사우디 비즈니스 투자 포럼…전기차·AI·방산 협력 확대",
+       "b": "6일 FKI타워, 한경협·PIF 주최. 사우디 전기차 업체 Ceer 등 <b>20개</b>사 방한, 한국 기업 약 <b>90개</b>사 참석.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261005039600003",
+       "date": "2026-10-06",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
-        "ESS",
-        "RFQ",
         "정책"
        ],
-       "grade": "A",
-       "rel": 3,
+       "grade": "C",
+       "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-06-2",
-       "h": "16 전고체 배터리 차량이 2030년 이후 세계 EV 시장에 가져올 수 있는 임팩트",
-       "b": "도요타 자동차와 이데미츠 코산이 주도하는 황화물계 전고체 배터리 실용화 계획(2027~<b>2028년</b> 초기 도입, <b>2030년</b> 전후 본격 양산)을 기점으로, <b>2030년</b>…",
+       "id": "2026-10-06-3",
+       "h": "도요타·이데미츠 황화물계 전고체 2027~28년 초기 도입, 2030년 전후 양산",
+       "b": "",
        "src": "bing.com",
        "url": "https://note.com/taktempest222tt/n/n223d1386784b?hl=ko",
        "date": "2026-10-05",
@@ -182,25 +151,25 @@
        "tags": [
         "전고체"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
        "followup": null
       },
       {
-       "id": "2026-10-06-5",
-       "h": "한-사우디, 전기차·AI·방산 등 첨단산업 협력 강화",
-       "b": "산업통상부 후원으로 6일 서울 여의도 FKI타워에서 양국 주요",
+       "id": "2026-10-06-4",
+       "h": "경기도 \"SK하이닉스 이천 방류 하천 염소·황산이온 FAO 권고치 초과\"",
+       "b": "죽당천 하류 0.4km 염소이온 731mg/L·황산이온 1561mg/L(복하천 71·32). BOD 등 <b>9개</b> 항목은 기준 이내. 정부에 자체 기준 마련 건의(5일).",
        "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261005039600003",
-       "date": "2026-10-06",
+       "url": "https://www.yna.co.kr/view/AKR20261005036300061",
+       "date": "2026-10-05",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
-        "투자"
+        "리스크"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 4,
        "followup": null
       }
@@ -218,17 +187,19 @@
      "title": "전기차",
      "items": [
       {
-       "id": "2026-10-06-6",
-       "h": "Roadchef and BP Pulse join forces on EV charging",
-       "b": "In the UK, Roadchef has announced an agreement with BP for electric vehicle charging…",
+       "id": "2026-10-06-5",
+       "h": "도요타, 미시간 세일린에 북미 배터리 센터 개소…약 2800㎡",
+       "b": "원재료 조달부터 재활용까지 배터리 평가·개발 전 주기 담당.",
        "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/05/roadchef-and-bp-pulse-join-forces-on-ev-charging/",
+       "url": "https://www.electrive.com/2026/10/05/toyota-battery-center-in-north-america-opens-in-michigan/",
        "date": "2026-10-05",
        "cat": "market",
        "group": "ev",
        "entity": "",
        "related": [],
-       "tags": [],
+       "tags": [
+        "투자"
+       ],
        "grade": "C",
        "rel": 3,
        "followup": null
@@ -240,9 +211,9 @@
      "title": "이차전지",
      "items": [
       {
-       "id": "2026-10-06-9",
-       "h": "Statkraft and Greenvolt sign largest EU battery energy storage tolling agreement for projects in Poland",
-       "b": "",
+       "id": "2026-10-06-6",
+       "h": "Statkraft–Greenvolt, 폴란드 BESS 400MW 10년 톨링 계약…EU 최대",
+       "b": "가동 중인 <b>2개</b> 프로젝트 대상.",
        "src": "energy-storage.news",
        "url": "https://www.energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland/",
        "date": "2026-10-05",
@@ -256,22 +227,6 @@
        "grade": "C",
        "rel": 3,
        "followup": null
-      },
-      {
-       "id": "2026-10-06-10",
-       "h": "‘Toyota Battery Center in North America’ opens in Michigan",
-       "b": "Toyota USA has opened a battery development centre in the US state of Michigan.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/05/toyota-battery-center-in-north-america-opens-in-michigan/",
-       "date": "2026-10-05",
-       "cat": "market",
-       "group": "battery",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
       }
      ]
     },
@@ -280,45 +235,11 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-10-06-3",
-       "h": "‘검색’에서 ‘위임’으로 ... AI가 마지막 클릭을 가져가는 시대가 온다",
-       "b": "9월 22일 뉴욕 증시에서는 묘한 장면이 펼쳐졌다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12168056",
-       "date": "2026-10-05",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-06-11",
-       "h": "AMRO \"올해 韓 성장률 3.3%\" … 반도체 호황 지속에 전망 높여",
-       "b": "AMRO가 한국 성장률 <b>3.3%</b> 를 제시하며 삼성전자의 반도체 수출 호황이 거시 성장 동력으로 부각됐습니다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/economy/12168578",
-       "date": "2026-10-05",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-06-12",
-       "h": "리사 수 AMD 회장 7개월 만에 방한…'AI 동맹' 넓히나(종합)",
-       "b": "지난 3월 첫 방한 당시 삼성전자·네이버 경영진과 잇달아 회동하고 이후 한국 정부와 AI 컴퓨팅 협력을 확대해온 만큼 이번 방한에서도 국내 기업 및 정부…",
+       "id": "2026-10-06-7",
+       "h": "경북도, 美 유타주·유타대와 AI·반도체 협력 협약",
+       "b": "9월 21일 체결. '경북-유타 글로벌 오픈 이노베이션 허브' 구축, 기업 매칭·기술사업화 연계.",
        "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261005043951017",
+       "url": "https://www.yna.co.kr/view/AKR20261005015400053",
        "date": "2026-10-05",
        "cat": "market",
        "group": "semi",
@@ -339,24 +260,31 @@
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-10-06-0",
+   "say": "테슬라–LG엔솔 랜싱 LFP 43억달러(메가팩3) → 랜싱 LFP 라인 증설·2차 장비 발주 일정 확인, ESS 각형 LFP 조립·주액 장비 제"
+  },
+  {
+   "item_id": "2026-10-06-5",
+   "say": "도요타 북미 배터리 센터 개소 → 도요타 북미 배터리 평가·개발 거점의 시험 장비 수요 확인"
+  },
+  {
+   "item_id": "2026-10-06-6",
+   "say": "폴란드 BESS 400MW 톨링 등 유럽 ESS 장기계약 확대 → 유럽 ESS 셀 공급사(LG엔솔 폴란드 LFP 전환) 증설 계획 확인"
+  }
+ ],
  "stats": {
-  "fetched": 28,
-  "published": 13,
-  "headline_only": 1,
-  "followup": 0,
-  "suppressed": 0,
-  "sameday": 0,
-  "nobody": 0,
-  "unclassified": 0,
-  "capped": 11
+  "published": 8,
+  "refined_by": "claude",
+  "rule_published": 13
  },
  "sources": [
   "bing.com",
   "electrive.com",
   "energy-storage.news",
-  "mk.co.kr",
   "yna.co.kr",
-  "아시아투데이"
+  "더구루"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

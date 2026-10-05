@@ -8712,45 +8712,167 @@
   },
   {
    "date": "2026-10-06",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "India’s BESS ambition: From import dependence to manufacturing scale",
-   "nt": "indiasbessambitionfromimportdependenceto",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "테슬라–LG엔솔 43억달러 LFP 셀 계약 추진…랜싱 내년 생산",
+   "nt": "테슬라lg엔솔43억달러lfp셀계약추진랜싱내년생산",
    "tk": [
-    "ambition",
-    "bess",
-    "dependence",
-    "from",
-    "import",
-    "india",
-    "manufacturing",
-    "scale",
-    "to"
+    "43억달러",
+    "lfp",
+    "lg엔솔",
+    "계약",
+    "내년",
+    "랜싱",
+    "생산",
+    "추진",
+    "테슬라"
    ],
-   "nums": [],
-   "url": "https://www.energy-storage.news/indias-bess-ambition-from-import-dependence-to-manufacturing-scale/"
+   "nums": [
+    "43억"
+   ],
+   "url": "https://theguru.co.kr/mobile/article.html?no=107790"
   },
   {
    "date": "2026-10-06",
    "entity": "LG에너지솔루션",
    "cat": "customer",
    "group": "lgensol",
-   "h": "LG Energy Solution signs MoU with US startup Indigotech",
-   "nt": "lgenergysolutionsignsmouwithusstartupind",
+   "h": "플루언스·테슬라, 배터리 공급망 강화 총력…EVE파워·LG엔솔과 맞손",
+   "nt": "플루언스테슬라배터리공급망강화총력eve파워lg엔솔과맞손",
    "tk": [
-    "energy",
-    "indigotech",
-    "lg",
-    "mou",
-    "signs",
-    "solution",
-    "startup",
-    "us",
-    "with"
+    "eve파워",
+    "lg엔솔과",
+    "강화",
+    "공급망",
+    "맞손",
+    "배터리",
+    "총력",
+    "테슬라",
+    "플루언스"
    ],
    "nums": [],
-   "url": "https://www.electrive.com/2026/10/05/lg-energy-solution-signs-mou-with-us-startup-indigotech/"
+   "url": "https://theguru.co.kr/mobile/article.html?no=107790"
+  },
+  {
+   "date": "2026-10-06",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL, 오슬로에 아시아 외 최대 'Ning Service' 센터 개소…8000㎡",
+   "nt": "catl오슬로에아시아외최대ningservice센터개소8000",
+   "tk": [
+    "8000",
+    "catl",
+    "ning",
+    "service",
+    "개소",
+    "센터",
+    "아시아",
+    "오슬로에",
+    "최대"
+   ],
+   "nums": [
+    "9월24일"
+   ],
+   "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/"
+  },
+  {
+   "date": "2026-10-06",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL opens largest Ning Service Centre outside Asia in Oslo",
+   "nt": "catlopenslargestningservicecentreoutside",
+   "tk": [
+    "asia",
+    "catl",
+    "centre",
+    "in",
+    "largest",
+    "ning",
+    "opens",
+    "oslo",
+    "outside",
+    "service"
+   ],
+   "nums": [
+    "9월24일"
+   ],
+   "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/"
+  },
+  {
+   "date": "2026-10-06",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "한-사우디 비즈니스 투자 포럼…전기차·AI·방산 협력 확대",
+   "nt": "한사우디비즈니스투자포럼전기차ai방산협력확대",
+   "tk": [
+    "ai",
+    "방산",
+    "비즈니스",
+    "사우디",
+    "전기차",
+    "투자",
+    "포럼",
+    "협력",
+    "확대"
+   ],
+   "nums": [
+    "20개",
+    "90개"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261005039600003"
+  },
+  {
+   "date": "2026-10-06",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "한-사우디, 전기차·AI·방산 등 첨단산업 협력 강화",
+   "nt": "한사우디전기차ai방산등첨단산업협력강화",
+   "tk": [
+    "ai",
+    "강화",
+    "방산",
+    "사우디",
+    "전기차",
+    "첨단산업",
+    "협력"
+   ],
+   "nums": [
+    "20개",
+    "90개"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261005039600003"
+  },
+  {
+   "date": "2026-10-06",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "도요타·이데미츠 황화물계 전고체 2027~28년 초기 도입, 2030년 전후 양산",
+   "nt": "도요타이데미츠황화물계전고체202728년초기도입2030년전후양산",
+   "tk": [
+    "2027",
+    "2030년",
+    "28년",
+    "도요타",
+    "도입",
+    "양산",
+    "이데미츠",
+    "전고체",
+    "전후",
+    "초기",
+    "황화물계"
+   ],
+   "nums": [
+    "2027",
+    "2030년",
+    "28년"
+   ],
+   "url": "https://note.com/taktempest222tt/n/n223d1386784b?hl=ko"
   },
   {
    "date": "2026-10-06",
@@ -8774,8 +8896,6 @@
     "차량이"
    ],
    "nums": [
-    "2027",
-    "2028년",
     "2030년"
    ],
    "url": "https://note.com/taktempest222tt/n/n223d1386784b?hl=ko"
@@ -8783,126 +8903,115 @@
   {
    "date": "2026-10-06",
    "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "‘검색’에서 ‘위임’으로 ... AI가 마지막 클릭을 가져가는 시대가 온다",
-   "nt": "검색에서위임으로ai가마지막클릭을가져가는시대가온다",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "경기도 \"SK하이닉스 이천 방류 하천 염소·황산이온 FAO 권고치 초과\"",
+   "nt": "경기도sk하이닉스이천방류하천염소황산이온fao권고치초과",
    "tk": [
-    "ai가",
-    "가져가는",
-    "검색",
-    "마지막",
-    "시대가",
-    "에서",
-    "온다",
-    "위임",
-    "으로",
-    "클릭을"
+    "fao",
+    "sk하이닉스",
+    "경기도",
+    "권고치",
+    "방류",
+    "염소",
+    "이천",
+    "초과",
+    "하천",
+    "황산이온"
    ],
    "nums": [
-    "9월22일"
+    "9개"
    ],
-   "url": "https://www.mk.co.kr/news/stock/12168056"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "中 배터리, ESS까지 확장…K배터리 ‘탈중국’으로 맞불",
-   "nt": "배터리ess까지확장k배터리탈중국으로맞불",
-   "tk": [
-    "ess까지",
-    "k배터리",
-    "맞불",
-    "배터리",
-    "으로",
-    "탈중국",
-    "확장"
-   ],
-   "nums": [],
-   "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261005010001147"
+   "url": "https://www.yna.co.kr/view/AKR20261005036300061"
   },
   {
    "date": "2026-10-06",
    "entity": "",
    "cat": "tech_policy",
    "group": "all",
-   "h": "한-사우디, 전기차·AI·방산 등 첨단산업 협력 강화",
-   "nt": "한사우디전기차ai방산등첨단산업협력강화",
+   "h": "SK하이닉스 방류 하천 염소·황산이온 농도, 'FAO 권고치' 초과",
+   "nt": "sk하이닉스방류하천염소황산이온농도fao권고치초과",
    "tk": [
-    "ai",
-    "강화",
-    "방산",
-    "사우디",
-    "전기차",
-    "첨단산업",
-    "협력"
+    "fao",
+    "sk하이닉스",
+    "권고치",
+    "농도",
+    "방류",
+    "염소",
+    "초과",
+    "하천",
+    "황산이온"
    ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20261005039600003"
+   "nums": [
+    "9개"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261005036300061"
   },
   {
    "date": "2026-10-06",
    "entity": "",
    "cat": "market",
    "group": "ev",
-   "h": "Roadchef and BP Pulse join forces on EV charging",
-   "nt": "roadchefandbppulsejoinforcesonevcharging",
+   "h": "도요타, 미시간 세일린에 북미 배터리 센터 개소…약 2800㎡",
+   "nt": "도요타미시간세일린에북미배터리센터개소약2800",
    "tk": [
-    "and",
-    "bp",
-    "charging",
-    "ev",
-    "forces",
-    "join",
-    "on",
-    "pulse",
-    "roadchef"
+    "2800",
+    "개소",
+    "도요타",
+    "미시간",
+    "배터리",
+    "북미",
+    "세일린에",
+    "센터"
    ],
    "nums": [],
-   "url": "https://www.electrive.com/2026/10/05/roadchef-and-bp-pulse-join-forces-on-ev-charging/"
+   "url": "https://www.electrive.com/2026/10/05/toyota-battery-center-in-north-america-opens-in-michigan/"
   },
   {
    "date": "2026-10-06",
-   "entity": "BYD",
-   "cat": "customer",
-   "group": "global",
-   "h": "BYD’s premium brand unveils the Denza Z9S",
-   "nt": "bydspremiumbrandunveilsthedenzaz9s",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "‘Toyota Battery Center in North America’ opens in Michigan",
+   "nt": "toyotabatterycenterinnorthamericaopensin",
    "tk": [
-    "brand",
-    "byd",
-    "denza",
-    "premium",
-    "the",
-    "unveils",
-    "z9s"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/05/byds-premium-brand-unveils-mid-range-electric-sedan-with-the-denza-z9s/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "CATL opens largest Ning Service Centre outside Asia in Oslo",
-   "nt": "catlopenslargestningservicecentreoutside",
-   "tk": [
-    "asia",
-    "catl",
-    "centre",
+    "america",
+    "battery",
+    "center",
     "in",
-    "largest",
-    "ning",
+    "michigan",
+    "north",
     "opens",
-    "oslo",
-    "outside",
-    "service"
+    "toyota"
    ],
    "nums": [],
-   "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/"
+   "url": "https://www.electrive.com/2026/10/05/toyota-battery-center-in-north-america-opens-in-michigan/"
+  },
+  {
+   "date": "2026-10-06",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Statkraft–Greenvolt, 폴란드 BESS 400MW 10년 톨링 계약…EU 최대",
+   "nt": "statkraftgreenvolt폴란드bess400mw10년톨링계약eu최",
+   "tk": [
+    "10년",
+    "400mw",
+    "bess",
+    "eu",
+    "greenvolt",
+    "statkraft",
+    "계약",
+    "최대",
+    "톨링",
+    "폴란드"
+   ],
+   "nums": [
+    "10년",
+    "2개",
+    "400MW"
+   ],
+   "url": "https://www.energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland/"
   },
   {
    "date": "2026-10-06",
@@ -8928,74 +9037,53 @@
     "storage",
     "tolling"
    ],
-   "nums": [],
+   "nums": [
+    "2개"
+   ],
    "url": "https://www.energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland/"
   },
   {
    "date": "2026-10-06",
    "entity": "",
    "cat": "market",
-   "group": "battery",
-   "h": "‘Toyota Battery Center in North America’ opens in Michigan",
-   "nt": "toyotabatterycenterinnorthamericaopensin",
-   "tk": [
-    "america",
-    "battery",
-    "center",
-    "in",
-    "michigan",
-    "north",
-    "opens",
-    "toyota"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/05/toyota-battery-center-in-north-america-opens-in-michigan/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
    "group": "semi",
-   "h": "AMRO \"올해 韓 성장률 3.3%\" … 반도체 호황 지속에 전망 높여",
-   "nt": "amro올해성장률33반도체호황지속에전망높여",
+   "h": "경북도, 美 유타주·유타대와 AI·반도체 협력 협약",
+   "nt": "경북도유타주유타대와ai반도체협력협약",
    "tk": [
-    "amro",
-    "높여",
-    "반도체",
-    "성장률",
-    "올해",
-    "전망",
-    "지속에",
-    "호황"
-   ],
-   "nums": [
-    "3.3%"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12168578"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "리사 수 AMD 회장 7개월 만에 방한…'AI 동맹' 넓히나(종합)",
-   "nt": "리사수amd회장7개월만에방한ai동맹넓히나종합",
-   "tk": [
-    "7개월",
     "ai",
-    "amd",
-    "넓히나",
-    "동맹",
-    "리사",
-    "만에",
-    "방한",
-    "종합",
-    "회장"
+    "경북도",
+    "반도체",
+    "유타대와",
+    "유타주",
+    "협력",
+    "협약"
    ],
    "nums": [
-    "7개월"
+    "9월21일"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20261005043951017"
+   "url": "https://www.yna.co.kr/view/AKR20261005015400053"
+  },
+  {
+   "date": "2026-10-06",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "경북도, 미국 유타주·유타대와 AI·반도체 등 첨단산업 협력",
+   "nt": "경북도미국유타주유타대와ai반도체등첨단산업협력",
+   "tk": [
+    "ai",
+    "경북도",
+    "미국",
+    "반도체",
+    "유타대와",
+    "유타주",
+    "첨단산업",
+    "협력"
+   ],
+   "nums": [
+    "9월21일"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261005015400053"
   }
  ]
 }

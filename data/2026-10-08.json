@@ -5,11 +5,12 @@
  "edition": "조간",
  "issue_no": 16,
  "window_hours": 36,
- "summary": "​LG Energy Solution to Compens · “떨어질 만큼 떨어졌죠? 주워보겠습니다”…14조 팔고  · \"미래기금으로 한전·관사·공연관람·농어촌 기본소득 지원",
+ "refined": true,
+ "summary": "LG엔솔 랜싱 조립장비 사양 변경 100억 추가 지급 · SK온 ESS 수주 20GWh 목표 긍정적 · SK온 이반차 포드 Q1 인증 · 피엔티 美·인도 배터리쇼 턴키",
  "top": [
-  "2026-10-08-18",
   "2026-10-08-0",
-  "2026-10-08-4"
+  "2026-10-08-1",
+  "2026-10-08-3"
  ],
  "sections": [
   {
@@ -20,26 +21,7 @@
     {
      "id": "all",
      "title": "",
-     "items": [
-      {
-       "id": "2026-10-08-18",
-       "h": "​LG Energy Solution to Compensate Battery Equipment Maker 10 Billion Won - THE ELEC, Korea Electronics Industry Media",
-       "b": "LG Energy Solution has agreed to compensate an equipment supplier 10 billion won for…",
-       "src": "THE ELEC, Korea Electronics Industry Media",
-       "url": "https://www.thelec.net/news/articleView.html?idxno=14469",
-       "date": "2026-10-07",
-       "cat": "project",
-       "group": "all",
-       "entity": "LG에너지솔루션",
-       "related": [],
-       "tags": [
-        "수주"
-       ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   },
@@ -53,45 +35,21 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-10-08-11",
-       "h": "전고체 배터리 경쟁 본격화…LG엔솔·삼성SDI 전략 차이는?",
-       "b": "",
-       "src": "뉴시스",
-       "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261007_0003817114",
+       "id": "2026-10-08-0",
+       "h": "LG엔솔, 랜싱 조립장비 사양 변경 추가비용 100억 지급 합의",
+       "b": "제이스로보틱스가 작년 말 랜싱 <b>4개</b> 라인 조립장비 <b>538억</b> 수주, 생산계획 변경·사양 상향으로 추가 청구(디일렉 7일). 발주 후 공급가 인상은 이례적.",
+       "src": "THE ELEC, Korea Electronics Industry Media",
+       "url": "https://www.thelec.net/news/articleView.html?idxno=14469",
        "date": "2026-10-07",
        "cat": "customer",
        "group": "lgensol",
        "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI"
-       ],
+       "related": [],
        "tags": [
-        "전고체"
+        "수주"
        ],
        "grade": "B",
        "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-08-20",
-       "h": "K-배터리 3사, AI 데이터센터 ‘전력 해결사’ 노린다",
-       "b": "AI 데이터센터(AIDC)가 전 세계 전력망의 새 변수로 떠오르면서 국내 배터리 3사가 ‘전력 해결사’ 자리를 놓고 경쟁에 들어갔다.",
-       "src": "코리아리포트",
-       "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=53461",
-       "date": "2026-10-07",
-       "cat": "customer",
-       "group": "lgensol",
-       "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
-       "tags": [
-        "ESS",
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 2,
        "followup": null
       }
      ]
@@ -99,73 +57,16 @@
     {
      "id": "sdi",
      "title": "삼성SDI",
-     "items": [
-      {
-       "id": "2026-10-08-8",
-       "h": "에코프로비엠·삼성SDI, 황화물계 전고체 배터리 개발 맞손",
-       "b": "에코프로비엠이 <b>2027년</b>부터 삼성SDI와 황화물계 전고체 배터리 상용화를 목표로 전략적 협력을 강화한다.",
-       "src": "bing.com",
-       "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086414",
-       "date": "2026-10-06",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "전고체"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": {
-        "prev_date": "2026-10-07",
-        "prev_h": "에코프로비엠·삼성SDI, 전고체 배터리 소재 개발 협력",
-        "change": "2027년"
-       }
-      },
-      {
-       "id": "2026-10-08-9",
-       "h": "ESS+중저가 EV 각광…포스코퓨처엠→삼성SDI LFP 공급 2배↑",
-       "b": "삼성SDI와 포스코퓨처엠은 지난 8월 <b>2027년</b>부터 <b>2032년</b>까지 <b>19만</b>톤 규모의 LFP(리튬·인산·철) 양극재를 공급하는 것에 뜻을 모았었다.",
-       "src": "bing.com",
-       "url": "https://www.msn.com/ko-kr/news/other/ess-%EC%A4%91%EC%A0%80%EA%B0%80-ev-%EA%B0%81%EA%B4%91-%ED%8F%AC%EC%8A%A4%EC%BD%94%ED%93%A8%EC%B2%98%EC%97%A0-%EC%82%BC%EC%84%B1sdi-lfp-%EA%B3%B5%EA%B8%89-2%EB%B0%B0/ar-AA2dECpU",
-       "date": "2026-10-06",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "ESS"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "skon",
      "title": "SK온",
      "items": [
       {
-       "id": "2026-10-08-10",
-       "h": "양산 2년 만의 쾌거…SK온 헝가리 공장, 포드 'Q1 어워드' 수상",
-       "b": "",
-       "src": "파이낸셜포스트",
-       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=279244",
-       "date": "2026-10-07",
-       "cat": "customer",
-       "group": "skon",
-       "entity": "SK온",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-08-12",
-       "h": "\"올해 수주목표 20GWh 긍정적\"…SK온, 한·미·유럽 맞춤 전략 공개 - 머니투데이",
-       "b": "SK온이 ESS(에너지저장장치) 사업 포트폴리오 구축 방향 및 글로벌 지역별 시장 특성에 맞춘 전략을 공개한다.",
+       "id": "2026-10-08-1",
+       "h": "SK온 \"올해 ESS 수주목표 20GWh 달성 긍정적\"",
+       "b": "최대진 부사장(머니투데이): 30일 SEP 2026에서 한국(장주기 외 확장)·미국(AIDC)·유럽(IAA) 전략 발표. 2차 중앙계약시장 <b>284MW</b>(<b>50.3%</b>) 확보.",
        "src": "머니투데이",
        "url": "https://www.mt.co.kr/industry/2026/10/07/2026100611040848837",
        "date": "2026-10-07",
@@ -180,46 +81,31 @@
        "grade": "B",
        "rel": 4,
        "followup": null
+      },
+      {
+       "id": "2026-10-08-2",
+       "h": "SK온 헝가리 이반차 공장, 포드 'Q1 어워드' 품질 인증",
+       "b": "6일 수여식. <b>2024년</b> 2분기 양산 후 약 <b>2년</b>. 이반차 <b>30GWh</b>, 코마롬 1·2공장 포함 헝가리 <b>47.5GWh</b>.",
+       "src": "아시아경제",
+       "url": "https://www.asiae.co.kr/article/2026100708104553806",
+       "date": "2026-10-07",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "실적"
+       ],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
       }
      ]
     },
     {
      "id": "global",
      "title": "글로벌 · 기타",
-     "items": [
-      {
-       "id": "2026-10-08-3",
-       "h": "Hithium’s ∞Cell N785Ah vs CATL, HiNa, and its own LFP range: a sodium-ion comparison for BESS",
-       "b": "Hithium's recent sodium-ion battery and BESS product launch is the latest in a long line…",
-       "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
-       "date": "2026-10-07",
-       "cat": "customer",
-       "group": "global",
-       "entity": "CATL",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-08-16",
-       "h": "KGM Torres EVX now eligible for UK Electric Car Grant",
-       "b": "Two BEVs from KGM (formerly SsangYong) are now eligible for UK government purchase grants.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/06/kgm-torres-evx-now-eligible-for-uk-electric-car-grant/",
-       "date": "2026-10-06",
-       "cat": "customer",
-       "group": "global",
-       "entity": "BYD",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   },
@@ -238,41 +124,9 @@
      "title": "B등급 경쟁사",
      "items": [
       {
-       "id": "2026-10-08-13",
-       "h": "피엔티, 미국·인도 배터리 전시회 참가… 생산라인 구축부터 양산 지원까지 역량 공개",
-       "b": "자회사와 공동 부스 구성해 장비·소재·셀 아우르는 배터리 통합 서비스 제시 2차전지(배터리) 제조장비 전문기업 피엔티는 미국과 인도에서 열리는 글로벌 배터리…",
-       "src": "파이낸스스코프",
-       "url": "https://www.finance-scope.com/article/view/scp202610070004",
-       "date": "2026-10-07",
-       "cat": "competitor",
-       "group": "grade_B",
-       "entity": "피엔티",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-08-17",
-       "h": "Dematic offers Lifecycle Services to support peak season readiness for warehouses",
-       "b": "",
-       "src": "Modern Materials Handling",
-       "url": "https://www.mmh.com/article/dematic_offers_lifecycle_services_to_support_peak_season_readiness_for_warehouses",
-       "date": "2026-10-07",
-       "cat": "competitor",
-       "group": "grade_B",
-       "entity": "Dematic",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-08-19",
-       "h": "피엔티, 美·인도 배터리쇼 연속 참가…글로벌 ‘배터리 턴키’ 역량 과시",
-       "b": "2차전지 제조장비 전문기업 피엔티가 미국과 인도에서 연이어 열리는 글로벌 배터리 전시회에 참가하며, 기존 장비 중심에서 소재와 셀(Cell) 생산까지 확장된 ‘통합 턴키(Turn-key)’ 사업 역량을 본격적으로 알린다고 밝혔다.",
+       "id": "2026-10-08-3",
+       "h": "피엔티, 美·인도 배터리쇼 연속 참가…장비·소재·셀 턴키 제시",
+       "b": "디트로이트 10월 13~15일, 인도 22~24일. 피엔티머티리얼즈·피엔티엠에스·AMT 공동 부스, 전극·LFP·분리막·동박 설비.",
        "src": "더스탁(The Stock)",
        "url": "https://www.the-stock.kr/news/articleView.html?idxno=33517",
        "date": "2026-10-07",
@@ -281,7 +135,7 @@
        "entity": "피엔티",
        "related": [],
        "tags": [],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -297,27 +151,7 @@
     {
      "id": "all",
      "title": "",
-     "items": [
-      {
-       "id": "2026-10-08-15",
-       "h": "Earnings Impact of 23 All-Solid-State Battery Related Stocks: The Structure of Solid Electrolyte Manufacturer Leadership and Mass Production Timelines",
-       "b": "While dozens of companies are cited as being \"all-solid-state battery related,\" only a…",
-       "src": "bing.com",
-       "url": "https://note.com/novusearch/n/n9d2188bfc222?hl=en",
-       "date": "2026-10-07",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "전고체",
-        "실적"
-       ],
-       "grade": "C",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   },
@@ -331,19 +165,39 @@
      "title": "전기차",
      "items": [
       {
-       "id": "2026-10-08-7",
-       "h": "DR Congo’s Cobalt Demand Holds Strong Despite Rise of Cobalt-Free EV Batteries",
-       "b": "Global cobalt consumption is forecast to rise <b>8%</b> in 2026 and <b>2.5%</b> in 2027, led mainly by electric vehicles.",
-       "src": "bing.com",
-       "url": "https://www.ecofinagency.com/news/0710-59509-dr-congo-s-cobalt-demand-holds-strong-despite-rise-of-cobalt-free-ev-batteries",
+       "id": "2026-10-08-9",
+       "h": "지오디스, 르노·볼보 44t 전기트럭 110대 발주…2027년 5월까지 인도",
+       "b": "프랑스 도심·장거리 운송 투입.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/06/geodis-orders-110-battery-electric-trucks-from-renault-and-volvo/",
        "date": "2026-10-07",
        "cat": "market",
        "group": "ev",
        "entity": "",
        "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 2,
+       "tags": [
+        "수주"
+       ],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-08-10",
+       "h": "크로아티아, 10월부터 EV 구매 보조금 최대 9000유로",
+       "b": "차량 가격에 따라 차등, 경상용차도 대상.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/07/new-ev-incentive-scheme-promises-up-to-e9000-in-croatia/",
+       "date": "2026-10-07",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "C",
+       "rel": 3,
        "followup": null
       }
      ]
@@ -353,45 +207,28 @@
      "title": "이차전지",
      "items": [
       {
-       "id": "2026-10-08-1",
-       "h": "Chinese ESS shipments still growing strongly but financial performance starting to diverge",
-       "b": "The first half of the year saw mixed results among China's leading ESS suppliers, though…",
+       "id": "2026-10-08-7",
+       "h": "Atmos, 호주 퀸즐랜드 400MW/1.6GWh Teebar BESS 금융 종결",
+       "b": "Capacity Investment Scheme 지원 사업.",
        "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/chinese-ess-shipments-still-growing-strongly-but-financial-performance-starting-to-diverge/",
+       "url": "https://www.energy-storage.news/atmos-renewables-closes-financing-on-1-6gwh-capacity-investment-scheme-backed-battery-storage-system-in-australia/",
        "date": "2026-10-07",
        "cat": "market",
        "group": "battery",
        "entity": "",
        "related": [],
        "tags": [
-        "ESS"
+        "ESS",
+        "투자"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 3,
        "followup": null
       },
       {
-       "id": "2026-10-08-2",
-       "h": "UK ROUNDUP: Gore Street shareholder vote maintains status quo, CIP and BW ESS progress 4-hour duration assets",
-       "b": "UK market's shifting dynamics see listed fund Gore Street's shareholders take key vote…",
-       "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/uk-roundup-gore-street-shareholder-vote-maintains-status-quo-cip-and-bw-ess-progress-4-hour-duration-assets/",
-       "date": "2026-10-07",
-       "cat": "market",
-       "group": "battery",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "ESS"
-       ],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-08-5",
-       "h": "BW ESS starts building 828MWh BESS in Italy as ‘market moves to execution’",
-       "b": "BESS owner-operator BW ESS has launched construction on its second large-scale project in…",
+       "id": "2026-10-08-8",
+       "h": "BW ESS, 이탈리아 828MWh BESS 착공…한 달 새 두 번째 대형 프로젝트",
+       "b": "",
        "src": "energy-storage.news",
        "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
        "date": "2026-10-07",
@@ -402,7 +239,7 @@
        "tags": [
         "ESS"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 3,
        "followup": null
       }
@@ -413,30 +250,29 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-10-08-0",
-       "h": "“떨어질 만큼 떨어졌죠? 주워보겠습니다”…14조 팔고 돌아온 개미들",
-       "b": "지난달 국내 증시에서 거센 매도세를 이어가던 개인투자자들이 최근 반도체주를 중심으로 순매수세로 돌아설 조짐이다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12171046",
+       "id": "2026-10-08-4",
+       "h": "SK하이닉스, 'AI 환경연구소' 설립 추진…협력사 1700곳 탈탄소 지원",
+       "b": "전력 수요 예측·냉각 효율·대체가스·공정용수 재활용 연구. 내부 '탈탄소전환센터'로 장비·부품·소재 협력사 컨설팅(8일).",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261007189000003",
        "date": "2026-10-08",
        "cat": "market",
        "group": "semi",
        "entity": "",
        "related": [],
        "tags": [
-        "투자",
-        "실적"
+        "투자"
        ],
-       "grade": "A",
+       "grade": "C",
        "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-08-4",
-       "h": "\"미래기금으로 한전·관사·공연관람·농어촌 기본소득 지원\"(종합)",
-       "b": "박 의원이 기획예산처의 내년도 미래대응기금 운용계획안을 분석한 결과 미래대응기금 내 한전 관련 국비 지원 규모는 전체 재원의 약 <b>45%</b>인 <b>46조</b><b>6천</b>억원에 달했다.",
+       "id": "2026-10-08-5",
+       "h": "BGF, 반도체 소재 KNW 지분 56.9% 매입…무수불산 사업 직접 관리",
+       "b": "7일 공시. BGF에코스페셜티 9월 울산 온산 무수불산 공장 완공, 연 <b>5만</b>t(국내 수요 절반).",
        "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261007188851001",
+       "url": "https://www.yna.co.kr/view/AKR20261007167551008",
        "date": "2026-10-07",
        "cat": "market",
        "group": "semi",
@@ -445,14 +281,14 @@
        "tags": [
         "투자"
        ],
-       "grade": "A",
+       "grade": "C",
        "rel": 4,
        "followup": null
       },
       {
        "id": "2026-10-08-6",
-       "h": "올 국내 외국인투자 149억弗 … 1년새 30% 늘어 사상 최대",
-       "b": "올해 3분기까지 한국에 유입된 외국인직접투자(FDI)가 역대 최대를 기록하며, <b>148억</b><b>6500만</b> 달러에 달하고 이는 지난해 같은 기간보다",
+       "h": "1~3분기 외국인직접투자 148.65억달러 사상 최대…소재·부품 151.8%↑",
+       "b": "제조업 <b>62.53억</b>달러(+<b>110.6%</b>), 신고액 <b>228.96억</b>달러(역대 3위). EU·일본 투자 증가(산업부).",
        "src": "mk.co.kr",
        "url": "https://www.mk.co.kr/news/economy/12170703",
        "date": "2026-10-07",
@@ -463,7 +299,7 @@
        "tags": [
         "투자"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 4,
        "followup": null
       }
@@ -472,53 +308,43 @@
     {
      "id": "fa",
      "title": "스마트팩토리 · AMR",
-     "items": [
-      {
-       "id": "2026-10-08-14",
-       "h": "AI와 오목 두고 휴머노이드 체험…23∼24일 서울숲서 AI 축제",
-       "b": "서울시평생교육진흥원은 오는 23∼24일 성동구 서울숲 갤러리아포레 내 더서울라이티움에서 '2026 서울 AI 평생학습 러닝 그라운드'를 개최한다고 8일 밝혔다.",
-       "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261007169400004",
-       "date": "2026-10-08",
-       "cat": "market",
-       "group": "fa",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-10-08-0",
+   "say": "LG엔솔, 랜싱 조립장비 사양 변경분 100억 추가 지급(제이스로보틱스 538억 수주) → 랜싱 추가 라인 장비 발주 여부 확인, 사양 변경 시"
+  },
+  {
+   "item_id": "2026-10-08-1",
+   "say": "SK온 ESS 수주 20GWh 목표·30일 SEP 전략 발표 → SEP 2026 참관해 SK온 지역별 ESS 라인 투자 계획 확인"
+  },
+  {
+   "item_id": "2026-10-08-3",
+   "say": "피엔티, 美·인도 배터리쇼 턴키(장비+소재+셀) 제안 → 북미·인도 신규 셀 투자 고객 대상 후공정(조립·주액) 장비 영업 접점 확보"
+  },
+  {
+   "item_id": "2026-10-08-2",
+   "say": "SK온 이반차 30GWh 포드 Q1 인증 → 헝가리 3개 공장(47.5GWh) 후속 증설·개조 장비 수요 확인"
+  }
+ ],
  "stats": {
-  "fetched": 89,
-  "published": 21,
-  "headline_only": 4,
-  "followup": 1,
-  "suppressed": 0,
-  "sameday": 1,
-  "nobody": 0,
-  "unclassified": 1,
-  "capped": 40
+  "published": 11,
+  "refined_by": "claude",
+  "rule_published": 21
  },
  "sources": [
-  "Modern Materials Handling",
   "THE ELEC, Korea Electronics Industry Media",
-  "bing.com",
   "electrive.com",
   "energy-storage.news",
   "mk.co.kr",
   "yna.co.kr",
-  "뉴시스",
   "더스탁(The Stock)",
   "머니투데이",
-  "코리아리포트",
-  "파이낸셜포스트",
-  "파이낸스스코프"
+  "아시아경제"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

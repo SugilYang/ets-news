@@ -1,0 +1,1224 @@
+{
+ "date": "2026-10-08",
+ "window_hours": 36,
+ "candidates": [
+  {
+   "cid": 0,
+   "title": "“떨어질 만큼 떨어졌죠? 주워보겠습니다”…14조 팔고 돌아온 개미들",
+   "url": "https://www.mk.co.kr/news/stock/12171046",
+   "src": "mk.co.kr",
+   "date": "2026-10-08",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 지난달 국내 증시에서 거센 매도세를 이어가던 개인투자자들이 최근 반도체주를 중심으로 순매수세로 돌아설 조짐이다. 반도체 기업 실적 공개 시즌을 앞두고 실적 기대감에 기반해 투자심리가 되살아날지 관심이 쏠린다. 서학개미들 역시 반도체주를 중심으로 주식 매수세를 강화하는 모습이다. 7일 한국거래소에 따르면 개인투자자들이 이달 들어 코스피에서 1052억원어치를 순매수한 것으로 나타났다. 아직까지 순매수 규모는 미미하지만 지난달 총 14조1970억원을 팔아치운 것과 대비할 때 변화 조짐이 엿보인다. 반도체 ‘팔자’ 행진도 일단 숨 고르기에 들어간 양상이다. 같은 기간 개인은 삼성전자를 5376억원어치 팔아치웠다. 하지만 분기 배당 기준일을 앞두고 9월 마지막 주에 유입됐던 3조원대 순매수 자금 중 상당 금액이 배당락 이후에도 투자 잔류한 것으로 분석된다. SK하이닉스는 최근 일주일 새 1396억원 순매수에 나섰다. 서학개미 역시 반도체 섹터를 중심으로 미국 증시 귀환에 속도를 내고 있다. 한국예탁결제원에 따르면 이달 들어 지난 6일까지 미국 증시에는 서학개미 자금 7억2385만달러(약 9700억원)가 순유입됐다. 지난 9월 한 달 전체 순유입액인 10억127만달러의 70%가 넘는 자금이 일주일도 안 돼 들어온 것이다. 뉴욕 증시의 신고가 랠리 속에 국내 투자자의 미 주식 보유액",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-10-08-0"
+  },
+  {
+   "cid": 1,
+   "title": "Chinese ESS shipments still growing strongly but financial performance starting to diverge",
+   "url": "https://www.energy-storage.news/chinese-ess-shipments-still-growing-strongly-but-financial-performance-starting-to-diverge/",
+   "src": "energy-storage.news",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "The first half of the year saw mixed results among China's leading ESS suppliers, though generally the industry is still performing strongly, writes PV Tech ESS analyst Charlotte Gisbourne.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-1"
+  },
+  {
+   "cid": 2,
+   "title": "UK ROUNDUP: Gore Street shareholder vote maintains status quo, CIP and BW ESS progress 4-hour duration assets",
+   "url": "https://www.energy-storage.news/uk-roundup-gore-street-shareholder-vote-maintains-status-quo-cip-and-bw-ess-progress-4-hour-duration-assets/",
+   "src": "energy-storage.news",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "UK market's shifting dynamics see listed fund Gore Street's shareholders take key vote while CIP and BW ESS progress 4-hour duration battery storage assets at significant scale.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-2"
+  },
+  {
+   "cid": 3,
+   "title": "Hithium’s ∞Cell N785Ah vs CATL, HiNa, and its own LFP range: a sodium-ion comparison for BESS",
+   "url": "https://www.energy-storage.news/hithiums-%e2%88%9ecell-n785ah-vs-catl-hina-and-its-own-lfp-range-a-sodium-ion-comparison-for-bess/",
+   "src": "energy-storage.news",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "Hithium's recent sodium-ion battery and BESS product launch is the latest in a long line of announcements showing an inflection point for the battery chemistry. But how do its new products compare to other sodium-ion systems out there, and to its own LFP offering?",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "CATL",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-3"
+  },
+  {
+   "cid": 4,
+   "title": "\"미래기금으로 한전·관사·공연관람·농어촌 기본소득 지원\"(종합)",
+   "url": "https://www.yna.co.kr/view/AKR20261007188851001",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울·세종=연합뉴스) 박재하 송정은 기자 = 반도체 산업 호황에 따른 추가 세수를 미래 세대를 위한 투자 재원으로 활용하는 정부의 미래대응기금의 사용 계획에 한국전력[015760] 지원 등의 내용이 포함돼 있다고 국회 재정경제기획위원회 소속 국민의힘 박수영 의원이 7일 밝혔다. 박 의원이 기획예산처의 내년도 미래대응기금 운용계획안을 분석한 결과 미래대응기금 내 한전 관련 국비 지원 규모는 전체 재원의 약 45%인 46조6천억원에 달했다. 총사업비가 가장 큰 재생에너지 지중화 지원 사업에는 30조9천228억원이 투입된다. 해상풍력 공동 접속설비 사업에는 2조1천690억원 중 1조5천183억원을 국비로 지원한다. 이들 사업은 모두 지난 8월 국무회의에서 예비타당성을 면제받았다. 당장 내년에 한전에 지원되는 예산은 총 9천405억원으로 집계됐으며 이재명 정부 임기 내 확정분만 5조9천억원에 달한다고 박 의원은 밝혔다. 한전이 부담하던 전기요금 복지·특례 사업도 지원한다. 전기요금 복지할인 1천970억원, 전국 초·중·고 냉방비에 1천313억원, 염전·미곡 전기료에 130억원 등을 국비로 지원한다는 내용이다. 박수영 의원은 \"수십조원 혈세로 송전선을 땅 밑에 깔고 변전소와 해상풍력 설비까지 지어주면서, 예타는 면제하고 사업성 분석은 단 한 줄도 없다\"며 \"반도체 기업 덕에 벌어들인 수백조원 혈세를 오직 호남권 등 메가프로젝트에 쏟아붓겠다는",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-10-08-4"
+  },
+  {
+   "cid": 5,
+   "title": "BW ESS starts building 828MWh BESS in Italy as ‘market moves to execution’",
+   "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/",
+   "src": "energy-storage.news",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "BESS owner-operator BW ESS has launched construction on its second large-scale project in Italy in the space of a month, while developers Galileo and Aura Power have progressed portfolios in the country.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-5"
+  },
+  {
+   "cid": 6,
+   "title": "\"미래기금으로 한전·관사·공연관람·농어촌 기본소득 지원\"",
+   "url": "https://www.yna.co.kr/view/AKR20261007188800001",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 박재하 기자 = 반도체 산업 호황에 따른 추가 세수를 미래 세대를 위한 투자 재원으로 활용하는 정부의 미래대응기금의 사용 계획에 한국전력 지원 등의 내용이 포함돼 있다고 국회 재정경제기획위원회 소속 국민의힘 박수영 의원이 7일 밝혔다. 박 의원이 기획예산처의 내년도 미래대응기금 운용계획안을 분석한 결과 미래대응기금 내 한전 관련 국비 지원 규모는 전체 재원의 약 45%인 46조6천억원에 달했다. 총사업비가 가장 큰 재생에너지 지중화 지원 사업에는 30조9천228억원이 투입된다. 해상풍력 공동 접속설비 사업에는 2조1천690억원 중 1조5천183억원을 국비로 지원한다. 이들 사업은 모두 지난 8월 국무회의에서 예비타당성을 면제받았다. 당장 내년에 한전에 지원되는 예산은 총 9천405억원으로 집계됐으며 이재명 정부 임기 내 확정분만 5조9천억원에 달한다고 박 의원은 밝혔다. 한전이 부담하던 전기요금 복지·특례 사업도 지원한다. 전기요금 복지할인 1천970억원, 전국 초·중·고 냉방비에 1천313억원, 염전·미곡 전기료에 130억원 등을 국비로 지원한다는 내용이다. 박수영 의원은 \"수십조원 혈세로 송전선을 땅 밑에 깔고 변전소와 해상풍력 설비까지 지어주면서, 예타는 면제하고 사업성 분석은 단 한 줄도 없다\"며 \"반도체 기업 덕에 벌어들인 수백조원 혈세를 오직 호남권 등 메가프로젝트에 쏟아붓겠다는 발상\"이라고 지적했다. 내",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "sameday"
+  },
+  {
+   "cid": 7,
+   "title": "올 국내 외국인투자 149억弗 … 1년새 30% 늘어 사상 최대",
+   "url": "https://www.mk.co.kr/news/economy/12170703",
+   "src": "mk.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 올해 3분기까지 한국에 유입된 외국인직접투자(FDI)가 역대 최대를 기록하며, 148억6500만 달러에 달하고 이는 지난해 같은 기간보다 30.6% 증가한 수치이다. 특히 제조업 부문은 62억5300만 달러로 전년 동기 대비 110.6% 급증했고, 소재·부품 분야는 46억1300만 달러로 151.8% 증가하는 등 첨단 산업 투자가 활발히 이뤄지고 있다. 유럽연합(EU)과 일본의 투자 증가가 두드러지며, 앞으로의 투자 전망도 밝아지는 가운데 올해 1~3분기 FDI 신고액은 228억9600만 달러로 역대 세 번째 규모를 기록했다. 인공지능(AI) 데이터센터와 반도체, 바이오 같은 첨단산업 분야로 외국인 투자가 크게 늘어나면서 우리 일상과 밀접한 산업 생태계가 튼튼해지고 있어요. 💡 글로벌 자본이 국내로 활발하게 유입되는 만큼, 장기적으로는 관련 산업에서 양질의 새로운 일자리들이 만들어질 수 있는 토대가 마련되고 있답니다. 🚀 다만, 외국인 기업들이 국내에서 원활하게 영업하고 적응할 수 있도록 다양한 제도적 환경이 개선되는 과정에서 긍정적인 변화를 체감할 수 있어요. ✨ 앞으로 첨단 기술 분야의 성장이 개인의 삶과 일자리 기회에 어떤 시너지를 낼지 기대가 모아지고 있어요. 🌟 올해 3분기까지 국내에 실제 유입된 외국인직접투자(FDI)가 148억 6500만 달러로 역대 최대를 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-6"
+  },
+  {
+   "cid": 8,
+   "title": "개미 돌아오나…하닉·마이크론 다시 사들인다",
+   "url": "https://www.mk.co.kr/news/stock/12170698",
+   "src": "mk.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 삼성전자의 개인순매도 가 이달 들어 5376억원 규모로 집계되었습니다. 분기 배당 기준일을 앞두고 유입됐던 자금 중 일부가 배당락 이후에도 투자 잔류한 것으로 나타났습니다. 배당락 이후의 잔류 자금 흐름이 단기적인 수급 변동성을 확대할 수 있습니다. 최근 일주일 새 SK하이닉스가 1396억원 순매수 대상으로 전환되었습니다. 메모리반도체를 주력으로 하는 가운데 개인투자자의 반도체 매도 흐름이 숨 고르기에 들어간 시점입니다. 실적 공개 시즌의 결과가 이 매수세 유지 여부를 가를 변수로 남아 있습니다. 샌디스크는 국내 투자자들이 낸드플래시 종목을 4309만달러 순매수하며 한 달 전 매도 흐름을 되돌렸습니다. 낸드플래시 전문 기업으로서 낙폭이 컸던 메모리반도체 종목을 고르는 저가 매수 흐름에 포함됐습니다. 저가 매수에 집중된 자금 유입인 만큼 단기 수급 변화가 리스크로 작용합니다. 역대최대분기실적 발표 이후 마이크론 테크놀로지는 일주일 새 2168만달러 순매수로 돌아섰습니다. 메모리반도체 저가 매수가 늘어나는 가운데 직전 달 순매도와 대조되는 자금 유입 흐름이 나타났습니다. 업계에서는 수급 반전이 단발성 자금 이동에 그칠지 추가 매수로 이어질지 관망하고 있습니다. 최근 국내 개인투자자들이 반도체주를 중심으로 매수세로 돌아서는 모습이 관찰되고 있으며, 이달 들어 코스피에서 105",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 9,
+   "title": "DR Congo’s Cobalt Demand Holds Strong Despite Rise of Cobalt-Free EV Batteries",
+   "url": "https://www.ecofinagency.com/news/0710-59509-dr-congo-s-cobalt-demand-holds-strong-despite-rise-of-cobalt-free-ev-batteries",
+   "src": "bing.com",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "Global cobalt consumption is forecast to rise 8% in 2026 and 2.5% in 2027, led mainly by electric vehicles. Cobalt-free LFP batteries continue to gain market share, yet growth in EV sales still supports demand for cobalt-based batteries. The outlook supports DR Congo’s supply restrictions, although prices, competing producers and shifts in battery technology remain key risks. Global cobalt demand is set to keep rising despite supply restrictions in DR Congo and the rapid adoption of batteries that do not use the metal. The outlook provides support for Kinshasa’s policy to curb cobalt supply, which some producers initially argued could work against the country’s interests. Cobalt consumption ",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-7"
+  },
+  {
+   "cid": 10,
+   "title": "Atmos Renewables closes financing on 1.6GWh Capacity Investment Scheme-backed battery storage system in Australia",
+   "url": "https://www.energy-storage.news/atmos-renewables-closes-financing-on-1-6gwh-capacity-investment-scheme-backed-battery-storage-system-in-australia/",
+   "src": "energy-storage.news",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "Atmos Renewables has reached financial close on the 400MW/1,600MWh Teebar battery energy storage system (BESS) in Queensland, Australia.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS",
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 11,
+   "title": "Geodis orders 110 battery-electric trucks from Renault and Volvo",
+   "url": "https://www.electrive.com/2026/10/06/geodis-orders-110-battery-electric-trucks-from-renault-and-volvo/",
+   "src": "electrive.com",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "Geodis has ordered 110 heavy-duty electric trucks for its European road transport operations. The 44-tonne vehicles from Renault Trucks and Volvo Trucks are to be delivered by May 2027 and will primarily operate in France on urban and long-haul routes. The logistics group GEODIS is significantly expanding its electric truck fleet. The company has placed a firm order for 110 battery-electric 44-tonne trucks with Renault Trucks and Volvo Trucks. The vehicles are scheduled for delivery by May 2027. The new electric trucks will initially be deployed in France. GEODIS plans to use them for both urban deliveries and long-haul transport. With this order, the electric truck fleet of the European Roa",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "수주"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 12,
+   "title": "에코프로비엠·삼성SDI, 황화물계 전고체 배터리 개발 맞손",
+   "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086414",
+   "src": "bing.com",
+   "date": "2026-10-06",
+   "rel": 2,
+   "lead": "에코프로비엠이 2027년부터 삼성SDI와 황화물계 전고체 배터리 상용화를 목표로 전략적 협력을 강화한다. 에코프로비엠은 삼성SDI와 전고체 배터리용 소재개발 협력을 위한 업무 협약(MOU)을 체결했다고 6일 밝혔다. 이번 협약에 따라 양사는 차세대 배터리 핵심 기술인 전고체 배터리 분야에서 공동 연구개발을 추진한다. 에코프로비엠과 삼성SDI는 개발 초기 단계부터 품질 평가·양산 체계 구축에 이르기까지 협력 체계를 강화하고, 기술 완성도와 사업 경쟁력을 높여 나갈 계획이다. 또한 전고체 배터리용 양극재를 비롯해 양극용 전해질·분리막용 전해질 등 핵심 소재 전반으로 협력 범위를 확대키로 했다. 협약에 따라 삼성SDI는 전고체 배터리 셀 개발 및 양산 기술 고도화를 추진하고, 에코프로비엠은 전고체 배터리용 핵심 소재 개발을 담당한다. 전고체 배터리는 안전성과 성능을 동시에 높일 수 있는 차세대 배터리로 평가받는다. 한 번 충전으로 더 오래 사용할 수 있고, 화재 위험도 낮출 수 있어 전기차와 휴머노이드 로봇 등 미래 산업 분야의 핵심 기술로 꼽힌다. 에코프로비엠은 전고체 배터리의 핵심 소재인 황화물계 고체전해질 분야에서 독자적인 공정 기술을 확보하고, 연산 40t 규모의 파일럿 플랜트를 운영 중이다. 고체전해질 기술 개발에 있어서 핵심 기술인 분말제어 기술과 품질관리 기술을 바탕으로 기술 경쟁력을 강화하고 있다. 에코프로비엠은 하이니켈 양",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-8"
+  },
+  {
+   "cid": 13,
+   "title": "ESS+중저가 EV 각광…포스코퓨처엠→삼성SDI LFP 공급 2배↑",
+   "url": "https://www.msn.com/ko-kr/news/other/ess-%EC%A4%91%EC%A0%80%EA%B0%80-ev-%EA%B0%81%EA%B4%91-%ED%8F%AC%EC%8A%A4%EC%BD%94%ED%93%A8%EC%B2%98%EC%97%A0-%EC%82%BC%EC%84%B1sdi-lfp-%EA%B3%B5%EA%B8%89-2%EB%B0%B0/ar-AA2dECpU",
+   "src": "bing.com",
+   "date": "2026-10-06",
+   "rel": 2,
+   "lead": "삼성SDI와 포스코퓨처엠은 지난 8월 2027년부터 2032년까지 19만톤 규모의 LFP(리튬·인산·철) 양극재를 공급하는 것에 뜻을 모았었다. 업계는 약 3조원 규모의 계약이 될 수 있다고 추산했다. 이후 약 2개월이 지난 뒤 포스코퓨처엠은 약 6조원 어치의 LFP 양극재를 삼성SDI에 공급하는 계약을 확정했다고 6일 공시했다. 양사는 정확한 물량을 명시 ...",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-9"
+  },
+  {
+   "cid": 14,
+   "title": "[다시 뛰는 K-배터리]① 삼성SDI, 기술 투자 결실…ESS 넘어 AIDC·로봇으로 확장",
+   "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202610061613401510630",
+   "src": "대한경제",
+   "date": "2026-10-08",
+   "rel": 2,
+   "lead": "3Q 영업익 1415억원 전망…2분기 연속 흑자 기대 AI 데이터센터용 LFP·UPS 등 신제품으로 수요처 다변화 전고체 배터리 상용화 박차…피지컬 AI 시장 공략 본격화",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "ESS",
+     "전고체",
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 15,
+   "title": "양산 2년 만의 쾌거…SK온 헝가리 공장, 포드 'Q1 어워드' 수상",
+   "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=279244",
+   "src": "파이낸셜포스트",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "양산 2년 만의 쾌거…SK온 헝가리 공장, 포드 'Q1 어워드' 수상 파이낸셜포스트",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-10"
+  },
+  {
+   "cid": 16,
+   "title": "전고체 배터리 경쟁 본격화…LG엔솔·삼성SDI 전략 차이는?",
+   "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261007_0003817114",
+   "src": "뉴시스",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "전고체 배터리 경쟁 본격화…LG엔솔·삼성SDI 전략 차이는? 뉴시스",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "삼성SDI"
+    ],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-11"
+  },
+  {
+   "cid": 17,
+   "title": "\"올해 수주목표 20GWh 긍정적\"…SK온, 한·미·유럽 맞춤 전략 공개 - 머니투데이",
+   "url": "https://www.mt.co.kr/industry/2026/10/07/2026100611040848837",
+   "src": "머니투데이",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "SK온이 ESS(에너지저장장치) 사업 포트폴리오 구축 방향 및 글로벌 지역별 시장 특성에 맞춘 전략을 공개한다. 최대진 SK온 ESS사업실장(부사장)은 오는 30일 서울 삼성동 코엑스 B홀에서 열리는 '스마트 에너지 플러스(SMART ENERGY PLUS·SEP) 2026' 3일차 콘퍼런스에서 'SK온의 글로벌 ESS 전략 방향'을 주제로 발표한다. 구체적으로 △한국(기존 장주기 외 다른 사업으로의 확장 방안) △미국(AI 데이터센터향 사업 확장 기조) △유럽(IAA 도입에 따른 지역 기반 활용 전략) 등 지역별 전략을 설파할 예정이다. 최 실장은 머니투데이와의 사전 인터뷰에서 \"올해 ESS 부문 수주 목표였던 20GWh(기가와트시)를 채우는 것은 긍정적으로 본다\"라며 \"각 지역별 BESS 시장 환경과 SK온의 진입·확대 전략에 대해 공유하고, 특히 AI 데이터센터와 연계한 북미 시장 전망 및 이에 대해 SK온에서 준비하고 있는 전략 등을 설명할 수 있는 계기가 될 것\"이라고 말했다. SK온은 국내 ESS 시장에서 빠르게 존재감을 키우고 있다. 1차 ESS 중앙계약시장에서는 물량을 확보하지 못했지만 2차에서는 전체 565MW(메가와트) 가운데 284MW(50.3%)를 쓸어담았다. 미국에서는 AI 데이터센터를 새 성장축으로 삼아 ESS 사업을 확대한다. 특히 미국 내 AI 데이터센터 건설이 빠르게 늘어나는 데다 비중국 공급망을 요구하는",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-12"
+  },
+  {
+   "cid": 18,
+   "title": "에코프로비엠·삼성SDI, 전고체 배터리 소재 공동개발",
+   "url": "https://www.kbsm.net/news/view.php?idx=536815",
+   "src": "경북신문",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "에코프로비엠·삼성SDI, 전고체 배터리 소재 공동개발 경북신문",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 19,
+   "title": "HBM·첨단 패키징 투자 확대 기대…반도체 장비주 상승 행렬",
+   "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=493255",
+   "src": "핀포인트뉴스",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "반도체와반도체장비 업종이 7일 글로벌 인공지능(AI) 반도체 수요 확대와 차세대 고대역폭메모리(HBM) 공급 증가 기대에 힘입어 강세를 나타내고 있다. 글로벌 빅테크 기업들이 AI 데이터센터 투자를 확대하면서 고성능 반도체뿐 아니라 첨단 제조공정에 필요한 장비와 소재에 대한 수요도 커질 것이라는 기대가 반영되는 모습이다. 반도체 업종은 대형 메모리 업체의 실적 개선 기대와 장비·소재 기업의 수주 확대 전망이 맞물리면서 매수세가 유입되고 있다. HBM과 첨단 패키징 등 고부가가치 공정 투자가 확대되면서 관련 기술을 확보한 기업을 중심으로 주가가 움직이고 있다. 한국거래소에 따르면 이날 오전 9시47분 현재 반도체 평탄화 공정에 사용되는 CMP 장비와 소재를 공급하는 케이씨텍이 15.36% 상승한 12만3900원에 거래되고 있다. AI용 고성능 반도체 생산량이 늘어나면서 미세공정과 평탄화 공정의 중요성이 커지고 있다는 점이 투자심리를 자극하고 있다. 대형주 가운데서는 삼성전자가 27만9250원에 거래되며 상승세를 이어가고 있다. HBM3E와 HBM4 공급 확대 가능성과 메모리 업황 회복 기대가 주가에 영향을 주고 있다. SK스퀘어와 SK하이닉스도 상승 흐름에 동참하고 있으며 삼성전자우 역시 오름세를 보이고 있다. 첨단 반도체 장비 분야에서는 티엘엔지니어링이 9.79% 올라 2300원에 거래되고 있다. 친환경 반도체 설비를 공급하는 지앤비",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "수주",
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 20,
+   "title": "SK온 헝가리 이반차 공장, 포드 최고 품질 인증…양산 2년 만에 ‘Q1’",
+   "url": "https://www.etoday.co.kr/news/view/2633145",
+   "src": "이투데이",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "SK온 헝가리 이반차 공장이 양산 2년 만에 포드의 최고 등급 품질 인증인 ‘Q1 어워드’를 획득했다. 생산 기술과 제품 품질, 품질관리 체계 전반에서 포드의 기준을 충족하며 글로벌 완성차 고객사에 대한 공급 경쟁력을 높였다는 평가다. SK온은 6일 현지시간 헝가리 이반차 공장에서 포드 ‘Q1 어워드’ 수여식을 열고 Q1 인증을 획득했다고 7일 밝혔다. 이날 행사에는 김성식 SK온 유럽법인장이 참석해 포드 관계자로부터 상패를 전달받았다. 포드 Q1 어워드는 포드가 부품 및 원자재 공급 기업을 대상으로 △생산 기술 △제품 품질 △품질 개선 노력 △제조·품질 관리 시스템 등을 종합 평가해 우수 사업장에 부여하는 최고 등급 품질 인증이다. 이반차 공장은 2024년 2분기 양산을 시작한 뒤 생산 안정화와 품질 경쟁력 강화에 집중해 왔다. SK온은 지난해 말부터 올해 상반기까지 포드의 Q1 인증 평가를 받았다. 심사 과정에서는 품질 이상 제품의 납품을 방지하고 잠재적인 품질 위험을 사전에 파악해 개선하는 관리 체계가 높은 평가를 받았다고 회사 측은 설명했다. 김성식 SK온 유럽법인장은 “이번 Q1 어워드 수상은 본사와 현지 구성원들이 품질을 최우선 가치로 삼고 함께 노력해 온 결과”라며 “앞으로도 지속적인 개선과 선제적 품질 관리를 통해 SK온 헝가리 공장의 제조·품질 경쟁력을 높여 고객 신뢰에 적극 부응하겠다”고 말했다. 이반차 공장은 SK",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 21,
+   "title": "에코프로비엠·삼성SDI, 전고체 ‘2027년 양산’ 공동전선",
+   "url": "http://www.yne.kr/news/articleView.html?idxno=17906",
+   "src": "영남이코노믹",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "에코프로비엠과 삼성SDI가 2027년 황화물계 전고체 배터리 양산을 목표로 소재 개발부터 품질 평가, 양산 체계 구축까지 협력을 강화한다. 에코프로비엠은 삼성SDI와 전고체 배터리용 소재 개발 협력을 위한 업무협약(MOU)을 체결했다고 6일 밝혔다. 양사는 차세대 배터리 핵심 기술인 전고체 배터리 분야에서 공동 연구개발을 추진한다. 개발 초기 단계부터 품질 평가와 양산 체계 구축까지 협력해 기술 완성도와 사업 경쟁력을 높인다는 계획이다. 협력 범위도 전고체 배터리용 양극재를 비롯해 양극용 전해질, 분리막용 전해질 등 핵심 소재 전반으로 확대한다. 협약에 따라 삼성SDI는 전고체 배터리 셀 개발과 양산 기술 고도화를 추진하고 에코프로비엠은 전고체 배터리에 적용되는 핵심 소재 개발을 담당한다. 이번 협약은 삼성SDI가 추진 중인 2027년 전고체 배터리 양산 계획과 에코프로비엠의 소재 양산 준비가 맞물린다는 점에서 주목된다. 셀과 소재 업체가 개발 초기 단계부터 품질 평가와 양산 체계를 함께 구축해 상용화 과정의 시행착오를 줄이고 공급망 경쟁력을 높이겠다는 구상이다. 전고체 배터리는 기존 리튬이온 배터리의 액체 전해질을 고체로 대체한 차세대 배터리다. 에너지 밀도를 높이고 화재 위험을 낮출 수 있어 전기차와 휴머노이드 로봇 등 미래 산업 분야의 핵심 기술로 꼽힌다. 에코프로비엠은 전고체 배터리 핵심 소재인 황화물계 고체전해질 분야에서 독",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 22,
+   "title": "피엔티, 미국·인도 배터리 전시회 참가… 생산라인 구축부터 양산 지원까지 역량 공개",
+   "url": "https://www.finance-scope.com/article/view/scp202610070004",
+   "src": "파이낸스스코프",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "자회사와 공동 부스 구성해 장비·소재·셀 아우르는 배터리 통합 서비스 제시 2차전지(배터리) 제조장비 전문기업 피엔티는 미국과 인도에서 열리는 글로벌 배터리 전시회에 연이어 참가해 장비부터 소재, 셀 생산까지 아우르는 턴키 사업 확대에 나선다고 7일 밝혔다. 피엔티는 이달 13일부터 15일까지 미국 미시간주(州) 디트로이트 헌팅턴플레이스에서 열리는 '더 배터리 쇼 노스아메리카 2026(The Battery Show North America 2026)'에 참가한다. 이어 같은 달 22일부터 24일까지 인도 그레이터노이다 인디아엑스포마트앤드센터에서 개최되는 '더 배터리 쇼 인디아 2026(The Battery Show India 2026)'에서도 회사 역량을 알린다. 이번 전시에는 피엔티와 자회사 피엔티머티리얼즈, 피엔티엠에스, AMT가 공동으로 대형 부스를 구성한다. 이들은 전극 생산설비를 비롯해 양극활물질, 리튬인산철(LFP) 배터리, 분리막·동박 생산설비 및 제품을 선보인다. 이를 통해 배터리 밸류체인 전반을 아우르는 역량을 소개한다. 피엔티는 장비·소재·셀 생산 역량을 하나의 사업 모델로 묶어 'A to Z 턴키 솔루션'으로 제시할 예정이다. 피엔티 턴키 사업의 차별점은 실제 생산을 기반으로 고객의 양산까지 지원할 수 있다는 점이다. 피엔티는 기존 전극 제조설비 공급 역량에 더해 4공장에서 양극활물질과 에너지저장장치(ESS)용 L",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_B",
+    "entity": "피엔티",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-13"
+  },
+  {
+   "cid": 23,
+   "title": "SK온 헝가리공장, 포드 'Q1' 인증…양산 2년 만에 품질 경쟁력 인정",
+   "url": "https://www.asiae.co.kr/article/2026100708104553806",
+   "src": "아시아경제",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "SK온 헝가리 이반차 공장이 글로벌 완성차 업체 포드의 최고 등급 품질 인증을 받았다. 김성식 SK온 유럽법인장(왼쪽)이 6일(현지시간) 헝가리 페예르주 이반차시 SK온 공장에서 포드 관계자와 ‘Q1’ 인증 상패를 들고 기념촬영을 하고 있다. SK온 SK온은 6일(현지시간) 헝가리 이반차 공장에서 포드 'Q1 어워드(Q1 Award)' 수여식을 열고 Q1 인증을 획득했다고 7일 밝혔다. 포드 Q1 어워드는 부품·원자재 공급사를 대상으로 생산 기술과 제품 품질, 품질 개선 활동, 제조·품질 관리 시스템 등을 종합 평가해 우수 사업장에 부여하는 품질 인증이다. 이반차 공장은 2024년 2분기 양산을 시작한 지 약 2년 만에 인증을 획득했다. SK온은 지난해 말부터 올해 상반기까지 포드의 평가를 거쳤다. 포드는 SK온이 품질 이상 제품의 납품을 방지하고 잠재적인 품질 위험을 사전에 파악해 개선하는 관리 체계를 구축한 점을 높이 평가했다. 이반차 공장은 SK온이 코마롬 제1·2공장에 이어 헝가리에 구축한 세 번째 배터리 생산 거점이다. 연간 생산능력은 30GWh다. 코마롬 제1공장 7.5GWh, 제2공장 10GWh를 합친 SK온의 헝가리 생산능력은 연간 47.5GWh다. 김성식 SK온 유럽법인장은 \"이번 Q1 어워드 수상은 본사와 현지 구성원들이 품질을 최우선 가치로 두고 노력한 결과\"라며 \"지속적인 개선과 선제적 품질 관리를 통해 제조·품",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 24,
+   "title": "SK하이닉스, AI환경연구소 설립한다…반도체 환경문제 선제대응",
+   "url": "https://www.yna.co.kr/view/AKR20261007189000003",
+   "src": "yna.co.kr",
+   "date": "2026-10-08",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 조성흠 기자 = SK하이닉스가 인공지능(AI) 시대 환경 문제에 선제적으로 대응하고자 'AI 환경연구소' 설립에 나선다. 8일 업계에 따르면 SK하이닉스는 AI 산업이 지역사회와 함께 지속가능한 성장을 이룰 수 있도록 반도체 제조 과정에서 발생하는 복잡한 환경 난제를 AI 기술로 해결하고자 AI 환경연구소 설립을 추진한다. 새로 설립될 AI 환경연구소는 반도체 공장은 물론 데이터센터 운영에 필요한 에너지 공급과 공정 전반의 환경 부하를 낮추는 기술을 집중 연구한다. AI 알고리즘을 활용해 전력 수요를 예측하고 데이터센터 냉각 효율을 극대화하는 한편, 온실가스 저감 대체 가스 개발, 공정용수의 정화 및 재활용 기술을 고도화한다. 아울러 기존 솔루션으로 해결하기 어려운 환경·지리적 복합 난제에도 AI를 적극 도입해 실효적 대안을 도출하는 선례를 만들 예정이다. 자연 분해되는 친환경 반도체 소재 개발과 전자 폐기물 자원순환 기술 개발도 추진한다. 이와 함께 SK하이닉스는 AI 환경연구소 내부에 '탈탄소전환센터'를 설치해 국내 반도체 장비·부품·소재 협력사들의 저탄소 전환을 전방위로 지원한다. 연구소 내 전담 조직을 통해 1천700여개 협력사의 온실가스 감축, 에너지 절감, 저탄소 공정 도입을 맞춤형으로 컨설팅하고 지원할 계획이다. 이를 통해 글로벌 IT 기업들이 요구하는 엄격한 탄소 감축 기준과 해외 환경 규제에 국내 반",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 25,
+   "title": "AI와 오목 두고 휴머노이드 체험…23∼24일 서울숲서 AI 축제",
+   "url": "https://www.yna.co.kr/view/AKR20261007169400004",
+   "src": "yna.co.kr",
+   "date": "2026-10-08",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 김동규 기자 = 인공지능(AI)과 오목·그림 실력을 겨루고 휴머노이드 로봇과 가상현실(VR)을 체험하는 AI 학습 축제가 서울숲에서 열린다. 서울시평생교육진흥원은 오는 23∼24일 성동구 서울숲 갤러리아포레 내 더서울라이티움에서 '2026 서울 AI 평생학습 러닝 그라운드'를 개최한다고 8일 밝혔다. 이번 행사는 'AI×평생학습, 모든 세대의 배움이 연결되는 곳'을 주제로, 6개 공간으로 나눠 30여개 체험 부스를 마련해 운영한다. AI를 활용한 동화 창작과 면접 훈련, 경력 설계부터 휴머노이드·가상현실(VR)·보조공학 기술, 로봇 레이싱·축구 등을 체험할 수 있다. 시민이 AI와 직접 그림을 그리고 오목을 두며 인간과 AI의 문제 해결 방식을 비교하는 프로그램도 마련된다. 성수동 체험공간 '리얼월드 성수'와 협업한 'AI 배움의 숲: 미래인재 시크릿 코드'에서는 행사장 곳곳의 미션을 해결하며 AI를 익힐 수 있다. 가족이 AI로 이야기를 만들어 한 권의 책으로 완성하는 '가족 AI 창작책 만들기'와 AI 관련 도서 1천권 전시도 진행된다. 전문가 강연에서는 김대식 한국과학기술원(KAIST) 교수와 김상균 경희대 교수, 구본권 AI와 리터러시연구소 소장, 이은영 유니크굿컴퍼니 대표가 참여해 AI 시대의 학습법과 미래 인재의 성장 방향을 소개한다. 행사는 오전 10시부터 오후 5시까지 열리며 참가비는 무료다. 행사 누",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-08-14"
+  },
+  {
+   "cid": 26,
+   "title": "반도체 자라는 '시작점' 잡았다…AI반도체 적층 새 길",
+   "url": "https://www.yna.co.kr/view/AKR20261007156900017",
+   "src": "yna.co.kr",
+   "date": "2026-10-08",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 조승한 기자 = 국내 연구진이 반도체 결정 생성 위치를 정하고 그곳에서 하나의 결정만 자라도록 제어하는 기술을 개발해 차세대 적층형 인공지능(AI) 반도체 구현 기반을 마련했다. 과학기술정보통신부는 강기범 한국과학기술원(KAIST) 교수, 김병조 울산과학기술원(UNIST) 교수, 김우희 한양대 교수, 티디에스이노베이션 등이 참여한 공동연구팀이 2차원 반도체 결정 생성 위치를 정밀 제어하는 새로운 반도체 소재 성장 기술을 개발했다고 8일 밝혔다. 연구결과는 이날 최고 권위 국제학술지 '네이처'에 실렸다. 원자층 수준으로 얇은 '2차원 반도체 소재'는 기존 연산회로 위에 반도체를 더 쌓아 AI칩 성능을 극대화하고 전력 소모를 줄일 것으로 기대받고 있다. 이를 실제 활용하려면 필요한 위치에 균일 품질 반도체를 만들 수 있어야 하는데, 원자들이 모여 결정핵을 만들고 성장하는 과정에서 제각각 자라난 결정이 서로 만나며 원자 배열이 어긋나는 문제가 생겨난다. 이런 경계는 전자가 원활히 이동하는 것을 막아 품질과 성능을 크게 떨어트리는 한계로 작용해 왔다. 대신 미리 정한 영역에서만 반도체를 자라게 하는 '선택성장' 기술이 개발돼 왔지만 이것도 그 안에서 결정핵이 정확히 어디 생길지는 확률에 맡겨져 단결정 크기와 위치를 정밀하게 조절하기 어려웠다. 연구팀은 결정 성장 영역을 둘러싼 산화물 장벽에서 나오는 산소 성분이 2차원 반도",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 27,
+   "title": "New EV incentive scheme promises ‘up to €9,000’ in Croatia",
+   "url": "https://www.electrive.com/2026/10/07/new-ev-incentive-scheme-promises-up-to-e9000-in-croatia/",
+   "src": "electrive.com",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "Croatia will launch a new EV incentive program in October 2026 which will offer up to €9,000 in purchase subsidies for consumer EVs. The grant amount per person depends on the car's purchase price, with light vehicles also set to benefit. In October 2026, Croatia is set to launch a new incentive programme for electric vehicles, as announced by the Croatian Environmental Protection and Energy Efficiency Fund (FZOEU). The government has allocated a budget of €20 million for this purpose, which is expected to cover around 3,000 funding applications for new electric vehicles. While Croatia has had EV incentive schemes in the past, this new programme differs from previous approaches. The amount o",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 28,
+   "title": "Octopus launches discounted public charging scheme for EV fleets",
+   "url": "https://www.electrive.com/2026/10/07/octopus-launches-discounted-public-charging-scheme-for-ev-fleets/",
+   "src": "electrive.com",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "Octopus Energy has launched a new public charging scheme for EV fleets via its Octopus Fleet platform. This promises businesses savings of up to 30 per cent per year on charging costs. The ‘FleetBoost’ scheme is now available through the company’s Octopus Fleet platform, and takes the form of a new subscription which gives commercial EV fleets discounted public charging rates across multiple charging networks. In an announcement, Octopus claims this could reduce public charging costs by up to £730 per vehicle per year. This calculation is based on an assumption that a vehicle travels 15,000 miles annually at an efficiency of 0.3 kWh per mile, with the savings calculated after FleetBoost’s mo",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 29,
+   "title": "[투데이 Pick] ‘테마 순환매’ 끝났나…반도체 소부장 전방위 랠리",
+   "url": "https://www.news2day.co.kr/article/20261006500267",
+   "src": "bing.com",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "[투데이 Pick] ‘테마 순환매’ 끝났나…반도체 소부장 전방위 랠리 [N2 증시 풍향계] AI 보안·반도체 소부장 테마 ‘불기둥’…LG전자·HLB 강세 부각 [N2 증시 풍향계] 반도체 소부장株 신고가 행진…머큐리 ‘상한가’, 이차전지·정유 ‘강세’ [N2 증시 풍향계] 반도체 소부장·철강株 대거 ‘불기둥’…현대모비스 ‘강세’·브릴스 ‘공모가 200% 상회’ [N2 증시 풍향계] 반도체 빅2·소부장 일제히 ‘불기둥’…비트코인·증권株 ‘강세’, 토마토시스템·셀리드 ‘上’ [하반기 ETF 설계도] 한화운용, AI·반도체 수혜 소부장까지…채권혼합형으로 연금 공략",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "unclassified"
+  },
+  {
+   "cid": 30,
+   "title": "National Day Holiday Solid-State Battery Industry Review: Strong Policy Push but Slow Industrial Progress [SMM Analysis]",
+   "url": "https://news.metal.com/ko/newscontent/104144320-%EA%B5%AD%EA%B2%BD%EC%A0%88-%EC%97%B0%ED%9C%B4-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85-%EB%A6%AC%EB%B7%B0-%EC%A0%95%EC%B1%85-%EC%B6%94%EC%A7%84%EC%9D%80-%EA%B0%95%ED%95%98%EC%A7%80%EB%A7%8C-%EC%82%B0%EC%97%85%ED%99%94-%EC%A7%84%EC%A0%84%EC%9D%80-%EB%8D%94%EB%94%A4-smm-%EB%B6%84%EC%84%9D",
+   "src": "bing.com",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "핵심 포인트: 국경절 연휴 기간 동안 전고체 배터리 섹터는 “정책은 뜨겁고, 산업은 더딘” 양상을 보였다. 7개 부처의 15차 5개년 계획은 2030년을 전고체 배터리 대규모 응용 목표 시점으로 설정했고, Sinocera의 황화물 생산라인이 완공되었으며, Chuneng의 폴리머 GWh급 라인이 가동에 들어갔고, 100GWh 프로젝트가 체결되었다. 해외에서는 삼성SDI/EcoPro 협력과 BMW 실차 검증이 진전을 보였다. 그러나 소재 측면은 “물량 증가, 가격 하락” 추세를 보이고 있으며, 파일럿 생산에서 양산으로의 전환에는 여전히 2~3년이 필요하고, 원가 절감, 수율, 고객 검증이 3대 난제로 남아 있다. 국경절 연휴를 전후해 전고체 배터리 산업은 “정책 방향”과 “산업 이행”의 이중 호재를 맞았다. 많은 기업들이 조기 휴무에 들어가 실제 산업 이행은 여전히 더딘 상황이었다. 공업정보화부 등 6개 부처는 신형 전지 산업 발전 15차 5개년 계획을 공동 발표하여, 국가급 전문 계획에서 처음으로 2030년 전고체 배터리 대규모 응용의 시간표를 명시했다. 동시에 중국 최초의 폴리머 GWh급 생산라인이 가동되었고, Sinocera Materials의 황화물 전해질 생산라인이 완공되었으며, 100GWh 이상 규모의 프로젝트가 체결되었다. 산업은 “집중 파일럿 단계”에서 “양산 검증 단계”로의 전환을 가속화하고 있다. 그러나 SMM은 정책적",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 31,
+   "title": "삼성전자 성과급 내년 3월말 지급…8천만원 연봉시 최대 7.5억원(종합)",
+   "url": "https://www.yna.co.kr/view/AKR20261007121751003",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 김민지 기자 = 삼성전자 반도체(DS) 부문 직원을 대상으로 하는 특별성과급 지급 시기가 정기주주총회 의결 직후인 내년 3월 말께로 확정됐다. 올해 삼성전자 반도체 영업이익이 약 370조원을 기록할 것으로 전망되는 가운데, 메모리사업부 직원의 경우 1인당 세전 7억5천만원(연봉 8천만원대 초반 기준·세전)을 받을 것으로 예상된다. 7일 업계에 따르면, 삼성전자 DS 부문은 이날 오후 이런 내용 등을 담은 반도체 특별경영성과급 세부 내용을 사내 공지했다. 성과급은 내년 3월 정기주주총회 이후인 3월 말 또는 4월 초 지급될 예정이다. 과세 연도는 2027년이다. 특별경영성과급 지급안은 내년 정기주주총회 안건으로 상정될 예정이다. 지급률은 2026년 중 DS 부문에서 가장 오래 속한 조직을 기준으로 산정되며, 내년 2월 사업부별로 공지될 예정이다. CSS(전력반도체) 사업팀은 제외된다. 총 지급액은 개인별 기초금액과 특별성과급 지급률을 곱해 정해진다. 세금 및 보험료, 기부금을 공제한 후 자사주로 지급된다. 소득세 45%와 지방소득세 10%를 합한 49.5%를 일괄 적용해 원천 징수한 후 지급한다. 연말정산 때 추가 추징 가능성을 줄이려는 조치다. 지급 대상은 2026년 12월 31일 기준 재직자 또는 육아·임신 등 일부 휴직자로, 세부적으로 재직·휴직 기간 등을 합산해 판단할 예정이다. 다만 ▲ 2026년 실제 근무 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 32,
+   "title": "Believ to install over 600 EV charging points across Ayrshire",
+   "url": "https://www.electrive.com/2026/10/07/believ-to-install-over-600-ev-charging-points-across-ayrshire/",
+   "src": "electrive.com",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "Charging operator Believe is set to install more than 600 new EV charging points under a 15-year partnership with East, North and South Ayrshire councils in Scotland. The rollout will cover around 300 locations, with the first chargers expected to be installed from early 2027. The initiative will see around 180 new charging points installed in East Ayrshire, 210 in North Ayrshire, and 220 in South Ayrshire, including network coverage on the Isle of Arran. According to Believ, this will include both ‘standard’ units for longer stays and rapid chargers, although there’s no specifics yet on hardware. The CPO has confirmed that a minimum of five accessible charging locations will be included in ",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 33,
+   "title": "AMD 리사수, 삼성 전영현·SK 곽노정 만나 AI 협력방안 논의(종합)",
+   "url": "https://www.yna.co.kr/view/AKR20261007137551003",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 김민지 기자 = 방한한 리사 수 AMD 회장 겸 최고경영자(CEO)가 삼성과 SK의 반도체 수장을 만나 AI 협력 강화 방안을 논의한다. 7일 업계에 따르면, 수 회장은 이날 오후 5시께 서울 강남구 삼성전자 서초사옥에서 전영현 삼성전자 대표이사 겸 DS부문장 부회장을 포함한 주요 경영진과 회동하고 만찬을 함께했다. 김재준 DS 부문 메모리사업부 전략마케팅실 실장 부사장과 조상연 DS 미주총괄 법인장 부사장이 1층에서 수 회장을 마중 나와 안내했다. 이날 회동에는 조셉 마크리 AMD 최고기술책임자(CTO)와 잭 후인 AMD 컴퓨팅· 그래픽 그룹 총괄 수석부사장도 함께했다. 수 회장은 '오늘 삼성전자 경영진과 어떤 논의를 할 예정이냐'는 질문에 \"우리의 더 폭넓은 파트너십에 대해 (이야기할 것)\"이라고 밝혔다. 수 회장은 올해 3월에도 한국을 방문해 전 부회장, 한진만 파운드리사업부장 사장 등과 삼성전자 평택캠퍼스의 생산라인 등을 둘러봤다. 이후 이재용 삼성전자 회장과 서울 용산구 한남동에 위치한 승지원에서 만찬을 가졌다. 약 7개월 만에 다시 성사된 전 부회장과 수 회장의 이번 회동으로 삼성전자와 AMD는 고대역폭메모리(HBM)를 포함한 AI 반도체 협력을 강화할 전망이다. 삼성전자는 AMD의 최신 AI 가속기에 HBM 3E(5세대)와 HBM 4(6세대)를 공급하며 메모리 분야에서 꾸준한 파트너십을 이어오고 있다. ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 34,
+   "title": "BGF, 반도체 소재 손자회사 지분 전량 매입…지배구조 개편(종합)",
+   "url": "https://www.yna.co.kr/view/AKR20261007167551008",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 조민정 기자 = BGF는 자회사인 BGF에코머티리얼즈가 보유한 케이엔더블유(KNW) 지분 전량을 매입, 사업 경쟁력을 높이는 방향으로 지배구조를 개편한다고 7일 밝혔다. 이날 금융감독원 전자공시시스템에 따르면 BGF는 이날 KNW 보통주 911만3천891주(지분율 56.9%)를 매입한다. 이에 따라 BGF에코머티얼즈 산하 손자 회사였던 KNW는 BGF의 자회사가 되고, 증손회사였던 BGF에코스페셜티는 손자회사로 지위가 변경된다. BGF에코스페셜티는 반도체 특수가스 제조 사업을 하는 회사로, 지난 9월 울산 온산국가산업단지에 무수불산 생산 공장을 완공했다. 이 공장에서는 국내 수요량의 절반 수준인 연간 5만t(톤)의 무수불산을 생산할 수 있다. 회사는 향후 무수불산 등 반도체 소재 사업에 장기적 관점의 대규모 투자가 필요하다고 보고, 지주사의 책임 경영을 강화하기로 했다. 기존 공정거래법상 지주회사 행위 제한 요건에 따라 외부의 자금 조달이 원천적으로 불가능했다고 회사는 설명했다. KNW 지분을 매각한 BGF에코머티리얼즈는 매각 대금을 사업 경쟁력 강화와 함께 변동금리 차입금 조기 상환을 통한 재무구조 개선, 주주가치 제고 등에 활용할 계획이다. 이 회사는 자기주식 84만2천699주(1.3%)도 다음 달 중 전량 소각한다. BGF 관계자는 \"이번 지배 구조 개편으로 미래 성장 동력을 전략적으로 육성할 수 있는 토대를 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 35,
+   "title": "나주에 에너지도시 … 제주는 전기차 메카로",
+   "url": "https://www.mk.co.kr/news/economy/12170765",
+   "src": "mk.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 한국전력의 보유 인프라를 활용한 에너지특화도시 조성이 나주에서 추진됩니다. 한전기술지주를 통해 스타트업에 기술을 이전하고 창업 생태계를 연계하는 구조입니다. 업계에서는 지역 에너지 인프라 연계가 신사업 성장의 실질적 계기 가 될 것으로 보고 있습니다. 정부가 2035년까지 제주 신규 차량의 전기차비중 100% 목표를 제시하며 현대자동차의 친환경 판매 정책과 맞물립니다. 완성차 제조·판매를 영위하는 현대자동차에는 장기 전동화 수요 환경 변화로 작용합니다. 정책 이행 속도와 충전 및 V2G 인프라 확충 수준이 전기차 보급의 변수로 남습니다. 제주 전기차 100% 전환 목표가 제시되며 기아의 전기차 판매 환경에도 장기적인 변화가 기대됩니다. 기아는 전기차를 포함한 완성차를 생산 및 판매하고 있으며 제주 지역의 친환경 모빌리티 전환 정책은 수요에 직접적인 영향을 미칩니다. 업계에서는 차량과 전력망 연계 확대 등 충전 인프라 고도화가 향후 친환경차 대중화의 성패를 가를 것으로 보고 있습니다. 정부는 지역별 산업 특성을 반영한 맞춤형 녹색전환 산업 육성을 추진하며, 제주에서는 2035년까지 신규 차량을 전기차로 전환하고 전남광주 나주는 에너지특화도시로 조성할 계획이다. 신설된 한전기술지주가 스타트업 성장 지원을 위해 한전의 기술을 이전하고, 기존 산업단지는 녹색산업 거점으로 전환하",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 36,
+   "title": "농협금융, 서남권에 금융허브 AI·반도체 등 전략산업 지원",
+   "url": "https://www.mk.co.kr/news/economy/12170738",
+   "src": "mk.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. NH농협금융지주가 서남권 금융 지원의 중점 육성 업종으로 반도체 를 포함한 전략산업을 선정했습니다. SK하이닉스는 D램과 낸드플래시 등 메모리 반도체를 설계·제조하는 사업 구조를 갖추고 있습니다. 업계에서는 지역 밀착형 금융 지원 체계가 관련 산업의 투자 환경에 우호적인 영향을 미칠 것으로 보고 있습니다.",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 37,
+   "title": "취약층 전기료 왜 지원? … 미래기금 사용처 논란",
+   "url": "https://www.mk.co.kr/news/economy/12170704",
+   "src": "mk.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 한국전력의 부담이던 전기요금 복지·특례 지원 사업에 내년 3500억원의 예산이 새로 편성되었습니다. 정부가 저소득층과 취약계층 할인 및 농어촌 시설 감면 비용을 미래대응기금으로 대신 부담하는 구조로 전환됩니다. 다만 기금 사용처 논란과 지원 대상 전수 점검 요구는 향후 지원 체계 운영에 대한 변수로 작용할 전망입니다. 162조3000억원 규모로 책정된 미래대응기금의 신규 사업 중에서 '미래 대응' 취지에 부합하지 않는 사업이 상당수 포함되어 비판을 받고 있다. 특히, 전기요금 복지·특례 지원사업과 공공기관 특별수당 지급 등 현금성 지원 사업이 주요 내용으로 지적되고 있다. 박수영 의원은 이러한 예산 편성이 불필요하다며, 기금 사업 전반에 대한 전수 점검과 재검토를 촉구했다. 미래대응기금에 저소득층과 취약계층의 전기요금 복지 및 특례 지원 예산이 신규 편성되면서, 관련 수혜 대상 개인들은 기존과 같이 요금 감면 혜택을 안정적으로 유지할 수 있게 되었어요. 💡 하지만 반도체 슈퍼사이클로 거둔 추가 세수를 국가의 장기적인 미래 투자에 쓰겠다는 당초의 취지와 달리 현금성 지원이나 복지성 예산으로 채워지면서, 국민들이 체감하는 정책의 일관성에 아쉬움이 남을 수 있어요. 🤔 앞으로 기금의 사용처를 두고 공정한 재원 배분인지에 대한 사회적 논의가 이어질 것으로 보여요. 👥 원래 한국",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 38,
+   "title": "기업 여유자금 46조 늘 때…가계는 18조 '뚝'",
+   "url": "https://www.mk.co.kr/news/economy/12170702",
+   "src": "mk.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 삼성전자 등 주요 반도체 기업의 순이익 확대 에 힘입어 2분기 국내 기업 여유자금이 역대 최대치를 기록했습니다. 반도체 수출 호조로 비금융법인의 순자금운용 규모가 크게 늘어나며 기업 자금 사정이 개선되었습니다. 업계에서는 수출 흐름과 이익 증가세 의 지속 여부가 기업 자금 건전성을 가르는 관건이 될 것으로 보고 있습니다. SK하이닉스가 포함된 반도체 수출 호조 에 힘입어 2분기 국내 기업의 여유자금이 역대 최대치를 기록했습니다. 삼성전자와 SK하이닉스 등 주요 반도체 기업의 순이익 확대가 비금융법인 순자금운용 규모 증가를 이끌었습니다. 업계에서는 반도체 수출에 의존하는 이익 증가인 만큼 자금순환통계 의 변동성이 향후 실적의 리스크로 작용할 수 있다고 보고 있습니다. 반도체 수출 호조로 인해 올해 2분기 국내 비금융법인의 순자금운용 규모가 67조1000억원으로 역대 최대치를 기록했다. 반면 가계의 순자금운용 규모는 60조7000억원으로 줄어들며 기업과 가계의 자금 사정이 역전된 모습이다. 삼성전자와 SK하이닉스의 순이익 확대가 기업의 자금 증가에 크게 기여한 것으로 분석되며, 가계의 자금 흐름이 주식과 펀드로 이동한 현상이 나타나고 있다. 반도체 수출 호조와 상반기 증시 랠리가 이어지는 동안, 가계의 자금 사정은 오히려 팍팍해진 모습을 보이고 있어요. 📉 소득이 줄어든 반",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 39,
+   "title": "리사 수 \"삼성·SK 핵심 파트너…HBM 협력 여러 세대 간다\"(종합)",
+   "url": "https://www.yna.co.kr/view/AKR20261007159551017",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 권하영 기자 = 리사 수 AMD 회장 겸 최고경영자(CEO)가 인공지능(AI)과 게이밍을 모두 컴퓨팅의 핵심 영역으로 꼽으며, 두 기술을 결합해 고성능 컴퓨팅을 필요로 하는 모든 이용자를 지원하겠다는 비전을 제시했다. 메모리 공급망의 핵심 파트너로 삼성전자[005930]와 SK하이닉스[000660]를 언급하며 한국과 5년 이상의 장기적 협력이 중요하다는 점도 강조했다. ◇ 리사 수 \"AI·게이밍 모두 핵심\"…한국 게이머 높은 평가 리사 수 회장은 7일 오후 서울 드래곤시티에서 열린 'AMD 게이머 데이' 행사에서 잭 후인 AMD 컴퓨팅 및 그래픽 그룹 총괄 수석부사장과 함께 한국 게이머들과 질의응답을 진행하며 이같이 밝혔다. AMD 게이머 데이는 중앙처리장치(CPU)와 그래픽처리장치(GPU) 등 핵심 컴퓨팅 자원을 제공하는 AMD가 한국 게이밍 커뮤니티와 직접 만나 최신 게이밍 기술과 비전을 공유하고 게이머들의 목소리를 듣기 위해 마련한 행사다. 수 회장은 \"AI가 최고 수준의 컴퓨팅 성능을 끌어올리고 있지만, 게이밍 역시 컴퓨팅의 매우 중요한 핵심 영역으로서 마찬가지로 매우 높은 성능을 요구한다\"며 \"고성능 컴퓨팅이 필요한 모든 소비자와 기업 사용자를 지원하는 것이 우리의 목표\"라고 말했다. 이어 \"여기에는 AI와 게이밍을 실제로 결합하는 것도 포함된다\"며 \"AI가 점점 더 중요해지는 만큼, 최신 제품에서는 라이젠",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 40,
+   "title": "삼성전자 반도체 특별성과급 내년 3월말께 지급…세금 49.5%",
+   "url": "https://www.yna.co.kr/view/AKR20261007121700003",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 김민지 기자 = 삼성전자 반도체(DS) 부문 직원을 대상으로 하는 특별성과급 지급 시기가 정기주주총회 의결 직후인 내년 3월 말께로 확정됐다. 과세 연도는 내년으로, 소득세 최고세율인 45%(지방소득세 포함시 49.5%)를 일괄적용해 원천징수한 후 지급한다. 7일 업계에 따르면, 삼성전자 DS 부문은 이날 오후 이런 내용 등을 담은 반도체 특별경영성과급 세부 내용을 사내 공지했다. 성과급은 내년 3월 정기주주총회 이후인 3월 말 또는 4월 초 지급될 예정이다. 과세연도는 2027년이다. 특별경영성과급 지급안은 내년 정기주주총회 안건으로 상정될 예정이다. 지급률은 2026년 중 DS 부문에서 가장 오래 속한 조직을 기준으로 산정되며, 내년 2월 사업부별로 공지될 예정이다. CSS(전력반도체) 사업팀은 제외된다. 총 지급액은 개인별 기초금액과 특별성과급 지급률을 곱해 정해진다. 세금 및 보험료, 기부금을 공제한 후 자사주로 지급된다. 소득세 45%와 지방소득세 10%를 합한 49.5%를 일괄 적용해 원천징수한 후 지급한다. 연말정산 때 추가 추징 가능성을 줄이려는 조치다. 지급 대상은 2026년 12월 31일 기준 재직자 또는 육아·임신 등 일부 휴직자로, 세부적으로 재직·휴직 기간 등을 합산해 판단할 예정이다. 다만, ▲ 2026년 실제 근무 기간이 1개월 이하인 경우 ▲ 지급 대상 휴직자를 제외한 2026년 12월 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 41,
+   "title": "국정자원, 대전 본원서 리튬이온배터리 화재 대비 합동훈련",
+   "url": "https://www.yna.co.kr/view/AKR20261007139600530",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 차민지 기자 = 국가정보자원관리원은 7일 대전 본원에서 유성소방서와 리튬이온배터리 화재를 가정한 합동 소방훈련을 실시했다고 밝혔다. 배터리실 화재 상황을 설정해 상황 전파와 119 신고, 인명 대피, 초기 소화 등 초동 대응 절차를 점검했다. 유성소방서는 배터리 화재 특성을 고려한 진압·안전조치를 수행하고, 국정자원은 현장 진입과 전기설비 정보 제공 등을 지원했다. 국정자원은 지난해 대전 본원 화재를 계기로 무정전전원장치(UPS)·배터리 설비의 안전관리와 화재 대응체계를 강화하고 있다. 국정자원은 정기 소방훈련과 관계 기관 합동훈련을 통해 위험 요인을 사전에 찾아내고 현장 대응 역량을 높일 계획이다.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 42,
+   "title": "AMD 리사수, 삼성전자 전영현·SK하이닉스 곽노정과 회동",
+   "url": "https://www.yna.co.kr/view/AKR20261007137500003",
+   "src": "yna.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 김민지 기자 = 방한한 리사 수 AMD 회장 겸 최고경영자(CEO)가 삼성과 SK의 반도체 수장을 만나 AI 협력 강화 방안을 논의한다. 7일 업계에 따르면, 수 회장은 이날 오후 서울 강남구 삼성전자 서초사옥에서 전영현 삼성전자 대표이사 겸 DS부문장 부회장을 포함한 주요 경영진과 회동한다. 수 회장은 올해 3월에도 한국을 방문해 전 부회장, 한진만 파운드리사업부장 사장 등과 삼성전자 평택캠퍼스의 생산라인 등을 둘러봤다. 이후 이재용 삼성전자 회장과 서울 용산구 한남동에 위치한 승지원에서 만찬을 가졌다. 약 7개월 만에 다시 성사된 전 부회장과 수 회장의 이번 회동으로 삼성전자와 AMD는 고대역폭메모리(HBM)를 포함한 AI 반도체 협력을 강화할 전망이다. 삼성전자는 AMD의 최신 AI 가속기에 HBM 3E(5세대)와 HBM 4(6세대)를 공급하며 메모리 분야에서 꾸준한 파트너십을 이어오고 있다. 앞서 AMD는 삼성전자를 차세대 AI 가속기 '인스팅트(Instinct) MI455X'에 탑재되는 HBM 4의 우선 공급업체로 지정했다. AMD가 AI 가속기 물량 확대의 필요성을 여러 차례 언급한 만큼 삼성전자의 최선단 공정을 활용한 파운드리(반도체 위탁생산) 협력 가능성도 제기된다. 삼성전자 파운드리가 AMD를 고객사로 확보할 경우 흑자 전환을 가속할 수 있을 것으로 보인다. 수 회장은 이날 오후 곽노정 SK하이닉스 ",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 43,
+   "title": "Earnings Impact of 23 All-Solid-State Battery Related Stocks: The Structure of Solid Electrolyte Manufacturer Leadership and Mass Production Timelines",
+   "url": "https://note.com/novusearch/n/n9d2188bfc222?hl=en",
+   "src": "bing.com",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "While dozens of companies are cited as being \"all-solid-state battery related,\" only a limited number are actually generating revenue from them. In the documents reviewed for this report, the only two companies confirmed to have shipped and sold mass-produced batteries are Maxell and TDK, both of which produce small-sized batteries[1][2]. Even for Maxell, revenue from all-solid-state batteries in fiscal year 2026 is expected to be in the range of several hundred million yen, which is a significant gap from their 30 billion yen target for fiscal year 2030[3][4]. For electric vehicle (EV) applications, Toyota is at the stage of aiming for market introduction between 2027 and 2028[5]. This arti",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "전고체",
+     "실적"
+    ],
+    "grade": "C",
+    "market_group": "ev"
+   },
+   "status": "published:2026-10-08-15"
+  },
+  {
+   "cid": 44,
+   "title": "‘또 최고가’ 엔비디아는 곧 시총 6조 달러인데…삼전·닉스는 왜 지지부진?",
+   "url": "https://www.mk.co.kr/news/stock/12170029",
+   "src": "mk.co.kr",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 인공지능(AI) 반도체 대장주인 엔비디아 6일(현지 시간) 또 다시 사상 최고치를 찍으며 연내 시가총액 6조 달러(약 8057조 원) 돌파 가능성이 커졌다. 나흘째 상승 중인 엔비디아는 이틀 연속 사상 최고 기록을 경신하고 있다. 주가를 끌어올린 것은 강한 실적 전망과 1500억 달러 규모의 자사주 매입이다. 반면, 삼성전자와 SK하이닉스의 주가는 글로벌 반도체 업황에 대한 피크아웃 우려(정점 후 하락세)와 AI 투자 속도 조절론, 올 7월 국내 주식시장의 역대 최고 수준의 변동성 등을 경험한 투자자들의 불안 심리로 반등할 기회를 못 찾고 있다. 엔비디아는 이날 뉴욕증시에서 전 거래일 대비 0.14% 오른 239.2달러에 거래를 마감했다. 장 중 243.3달러까지 오르며 사상 최고치를 찍었다. 엔비디아의 시가총액은 이날 오전 기준 9시 10분 기준 5조 7776억달러다. 엔비디아는 올해 초인 1월 2일 종가 기준 188.4달러에서 이날(239.2달러)까지 약 26.97% 상승했다. 지난 2023년 6월 14일 종가 기준으로 처음으로 시총 1조 달러(약 1342조 원)를 돌파하며 ‘트릴리언(trillion·1조) 클럽’에 가입한 엔비디아는 올해 7월 AI 거품론 등의 영향으로 190달러까지 급락하기도 했다. 주가를 끌어올린 건 실적 기대와 자사주 매입이다. 엔비디아는 20",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 45,
+   "title": "Sunderland AFC opens 20-bay EV charging hub in north-east England",
+   "url": "https://www.electrive.com/2026/10/06/sunderland-afc-opens-20-bay-ev-charging-hub-in-north-east-england/",
+   "src": "electrive.com",
+   "date": "2026-10-07",
+   "rel": 3,
+   "lead": "The football team Sunderland AFC has partnered with RAW Charging to open what the companies describe as the north-east's largest public EV charging hub. The new facility at the Stadium of Light features 20 ultra-rapid charging bays, including 16 rated at 150 kW and four capable of up to 300 kW. The new charging hub is being delivered under the football club’s Ready Eco sustainability scheme and will be powered entirely by renewable energy. RAW Energy is investing around £750,000 in the project and will fund, operate, and maintain the charging infrastructure. According to the partners, the chargers will be available to Sunderland supporters and visitors as well as the wider public. They’ll al",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 46,
+   "title": "KGM Torres EVX now eligible for UK Electric Car Grant",
+   "url": "https://www.electrive.com/2026/10/06/kgm-torres-evx-now-eligible-for-uk-electric-car-grant/",
+   "src": "electrive.com",
+   "date": "2026-10-06",
+   "rel": 3,
+   "lead": "Two BEVs from KGM (formerly SsangYong) are now eligible for UK government purchase grants. The Torres EVX eSUV qualifies for the £1,500 Electric Car Grant, joining the Musso EV which already qualified for the £5,000 Plug-in Van Grant. The Torres EVX now qualifies for the Band 2 grant, which is available for electric cars priced below £37,000. This reduces the car’s starting price to £35,495, down from £36,995. The grant is applied directly at the point of purchase by retailers, as is the case with other ECG-eligible EVs. The Torres EVX is powered by a 73.4 kWh LFP battery supplied by BYD and features a WLTP range of up to 287 miles (462km). Its single front-mounted electric motor produces 15",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "BYD",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-16"
+  },
+  {
+   "cid": 47,
+   "title": "Arla Foods expands e-truck fleet with four DAF XD Electrics",
+   "url": "https://www.electrive.com/2026/10/06/arla-foods-expands-e-truck-fleet-with-four-daf-xd-electrics/",
+   "src": "electrive.com",
+   "date": "2026-10-06",
+   "rel": 3,
+   "lead": "Arla Foods has added four additional battery-electric DAF XD Electric trucks to its electric fleet. The 6x2 trucks will deliver chilled dairy products in Denmark and will utilise a new charging facility located at the company's Hobro depot. Danish dairy giant Arla Foods continues to expand its electric truck fleet. The company has taken delivery of four additional DAF XD Electric trucks. Last year, Arla already put three vehicles of this type into operation. The new vehicles are 6×2 rigid trucks with a power output of 350 kW and a 525-kWh battery. DAF specifies a range of up to 550 km. The trucks will be used to deliver chilled dairy products in Denmark. The XD Electric models make up part o",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 48,
+   "title": "Honda tests dynamic wireless charging – while driving",
+   "url": "https://www.electrive.com/2026/10/06/honda-tests-dynamic-wireless-charging-while-driving/",
+   "src": "electrive.com",
+   "date": "2026-10-06",
+   "rel": 3,
+   "lead": "Honda, together with its partners Taisei and Taisei Rotec, will develop an inductive charging system to charge the battery while driving. The technological foundation is in place, and the first demonstrations are set to begin next year - including on public roads. Honda has announced that, since 2021, it has been developing Dynamic Wireless Power Transfer (DWPT) technology to enable wireless energy supply for vehicles while in motion. The Japanese manufacturer is primarily targeting practical applications in logistics, where it expects to see “significant benefits”. The largest known developer in this field is the Israeli company Electreon , which already has several pilot projects under way",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 49,
+   "title": "Valo’s Steve Merrick on why accurate state of charge estimation remains energy storage’s ‘unsolved problem’",
+   "url": "https://www.energy-storage.news/valos-steve-merrick-on-why-accurate-state-of-charge-estimation-remains-energy-storages-unsolved-problem/",
+   "src": "energy-storage.news",
+   "date": "2026-10-06",
+   "rel": 3,
+   "lead": "Inaccurate state of charge (SOC) measurements can cost battery energy storage system (BESS) operators up to 15% in lost revenue, a persistent issue despite advances in monitoring technology.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS",
+     "실적"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 50,
+   "title": "Dematic offers Lifecycle Services to support peak season readiness for warehouses",
+   "url": "https://www.mmh.com/article/dematic_offers_lifecycle_services_to_support_peak_season_readiness_for_warehouses",
+   "src": "Modern Materials Handling",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "Dematic offers Lifecycle Services to support peak season readiness for warehouses Modern Materials Handling",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_B",
+    "entity": "Dematic",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-08-17"
+  },
+  {
+   "cid": 51,
+   "title": "Electric Vehicle Test Equipment Market Forecast to Expand Through 2035 as Battery Validation Demand Accelerates",
+   "url": "https://www.indexbox.io/blog/electric-vehicle-test-equipment-market-forecast-to-expand-through-2035-as-battery-validation-demand-accelerates/",
+   "src": "IndexBox",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "Search across reports, market insights, and blog stories. Tell us where to send the sample and whether you want this report customized. Thank you. Our team will review your request and reply to your business email. Our team will review your request and route it to support@indexbox.io. According to the latest IndexBox report on the global Electric Vehicle Test Equipment market , the market enters 2026 with broader demand fundamentals, more disciplined procurement behavior, and a more regionally diversified supply architecture. The global Electric Vehicle Test Equipment Market is entering a structurally driven expansion phase, with demand fundamentals tied directly to the cadence of EV platfor",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 52,
+   "title": "Sodium-Ion Battery Manufacturing Plant Setup in India",
+   "url": "https://www.imarcgroup.com/insight/sodium-ion-battery-manufacturing-plant-setup-cost-india",
+   "src": "IMARC Group",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "Sodium-ion batteries are emerging as a practical complement to lithium-ion technology. They work on the same principle, shuttling ions between a cathode and an anode, but use sodium, which is abundant, inexpensive, and available within India, in place of lithium. They also avoid cobalt and nickel, and use aluminium instead of copper as the anode current collector. That makes them attractive for energy storage systems, two- and three-wheelers, backup power, and low-temperature applications where cost, safety, and supply security matter more than maximum energy density. For India, which imports almost all its lithium and battery cells, a Sodium-Ion Battery Manufacturing Plant Setup in India of",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 53,
+   "title": "​LG Energy Solution to Compensate Battery Equipment Maker 10 Billion Won - THE ELEC, Korea Electronics Industry Media",
+   "url": "https://www.thelec.net/news/articleView.html?idxno=14469",
+   "src": "THE ELEC, Korea Electronics Industry Media",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "LG Energy Solution has agreed to compensate an equipment supplier 10 billion won for additional costs stemming from changes in specifications. It is an unusual case of a battery maker increasing the supply price after placing an equipment order. ​According to industry sources on Oct. 7, LG Energy Solution recently agreed with Jayce Robotics to pay additional costs for battery assembly equipment for its Lansing plant in Michigan. Jayce Robotics won an order worth 53.8 billion won late last year for assembly equipment for four production lines in the project. ​Jayce Robotics requested additional payment after production plans changed and equipment specifications were upgraded during the projec",
+   "pre": {
+    "cat": "project",
+    "group": "all",
+    "entity": "LG에너지솔루션",
+    "related": [],
+    "tags": [
+     "수주"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-10-08-18"
+  },
+  {
+   "cid": 54,
+   "title": "한미반도체, 후공정 장비서 AI 패키징 핵심 기업으로…HBM이 바꾼 46년 성장사",
+   "url": "https://www.betanews.net/article/view/beta202610070094",
+   "src": "베타뉴스",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "베타뉴스 이 직 ( leejik@betanews.net ) [챗GPT 인공지능과 로봇] 오픈 채팅방에 들어 오세요.",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 55,
+   "title": "Four EV battery stocks with strong future roadmap",
+   "url": "https://www.tradingview.com/news/moodys:466b3f2f1eba8:0-four-ev-battery-stocks-with-strong-future-roadmap/",
+   "src": "TradingView",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "New Delhi, Oct. 7 -- India's electric-vehicle (EV) revolution is creating opportunities well beyond vehicle manufacturers, with batteries emerging as a critical part of the ecosystem. As EV adoption increases, demand for lithium-ion cells, battery packs, advanced energy-storage systems and critical battery materials is expected to grow substantially. Indian companies are therefore investing in new battery technologies, manufacturing capacity, and supporting infrastructure to reduce dependence on imports and capture a larger share of this emerging market. In this editorial, we examine four listed companies with significant battery-related ambitions and clearly defined roadmaps. Their business",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 56,
+   "title": "피엔티, 美·인도 배터리쇼 연속 참가…글로벌 ‘배터리 턴키’ 역량 과시",
+   "url": "https://www.the-stock.kr/news/articleView.html?idxno=33517",
+   "src": "더스탁(The Stock)",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "2차전지 제조장비 전문기업 피엔티가 미국과 인도에서 연이어 열리는 글로벌 배터리 전시회에 참가하며, 기존 장비 중심에서 소재와 셀(Cell) 생산까지 확장된 ‘통합 턴키(Turn-key)’ 사업 역량을 본격적으로 알린다고 밝혔다. 피엔티는 오는 10월 13일부터 15일까지 미국 미시간주 디트로이트 헌팅턴 플레이스(Huntington Place)에서 열리는 ‘더 배터리 쇼 노스 아메리카(The Battery Show North America) 2026’에 참가한다. 이어 22일부터 24일까지 인도 그레이터 노이다의 인디아 엑스포 마트(India Expo Mart & Centre)에서 개최되는 ‘더 배터리 쇼 인디아(The Battery Show India) 2026’에도 연속으로 나선다. 이번 전시회에는 피엔티를 필두로 자회사 피엔티머티리얼즈, 피엔티엠에스, AMT가 공동으로 대규모 부스를 꾸린다. 이들은 전극 생산설비는 물론 양극활물질, LFP(리튬인산철) 배터리, 분리막 및 동박 생산설비 등 2차전지 밸류체인 전반을 아우르는 제품군과 기술력을 총망라해 글로벌 고객사들에게 선보인다. 피엔티가 제시하는 턴키 사업의 가장 강력한 차별점은 ‘실제 생산 경험’에 기반한 양산 지원 능력이다. 피엔티는 독보적인 전극 제조설비 공급 역량에 더해, 현재 자사 제4공장에서 양극활물질과 에너지저장장치(ESS)용 LFP 배터리를 직접 생산하며 소재 및 ",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_B",
+    "entity": "피엔티",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-19"
+  },
+  {
+   "cid": 57,
+   "title": "K-배터리 3사, AI 데이터센터 ‘전력 해결사’ 노린다",
+   "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=53461",
+   "src": "코리아리포트",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "AI 데이터센터(AIDC)가 전 세계 전력망의 새 변수로 떠오르면서 국내 배터리 3사가 ‘전력 해결사’ 자리를 놓고 경쟁에 들어갔다. 전기차 수요 둔화로 어려움을 겪는 LG에너지솔루션, 삼성SDI, SK온이 에너지저장장치(ESS)를 넘어 데이터센터 전력 인프라 전반으로 영역을 넓히고 있다. 가장 앞서나가는 곳은 LG에너지솔루션이다. 지난달 엔비디아의 AIDC 설계 기준을 충족하는 파트너로 이름을 올렸다. 삼성SDI는 서버 바로 옆 전원장치로, SK온은 대형 ESS와 그룹 차원의 AI 인프라 투자 시너지로 추격에 나섰다. 배터리업계가 데이터센터에 주목하는 이유는 전력 수요의 성격이 달라졌기 때문이다. 블룸버그 뉴 에너지 파이낸스(BNEF)는 미국 데이터센터 전력 소비가 지난해 180TWh에서 2030년 391TWh로 두 배 이상 늘어날 것으로 내다봤다. 문제는 양뿐만이 아니다. AI 서버는 연산 작업에 따라 전력 사용량이 순식간에 급변한다. 이런 부하 변동을 그대로 전력망에 얹으면 계통에 부담이 된다. 이를 흡수하는 완충 장치로 ESS가 쓰인다. 이에 따라 최근 배터리 3사는 AIDC 전력 인프라와의 접점을 넓히고 있다. 데이터센터 외부나 전력망과 연계한 대규모 전력 저장에서 시작한 배터리 수요가 데이터센터 내부의 안정적인 전력 공급 영역으로 확장되는 흐름이다. 대형 ESS는 LG에너지솔루션과 SK온이, 서버랙 가까운 전원장치는 삼성S",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "삼성SDI",
+     "SK온"
+    ],
+    "tags": [
+     "ESS",
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-08-20"
+  },
+  {
+   "cid": 58,
+   "title": "피엔티, 美·인도 배터리쇼 참가…\"장비·소재·셀 통합 솔루션 공개\"",
+   "url": "https://www.newspim.com/news/view/20261007000215",
+   "src": "뉴스핌",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "! AI가 자동 생성한 요약으로 정확하지 않을 수 있어요. [서울=뉴스핌] 이나영 기자 설희 인턴기자= 2차전지 제조장비 전문기업 피엔티가 미국과 인도에서 열리는 글로벌 배터리 전시회에 잇따라 참가해 장비부터 소재, 셀 생산까지 아우르는 통합 솔루션을 선보인다. 7일 피엔티에 따르면 회사는 오는 13~15일 미국 미시간주 디트로이트 헌팅턴 플레이스(Huntington Place)에서 열리는 '더 배터리 쇼 노스 아메리카 2026(The Battery Show North America 2026)'에 참가한다. 이어 22~24일에는 인도 그레이터 노이다 인디아 엑스포 마트 앤드 센터(India Expo Mart & Centre)에서 열리는 '더 배터리 쇼 인디아 2026(The Battery Show India 2026)'에 참가할 예정이다. 이번 전시에는 피엔티와 자회사 피엔티머티리얼즈, 피엔티엠에스, AMT가 공동으로 참가한다. 전극 생산설비를 비롯해 양극활물질과 리튬인산철(LFP) 배터리, 분리막·동박 생산설비 및 관련 제품 등을 선보일 계획이다. 피엔티는 기존 전극 제조설비 공급 역량에 소재와 셀 생산 경험을 결합해 턴키 사업을 확대하고 있다. 회사는 4공장에서 양극활물질과 에너지저장장치(ESS)용 LFP 배터리를 직접 생산하며 소재 및 셀 제조 경험을 축적하고 있다. 이를 바탕으로 설비 공급뿐 아니라 생산기술과 양산 노하우 교육",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_B",
+    "entity": "피엔티",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 59,
+   "title": "SK온, 포드 'Q1 어워드' 수상…헝가리 공장 품질 경쟁력 인정",
+   "url": "https://www.newspim.com/news/view/20261007000101",
+   "src": "뉴스핌",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "! AI가 자동 생성한 요약으로 정확하지 않을 수 있어요. [서울=뉴스핌] 김지헌 기자= SK온 헝가리 이반차 공장이 글로벌 완성차 업체 포드로부터 최고 등급 품질 인증을 받았다. SK온은 6일(현지시간) 헝가리 이반차 공장에서 포드 'Q1 어워드(Q1 Award)' 수여식을 열고 Q1 인증을 획득했다고 7일 밝혔다. 이날 행사에는 김성식 SK온 유럽법인장이 참석해 포드 관계자로부터 상패를 전달받았다. 포드 Q1 어워드는 포드가 부품과 원자재 공급사를 대상으로 생산 기술과 제품 품질, 품질 개선 노력, 제조·품질 관리 시스템 등을 종합 평가해 우수 사업장에 부여하는 최고 등급의 품질 인증이다. SK온 이반차 공장은 2024년 2분기 양산을 시작한 이후 생산 안정화와 품질 경쟁력 강화에 집중해 왔다. 양산 약 2년 만에 Q1 인증을 획득하면서 포드의 제조·품질 기준을 충족했다는 평가를 받았다. SK온은 지난해 말부터 올해 상반기까지 Q1 인증 획득을 위한 포드의 평가를 거쳤다. 심사 과정에서 품질 이상 제품의 납품을 방지하고 잠재적인 품질 위험을 사전에 파악해 개선하는 품질 관리 체계를 구축한 점에서 높은 평가를 받았다고 회사 측은 설명했다. 김성식 SK온 유럽법인장은 \"이번 Q1 어워드 수상은 본사와 현지 구성원들이 품질을 최우선 가치로 삼고 함께 노력해 온 결과\"라며 \"앞으로도 지속적인 개선과 선제적 품질 관리를 통해 헝가리 공장의",
+   "pre": {
+    "cat": "customer",
+    "group": "skon",
+    "entity": "SK온",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 60,
+   "title": "'1등' LG엔솔, 배터리 전쟁 '후반전' 예고…\"하드웨어→소프트웨어\" - 머니투데이",
+   "url": "https://www.mt.co.kr/amp/industry/2026/10/07/2026100616032188047",
+   "src": "머니투데이",
+   "date": "2026-10-07",
+   "rel": 4,
+   "lead": "ESS(에너지저장장치) 배터리 경쟁의 '후반전'을 준비하고 있는 LG에너지솔루션의 전략을 오는 30일 서울 삼성동 코엑스 B홀에서 진행되는 '스마트 에너지 플러스(SMART ENERGY PLUS·SEP) 2026' 3일차 행사에서 확인할 수 있다. 김현태 LG에너지솔루션 ESS 상품기획·전략담당 상무는 해당일 콘퍼런스 첫 연사로 나와 '하드웨어에서 지능형 플랫폼으로: ESS 시장 선도할 소프트웨어 혁신'을 주제로 강연한다. 에너지관리시스템(EMS), 시장/운영 최적화 솔루션(EMO), 디지털 O&M(Operation&Maintenance)을 포괄하는 LG에너지솔루션의 소프트웨어 기술력 기반 시장 경쟁력을 강조할 계획이다. 김 상무는 머니투데이와의 사전 인터뷰를 통해 '소프트웨어'의 중요성을 설파했다. 그는 \"배터리 하드웨어는 커머더티(commodity, 원자재)에 표준화가 된 상황\"이라며 \"그 하드웨어의 가치를 끌어올릴 수 있는 방향에 대해 다양한 회사들이 노력을 하고 있다\"고 설명했다. 이어 \"ESS용 배터리 안전성에 대한 부분들은 당연히 다 만족한다는 전제 하에 오펙스(OPEX, 운영비용)를 얼마나 효율적으로 고객에게 제공할 수 있는 가에 포커스를 맞춰야 할 때\"라고 강조했다. 그는 \"지금까지 배터리 경쟁에서 진행된 전반전은 하드웨어적으로 비용을 얼마나 절감할 수 있느냐에 집행해왔다\"며 \"이제는 후반전을 맞아 오펙스를 위해 AX(",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 61,
+   "title": "현대차·기아, 美 판매 4년 연속 신기록 전망...'효자' 하이브리드·SUV가 전기차 부진 씻었다",
+   "url": "https://www.consumernews.co.kr/news/articleView.html?idxno=765330",
+   "src": "소비자가 만드는 신문",
+   "date": "2026-10-07",
+   "rel": 2,
+   "lead": "하이브리드와 SUV 라인업을 확대하고 신형 모델을 잇달아 투입한 전략이 주효했던 것으로 풀이된다. 미국 자동차 시장 전체 판매가 감소하고 있는 상황에서 현대차와 기아는 하이브리드차 판매 증가가 전기차 부진을 메우며 실적을 견인한 셈이다. 현대차와 기아의 올해 미국 시장 하이브리드차 판매 비중은 25.5%로 4대 중 1대 꼴이다. 현대차와 기아는 현지 생산을 늘리고 하이브리드차와 전기차 등 전동화 모델을 확대해 미국 시장 공략을 이어갈 계획이다. 현대차와 기아의 미국 시장 합산 판매량은 2023년부터 지난해까지 3년 연속 최대 판매 기록을 경신했다. 올해 9월까지 월평균 판매량은 약 15만8500대다. 현재 추세라면 연간 합산 판매량은 190만 대를 웃돌 것으로 예상된다. 현대차는 1986년 미국 시장 진출 이후 40년 만에 처음으로 연간 판매량 100만 대를 넘어설 가능성이 높은 상황이다. 1994년 미국 판매를 시작한 기아도 올해 역대 최대 판매량을 기록할 것으로 예상된다. 현대차와 기아는 미국 시장에서 하이브리드와 SUV 라인업을 확대하고 신형 모델을 잇달아 투입한 전략이 주효했던 것으로 해석된다. 현대차는 지난해 10월 팰리세이드 하이브리드를 미국 시장에 출시해 기존 투싼과 싼타페 중심의 하이브리드 SUV 라인업을 대형 SUV까지 확대했다. 기아는 올해 1월 2세대 텔루라이드와 K4 해치백을 시작으로 3월 텔루라이드 하이브리드,",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 62,
+   "title": "Lithium-Ion Battery Cell Manufacturing Plant Setup in India",
+   "url": "https://www.imarcgroup.com/insight/lithium-ion-battery-cell-manufacturing-plant-setup-cost-india",
+   "src": "IMARC Group",
+   "date": "2026-10-06",
+   "rel": 2,
+   "lead": "Lithium-ion cells are the energy building block of the electric and digital economy. Electric two-wheelers, cars, buses, grid-scale energy storage, telecom towers, inverters, power tools, laptops, and smartphones all depend on them. India still imports almost all of the cells it uses, while demand from electric mobility and renewable energy storage is rising sharply. That gap, together with the Production-Linked Incentive (PLI) scheme for Advanced Chemistry Cells and supportive state policies, makes Lithium-Ion Battery Cell Manufacturing Plant Setup in India one of the most strategic manufacturing opportunities of this decade, though also one of the most capital- and technology-intensive. In",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  }
+ ]
+}

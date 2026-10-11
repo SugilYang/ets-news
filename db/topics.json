@@ -10331,55 +10331,70 @@
   },
   {
    "date": "2026-10-12",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "\"1100억 투자해 1.2조 수익\"… 회장님은 주식 고수",
-   "nt": "1100억투자해12조수익회장님은주식고수",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔 3분기 매출 9조6434억(+59%)·영업이익 7560억(+25.7%)",
+   "nt": "lg엔솔3분기매출9조6434억59영업이익7560억257",
    "tk": [
-    "1100억",
-    "2조",
-    "고수",
-    "수익",
-    "주식",
-    "투자해",
-    "회장님은"
+    "25",
+    "3분기",
+    "59",
+    "7560억",
+    "9조6434억",
+    "lg엔솔",
+    "매출",
+    "영업이익"
    ],
    "nums": [
-    "1.2조",
-    "1100억",
-    "12조",
-    "2478억"
+    "25.7%",
+    "3분기",
+    "59%",
+    "6434억",
+    "7560억",
+    "9조"
    ],
-   "url": "https://www.mk.co.kr/news/stock/12172429"
+   "url": "https://www.mk.co.kr/news/stock/12173059"
   },
   {
    "date": "2026-10-12",
-   "entity": "BYD",
-   "cat": "project",
-   "group": "all",
-   "h": "Solid-State Battery Industrialization Accelerates: Chery Launches Equipment Tenders, BYD Targets 2027 Vehicle Installati",
-   "nt": "solidstatebatteryindustrializationaccele",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "데이터센터용 ESS의 힘 … 배터리株 '재충전'",
+   "nt": "데이터센터용ess의힘배터리재충전",
    "tk": [
-    "2027",
-    "accelerates",
-    "battery",
-    "byd",
-    "chery",
-    "equipment",
-    "industrialization",
-    "installation",
-    "launches",
-    "solid",
-    "state",
-    "targets",
-    "tenders",
-    "vehicle"
+    "ess의",
+    "데이터센터용",
+    "배터리",
+    "재충전"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/stock/12173059"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, 국내 25조 투자…AI ESS 수주·'한국판 IRA' 논의",
+   "nt": "삼성sdi국내25조투자aiess수주한국판ira논의",
+   "tk": [
+    "25조",
+    "ai",
+    "ess",
+    "ira",
+    "국내",
+    "논의",
+    "삼성sdi",
+    "수주",
+    "투자",
+    "한국판"
    ],
    "nums": [
-    "2027"
+    "25조"
    ],
-   "url": "https://finance.biggo.com/news/fd03aec9-957f-4243-91cc-09e6c72b1671"
+   "url": "https://www.kukinews.com/article/view/kuk202608050187"
   },
   {
    "date": "2026-10-12",
@@ -10407,58 +10422,279 @@
   },
   {
    "date": "2026-10-12",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "\"1,000억 달러 쏟았는데 라인이 멈췄다\"… 북미 배터리 공장, 'ESS'로 긴급 유턴",
-   "nt": "1000억달러쏟았는데라인이멈췄다북미배터리공장ess로긴급유턴",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL–세레스, 장기 전략 협력…Aito 배터리 생산능력 확대",
+   "nt": "catl세레스장기전략협력aito배터리생산능력확대",
    "tk": [
-    "000억",
-    "ess",
-    "공장",
-    "긴급",
-    "달러",
-    "라인이",
-    "멈췄다",
+    "aito",
+    "catl",
     "배터리",
-    "북미",
-    "쏟았는데",
-    "유턴"
+    "생산능력",
+    "세레스",
+    "장기",
+    "전략",
+    "협력",
+    "확대"
    ],
    "nums": [
-    "1,000억",
-    "10년",
-    "135조"
+    "120만"
    ],
-   "url": "https://www.msn.com/ko-kr/autos/%EC%9D%BC%EB%B0%98/1-000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%8F%9F%EC%95%98%EB%8A%94%EB%8D%B0-%EB%9D%BC%EC%9D%B8%EC%9D%B4-%EB%A9%88%EC%B7%84%EB%8B%A4-%EB%B6%81%EB%AF%B8-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B3%B5%EC%9E%A5-ess-%EB%A1%9C-%EA%B8%B4%EA%B8%89-%EC%9C%A0%ED%84%B4/ar-AA2e1KrP"
+   "url": "https://cnevpost.com/2026/10/11/catl-deal-seres-expand-aito-battery-capacity/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL signs long-term strategic deal with Seres to expand Aito battery capacity",
+   "nt": "catlsignslongtermstrategicdealwithserest",
+   "tk": [
+    "aito",
+    "battery",
+    "capacity",
+    "catl",
+    "deal",
+    "expand",
+    "long",
+    "seres",
+    "signs",
+    "strategic",
+    "term",
+    "to",
+    "with"
+   ],
+   "nums": [
+    "120만"
+   ],
+   "url": "https://cnevpost.com/2026/10/11/catl-deal-seres-expand-aito-battery-capacity/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "Intilion, CATL 나트륨이온 BESS 유럽 배치 협력…Alfen 이어 두 번째",
+   "nt": "intilioncatl나트륨이온bess유럽배치협력alfen이어두번째",
+   "tk": [
+    "alfen",
+    "bess",
+    "catl",
+    "intilion",
+    "나트륨이온",
+    "배치",
+    "번째",
+    "유럽",
+    "이어",
+    "협력"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/europes-system-integrators-move-quickly-on-sodium-ion-with-catl-surprised-if-we-arent-deploying-it-next-year/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "Europe’s system integrators move quickly on sodium-ion with CATL: ‘surprised if we aren’t deploying it next year’",
+   "nt": "europessystemintegratorsmovequicklyonsod",
+   "tk": [
+    "aren",
+    "catl",
+    "deploying",
+    "europe",
+    "if",
+    "integrators",
+    "ion",
+    "it",
+    "move",
+    "next",
+    "on",
+    "quickly",
+    "sodium",
+    "surprised",
+    "system",
+    "we",
+    "with",
+    "year"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/europes-system-integrators-move-quickly-on-sodium-ion-with-catl-surprised-if-we-arent-deploying-it-next-year/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "체리, 전고체 배터리 장비 입찰 개시…BYD 2027년 차량 탑재 목표",
+   "nt": "체리전고체배터리장비입찰개시byd2027년차량탑재목표",
+   "tk": [
+    "2027년",
+    "byd",
+    "개시",
+    "목표",
+    "배터리",
+    "입찰",
+    "장비",
+    "전고체",
+    "차량",
+    "체리",
+    "탑재"
+   ],
+   "nums": [
+    "2027년",
+    "5개",
+    "7개",
+    "9월28일"
+   ],
+   "url": "https://finance.biggo.com/news/fd03aec9-957f-4243-91cc-09e6c72b1671"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "Solid-State Battery Industrialization Accelerates: Chery Launches Equipment Tenders, BYD Targets 2027 Vehicle Installati",
+   "nt": "solidstatebatteryindustrializationaccele",
+   "tk": [
+    "2027",
+    "accelerates",
+    "battery",
+    "byd",
+    "chery",
+    "equipment",
+    "industrialization",
+    "installation",
+    "launches",
+    "solid",
+    "state",
+    "targets",
+    "tenders",
+    "vehicle"
+   ],
+   "nums": [
+    "2027",
+    "5개",
+    "7개",
+    "9월28일"
+   ],
+   "url": "https://finance.biggo.com/news/fd03aec9-957f-4243-91cc-09e6c72b1671"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "엠플러스",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "충북TP, 엠플러스 가열 롤 장비 CFD 최적화 지원…50억 효과 기대",
+   "nt": "충북tp엠플러스가열롤장비cfd최적화지원50억효과기대",
+   "tk": [
+    "50억",
+    "cfd",
+    "가열",
+    "기대",
+    "엠플러스",
+    "장비",
+    "지원",
+    "최적화",
+    "충북tp",
+    "효과"
+   ],
+   "nums": [
+    "50억"
+   ],
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3715301"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "엠플러스",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "충북TP, 엠플러스 이차전지 장비 '가열 롤 온도' 최적화 지원…50억 원 효과 기대",
+   "nt": "충북tp엠플러스이차전지장비가열롤온도최적화지원50억원효과기대",
+   "tk": [
+    "50억",
+    "가열",
+    "기대",
+    "엠플러스",
+    "온도",
+    "이차전지",
+    "장비",
+    "지원",
+    "최적화",
+    "충북tp",
+    "효과"
+   ],
+   "nums": [
+    "50억"
+   ],
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3715301"
   },
   {
    "date": "2026-10-12",
    "entity": "",
    "cat": "tech_policy",
    "group": "all",
-   "h": "전기차 수요 둔화ㆍ중국 공세⋯韓배터리 경쟁력 ‘체질개선 시험대’[K배터리 주도권 탈환]",
-   "nt": "전기차수요둔화중국공세배터리경쟁력체질개선시험대k배터리주도권탈환",
+   "h": "EU 집행위, 전략 원자재 프로젝트 46건 추가 선정…16개 회원국",
+   "nt": "eu집행위전략원자재프로젝트46건추가선정16개회원국",
    "tk": [
-    "k배터리",
-    "경쟁력",
-    "공세",
-    "둔화",
-    "배터리",
-    "수요",
-    "시험대",
-    "전기차",
-    "주도권",
-    "중국",
-    "체질개선",
-    "탈환"
+    "16개",
+    "46건",
+    "eu",
+    "선정",
+    "원자재",
+    "전략",
+    "집행위",
+    "추가",
+    "프로젝트",
+    "회원국"
    ],
    "nums": [
-    "24%",
-    "79%",
-    "81%"
+    "16개",
+    "46건"
    ],
-   "url": "https://www.msn.com/ko-kr/news/other/%EC%A0%84%EA%B8%B0%EC%B0%A8-%EC%88%98%EC%9A%94-%EB%91%94%ED%99%94%E3%86%8D%EC%A4%91%EA%B5%AD-%EA%B3%B5%EC%84%B8-%E9%9F%93%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B2%BD%EC%9F%81%EB%A0%A5-%EC%B2%B4%EC%A7%88%EA%B0%9C%EC%84%A0-%EC%8B%9C%ED%97%98%EB%8C%80-k%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%A3%BC%EB%8F%84%EA%B6%8C-%ED%83%88%ED%99%98/ar-AA2e1gry"
+   "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "EU Commission selects 46 new raw materials projects",
+   "nt": "eucommissionselects46newrawmaterialsproj",
+   "tk": [
+    "46",
+    "commission",
+    "eu",
+    "materials",
+    "new",
+    "projects",
+    "raw",
+    "selects"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "최태원 \"美·中 증설 시 점유율 축소…광주 외에도 최대한 빨리 확장\"",
+   "nt": "최태원증설시점유율축소광주외에도최대한빨리확장",
+   "tk": [
+    "광주",
+    "빨리",
+    "외에도",
+    "점유율",
+    "증설",
+    "최대한",
+    "최태원",
+    "축소",
+    "확장"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261011000091"
   },
   {
    "date": "2026-10-12",
@@ -10486,322 +10722,336 @@
   },
   {
    "date": "2026-10-12",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "데이터센터용 ESS의 힘 … 배터리株 '재충전'",
-   "nt": "데이터센터용ess의힘배터리재충전",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "호남 반도체 국가산단 총사업비 약 9조…평당 조성원가 514만원 분석",
+   "nt": "호남반도체국가산단총사업비약9조평당조성원가514만원분석",
    "tk": [
-    "ess의",
-    "데이터센터용",
-    "배터리",
-    "재충전"
+    "514만원",
+    "9조",
+    "국가산단",
+    "반도체",
+    "분석",
+    "조성원가",
+    "총사업비",
+    "평당",
+    "호남"
    ],
    "nums": [
-    "3분기",
-    "7560억"
+    "514만",
+    "9조"
    ],
-   "url": "https://www.mk.co.kr/news/stock/12173059"
+   "url": "https://www.yna.co.kr/view/AKR20261011036100003"
   },
   {
    "date": "2026-10-12",
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "반도체팹 투자 붐에 달라진 건설 수혜株",
-   "nt": "반도체팹투자붐에달라진건설수혜",
+   "h": "\"호남 반도체 국가산단 사업비 9조…인근 분양가 2배 이상\"",
+   "nt": "호남반도체국가산단사업비9조인근분양가2배이상",
    "tk": [
-    "건설",
-    "달라진",
-    "반도체팹",
-    "붐에",
-    "수혜",
-    "투자"
-   ],
-   "nums": [],
-   "url": "https://www.mk.co.kr/news/stock/12173040"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "완제품 넘어 기술 파는 바디프랜드…수출 2년 새 4배 증가",
-   "nt": "완제품넘어기술파는바디프랜드수출2년새4배증가",
-   "tk": [
-    "2년",
-    "4배",
-    "기술",
-    "넘어",
-    "바디프랜드",
-    "수출",
-    "완제품",
-    "증가",
-    "파는"
+    "2배",
+    "9조",
+    "국가산단",
+    "반도체",
+    "분양가",
+    "사업비",
+    "이상",
+    "인근",
+    "호남"
    ],
    "nums": [
-    "115억",
-    "2023년",
-    "2년",
-    "450억",
-    "4배",
-    "803건"
+    "2배",
+    "9조"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20261009033800030"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "“전기차 안 팔려 죽을맛이었는데”…K배터리 기업, 호실적 낸 비결은",
-   "nt": "전기차안팔려죽을맛이었는데k배터리기업호실적낸비결은",
-   "tk": [
-    "k배터리",
-    "기업",
-    "비결은",
-    "전기차",
-    "죽을맛이었는데",
-    "팔려",
-    "호실적"
-   ],
-   "nums": [],
-   "url": "https://www.mk.co.kr/news/business/12172123"
+   "url": "https://www.yna.co.kr/view/AKR20261011036100003"
   },
   {
    "date": "2026-10-12",
    "entity": "",
    "cat": "market",
-   "group": "battery",
-   "h": "Traton R&D chief: ‘Are we considering LFP? Yes, absolutely’",
-   "nt": "tratonrdchiefareweconsideringlfpyesabsol",
+   "group": "semi",
+   "h": "휴머노이드용 D램 수요 2030년 20배…대당 19GB→39GB",
+   "nt": "휴머노이드용d램수요2030년20배대당19gb39gb",
    "tk": [
-    "absolutely",
-    "are",
-    "chief",
-    "considering",
-    "lfp",
-    "traton",
-    "we",
-    "yes"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/08/traton-rd-chief-are-we-considering-lfp-yes-absolutely/"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "전고체·나트륨 ‘투 트랙’ 배터리 전쟁…정부, 3000억 투입 ‘초협력 생태계’ 구축[K배터리 주도권 탈환]",
-   "nt": "전고체나트륨투트랙배터리전쟁정부3000억투입초협력생태계구축k배터리주도권탈환",
-   "tk": [
-    "3000억",
-    "k배터리",
-    "구축",
-    "나트륨",
-    "배터리",
-    "생태계",
-    "전고체",
-    "전쟁",
-    "정부",
-    "주도권",
-    "초협력",
-    "탈환",
-    "투입",
-    "트랙"
-   ],
-   "nums": [
-    "2027년",
-    "3000억",
-    "5년"
-   ],
-   "url": "https://www.etoday.co.kr/news/view/2631046?trc=right_hot_news"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "ESS가 끌고 유럽 전기차가 밀고…실적 회복 기대 커진 K배터리",
-   "nt": "ess가끌고유럽전기차가밀고실적회복기대커진k배터리",
-   "tk": [
-    "ess가",
-    "k배터리",
-    "기대",
-    "끌고",
-    "밀고",
-    "실적",
-    "유럽",
-    "전기차가",
-    "커진",
-    "회복"
-   ],
-   "nums": [],
-   "url": "https://www.metroseoul.co.kr/article/20261011500232"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "SERES expands CATL in-plant capacity layout and ramps up overseas charging infrastructure",
-   "nt": "seresexpandscatlinplantcapacitylayoutand",
-   "tk": [
-    "and",
-    "capacity",
-    "catl",
-    "charging",
-    "expands",
-    "in",
-    "infrastructure",
-    "layout",
-    "overseas",
-    "plant",
-    "ramps",
-    "seres",
-    "up"
-   ],
-   "nums": [],
-   "url": "https://finance.biggo.com/news/0af894c4-69de-45de-9d5f-b5c825850171"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "\"바둑 두는 알파고 보며 전기 수요 대비\"...바나듐 이온 배터리로 ESS 시장 공략",
-   "nt": "바둑두는알파고보며전기수요대비바나듐이온배터리로ess시장공략",
-   "tk": [
-    "ess",
-    "공략",
-    "대비",
-    "두는",
-    "바나듐",
-    "바둑",
-    "배터리로",
-    "보며",
+    "19gb",
+    "2030년",
+    "20배",
+    "39gb",
+    "d램",
+    "대당",
     "수요",
-    "시장",
-    "알파고",
-    "이온",
-    "전기"
+    "휴머노이드용"
    ],
-   "nums": [],
-   "url": "https://www.edaily.co.kr/News/Read?newsId=01771206645611936&mediaCodeNo=257"
+   "nums": [
+    "17만",
+    "2030년",
+    "20배"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261011015200003"
   },
   {
    "date": "2026-10-12",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "증권가, 삼성SDI 3Q 실적 호조 예상…\"일회성 요인 반영\"",
-   "nt": "증권가삼성sdi3q실적호조예상일회성요인반영",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "로봇용 D램 수요, 2030년 20배로…삼성·SK 새 먹거리 부상",
+   "nt": "로봇용d램수요2030년20배로삼성sk새먹거리부상",
    "tk": [
-    "3q",
-    "반영",
-    "삼성sdi",
-    "실적",
-    "예상",
-    "요인",
-    "일회성",
-    "증권가",
-    "호조"
+    "2030년",
+    "20배로",
+    "d램",
+    "sk",
+    "로봇용",
+    "먹거리",
+    "부상",
+    "삼성",
+    "수요"
+   ],
+   "nums": [
+    "17만",
+    "2030년",
+    "20배"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261011015200003"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "제28회 반도체대전(SEDEX 2026) 14~16일 코엑스…역대 최대",
+   "nt": "제28회반도체대전sedex20261416일코엑스역대최대",
+   "tk": [
+    "14",
+    "16일",
+    "2026",
+    "sedex",
+    "반도체대전",
+    "역대",
+    "제28회",
+    "최대",
+    "코엑스"
+   ],
+   "nums": [
+    "2026"
+   ],
+   "url": "https://www.etnews.com/20261011000036"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "반도체대전 역대 최대 규모로 14일 개막…“실리콘 지능 시대 연다”",
+   "nt": "반도체대전역대최대규모로14일개막실리콘지능시대연다",
+   "tk": [
+    "14일",
+    "개막",
+    "규모로",
+    "반도체대전",
+    "시대",
+    "실리콘",
+    "역대",
+    "연다",
+    "지능",
+    "최대"
    ],
    "nums": [],
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438557"
+   "url": "https://www.etnews.com/20261011000036"
   },
   {
    "date": "2026-10-12",
    "entity": "",
    "cat": "market",
    "group": "fa",
-   "h": "'새로운 판으로 전환'…KAIST, 피지컬 AI 비전·전략 선포",
-   "nt": "새로운판으로전환kaist피지컬ai비전전략선포",
+   "h": "인천 쿠팡 물류센터 화재, 리튬배터리 발화 추정…원인은 미확인",
+   "nt": "인천쿠팡물류센터화재리튬배터리발화추정원인은미확인",
    "tk": [
-    "ai",
-    "kaist",
-    "비전",
-    "새로운",
-    "선포",
-    "전략",
-    "전환",
-    "판으로",
-    "피지컬"
+    "리튬배터리",
+    "물류센터",
+    "미확인",
+    "발화",
+    "원인은",
+    "인천",
+    "추정",
+    "쿠팡",
+    "화재"
    ],
    "nums": [
-    "2026"
+    "3개월"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20261008133800063"
+   "url": "https://www.yna.co.kr/view/AKR20261008125500065"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "'109시간만에 진화' 인천 쿠팡 화재 원인 '리튬배터리' 추정",
+   "nt": "109시간만에진화인천쿠팡화재원인리튬배터리추정",
+   "tk": [
+    "109시간만에",
+    "리튬배터리",
+    "원인",
+    "인천",
+    "진화",
+    "추정",
+    "쿠팡",
+    "화재"
+   ],
+   "nums": [
+    "3개월"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261008125500065"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Mint Renewables, 서호주 코조눕 800MWh BESS 계획 승인",
+   "nt": "mintrenewables서호주코조눕800mwhbess계획승인",
+   "tk": [
+    "800mwh",
+    "bess",
+    "mint",
+    "renewables",
+    "계획",
+    "서호주",
+    "승인",
+    "코조눕"
+   ],
+   "nums": [
+    "800MWh"
+   ],
+   "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
+   "nt": "mintrenewableswinsplanningapprovalfor800",
+   "tk": [
+    "800mwh",
+    "approval",
+    "australia",
+    "battery",
+    "for",
+    "in",
+    "mint",
+    "planning",
+    "renewables",
+    "storage",
+    "system",
+    "western",
+    "wins"
+   ],
+   "nums": [
+    "800MWh"
+   ],
+   "url": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "남아공 IRP, 배터리 저장 4.6GW 배치 추진",
+   "nt": "남아공irp배터리저장46gw배치추진",
+   "tk": [
+    "6gw",
+    "irp",
+    "남아공",
+    "배치",
+    "배터리",
+    "저장",
+    "추진"
+   ],
+   "nums": [
+    "4.6GW"
+   ],
+   "url": "https://www.energy-storage.news/south-africa-pursues-4-6gw-of-battery-storage-deployments-in-integrated-resource-plan/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "South Africa pursues 4.6GW of battery storage deployments in Integrated Resource Plan",
+   "nt": "southafricapursues46gwofbatterystoragede",
+   "tk": [
+    "6gw",
+    "africa",
+    "battery",
+    "deployments",
+    "in",
+    "integrated",
+    "of",
+    "plan",
+    "pursues",
+    "resource",
+    "south",
+    "storage"
+   ],
+   "nums": [
+    "4.6GW"
+   ],
+   "url": "https://www.energy-storage.news/south-africa-pursues-4-6gw-of-battery-storage-deployments-in-integrated-resource-plan/"
   },
   {
    "date": "2026-10-12",
    "entity": "",
    "cat": "market",
    "group": "ev",
-   "h": "Cell bypass aims to extend the usable life of EV batteries",
-   "nt": "cellbypassaimstoextendtheusablelifeofevb",
+   "h": "캘리포니아, 공공 급속충전기 보조 2800만달러…포트당 최대 10만달러",
+   "nt": "캘리포니아공공급속충전기보조2800만달러포트당최대10만달러",
    "tk": [
-    "aims",
-    "batteries",
-    "bypass",
-    "cell",
+    "10만달러",
+    "2800만달러",
+    "공공",
+    "급속충전기",
+    "보조",
+    "최대",
+    "캘리포니아",
+    "포트당"
+   ],
+   "nums": [
+    "10만",
+    "1월14일",
+    "2027년",
+    "2800만"
+   ],
+   "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/"
+  },
+  {
+   "date": "2026-10-12",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "California: $28m in funding for public EV fast chargers",
+   "nt": "california28minfundingforpublicevfastcha",
+   "tk": [
+    "28m",
+    "california",
+    "chargers",
     "ev",
-    "extend",
-    "life",
-    "of",
-    "the",
-    "to",
-    "usable"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/09/cell-bypass-aims-to-extend-the-usable-life-of-ev-batteries/"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "SK이노베이션 짓누르는 70조 부채∙∙∙자회사 빚까지 떠안아",
-   "nt": "sk이노베이션짓누르는70조부채자회사빚까지떠안아",
-   "tk": [
-    "70조",
-    "sk이노베이션",
-    "떠안아",
-    "부채",
-    "빚까지",
-    "자회사",
-    "짓누르는"
+    "fast",
+    "for",
+    "funding",
+    "in",
+    "public"
    ],
    "nums": [
-    "70조"
+    "$28m",
+    "1월14일",
+    "2027년"
    ],
-   "url": "https://www.creditnews.kr/news/articleView.html?idxno=31613"
-  },
-  {
-   "date": "2026-10-12",
-   "entity": "엠플러스",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "충북TP, 엠플러스 이차전지 장비 '가열 롤 온도' 최적화 지원…50억 원 효과 기대",
-   "nt": "충북tp엠플러스이차전지장비가열롤온도최적화지원50억원효과기대",
-   "tk": [
-    "50억",
-    "가열",
-    "기대",
-    "엠플러스",
-    "온도",
-    "이차전지",
-    "장비",
-    "지원",
-    "최적화",
-    "충북tp",
-    "효과"
-   ],
-   "nums": [
-    "50억"
-   ],
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3715301"
+   "url": "https://www.electrive.com/2026/10/08/california-28m-in-funding-for-public-ev-fast-chargers/"
   }
  ]
 }

@@ -1,0 +1,433 @@
+{
+ "schema": 4,
+ "date": "2026-10-13",
+ "weekday": "화",
+ "edition": "조간",
+ "issue_no": 18,
+ "window_hours": 36,
+ "summary": "ESS 수주·중국산 규제…배터리의 시간 오나 · Gotion to Launch Morocco’s Fir · 전고체·나트륨 ‘투 트랙’ 배터리 전쟁…정부, 3000 · Smart celebrates the return of",
+ "top": [
+  "2026-10-13-8",
+  "2026-10-13-0",
+  "2026-10-13-11",
+  "2026-10-13-13"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-10-13-8",
+       "h": "ESS 수주·중국산 규제…배터리의 시간 오나",
+       "b": "'전기차 안 팔린다더니'…LG엔솔, <b>9.6조</b> '잭팟' 터졌다",
+       "src": "한국경제",
+       "url": "https://www.hankyung.com/article/2026101269351",
+       "date": "2026-10-12",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI"
+       ],
+       "tags": [
+        "ESS",
+        "수주",
+        "정책",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-10",
+       "h": "전기차 부진 메운 ESS…K배터리 실적 반등 ‘시동’",
+       "b": "부진으로 실적 부담이 커졌던 국내 배터리 업계가 에너지저장장치(ESS)를 발판으로 반등을 모색하고 있습니다.",
+       "src": "뉴스토마토",
+       "url": "https://www.newstomato.com/ReadNews.aspx?no=1316304",
+       "date": "2026-10-12",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "정책",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": []
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": []
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-10-13-0",
+       "h": "Gotion to Launch Morocco’s First Battery Gigafactory in Kenitra the Week of October 20",
+       "b": "Home » Economy » Gotion to Launch Morocco’s First Battery Gigafactory in Kenitra the Week…",
+       "src": "bing.com",
+       "url": "https://www.moroccoworldnews.com/2026/10/341754/gotion-to-launch-moroccos-first-battery-gigafactory-in-kenitra-the-week-of-october-20/",
+       "date": "2026-10-12",
+       "cat": "customer",
+       "group": "global",
+       "entity": "Gotion",
+       "related": [],
+       "tags": [],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-1",
+       "h": "ACC announces five million battery cells ‘Made in France’",
+       "b": "The Automotive Cells Company (ACC) battery joint venture between Stellantis, Mercedes…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/12/acc-announces-five-million-battery-cells-made-in-france/",
+       "date": "2026-10-12",
+       "cat": "customer",
+       "group": "global",
+       "entity": "ACC",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-11",
+       "h": "전고체·나트륨 ‘투 트랙’ 배터리 전쟁…정부, 3000억 투입 ‘초협력 생태계’ 구축[K배터리 주도권 탈환]",
+       "b": "보급형 '나트륨'·고성능 '전고체' 투트랙 재편…중국 CATL 올해~내년 양산 공세 정부, <b>2027년</b>부터 <b>5년</b>간 <b>3000억</b> 투입…나트륨·전고체 조기 상용화 집중…",
+       "src": "이투데이",
+       "url": "https://www.etoday.co.kr/news/view/2631046",
+       "date": "2026-10-12",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [
+        "전고체",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": []
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-13-3",
+       "h": "이달 수출액 261억달러 ‘역대 최대’ 기록…전체 중 절반은 반도체",
+       "b": "이달 초 수출액이 같은 기간 기준 역대 최대치를 기록했다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12173351",
+       "date": "2026-10-12",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-5",
+       "h": "전기차 수요 둔화ㆍ중국 공세⋯韓배터리 경쟁력 ‘체질개선 시험대’[K배터리 주도권 탈환]",
+       "b": "성장률 <b>81%</b>서 <b>24%</b>로 급감…'가성비' LFP 중심으로 시장 재편 중국, 내수 발판 삼아 글로벌 점유율 <b>79%</b> 차지⋯나트륨·전고체 등 차세대 기술 맹추격 한국 배터리 산업이 전기차 수요",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/news/other/%EC%A0%84%EA%B8%B0%EC%B0%A8-%EC%88%98%EC%9A%94-%EB%91%94%ED%99%94%E3%86%8D%EC%A4%91%EA%B5%AD-%EA%B3%B5%EC%84%B8-%E9%9F%93%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B2%BD%EC%9F%81%EB%A0%A5-%EC%B2%B4%EC%A7%88%EA%B0%9C%EC%84%A0-%EC%8B%9C%ED%97%98%EB%8C%80-k%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%A3%BC%EB%8F%84%EA%B6%8C-%ED%83%88%ED%99%98/ar-AA2e1gry",
+       "date": "2026-10-12",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-6",
+       "h": "\"1,000억 달러 쏟았는데 라인이 멈췄다\"… 북미 배터리 공장, 'ESS'로 긴급 유턴",
+       "b": "지난 <b>10년</b>간 <b>1,000억</b> 달러(약 <b>135조</b> 원) 이상의 천문학적인 자본이 투입된 북미 전기차(EV) 배터리 공장들이 심각한 가동률 저하에 직면하면서 배터리…",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/autos/%EC%9D%BC%EB%B0%98/1-000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%8F%9F%EC%95%98%EB%8A%94%EB%8D%B0-%EB%9D%BC%EC%9D%B8%EC%9D%B4-%EB%A9%88%EC%B7%84%EB%8B%A4-%EB%B6%81%EB%AF%B8-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B3%B5%EC%9E%A5-ess-%EB%A1%9C-%EA%B8%B4%EA%B8%89-%EC%9C%A0%ED%84%B4/ar-AA2e1KrP",
+       "date": "2026-10-11",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-10-13-12",
+       "h": "Renault and EDF unveil bidirectional charging offering",
+       "b": "The Renault Group and Électricité de France (EDF) will launch a new bidirectional…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/12/renault-and-edf-unveil-bidirectional-charging-offering/",
+       "date": "2026-10-12",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-14",
+       "h": "One in eight Volkswagen Group vehicles was a BEV in Q3",
+       "b": "Volkswagen sold a strong 20 per cent more electric vehicles in Europe in Q3 compared to the same period last year.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/12/one-in-eight-volkswagen-group-vehicles-was-a-bev-in-q3/",
+       "date": "2026-10-12",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-15",
+       "h": "EV-Specific Tires Market to Reach USD 38.611 Billion by 2035 as Global BEV Sales, OEM Homologation and Faster Replacement Cycles Accelerate Demand, Reports Radial Insights",
+       "b": "MIDDLETOWN, Del. , Oct.",
+       "src": "bing.com",
+       "url": "https://www.prnewswire.com/news-releases/ev-specific-tires-market-to-reach-usd-38-611-billion-by-2035-as-global-bev-sales-oem-homologation-and-faster-replacement-cycles-accelerate-demand-reports-radial-insights-302903702.html",
+       "date": "2026-10-12",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-10-13-7",
+       "h": "\"AI가 삼키는 전력, 배터리가 받친다\"… AI 데이터센터發 ESS 수요 폭증",
+       "b": "",
+       "src": "글로벌이코노믹",
+       "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101222211942410c8c1c064d_1",
+       "date": "2026-10-13",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-13",
+       "h": "Smart celebrates the return of the two-seater as the #2",
+       "b": "Smart unveils the new #2 at the Paris Motor Show for the first time.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/12/smart-2-celebrates-the-return-of-the-two-seater-in-paris/",
+       "date": "2026-10-12",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "리스크"
+       ],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-10-13-2",
+       "h": "반도체주 조정은 어디까지… AI 투자 기대보다 실적·수주 확인할 때",
+       "b": "반도체와 반도체장비 업종이 12일 약세를 나타내고 있다.",
+       "src": "bing.com",
+       "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494492",
+       "date": "2026-10-12",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-4",
+       "h": "[반도체 따라잡기] 실적발표 앞둔 SK하이닉스 LTAㆍ솔리다임ㆍHBM 만족스러운 답변 필요",
+       "b": "■ 반도체 전력 따라잡기 - 김장열 유니스토리자산운용 리서치센터장 &amp;n ...",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/news/other/%EB%B0%98%EB%8F%84%EC%B2%B4-%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0-%EC%8B%A4%EC%A0%81%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%94-sk%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4-lta%E3%86%8D%EC%86%94%EB%A6%AC%EB%8B%A4%EC%9E%84%E3%86%8Dhbm-%EB%A7%8C%EC%A1%B1%EC%8A%A4%EB%9F%AC%EC%9A%B4-%EB%8B%B5%EB%B3%80-%ED%95%84%EC%9A%94/ar-AA2e36li",
+       "date": "2026-10-12",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-13-9",
+       "h": "SFA반도체 1만810원…후공정 업황과 가동률에 쏠린 시선",
+       "b": "<b>2026년</b> 10월 12일 오후 2시42분 기준 SFA반도체의 가격은 <b>1만</b><b>810원</b>이었다.",
+       "src": "잡포스트",
+       "url": "https://www.job-post.co.kr/news/articleView.html?idxno=231727",
+       "date": "2026-10-12",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": []
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 68,
+  "published": 16,
+  "headline_only": 4,
+  "followup": 0,
+  "suppressed": 2,
+  "sameday": 0,
+  "nobody": 0,
+  "unclassified": 0,
+  "capped": 36
+ },
+ "sources": [
+  "bing.com",
+  "electrive.com",
+  "mk.co.kr",
+  "글로벌이코노믹",
+  "뉴스토마토",
+  "이투데이",
+  "잡포스트",
+  "한국경제"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

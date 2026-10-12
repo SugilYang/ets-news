@@ -11058,6 +11058,29 @@
    "entity": "Gotion",
    "cat": "customer",
    "group": "global",
+   "h": "Gotion, 모로코 케니트라 기가팩토리 10월 20일 주 장비 시운전 개시",
+   "nt": "gotion모로코케니트라기가팩토리10월20일주장비시운전개시",
+   "tk": [
+    "10월",
+    "20일",
+    "gotion",
+    "개시",
+    "기가팩토리",
+    "모로코",
+    "시운전",
+    "장비",
+    "케니트라"
+   ],
+   "nums": [
+    "10월20일"
+   ],
+   "url": "https://www.moroccoworldnews.com/2026/10/341754/gotion-to-launch-moroccos-first-battery-gigafactory-in-kenitra-the-week-of-october-20/"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "Gotion",
+   "cat": "customer",
+   "group": "global",
    "h": "Gotion to Launch Morocco’s First Battery Gigafactory in Kenitra the Week of October 20",
    "nt": "gotiontolaunchmoroccosfirstbatterygigafa",
    "tk": [
@@ -11084,6 +11107,34 @@
    "entity": "ACC",
    "cat": "customer",
    "group": "global",
+   "h": "ACC 프랑스 두브랭 500만 번째 셀 생산…2027년 2블록 12.9GWh 가동",
+   "nt": "acc프랑스두브랭500만번째셀생산2027년2블록129gwh가동",
+   "tk": [
+    "12",
+    "2027년",
+    "2블록",
+    "500만",
+    "9gwh",
+    "acc",
+    "가동",
+    "두브랭",
+    "번째",
+    "생산",
+    "프랑스"
+   ],
+   "nums": [
+    "12.9GWh",
+    "2027년",
+    "4만",
+    "500만"
+   ],
+   "url": "https://www.electrive.com/2026/10/12/acc-announces-five-million-battery-cells-made-in-france/"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "ACC",
+   "cat": "customer",
+   "group": "global",
    "h": "ACC announces five million battery cells ‘Made in France’",
    "nt": "accannouncesfivemillionbatterycellsmadei",
    "tk": [
@@ -11097,35 +11148,231 @@
     "made",
     "million"
    ],
-   "nums": [],
+   "nums": [
+    "4만"
+   ],
    "url": "https://www.electrive.com/2026/10/12/acc-announces-five-million-battery-cells-made-in-france/"
   },
   {
    "date": "2026-10-13",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "반도체주 조정은 어디까지… AI 투자 기대보다 실적·수주 확인할 때",
-   "nt": "반도체주조정은어디까지ai투자기대보다실적수주확인할때",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL, Aito용 충칭 생산능력 연 20GWh 이상으로 확대",
+   "nt": "catlaito용충칭생산능력연20gwh이상으로확대",
    "tk": [
-    "ai",
-    "기대보다",
-    "반도체주",
-    "수주",
-    "실적",
-    "어디까지",
-    "조정은",
-    "투자",
-    "확인할"
+    "20gwh",
+    "aito용",
+    "catl",
+    "생산능력",
+    "이상으로",
+    "충칭",
+    "확대"
+   ],
+   "nums": [
+    "20GWh"
+   ],
+   "url": "https://www.electrive.com/2026/10/12/seres-commits-aito-to-catl-batteries-long-term/"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "Seres commits Aito to CATL batteries long-term",
+   "nt": "serescommitsaitotocatlbatterieslongterm",
+   "tk": [
+    "aito",
+    "batteries",
+    "catl",
+    "commits",
+    "long",
+    "seres",
+    "term",
+    "to"
    ],
    "nums": [],
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494492"
+   "url": "https://www.electrive.com/2026/10/12/seres-commits-aito-to-catl-batteries-long-term/"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔 3Q 영업이익 7560억 중 AMPC 4169억·완성차 보상금 3000억~3500억",
+   "nt": "lg엔솔3q영업이익7560억중ampc4169억완성차보상금3000억3500",
+   "tk": [
+    "3000억",
+    "3500억",
+    "3q",
+    "4169억",
+    "7560억",
+    "ampc",
+    "lg엔솔",
+    "보상금",
+    "영업이익",
+    "완성차"
+   ],
+   "nums": [
+    "122.8%",
+    "3000억",
+    "3393억",
+    "3500억",
+    "4169억",
+    "567.3%",
+    "7560억"
+   ],
+   "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=145528"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔, 3Q 서프라이즈에 40만원 복귀...ESS 수익성 개선 시험대",
+   "nt": "lg엔솔3q서프라이즈에40만원복귀ess수익성개선시험대",
+   "tk": [
+    "3q",
+    "40만원",
+    "ess",
+    "lg엔솔",
+    "개선",
+    "복귀",
+    "서프라이즈에",
+    "수익성",
+    "시험대"
+   ],
+   "nums": [
+    "122.8%",
+    "3393억",
+    "40만",
+    "567.3%"
+   ],
+   "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=145528"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD, 자체 개발 첫 휴머노이드 로봇 디자인 공개…中 특허 등록",
+   "nt": "byd자체개발첫휴머노이드로봇디자인공개특허등록",
+   "tk": [
+    "byd",
+    "개발",
+    "공개",
+    "등록",
+    "디자인",
+    "로봇",
+    "자체",
+    "특허",
+    "휴머노이드"
+   ],
+   "nums": [],
+   "url": "https://zdnet.co.kr/view/?no=20261012133446"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "中 자동차업체 BYD, 휴머노이드 로봇 공개…어떤 모습?",
+   "nt": "자동차업체byd휴머노이드로봇공개어떤모습",
+   "tk": [
+    "byd",
+    "공개",
+    "로봇",
+    "모습",
+    "어떤",
+    "자동차업체",
+    "휴머노이드"
+   ],
+   "nums": [],
+   "url": "https://zdnet.co.kr/view/?no=20261012133446"
   },
   {
    "date": "2026-10-13",
    "entity": "",
    "cat": "tech_policy",
    "group": "all",
+   "h": "노동부, DN오토모티브 '납 배출 주사' 위장 투약 의혹 경찰 수사 의뢰",
+   "nt": "노동부dn오토모티브납배출주사위장투약의혹경찰수사의뢰",
+   "tk": [
+    "dn오토모티브",
+    "경찰",
+    "노동부",
+    "배출",
+    "수사",
+    "위장",
+    "의뢰",
+    "의혹",
+    "주사",
+    "투약"
+   ],
+   "nums": [
+    "4620만",
+    "68건"
+   ],
+   "url": "https://www.hani.co.kr/arti/society/labor/1281948.html"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "‘납 배출 주사’를 비타민으로 속인 배터리 제조사…노동부, 경찰 수사 의뢰",
+   "nt": "납배출주사를비타민으로속인배터리제조사노동부경찰수사의뢰",
+   "tk": [
+    "경찰",
+    "노동부",
+    "배출",
+    "배터리",
+    "비타민으로",
+    "속인",
+    "수사",
+    "의뢰",
+    "제조사",
+    "주사"
+   ],
+   "nums": [
+    "4620만",
+    "68건"
+   ],
+   "url": "https://www.hani.co.kr/arti/society/labor/1281948.html"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "10월 1~10일 수출 261억달러 역대 최대…반도체 122억달러(+170.9%)",
+   "nt": "10월110일수출261억달러역대최대반도체122억달러1709",
+   "tk": [
+    "10월",
+    "10일",
+    "122억달러",
+    "170",
+    "261억달러",
+    "반도체",
+    "수출",
+    "역대",
+    "최대"
+   ],
+   "nums": [
+    "102%",
+    "122억",
+    "170.9%",
+    "261억",
+    "46.7%",
+    "47.5억"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12173351"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
    "h": "이달 수출액 261억달러 ‘역대 최대’ 기록…전체 중 절반은 반도체",
    "nt": "이달수출액261억달러역대최대기록전체중절반은반도체",
    "tk": [
@@ -11140,7 +11387,10 @@
     "최대"
    ],
    "nums": [
-    "261억"
+    "102%",
+    "261억",
+    "46.7%",
+    "47.5억"
    ],
    "url": "https://www.mk.co.kr/news/economy/12173351"
   },
@@ -11149,234 +11399,161 @@
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "[반도체 따라잡기] 실적발표 앞둔 SK하이닉스 LTAㆍ솔리다임ㆍHBM 만족스러운 답변 필요",
-   "nt": "반도체따라잡기실적발표앞둔sk하이닉스lta솔리다임hbm만족스러운답변필요",
+   "h": "中 CXMT \"4F² D램 서버용 DDR5 RDIMM 연내 출시\"",
+   "nt": "cxmt4fd램서버용ddr5rdimm연내출시",
    "tk": [
-    "hbm",
-    "lta",
-    "sk하이닉스",
-    "답변",
-    "따라잡기",
-    "만족스러운",
-    "반도체",
-    "솔리다임",
-    "실적발표",
-    "앞둔",
-    "필요"
+    "4f",
+    "cxmt",
+    "ddr5",
+    "d램",
+    "rdimm",
+    "서버용",
+    "연내",
+    "출시"
    ],
    "nums": [],
-   "url": "https://www.msn.com/ko-kr/news/other/%EB%B0%98%EB%8F%84%EC%B2%B4-%EB%94%B0%EB%9D%BC%EC%9E%A1%EA%B8%B0-%EC%8B%A4%EC%A0%81%EB%B0%9C%ED%91%9C-%EC%95%9E%EB%91%94-sk%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4-lta%E3%86%8D%EC%86%94%EB%A6%AC%EB%8B%A4%EC%9E%84%E3%86%8Dhbm-%EB%A7%8C%EC%A1%B1%EC%8A%A4%EB%9F%AC%EC%9A%B4-%EB%8B%B5%EB%B3%80-%ED%95%84%EC%9A%94/ar-AA2e36li"
-  },
-  {
-   "date": "2026-10-13",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "전기차 수요 둔화ㆍ중국 공세⋯韓배터리 경쟁력 ‘체질개선 시험대’[K배터리 주도권 탈환]",
-   "nt": "전기차수요둔화중국공세배터리경쟁력체질개선시험대k배터리주도권탈환",
-   "tk": [
-    "k배터리",
-    "경쟁력",
-    "공세",
-    "둔화",
-    "배터리",
-    "수요",
-    "시험대",
-    "전기차",
-    "주도권",
-    "중국",
-    "체질개선",
-    "탈환"
-   ],
-   "nums": [
-    "24%",
-    "79%",
-    "81%"
-   ],
-   "url": "https://www.msn.com/ko-kr/news/other/%EC%A0%84%EA%B8%B0%EC%B0%A8-%EC%88%98%EC%9A%94-%EB%91%94%ED%99%94%E3%86%8D%EC%A4%91%EA%B5%AD-%EA%B3%B5%EC%84%B8-%E9%9F%93%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B2%BD%EC%9F%81%EB%A0%A5-%EC%B2%B4%EC%A7%88%EA%B0%9C%EC%84%A0-%EC%8B%9C%ED%97%98%EB%8C%80-k%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%A3%BC%EB%8F%84%EA%B6%8C-%ED%83%88%ED%99%98/ar-AA2e1gry"
-  },
-  {
-   "date": "2026-10-13",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "\"1,000억 달러 쏟았는데 라인이 멈췄다\"… 북미 배터리 공장, 'ESS'로 긴급 유턴",
-   "nt": "1000억달러쏟았는데라인이멈췄다북미배터리공장ess로긴급유턴",
-   "tk": [
-    "000억",
-    "ess",
-    "공장",
-    "긴급",
-    "달러",
-    "라인이",
-    "멈췄다",
-    "배터리",
-    "북미",
-    "쏟았는데",
-    "유턴"
-   ],
-   "nums": [
-    "1,000억",
-    "10년",
-    "135조"
-   ],
-   "url": "https://www.msn.com/ko-kr/autos/%EC%9D%BC%EB%B0%98/1-000%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%8F%9F%EC%95%98%EB%8A%94%EB%8D%B0-%EB%9D%BC%EC%9D%B8%EC%9D%B4-%EB%A9%88%EC%B7%84%EB%8B%A4-%EB%B6%81%EB%AF%B8-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B3%B5%EC%9E%A5-ess-%EB%A1%9C-%EA%B8%B4%EA%B8%89-%EC%9C%A0%ED%84%B4/ar-AA2e1KrP"
-  },
-  {
-   "date": "2026-10-13",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "\"AI가 삼키는 전력, 배터리가 받친다\"… AI 데이터센터發 ESS 수요 폭증",
-   "nt": "ai가삼키는전력배터리가받친다ai데이터센터ess수요폭증",
-   "tk": [
-    "ai",
-    "ai가",
-    "ess",
-    "데이터센터",
-    "받친다",
-    "배터리가",
-    "삼키는",
-    "수요",
-    "전력",
-    "폭증"
-   ],
-   "nums": [],
-   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101222211942410c8c1c064d_1"
-  },
-  {
-   "date": "2026-10-13",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "ESS 수주·중국산 규제…배터리의 시간 오나",
-   "nt": "ess수주중국산규제배터리의시간오나",
-   "tk": [
-    "ess",
-    "규제",
-    "배터리의",
-    "수주",
-    "시간",
-    "오나",
-    "중국산"
-   ],
-   "nums": [
-    "9.6조"
-   ],
-   "url": "https://www.hankyung.com/article/2026101269351"
+   "url": "https://www.mk.co.kr/news/business/12173653"
   },
   {
    "date": "2026-10-13",
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "SFA반도체 1만810원…후공정 업황과 가동률에 쏠린 시선",
-   "nt": "sfa반도체1만810원후공정업황과가동률에쏠린시선",
+   "h": "차세대 D램 선전포고한 中 CXMT ··· “삼성 보다 2년 앞서겠다”",
+   "nt": "차세대d램선전포고한cxmt삼성보다2년앞서겠다",
    "tk": [
-    "1만810원",
-    "sfa반도체",
-    "가동률에",
-    "시선",
-    "쏠린",
-    "업황과",
-    "후공정"
+    "2년",
+    "cxmt",
+    "d램",
+    "보다",
+    "삼성",
+    "선전포고한",
+    "앞서겠다",
+    "차세대"
    ],
    "nums": [
-    "10월12일",
-    "1만",
-    "2026년",
-    "810원"
+    "2년"
    ],
-   "url": "https://www.job-post.co.kr/news/articleView.html?idxno=231727"
+   "url": "https://www.mk.co.kr/news/business/12173653"
   },
   {
    "date": "2026-10-13",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "전기차 부진 메운 ESS…K배터리 실적 반등 ‘시동’",
-   "nt": "전기차부진메운essk배터리실적반등시동",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "한전 \"호남 반도체 1단계 전력설비 1.4조…한전 20%·삼성·SK하이닉스 80%\"",
+   "nt": "한전호남반도체1단계전력설비14조한전20삼성sk하이닉스80",
    "tk": [
-    "ess",
-    "k배터리",
-    "메운",
-    "반등",
-    "부진",
-    "시동",
-    "실적",
-    "전기차"
+    "1단계",
+    "20",
+    "4조",
+    "80",
+    "sk하이닉스",
+    "반도체",
+    "삼성",
+    "전력설비",
+    "한전",
+    "호남"
+   ],
+   "nums": [
+    "1.4조",
+    "100%",
+    "20%",
+    "80%"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261012097400003"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "한전 사장 \"호남 반도체 전력망 비용 20% 부담…삼전닉스가 80%\"",
+   "nt": "한전사장호남반도체전력망비용20부담삼전닉스가80",
+   "tk": [
+    "20",
+    "80",
+    "반도체",
+    "부담",
+    "비용",
+    "사장",
+    "삼전닉스가",
+    "전력망",
+    "한전",
+    "호남"
+   ],
+   "nums": [
+    "100%",
+    "20%",
+    "80%"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261012097400003"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "동원파츠, 인천 남동첨단산단에 반도체 부품 7공장 건립",
+   "nt": "동원파츠인천남동첨단산단에반도체부품7공장건립",
+   "tk": [
+    "7공장",
+    "건립",
+    "남동첨단산단에",
+    "동원파츠",
+    "반도체",
+    "부품",
+    "인천"
    ],
    "nums": [],
-   "url": "https://www.newstomato.com/ReadNews.aspx?no=1316304"
+   "url": "https://www.yna.co.kr/view/AKR20261012096200065"
   },
   {
    "date": "2026-10-13",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "전고체·나트륨 ‘투 트랙’ 배터리 전쟁…정부, 3000억 투입 ‘초협력 생태계’ 구축[K배터리 주도권 탈환]",
-   "nt": "전고체나트륨투트랙배터리전쟁정부3000억투입초협력생태계구축k배터리주도권탈환",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "동원파츠, 인천 남동첨단산단에 반도체 부품 공장 건립",
+   "nt": "동원파츠인천남동첨단산단에반도체부품공장건립",
    "tk": [
-    "3000억",
-    "k배터리",
-    "구축",
-    "나트륨",
-    "배터리",
-    "생태계",
-    "전고체",
-    "전쟁",
-    "정부",
-    "주도권",
-    "초협력",
-    "탈환",
-    "투입",
-    "트랙"
+    "건립",
+    "공장",
+    "남동첨단산단에",
+    "동원파츠",
+    "반도체",
+    "부품",
+    "인천"
    ],
-   "nums": [
-    "2027년",
-    "3000억",
-    "5년"
-   ],
-   "url": "https://www.etoday.co.kr/news/view/2631046"
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261012096200065"
   },
   {
    "date": "2026-10-13",
    "entity": "",
    "cat": "market",
    "group": "ev",
-   "h": "Renault and EDF unveil bidirectional charging offering",
-   "nt": "renaultandedfunveilbidirectionalcharging",
+   "h": "폭스바겐 3분기 유럽 EV 판매 20%↑…그룹 차량 8대 중 1대 BEV",
+   "nt": "폭스바겐3분기유럽ev판매20그룹차량8대중1대bev",
    "tk": [
-    "and",
-    "bidirectional",
-    "charging",
-    "edf",
-    "offering",
-    "renault",
-    "unveil"
+    "1대",
+    "20",
+    "3분기",
+    "8대",
+    "bev",
+    "ev",
+    "그룹",
+    "유럽",
+    "차량",
+    "판매",
+    "폭스바겐"
    ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/12/renault-and-edf-unveil-bidirectional-charging-offering/"
-  },
-  {
-   "date": "2026-10-13",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Smart celebrates the return of the two-seater as the #2",
-   "nt": "smartcelebratesthereturnofthetwoseateras",
-   "tk": [
-    "as",
-    "celebrates",
-    "of",
-    "return",
-    "seater",
-    "smart",
-    "the",
-    "two"
+   "nums": [
+    "1대",
+    "20%",
+    "3분기",
+    "8대"
    ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/12/smart-2-celebrates-the-return-of-the-two-seater-in-paris/"
+   "url": "https://www.electrive.com/2026/10/12/one-in-eight-volkswagen-group-vehicles-was-a-bev-in-q3/"
   },
   {
    "date": "2026-10-13",
@@ -11406,41 +11583,95 @@
    "entity": "",
    "cat": "market",
    "group": "ev",
-   "h": "EV-Specific Tires Market to Reach USD 38.611 Billion by 2035 as Global BEV Sales, OEM Homologation and Faster Replacemen",
-   "nt": "evspecifictiresmarkettoreachusd38611bill",
+   "h": "르노–EDF, 내년 여름 프랑스서 양방향 충전(V2G) 상품 출시",
+   "nt": "르노edf내년여름프랑스서양방향충전v2g상품출시",
    "tk": [
-    "2035",
-    "38",
-    "611",
-    "accelerate",
+    "edf",
+    "v2g",
+    "내년",
+    "르노",
+    "상품",
+    "양방향",
+    "여름",
+    "출시",
+    "충전",
+    "프랑스서"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/12/renault-and-edf-unveil-bidirectional-charging-offering/"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Renault and EDF unveil bidirectional charging offering",
+   "nt": "renaultandedfunveilbidirectionalcharging",
+   "tk": [
     "and",
-    "as",
-    "bev",
-    "billion",
-    "by",
-    "cycles",
-    "demand",
-    "ev",
-    "faster",
-    "global",
-    "homologation",
-    "insights",
-    "market",
-    "oem",
-    "radial",
-    "reach",
-    "replacement",
-    "reports",
-    "sales",
-    "specific",
-    "tires",
-    "to",
-    "usd"
+    "bidirectional",
+    "charging",
+    "edf",
+    "offering",
+    "renault",
+    "unveil"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/12/renault-and-edf-unveil-bidirectional-charging-offering/"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "호주 상반기 가정용 배터리 27만6011대 설치…52%↑",
+   "nt": "호주상반기가정용배터리27만6011대설치52",
+   "tk": [
+    "27만6011대",
+    "52",
+    "가정용",
+    "배터리",
+    "상반기",
+    "설치",
+    "호주"
    ],
    "nums": [
-    "2035"
+    "27만",
+    "52%",
+    "6011대"
    ],
-   "url": "https://www.prnewswire.com/news-releases/ev-specific-tires-market-to-reach-usd-38-611-billion-by-2035-as-global-bev-sales-oem-homologation-and-faster-replacement-cycles-accelerate-demand-reports-radial-insights-302903702.html"
+   "url": "https://www.energy-storage.news/australia-home-battery-installations-surge-52-to-276011-in-h1-2026-outpacing-rooftop-solar-growth/"
+  },
+  {
+   "date": "2026-10-13",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Australia home battery installations surge 52% to 276,011 in H1 2026, outpacing rooftop solar growth",
+   "nt": "australiahomebatteryinstallationssurge52",
+   "tk": [
+    "011",
+    "2026",
+    "276",
+    "52",
+    "australia",
+    "battery",
+    "growth",
+    "h1",
+    "home",
+    "in",
+    "installations",
+    "outpacing",
+    "rooftop",
+    "solar",
+    "surge",
+    "to"
+   ],
+   "nums": [
+    "2026",
+    "52%"
+   ],
+   "url": "https://www.energy-storage.news/australia-home-battery-installations-surge-52-to-276011-in-h1-2026-outpacing-rooftop-solar-growth/"
   }
  ]
 }

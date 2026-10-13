@@ -11672,6 +11672,430 @@
     "52%"
    ],
    "url": "https://www.energy-storage.news/australia-home-battery-installations-surge-52-to-276011-in-h1-2026-outpacing-rooftop-solar-growth/"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, 삼성디스플레이 지분 4조4450억 원 처분…미국 ESS 와 전고체 배터리 키운다",
+   "nt": "삼성sdi삼성디스플레이지분4조4450억원처분미국ess와전고체배터리키운다",
+   "tk": [
+    "4조4450억",
+    "ess",
+    "미국",
+    "배터리",
+    "삼성sdi",
+    "삼성디스플레이",
+    "전고체",
+    "지분",
+    "처분",
+    "키운다"
+   ],
+   "nums": [
+    "1308만",
+    "4450억",
+    "4조",
+    "8월21일"
+   ],
+   "url": "https://news.jkn.co.kr/post/1019982"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Neoen, BW ESS and MN8 back efforts to standardise BESS procurement through new Energy Storage Contract Alliance",
+   "nt": "neoenbwessandmn8backeffortstostandardise",
+   "tk": [
+    "alliance",
+    "and",
+    "back",
+    "bess",
+    "bw",
+    "contract",
+    "efforts",
+    "energy",
+    "ess",
+    "mn8",
+    "neoen",
+    "new",
+    "procurement",
+    "standardise",
+    "storage",
+    "through",
+    "to"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/neoen-bw-ess-and-mn8-back-efforts-to-standardise-bess-procurement-through-new-energy-storage-contract-alliance/"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "[뉴스&분석] 中 반도체 공습에 … 6천피 턱걸이",
+   "nt": "뉴스분석반도체공습에6천피턱걸이",
+   "tk": [
+    "6천피",
+    "공습에",
+    "뉴스",
+    "반도체",
+    "분석",
+    "턱걸이"
+   ],
+   "nums": [
+    "6천"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12174799"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "\"시민 지켜라\"… 로봇개, 첫 도심순찰 나선다",
+   "nt": "시민지켜라로봇개첫도심순찰나선다",
+   "tk": [
+    "나선다",
+    "도심순찰",
+    "로봇개",
+    "시민",
+    "지켜라"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12174772"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "호남 반도체 테마株 '이상 과열'",
+   "nt": "호남반도체테마이상과열",
+   "tk": [
+    "과열",
+    "반도체",
+    "이상",
+    "테마",
+    "호남"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/stock/12174716"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "산업부, 반도체 메가프로젝트 전담국 신설",
+   "nt": "산업부반도체메가프로젝트전담국신설",
+   "tk": [
+    "메가프로젝트",
+    "반도체",
+    "산업부",
+    "신설",
+    "전담국"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12174407"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "ESS 시장 커지는데 배터리 3사 실적은 희비…LG엔솔 웃고 SK온 적자 전망",
+   "nt": "ess시장커지는데배터리3사실적은희비lg엔솔웃고sk온적자전망",
+   "tk": [
+    "3사",
+    "ess",
+    "lg엔솔",
+    "sk온",
+    "배터리",
+    "시장",
+    "실적은",
+    "웃고",
+    "적자",
+    "전망",
+    "커지는데",
+    "희비"
+   ],
+   "nums": [
+    "3분기"
+   ],
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494435"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "[인더컴퍼니] LG에너지솔루션, ESS가 살린 3분기…4분기엔 보조금 없이 웃을까",
+   "nt": "인더컴퍼니lg에너지솔루션ess가살린3분기4분기엔보조금없이웃을까",
+   "tk": [
+    "3분기",
+    "4분기엔",
+    "ess가",
+    "lg에너지솔루션",
+    "보조금",
+    "살린",
+    "없이",
+    "웃을까",
+    "인더컴퍼니"
+   ],
+   "nums": [
+    "3분기",
+    "4분기",
+    "7개"
+   ],
+   "url": "https://www.inthenews.co.kr/news/article.html?no=92993"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "First Phosphate, 가상 투자자 콘퍼런스서 LFP 배터리 공급망 구축 계획 발표 By Investing.com",
+   "nt": "firstphosphate가상투자자콘퍼런스서lfp배터리공급망구축계획발표b",
+   "tk": [
+    "by",
+    "com",
+    "first",
+    "investing",
+    "lfp",
+    "phosphate",
+    "가상",
+    "계획",
+    "공급망",
+    "구축",
+    "발표",
+    "배터리",
+    "콘퍼런스서",
+    "투자자"
+   ],
+   "nums": [],
+   "url": "https://kr.investing.com/news/transcripts/article-93CH-2125685"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "\"AI가 삼키는 전력, 배터리가 받친다\"… AI 데이터센터發 ESS 수요 폭증",
+   "nt": "ai가삼키는전력배터리가받친다ai데이터센터ess수요폭증",
+   "tk": [
+    "ai",
+    "ai가",
+    "ess",
+    "데이터센터",
+    "받친다",
+    "배터리가",
+    "삼키는",
+    "수요",
+    "전력",
+    "폭증"
+   ],
+   "nums": [],
+   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101222211942410c8c1c064d_1"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "180cm대 로봇끼리 무기 들고 싸웠다…화제의 로봇 격투",
+   "nt": "180cm대로봇끼리무기들고싸웠다화제의로봇격투",
+   "tk": [
+    "180cm대",
+    "격투",
+    "들고",
+    "로봇",
+    "로봇끼리",
+    "무기",
+    "싸웠다",
+    "화제의"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261012000262"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "“지갑사정 나만 힘든가요?”…IMF, 한국 경제성장률 3.3%로 확 올렸다",
+   "nt": "지갑사정나만힘든가요imf한국경제성장률33로확올렸다",
+   "tk": [
+    "imf",
+    "경제성장률",
+    "나만",
+    "올렸다",
+    "지갑사정",
+    "한국",
+    "힘든가요"
+   ],
+   "nums": [
+    "0.7%",
+    "2.6%",
+    "3.3%"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12175070"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "개인정보위, 中 커넥티드카 조사…국외 이전·유출 우려 점검",
+   "nt": "개인정보위커넥티드카조사국외이전유출우려점검",
+   "tk": [
+    "개인정보위",
+    "국외",
+    "우려",
+    "유출",
+    "이전",
+    "점검",
+    "조사",
+    "커넥티드카"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261014000001"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "ProLogium and Rimac target 2028 for solid-state battery vehicle tests",
+   "nt": "prologiumandrimactarget2028forsolidstate",
+   "tk": [
+    "2028",
+    "and",
+    "battery",
+    "for",
+    "prologium",
+    "rimac",
+    "solid",
+    "state",
+    "target",
+    "tests",
+    "vehicle"
+   ],
+   "nums": [
+    "2028"
+   ],
+   "url": "https://www.electrive.com/2026/10/13/prologium-and-rimac-target-2028-for-solid-state-battery-vehicle-tests/"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "티로보틱스",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "미시간경제개발공사-한국AI·로봇산업협회, 회원사 방문 북미 로봇생태계 협력 물꼬",
+   "nt": "미시간경제개발공사한국ai로봇산업협회회원사방문북미로봇생태계협력물꼬",
+   "tk": [
+    "로봇산업협회",
+    "로봇생태계",
+    "물꼬",
+    "미시간경제개발공사",
+    "방문",
+    "북미",
+    "한국ai",
+    "협력",
+    "회원사"
+   ],
+   "nums": [],
+   "url": "https://www.irobotnews.com/news/articleView.html?idxno=48967"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD unveils Atto 8 flagship SUV with nine-minute charging",
+   "nt": "bydunveilsatto8flagshipsuvwithnineminute",
+   "tk": [
+    "atto",
+    "byd",
+    "charging",
+    "flagship",
+    "minute",
+    "nine",
+    "suv",
+    "unveils",
+    "with"
+   ],
+   "nums": [
+    "115kWh"
+   ],
+   "url": "https://www.electrive.com/2026/10/13/byd-unveils-atto-8-flagship-suv-with-nine-minute-charging/"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD Has Now Produced 150,000 Commercial Plugin Vehicles",
+   "nt": "bydhasnowproduced150000commercialpluginv",
+   "tk": [
+    "000",
+    "150",
+    "byd",
+    "commercial",
+    "has",
+    "now",
+    "plugin",
+    "produced",
+    "vehicles"
+   ],
+   "nums": [],
+   "url": "https://cleantechnica.com/2026/10/12/byd-has-now-produced-150000-commercial-plugin-vehicles/"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "Dematic",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "Dematic Lifecycle Solutions for Peak Season - Supply & Demand Chain Executive",
+   "nt": "dematiclifecyclesolutionsforpeakseasonsu",
+   "tk": [
+    "chain",
+    "demand",
+    "dematic",
+    "executive",
+    "for",
+    "lifecycle",
+    "peak",
+    "season",
+    "solutions",
+    "supply"
+   ],
+   "nums": [],
+   "url": "https://www.sdcexec.com/sourcing-procurement/manufacturing/news/22975953/dematic-corporation-dematic-lifecycle-solutions-for-peak-season"
+  },
+  {
+   "date": "2026-10-14",
+   "entity": "Gotion",
+   "cat": "customer",
+   "group": "global",
+   "h": "Gotion Forms Volkswagen Joint Venture for Spanish Battery Manufacture",
+   "nt": "gotionformsvolkswagenjointventureforspan",
+   "tk": [
+    "battery",
+    "for",
+    "forms",
+    "gotion",
+    "joint",
+    "manufacture",
+    "spanish",
+    "venture",
+    "volkswagen"
+   ],
+   "nums": [
+    "49%"
+   ],
+   "url": "https://www.investinspain.org/en/news/2026/gotion"
   }
  ]
 }

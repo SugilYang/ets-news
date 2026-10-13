@@ -1,0 +1,1117 @@
+{
+ "date": "2026-10-14",
+ "window_hours": 36,
+ "candidates": [
+  {
+   "cid": 0,
+   "title": "삼성SDI, 삼성디스플레이 지분 4조4450억 원 처분…미국 ESS 와 전고체 배터리 키운다",
+   "url": "https://news.jkn.co.kr/post/1019982",
+   "src": "bing.com",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "삼성SDI는 8월 21일 이사회에서 삼성디스플레이 주식 1308만8235주를 약 4조4450억 원에 삼성디스플레이에 양도하기로 의결했다. 처분 대상은 삼성SDI가 보유한 삼성디스플레이 주식의 약 33%이며, 거래 이후 삼성SDI의 삼성디스플레이 지분율은 15.2%에서 10.2%로 낮아진다. 확보한 자금은 성장 사업 투자와 재무 여력 확보에 활용될 전망이다. 삼성SDI는 전기차 배터리 수요 회복을 기다리는 대신 ESS와 차세대 배터리로 사업의 무게중심을 옮기고 있다. 삼성SDI는 미국 에너지 인프라 기업과 2조 원을 웃도는 ESS용 리튬인산철(LFP) 배터리 공급 계약을 체결했다. 공급은 2027년부터 약 3년간 진행되며, 물량은 미국 인디애나주 스타플러스에너지 공장에서 생산한다. 올해 1월에는 테슬라와 ESS용 LFP 배터리 공급 계약을 맺었고, 3월에는 미국 에너지 전문업체와 약 1조5000억 원 규모의 ESS용 배터리 공급 계약을 추가했다. 해당 계약은 2026년부터 2029년까지 NCA와 LFP 배터리를 순차 공급하는 내용이다. 스텔란티스와 설립한 인디애나 스타플러스에너지 1공장 일부 라인은 ESS용 LFP 생산라인으로 전환돼 4분기 가동을 앞두고 있다. 삼성SDI는 미국 현지 각형 LFP 배터리 양산과 함께 인공지능 데이터센터용 무정전전원장치(UPS)·배터리 백업 유닛(BBU) 생산도 확대할 계획이다. 다만 대형 ESS 계약의",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "ESS",
+     "전고체",
+     "투자",
+     "수주"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-10-14-0"
+  },
+  {
+   "cid": 1,
+   "title": "Neoen, BW ESS and MN8 back efforts to standardise BESS procurement through new Energy Storage Contract Alliance",
+   "url": "https://www.energy-storage.news/neoen-bw-ess-and-mn8-back-efforts-to-standardise-bess-procurement-through-new-energy-storage-contract-alliance/",
+   "src": "energy-storage.news",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "Big names in the downstream battery storage market have signed up to join an initiative aimed at simplifying BESS procurement.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-14-1"
+  },
+  {
+   "cid": 2,
+   "title": "[뉴스&분석] 中 반도체 공습에 … 6천피 턱걸이",
+   "url": "https://www.mk.co.kr/news/stock/12174799",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 마이크론은 미국의 메모리 업체로서 글로벌 반도체 시장의 주가 동향과 연동되어 있습니다. 메모리 제품을 공급하며 서버용 메모리 시장에서 가격 경쟁 구도에 놓여 있습니다. 서버용 메모리는 장시간 운용 안정성이 요구돼 실제 제품 검증 수준이 가격 경쟁 우려를 가르는 반대급부입니다. 삼성전자는 중국 CXMT가 연말까지 4F² 기반 서버용 메모리를 내놓겠다고 밝히면서 공급 과잉 우려의 간접 대상이 됐습니다. 삼성전자는 메모리 반도체를 생산하며 데이터센터용 제품군을 공급해 글로벌 경쟁 구도와 맞닿아 있습니다. 업계에서는 중국의 기술 추격과 가격 경쟁 심화가 단기적인 투자 심리 위축과 수익성 변동성으로 이어질 수 있다고 보고 있습니다. SK하이닉스는 중국 CXMT의 차세대D램 출시 계획으로 공급 증가와 가격 경쟁 우려가 부각된 구도에 놓였습니다. SK하이닉스는 서버용 DDR5 RDIMM 등 고성능 메모리를 공급하며 서버 메모리의 신뢰성·안정성 경쟁에 참여합니다. 다만 서버용메모리 는 장시간 운용 안정성이 요구돼 실제 제품 검증이 경쟁 강도를 가르는 반대급부입니다. 코스피가 5거래일 연속 하락하며 13일 장중 한때 6000선을 무너졌고, 외국인 투자자들의 매도세가 지속적으로 나타나고 있다. 미국의 메모리 업체인 마이크론의 주가 급락과 중국 메모리 반도체 기술 발전에 대한 우려가 증시에",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-14-2"
+  },
+  {
+   "cid": 3,
+   "title": "\"시민 지켜라\"… 로봇개, 첫 도심순찰 나선다",
+   "url": "https://www.mk.co.kr/news/economy/12174772",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 마음AI의 4족보행순찰로봇 이 보행자 도로에서 처음 실증 운행에 나섭니다. 산업통상부 실증특례 승인에 따라 천안시 하천변 산책로와 공원에서 AI 기반 자율주행 순찰을 수행하며 현장 영상은 관제시스템으로 전송됩니다. 업계에서는 규제 특례를 통한 신기술 실증이 향후 서비스 상용화와 시장 확대 의 발판이 될 것으로 보고 있습니다. 산업통상부는 인공지능(AI)·로봇 등 신산업 분야에 대한 규제특례를 승인하며 네 발로 걷는 로봇이 공원과 산책로에서 순찰할 수 있는 길을 열었다. 이와 함께 편의점에서는 생체인증과 CCTV 설치 등의 조건 하에 무인 자동판매기로 주류를 판매하는 방안이 도입된다. AI 기업들은 이러한 새로운 시스템을 통해 안전성과 효율성을 높이고, 기존의 이동 제한을 극복하여 서비스 범위를 확장할 계획이다. 앞으로는 우리 주변에서 네 발로 걷는 로봇이 공원이나 산책로를 돌아다니며 주변을 살피는 모습을 쉽게 볼 수 있게 되었어요. 🤖 이 로봇들은 위험한 상황이 생기면 대피 안내 방송을 해주거나 실시간으로 영상을 전송해 주기 때문에, 우리가 일상 속에서 훨씬 더 안전한 환경을 누릴 수 있게 된답니다. 🌳 또한 편의점에 방문했을 때 성인 인증과 얼굴 대조 과정을 거친 후 무인 자판기를 통해 주류를 편리하게 구매할 수 있는 새로운 경험도 하게 되어요. 🍻 기존에는 불가능했던",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "정책"
+    ],
+    "grade": "B",
+    "market_group": "semi"
+   },
+   "status": "published:2026-10-14-3"
+  },
+  {
+   "cid": 4,
+   "title": "호남 반도체 테마株 '이상 과열'",
+   "url": "https://www.mk.co.kr/news/stock/12174716",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 국내 증시가 '삼전닉스'의 영향으로 크게 하락한 가운데, 호남 반도체 클러스터 관련 주식들은 급등세를 보였다. SK그룹 최태원 회장이 호남 반도체 클러스터 확장을 추진하겠다고 밝히면서 관련 주식들에 투자 심리가 집중되고 있다. 그러나 구체적인 투자 계획이 세워지지 않은 상황에서 주가 상승에 대한 주의가 필요하다는 의견도 나오고 있다.",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-14-4"
+  },
+  {
+   "cid": 5,
+   "title": "산업부, 반도체 메가프로젝트 전담국 신설",
+   "url": "https://www.mk.co.kr/news/economy/12174407",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 정부가 용인과 서남권 반도체 클러스터 등 대규모 투자사업을 전담할 국장급 조직을 신설한다. 인도와의 산업·통상 협력을 전담하는 조직도 새로 만든다. 13일 산업통상부는 이 같은 내용을 담은 ‘산업통상부와 그 소속기관 직제 일부 개정령안’이 국무회의에서 의결됐다고 밝혔다. 개정안은 오는 20일부터 시행되며, 이번 조직개편으로 정원도 20명 늘어난다. 신설되는 ‘반도체혁신성장지원단’은 반도체정책과와 첨단반도체과, 반도체생태계과 등 3개 과로 구성된다. 반도체 산업정책 수립부터 첨단반도체 경쟁력 강화, 소재·부품·장비(소부장) 산업 육성까지 담당한다. 특히 용인과 서남권 반도체 클러스터 등 대규모 투자사업을 지원하는 역할을 맡는다. 정부는 앞서 용인 반도체 클러스터 완공 시점을 일반산업단지는 2045년에서 2033년으로, 국가산업단지는 2047년에서 2039년으로 각각 앞당기겠다는 목표를 제시했다. 반도체특별법에 따른 기본계획 수립과 클러스터 지원 등 신규 법정사무도 수행한다. 인도와의 경제협력을 강화하기 위한 ‘인도통상협력과’도 신설된다. 지난 4월 한·인도 정상회담을 계기로 확대된 산업·통상 협력 수요에 대응하기 위한 조치다. 양국 간 포괄적경제동반자협정(CEPA) 개선협상과 산업협력을 지원하고 국내 기업의 인도 시장 진출을 뒷받침할 계획이다. 김정관 산업부 장관은 “반도",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B",
+    "market_group": "semi"
+   },
+   "status": "published:2026-10-14-5"
+  },
+  {
+   "cid": 6,
+   "title": "ESS 시장 커지는데 배터리 3사 실적은 희비…LG엔솔 웃고 SK온 적자 전망",
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494435",
+   "src": "bing.com",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "에너지저장장치(ESS) 시장 확대와 유럽 전기차 판매 증가에도 국내 배터리 3사의 3분기 실적은 엇갈릴 전망이다. LG에너지솔루션은 매출 증가와 공장 가동률 상승에 힘입어 영업이익이 크게 늘었고, 삼성SDI도 흑자가 예상된다. 반면 SK온은 전기차용 배터리 수요 부진과 공장 가동률 하락으로 다시 적자에 빠질 것으로 보인다. 배터리 업계가 전기차 중심의 사업 구조에서 ESS로 영역을 넓히고 있지만, 기업별 생산시설과 고객사 구성, 가동률에 따라 수익성 회복 속도에는 차이가 나타나고 있다. 삼성SDI도 3분기 실적 개선이 예상된다. 증권가에서는 삼성SDI의 3분기 매출을 4조373억원, 영업이익을 1653억원으로 전망하고 있다. 삼성SDI는 전기차용 배터리 수요 둔화에 대응해 ESS 사업을 확대하고 있다. 미국 생산시설의 일부 라인을 ESS용으로 전환하고 연말부터 리튬인산철(LFP) 배터리 생산에 나설 계획이다. 다만 연말 가동 예정인 ESS용 생산라인의 실적 기여는 3분기에 반영되지 않는다. 따라서 3분기 수익성 개선이 기존 ESS 제품의 판매 증가와 전기차용 배터리 사업의 비용 절감 가운데 어느 요인에서 비롯됐는지는 실적 발표를 통해 확인할 필요가 있다. 반면 SK온은 3분기 다시 적자로 돌아설 것으로 예상된다. 증권가에서는 SK온의 3분기 매출을 2조330억원, 영업손실을 2750억원으로 전망했다. 지난 2분기에는 고객사 보상금 등",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "SK온",
+     "삼성SDI"
+    ],
+    "tags": [
+     "ESS",
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-14-6"
+  },
+  {
+   "cid": 7,
+   "title": "[인더컴퍼니] LG에너지솔루션, ESS가 살린 3분기…4분기엔 보조금 없이 웃을까",
+   "url": "https://www.inthenews.co.kr/news/article.html?no=92993",
+   "src": "인더뉴스",
+   "date": "2026-10-14",
+   "rel": 2,
+   "lead": "지난 8일 LG에너지솔루션의 3분기 잠정실적 발표 전후 ▲메리츠증권 ▲다올투자증권 ▲대신증권 ▲iM증권 ▲신한투자증권 ▲하나증권 ▲유진투자증권 등 7개 증권사의 리포트 종합하면, ESS 사업의 성장 가능성에 대해서는 대체로 긍정적인 평가가 우세합니다. 반면 자체 수익성 개선 시점과 미국 전기차 사업의 회복 속도, 향후 기업가치 평가에서는 전망이 엇갈립니다. LG에너지솔루션의 3분기 잠정실적은 매출액 9조6434억원, 영업이익 7560억원을 기록했습니다. 전분기보다 매출은 약 28%, 영업이익은 약 567% 증가했습니다. 영업이익률도 7.8%로 전분기 1.5%에서 6.3%포인트 상승했습니다. 실적 발표 전 증권사들이 제시했던 영업이익 컨센서스는 대략 3200억~3600억원 수준이었습니다. 실제 영업이익은 이를 두 배 이상 웃돌았습니다. 시장의 관심이 집중된 부분은 미국 AMPC를 제외한 실적입니다. LG에너지솔루션의 3분기 AMPC는 4169억원으로 전분기보다 약 73% 증가했습니다. 이를 제외한 영업이익은 3391억원으로, 전분기 1277억원 적자에서 흑자로 전환했습니다. AMPC는 미국에서 배터리를 생산하는 기업에 제공되는 세액공제입니다. LG에너지솔루션은 그동안 미국 생산시설의 초기 투자비와 가동률 부담을 보조금으로 상쇄해 왔습니다. 따라서 AMPC를 제외하고 흑자로 전환했다는 점은 실적 개선을 평가하는 중요한 지표입니다. 그러나",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [],
+    "tags": [
+     "ESS",
+     "투자",
+     "정책",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-10-14-7"
+  },
+  {
+   "cid": 8,
+   "title": "ESS 날개 단 K-배터리, 3분기 실적 반등…유럽 EV 회복도 관심사 [배터리레이다]",
+   "url": "https://www.ddaily.co.kr/page/view/2026101318414721763",
+   "src": "디지털데일리",
+   "date": "2026-10-14",
+   "rel": 4,
+   "lead": "ESS 날개 단 K-배터리, 3분기 실적 반등…유럽 EV 회복도 관심사 [배터리레이다] LG에너지솔루션 미시간주 랜싱 공장 전경 [사진=얼티엄셀즈] [디지털데일리 고성현기자] 국내 배터리 업계의 3분기 실적에 온기가 돌고 있다. LG에너지솔루션이 에너지저장장치(ESS) 사업 확대에 힘입어 역대 최대 분기 매출을 기록하고, 삼성SDI도 흑자전환이 예상되면서다. 북미 ESS 공급이 본격화된 가운데 유럽 전기차 시장의 회복세까지 이어지면서 국내 배터리 업체들의 실적 반등에 속도가 붙을지 주목된다. 13일 업계에 따르면 LG에너지솔루션은 지난 8일 올해 3분기 매출 9조6434억원, 영업이익 7560억원을 기록했다고 공시했다. 전년 동기 대비 각각 59.0%, 25.7% 증가한 수치다. 전분기와 비교하면 매출은 27.6%, 영업이익은 567.3% 늘었다. 매출은 분기 기준 역대 최대치를 경신했다. 특히 미국 첨단제조생산세액공제(AMPC) 4169억원을 제외한 영업이익도 3391억원을 기록했다. 북미 ESS용 배터리 출하 확대와 유럽 전기차용 배터리 판매 회복이 맞물리면서 수익성이 개선된 것으로 풀이된다. 삼성SDI도 3분기 흑자를 이어갈 것으로 전망된다. 금융정보업체 에프앤가이드에 따르면 삼성SDI의 3분기 연결기준 실적 컨센서스(증권사 전망치 평균)는 매출 4조373억원, 영업이익 1654억원으로 집계됐다. 전년 동기 대비 매출은 32.2",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "삼성SDI"
+    ],
+    "tags": [
+     "ESS",
+     "정책",
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 9,
+   "title": "LG엔솔 이어 삼성SDI도 3Q 흑자 유지 전망…\"K배터리, 실적 개선 본격화\"",
+   "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261013_0003824449",
+   "src": "뉴시스",
+   "date": "2026-10-14",
+   "rel": 4,
+   "lead": "LG엔솔 이어 삼성SDI도 3Q 흑자 유지 전망…\"K배터리, 실적 개선 본격화\" 뉴시스",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "삼성SDI"
+    ],
+    "tags": [
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 10,
+   "title": "First Phosphate, 가상 투자자 콘퍼런스서 LFP 배터리 공급망 구축 계획 발표 By Investing.com",
+   "url": "https://kr.investing.com/news/transcripts/article-93CH-2125685",
+   "src": "Investing.com 한국어",
+   "date": "2026-10-14",
+   "rel": 2,
+   "lead": "First Phosphate, 가상 투자자 콘퍼런스서 LFP 배터리 공급망 구축 계획 발표 By Investing.com Investing.com 한국어",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-14-8"
+  },
+  {
+   "cid": 11,
+   "title": "엔비디아 AI 동맹 탄 LG엔솔… 북미 90GWh 수주 랠리로 캐즘 뚫는다",
+   "url": "https://www.ddaily.co.kr/page/view/2026101314513342652",
+   "src": "디지털데일리",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "엔비디아 AI 동맹 탄 LG엔솔… 북미 90GWh 수주 랠리로 캐즘 뚫는다 엔비디아 'DGX 레디' 국내 유일 BESS 파트너 합류 LFP 기반 'JF2 AC Link' 기술력 입증… 북미 5개 거점 밸류체인 LG에너지솔루션 오창 캠퍼스. [사진=LG에너지솔루션] [디지털데일리 배태용기자] 전기차 캐즘(일시적 수요 둔화) 여파로 배터리 업계의 전방 수요 부진이 이어지는 가운데 LG에너지솔루션이 인공지능(AI) 데이터센터용 에너지저장장치(ESS) 시장에서 확실한 돌파구를 마련했다. 전 세계에서 단 3곳만 선정된 엔비디아의 차세대 AI 팩토리 생태계 'DGX 레디(DGX-Ready)'에 국내 배터리 기업으로는 유일하게 BESS(배터리 에너지저장장치) 파트너로 공식 합류하면서다. 단순한 배터리 셀 공급을 넘어 엔비디아가 주도하는 차세대 AI 인프라 표준 규격에 직접 진입한 셈으로 북미 현지 생산 체제와 맞물려 올해 90GWh(기가와트시) 규모의 초대형 수주 랠리에 탄력이 붙을 전망이다. ◆ 엔비디아 'DGX 레디' 유일 합류… LFP 계통 형성 기술로 입증한 품질 13일 배터리 및 전기전자 업계에 따르면 LG에너지솔루션은 엔비디아가 추진하는 AI 팩토리 플랫폼 'DGX 레디'의 공식 BESS 파트너로 최종 선정됐다. 이번 자격 인증을 획득한 BESS 기업은 전 세계에서 단 3곳에 불과하며 국내 배터리 제조사 중에서는 LG에너지솔루션이 유일",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [],
+    "tags": [
+     "ESS",
+     "수주"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 12,
+   "title": "‘프리미엄 선점’ 삼성SDI vs ‘수익성 확보’ LG엔솔…전고체 2색 승부수",
+   "url": "https://www.fntimes.com/html/view.php?ud=2026101312375590507492587736_18",
+   "src": "한국금융신문",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "최주선 삼성SDI 대표(왼쪽)와 김동명 LG에너지솔루션 대표. / 사진=각사 ‘프리미엄 선점’ 삼성SDI vs ‘수익성 확보’ LG엔솔…전고체 2색 승부수 ‘프리미엄 선점’ 삼성SDI vs ‘수익성 확보’ LG엔솔…전고체 2색 승부수 삼성SDI(위)와 LG에너지솔루션 최근 1년 간 분기별 실적 추이. / 사진=딥서치 ‘프리미엄 선점’ 삼성SDI vs ‘수익성 확보’ LG엔솔…전고체 2색 승부수 삼성SDI(왼)와 LG에너지솔루션 최근 1년간 주가 추이. / 사진=네이버페이증권 ‘프리미엄 선점’ 삼성SDI vs ‘수익성 확보’ LG엔솔…전고체 2색 승부수",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "삼성SDI"
+    ],
+    "tags": [
+     "전고체",
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 13,
+   "title": "삼성SDI ‘원통형 LFP’ 내년 상반기 양산…AI 서버 배터리 시장 겨냥 [H-EXCLUSIVE]",
+   "url": "https://biz.heraldcorp.com/article/10900765",
+   "src": "헤럴드경제",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "삼성SDI가 이르면 내년 6월부터 인공지능(AI) 서버용 원통형 리튬인산철(LFP) 배터리를 양산한다. 국내 배터리 업계에서는 처음으로 원통형 백업 배터리에 LFP를 적용해 기존 삼원계 중심의 제품군을 넓히기로 한 것이다. 상대적으로 높은 가격 경쟁력과 열적 안정성을 앞세워 급성장하는 데이터센터 배터리 시장 공략에 속도를 낸다는 구상이다. 13일 업계에 따르면 삼성SDI는 최근 이러한 내용의 신규 투자를 결정하고 말레이시아 제2공장에 AI 서버용 배터리백업유닛(BBU)에 들어갈 LFP 양극 극판 생산설비 구축에 나섰다. 이르면 내년 6월 양산한다는 목표다. 삼성SDI는 앞서 지난달 29일 싱가포르에서 열린 ‘데이터센터 월드 아시아(DCWA) 2026’에서 배터리 백업 유닛(BBU)용 원통형 LFP 배터리를 처음 공개한 바 있다. 이번 투자로 삼성SDI는 말레이시아 2공장에서 기존 삼원계 배터리를 생산하면서 BBU용 원통형 LFP 배터리도 함께 만들 수 있는 체계를 갖추게 된다. 두 배터리에 쓰이는 소재가 서로 섞이지 않도록 원료를 혼합하는 믹서와 탱크 등 일부 장비를 새로 설치할 것으로 알려졌다. 나머지 생산공정에는 기존 설비를 최대한 활용할 계획이다. 양극 극판은 배터리 핵심 소재인 양극재를 얇은 알루미늄 포일에 입혀 만든 부품이다. 이후 음극과 분리막 등을 결합하는 조립 공정을 거쳐 완성된 배터리 셀이 된다. 신규 설비가 들어설 ",
+   "pre": {
+    "cat": "customer",
+    "group": "sdi",
+    "entity": "삼성SDI",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "unchanged"
+  },
+  {
+   "cid": 14,
+   "title": "올해는 반도체, 내년엔 이차전지?…실적 반등 기대 커진다",
+   "url": "https://www.imaeil.com/page/view/2026101309254105499",
+   "src": "매일신문",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "내년 이차전지 순이익 증가율 124.7% 전망 ESS 시장 확대에 전기차 수요 회복 기대 셀·양극재 실적 개선…주도 업종 변화 주목 올해 반도체 중심으로 상승세를 이어온 국내 증시에서 내년에는 이차전지가 새로운 주도 업종으로 부상할 수 있다는 기대가 커지고 있다. 에너지저장장치(ESS) 수요 확대에 이어 내년부터 전기차 배터리 수요도 회복될 것으로 예상되면서 주요 배터리 업체들의 실적 개선 전망에 힘이 실리고 있다. 13일 한국거래소에 따르면 이달 들어 지난 12일까지 LG에너지솔루션은 11.48% 상승했다. 삼성SDI도 같은 기간 8.93% 올랐으며 SK온의 모회사인 SK이노베이션은 2.69% 상승했다. 양극재 관련 종목들은 엇갈린 흐름을 보였다. 에코프로비엠과 에코프로가 각각 5.96%, 4.34% 상승한 반면 포스코퓨처엠은 1.01%, 엘앤에프는 4.64% 하락했다. 배터리 셀 업체들을 중심으로 실적 개선 기대가 반영되는 가운데 소재 업체들은 차별화된 주가 흐름을 나타냈다. 증권가에서는 내년 이차전지 업종의 이익 증가율이 반도체를 크게 웃돌 것으로 전망하고 있다. 하나증권에 따르면 2027년 코스피 이차전지 업종의 순이익 증가율 전망치는 124.7%로 주요 업종 가운데 가장 높다. 반면 반도체는 올해 592.9%에서 내년 37.5%로 증가율이 둔화할 것으로 예상됐다. 코스피 전체 순이익 증가율도 올해 265.4%에서 내년 32.",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [
+     "삼성SDI",
+     "SK온"
+    ],
+    "tags": [
+     "ESS",
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 15,
+   "title": "\"AI가 삼키는 전력, 배터리가 받친다\"… AI 데이터센터發 ESS 수요 폭증",
+   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101222211942410c8c1c064d_1",
+   "src": "글로벌이코노믹",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "\"AI가 삼키는 전력, 배터리가 받친다\"… AI 데이터센터發 ESS 수요 폭증",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-14-9"
+  },
+  {
+   "cid": 16,
+   "title": "180cm대 로봇끼리 무기 들고 싸웠다…화제의 로봇 격투",
+   "url": "https://www.etnews.com/20261012000262",
+   "src": "etnews.com",
+   "date": "2026-10-14",
+   "rel": 4,
+   "lead": "칼날을 장착한 대형 휴머노이드 로봇들이 실제 격투를 벌이는 이색 경기가 미국에서 열렸습니다. 현지시간 9일 미국 샌프란시스코에서 로봇 격투 단체 REK가 휴머노이드 로봇 격투 '데스매치'를 개최했습니다. 메인 경기에는 키 약 188cm·무게 82kg의 '렉타일'과 키 약 180cm·무게 86kg의 '티렉'이 맞붙었습니다. 두 로봇은 각각 강철 발톱과 긴 칼날 형태의 무기를 장착했습니다. 이 무기들은 단순한 장식이 아니라 실제 타격 시 상대 로봇에 손상을 낼 수 있도록 제작됐습니다. 경기 도중에는 칼날이 카메라 렌즈를 뚫고 경기장 보호 패널까지 손상시켰습니다. 다만 로봇이 인공지능으로 스스로 싸우는 것은 아닙니다. 격투용으로 개조된 휴머노이드를 사람이 원격으로 조종하는 방식입니다. 현장 보도에 따르면 경기에서는 티렉이 렉타일을 여러 차례 쓰러뜨린 끝에 승리했습니다. 이창민 기자 re34521@etnews.com",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-14-10"
+  },
+  {
+   "cid": 17,
+   "title": "“지갑사정 나만 힘든가요?”…IMF, 한국 경제성장률 3.3%로 확 올렸다",
+   "url": "https://www.mk.co.kr/news/economy/12175070",
+   "src": "mk.co.kr",
+   "date": "2026-10-14",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 국제통화기금(IMF)이 올해 우리나라 성장률 전망치를 2.6%에서 3.3%로 석 달 만에 0.7%포인트 높였다. 중동전쟁 충격에도 강력한 반도체 수출에 성장률이 높아질 것으로 본 것이다. 이 전망이 실현된다면 한국 성장률은 2022년 이후 4년 만에 미국을 넘어서게 된다. 13일 재정경제부에 따르면 IMF는 10월 세계경제전망에서 한국의 올해 실질 국내총생산(GDP) 증가율을 3.3%로 전망했다. 지난 4월 전망은 1.9%였다. 7월 수정 전망에서 2.6%로 한 차례 올린 바 있는데, 이번에 0.7%포인트 더 상향한 것이다. 상향폭이 전 세계(0.1%포인트)는 물론 선진국 평균(0.4%포인트)을 웃돌았다. IMF는 매년 4월과 10월 전체 회원국의 경제전망을, 1월과 7월에는 주요 30개국을 대상으로 수정 전망을 발표한다. IMF는 보고서에서 “반도체에 대한 강한 대외 수요가 전쟁의 부정적 영향을 상쇄하면서 한국의 성장세를 뒷받침할 것”이라고 밝혔다. 재경부는 이번 IMF 분석에 대해 “한국의 강력한 인공지능(AI) 하드웨어·반도체 관련 수출 호조의 영향으로 평가된다”고 설명했다. IMF는 한국과 대만을 AI 관련 컴퓨터 하드웨어의 핵심 교역국으로 지목했다. 두 경제권이 AI 관련 컴퓨터 하드웨어 순무역에서 62%를 차지하고 있다고 분석했다. 이 같은 공급망 구조를 고려",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-14-11"
+  },
+  {
+   "cid": 18,
+   "title": "개인정보위, 中 커넥티드카 조사…국외 이전·유출 우려 점검",
+   "url": "https://www.etnews.com/20261014000001",
+   "src": "etnews.com",
+   "date": "2026-10-14",
+   "rel": 4,
+   "lead": "개인정보보호위원회가 국내 출시를 앞둔 중국 전기차 브랜드 지커(ZEEKR)의 개인정보 처리 실태에 대한 현장조사에 착수했다. 지커를 포함해 국내외 커넥티드카 업체 7곳의 개인정보 수집과 국외 이전 여부 등을 조사하고 있다. 송경희 개인정보보호위원장은 13일 국회 정무위원회 국정감사에서 “지난 2일부터 지커에 대한 현장조사를 시작했다”고 밝혔다. 김재섭 국민의힘 의원이 지커 차량에서 수집한 개인정보의 중국 이전 가능성을 우려하자 조사 현황을 공개한 것이다. 송 위원장은 “어떤 개인정보를 수집하고 있는지, 제3자 제공과 국외 이전이 어떻게 이뤄지는지, 안전조치를 하고 있는지 등을 조사하고 있다”고 설명했다. 개인정보 처리방침에 기재된 내용이 실제 처리 방식과 일치하는지도 확인하고 있다. 위법 사항이 확인되면 관련 조치에 나설 방침이다. 송 위원장은 “아직 국내 차량 출시 전인데도 조사를 시작한 것은 굉장히 드문 일”이라며 “우려사항을 충분히 염두에 두고 최대한 빨리 조사를 진행하겠다”고 말했다. 개인정보위가 현재 진행 중인 개인정보 관련 조사는 1000건을 넘어선 것으로 나타났다. 송 위원장은 조사 인력 부족에 따른 어려움을 언급하면서도 신속한 조사에 노력하겠다고 밝혔다.",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-14-12"
+  },
+  {
+   "cid": 19,
+   "title": "Tasmania to fund 50 new EV charging points at tourism hotspots",
+   "url": "https://www.electrive.com/2026/10/13/tasmania-to-fund-50-new-ev-charging-points-at-tourism-hotspots/",
+   "src": "electrive.com",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "The Australian island state is offering AU$250,000 in grants to help tourism businesses install EV charging points at 24 destinations across the region. This will primarily target overnight AC charging. The first round of the state-run scheme (the “Electric Vehicle Destination Charging Grant Program”) has allocated AU$125,000 to tourism businesses, with grants of up to AU$2,500 per charger at a maximum of four chargers per business. The scheme aims to support small- and medium-sized tourism operators install destination chargers for overnight guests. The funding is targeted at improving charging access at accommodation sites, in order to complement public charging infrastructure across the s",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 20,
+   "title": "송경희 \"中전기차 '지커' 현장조사 착수…커넥티드카 7개사 조사\"(종합)",
+   "url": "https://www.yna.co.kr/view/AKR20261013144651530",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 차민지 기자 = 송경희 개인정보보호위원장은 13일 국내 출시를 앞둔 중국 전기차 브랜드 지커(ZEEKR)의 개인정보 처리 실태와 관련해 \"지난 2일부터 현장조사를 시작했다\"고 밝혔다. 송 위원장은 이날 국회 정무위원회 국정감사에서 국민의힘 김재섭 의원이 지커 차량을 통해 수집된 개인정보가 중국으로 이전될 수 있다는 우려를 제기하자 이같이 답했다. 그는 \"(지커가) 어떤 개인정보를 수집하고 있는지, 제3자 제공과 국외 이전이 어떻게 이뤄지는지, 안전조치를 하고 있는지 등을 조사하고 있다\"고 설명했다. 그러면서 \"해외 사업자가 직접 서비스를 제공하면서 개인정보를 수집하는 것은 국외 이전에 해당하지 않지만, 위탁 처리나 제3자 제공 방식으로 정보를 제공하는 경우에는 국외 이전에 해당한다\"고 말했다. 이어 \"개인정보 처리방침에 기재된 내용이 사실인지 확인하고 있다\"며 \"위법 사항이 확인돼야 조치를 할 수 있다\"고 덧붙였다. 송 위원장은 현재 국내외 대표적인 커넥티드카 7개사를 조사하고 있다고도 밝혔다. 그는 \"아직 국내 차량 출시 전인데도 조사를 시작한 것은 굉장히 드문 일\"이라며 \"우려사항을 충분히 염두에 두고 최대한 빨리 조사를 진행하겠다\"고 했다. 개인정보위가 현재 진행 중인 조사는 1천 건을 넘어선 것으로 나타났다. 송 위원장은 더불어민주당 박상혁 의원이 현재 진행 중인 개인정보 관련 조사 건수를 묻자 \"1천 건이 ",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 21,
+   "title": "Fraunhofer stabilises aluminium anodes for lithium-ion batteries",
+   "url": "https://www.electrive.com/2026/10/13/fraunhofer-stabilises-aluminium-anodes-for-lithium-ion-batteries/",
+   "src": "electrive.com",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "The Fraunhofer IPA and the University of Stuttgart have developed a new cell and electrode technology for aluminum anodes. It is intended to make the previously problematic volume changes during charging and discharging manageable, thereby enabling the use of aluminum as an anode material for practical battery applications. Aluminium has long been considered a potential replacement for graphite or silicon in lithium-ion batteries. The material is relatively inexpensive, widely available, and offers high capacities. However, in practice, this approach has so far failed due to mechanical stress on the electrode: during charging and discharging, aluminium undergoes volume changes that can lead ",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 22,
+   "title": "ProLogium and Rimac target 2028 for solid-state battery vehicle tests",
+   "url": "https://www.electrive.com/2026/10/13/prologium-and-rimac-target-2028-for-solid-state-battery-vehicle-tests/",
+   "src": "electrive.com",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "ProLogium and Rimac Technology are continuing to move forward with their next-gen battery collaboration. At the Paris Motor Show, the partners are initially showcasing a pack mockup; functional hardware and a complete battery pack are expected to follow in 2027, with the first vehicle tests planned for 2028. In Paris, the two companies have unveiled a concept mock-up of the planned battery pack for the first time. The next step of development is a functional battery segment, which will be used to test thermal management, cell integration and pack architecture, among other aspects. The focus is on a cell-to-pack architecture for pouch cells. Rimac Technology describes it as a scalable integra",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "전고체"
+    ],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "published:2026-10-14-13"
+  },
+  {
+   "cid": 23,
+   "title": "미시간경제개발공사-한국AI·로봇산업협회, 회원사 방문 북미 로봇생태계 협력 물꼬",
+   "url": "https://www.irobotnews.com/news/articleView.html?idxno=48967",
+   "src": "bing.com",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "한국·AI로봇산업협회(회장 오준호)는 지난 12일, 13일 양일간 회원사인 물류자동화 전문기업 제닉스로보틱스와 자율주행 물류로봇(AMR) 전문기업 티로보틱스 현장을 연이어 방문해 미국 미시간경제개발공사(MEDC) 및 미시간주 교통국(MDOT) 방한단과의 고위급 면담을 개최했다고 13일 밝혔다. 이번 방문은 방한단이 국내 로봇 기업 현장을 둘러보고 사업 협력 및 투자·기술 교류 방안을 논의하기 위해 마련됐다. 특히 기존 협회 방문을 넘어, 협회와 회원사가 유기적으로 연계해 산업 현장에서 해외 정부 기관과 직접 맞닿는 ‘실질적 협업 네트워크의 결실’이라는 점에서 의미가 크다. 이날 면담에는 MEDC 외국인투자유치팀 레이첼 도널드슨(Rachel Donaldson) 상무이사, 사라 테넌트(Sarah Tennant) 이사, 미시간주 교통국(MDOT) 미셸 뮬러(Michele Mueller) 시니어 담당관을 비롯해 한국AI·로봇산업협회 관계자 및 각 기업 경영진이 참석했다. 이번에 방문한 제닉스로보틱스는 반도체 자동물류시스템(AMHS)과 산업용 자율주행 물류로봇(AGV/AMR) 전문기업으로 반도체 제조 및 산업현장에 다양한 자동화 솔루션을 공급하고 있다. 최근에는 반도체 물류자동화 분야의 기술력을 바탕으로 초고중량 항만 AGV/IGV 및 자율주행 운송장비 개발로 사업영역을 확대하고 있다. 2025년 미국 현지법인 설립을 기반으로 북미 시장 진출",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_B",
+    "entity": "티로보틱스",
+    "related": [],
+    "tags": [
+     "AMR",
+     "투자"
+    ],
+    "grade": "B"
+   },
+   "status": "published:2026-10-14-14"
+  },
+  {
+   "cid": 24,
+   "title": "‘You need to get comfortable with regulatory reform as a known risk’: Battery Asset Management Summit UK & Ireland kicks off",
+   "url": "https://www.energy-storage.news/you-need-to-get-comfortable-with-regulatory-reform-as-a-known-risk-battery-asset-management-summit-uk-ireland-kicks-off/",
+   "src": "energy-storage.news",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "Bankability & offtake and regulatory & system reform were the key talking points on the opening panel of the Battery Asset Management Summit UK & Ireland 2026 which runs today and tomorrow (13-14 October).",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 25,
+   "title": "BYD unveils Atto 8 flagship SUV with nine-minute charging",
+   "url": "https://www.electrive.com/2026/10/13/byd-unveils-atto-8-flagship-suv-with-nine-minute-charging/",
+   "src": "electrive.com",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "BYD has unveiled the Atto 8 - a new flagship electric SUV with up to seven seats, a range of over 600 km and a 115 kWh battery. The model is also the first BYD vehicle in Europe to feature the company's new Flash Charging technology, which can charge the battery from 10 to 97 per cent in nine minutes under the manufacturer's stated conditions. First debuted at the 2026 Paris Motor Show, the BYD Atto 8 is a 5.04-metre-long, 2.00-metre-wide and 1.76-metre-high battery-electric SUV designed to seat up to seven people. With its European market launch scheduled for the first quarter of 2027, it will replace the BYD Tang as the Chinese brand’s new flagship. Both the model and platform change intro",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "BYD",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-14-15"
+  },
+  {
+   "cid": 26,
+   "title": "반도체산업협회, 15일 코엑스서 AI시대 차세대 메모리 기술 포럼",
+   "url": "https://www.yna.co.kr/view/AKR20261013176900003",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 임성호 기자 = 한국반도체산업협회는 산업통상부 국가기술표준원(국표원)과 오는 15일 서울 강남구 코엑스에서 국내외 반도체 기업 및 표준 전문가들이 참여하는 '2026 국제반도체표준협의회(JEDEC) 포럼'을 연다고 13일 밝혔다. 올해 포럼은 인공지능(AI) 메모리 아키텍처, 테스트 및 생태계 준비를 주제로 '제28회 반도체대전'(SEDEX 2026)과 동시에 열린다. 삼성전자, SK하이닉스, 인텔, 미디어텍, 시높시스 등 국내외 주요 반도체 기업 전문가들이 AI 확산에 따른 차세대 메모리 아키텍처와 테스트·검증 기술, 관련 산업 생태계의 대응 방향을 논의한다. 삼성전자는 대규모 언어모델(LLM) 추론 과정에서의 메모리 성능의 한계를 짚고 연산을 메모리 내부에서 수행해 데이터 이동을 줄이고 성능과 에너지 효율을 높이는 저전력 D램(LPDDR) 기반 '연산 가능 메모리'(PIM) 기술을 소개한다. SK하이닉스는 온디바이스 AI 구현을 위해 차세대 모바일 저전력 D램인 LPDDR6에 PIM 기술을 결합한 LPDDR6-PIM 기술과 JEDEC 표준화 동향을 발표한다. 협회에 따르면 최근 AI 기술이 클라우드에서 개인용 기기와 자동차 등 다양한 영역으로 빠르게 확산하면서 고성능·저전력 메모리의 중요성이 더욱 커지고 있다. 이에 따라 고대역폭메모리(HBM)와 LPDDR6, PIM 등 차세대 메모리 기술 개발뿐 아니라 성능 검",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 27,
+   "title": "석달만에 … IMF, 올 韓성장률 3.3%로 상향",
+   "url": "https://www.mk.co.kr/news/economy/12174769",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. IMF가 한국성장률 3.3% 상향과 함께 AI 하드웨어 수출 호조를 지목했습니다. 메모리와 파운드리 중심의 사업 포트폴리오는 대외 반도체 수요 흐름과 밀접하게 연동됩니다. 다만 중동전쟁 장기화와 글로벌 물가 상승은 지속적인 수요 회복을 위협하는 리스크 요인입니다. 국제통화기금(IMF)이 한국의 올해 성장률 전망치를 상향하며 반도체대외수요 를 핵심 근거로 지목했습니다. SK하이닉스는 AI 연산에 쓰이는 고성능 메모리를 공급하며 관련 하드웨어 교역 구조와 밀접하게 연계되어 있습니다. 다만 글로벌 공급망 변동성과 무역 환경의 변화는 향후 수요 흐름을 지켜봐야 할 요인입니다. 국제통화기금(IMF)은 한국의 올해 성장률 전망치를 2.6%에서 3.3%로 상향 조정하며, 반도체 수출 강세가 주요 요인으로 작용할 것이라고 밝혔다. 경제협력개발기구(OECD)와 아시아개발은행(ADB)도 한국의 성장률을 3% 이상으로 예상하고 있으며, 한국은행과 한국개발연구원(KDI)도 각각 3.3%와 3.2%로 전망하고 있다. 다만, 중동전쟁의 장기화와 물가, 금리 상승으로 인한 민생 부담과 구조적 문제를 해결하기 위한 정부의 대응이 필요하다는 지적도 제기되고 있다. 국제통화기금(IMF)이 올해 우리나라 경제성장률 전망치를 3.3%로 크게 높이면서 전반적인 경제 활력이 돌 것으로 보여요. 📈✨ 하지만 동",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 28,
+   "title": "용인시장, 국토부 장관에 반도체클러스터 교통망 확충 요청",
+   "url": "https://www.yna.co.kr/view/AKR20261013171600061",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(용인=연합뉴스) 김광호 기자 = 경기 용인시는 이상일 시장이 13일 홍지선 국토교통부 장관에게 서한문을 보내 경기남부광역철도 신설과 경강선 연장 등 반도체클러스터 연계교통망 확충 지원을 요청했다고 밝혔다. 이 시장은 서한문에서 \"반도체 클러스터의 성공적 조성과 인적·물적 자원의 이동을 위해서는 도로와 철도 등 연계교통망이 빠른 속도로 구축돼야 하며, 이를 위한 정부의 지원이 절실하다\"고 강조했다. 이어 \"11월 국가산단 부지 조성 작업이 시작되고, 2027년 말 반도체 생산시설(fab)이 착공되면 건설 근로자의 이동과 공사차량 증가로 주변 교통량이 폭발적으로 늘어날 것으로 예상된다\"며 \"경기남부광역철도 신설과 경강선 연장, 분당선 연장, 경기남부동서횡단선, 수서고속철도(SRT) 복복선화, 구성역 신설 등 5개 사업을 제5차 국가철도망구축계획에 적극 반영해 달라\"고 요청했다. 이 시장은 또 \"중부권광역급행철도(JTX)가 구축되면 수도권과 중부권 간 교통 불균형을 해소하고, 반도체 산업 관련 인재 이동과 물류도 한층 원활해질 것\"이라며 \"한국개발연구원 민자적격성 조사가 신속하게 이뤄져 이 철도가 조기에 착공되도록 적극적인 지원을 요청한다\"고 덧붙였다. '경기남부광역철도'는 서울 잠실종합운동장역에서 수서역, 성남 판교, 용인 신봉·성복동, 수원 광교, 화성 봉담으로 이어지는 50.7km의 철도 신설 사업이다. 경강선 연장 사업은 광주역~",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 29,
+   "title": "Wuhan Solid-State Battery Separator Material Enterprise Secures Angel Round Financing",
+   "url": "https://www.energytrend.com/news/20261013-52277.html",
+   "src": "bing.com",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "Recently, Wuhan Yuanqi Membrane Innovation New Materials Co., Ltd. (Yuanqi Membrane Innovation) completed an angel round of financing, exclusively backed by the Spark Seedling Fund under Wuhan Innovation Investment Group. The proceeds from this round will primarily be used for technological iterations of core membrane materials, optimization of manufacturing processes, and the construction of a pilot-scale production line, accelerating the R&D and commercialization of the relevant materials. Founded in February 2026 and headquartered in Jiangxia District, Wuhan, Yuanqi Membrane Innovation specializes in the R&D and manufacturing of solid-state battery separator materials. The company has app",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "전고체",
+     "투자"
+    ],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 30,
+   "title": "[2026 The NEXT AI] 스마트팩토리에서 피지컬 AI까지…경남이 이끄는 제조혁신 현주소",
+   "url": "https://www.etnews.com/20261013000065",
+   "src": "etnews.com",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "경남 주력산업과 인공지능(AI) 등 디지털 기술의 융합을 촉진하고 기업 네트워크와 비즈니스 기회 창출의 장을 마련하고자 지역 산·학·연·관이 총출동하는 AI 축제 '2026 The NEXT AI'가 14일부터 사흘간의 대장정에 돌입한다. 10월 14~16일 창원컨벤션센터(CECO)에서 열리는 2026 The NEXT AI는 본격적인 피지컬 AI 시대 개막을 앞두고 대한민국 제조 AI 메카로 급부상한 경남의 역량을 국내는 물론 전 세계에 알리는 무대다. 과학기술정보통신부와 정보통신산업진흥원(NIPA), 경상남도, 창원특례시가 주최하고 경남테크노파크, 경남관광재단, 경남인공지능ICT협회, 경남AI로봇산업협회, JM컴퍼니가 공동주관한다. The NEXT AI는 경남도가 판교 테크노밸리에 버금가는 '경남 디지털 혁신밸리'를 조성하고자 2024년 착수한 '경남 디지털 혁신거점 사업'의 성과를 알리기 위해 처음 기획한 '경남 디지털 위크'에서 출발해 지난해 지역 최초의 AI 전시 컨벤션 행사로 개최됐다. 2026 The NEXT AI는 올해로 10돌을 맞은 산업 전문 전시회 '창원 국제 스마트팩토리 및 생산제조기술전(SMATOF)'과 동시 개최로 행사 외연을 키우는 동시에 제조·산업 특화 AI 전시회로서의 전문성도 한층 강화했다. 전시회에는 국내외 130개사가 323부스 규모로 참가한다. 글로벌 빅테크 및 AI 솔루션, AI전환(AX) 비즈니스",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 31,
+   "title": "웨어러블 로봇 입은 KAIST 총장 \"피지컬 AI는 대한민국이 열겠다\"",
+   "url": "https://www.yna.co.kr/view/AKR20261013139800063",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(대전=연합뉴스) 변선진 기자 = 한국과학기술원(KAIST)이 로봇·자율주행차 등 기기를 직접 움직이는 인공지능(AI)인 '피지컬 AI'를 제조·의료·국방·물류와 일상 전반에 쓰이는 보편적 기술로 만들겠다는 비전을 선포했다. 배충식 KAIST 총장은 13일 대전 본원 KI빌딩에서 처음 열린 '피지컬 AI 코리아 2026'에서 \"생각하는 AI의 시대는 세계가 열었다. 움직이는 AI의 시대는 대한민국이 열겠다\"며 이같이 밝혔다. 배 총장은 \"피지컬 AI는 선택이 아니라 필연\"이라며 \"대한민국은 세계에서 가장 빠르게 늙어가는 나라로, 일할 사람은 줄고 돌봐야 할 사람은 늘어난다. 공장에서, 병원에서, 농어촌에서 그리고 국경에서 사람의 손이 닿지 못하는 자리가 매일 생겨나고 있다\"고 그 이유를 설명했다. 배 총장은 이날 공경철 기계공학과 교수 연구팀이 개발한 웨어러블 로봇을 착용하고 연단까지 걸어 나왔다. 로봇은 걸음을 보조하는 동시에 다리의 힘과 균형, 보행 리듬을 측정했고, AI가 이 데이터로 착용자의 몸 상태를 분석했다. 배 총장은 연설을 마친 뒤 \"아주 부드럽다\"라며 착용 소감을 전했다. 공 교수 연구팀은 최근 엔비디아와 '휴먼 피지컬 AI' 공동 연구센터를 열고, 간단한 센서 정보로 로봇을 제어하는 것은 물론 사람의 전신 동작과 건강 정보까지 파악하는 '휴먼 모션 파운데이션 모델'을 개발하고 있다. KAIST는 로봇의 몸체와 구동 ",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 32,
+   "title": "반도체·차 공정에 휴머노이드 20대 투입…규제 풀고 현장 실증",
+   "url": "https://www.yna.co.kr/view/AKR20261013140800003",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 신창용 기자 = 반도체, 자동차, 조선 등 국내 주력 제조업 생산 라인에 이동형 휴머노이드 로봇이 시범 투입돼 제조 공정 혁신을 실증한다. 이와 함께 하천변 산책로를 누비는 4족보행 순찰 로봇과 의료기관 특화 인공지능(AI) 사이버 보안 플랫폼도 실증에 돌입한다. 산업통상부는 13일 서울 대한상공회의소에서 '제6차 산업융합 규제특례심의위원회'를 열고 AI·로봇·에너지 분야 등 총 16개 안건을 다뤘다고 밝혔다. 규제특례는 신기술·신산업 육성을 위해 기존 규제에도 불구하고 실증특례(시제품 검증), 임시허가 등을 부여하는 제도로 '규제샌드박스'로 불린다. 위원회는 로브로스 등 5개사가 신청한 '반도체·자동차·조선·물류 산업현장 휴머노이드 투입' 사업에 실증특례를 부여했다. 이에 따라 로브로스는 네패스(반도체), 성우하이텍(자동차), HD현대삼호(조선), 딜리버리랩(물류) 등의 산업 현장에 AI를 탑재한 이족보행 휴머노이드 로봇 20대를 투입한다. 반도체 현장에서는 패키징 후공정에 사용되는 원형 CRS 부품의 오염물을 제거하고 자동차 공장에서는 차체 부품을 안착시키는 작업을 맡는다. 조선소에서는 선박 건조 시 작업자가 딛고 서는 고소작업 발판을 선체에 고정하기 위해 부착하는 구조물 부품인 '족장피스'를 적재한다. 물류 현장에서는 냉장 물류포장체를 적재한다. 휴머노이드 로봇이 작업자와 동일하거나 인접한 공간에서 이동하고 사",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "정책"
+    ],
+    "grade": "C",
+    "market_group": "semi"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 33,
+   "title": "로봇이 우편물 분류하고 농사짓고…범부처 피지컬 AI 개발·실증 확대",
+   "url": "https://www.etnews.com/20261013000255",
+   "src": "etnews.com",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "로봇이 크기와 모양이 제각각인 우편물을 스스로 분류하고, 논밭에서 농작물을 재배·수확하며, 항만에서는 컨테이너를 자동으로 하역하는 기술개발이 본격화된다. 정부가 3대 메가프로젝트 중 하나인 피지컬 인공지능(AI) 분야에 내년 3조1000억원의 예산을 편성한 가운데, 제조·물류·농업·항만 등 산업현장에서 활용할 피지컬 AI 핵심기술 개발과 실증을 위한 범부처 지원사업 윤곽이 구체화됐다. 과학기술정보통신부는 13일 서울 코엑스에서 열린 '피지컬 AI 얼라이언스 데이'에서 중소벤처기업부, 농림축산식품부, 해양수산부, 금융위원회 등 관계부처와 함께 '2027년 범부처 피지컬 AI 사업설명회'를 개최하고 피지컬 AI를 실제 산업현장에 적용하기 위한 부처별 사업계획과 지원 방향을 공개했다. 과기정통부는 내년 국비 260억원을 투입해 우정사업본부와 함께 우편물류 현장에 적용되는 피지컬 AI 기술 개발에 나선다. 현재 물류 자동화 로봇은 크기와 재질, 모양이 일정하지 않은 우편물을 처리하는 데 한계가 있다. 이러한 비정형 우편물을 로봇이 인식하고 분류·검수·적재하도록 하는 것이 목표다. 내년 3월 사업을 공고하고 2개 컨소시엄을 선정해 공공 물류현장에서 기술을 검증한 뒤 민간으로 확산할 계획이다. 로봇의 두뇌에 해당하는 핵심기술 개발에도 나선다. 내년 국비 550억원을 투입해 범용 피지컬 AI 파운데이션 모델과 실·가상 데이터를 활용한 학습 시뮬레",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 34,
+   "title": "IMF, 올해 韓성장률 3.3% 전망·0.7%p↑…\"반도체가 전쟁 상쇄\"(종합)",
+   "url": "https://www.yna.co.kr/view/AKR20261013066051002",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(세종=연합뉴스) 안채원 기자 = 국제통화기금(IMF)이 올해 한국 경제 성장률 전망치를 석 달 새 0.7%포인트(p) 올려 잡았다. 중동전쟁의 부정적 영향에도 불구하고 반도체 수출 호조에 성장률이 높아질 것으로 본 것으로 풀이된다. IMF는 13일 발표한 10월 세계경제전망(World Economic Outlook)에서 한국의 올해 실질 국내총생산(GDP) 증가율을 3.3%로 전망했다고 재정경제부가 밝혔다. IMF는 보고서에서 한국의 성장률 전망 상향 조정 배경으로 \"반도체에 대한 강한 대외 수요가 전쟁의 부정적 영향을 상쇄하면서 한국의 성장세를 뒷받침할 것\"이라고 설명했다. IMF는 매년 4월과 10월 전체 회원국의 경제전망을, 1월과 7월에는 주요 30개국을 대상으로 수정 전망을 발표한다. 지난 7월 IMF가 내놓은 올해 한국 성장률 전망치는 2.6%다. 이번 상향 폭은 세계 평균(+0.1%p)과 선진국 평균(+0.4%p)을 모두 웃도는 수준이다. 재경부는 \"한국의 강력한 인공지능(AI) 하드웨어·반도체 관련 수출 호조의 영향으로 평가된다\"고 전했다. IMF도 보고서에서 한국과 대만을 AI 관련 컴퓨터 하드웨어의 핵심 교역국으로 지목했다. 두 경제권이 AI 관련 컴퓨터 하드웨어 순무역의 62%를 차지하고 있다는 분석이다. IMF는 이 같은 공급망 구조를 고려할 때 동아시아의 원자재 수출국과 제조업 거점국에도 파급효과가 나타날 수",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 35,
+   "title": "반도체부터 로봇까지 5대 전시회 하나로…산업부 'K-커넥트 AI' 출범",
+   "url": "https://www.etnews.com/20261013000322",
+   "src": "etnews.com",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "정부가 반도체부터 로봇에 이르는 첨단산업 전문 전시회를 '인공지능(AI)'이라는 핵심 주제로 묶어 한국 대표 글로벌 전시회로 육성한다. 산업통상부는 첨단산업 5개 전시회를 연계한 'K-커넥트 AI(K Connect AI)'를 공식 출범하고 13일 서울 코엑스에서 통합 개막식을 열었다. 이 프로젝트는 개별적으로 열리던 한국전자전(KES), 반도체대전(SEDEX), 산업인공지능전시회(산업 AI EXPO), 아시아기계·제조산업전(AMXPO), 로보월드 등을 하나로 묶어 4주간 코엑스와 킨텍스에서 순차적으로 개최하는 대형 통합 비즈니스 플랫폼이다. 대한무역투자진흥공사(KOTRA·코트라) 등 7개 기관이 공동 주관하는 이번 행사는 국내외 1600여개사(해외 130여개사 포함)가 참가한다. 5개 전시회는 각 전문성을 살려 AI 부품과 기술 개발부터 산업 현장 내 로봇 적용까지 '제조업 인공지능 전환(M.AX)'의 전체 생태계를 단계별로 선보인다. 하이라이트는 오는 21일 경기 고양시 킨텍스에서 열리는 국제 콘퍼런스 '맥스콘(M.AX CON) 2026'이다. 라파엘로 단드레아 취리히 공대 교수와 박민우 현대차그룹 사장이 '제조 AI 생태계 확산 및 대응 전략'을 주제로 기조연설을 맡으며, IBM·퀄컴·포스코 등 국내외 핵심 기업 임원진이 총출동해 산업 현장의 AI 도입 실제 사례와 협력 방안을 제시한다. 산업부는 행사 기간 M.AX의 필요성을 알",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "B",
+    "market_group": "semi"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 36,
+   "title": "[2026 국감] '호남 반도체' 주 52시간 예외 공방…김영훈 장관 “결과 정해두지 않고 대화”",
+   "url": "https://www.etnews.com/20261013000311",
+   "src": "etnews.com",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "호남 메가프로젝트 연구개발(R&D) 인력의 주 52시간제 예외 적용이 고용노동부 국정감사 주요 쟁점으로 떠올랐다. 김영훈 고용노동부 장관은 “결과를 정해두지 않고 대화를 통해 결과를 만들어 내겠다”며 노사정 사회적 대화를 거쳐 결론을 내리겠다는 입장을 밝혔다. 13일 국회 기후에너지환경노동위원회 고용노동부 국정감사에서 김 장관은 메가특구법 노동특례를 둘러싼 이철규 국민의힘 의원 질의에 “신중하게 여러 가지를 검토해 볼 부분이 많다”고 답했다. 김 장관은 “메가특구의 성공을 위해서는 기업의 생산성과 노동자의 건강권 보호가 조화롭게 이뤄져야 한다”며 “정부가 당사자들에게 책임을 떠넘기지 않고 책임감 있게 대화를 조율해 좋은 결과를 도출하도록 최선을 다하겠다”고 말했다. 정부는 메가특구에 적용할 노동제도를 놓고 지난달부터 원포인트 사회적 대화를 진행하고 있다. 메가특구특별법 제정과 맞물려 반도체 R&D 인력 등에 대한 주 52시간제 예외 적용 여부가 핵심 의제다. 논의되는 노동특례는 주 52시간제 예외에 그치지 않는다. 고소득 관리자와 R&D 인력 등을 근로시간 규제에서 제외하는 '화이트칼라 이그젬션'을 비롯해 노사 합의 시 기간제 근로자의 사용기간을 현행 2년에서 추가로 2년 연장하는 '기간제 2+2', 선택적 근로시간제 정산기간 확대 등이 함께 거론되고 있다. 이 의원은 김 장관이 과거 반도체 R&D 인력의 주 52시간 예외에 부정적인",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "정책"
+    ],
+    "grade": "C",
+    "market_group": "semi"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 37,
+   "title": "“지금이 바닥이니 사란 말, 더는 못 참아”…6천피 불안에 증권가도 온도차",
+   "url": "https://www.mk.co.kr/news/stock/12174451",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 13일 코스피가 장중 한때 6000선 밑으로 떨어지면서 증권가의 매수 전략에도 온도차가 부각됐다. KB증권과 LS증권은 주가가 낮아진 만큼 분할매수를 검토할 수 있다고 판단한 반면, 삼성증권과 미래에셋증권은 외국인 매도와 대외 불확실성이 이어지고 있어 주요 지표를 확인하며 단계적으로 대응해야 한다고 봤다. 증권사들은 이번 급락을 반도체 투자심리 위축과 수급 불균형 영향으로 분석했다. 다만 가격이 낮아졌다는 판단이 곧바로 빠른 반등 전망으로 이어지지는 않는 모습이다. 매수에 나설 시점과 확인해야 할 조건에서 차이를 보였다. KB증권은 코스피가 두 차례 저점을 거친 뒤 반등하는 ‘W자’ 흐름의 두 번째 바닥을 탐색하고 있다고 판단했다. 김민규 KB증권 연구원은 “시장은 현재 W자 반등의 두 번째 바닥을 탐색 중”이라면서 “코스피 급락의 가장 큰 원인은 반도체 업종의 하락이며, 실적보다 멀티플 변화가 주된 요인으로 작용 중”이라고 말했다. 기업 이익 자체보다 같은 이익에 투자자가 부여하는 주가 수준이 낮아졌다는 설명이다. KB증권은 AI 투자의 지속 가능성에 대한 우려로 시장이 반도체를 경기와 수급에 따라 이익이 변하는 업종으로 다시 평가하고 있다고 지적했다. KB증권이 예상 순자산 대비 주가 수준을 기준으로 검토한 매수 구간은 코스피 5600~6000대 초반이다. 김 연구원",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "실적"
+    ],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 38,
+   "title": "[가보니] K팝 춤추는 로봇들…갤럭시코퍼레이션 '실패의 날'",
+   "url": "https://www.yna.co.kr/view/AKR20261013097400017",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 박형빈 기자 = 휴머노이드 로봇들이 치어리더들과 함께 K팝 음악에 맞춰 춤을 추고, 관람객을 품에 안아주는 로봇까지 등장했다. 13일 서울 강동구 갤럭시 로봇 파크에서 열린 인공지능(AI) 엔터테크 기업 갤럭시코퍼레이션의 '실패의 날' 기념행사는 실패를 두려워하지 않는 도전 정신을 강조하는 동시에 AI와 로봇 기술이 일상 속으로 들어온 모습을 보여주는 자리였다. '실패의 날'은 창업 강국 핀란드에서 2010년 시작된 기념일이다. 연구자와 기업인 등이 실패 경험을 공유하고 서로 격려하며 재도전을 장려하자는 취지로 마련됐다. 이날 축사는 이광형 전 한국과학기술원(KAIST) 총장이 맡았다. 이 전 총장은 KAIST 총장 재임 시절인 2021년 실패를 긍정적으로 받아들이고 도전을 장려하기 위한 '실패연구소'를 설립했다. 그는 \"실패는 성공의 반대말이 아니다. 도전하지 않는 것이 성공의 반대말\"이라며 \"실패를 숨기지 않고 이야기하고 서로 경험에서 배우고 다시 도전할 수 있는 문화가 우리 사회에 더 널리 퍼졌으면 좋겠다\"고 말했다. 최용호 갤럭시코퍼레이션 대표도 무대에 올라 과거 창업 과정에서 겪은 실패 경험을 공유하고 실패를 두려워하지 않는 도전 정신을 강조했다. 행사장에서는 휴머노이드 로봇들이 치어리더들과 함께 K팝 음악에 맞춰 춤을 추는 공연도 펼쳐졌다. 물 흐르듯 자연스럽게 동작을 구현하는 로봇들의 모습에 관객들은 휴",
+   "pre": {
+    "cat": "market",
+    "group": "fa",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 39,
+   "title": "K-소비재 수출 10년간 4.2배↑…\"중소기업 성장 지원해야\"",
+   "url": "https://www.yna.co.kr/view/AKR20261013035300003",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(서울=연합뉴스) 조성흠 기자 = 우리나라 수출이 반도체를 중심으로 호조를 보이는 가운데 화장품과 농수산식품 등 소비재도 호조를 이어가는 것으로 나타났다. 경제계는 지역별 맞춤형 수출 전략과 중소기업의 성장 사다리를 강화해 성장세를 이어가야 한다고 제언했다. 대한상공회의소가 14일 발표한 'K-소비재 수출 10년 동향 분석'에 따르면 푸드(라면·조미김·간식류)·뷰티(기초화장품·기타화장품)·바이오(면역물품·완제의약품) 등 3개 분야 7개 품목의 올해 1~8월 수출액은 155억9천만달러로, 2016년 같은 기간(37억4천만달러)의 4.2배에 달하는 것으로 나타났다. 이는 같은 기간 우리나라 전체 수출이 2.2배 증가한 데 비해 2배에 가까운 수준이다. 국가·지역별로는 미국 수출액이 2억3천만달러에서 27억4천만달러로 11.9배, 유럽 수출액은 4억9천만달러에서 53억6천만달러로 11.0배 늘었다. 아세안(3.4배)과 일본(3.0배)이 뒤를 이었고, 중국·홍콩은 1.2배 늘었다. K-뷰티의 경우 2016년에는 수출의 74.2%가 중국·홍콩으로 향했으나, 올해는 중국·홍콩, 미국, 유럽의 비중이 나란히 20% 안팎으로 비슷해졌다. K-푸드는 중국·미국·일본이 상위 3대 수출국 자리를 지킨 가운데, 라면·조미김·간식류 3개 품목 기준으로는 미국이 중국을 제치고 최대 수출국이 됐다. K-바이오는 바이오시밀러의 공급이 늘면서 유럽 비중이 2016",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 40,
+   "title": "부트캠프 학생들, 서울 코엑스서 반도체·미래차 산업현장 경험",
+   "url": "https://www.yna.co.kr/view/AKR20261013050000530",
+   "src": "yna.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "(세종=연합뉴스) 고상민 기자 = 교육부와 한국산업기술진흥원은 14일부터 16일까지 서울 코엑스에서 '2026년 반도체·미래차 분야 첨단산업 인재양성 부트캠프 학생 지원 행사(라운드업)'를 개최한다고 13일 밝혔다. '첨단산업 인재양성 부트캠프'는 대학과 기업이 공동으로 개발·운영하는 1년 이내 단기 집중교육을 통해 실무역량을 갖춘 첨단 인재를 양성하는 사업이다. 올해는 반도체 분야 28개교와 미래차 분야 4개교를 포함해 인공지능(AI), 이차전지, 바이오, 디스플레이, 항공우주, 로봇 등 총 8개 분야에서 88개교를 지원한다. 이번 행사는 이 사업에 참여하는 학생들이 한자리에 모여(Round) 기업 현장에서 취업 역량을 향상(Up)할 수 있도록 기획됐다. 2024년과 2025년에는 전체 첨단 분야 학생들이 모인 곳에 기업들을 초청해 진행했지만, 올해는 기업이 모인 곳에 학생들이 방문해 산업 현장을 분야별로 깊이 있게 경험할 수 있도록 했다. 김도완 교육부 인공지능인재지원국장은 \"이 행사를 계기로 학생들이 메가프로젝트로 본격화하는 반도체·미래차 산업의 성장과 혁신을 뒷받침할 미래 인재로 성장하기를 바란다\"고 말했다.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 41,
+   "title": "Samsung C&T refers 800MWh Darnum BESS in Victoria’s Gippsland region to Australia’s EPBC Act",
+   "url": "https://www.energy-storage.news/samsung-ct-refers-800mwh-darnum-bess-in-victorias-gippsland-region-to-australias-epbc-act/",
+   "src": "energy-storage.news",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "Samsung C&T’s Australian renewables arm has referred an 800MWh battery energy storage system (BESS) in Victoria’s Gippsland region to the federal government under Australia’s Environment Protection and Biodiversity Conservation (EPBC) Act.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 42,
+   "title": "New South Wales BESS earn nearly AU$6 million as two-hour ‘extreme’ price event sweeps Australia’s energy market",
+   "url": "https://www.energy-storage.news/new-south-wales-bess-earn-nearly-au6-million-as-two-hour-extreme-price-event-sweeps-australias-energy-market/",
+   "src": "energy-storage.news",
+   "date": "2026-10-13",
+   "rel": 3,
+   "lead": "Battery energy storage systems (BESS) in Australia’s New South Wales (NSW) earned an estimated AU$5.63 million (US$3.88 million) in two hours on 12 October, as wholesale electricity prices peaked at AU$23,107/MWh.",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "ESS"
+    ],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 43,
+   "title": "친환경 선박 전환에 자금 공급…신한은행, 해운업계 금융지원 나선다",
+   "url": "https://www.mk.co.kr/news/economy/12174279",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "Google 검색에서 매일경제 기사를 더 자주 볼 수 있습니다. 신한은행이 국내 해운업계의 친환경 선박 도입과 중소·중견 선사들의 자금조달을 돕기 위해 금융지원에 나선다. 은행권에서 조선·반도체 등 주요 산업의 경쟁력을 높이기 위한 ‘생산적 금융’이 확산하는 가운데 해운산업으로도 지원 영역을 넓히는 모습이다. 신한은행은 지난 12일 서울 여의도 한국해운협회에서 국내 해운산업의 경쟁력 강화와 지속가능한 성장을 위한 업무협약을 체결했다고 13일 밝혔다. 협약식에는 정상혁 신한은행장과 박정석 한국해운협회장 등이 참석했다. 이번 협약의 핵심은 해운기업의 사업 특성에 맞춰 자금 공급과 금융서비스를 확대하는 것이다. 우선 국내 선사들이 친환경 선박을 확보하는 과정에서 필요한 선박금융을 지원하고, 자금조달 여건이 취약한 중소·중견 해운기업을 위한 금융지원 방안도 마련하기로 했다. 해운업에 특화된 금융상품을 발굴하고 기업별 경영 상황에 맞는 전문 컨설팅도 제공할 계획이다. 한국해운협회는 회원사가 금융서비스를 원활하게 이용할 수 있도록 신한은행과 협력한다. 협회가 보유한 해운기업 네트워크에 신한은행의 기업금융 역량을 결합한다는 구상이다. 현장 중심의 금융지원 체계도 구축한다. 신한은행은 부산 지역 기업들과의 접점을 확보하고 있는 ‘신한 SOL클러스터 부산’을 활용해 해운기업의 자금 수요를 파악할 방침이다. 한국해운협회와 정보를 교환하면서 개별 기업의",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 44,
+   "title": "DN오토모티브, '납 배출 주사' 투약 의혹…노동부 국감서 진상 규명 촉구 [2026 국감]",
+   "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/dn%EC%98%A4%ED%86%A0%EB%AA%A8%ED%8B%B0%EB%B8%8C-%EB%82%A9-%EB%B0%B0%EC%B6%9C-%EC%A3%BC%EC%82%AC-%ED%88%AC%EC%95%BD-%EC%9D%98%ED%98%B9-%EB%85%B8%EB%8F%99%EB%B6%80-%EA%B5%AD%EA%B0%90%EC%84%9C-%EC%A7%84%EC%83%81-%EA%B7%9C%EB%AA%85-%EC%B4%89%EA%B5%AC-2026-%EA%B5%AD%EA%B0%90/ar-AA2e8nnP",
+   "src": "bing.com",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "고용노동부 국정감사에서 자동차 배터리 제조업체 DN오토모티브가 노동자들에게 납 배출을 촉진하는 킬레이션 주사를 비타민 주사로 속여 투약한 의혹이 제기됐다. 13일 국회 기후에너지환경노동위원회의 고용노동부 국정감사에서 주사 투약이 이뤄진 경위와 작업환경측정 등 증인·참고인 채택과 자료 제출 요구가 이어졌다. 김태선 더불어민주당 의원은 일부 노동자들이 킬레이션 ...",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 45,
+   "title": "“삼성보다 2년 빠르다” 선전포고한 中 D램의 정체",
+   "url": "https://www.mk.co.kr/news/stock/12174148",
+   "src": "mk.co.kr",
+   "date": "2026-10-13",
+   "rel": 4,
+   "lead": "중국 최대 메모리 반도체 기업인 창신메모리테크놀로지(CXMT)가, 대한민국 대표 기업들도 아직 연구 단계에 머물러 있는 차세대 ‘4F²(포에프스퀘어)’ 기술을 적용한 서버용 D램을 당장 올해 안에 출시하겠다고 폭탄선언을 했습니다. 이 충격적인 발표가 과도한 마케팅을 노린 단순한 ‘허세’인지, 아니면 턱밑까지 쫓아온 중국 기술 굴기의 ‘진짜 위협’인지 10월 13일 ‘매일, 경제읽기’에서 살펴보겠습니다. ◆ 유의사항 : 본 영상은 2026.10.13(화)에 녹화되었으며, 영상 용량으로 인해 약간의 버퍼링이 있을 수 있습니다.",
+   "pre": {
+    "cat": "market",
+    "group": "semi",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 46,
+   "title": "BYD Has Now Produced 150,000 Commercial Plugin Vehicles",
+   "url": "https://cleantechnica.com/2026/10/12/byd-has-now-produced-150000-commercial-plugin-vehicles/",
+   "src": "bing.com",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "Support CleanTechnica's work through a Substack subscription, on Patreon, or on Stripe. Help us produce all of the high-quality, original content we publish week after week despite the challenges of ...",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "BYD",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-14-16"
+  },
+  {
+   "cid": 47,
+   "title": "Smart celebrates the return of the two-seater as the #2",
+   "url": "https://www.electrive.com/2026/10/12/smart-2-celebrates-the-return-of-the-two-seater-in-paris/",
+   "src": "electrive.com",
+   "date": "2026-10-12",
+   "rel": 3,
+   "lead": "Smart unveils the new #2 at the Paris Motor Show for the first time. The electric two-seater is expected to achieve a range of around 300 kilometers (WLTP) with its 35.7-kWh battery and is set to hit the market in 2027. electrive attended the world premiere in the French capital. Here are the impressions. Just days after the end of Paris Fashion Week, the French capital welcomed another model to the runway — this time on four wheels. Although the curtain initially refused to cooperate, delaying the big reveal by a few minutes, Smart eventually unveiled the #2, marking the return of the two-seater concept that made the brand famous nearly 30 years ago. The new Smart #2 measures around 2.79 me",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "리스크"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 48,
+   "title": "노동부, DN오토모티브 수사 의뢰",
+   "url": "https://www.sedaily.com/article/20100639",
+   "src": "bing.com",
+   "date": "2026-10-12",
+   "rel": 4,
+   "lead": "고용노동부가 특수 건강진단을 앞둔 노동자들에게 체내 납 배출을 촉진하는 킬레이션제를 투약해 검사 결과를 왜곡하려 했다는 의혹을 받는 배터리 제조 업체 DN오토모티브에 대해 경찰 수사를 의뢰했다. 노동부는 올 8월 DN오토모티브와 관련 병원을 업무방해 혐의로 경찰에 수사 의뢰했다고 12일 밝혔다. 현행 산업안전보건법에는 킬레이션제 투약 행위를 직접 제재할 규정이 없어 업무방해 혐의를 적용했다. DN오토모티브 울산공장은 건강진단에서 혈중 납 농도가 높게 측정되는 것을 막기 위해 노동자들에게 킬레이션 주사를 비타민 주사로 속여 주기적으로 투약했다는 의혹을 받고 있다. 노동부는 감독을 통해 산업안전보건법 위반 68건을 적발하고 형사 입건 및 과태료 부과 조치를 했다. 이재명 대통령은 이날 “유해물질 노출을 은폐한 것은 용납할 수 없는 중대한 인권침해”라며 엄정 대응을 지시했다. DN오토모티브는 김인환 대표이사 명의의 사과문을 통해 “안전과 건강을 최우선으로 하는 원칙을 지키지 못한 점을 반성한다”며 정부 조사에 협조하고 책임 이행과 재발 방지에 나서겠다고 밝혔다.",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 49,
+   "title": "Dematic Lifecycle Solutions for Peak Season - Supply & Demand Chain Executive",
+   "url": "https://www.sdcexec.com/sourcing-procurement/manufacturing/news/22975953/dematic-corporation-dematic-lifecycle-solutions-for-peak-season",
+   "src": "Supply & Demand Chain Executive",
+   "date": "2026-10-14",
+   "rel": 2,
+   "lead": "Dematic Lifecycle Solutions for Peak Season Supply & Demand Chain Executive",
+   "pre": {
+    "cat": "competitor",
+    "group": "grade_B",
+    "entity": "Dematic",
+    "related": [],
+    "tags": [],
+    "grade": "C"
+   },
+   "status": "published:2026-10-14-17"
+  },
+  {
+   "cid": 50,
+   "title": "Gotion Forms Volkswagen Joint Venture for Spanish Battery Manufacture",
+   "url": "https://www.investinspain.org/en/news/2026/gotion",
+   "src": "ICEX-Invest in Spain",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "It will invest €1.1 billion to acquire a 49% stake in the Valencia gigafactory. Chinese company Gotion High-Tech has approved the signing of an investment agreement with the Volkswagen Group, which will establish a joint venture to produce lithium batteries and cathode materials. Under the agreement, the new joint venture will be responsible for investing in the construction of a battery production facility in Sagunto (Valencia). The Valencia gigafactory will have an annual production capacity of 29.1 gigawatt-hours and represent a total investment of approximately €2.262 billion. Gotion will make its contribution through a capital increase in PowerCo Spain, after which the Chinese company w",
+   "pre": {
+    "cat": "customer",
+    "group": "global",
+    "entity": "Gotion",
+    "related": [],
+    "tags": [
+     "투자"
+    ],
+    "grade": "A"
+   },
+   "status": "published:2026-10-14-18"
+  },
+  {
+   "cid": 51,
+   "title": "Lithium Iron Phosphate Battery Manufacturing Plant Setup in India",
+   "url": "https://www.imarcgroup.com/insight/lithium-iron-phosphate-battery-manufacturing-plant-setup-cost-india",
+   "src": "IMARC Group",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "Lithium iron phosphate (LFP) batteries have become the chemistry of choice for grid storage, electric two- and three-wheelers, buses, telecom towers, and home inverters, because they are safe, long-lasting, and free of cobalt and nickel. India is building battery storage at record pace, with installed storage rising from under 1 GWh at the end of 2025 to 8.7 GWh by mid-2026, and long-term plans calling for hundreds of gigawatt-hours. Yet the country still imports most of its cells, and domestic cell capacity is only beginning to come online. Together these trends make Lithium Iron Phosphate (LiFePO4) Battery Manufacturing Plant Setup in India one of the most important opportunities in clean ",
+   "pre": {
+    "cat": "market",
+    "group": "battery",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "B"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 52,
+   "title": "광주 배터리 공장서도 \"납 배출 약 먹었다\"… 노동청, 건강 진단 명령",
+   "url": "https://www.hankookilbo.com/news/article/amp/A2026101313280003548",
+   "src": "한국일보",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "전남광주 한 납축전지(배터리) 공장에서 건강검진을 앞두고 근로자들의 혈중 납 농도를 낮추기 위해 '납 배출 촉진제'를 복용하게 한 정황이 포착돼 노동당국이 전면 조사에 나섰다. 사측이 작업장 내 중금속 노출 책임을 회피하기 위한 건강검진 결과 조작 의혹이 제기된다. 13일 광주고용노동청에 따르면 노동당국은 지난달 7, 8일 광산구에 있는 납축전지 제조업체 2곳을 대상으로 산업안전보건 기획 감독을 실시했다. 고용노동부 지침에 따라 전국 납 취급 사업장을 점검하는 과정이었다. 이 과정에 현장 점검에 동행한 직업병 안심센터 의료진이 근로자들을 면담하던 중 \"체내 납 배출을 촉진하는 경구용 약을 받아 복용한 적이 있다\"는 취지의 진술을 다수 확보했다. 노동당국은 사측이 특수건강진단에서 근로자들의 혈중 납 농도가 높게 나오는 것을 막기 위해 고의로 약물 복용을 지시했을 가능성에 무게를 두고 있다. 광주노동청은 객관적인 혈중 납 농도 측정과 근로자 보호를 위해 해당 사업장 소속 근로자 139명에 휴·복직자 및 최근 퇴사자를 포함한 141명 전원에게 임시건강진단 명령을 내렸다. 또 한국산업안전보건공단을 통해 사업장 작업 환경에 대한 정밀 점검도 진행했다. 광주노동청은 임시 건강진단 결과에 따라 기준치를 넘어서는 중금속이 검출될 경우 시설 개선 및 보건 진단 명령 등 행정조치를 단행할 계획이다. 또 사측이 검진 결과를 왜곡할 목적으로 약물 복용을 ",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 53,
+   "title": "기아, 전기차 수익성 부담...내년으로 갈수록 점차 완화 전망",
+   "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=279969",
+   "src": "파이낸셜포스트",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "흥국증권이 기아에 대한 보고서에서 \"전기차(BEV) 판매 확대에 따른 수익성 부담이 단기적으로 이어질 것\"이라는 전망을 제시했다. 이에 따라 투자의견 '매수(BUY)'는 유지하되 단기 실적 추정치 하향 조정을 반영해 목표주가를 기존 22만원에서 18만원으로 크게 낮췄다. 마건우 흥국증권 연구원은 기아의 3분기 매출액을 31조 4000억원으로 전년 동기 대비 9.4% 증가하고, 영업이익은 2조 2000억원으로 51.7% 늘어날 것으로 추정했다. 다만 전분기와 비교하면 매출액은 5%, 영업이익은 15.6% 감소할 것으로 보인다고 부연했다. 영업이익률은 7.1%로 예상했다. 마 연구원은 \"그룹 내 파업이 이어졌지만 기아는 부분 파업에 그치면서 중국을 제외한 도매판매가 83만 1000대로 전년 동기 대비 8.7% 증가하는 등 판매 성장세를 지속한 것으로 보인다\"고 분석했다. 다만 원화 강세가 외형 성장에 일부 제약 요인으로 작용한 건 부담이다. 또 \"기말 환율 급락에 따른 충당부채 평가이익에도 원자재 가격 상승과 상대적으로 수익성이 낮은 전기차 판매 비중 확대가 부담으로 작용할 것\"이라며 이를 반영, 기존 영업이익률 추정치를 0.7%포인트 하향 조정했다. 한편, 마 연구원은 \"4분기부터 내년으로 갈수록 수익성 부담이 점차 완화될 것\"으로 전망했다. 현대차그룹 메타플랜트 아메리카(HMGMA) 내 스포티지 하이브리드 양산과 미국 내 텔루라이드 ",
+   "pre": {
+    "cat": "market",
+    "group": "ev",
+    "entity": "",
+    "related": [],
+    "tags": [
+     "투자",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 54,
+   "title": "[심층] LG에너지솔루션, 3분기 '어닝 서프라이즈'...전력인프라 재평가",
+   "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=192086",
+   "src": "알파경제",
+   "date": "2026-10-13",
+   "rel": 2,
+   "lead": "LG에너지솔루션이 북미 OEM 고객사 관련 일회성 보상금 인식과 에너지저장장치(ESS) 출하 급증에 힘입어 올해 3분기 시장 기대치를 2배 이상 상회하는 어닝 서프라이즈를 달성했다. 증권가에서는 이번 서프라이즈는 보상금 영향이 크긴 하지만, ESS 출하 회복과 AMPC 증가 등 펀더멘털 개선도 부각됐다고 분석했다. 이어 미국 ESS 공급망 재편에 따른 수혜가 가시화되고 있다고 평가했다. ◇ 3분기 영업이익 7560억 '서프라이즈'...일회성 보상금 덕 13일 금융투자업계에 따르면 LG에너지솔루션의 2026년 3분기 연결기준 잠정 매출액은 전년 동기 대비 69% 증가한 9조 6434억원, 영업이익은 25.7% 증가한 7560억원을 기록했다. 시장 컨센서스 매출 8조 8000억원, 영업이익 3264억원을 대폭 상회한 수치다. 가장 큰 요인은 북미 OEM 고객사의 합작법인(JV) 계획 변경 및 물량 미인수에 따른 일회성 보상금 약 3200억~4000억원이 3분기 영업이익에 집중 반영된 영향이다. 여기에 ESS향 배터리는 팩/링크 병목 완화로 출하가 기존 가이던스 수준을 웃돈 것으로 추정된다. 전사 AMPC의 대부분을 차지하며 실적 개선을 견인했다. 자동차 전지도 유럽향 물량 회복과 GM얼티엄셀즈 재가동으로 매출이 전 분기 대비 큰 폭으로 증가했으며, 고정비 부담 완화에 적자폭도 뚜렷하게 축소됐다. 소형전지는 주요 고객사인 테슬라의 판매 호",
+   "pre": {
+    "cat": "customer",
+    "group": "lgensol",
+    "entity": "LG에너지솔루션",
+    "related": [],
+    "tags": [
+     "ESS",
+     "투자",
+     "정책",
+     "실적"
+    ],
+    "grade": "A"
+   },
+   "status": "capped"
+  },
+  {
+   "cid": 55,
+   "title": "비타민 주사라더니 납 배출 주사… 노동부, 車배터리 공장 수사의뢰",
+   "url": "https://m.segye.com/view/20261012519338",
+   "src": "세계일보",
+   "date": "2026-10-12",
+   "rel": 2,
+   "lead": "자동차 배터리 공장에서 중금속 배출 주사를 ‘비타민 주사’라고 속여 노동자들에게 반복 투약했다는 의혹이 제기돼 고용노동부가 경찰청에 수사를 의뢰했다. 노동부는 12일 보도설명자료에서 자동차 배터리 제조회사인 DN오토모티브에서 관련 의혹을 제보받았다며 “특수건강진단 전 킬레이션 투약은 노동부의 건강보호 조치를 방해한 것으로 판단해 경찰청에 수사를 의뢰했다”고 밝혔다. 앞서 DN오토모티브 울산공장에서 노동자들에게 비타민 주사라고 안내하며 혈액 속 중금속을 배출하는 킬레이션 주사를 맞혔다는 의혹이 보도됐다. 회사 내부 문건에는 노동자별 투약 횟수와 건강검진 일정 등이 관리된 정황도 담긴 것으로 알려졌다. 노동부는 1월 말 관련 제보를 받은 직후 안전보건감독 및 정밀 작업환경측정을 실시했다. 3∼4월 안전보건감독을 진행해 산업안전보건법 위반 68건을 입건·송치하고 과태료 4620만원을 부과했다. 납 노출 공정에는 4월21일부터 5월7일까지 사용중지 명령을 내렸다. 해당 사업장의 작업환경측정기관을 점검해 부실 측정을 확인한 뒤 6월22일부터 지난달 21일까지 3개월간 영업정지 처분을 내렸다. 노동부는 8월13일 업무방해 혐의로 경찰에 수사를 의뢰했고, 현재 울산경찰청이 관련 사건을 수사 중이다. 노동부는 배터리 제조 동종 사업장 14곳에 대한 기획감독과 정밀 작업환경측정도 진행하고 있다. 이재명 대통령은 “결코 용납할 수 없는 중대한 인권 침",
+   "pre": {
+    "cat": "tech_policy",
+    "group": "all",
+    "entity": "",
+    "related": [],
+    "tags": [],
+    "grade": "C",
+    "market_group": "battery"
+   },
+   "status": "capped"
+  }
+ ]
+}

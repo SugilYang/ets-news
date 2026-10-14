@@ -12319,8 +12319,34 @@
   {
    "date": "2026-10-15",
    "entity": "삼성SDI",
-   "cat": "project",
-   "group": "all",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, 인디애나 SPE 각형 LFP 10월 양산 목표…3.5조 수주 대응",
+   "nt": "삼성sdi인디애나spe각형lfp10월양산목표35조수주대응",
+   "tk": [
+    "10월",
+    "5조",
+    "lfp",
+    "spe",
+    "각형",
+    "대응",
+    "목표",
+    "삼성sdi",
+    "수주",
+    "양산",
+    "인디애나"
+   ],
+   "nums": [
+    "2029년",
+    "3.5조"
+   ],
+   "url": "https://thetracker.co.kr/View.aspx?No=4261736"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
    "h": "삼성SDI, 미국 ESS용 LFP 양산 임박…3.5조 수주 공급 채비",
    "nt": "삼성sdi미국ess용lfp양산임박35조수주공급채비",
    "tk": [
@@ -12343,24 +12369,35 @@
   },
   {
    "date": "2026-10-15",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "GBT begins series production of solid-state battery cells",
-   "nt": "gbtbeginsseriesproductionofsolidstatebat",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔 3Q 누적 영업이익 6616억(-54.9%)…美 ESS 생산능력 50GWh+ 목표",
+   "nt": "lg엔솔3q누적영업이익6616억549ess생산능력50gwh목표",
    "tk": [
-    "battery",
-    "begins",
-    "cells",
-    "gbt",
-    "of",
-    "production",
-    "series",
-    "solid",
-    "state"
+    "3q",
+    "50gwh",
+    "54",
+    "6616억",
+    "ess",
+    "lg엔솔",
+    "누적",
+    "목표",
+    "생산능력",
+    "영업이익"
    ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/14/gbt-begins-series-production-of-solid-state-battery-cells/"
+   "nums": [
+    "1조",
+    "27.4%",
+    "3461억",
+    "4분기",
+    "50GWh",
+    "54.9%",
+    "6616억",
+    "6845억",
+    "9768억"
+   ],
+   "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261014010004455"
   },
   {
    "date": "2026-10-15",
@@ -12381,75 +12418,93 @@
     "연간"
    ],
    "nums": [
+    "1조",
+    "27.4%",
+    "3461억",
     "4분기",
-    "50GWh"
+    "6845억",
+    "9768억"
    ],
    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261014010004455"
-  },
-  {
-   "date": "2026-10-15",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "[더벨]배터리솔루션즈, LFP 배터리 ‘재사용’ 사업 진출",
-   "nt": "더벨배터리솔루션즈lfp배터리재사용사업진출",
-   "tk": [
-    "lfp",
-    "더벨",
-    "배터리",
-    "배터리솔루션즈",
-    "사업",
-    "재사용",
-    "진출"
-   ],
-   "nums": [],
-   "url": "https://www.mt.co.kr/stock/2026/10/14/2026101414419612418"
-  },
-  {
-   "date": "2026-10-15",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "삼성중공업, 셔틀탱커 하이브리드 시스템 기본인증 획득",
-   "nt": "삼성중공업셔틀탱커하이브리드시스템기본인증획득",
-   "tk": [
-    "기본인증",
-    "삼성중공업",
-    "셔틀탱커",
-    "시스템",
-    "하이브리드",
-    "획득"
-   ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20261014113700003"
   },
   {
    "date": "2026-10-15",
    "entity": "LG에너지솔루션",
    "cat": "customer",
    "group": "lgensol",
-   "h": "배터리 3사, 실적 온도차…희비 가른 '일회성 이익’",
-   "nt": "배터리3사실적온도차희비가른일회성이익",
+   "h": "LG엔솔 전 사장, 中 컨설팅 자문료 100억대 배임 혐의 경찰 수사",
+   "nt": "lg엔솔전사장컨설팅자문료100억대배임혐의경찰수사",
    "tk": [
-    "3사",
-    "가른",
-    "배터리",
-    "실적",
-    "온도차",
-    "이익",
-    "일회성",
-    "희비"
+    "100억대",
+    "lg엔솔",
+    "경찰",
+    "배임",
+    "사장",
+    "수사",
+    "자문료",
+    "컨설팅",
+    "혐의"
    ],
    "nums": [
-    "3분기"
+    "100억",
+    "2010년",
+    "2023년",
+    "2만"
    ],
-   "url": "https://www.bloter.net/news/articleView.html?idxno=675615"
+   "url": "https://www.etnews.com/20261014000317"
   },
   {
    "date": "2026-10-15",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG에너지솔루션 전 사장, 100억원대 배임 혐의 경찰 수사",
+   "nt": "lg에너지솔루션전사장100억원대배임혐의경찰수사",
+   "tk": [
+    "100억원대",
+    "lg에너지솔루션",
+    "경찰",
+    "배임",
+    "사장",
+    "수사",
+    "혐의"
+   ],
+   "nums": [
+    "100억",
+    "2010년",
+    "2023년",
+    "2만"
+   ],
+   "url": "https://www.etnews.com/20261014000317"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "코윈테크",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "코윈로보틱스, ESS 고객 요청으로 50t급 초고중량 AMR 개발",
+   "nt": "코윈로보틱스ess고객요청으로50t급초고중량amr개발",
+   "tk": [
+    "50t급",
+    "amr",
+    "ess",
+    "개발",
+    "고객",
+    "요청으로",
+    "초고중량",
+    "코윈로보틱스"
+   ],
+   "nums": [
+    "5년",
+    "7000억"
+   ],
+   "url": "https://www.mk.co.kr/news/business/12175987"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "코윈테크",
+   "cat": "competitor",
+   "group": "grade_A",
    "h": "\"50톤짜리 ESS 이동 척척 … 특수 현장로봇 시장 선점할 것\"",
    "nt": "50톤짜리ess이동척척특수현장로봇시장선점할것",
    "tk": [
@@ -12463,56 +12518,227 @@
     "현장로봇"
    ],
    "nums": [
-    "50톤"
+    "50톤",
+    "5년",
+    "7000억"
    ],
    "url": "https://www.mk.co.kr/news/business/12175987"
-  },
-  {
-   "date": "2026-10-15",
-   "entity": "BYD",
-   "cat": "customer",
-   "group": "global",
-   "h": "현대차그룹, 인도에 155억달러 투자... BYD, 플래시 충전 '아토 8' 공개 외[시경Today-자동차]",
-   "nt": "현대차그룹인도에155억달러투자byd플래시충전아토8공개외시경today자동차",
-   "tk": [
-    "155억달러",
-    "byd",
-    "공개",
-    "시경today",
-    "아토",
-    "인도에",
-    "자동차",
-    "충전",
-    "투자",
-    "플래시",
-    "현대차그룹"
-   ],
-   "nums": [
-    "155억"
-   ],
-   "url": "https://www.meconomynews.com/news/articleView.html?idxno=202519"
   },
   {
    "date": "2026-10-15",
    "entity": "",
    "cat": "tech_policy",
    "group": "all",
-   "h": "반도체 설계대전 대통령상에 연세대팀…우수작 21개팀 시상",
-   "nt": "반도체설계대전대통령상에연세대팀우수작21개팀시상",
+   "h": "GAC 계열 GBT, 광저우 난사서 전고체 셀 양산 개시…1GWh",
+   "nt": "gac계열gbt광저우난사서전고체셀양산개시1gwh",
    "tk": [
-    "21개팀",
-    "대통령상에",
-    "반도체",
-    "설계대전",
-    "시상",
-    "연세대팀",
-    "우수작"
+    "1gwh",
+    "gac",
+    "gbt",
+    "개시",
+    "계열",
+    "광저우",
+    "난사서",
+    "양산",
+    "전고체"
    ],
    "nums": [
-    "2000년",
-    "21개"
+    "1GWh",
+    "4GWh"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20261014168700003"
+   "url": "https://www.electrive.com/2026/10/14/gbt-begins-series-production-of-solid-state-battery-cells/"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "GBT begins series production of solid-state battery cells",
+   "nt": "gbtbeginsseriesproductionofsolidstatebat",
+   "tk": [
+    "battery",
+    "begins",
+    "cells",
+    "gbt",
+    "of",
+    "production",
+    "series",
+    "solid",
+    "state"
+   ],
+   "nums": [
+    "4GWh"
+   ],
+   "url": "https://www.electrive.com/2026/10/14/gbt-begins-series-production-of-solid-state-battery-cells/"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "전기차 배터리 구독(BaaS) 실증 이달 시작…아이오닉 최대 2200만원↓",
+   "nt": "전기차배터리구독baas실증이달시작아이오닉최대2200만원",
+   "tk": [
+    "2200만원",
+    "baas",
+    "구독",
+    "배터리",
+    "시작",
+    "실증",
+    "아이오닉",
+    "이달",
+    "전기차",
+    "최대"
+   ],
+   "nums": [
+    "1700만",
+    "2000대",
+    "2200만",
+    "2년"
+   ],
+   "url": "https://www.etnews.com/20261014000156"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "[단독] '전기차 배터리 구독시대'…최대 2200만원 싸게 사고, 보험금은 나눈다",
+   "nt": "단독전기차배터리구독시대최대2200만원싸게사고보험금은나눈다",
+   "tk": [
+    "2200만원",
+    "구독시대",
+    "나눈다",
+    "단독",
+    "배터리",
+    "보험금은",
+    "사고",
+    "싸게",
+    "전기차",
+    "최대"
+   ],
+   "nums": [
+    "1700만",
+    "2000대",
+    "2200만",
+    "2년"
+   ],
+   "url": "https://www.etnews.com/20261014000156"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "삼성전자 \"4F² D램 개발 중\"…CXMT 연내 출시 예고에 대응",
+   "nt": "삼성전자4fd램개발중cxmt연내출시예고에대응",
+   "tk": [
+    "4f",
+    "cxmt",
+    "d램",
+    "개발",
+    "대응",
+    "삼성전자",
+    "연내",
+    "예고에",
+    "출시"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261014136100003"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "중국이 띄운 차세대 D램 기술…삼성전자도 \"개발 중\"",
+   "nt": "중국이띄운차세대d램기술삼성전자도개발중",
+   "tk": [
+    "d램",
+    "개발",
+    "기술",
+    "띄운",
+    "삼성전자도",
+    "중국이",
+    "차세대"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261014136100003"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전자, 장비 협력사에 '제조 공정 AI 적용' 주문…고장·오류 사전 대응",
+   "nt": "삼성전자장비협력사에제조공정ai적용주문고장오류사전대응",
+   "tk": [
+    "ai",
+    "고장",
+    "공정",
+    "대응",
+    "사전",
+    "삼성전자",
+    "오류",
+    "장비",
+    "적용",
+    "제조",
+    "주문",
+    "협력사에"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261014000307"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전자, 반도체 협력사에 “AI로 장비 고장·오류 사전 대응” 주문...장비업계 기술 전략 바뀌나",
+   "nt": "삼성전자반도체협력사에ai로장비고장오류사전대응주문장비업계기술전략바뀌나",
+   "tk": [
+    "ai로",
+    "고장",
+    "기술",
+    "대응",
+    "바뀌나",
+    "반도체",
+    "사전",
+    "삼성전자",
+    "오류",
+    "장비",
+    "장비업계",
+    "전략",
+    "주문",
+    "협력사에"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261014000307"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "브룩스, ISO 클래스 4 클린룸 로봇 '프리사이스플렉스 c10 CR' 공개",
+   "nt": "브룩스iso클래스4클린룸로봇프리사이스플렉스c10cr공개",
+   "tk": [
+    "c10",
+    "cr",
+    "iso",
+    "공개",
+    "로봇",
+    "브룩스",
+    "클래스",
+    "클린룸",
+    "프리사이스플렉스"
+   ],
+   "nums": [
+    "10년",
+    "2026",
+    "30%"
+   ],
+   "url": "https://www.etnews.com/20261015000003"
   },
   {
    "date": "2026-10-15",
@@ -12531,7 +12757,11 @@
     "브룩스",
     "클린룸"
    ],
-   "nums": [],
+   "nums": [
+    "10년",
+    "2026",
+    "30%"
+   ],
    "url": "https://www.etnews.com/20261015000003"
   },
   {
@@ -12539,25 +12769,25 @@
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "엔비디아, 반도체 소재 시뮬레이션 가속 '큐포텐셜' 첫 공개… GPU 대비 3배 빨라",
-   "nt": "엔비디아반도체소재시뮬레이션가속큐포텐셜첫공개gpu대비3배빨라",
+   "h": "엔비디아·지멘스, 전산 리소그래피 연산 최대 12배 가속…칼리버·큐리소 결합",
+   "nt": "엔비디아지멘스전산리소그래피연산최대12배가속칼리버큐리소결합",
    "tk": [
-    "3배",
-    "gpu",
+    "12배",
     "가속",
-    "공개",
-    "대비",
-    "반도체",
-    "빨라",
-    "소재",
-    "시뮬레이션",
+    "결합",
+    "리소그래피",
     "엔비디아",
-    "큐포텐셜"
+    "연산",
+    "전산",
+    "지멘스",
+    "최대",
+    "칼리버",
+    "큐리소"
    ],
    "nums": [
-    "3배"
+    "12배"
    ],
-   "url": "https://www.etnews.com/20261015000002"
+   "url": "https://www.etnews.com/20261015000001"
   },
   {
    "date": "2026-10-15",
@@ -12590,6 +12820,79 @@
    "entity": "",
    "cat": "market",
    "group": "ev",
+   "h": "현대차그룹, 인도에 7년간 155억달러 투자…정의선-모디 회동",
+   "nt": "현대차그룹인도에7년간155억달러투자정의선모디회동",
+   "tk": [
+    "155억달러",
+    "7년간",
+    "모디",
+    "인도에",
+    "정의선",
+    "투자",
+    "현대차그룹",
+    "회동"
+   ],
+   "nums": [
+    "155억",
+    "7년"
+   ],
+   "url": "https://www.meconomynews.com/news/articleView.html?idxno=202519"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "현대차그룹, 인도에 155억달러 투자... BYD, 플래시 충전 '아토 8' 공개 외[시경Today-자동차]",
+   "nt": "현대차그룹인도에155억달러투자byd플래시충전아토8공개외시경today자동차",
+   "tk": [
+    "155억달러",
+    "byd",
+    "공개",
+    "시경today",
+    "아토",
+    "인도에",
+    "자동차",
+    "충전",
+    "투자",
+    "플래시",
+    "현대차그룹"
+   ],
+   "nums": [
+    "155억"
+   ],
+   "url": "https://www.meconomynews.com/news/articleView.html?idxno=202519"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Aito, 2027년 가을 유럽 진출 계획…파리모터쇼에 4개 모델 전시",
+   "nt": "aito2027년가을유럽진출계획파리모터쇼에4개모델전시",
+   "tk": [
+    "2027년",
+    "4개",
+    "aito",
+    "가을",
+    "계획",
+    "모델",
+    "유럽",
+    "전시",
+    "진출",
+    "파리모터쇼에"
+   ],
+   "nums": [
+    "2027년",
+    "4개"
+   ],
+   "url": "https://www.electrive.com/2026/10/14/aito-plans-european-expansion-for-autumn-2027/"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
    "h": "Aito plans European expansion for autumn 2027",
    "nt": "aitoplanseuropeanexpansionforautumn2027",
    "tk": [
@@ -12610,115 +12913,131 @@
    "date": "2026-10-15",
    "entity": "",
    "cat": "market",
-   "group": "ev",
-   "h": "TomTom accelerates integration of new EVs into its EV services",
-   "nt": "tomtomacceleratesintegrationofnewevsinto",
+   "group": "battery",
+   "h": "트라피구라, EnergyX와 배터리급 리튬 10만t 10년 오프테이크",
+   "nt": "트라피구라energyx와배터리급리튬10만t10년오프테이크",
    "tk": [
-    "accelerates",
-    "ev",
-    "evs",
-    "integration",
-    "into",
-    "its",
-    "new",
-    "of",
-    "services",
-    "tomtom"
+    "10년",
+    "10만t",
+    "energyx와",
+    "리튬",
+    "배터리급",
+    "오프테이크",
+    "트라피구라"
    ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/14/tomtom-accelerates-integration-of-new-evs-into-its-ev-services/"
+   "nums": [
+    "10년",
+    "10만"
+   ],
+   "url": "https://www.electrive.com/2026/10/14/trafigura-secures-access-to-lithium-from-energyx/"
   },
   {
    "date": "2026-10-15",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "Ilika targets earlier commercialisation opportunities for Goliath solid-state batteries",
-   "nt": "ilikatargetsearliercommercialisationoppo",
+   "cat": "market",
+   "group": "battery",
+   "h": "Trafigura secures access to lithium from EnergyX",
+   "nt": "trafigurasecuresaccesstolithiumfromenerg",
    "tk": [
-    "batteries",
-    "commercialisation",
-    "earlier",
-    "for",
-    "goliath",
-    "ilika",
-    "opportunities",
-    "solid",
-    "state",
-    "targets"
-   ],
-   "nums": [],
-   "url": "https://www.directorstalkinterviews.com/ilika-targets-earlier-commercialisation-opportunities-for-goliath-solid-state-batteries/4121266351"
-  },
-  {
-   "date": "2026-10-15",
-   "entity": "LEAD Intelligent",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "Wuxi Lead Schedules Board Meeting to Approve Q3 2026 Results",
-   "nt": "wuxileadschedulesboardmeetingtoapproveq3",
-   "tk": [
-    "2026",
-    "approve",
-    "board",
-    "lead",
-    "meeting",
-    "q3",
-    "results",
-    "schedules",
+    "access",
+    "energyx",
+    "from",
+    "lithium",
+    "secures",
     "to",
-    "wuxi"
-   ],
-   "nums": [
-    "2026",
-    "Q3"
-   ],
-   "url": "https://www.tipranks.com/news/company-announcements/wuxi-lead-schedules-board-meeting-to-approve-q3-2026-results"
-  },
-  {
-   "date": "2026-10-15",
-   "entity": "Dematic",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "Dematic Lifecycle Solutions for Peak Season - Supply & Demand Chain Executive",
-   "nt": "dematiclifecyclesolutionsforpeakseasonsu",
-   "tk": [
-    "chain",
-    "demand",
-    "dematic",
-    "executive",
-    "for",
-    "lifecycle",
-    "peak",
-    "season",
-    "solutions",
-    "supply"
+    "trafigura"
    ],
    "nums": [],
-   "url": "https://www.sdcexec.com/sourcing-procurement/manufacturing/news/22975953/dematic-corporation-dematic-lifecycle-solutions-for-peak-season"
+   "url": "https://www.electrive.com/2026/10/14/trafigura-secures-access-to-lithium-from-energyx/"
   },
   {
    "date": "2026-10-15",
-   "entity": "Gotion",
-   "cat": "customer",
-   "group": "global",
-   "h": "Gotion Forms Volkswagen Joint Venture for Spanish Battery Manufacture",
-   "nt": "gotionformsvolkswagenjointventureforspan",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "배터리솔루션즈(킵스파마 자회사), LFP 배터리 ESS 재사용 사업 진출",
+   "nt": "배터리솔루션즈킵스파마자회사lfp배터리ess재사용사업진출",
    "tk": [
-    "battery",
-    "for",
-    "forms",
-    "gotion",
-    "joint",
-    "manufacture",
-    "spanish",
-    "venture",
-    "volkswagen"
+    "ess",
+    "lfp",
+    "배터리",
+    "배터리솔루션즈",
+    "사업",
+    "자회사",
+    "재사용",
+    "진출",
+    "킵스파마"
+   ],
+   "nums": [],
+   "url": "https://www.mt.co.kr/stock/2026/10/14/2026101414419612418"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "[더벨]배터리솔루션즈, LFP 배터리 ‘재사용’ 사업 진출",
+   "nt": "더벨배터리솔루션즈lfp배터리재사용사업진출",
+   "tk": [
+    "lfp",
+    "더벨",
+    "배터리",
+    "배터리솔루션즈",
+    "사업",
+    "재사용",
+    "진출"
+   ],
+   "nums": [],
+   "url": "https://www.mt.co.kr/stock/2026/10/14/2026101414419612418"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "일리노이, 600MW ESS 조달서 438MW 미달…이해관계자 의견 수렴",
+   "nt": "일리노이600mwess조달서438mw미달이해관계자의견수렴",
+   "tk": [
+    "438mw",
+    "600mw",
+    "ess",
+    "미달",
+    "수렴",
+    "의견",
+    "이해관계자",
+    "일리노이",
+    "조달서"
    ],
    "nums": [
-    "49%"
+    "438MW",
+    "600MW"
    ],
-   "url": "https://www.investinspain.org/en/news/2026/gotion"
+   "url": "https://www.energy-storage.news/illinois-seeks-feedback-after-coming-up-short-in-large-scale-battery-storage-procurement/"
+  },
+  {
+   "date": "2026-10-15",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Illinois seeks feedback after coming up short in large-scale battery storage procurement",
+   "nt": "illinoisseeksfeedbackaftercomingupshorti",
+   "tk": [
+    "after",
+    "battery",
+    "coming",
+    "feedback",
+    "illinois",
+    "in",
+    "large",
+    "procurement",
+    "scale",
+    "seeks",
+    "short",
+    "storage",
+    "up"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/illinois-seeks-feedback-after-coming-up-short-in-large-scale-battery-storage-procurement/"
   }
  ]
 }

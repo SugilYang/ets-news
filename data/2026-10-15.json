@@ -1,0 +1,464 @@
+{
+ "schema": 4,
+ "date": "2026-10-15",
+ "weekday": "목",
+ "edition": "조간",
+ "issue_no": 20,
+ "window_hours": 36,
+ "summary": "삼성SDI, 미국 ESS용 LFP 양산 임박…3.5조  · 현대차그룹, 인도에 155억달러 투자... BYD, 플 · Gotion Forms Volkswagen Joint ",
+ "top": [
+  "2026-10-15-0",
+  "2026-10-15-7",
+  "2026-10-15-17"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-15-0",
+       "h": "삼성SDI, 미국 ESS용 LFP 양산 임박…3.5조 수주 공급 채비",
+       "b": "-인디애나 SPE 공장서 10월 양산 목표…전기차 라인 전환해 ESS 생산 확대 -SBB 2.0 연내 고객사 공급 추진…<b>2029년</b>까지 수주 물량 대응, 추가…",
+       "src": "더트래커",
+       "url": "https://thetracker.co.kr/View.aspx?No=4261736",
+       "date": "2026-10-14",
+       "cat": "project",
+       "group": "all",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형",
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-10-15-2",
+       "h": "김동명號 LG엔솔, 연간 실적 반등 ‘고삐’…4분기 ‘ESS’에 달렸다",
+       "b": "둔화에 상반기 부진 ESS 중심 사업 재편 가속 美 생산능력 <b>50GWh</b> 이상 목표 [참고사진2] 18일(현지시간) 개최된 LG에너지솔루션이 '미시간 랜싱' 공장 오픈 기념식에서 김동명 사장이 기념사를 하고있다.",
+       "src": "bing.com",
+       "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261014010004455",
+       "date": "2026-10-14",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "ESS",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-5",
+       "h": "배터리 3사, 실적 온도차…희비 가른 '일회성 이익’",
+       "b": "국내 배터리 3사의 올해 3분기 실적이 엇갈릴 전망이다.",
+       "src": "bing.com",
+       "url": "https://www.bloter.net/news/articleView.html?idxno=675615",
+       "date": "2026-10-14",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "정책",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": []
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": []
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-10-15-7",
+       "h": "현대차그룹, 인도에 155억달러 투자... BYD, 플래시 충전 '아토 8' 공개 외[시경Today-자동차]",
+       "b": "현대자동차그룹 정의선 회장이 나렌드라 모디 인도 총리와 만나 현지 성장 전략과 모빌리티 산업 발전 방안을 논의했다.",
+       "src": "시장경제신문",
+       "url": "https://www.meconomynews.com/news/articleView.html?idxno=202519",
+       "date": "2026-10-14",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-17",
+       "h": "Gotion Forms Volkswagen Joint Venture for Spanish Battery Manufacture",
+       "b": "It will invest €1.1 billion to acquire a <b>49%</b> stake in the Valencia gigafactory.",
+       "src": "ICEX-Invest in Spain",
+       "url": "https://www.investinspain.org/en/news/2026/gotion",
+       "date": "2026-10-13",
+       "cat": "customer",
+       "group": "global",
+       "entity": "Gotion",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-10-15-15",
+       "h": "Wuxi Lead Schedules Board Meeting to Approve Q3 2026 Results",
+       "b": "An announcement from Wuxi Lead Intelligent Equipment Co., Ltd.",
+       "src": "bing.com",
+       "url": "https://www.tipranks.com/news/company-announcements/wuxi-lead-schedules-board-meeting-to-approve-q3-2026-results",
+       "date": "2026-10-14",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "LEAD Intelligent",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-10-15-16",
+       "h": "Dematic Lifecycle Solutions for Peak Season - Supply &amp; Demand Chain Executive",
+       "b": "",
+       "src": "Supply & Demand Chain Executive",
+       "url": "https://www.sdcexec.com/sourcing-procurement/manufacturing/news/22975953/dematic-corporation-dematic-lifecycle-solutions-for-peak-season",
+       "date": "2026-10-14",
+       "cat": "competitor",
+       "group": "grade_B",
+       "entity": "Dematic",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-15-1",
+       "h": "GBT begins series production of solid-state battery cells",
+       "b": "Greater Bay Technology, a Chinese battery developer supported by the GAC Group, has…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/14/gbt-begins-series-production-of-solid-state-battery-cells/",
+       "date": "2026-10-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-8",
+       "h": "반도체 설계대전 대통령상에 연세대팀…우수작 21개팀 시상",
+       "b": "이 행사는 반도체 설계 전공 대학생들의 설계 능력 향상과 창의적인 아이디어를 발굴하기 위해 한국반도체산업협회 주관으로 <b>2000년</b>부터 매년 개최되고 있다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261014168700003",
+       "date": "2026-10-15",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-14",
+       "h": "Ilika targets earlier commercialisation opportunities for Goliath solid-state batteries",
+       "b": "Ilika is broadening the route to market for its Goliath solid-state batteries, targeting…",
+       "src": "bing.com",
+       "url": "https://www.directorstalkinterviews.com/ilika-targets-earlier-commercialisation-opportunities-for-goliath-solid-state-batteries/4121266351",
+       "date": "2026-10-14",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-10-15-12",
+       "h": "Aito plans European expansion for autumn 2027",
+       "b": "The Chinese Seres brand Aito outlines its launch plans for Europe at the Paris Motor…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/14/aito-plans-european-expansion-for-autumn-2027/",
+       "date": "2026-10-15",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-13",
+       "h": "TomTom accelerates integration of new EVs into its EV services",
+       "b": "TomTom is expanding its E-Mobility Suite with a new platform for automakers.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/14/tomtom-accelerates-integration-of-new-evs-into-its-ev-services/",
+       "date": "2026-10-14",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-10-15-3",
+       "h": "[더벨]배터리솔루션즈, LFP 배터리 ‘재사용’ 사업 진출",
+       "b": "더벨 '머니투데이 thebell' 에 출고된 기사입니다.",
+       "src": "bing.com",
+       "url": "https://www.mt.co.kr/stock/2026/10/14/2026101414419612418",
+       "date": "2026-10-14",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-4",
+       "h": "삼성중공업, 셔틀탱커 하이브리드 시스템 기본인증 획득",
+       "b": "셔틀탱커는 해상 유전으로부터 원유를 공급받는 원유 운반선의 한 종류다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261014113700003",
+       "date": "2026-10-14",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-6",
+       "h": "\"50톤짜리 ESS 이동 척척 … 특수 현장로봇 시장 선점할 것\"",
+       "b": "코윈로보틱스가 ESS 고객사 요청으로 50t급 초고중량 AMR 을 개발했습니다.",
+       "src": "매일경제",
+       "url": "https://www.mk.co.kr/news/business/12175987",
+       "date": "2026-10-14",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "AMR",
+        "ESS",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-10-15-9",
+       "h": "브룩스, 반도체 공장 밀도 높이는 클린룸 로봇 공개",
+       "b": "브룩스 오토메이션이 반도체 공장의 공간 효율을 높여야 한다고 강조하면서, 이를 실현하는 새 클린룸 로봇을 선보였다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261015000003",
+       "date": "2026-10-15",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-10",
+       "h": "엔비디아, 반도체 소재 시뮬레이션 가속 '큐포텐셜' 첫 공개… GPU 대비 3배 빨라",
+       "b": "엔비디아가 반도체 소재와 계면을 원자·분자 단위로 시뮬레이션하는 신규 라이브러리 '큐포텐셜(cuPotential)'을 처음으로 공개했다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261015000002",
+       "date": "2026-10-15",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-15-11",
+       "h": "엔비디아·지멘스, 차세대 AI 칩 노광 연산 최대 12배 가속… '칼리버·큐리소' 결합",
+       "b": "엔비디아와 지멘스 디지털 인더스트리 소프트웨어(지멘스 EDA)가 차세대 인공지능(AI) 반도체 제조의 최대 병목으로 꼽히는 전산…",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261015000001",
+       "date": "2026-10-15",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": []
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 87,
+  "published": 18,
+  "headline_only": 4,
+  "followup": 0,
+  "suppressed": 1,
+  "sameday": 4,
+  "nobody": 0,
+  "unclassified": 0,
+  "capped": 34
+ },
+ "sources": [
+  "ICEX-Invest in Spain",
+  "Supply & Demand Chain Executive",
+  "bing.com",
+  "electrive.com",
+  "etnews.com",
+  "yna.co.kr",
+  "더트래커",
+  "매일경제",
+  "시장경제신문"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

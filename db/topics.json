@@ -2,422 +2,6 @@
  "days": 30,
  "topics": [
   {
-   "date": "2026-09-15",
-   "entity": "LG에너지솔루션",
-   "cat": "project",
-   "group": "all",
-   "h": "ESS 3차 중앙계약시장 입찰 앞두고 배터리 3사 수주 경쟁",
-   "nt": "ess3차중앙계약시장입찰앞두고배터리3사수주경쟁",
-   "tk": [
-    "3사",
-    "3차",
-    "ess",
-    "경쟁",
-    "배터리",
-    "수주",
-    "앞두고",
-    "입찰",
-    "중앙계약시장"
-   ],
-   "nums": [
-    "19.1%",
-    "1GW",
-    "25.2%",
-    "55.8%"
-   ],
-   "url": "https://theviewers.co.kr/View.aspx?No=4225407"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG엔솔·삼성SDI, ESS 배터리 수주량 2년치 확보",
-   "nt": "lg엔솔삼성sdiess배터리수주량2년치확보",
-   "tk": [
-    "2년치",
-    "ess",
-    "lg엔솔",
-    "배터리",
-    "삼성sdi",
-    "수주량",
-    "확보"
-   ],
-   "nums": [
-    "2년"
-   ],
-   "url": "https://biz.chosun.com/industry/company/2026/09/15/QKKUAAFAP5GTLHPSUMQVRHBGEE/"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "Panasonic Energy",
-   "cat": "customer",
-   "group": "global",
-   "h": "파나소닉, 150℃ 작동 전고체 배터리 개발…4분기 샘플 출하",
-   "nt": "파나소닉150작동전고체배터리개발4분기샘플출하",
-   "tk": [
-    "150",
-    "4분기",
-    "개발",
-    "배터리",
-    "샘플",
-    "작동",
-    "전고체",
-    "출하",
-    "파나소닉"
-   ],
-   "nums": [
-    "2026년",
-    "4분기"
-   ],
-   "url": "https://www.bizwnews.com/news/articleView.html?idxno=146270"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "Panasonic Energy",
-   "cat": "customer",
-   "group": "global",
-   "h": "파나소닉 에너지, 2028년 AI 데이터센터용 ESS 매출 1조엔 목표",
-   "nt": "파나소닉에너지2028년ai데이터센터용ess매출1조엔목표",
-   "tk": [
-    "1조엔",
-    "2028년",
-    "ai",
-    "ess",
-    "데이터센터용",
-    "매출",
-    "목표",
-    "에너지",
-    "파나소닉"
-   ],
-   "nums": [
-    "1조",
-    "2028년"
-   ],
-   "url": "https://www.digitimes.com/news/a20260915PD201/panasonic-2028-revenue-investment-demand.html"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "CATL·이집트 BME, 이집트 배터리 공장 설립 합의",
-   "nt": "catl이집트bme이집트배터리공장설립합의",
-   "tk": [
-    "bme",
-    "catl",
-    "공장",
-    "배터리",
-    "설립",
-    "이집트",
-    "합의"
-   ],
-   "nums": [
-    "1GWh",
-    "5GWh"
-   ],
-   "url": "https://www.electrive.com/2026/09/14/bmw-plans-battery-factory-in-egypt-with-catl/"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "BYD",
-   "cat": "customer",
-   "group": "global",
-   "h": "BYD, 내년 전고체 배터리 적용 첫 모델 공개 예정",
-   "nt": "byd내년전고체배터리적용첫모델공개예정",
-   "tk": [
-    "byd",
-    "공개",
-    "내년",
-    "모델",
-    "배터리",
-    "예정",
-    "적용",
-    "전고체"
-   ],
-   "nums": [],
-   "url": "https://theguru.co.kr/news/article.html?no=107025"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "Dematic",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "Dematic, 호주 뷔르트 물류센터 2곳 자동화 수주",
-   "nt": "dematic호주뷔르트물류센터2곳자동화수주",
-   "tk": [
-    "2곳",
-    "dematic",
-    "물류센터",
-    "뷔르트",
-    "수주",
-    "자동화",
-    "호주"
-   ],
-   "nums": [],
-   "url": "https://ecommercenews.com.au/story/wurth-australia-taps-dematic-for-two-site-automation"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "한·중앙아시아 5개국, 리튬·희토류 등 핵심광물 공급망 협력",
-   "nt": "한중앙아시아5개국리튬희토류등핵심광물공급망협력",
-   "tk": [
-    "5개국",
-    "공급망",
-    "리튬",
-    "중앙아시아",
-    "핵심광물",
-    "협력",
-    "희토류"
-   ],
-   "nums": [
-    "5개"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12152070"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "산업부, 글로벌 우수기업연구소(GATC)에 2031년까지 2895억원 투입",
-   "nt": "산업부글로벌우수기업연구소gatc에2031년까지2895억원투입",
-   "tk": [
-    "2031년까지",
-    "2895억원",
-    "gatc",
-    "글로벌",
-    "산업부",
-    "우수기업연구소",
-    "투입"
-   ],
-   "nums": [
-    "2031년",
-    "2895억"
-   ],
-   "url": "https://www.msn.com/ko-kr/news/other/%EA%B8%B0%EC%97%85%EC%97%B0%EA%B5%AC%EC%86%8C-%EC%84%B8%EA%B3%84-%EB%AC%B4%EB%8C%80%EB%A1%9C-%EC%82%B0%EC%97%85%EB%B6%80-gatc%EC%97%90-6%EB%85%84%EA%B0%84-2895%EC%96%B5%EC%9B%90-%ED%88%AC%EC%9E%85/ar-AA2c9svK"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "메르세데스 투자 ProLogium, 전고체 배터리 양산 난제 해결 주장",
-   "nt": "메르세데스투자prologium전고체배터리양산난제해결주장",
-   "tk": [
-    "prologium",
-    "난제",
-    "메르세데스",
-    "배터리",
-    "양산",
-    "전고체",
-    "주장",
-    "투자",
-    "해결"
-   ],
-   "nums": [],
-   "url": "https://autos.yahoo.com/ev-and-future-tech/articles/mercedes-backed-prologium-claims-cracked-190029531.html"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "HS효성, 울산 실리콘 음극재 공장에 1.2조원 투자",
-   "nt": "hs효성울산실리콘음극재공장에12조원투자",
-   "tk": [
-    "2조원",
-    "hs효성",
-    "공장에",
-    "실리콘",
-    "울산",
-    "음극재",
-    "투자"
-   ],
-   "nums": [
-    "1.2조",
-    "1분기",
-    "2028년",
-    "2030년",
-    "3000억"
-   ],
-   "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=86026"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "엘앤에프 LFP 양극재 3만t 추가 설비 반입 준비…내년 연 6만t",
-   "nt": "엘앤에프lfp양극재3만t추가설비반입준비내년연6만t",
-   "tk": [
-    "3만t",
-    "6만t",
-    "lfp",
-    "내년",
-    "반입",
-    "설비",
-    "양극재",
-    "엘앤에프",
-    "준비",
-    "추가"
-   ],
-   "nums": [
-    "3만",
-    "6만"
-   ],
-   "url": "https://www.ddaily.co.kr/page/view/2026091416300299445"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "NICE신평 \"2차전지 시장 성장 재개, 국내 셀·소재사 상반기는 영업적자 기조\"",
-   "nt": "nice신평2차전지시장성장재개국내셀소재사상반기는영업적자기조",
-   "tk": [
-    "2차전지",
-    "nice신평",
-    "국내",
-    "기조",
-    "상반기는",
-    "성장",
-    "소재사",
-    "시장",
-    "영업적자",
-    "재개"
-   ],
-   "nums": [],
-   "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1724297"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Masdar·Luxcara, 독일 ESS·해상풍력에 50억유로 투자 MOU",
-   "nt": "masdarluxcara독일ess해상풍력에50억유로투자mou",
-   "tk": [
-    "50억유로",
-    "ess",
-    "luxcara",
-    "masdar",
-    "mou",
-    "독일",
-    "투자",
-    "해상풍력에"
-   ],
-   "nums": [
-    "50억"
-   ],
-   "url": "https://www.energy-storage.news/masdar-luxcara-eur5-billion-partnership-germany-bess-wind-projects/"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "반도체 클린룸 6개사 상반기 실적 개선…세보엠이씨 매출 51.9% 증가",
-   "nt": "반도체클린룸6개사상반기실적개선세보엠이씨매출519증가",
-   "tk": [
-    "51",
-    "6개사",
-    "개선",
-    "매출",
-    "반도체",
-    "상반기",
-    "세보엠이씨",
-    "실적",
-    "증가",
-    "클린룸"
-   ],
-   "nums": [
-    "339억",
-    "51.9%",
-    "5358억",
-    "6개",
-    "70.2%"
-   ],
-   "url": "https://www.thelec.kr/news/articleView.html?idxno=62239"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "8월 ICT 수출 599.8억달러 역대 최대…HBM·SSD 견인",
-   "nt": "8월ict수출5998억달러역대최대hbmssd견인",
-   "tk": [
-    "599",
-    "8억달러",
-    "8월",
-    "hbm",
-    "ict",
-    "ssd",
-    "견인",
-    "수출",
-    "역대",
-    "최대"
-   ],
-   "nums": [
-    "162.6%",
-    "413.7억",
-    "599.8억"
-   ],
-   "url": "https://www.mtnews.net/news/articleView.html?idxno=25955"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "YMTC 우한 3공장 장비 연결 착수…연말 초기 가동 가시화",
-   "nt": "ymtc우한3공장장비연결착수연말초기가동가시화",
-   "tk": [
-    "3공장",
-    "ymtc",
-    "가동",
-    "가시화",
-    "연결",
-    "연말",
-    "우한",
-    "장비",
-    "착수",
-    "초기"
-   ],
-   "nums": [],
-   "url": "https://www.etnews.com/20260915000279"
-  },
-  {
-   "date": "2026-09-15",
-   "entity": "",
-   "cat": "market",
-   "group": "fa",
-   "h": "유비테크, 연 1만대 휴머노이드 공장 가동…부품 운반에 AGV·자율주행 지게차",
-   "nt": "유비테크연1만대휴머노이드공장가동부품운반에agv자율주행지게차",
-   "tk": [
-    "1만대",
-    "agv",
-    "가동",
-    "공장",
-    "부품",
-    "운반에",
-    "유비테크",
-    "자율주행",
-    "지게차",
-    "휴머노이드"
-   ],
-   "nums": [
-    "1대",
-    "1만",
-    "30%"
-   ],
-   "url": "https://www.etnews.com/20260914000402"
-  },
-  {
    "date": "2026-09-16",
    "entity": "CATL",
    "cat": "customer",
@@ -13038,6 +12622,342 @@
    ],
    "nums": [],
    "url": "https://www.energy-storage.news/illinois-seeks-feedback-after-coming-up-short-in-large-scale-battery-storage-procurement/"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전기 8조 투자 이어 SK 반도체 소재기업 세종공장 확장 추진",
+   "nt": "삼성전기8조투자이어sk반도체소재기업세종공장확장추진",
+   "tk": [
+    "8조",
+    "sk",
+    "반도체",
+    "삼성전기",
+    "세종공장",
+    "소재기업",
+    "이어",
+    "추진",
+    "투자",
+    "확장"
+   ],
+   "nums": [
+    "8조"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261015156600063"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "필에너지",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "벤츠가 꽂힌 전고체 기업 팩토리얼…한국 소부장 기업과 협력",
+   "nt": "벤츠가꽂힌전고체기업팩토리얼한국소부장기업과협력",
+   "tk": [
+    "기업",
+    "기업과",
+    "꽂힌",
+    "벤츠가",
+    "소부장",
+    "전고체",
+    "팩토리얼",
+    "한국",
+    "협력"
+   ],
+   "nums": [],
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63789"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "트럼프의 '강변' “韓 500억·대만 800억달러 알래스카 LNG에 투자·구매 약정”",
+   "nt": "트럼프의강변500억대만800억달러알래스카lng에투자구매약정",
+   "tk": [
+    "500억",
+    "800억달러",
+    "lng에",
+    "강변",
+    "구매",
+    "대만",
+    "알래스카",
+    "약정",
+    "투자",
+    "트럼프의"
+   ],
+   "nums": [
+    "500억",
+    "800억"
+   ],
+   "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87600"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "LG에너지솔루션",
+   "cat": "project",
+   "group": "all",
+   "h": "LG에너지솔루션, 3차 ESS 입찰 적극 모드?…천만에!",
+   "nt": "lg에너지솔루션3차ess입찰적극모드천만에",
+   "tk": [
+    "3차",
+    "ess",
+    "lg에너지솔루션",
+    "모드",
+    "입찰",
+    "적극",
+    "천만에"
+   ],
+   "nums": [
+    "2조"
+   ],
+   "url": "https://www.srtimes.kr/news/articleView.html?idxno=214791"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "Changan and CATL to expand battery capacity to 75 GWh",
+   "nt": "changanandcatltoexpandbatterycapacityto7",
+   "tk": [
+    "75",
+    "and",
+    "battery",
+    "capacity",
+    "catl",
+    "changan",
+    "expand",
+    "gwh",
+    "to"
+   ],
+   "nums": [
+    "75GWh"
+   ],
+   "url": "https://www.electrive.com/2026/10/15/changan-and-catl-to-expand-battery-capacity-to-75-gwh/"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "램리서치 AI 투자 우려 속 반도체 장비주 동반 하락세 마감",
+   "nt": "램리서치ai투자우려속반도체장비주동반하락세마감",
+   "tk": [
+    "ai",
+    "동반",
+    "램리서치",
+    "마감",
+    "반도체",
+    "우려",
+    "장비주",
+    "투자",
+    "하락세"
+   ],
+   "nums": [],
+   "url": "https://news.jkn.co.kr/post/1026237"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "필에너지",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "필에너지, 美 기업에 전고체 배터리 조립장비 공급 外",
+   "nt": "필에너지기업에전고체배터리조립장비공급",
+   "tk": [
+    "공급",
+    "기업에",
+    "배터리",
+    "전고체",
+    "조립장비",
+    "필에너지"
+   ],
+   "nums": [],
+   "url": "https://dealsite.co.kr/articles/170773"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "K배터리 3사, 실적 방어전…보상금·ESS가 갈랐다",
+   "nt": "k배터리3사실적방어전보상금ess가갈랐다",
+   "tk": [
+    "3사",
+    "ess가",
+    "k배터리",
+    "갈랐다",
+    "방어전",
+    "보상금",
+    "실적"
+   ],
+   "nums": [
+    "3분기"
+   ],
+   "url": "https://news.bizwatch.co.kr/article/industry/2026/10/15/0029"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "포스코퓨처엠 잇단 대규모 LFP양극재 수주에 실적개선 탄력, 엄기천 그룹 투자재원 마련에 힘 보탠다",
+   "nt": "포스코퓨처엠잇단대규모lfp양극재수주에실적개선탄력엄기천그룹투자재원마련에힘보",
+   "tk": [
+    "lfp양극재",
+    "그룹",
+    "대규모",
+    "마련에",
+    "보탠다",
+    "수주에",
+    "실적개선",
+    "엄기천",
+    "잇단",
+    "탄력",
+    "투자재원",
+    "포스코퓨처엠"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/news/other/%ED%8F%AC%EC%8A%A4%EC%BD%94%ED%93%A8%EC%B2%98%EC%97%A0-%EC%9E%87%EB%8B%A8-%EB%8C%80%EA%B7%9C%EB%AA%A8-lfp%EC%96%91%EA%B7%B9%EC%9E%AC-%EC%88%98%EC%A3%BC%EC%97%90-%EC%8B%A4%EC%A0%81%EA%B0%9C%EC%84%A0-%ED%83%84%EB%A0%A5-%EC%97%84%EA%B8%B0%EC%B2%9C-%EA%B7%B8%EB%A3%B9-%ED%88%AC%EC%9E%90%EC%9E%AC%EC%9B%90-%EB%A7%88%EB%A0%A8%EC%97%90-%ED%9E%98-%EB%B3%B4%ED%83%A0%EB%8B%A4/ar-AA2eh0QD"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "\"9분 만에 충전 완료\" 창안·CATL, 차세대 전고체 배터리 개발 및 대규모 투자 단행",
+   "nt": "9분만에충전완료창안catl차세대전고체배터리개발및대규모투자단행",
+   "tk": [
+    "9분",
+    "catl",
+    "개발",
+    "단행",
+    "대규모",
+    "만에",
+    "배터리",
+    "완료",
+    "전고체",
+    "차세대",
+    "창안",
+    "충전",
+    "투자"
+   ],
+   "nums": [],
+   "url": "https://www.starnewskorea.com/business-life/2026/10/15/2026101508555541743"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "Japan: Suzuki prices e Sky below BYD & Honda’s electric kei cars",
+   "nt": "japansuzukipriceseskybelowbydhondaselect",
+   "tk": [
+    "below",
+    "byd",
+    "cars",
+    "electric",
+    "honda",
+    "japan",
+    "kei",
+    "prices",
+    "sky",
+    "suzuki"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/15/japan-suzuki-prices-e-sky-below-byd-hondas-electric-kei-cars/"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "DHL Freight deploys SuperPanther eTopas 600 in daily operations",
+   "nt": "dhlfreightdeployssuperpantheretopas600in",
+   "tk": [
+    "600",
+    "daily",
+    "deploys",
+    "dhl",
+    "etopas",
+    "freight",
+    "in",
+    "operations",
+    "superpanther"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/15/dhl-freight-deploys-superpanther-etopas-600-in-daily-operations/"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "20.4GWh grid-scale BESS deployed globally in September, up 61%; YTD installs up 43%",
+   "nt": "204gwhgridscalebessdeployedgloballyinsep",
+   "tk": [
+    "20",
+    "43",
+    "4gwh",
+    "61",
+    "bess",
+    "deployed",
+    "globally",
+    "grid",
+    "in",
+    "installs",
+    "scale",
+    "september",
+    "up",
+    "ytd"
+   ],
+   "nums": [
+    "20.4GWh",
+    "43%",
+    "61%"
+   ],
+   "url": "https://www.energy-storage.news/20-4gwh-grid-scale-bess-deployed-globally-in-september-up-61-ytd-installs-up-43/"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Chinese government cuts state subsidies for EV manufacturers",
+   "nt": "chinesegovernmentcutsstatesubsidiesforev",
+   "tk": [
+    "chinese",
+    "cuts",
+    "ev",
+    "for",
+    "government",
+    "manufacturers",
+    "state",
+    "subsidies"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/15/chinese-government-cuts-state-subsidies-for-ev-manufacturers/"
+  },
+  {
+   "date": "2026-10-16",
+   "entity": "LEAD Intelligent",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "Wuxi Lead Intelligent Equipment CO.,LTD. (0470.HK)",
+   "nt": "wuxileadintelligentequipmentcoltd0470hk",
+   "tk": [
+    "0470",
+    "co",
+    "equipment",
+    "hk",
+    "intelligent",
+    "lead",
+    "ltd",
+    "wuxi"
+   ],
+   "nums": [],
+   "url": "https://finance.yahoo.com/quote/0470.HK/"
   }
  ]
 }

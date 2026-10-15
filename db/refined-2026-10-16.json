@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-16",
+ "summary": "팩토리얼 천안 전고체 라인 장비 발주(피엔티·필에너지) · 창안–CATL 75GWh·전고체 협력 · LG엔솔 3차 ESS '저가 수주 안 한다' · SK트리켐 세종 확장",
+ "items": [
+  {"cid": 1, "cat": "competitor", "group": "grade_A", "entity": "필에너지", "grade": "A", "tags": ["전고체", "RFQ", "수주"],
+   "h": "팩토리얼 천안 전고체 라인…건식전극 피엔티·조립 턴키 필에너지",
+   "b": "이번 주 파일럿 라인 장비 PO 진행, 전극~조립~후공정에 국내 장비사 대거 참여, 시유 황 CEO 방한(디일렉 15일). 천안서 반고체 FEST 벤치 생산 중."},
+  {"cid": 6, "cat": "competitor", "group": "grade_A", "entity": "필에너지", "grade": "B", "tags": ["전고체", "수주"],
+   "h": "필에너지, 팩토리얼에너지와 전고체 조립공정 장비 공급계약 공시",
+   "b": "15일 공시, 계약기간 2027년 12월 31일까지. 금액은 영업비밀로 비공개, 계약금 40% 발주서 수령 후 60일 이내."},
+  {"cid": 4, "cat": "customer", "group": "global", "entity": "CATL", "grade": "A", "tags": ["투자", "전고체"],
+   "h": "창안–CATL 합작 셀 생산능력 50→75GWh 확대…전고체·나트륨 협력",
+   "b": "선전거래소 공시. 추가 25GWh, 부지 약 70만㎡."},
+  {"cid": 3, "cat": "customer", "group": "lgensol", "entity": "LG에너지솔루션", "grade": "B", "tags": ["ESS", "RFQ"],
+   "h": "LG엔솔 \"3차 ESS 입찰, 저가 수주 안 한다\"…오창 국내 완결형 밸류체인",
+   "b": "14일 입장. 1·2차 누적 점유율 삼성SDI 56%·SK온 25%·LG 19%. 4대 소재 전량 국내 조달, 오창 에너지플랜트 생산."},
+  {"cid": 29, "cat": "customer", "group": "global", "entity": "Gotion", "grade": "C", "tags": ["ESS"],
+   "h": "Gotion, 호주 퀸즐랜드 843MWh Lower Wonga 하이브리드 착공",
+   "b": "e-STORAGE는 남호주 960MWh Summerfield BESS 시운전 진입."},
+  {"cid": 21, "cat": "tech_policy", "group": "all", "entity": "", "grade": "C", "tags": ["정책"],
+   "h": "중국, 신에너지차 수출 세금환급 축소…완성차 압박",
+   "b": ""},
+  {"cid": 0, "cat": "market", "group": "semi", "entity": "", "grade": "B", "tags": ["투자"],
+   "h": "SK트리켐, 세종 명학산단 전구체 공장 확장 추진…삼성전기 8조 투자 이어",
+   "b": "지난달 세종시에 확장 계획 전달, 산단 인접 외부 토지 매입·산단 지정 방식 조율(16일). 규모·금액 미공개."},
+  {"cid": 18, "cat": "market", "group": "battery", "entity": "", "grade": "C", "tags": ["ESS"],
+   "h": "9월 글로벌 그리드 BESS 20.4GWh 가동, 61%↑…연초 누적 208GWh",
+   "b": ""},
+  {"cid": 19, "cat": "market", "group": "ev", "entity": "", "grade": "C", "tags": ["투자"],
+   "h": "BMW, 선양서 Gen6 고전압 배터리 양산…데브레첸·이를바흐 이어 3번째",
+   "b": ""},
+  {"cid": 20, "cat": "market", "group": "battery", "entity": "", "grade": "C", "tags": ["ESS"],
+   "h": "Nightpeak, 텍사스 Bocanova 2 150MW/300MWh BESS 상업운전…사이트 300MW로",
+   "b": ""}
+ ],
+ "top": [1, 4, 6, 3],
+ "guide": [
+  {"cid": 1, "say": "팩토리얼 천안 전고체 파일럿 라인 장비 PO(건식전극 피엔티·조립 필에너지) → 아산 인근 전고체 라인 후공정·주액(반고체 전해질 주입) 장비 참여 여부 즉시 확인, 팩토리얼코리아 접촉"},
+  {"cid": 4, "say": "창안–CATL 75GWh 증설·전고체 협력 → 중국 합작 라인 장비 입찰 정보 확보"},
+  {"cid": 3, "say": "LG엔솔 3차 ESS '저가 수주 안 함'·오창 국내 완결형 → 오창 에너지플랜트 LFP 라인 증설·개조 장비 수요 확인"},
+  {"cid": 0, "say": "SK트리켐 세종 전구체 공장 확장·삼성전기 8조 → 세종 명학산단 신설 라인 자동화·AMR 입찰 추적"}
+ ]
+}

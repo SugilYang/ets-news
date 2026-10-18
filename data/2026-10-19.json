@@ -5,12 +5,12 @@
  "edition": "조간",
  "issue_no": 22,
  "window_hours": 84,
- "summary": "3분기 K배터리 실적전망은…LG엔솔·삼성SDI '맑음' · K-배터리, ESS 새 성장축 확보하나…글로벌 성장에  · 삼성SDI와 6兆 계약 맺은 포스코퓨처엠… '中 장악' · 올해 200조 던진 외국인, 언제 돌아오나…증권가가 꼽",
+ "refined": true,
+ "summary": "테슬라 그륀하이데 53.6만㎡ 신규 생산동 · SK온 LFP CNT 파우더 공정 · 휴머노이드 내년 1700대 보급·안전 가이드라인 · 9월 글로벌 EV 215만대",
  "top": [
   "2026-10-19-5",
-  "2026-10-19-12",
-  "2026-10-19-11",
-  "2026-10-19-1"
+  "2026-10-19-0",
+  "2026-10-19-2"
  ],
  "sections": [
   {
@@ -33,107 +33,21 @@
     {
      "id": "lgensol",
      "title": "LG에너지솔루션",
-     "items": [
-      {
-       "id": "2026-10-19-5",
-       "h": "3분기 K배터리 실적전망은…LG엔솔·삼성SDI '맑음' SK온 '흐림'",
-       "b": "증가에 실적 개선세를 지속할지 주목된다.",
-       "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261016152800003",
-       "date": "2026-10-19",
-       "cat": "customer",
-       "group": "lgensol",
-       "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
-       "tags": [
-        "ESS",
-        "수주",
-        "정책",
-        "실적"
-       ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-12",
-       "h": "K-배터리, ESS 새 성장축 확보하나…글로벌 성장에 '청신호'",
-       "b": "매일일보 = 김채은 기자 | 글로벌 에너지저장장치(ESS) 시장이 빠르게 성장하면서 국내 배터리업계의 해외 수주 확대 기대감이 커지고 있다.",
-       "src": "매일일보",
-       "url": "https://www.m-i.kr/news/articleView.html?idxno=2006734",
-       "date": "2026-10-18",
-       "cat": "customer",
-       "group": "lgensol",
-       "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
-       "tags": [
-        "ESS",
-        "투자",
-        "수주"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "sdi",
      "title": "삼성SDI",
-     "items": [
-      {
-       "id": "2026-10-19-11",
-       "h": "삼성SDI와 6兆 계약 맺은 포스코퓨처엠… '中 장악' LFP 시장 공략 속도",
-       "b": "포스코퓨처엠이 삼성SDI와 <b>6조</b>원 규모의 배터리 소재 공급 계약을 맺고 리튬인산철(LFP) 양극재 사업 확대에 나선다.",
-       "src": "파이낸셜포스트",
-       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=281033",
-       "date": "2026-10-18",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "투자",
-        "수주"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-19",
-       "h": "오전 이어 오후에도 삼전 사고 닉스 팔고 [주식 초고수는 지금]",
-       "b": "미래에셋증권에서 수익률 상위 <b>1%</b>에 드는 ‘주식 초고수’들이 코스피 폭락 이튿날 삼성전자를 가장 많이 사들였다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12177876",
-       "date": "2026-10-16",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "실적"
-       ],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "skon",
      "title": "SK온",
      "items": [
       {
-       "id": "2026-10-19-10",
-       "h": "SK온, LFP 원가 낮출 CNT 파우더 공정 개발⋯양산 적용 검토",
-       "b": "SK온이 리튬·인산·철(LFP) 배터리 양극 제조 과정에서 고가의 탄소나노튜브(CNT) 페이스트를 파우더로 대체하는 공정을 개발했다.",
+       "id": "2026-10-19-0",
+       "h": "SK온, LFP 양극 CNT 페이스트→파우더 대체 공정 개발…양산 적용 검토",
+       "b": "14~15일 미래기술원 학술대회 대상(18일). 동등 성능에 재료비 절감, 300여 과제 출품(+<b>15%</b>).",
        "src": "엠투데이",
        "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601249",
        "date": "2026-10-18",
@@ -141,25 +55,11 @@
        "group": "skon",
        "entity": "SK온",
        "related": [],
-       "tags": [],
+       "tags": [
+        "투자"
+       ],
        "grade": "B",
        "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-16",
-       "h": "SK온 제2회 미래기술원 학술대회…기술 혁신 역량 결집",
-       "b": "이번 행사는 '우리가 만드는 미래'를 주제로 지난 14~15일 대전광역시 유성구 SK온 미래기술원에서 진행됐으며, 이용욱 SK온 사장과 박기수 SK온 미래기술원장 등이 참석했다.",
-       "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261018009900003",
-       "date": "2026-10-18",
-       "cat": "customer",
-       "group": "skon",
-       "entity": "SK온",
-       "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 4,
        "followup": null
       }
      ]
@@ -169,9 +69,9 @@
      "title": "글로벌 · 기타",
      "items": [
       {
-       "id": "2026-10-19-17",
-       "h": "[Panasonic Energy] Corporate Research | The battery company that makes Tesla's batteries and now aims for 1 trillion yen in sales from AI data center power supplies | Boston ...",
-       "b": "Panasonic Energy Co., Ltd. is the company responsible for the battery business within the Panasonic Group.",
+       "id": "2026-10-19-1",
+       "h": "파나소닉 에너지, AI 데이터센터 전원 매출 1조엔 목표",
+       "b": "",
        "src": "bing.com",
        "url": "https://note.com/bostoncareer/n/n7de23ce0289e?hl=en",
        "date": "2026-10-17",
@@ -180,27 +80,10 @@
        "entity": "Panasonic Energy",
        "related": [],
        "tags": [
-        "ESS",
-        "실적"
+        "ESS"
        ],
        "grade": "C",
        "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-18",
-       "h": "Great Han: BYD launches 5.26-metre battery-electric saloon",
-       "b": "BYD is launching its new electric flagship sedan, the Da Han EV - a.k.a the Great Han - in China.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/16/great-han-byd-launches-5-26-metre-battery-electric-saloon/",
-       "date": "2026-10-16",
-       "cat": "customer",
-       "group": "global",
-       "entity": "BYD",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
        "followup": null
       }
      ]
@@ -215,67 +98,12 @@
     {
      "id": "grade_A",
      "title": "A등급 경쟁사",
-     "items": [
-      {
-       "id": "2026-10-19-15",
-       "h": "허준 부사장, SFA 주식 844주 ↑…지분율 0.04%",
-       "b": "등록번호 : 서울,아54780 / 등록일자 : <b>2023년</b> 04월 04일 / 발행일자 : <b>2023년</b> 04월 04일 제호 : 데이터투자 / 발행인·편집인 : 주지숙…",
-       "src": "데이터투자",
-       "url": "https://www.datatooza.com/article/20261016105123222652ef33af74_80",
-       "date": "2026-10-16",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "SFA",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-21",
-       "h": "명재승 엠플러스산업개발 대표 “건설 기술로 이웃의 일상에 온기 전하고 싶다”",
-       "b": "명재승 ㈜엠플러스산업개발 대표가 15일 경인방송 FM90.7 ‘박성용의 시선공감’의 ‘인향만리’에 출연해 취약계층 주거환경 개선 활동과 지속적인 나눔에 대한 생각을 전했다.",
-       "src": "대한뉴스방송",
-       "url": "https://www.skypress.co.kr/news/articleView.html?idxno=147760",
-       "date": "2026-10-16",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "엠플러스",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "grade_B",
      "title": "B등급 경쟁사",
-     "items": [
-      {
-       "id": "2026-10-19-20",
-       "h": "이차전지 장비 넘어 소재까지…피엔티, 성장 동력 다변화 시험대",
-       "b": "이차전지 전극공정 장비를 주력으로 하는 피엔티가 국내 배터리 업체들의 설비투자 축소 여파로 올해 실적 감소를 겪을 전망이다.",
-       "src": "핀포인트뉴스",
-       "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=496121",
-       "date": "2026-10-17",
-       "cat": "competitor",
-       "group": "grade_B",
-       "entity": "피엔티",
-       "related": [],
-       "tags": [
-        "투자",
-        "실적"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   },
@@ -289,9 +117,28 @@
      "title": "",
      "items": [
       {
-       "id": "2026-10-19-6",
-       "h": "전기차 수요 급증…부산시 보조금 추가신청 10분 만에 마감",
-       "b": "17일 부산시에 따르면 지난 9월 추가경정예산으로 전기차 보조금 예산 <b>55억</b>원을 추가로 확보한 뒤 지난 14일 전기 승용차 <b>1천</b><b>300대</b>가량에 대한 보조금 지급 신청을 받았다.",
+       "id": "2026-10-19-2",
+       "h": "휴머노이드 안전 가이드라인 착수…내년 1700대 보급, 2030년 1만5000대",
+       "b": "로봇산업진흥원 등 초안 검토(18일). 국산 <b>250대</b> 내년 직접 구매, <b>2030년</b> 누적 <b>1080대</b>. 대구 안전인증센터는 <b>2030년</b> 완공 목표.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261018000058",
+       "date": "2026-10-18",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책",
+        "AMR"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-19-3",
+       "h": "부산 전기차 보조금 추가 신청 10분 만에 마감…고유가에 수요 급증",
+       "b": "",
        "src": "yna.co.kr",
        "url": "https://www.yna.co.kr/view/AKR20261016115500051",
        "date": "2026-10-17",
@@ -302,45 +149,31 @@
        "tags": [
         "정책"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-19-9",
-       "h": "‘게임 체인저’ 전고체 배터리, 누가 먼저 고지 밟나",
-       "b": "체인저’ 전고체 배터리, 누가 먼저 고지 밟나 국민일보",
-       "src": "국민일보",
-       "url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000023606",
-       "date": "2026-10-19",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "전고체"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-14",
-       "h": "\"2027~2030년 상용화 로드맵 교차\"… 유럽이 주목하는 전고체 배터리 각축전",
+       "id": "2026-10-19-4",
+       "h": "佛·獨 \"영국, 중국산 EV 관세 EU 수준으로 올리면 영국차에 보조금 허용\"",
        "b": "",
-       "src": "글로벌이코노믹",
-       "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101709004028950c8c1c064d_1",
-       "date": "2026-10-17",
+       "src": "데일리안",
+       "url": "https://www.dailian.co.kr/news/view/1702480/%E4%BD%9B%E7%8D%A8-%E8%8B%B1-%EC%A4%91%EA%B5%AD%EC%82%B0-%EC%A0%84%EA%B8%B0%EC%B0%A8-%EA%B4%80%EC%84%B8-%EC%98%AC%EB%A6%AC%EB%A9%B4-2026",
+       "date": "2026-10-16",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
-        "전고체"
+        "정책"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
-       "followup": null
+       "followup": {
+        "prev_date": "2026-09-29",
+        "prev_h": "",
+        "change": "프랑스·독일, 보조금 허용 조건 제안"
+       }
       }
      ]
     }
@@ -356,9 +189,9 @@
      "title": "전기차",
      "items": [
       {
-       "id": "2026-10-19-2",
-       "h": "Tesla’s plans for Grünheide expansion take shape",
-       "b": "Plans for the expansion of Tesla's German Gigafactory in Grünheide are becoming clearer.",
+       "id": "2026-10-19-5",
+       "h": "테슬라, 그륀하이데 기가팩토리 확장…53.6만㎡ 신규 생산동 12월 승인 신청",
+       "b": "기존 <b>21.9만</b>㎡ 생산동의 <b>2배</b> 이상, 북측 부지(RBB 보도).",
        "src": "electrive.com",
        "url": "https://www.electrive.com/2026/10/16/teslas-plans-for-grunheide-expansion-take-shape/",
        "date": "2026-10-16",
@@ -374,37 +207,38 @@
        "followup": null
       },
       {
-       "id": "2026-10-19-4",
-       "h": "Battery X Metals Highlights Participation at X Takeover 2026, an Electric Vehicle and Emerging Technology Event Held at Tesla's Gigafactory Texas, Providing Exposure to Industry Perspectives and Technology Developments",
-       "b": "VANCOUVER, BC / ACCESS Newswire / October 16, 2026 / Battery X Metals Inc.",
-       "src": "The Globe and Mail",
-       "url": "https://www.theglobeandmail.com/investing/markets/markets-news/ACCESS%20Newswire/8120611/battery-x-metals-highlights-participation-at-x-takeover-2026-an-electric-vehicle-and-emerging-technology-event-held-at-tesla-s-gigafactory-texas-providing-exposure-to-industry-perspectives-and-technology-developments/",
-       "date": "2026-10-17",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
        "id": "2026-10-19-8",
-       "h": "K배터리 3사, 실적 방어전…보상금·ESS가 갈랐다",
-       "b": "국내 배터리 3사의 올해 3분기 성적표가 에너지저장장치(ESS) 판매 성과와 완성차 업체로부터 받은 보상금 규모에 따라 극명하게 엇갈리고 있다.",
-       "src": "bing.com",
-       "url": "https://news.bizwatch.co.kr/article/industry/2026/10/15/0029",
+       "h": "폭스바겐, 유럽 ID. 시리즈 배터리 셀 결함 리콜 준비…80% 충전 권고",
+       "b": "",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/16/vw-prepares-battery-recall-for-multiple-id-models-in-europe/",
        "date": "2026-10-16",
        "cat": "market",
        "group": "ev",
        "entity": "",
        "related": [],
        "tags": [
-        "ESS",
+        "리스크"
+       ],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-19-9",
+       "h": "9월 글로벌 EV 판매 215만대…유럽 월간 최다, 북미 급감",
+       "b": "벤치마크 미네랄: 중국 약세·북미 급감을 유럽이 상쇄.",
+       "src": "bing.com",
+       "url": "https://electriccarsreport.com/2026/10/global-ev-sales-september-2026/",
+       "date": "2026-10-16",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
         "실적"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -416,8 +250,8 @@
      "items": [
       {
        "id": "2026-10-19-7",
-       "h": "남부발전, 전기버스 사용후 배터리 활용 ‘화재방지형 ESS’ 실증",
-       "b": "한국남부발전이 전기버스 사용후 배터리를 재사용한 에너지저장장치(ESS)의 실증에 착수했다.",
+       "h": "남부발전·피엠그로우, 전기버스 사용후 배터리 '화재방지형 R-ESS' 실증",
+       "b": "15일 영월빛드림본부 기념식. 오프가스 사전 감지·지능형 소화·온도 제어 적용.",
        "src": "industrynews.co.kr",
        "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87710",
        "date": "2026-10-17",
@@ -426,20 +260,19 @@
        "entity": "",
        "related": [],
        "tags": [
-        "ESS",
-        "투자"
+        "ESS"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 3,
        "followup": null
       },
       {
-       "id": "2026-10-19-13",
-       "h": "북미 ESS 기회 열린 ‘K-배터리’라지만…3사 사업화 속도는 ‘온도차’",
+       "id": "2026-10-19-10",
+       "h": "AGL, 퀸즐랜드 Abermain 500MWh BESS EPBC 환경평가 회부",
        "b": "",
-       "src": "쿠키뉴스",
-       "url": "https://www.kukinews.com/article/view/kuk202608040154",
-       "date": "2026-10-17",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/agl-refers-500mwh-abermain-bess-in-queensland-to-australias-epbc-act/",
+       "date": "2026-10-16",
        "cat": "market",
        "group": "battery",
        "entity": "",
@@ -447,8 +280,8 @@
        "tags": [
         "ESS"
        ],
-       "grade": "B",
-       "rel": 2,
+       "grade": "C",
+       "rel": 3,
        "followup": null
       }
      ]
@@ -458,9 +291,9 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-10-19-0",
-       "h": "AI 반도체 경쟁, 미세공정 넘어 '패키징'으로…글로벌 투자 확대",
-       "b": "",
+       "id": "2026-10-19-6",
+       "h": "첨단 패키징 장비 시장 2031년 1200억달러 전망…삼성·SK하이닉스도 후공정 투자",
+       "b": "TSMC·인텔 이어 후공정 생산능력 투자 확대(뉴스1 18일).",
        "src": "bing.com",
        "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B2%BD%EC%9F%81-%EB%AF%B8%EC%84%B8%EA%B3%B5%EC%A0%95-%EB%84%98%EC%96%B4-%ED%8C%A8%ED%82%A4%EC%A7%95-%EC%9C%BC%EB%A1%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%ED%88%AC%EC%9E%90-%ED%99%95%EB%8C%80/ar-AA2euSxC",
        "date": "2026-10-18",
@@ -471,46 +304,7 @@
        "tags": [
         "투자"
        ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-1",
-       "h": "올해 200조 던진 외국인, 언제 돌아오나…증권가가 꼽은 반등 분수령",
-       "b": "올해 국내 증시에서 <b>200조</b>원이 넘는 주식을 팔아치운 외국인 투자자들이 언제 돌아올지에 시장의 관심이 쏠리고 있다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12178723",
-       "date": "2026-10-18",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "투자",
-        "실적"
-       ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-19-3",
-       "h": "램리서치 AI 투자 우려 속 반도체 장비주 동반 하락세 마감",
-       "b": "반도체 식각 장비 기업 램리서치가 약세를 나타냈다.",
-       "src": "bing.com",
-       "url": "https://news.jkn.co.kr/post/1026237",
-       "date": "2026-10-16",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "투자",
-        "RFQ",
-        "실적"
-       ],
-       "grade": "A",
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -524,33 +318,34 @@
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-10-19-5",
+   "say": "테슬라 그륀하이데 53.6만㎡ 신규 생산동(12월 승인 신청) → 베를린 배터리 셀·팩 라인 증설 포함 여부와 장비 발주 창구 확인"
+  },
+  {
+   "item_id": "2026-10-19-0",
+   "say": "SK온 LFP CNT 파우더 공정 양산 적용 검토 → 양극 믹싱 공정 변경 시 전극·조립 라인 개조 장비 수요 확인"
+  },
+  {
+   "item_id": "2026-10-19-2",
+   "say": "휴머노이드 내년 1700대·2030년 1.5만대 보급, 안전 가이드라인 착수 → AMR과 휴머노이드 혼재 현장 안전 요건 선제 검토, 제조 현장"
+  }
+ ],
  "stats": {
-  "fetched": 82,
-  "published": 22,
-  "headline_only": 5,
-  "followup": 0,
-  "suppressed": 1,
-  "sameday": 1,
-  "nobody": 0,
-  "unclassified": 0,
-  "capped": 37
+  "published": 11,
+  "refined_by": "claude",
+  "rule_published": 22
  },
  "sources": [
-  "The Globe and Mail",
   "bing.com",
   "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
   "industrynews.co.kr",
-  "mk.co.kr",
   "yna.co.kr",
-  "국민일보",
-  "글로벌이코노믹",
-  "대한뉴스방송",
-  "데이터투자",
-  "매일일보",
-  "엠투데이",
-  "쿠키뉴스",
-  "파이낸셜포스트",
-  "핀포인트뉴스"
+  "데일리안",
+  "엠투데이"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

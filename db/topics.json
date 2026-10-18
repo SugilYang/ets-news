@@ -10990,236 +10990,29 @@
   },
   {
    "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "AI 반도체 경쟁, 미세공정 넘어 '패키징'으로…글로벌 투자 확대",
-   "nt": "ai반도체경쟁미세공정넘어패키징으로글로벌투자확대",
-   "tk": [
-    "ai",
-    "경쟁",
-    "글로벌",
-    "넘어",
-    "미세공정",
-    "반도체",
-    "으로",
-    "투자",
-    "패키징",
-    "확대"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B2%BD%EC%9F%81-%EB%AF%B8%EC%84%B8%EA%B3%B5%EC%A0%95-%EB%84%98%EC%96%B4-%ED%8C%A8%ED%82%A4%EC%A7%95-%EC%9C%BC%EB%A1%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%ED%88%AC%EC%9E%90-%ED%99%95%EB%8C%80/ar-AA2euSxC"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "올해 200조 던진 외국인, 언제 돌아오나…증권가가 꼽은 반등 분수령",
-   "nt": "올해200조던진외국인언제돌아오나증권가가꼽은반등분수령",
-   "tk": [
-    "200조",
-    "꼽은",
-    "던진",
-    "돌아오나",
-    "반등",
-    "분수령",
-    "언제",
-    "올해",
-    "외국인",
-    "증권가가"
-   ],
-   "nums": [
-    "200조"
-   ],
-   "url": "https://www.mk.co.kr/news/stock/12178723"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "Tesla’s plans for Grünheide expansion take shape",
-   "nt": "teslasplansforgrnheideexpansiontakeshape",
-   "tk": [
-    "expansion",
-    "for",
-    "gr",
-    "nheide",
-    "plans",
-    "shape",
-    "take",
-    "tesla"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/16/teslas-plans-for-grunheide-expansion-take-shape/"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "램리서치 AI 투자 우려 속 반도체 장비주 동반 하락세 마감",
-   "nt": "램리서치ai투자우려속반도체장비주동반하락세마감",
-   "tk": [
-    "ai",
-    "동반",
-    "램리서치",
-    "마감",
-    "반도체",
-    "우려",
-    "장비주",
-    "투자",
-    "하락세"
-   ],
-   "nums": [],
-   "url": "https://news.jkn.co.kr/post/1026237"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "Battery X Metals Highlights Participation at X Takeover 2026, an Electric Vehicle and Emerging Technology Event Held at ",
-   "nt": "batteryxmetalshighlightsparticipationatx",
-   "tk": [
-    "2026",
-    "an",
-    "and",
-    "at",
-    "battery",
-    "developments",
-    "electric",
-    "emerging",
-    "event",
-    "exposure",
-    "gigafactory",
-    "held",
-    "highlights",
-    "industry",
-    "metals",
-    "participation",
-    "perspectives",
-    "providing",
-    "takeover",
-    "technology",
-    "tesla",
-    "texas",
-    "to",
-    "vehicle"
-   ],
-   "nums": [
-    "2026"
-   ],
-   "url": "https://www.theglobeandmail.com/investing/markets/markets-news/ACCESS%20Newswire/8120611/battery-x-metals-highlights-participation-at-x-takeover-2026-an-electric-vehicle-and-emerging-technology-event-held-at-tesla-s-gigafactory-texas-providing-exposure-to-industry-perspectives-and-technology-developments/"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "LG에너지솔루션",
+   "entity": "SK온",
    "cat": "customer",
-   "group": "lgensol",
-   "h": "3분기 K배터리 실적전망은…LG엔솔·삼성SDI '맑음' SK온 '흐림'",
-   "nt": "3분기k배터리실적전망은lg엔솔삼성sdi맑음sk온흐림",
+   "group": "skon",
+   "h": "SK온, LFP 양극 CNT 페이스트→파우더 대체 공정 개발…양산 적용 검토",
+   "nt": "sk온lfp양극cnt페이스트파우더대체공정개발양산적용검토",
    "tk": [
-    "3분기",
-    "k배터리",
-    "lg엔솔",
+    "cnt",
+    "lfp",
     "sk온",
-    "맑음",
-    "삼성sdi",
-    "실적전망은",
-    "흐림"
+    "개발",
+    "검토",
+    "공정",
+    "대체",
+    "양극",
+    "양산",
+    "적용",
+    "파우더",
+    "페이스트"
    ],
    "nums": [
-    "3분기"
+    "15%"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20261016152800003"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "전기차 수요 급증…부산시 보조금 추가신청 10분 만에 마감",
-   "nt": "전기차수요급증부산시보조금추가신청10분만에마감",
-   "tk": [
-    "10분",
-    "급증",
-    "마감",
-    "만에",
-    "보조금",
-    "부산시",
-    "수요",
-    "전기차",
-    "추가신청"
-   ],
-   "nums": [
-    "1천",
-    "300대",
-    "55억"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261016115500051"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "남부발전, 전기버스 사용후 배터리 활용 ‘화재방지형 ESS’ 실증",
-   "nt": "남부발전전기버스사용후배터리활용화재방지형ess실증",
-   "tk": [
-    "ess",
-    "남부발전",
-    "배터리",
-    "사용후",
-    "실증",
-    "전기버스",
-    "화재방지형",
-    "활용"
-   ],
-   "nums": [],
-   "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87710"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "K배터리 3사, 실적 방어전…보상금·ESS가 갈랐다",
-   "nt": "k배터리3사실적방어전보상금ess가갈랐다",
-   "tk": [
-    "3사",
-    "ess가",
-    "k배터리",
-    "갈랐다",
-    "방어전",
-    "보상금",
-    "실적"
-   ],
-   "nums": [
-    "3분기"
-   ],
-   "url": "https://news.bizwatch.co.kr/article/industry/2026/10/15/0029"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "‘게임 체인저’ 전고체 배터리, 누가 먼저 고지 밟나",
-   "nt": "게임체인저전고체배터리누가먼저고지밟나",
-   "tk": [
-    "게임",
-    "고지",
-    "누가",
-    "먼저",
-    "밟나",
-    "배터리",
-    "전고체",
-    "체인저"
-   ],
-   "nums": [],
-   "url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000023606"
+   "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601249"
   },
   {
    "date": "2026-10-19",
@@ -11241,140 +11034,32 @@
     "적용",
     "파우더"
    ],
-   "nums": [],
+   "nums": [
+    "15%"
+   ],
    "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601249"
   },
   {
    "date": "2026-10-19",
-   "entity": "삼성SDI",
+   "entity": "Panasonic Energy",
    "cat": "customer",
-   "group": "sdi",
-   "h": "삼성SDI와 6兆 계약 맺은 포스코퓨처엠… '中 장악' LFP 시장 공략 속도",
-   "nt": "삼성sdi와6계약맺은포스코퓨처엠장악lfp시장공략속도",
+   "group": "global",
+   "h": "파나소닉 에너지, AI 데이터센터 전원 매출 1조엔 목표",
+   "nt": "파나소닉에너지ai데이터센터전원매출1조엔목표",
    "tk": [
-    "lfp",
-    "계약",
-    "공략",
-    "맺은",
-    "삼성sdi와",
-    "속도",
-    "시장",
-    "장악",
-    "포스코퓨처엠"
+    "1조엔",
+    "ai",
+    "데이터센터",
+    "매출",
+    "목표",
+    "에너지",
+    "전원",
+    "파나소닉"
    ],
    "nums": [
-    "6조"
+    "1조"
    ],
-   "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=281033"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "K-배터리, ESS 새 성장축 확보하나…글로벌 성장에 '청신호'",
-   "nt": "k배터리ess새성장축확보하나글로벌성장에청신호",
-   "tk": [
-    "ess",
-    "글로벌",
-    "배터리",
-    "성장에",
-    "성장축",
-    "청신호",
-    "확보하나"
-   ],
-   "nums": [],
-   "url": "https://www.m-i.kr/news/articleView.html?idxno=2006734"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "북미 ESS 기회 열린 ‘K-배터리’라지만…3사 사업화 속도는 ‘온도차’",
-   "nt": "북미ess기회열린k배터리라지만3사사업화속도는온도차",
-   "tk": [
-    "3사",
-    "ess",
-    "기회",
-    "라지만",
-    "배터리",
-    "북미",
-    "사업화",
-    "속도는",
-    "열린",
-    "온도차"
-   ],
-   "nums": [],
-   "url": "https://www.kukinews.com/article/view/kuk202608040154"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "\"2027~2030년 상용화 로드맵 교차\"… 유럽이 주목하는 전고체 배터리 각축전",
-   "nt": "20272030년상용화로드맵교차유럽이주목하는전고체배터리각축전",
-   "tk": [
-    "2027",
-    "2030년",
-    "각축전",
-    "교차",
-    "로드맵",
-    "배터리",
-    "상용화",
-    "유럽이",
-    "전고체",
-    "주목하는"
-   ],
-   "nums": [
-    "2027",
-    "2030년"
-   ],
-   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101709004028950c8c1c064d_1"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "SFA",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "허준 부사장, SFA 주식 844주 ↑…지분율 0.04%",
-   "nt": "허준부사장sfa주식844주지분율004",
-   "tk": [
-    "04",
-    "844주",
-    "sfa",
-    "부사장",
-    "주식",
-    "지분율",
-    "허준"
-   ],
-   "nums": [
-    "0.04%",
-    "04월04일",
-    "2023년"
-   ],
-   "url": "https://www.datatooza.com/article/20261016105123222652ef33af74_80"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "SK온 제2회 미래기술원 학술대회…기술 혁신 역량 결집",
-   "nt": "sk온제2회미래기술원학술대회기술혁신역량결집",
-   "tk": [
-    "sk온",
-    "결집",
-    "기술",
-    "미래기술원",
-    "역량",
-    "제2회",
-    "학술대회",
-    "혁신"
-   ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20261018009900003"
+   "url": "https://note.com/bostoncareer/n/n7de23ce0289e?hl=en"
   },
   {
    "date": "2026-10-19",
@@ -11416,91 +11101,422 @@
   },
   {
    "date": "2026-10-19",
-   "entity": "BYD",
-   "cat": "customer",
-   "group": "global",
-   "h": "Great Han: BYD launches 5.26-metre battery-electric saloon",
-   "nt": "greathanbydlaunches526metrebatteryelectr",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "휴머노이드 안전 가이드라인 착수…내년 1700대 보급, 2030년 1만5000대",
+   "nt": "휴머노이드안전가이드라인착수내년1700대보급2030년1만5000대",
    "tk": [
-    "26",
-    "battery",
-    "byd",
-    "electric",
-    "great",
-    "han",
-    "launches",
-    "metre",
-    "saloon"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/16/great-han-byd-launches-5-26-metre-battery-electric-saloon/"
-  },
-  {
-   "date": "2026-10-19",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "오전 이어 오후에도 삼전 사고 닉스 팔고 [주식 초고수는 지금]",
-   "nt": "오전이어오후에도삼전사고닉스팔고주식초고수는지금",
-   "tk": [
-    "닉스",
-    "사고",
-    "삼전",
-    "오전",
-    "오후에도",
-    "이어",
-    "주식",
-    "지금",
-    "초고수는",
-    "팔고"
+    "1700대",
+    "1만5000대",
+    "2030년",
+    "가이드라인",
+    "내년",
+    "보급",
+    "안전",
+    "착수",
+    "휴머노이드"
    ],
    "nums": [
-    "1%"
+    "1080대",
+    "1700대",
+    "1만",
+    "2030년",
+    "250대",
+    "5000대"
    ],
-   "url": "https://www.mk.co.kr/news/stock/12177876"
+   "url": "https://www.etnews.com/20261018000058"
   },
   {
    "date": "2026-10-19",
-   "entity": "피엔티",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "이차전지 장비 넘어 소재까지…피엔티, 성장 동력 다변화 시험대",
-   "nt": "이차전지장비넘어소재까지피엔티성장동력다변화시험대",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "휴머노이드 가이드라인 마련 착수…내년 시범보급 등 확산 대응",
+   "nt": "휴머노이드가이드라인마련착수내년시범보급등확산대응",
    "tk": [
-    "넘어",
-    "다변화",
-    "동력",
-    "성장",
-    "소재까지",
-    "시험대",
-    "이차전지",
+    "가이드라인",
+    "내년",
+    "대응",
+    "마련",
+    "시범보급",
+    "착수",
+    "확산",
+    "휴머노이드"
+   ],
+   "nums": [
+    "1080대",
+    "2030년",
+    "250대"
+   ],
+   "url": "https://www.etnews.com/20261018000058"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "부산 전기차 보조금 추가 신청 10분 만에 마감…고유가에 수요 급증",
+   "nt": "부산전기차보조금추가신청10분만에마감고유가에수요급증",
+   "tk": [
+    "10분",
+    "고유가에",
+    "급증",
+    "마감",
+    "만에",
+    "보조금",
+    "부산",
+    "수요",
+    "신청",
+    "전기차",
+    "추가"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261016115500051"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "전기차 수요 급증…부산시 보조금 추가신청 10분 만에 마감",
+   "nt": "전기차수요급증부산시보조금추가신청10분만에마감",
+   "tk": [
+    "10분",
+    "급증",
+    "마감",
+    "만에",
+    "보조금",
+    "부산시",
+    "수요",
+    "전기차",
+    "추가신청"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261016115500051"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "佛·獨 \"영국, 중국산 EV 관세 EU 수준으로 올리면 영국차에 보조금 허용\"",
+   "nt": "영국중국산ev관세eu수준으로올리면영국차에보조금허용",
+   "tk": [
+    "eu",
+    "ev",
+    "관세",
+    "보조금",
+    "수준으로",
+    "영국",
+    "영국차에",
+    "올리면",
+    "중국산",
+    "허용"
+   ],
+   "nums": [],
+   "url": "https://www.dailian.co.kr/news/view/1702480/%E4%BD%9B%E7%8D%A8-%E8%8B%B1-%EC%A4%91%EA%B5%AD%EC%82%B0-%EC%A0%84%EA%B8%B0%EC%B0%A8-%EA%B4%80%EC%84%B8-%EC%98%AC%EB%A6%AC%EB%A9%B4-2026"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "佛·獨 \"英, 중국산 전기차 관세 올리면 EU 자동차 보조금 허용\"",
+   "nt": "중국산전기차관세올리면eu자동차보조금허용",
+   "tk": [
+    "eu",
+    "관세",
+    "보조금",
+    "올리면",
+    "자동차",
+    "전기차",
+    "중국산",
+    "허용"
+   ],
+   "nums": [],
+   "url": "https://www.dailian.co.kr/news/view/1702480/%E4%BD%9B%E7%8D%A8-%E8%8B%B1-%EC%A4%91%EA%B5%AD%EC%82%B0-%EC%A0%84%EA%B8%B0%EC%B0%A8-%EA%B4%80%EC%84%B8-%EC%98%AC%EB%A6%AC%EB%A9%B4-2026"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "테슬라, 그륀하이데 기가팩토리 확장…53.6만㎡ 신규 생산동 12월 승인 신청",
+   "nt": "테슬라그륀하이데기가팩토리확장536만신규생산동12월승인신청",
+   "tk": [
+    "12월",
+    "53",
+    "6만",
+    "그륀하이데",
+    "기가팩토리",
+    "생산동",
+    "승인",
+    "신규",
+    "신청",
+    "테슬라",
+    "확장"
+   ],
+   "nums": [
+    "21.9만",
+    "2배",
+    "53.6만"
+   ],
+   "url": "https://www.electrive.com/2026/10/16/teslas-plans-for-grunheide-expansion-take-shape/"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Tesla’s plans for Grünheide expansion take shape",
+   "nt": "teslasplansforgrnheideexpansiontakeshape",
+   "tk": [
+    "expansion",
+    "for",
+    "gr",
+    "nheide",
+    "plans",
+    "shape",
+    "take",
+    "tesla"
+   ],
+   "nums": [
+    "21.9만",
+    "2배"
+   ],
+   "url": "https://www.electrive.com/2026/10/16/teslas-plans-for-grunheide-expansion-take-shape/"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "첨단 패키징 장비 시장 2031년 1200억달러 전망…삼성·SK하이닉스도 후공정 투자",
+   "nt": "첨단패키징장비시장2031년1200억달러전망삼성sk하이닉스도후공정투자",
+   "tk": [
+    "1200억달러",
+    "2031년",
+    "sk하이닉스도",
+    "삼성",
+    "시장",
     "장비",
-    "피엔티"
+    "전망",
+    "첨단",
+    "투자",
+    "패키징",
+    "후공정"
    ],
-   "nums": [],
-   "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=496121"
+   "nums": [
+    "1200억",
+    "2031년"
+   ],
+   "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B2%BD%EC%9F%81-%EB%AF%B8%EC%84%B8%EA%B3%B5%EC%A0%95-%EB%84%98%EC%96%B4-%ED%8C%A8%ED%82%A4%EC%A7%95-%EC%9C%BC%EB%A1%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%ED%88%AC%EC%9E%90-%ED%99%95%EB%8C%80/ar-AA2euSxC"
   },
   {
    "date": "2026-10-19",
-   "entity": "엠플러스",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "명재승 엠플러스산업개발 대표 “건설 기술로 이웃의 일상에 온기 전하고 싶다”",
-   "nt": "명재승엠플러스산업개발대표건설기술로이웃의일상에온기전하고싶다",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "AI 반도체 경쟁, 미세공정 넘어 '패키징'으로…글로벌 투자 확대",
+   "nt": "ai반도체경쟁미세공정넘어패키징으로글로벌투자확대",
    "tk": [
-    "건설",
-    "기술로",
-    "대표",
-    "명재승",
-    "싶다",
-    "엠플러스산업개발",
-    "온기",
-    "이웃의",
-    "일상에",
-    "전하고"
+    "ai",
+    "경쟁",
+    "글로벌",
+    "넘어",
+    "미세공정",
+    "반도체",
+    "으로",
+    "투자",
+    "패키징",
+    "확대"
    ],
    "nums": [],
-   "url": "https://www.skypress.co.kr/news/articleView.html?idxno=147760"
+   "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B2%BD%EC%9F%81-%EB%AF%B8%EC%84%B8%EA%B3%B5%EC%A0%95-%EB%84%98%EC%96%B4-%ED%8C%A8%ED%82%A4%EC%A7%95-%EC%9C%BC%EB%A1%9C-%EA%B8%80%EB%A1%9C%EB%B2%8C-%ED%88%AC%EC%9E%90-%ED%99%95%EB%8C%80/ar-AA2euSxC"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "남부발전·피엠그로우, 전기버스 사용후 배터리 '화재방지형 R-ESS' 실증",
+   "nt": "남부발전피엠그로우전기버스사용후배터리화재방지형ress실증",
+   "tk": [
+    "ess",
+    "남부발전",
+    "배터리",
+    "사용후",
+    "실증",
+    "전기버스",
+    "피엠그로우",
+    "화재방지형"
+   ],
+   "nums": [],
+   "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87710"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "남부발전, 전기버스 사용후 배터리 활용 ‘화재방지형 ESS’ 실증",
+   "nt": "남부발전전기버스사용후배터리활용화재방지형ess실증",
+   "tk": [
+    "ess",
+    "남부발전",
+    "배터리",
+    "사용후",
+    "실증",
+    "전기버스",
+    "화재방지형",
+    "활용"
+   ],
+   "nums": [],
+   "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87710"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "폭스바겐, 유럽 ID. 시리즈 배터리 셀 결함 리콜 준비…80% 충전 권고",
+   "nt": "폭스바겐유럽id시리즈배터리셀결함리콜준비80충전권고",
+   "tk": [
+    "80",
+    "id",
+    "결함",
+    "권고",
+    "리콜",
+    "배터리",
+    "시리즈",
+    "유럽",
+    "준비",
+    "충전",
+    "폭스바겐"
+   ],
+   "nums": [
+    "80%"
+   ],
+   "url": "https://www.electrive.com/2026/10/16/vw-prepares-battery-recall-for-multiple-id-models-in-europe/"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "VW prepares battery recall for multiple ID. models in Europe",
+   "nt": "vwpreparesbatteryrecallformultipleidmode",
+   "tk": [
+    "battery",
+    "europe",
+    "for",
+    "id",
+    "in",
+    "models",
+    "multiple",
+    "prepares",
+    "recall",
+    "vw"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/16/vw-prepares-battery-recall-for-multiple-id-models-in-europe/"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "9월 글로벌 EV 판매 215만대…유럽 월간 최다, 북미 급감",
+   "nt": "9월글로벌ev판매215만대유럽월간최다북미급감",
+   "tk": [
+    "215만대",
+    "9월",
+    "ev",
+    "글로벌",
+    "급감",
+    "북미",
+    "월간",
+    "유럽",
+    "최다",
+    "판매"
+   ],
+   "nums": [
+    "215만"
+   ],
+   "url": "https://electriccarsreport.com/2026/10/global-ev-sales-september-2026/"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Global EV Sales Reach 2.15 Million in September as Europe Sets New Record",
+   "nt": "globalevsalesreach215millioninseptembera",
+   "tk": [
+    "15",
+    "as",
+    "europe",
+    "ev",
+    "global",
+    "in",
+    "million",
+    "new",
+    "reach",
+    "record",
+    "sales",
+    "september",
+    "sets"
+   ],
+   "nums": [],
+   "url": "https://electriccarsreport.com/2026/10/global-ev-sales-september-2026/"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "AGL, 퀸즐랜드 Abermain 500MWh BESS EPBC 환경평가 회부",
+   "nt": "agl퀸즐랜드abermain500mwhbessepbc환경평가회부",
+   "tk": [
+    "500mwh",
+    "abermain",
+    "agl",
+    "bess",
+    "epbc",
+    "퀸즐랜드",
+    "환경평가",
+    "회부"
+   ],
+   "nums": [
+    "500MWh"
+   ],
+   "url": "https://www.energy-storage.news/agl-refers-500mwh-abermain-bess-in-queensland-to-australias-epbc-act/"
+  },
+  {
+   "date": "2026-10-19",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "AGL refers 500MWh Abermain BESS in Queensland to Australia’s EPBC Act",
+   "nt": "aglrefers500mwhabermainbessinqueenslandt",
+   "tk": [
+    "500mwh",
+    "abermain",
+    "act",
+    "agl",
+    "australia",
+    "bess",
+    "epbc",
+    "in",
+    "queensland",
+    "refers",
+    "to"
+   ],
+   "nums": [
+    "500MWh"
+   ],
+   "url": "https://www.energy-storage.news/agl-refers-500mwh-abermain-bess-in-queensland-to-australias-epbc-act/"
   }
  ]
 }

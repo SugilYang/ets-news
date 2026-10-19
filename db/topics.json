@@ -11520,6 +11520,474 @@
   },
   {
    "date": "2026-10-20",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "전고체 특허 출원 도요타 1996건·삼성SDI 712건·LG엔솔 525건…SK온 49건",
+   "nt": "전고체특허출원도요타1996건삼성sdi712건lg엔솔525건sk온49건",
+   "tk": [
+    "1996건",
+    "49건",
+    "525건",
+    "712건",
+    "lg엔솔",
+    "sk온",
+    "도요타",
+    "삼성sdi",
+    "전고체",
+    "출원",
+    "특허"
+   ],
+   "nums": [
+    "1996건",
+    "2015년",
+    "2024년",
+    "2573건",
+    "29.5%",
+    "340건",
+    "42.4%",
+    "49건",
+    "525건",
+    "712건"
+   ],
+   "url": "http://m.ceoscoredaily.com/page/view/2026101914434976407"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "K-배터리 특허 증가율 ‘세계 2위’…삼성SDI·LG엔솔, 전고체 영토 넓힌다",
+   "nt": "k배터리특허증가율세계2위삼성sdilg엔솔전고체영토넓힌다",
+   "tk": [
+    "2위",
+    "lg엔솔",
+    "넓힌다",
+    "배터리",
+    "삼성sdi",
+    "세계",
+    "영토",
+    "전고체",
+    "증가율",
+    "특허"
+   ],
+   "nums": [
+    "2015년",
+    "2024년",
+    "2573건",
+    "29.5%",
+    "340건",
+    "42.4%"
+   ],
+   "url": "http://m.ceoscoredaily.com/page/view/2026101914434976407"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "울란바타르, BYD 고가 궤도 '스카이셔틀' 도입…2027년 3월 착공 목표",
+   "nt": "울란바타르byd고가궤도스카이셔틀도입2027년3월착공목표",
+   "tk": [
+    "2027년",
+    "3월",
+    "byd",
+    "고가",
+    "궤도",
+    "도입",
+    "목표",
+    "스카이셔틀",
+    "울란바타르",
+    "착공"
+   ],
+   "nums": [
+    "2027년"
+   ],
+   "url": "https://himongolianews.net/ulaanbaatar-byd-sky-shuttle-electric-transit-2027/"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "울란바타르에 BYD ‘스카이셔틀’ 전기 대중교통 도입…2027년 3월 착공 목표",
+   "nt": "울란바타르에byd스카이셔틀전기대중교통도입2027년3월착공목표",
+   "tk": [
+    "2027년",
+    "3월",
+    "byd",
+    "대중교통",
+    "도입",
+    "목표",
+    "스카이셔틀",
+    "울란바타르에",
+    "전기",
+    "착공"
+   ],
+   "nums": [
+    "2027년"
+   ],
+   "url": "https://himongolianews.net/ulaanbaatar-byd-sky-shuttle-electric-transit-2027/"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "토탈에너지 자회사 Saft, 보르도에 전고체 배터리 생산라인 개소…항공우주용",
+   "nt": "토탈에너지자회사saft보르도에전고체배터리생산라인개소항공우주용",
+   "tk": [
+    "saft",
+    "개소",
+    "배터리",
+    "보르도에",
+    "생산라인",
+    "자회사",
+    "전고체",
+    "토탈에너지",
+    "항공우주용"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/19/totalenergies-subsidiary-saft-manufactures-solid-state-batteries-in-bordeaux/"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "TotalEnergies subsidiary Saft manufactures solid-state batteries in Bordeaux",
+   "nt": "totalenergiessubsidiarysaftmanufacturess",
+   "tk": [
+    "batteries",
+    "bordeaux",
+    "in",
+    "manufactures",
+    "saft",
+    "solid",
+    "state",
+    "subsidiary",
+    "totalenergies"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/19/totalenergies-subsidiary-saft-manufactures-solid-state-batteries-in-bordeaux/"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "이수스페셜티케미컬, 황화리튬 마더플랜트 준공식…상업화 단계 진입",
+   "nt": "이수스페셜티케미컬황화리튬마더플랜트준공식상업화단계진입",
+   "tk": [
+    "단계",
+    "마더플랜트",
+    "상업화",
+    "이수스페셜티케미컬",
+    "준공식",
+    "진입",
+    "황화리튬"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/%EC%9D%B4%EC%88%98%EC%8A%A4%ED%8E%98%EC%85%9C%ED%8B%B0%EC%BC%80%EB%AF%B8%EC%BB%AC-%ED%99%A9%ED%99%94%EB%A6%AC%ED%8A%AC-%EB%A7%88%EB%8D%94%ED%94%8C%EB%9E%9C%ED%8A%B8-%EC%A4%80%EA%B3%B5-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%86%8C%EC%9E%AC-%EC%96%91%EC%82%B0-%EB%B3%B8%EA%B2%A9%ED%99%94/ar-AA2exSQc"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "이수스페셜티케미컬, 황화리튬 마더플랜트 준공…전고체 배터리 소재 양산 본격화",
+   "nt": "이수스페셜티케미컬황화리튬마더플랜트준공전고체배터리소재양산본격화",
+   "tk": [
+    "마더플랜트",
+    "배터리",
+    "본격화",
+    "소재",
+    "양산",
+    "이수스페셜티케미컬",
+    "전고체",
+    "준공",
+    "황화리튬"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/money/%EC%9D%BC%EB%B0%98/%EC%9D%B4%EC%88%98%EC%8A%A4%ED%8E%98%EC%85%9C%ED%8B%B0%EC%BC%80%EB%AF%B8%EC%BB%AC-%ED%99%A9%ED%99%94%EB%A6%AC%ED%8A%AC-%EB%A7%88%EB%8D%94%ED%94%8C%EB%9E%9C%ED%8A%B8-%EC%A4%80%EA%B3%B5-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%86%8C%EC%9E%AC-%EC%96%91%EC%82%B0-%EB%B3%B8%EA%B2%A9%ED%99%94/ar-AA2exSQc"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "정부·SK하이닉스, 반도체 소부장 협력사에 2조 '수출 공급망 강화 보증'",
+   "nt": "정부sk하이닉스반도체소부장협력사에2조수출공급망강화보증",
+   "tk": [
+    "2조",
+    "sk하이닉스",
+    "강화",
+    "공급망",
+    "반도체",
+    "보증",
+    "소부장",
+    "수출",
+    "정부",
+    "협력사에"
+   ],
+   "nums": [
+    "1000억",
+    "2.5%",
+    "20배",
+    "2조",
+    "3년",
+    "4대"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261019072200003"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "정부·SK하이닉스, 반도체 협력사에 2조원 보증 지원",
+   "nt": "정부sk하이닉스반도체협력사에2조원보증지원",
+   "tk": [
+    "2조원",
+    "sk하이닉스",
+    "반도체",
+    "보증",
+    "정부",
+    "지원",
+    "협력사에"
+   ],
+   "nums": [
+    "1000억",
+    "2.5%",
+    "20배",
+    "2조",
+    "3년",
+    "4대"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261019072200003"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "산업부에 기술유출 특별사법경찰 권한 부여 추진…개발비 전액 배상",
+   "nt": "산업부에기술유출특별사법경찰권한부여추진개발비전액배상",
+   "tk": [
+    "개발비",
+    "권한",
+    "기술유출",
+    "배상",
+    "부여",
+    "산업부에",
+    "전액",
+    "추진",
+    "특별사법경찰"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12179839"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "기술 유출에 칼빼든 산업부 … 특사경 띄워 직접 수사한다",
+   "nt": "기술유출에칼빼든산업부특사경띄워직접수사한다",
+   "tk": [
+    "기술",
+    "띄워",
+    "산업부",
+    "수사한다",
+    "유출에",
+    "직접",
+    "칼빼든",
+    "특사경"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12179839"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "영국, ZEV 의무 2027~2035 목표 완화 검토…당초보다 소폭",
+   "nt": "영국zev의무20272035목표완화검토당초보다소폭",
+   "tk": [
+    "2027",
+    "2035",
+    "zev",
+    "검토",
+    "당초보다",
+    "목표",
+    "소폭",
+    "영국",
+    "완화",
+    "의무"
+   ],
+   "nums": [
+    "2027",
+    "2035"
+   ],
+   "url": "https://www.electrive.com/2026/10/19/uk-government-to-ease-ev-sales-mandate-but-only-slightly/"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "UK government to ease EV sales mandate – but only slightly",
+   "nt": "ukgovernmenttoeaseevsalesmandatebutonlys",
+   "tk": [
+    "but",
+    "ease",
+    "ev",
+    "government",
+    "mandate",
+    "only",
+    "sales",
+    "slightly",
+    "to",
+    "uk"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/19/uk-government-to-ease-ev-sales-mandate-but-only-slightly/"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "앰코, 광주공장 3조 증축 착공…AI·HPC 첨단 패키징 4개동, 2000명 고용",
+   "nt": "앰코광주공장3조증축착공aihpc첨단패키징4개동2000명고용",
+   "tk": [
+    "2000명",
+    "3조",
+    "4개동",
+    "ai",
+    "hpc",
+    "고용",
+    "광주공장",
+    "앰코",
+    "증축",
+    "착공",
+    "첨단",
+    "패키징"
+   ],
+   "nums": [
+    "1000명",
+    "2000명",
+    "2028년",
+    "2개",
+    "2조",
+    "3조",
+    "4개"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261018038500003"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "앰코, 광주공장 3조원 증축 착공…서남권 반도체 첫 신호탄",
+   "nt": "앰코광주공장3조원증축착공서남권반도체첫신호탄",
+   "tk": [
+    "3조원",
+    "광주공장",
+    "반도체",
+    "서남권",
+    "신호탄",
+    "앰코",
+    "증축",
+    "착공"
+   ],
+   "nums": [
+    "1000명",
+    "2028년",
+    "2개",
+    "2조",
+    "3조"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261018038500003"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "엑셀리스, 평택 아태 오퍼레이션 센터(AAOC) 증설 착공…이온주입 장비",
+   "nt": "엑셀리스평택아태오퍼레이션센터aaoc증설착공이온주입장비",
+   "tk": [
+    "aaoc",
+    "센터",
+    "아태",
+    "엑셀리스",
+    "오퍼레이션",
+    "이온주입",
+    "장비",
+    "증설",
+    "착공",
+    "평택"
+   ],
+   "nums": [
+    "20억",
+    "4개"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261019170800003"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "미국 반도체장비 기업 엑셀리스, 평택에 아태지역 제조거점 증설",
+   "nt": "미국반도체장비기업엑셀리스평택에아태지역제조거점증설",
+   "tk": [
+    "기업",
+    "미국",
+    "반도체장비",
+    "아태지역",
+    "엑셀리스",
+    "제조거점",
+    "증설",
+    "평택에"
+   ],
+   "nums": [
+    "20억",
+    "4개"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261019170800003"
+  },
+  {
+   "date": "2026-10-20",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전기, 글로벌 메모리 기업과 3605억 패키지기판 1년 장기공급계약",
+   "nt": "삼성전기글로벌메모리기업과3605억패키지기판1년장기공급계약",
+   "tk": [
+    "1년",
+    "3605억",
+    "글로벌",
+    "기업과",
+    "메모리",
+    "삼성전기",
+    "장기공급계약",
+    "패키지기판"
+   ],
+   "nums": [
+    "12월31일",
+    "1년",
+    "1월1일",
+    "2027년",
+    "3605억"
+   ],
+   "url": "https://www.etnews.com/20261019000417"
+  },
+  {
+   "date": "2026-10-20",
    "entity": "",
    "cat": "market",
    "group": "semi",
@@ -11536,6 +12004,9 @@
     "패키지기판"
    ],
    "nums": [
+    "12월31일",
+    "1월1일",
+    "2027년",
     "3605억"
    ],
    "url": "https://www.etnews.com/20261019000417"
@@ -11545,417 +12016,133 @@
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "삼성전기, 글로벌 메모리 기업에 3천605억원 규모 기판 공급",
-   "nt": "삼성전기글로벌메모리기업에3천605억원규모기판공급",
+   "h": "TSMC, 타이난에 3나노 공장 추가 건설…2028년 양산",
+   "nt": "tsmc타이난에3나노공장추가건설2028년양산",
    "tk": [
-    "3천605억원",
-    "공급",
-    "규모",
-    "글로벌",
-    "기업에",
-    "기판",
-    "메모리",
-    "삼성전기"
+    "2028년",
+    "3나노",
+    "tsmc",
+    "건설",
+    "공장",
+    "양산",
+    "추가",
+    "타이난에"
    ],
    "nums": [
-    "3천",
-    "4조",
-    "5개월",
-    "605억"
+    "2028년"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20261019161300003"
+   "url": "https://www.etnews.com/20261019000425"
   },
   {
    "date": "2026-10-20",
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "앰코, 광주에 3조 투자 … 패키징 거점 육성",
-   "nt": "앰코광주에3조투자패키징거점육성",
+   "h": "TSMC, 대만 타이난에 3나노 공장 추가 건설…2028년 양산",
+   "nt": "tsmc대만타이난에3나노공장추가건설2028년양산",
    "tk": [
-    "3조",
-    "거점",
-    "광주에",
-    "앰코",
-    "육성",
-    "투자",
-    "패키징"
+    "2028년",
+    "3나노",
+    "tsmc",
+    "건설",
+    "공장",
+    "대만",
+    "양산",
+    "추가",
+    "타이난에"
    ],
    "nums": [
-    "2026년",
-    "2031년",
-    "3조"
+    "2028년"
    ],
-   "url": "https://www.mk.co.kr/news/economy/12179847"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "앰코, 광주공장 3조원 증축 착공…서남권 반도체 첫 신호탄",
-   "nt": "앰코광주공장3조원증축착공서남권반도체첫신호탄",
-   "tk": [
-    "3조원",
-    "광주공장",
-    "반도체",
-    "서남권",
-    "신호탄",
-    "앰코",
-    "증축",
-    "착공"
-   ],
-   "nums": [
-    "3조"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261018038500003"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "배터리주 들썩…\"中 ESS 업체 美서 철수\"",
-   "nt": "배터리주들썩ess업체서철수",
-   "tk": [
-    "ess",
-    "들썩",
-    "배터리주",
-    "업체",
-    "철수"
-   ],
-   "nums": [],
-   "url": "https://www.hankyung.com/article/2026101915251"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "BYD",
-   "cat": "project",
-   "group": "all",
-   "h": "울란바타르에 BYD ‘스카이셔틀’ 전기 대중교통 도입…2027년 3월 착공 목표",
-   "nt": "울란바타르에byd스카이셔틀전기대중교통도입2027년3월착공목표",
-   "tk": [
-    "2027년",
-    "3월",
-    "byd",
-    "대중교통",
-    "도입",
-    "목표",
-    "스카이셔틀",
-    "울란바타르에",
-    "전기",
-    "착공"
-   ],
-   "nums": [
-    "2026",
-    "2027년"
-   ],
-   "url": "https://himongolianews.net/ulaanbaatar-byd-sky-shuttle-electric-transit-2027/"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "\"中 철수·ESS 수요 겹호재\"…韓 이차전지 일제히 '쑥'",
-   "nt": "철수ess수요겹호재이차전지일제히쑥",
-   "tk": [
-    "ess",
-    "겹호재",
-    "수요",
-    "이차전지",
-    "일제히",
-    "철수"
-   ],
-   "nums": [],
-   "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000074476"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "미국 반도체장비 기업 엑셀리스, 평택에 아태지역 제조거점 증설",
-   "nt": "미국반도체장비기업엑셀리스평택에아태지역제조거점증설",
-   "tk": [
-    "기업",
-    "미국",
-    "반도체장비",
-    "아태지역",
-    "엑셀리스",
-    "제조거점",
-    "증설",
-    "평택에"
-   ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20261019170800003"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "BYD",
-   "cat": "customer",
-   "group": "global",
-   "h": "BYD begins Racco’s global rollout with Sri Lanka and Macao",
-   "nt": "bydbeginsraccosglobalrolloutwithsrilanka",
-   "tk": [
-    "and",
-    "begins",
-    "byd",
-    "global",
-    "lanka",
-    "macao",
-    "racco",
-    "rollout",
-    "sri",
-    "with"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/19/byd-begins-raccos-global-rollout-with-sri-lanka-and-macao/"
+   "url": "https://www.etnews.com/20261019000425"
   },
   {
    "date": "2026-10-20",
    "entity": "",
    "cat": "market",
-   "group": "fa",
-   "h": "[테크 차이나] 일상 속으로 파고드는 외골격 로봇…소비자용 제품 중심으로 시장 확대",
-   "nt": "테크차이나일상속으로파고드는외골격로봇소비자용제품중심으로시장확대",
+   "group": "battery",
+   "h": "우드맥킨지 \"4시간 BESS LCOE, 43개 시장 전부에서 가스 피커보다 저렴\"",
+   "nt": "우드맥킨지4시간besslcoe43개시장전부에서가스피커보다저렴",
    "tk": [
-    "로봇",
-    "소비자용",
-    "속으로",
+    "43개",
+    "4시간",
+    "bess",
+    "lcoe",
+    "가스",
     "시장",
-    "외골격",
-    "일상",
-    "제품",
-    "중심으로",
-    "차이나",
-    "테크",
-    "파고드는",
-    "확대"
-   ],
-   "nums": [],
-   "url": "https://www.etnews.com/20261019000318"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "중국이 또 앞서가나? LFP 배터리 리사이클 경제성 확보가 관건",
-   "nt": "중국이또앞서가나lfp배터리리사이클경제성확보가관건",
-   "tk": [
-    "lfp",
-    "경제성",
-    "관건",
-    "리사이클",
-    "배터리",
-    "앞서가나",
-    "중국이",
-    "확보가"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/news/other/%EC%A4%91%EA%B5%AD%EC%9D%B4-%EB%98%90-%EC%95%9E%EC%84%9C%EA%B0%80%EB%82%98-lfp-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4-%EA%B2%BD%EC%A0%9C%EC%84%B1-%ED%99%95%EB%B3%B4%EA%B0%80-%EA%B4%80%EA%B1%B4/ar-AA2fyCvV"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "K-배터리 특허 증가율 ‘세계 2위’…삼성SDI·LG엔솔, 전고체 영토 넓힌다",
-   "nt": "k배터리특허증가율세계2위삼성sdilg엔솔전고체영토넓힌다",
-   "tk": [
-    "2위",
-    "lg엔솔",
-    "넓힌다",
-    "배터리",
-    "삼성sdi",
-    "세계",
-    "영토",
-    "전고체",
-    "증가율",
-    "특허"
-   ],
-   "nums": [],
-   "url": "http://m.ceoscoredaily.com/page/view/2026101914434976407"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "전력 부족 시대 ESS가 뜬다… 배터리·냉각·전력기기주 '눈에 띄네'",
-   "nt": "전력부족시대ess가뜬다배터리냉각전력기기주눈에띄네",
-   "tk": [
-    "ess가",
-    "냉각",
-    "눈에",
-    "뜬다",
-    "띄네",
-    "배터리",
-    "부족",
-    "시대",
-    "전력",
-    "전력기기주"
-   ],
-   "nums": [],
-   "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=496402"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "삼성SDI, 전고체 배터리 내년 양산 본격화...휴머노이드 선점·전기차 확대 추진",
-   "nt": "삼성sdi전고체배터리내년양산본격화휴머노이드선점전기차확대추진",
-   "tk": [
-    "내년",
-    "배터리",
-    "본격화",
-    "삼성sdi",
-    "선점",
-    "양산",
-    "전고체",
-    "전기차",
-    "추진",
-    "확대",
-    "휴머노이드"
+    "우드맥킨지",
+    "저렴",
+    "전부에서",
+    "피커보다"
    ],
    "nums": [
-    "2027년"
+    "43개"
    ],
-   "url": "https://www.e-science.co.kr/news/articleView.html?idxno=137147"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "LG에너지솔루션",
-   "cat": "project",
-   "group": "all",
-   "h": "국내 유일 LFP배터리 상업 양산… 양극재 등 핵심소재 국내산 사용",
-   "nt": "국내유일lfp배터리상업양산양극재등핵심소재국내산사용",
-   "tk": [
-    "lfp배터리",
-    "국내",
-    "국내산",
-    "사용",
-    "상업",
-    "양극재",
-    "양산",
-    "유일",
-    "핵심소재"
-   ],
-   "nums": [],
-   "url": "https://www.munhwa.com/article/11624384"
+   "url": "https://www.energy-storage.news/bess-beats-gas-peaker-plants-on-lcoe-globally-wood-mackenzie-finds/"
   },
   {
    "date": "2026-10-20",
    "entity": "",
    "cat": "market",
-   "group": "fa",
-   "h": "두 팔로 500kg 든다…4m 초대형 산업용 로봇",
-   "nt": "두팔로500kg든다4m초대형산업용로봇",
+   "group": "battery",
+   "h": "BESS beats gas peaker plants on LCOE globally, Wood Mackenzie finds",
+   "nt": "bessbeatsgaspeakerplantsonlcoegloballywo",
    "tk": [
-    "4m",
-    "500kg",
-    "든다",
-    "로봇",
-    "산업용",
-    "초대형",
-    "팔로"
+    "beats",
+    "bess",
+    "finds",
+    "gas",
+    "globally",
+    "lcoe",
+    "mackenzie",
+    "on",
+    "peaker",
+    "plants",
+    "wood"
    ],
    "nums": [],
-   "url": "https://www.etnews.com/20261019000350"
+   "url": "https://www.energy-storage.news/bess-beats-gas-peaker-plants-on-lcoe-globally-wood-mackenzie-finds/"
   },
   {
    "date": "2026-10-20",
    "entity": "",
    "cat": "market",
    "group": "ev",
-   "h": "CX-6e: Mazda launches its second EV in Thailand",
-   "nt": "cx6emazdalaunchesitssecondevinthailand",
+   "h": "벤츠, 국내에 차세대 전기차 CLA·GLC 출시",
+   "nt": "벤츠국내에차세대전기차claglc출시",
    "tk": [
-    "6e",
-    "cx",
-    "ev",
-    "in",
-    "its",
-    "launches",
-    "mazda",
-    "second",
-    "thailand"
+    "cla",
+    "glc",
+    "국내에",
+    "벤츠",
+    "전기차",
+    "차세대",
+    "출시"
    ],
    "nums": [],
-   "url": "https://www.electrive.com/2026/10/19/cx-6e-mazda-launches-its-second-ev-in-thailand/"
+   "url": "https://www.yna.co.kr/view/AKR20261019133500003"
   },
   {
    "date": "2026-10-20",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "Evolving role of energy storage as infrastructure demands that technology stands the test of time, CATL CEO says",
-   "nt": "evolvingroleofenergystorageasinfrastruct",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "벤츠, 국내서 차세대 전기차 CLA·GLC 출시…\"전동화 전략 가속\"",
+   "nt": "벤츠국내서차세대전기차claglc출시전동화전략가속",
    "tk": [
-    "as",
-    "catl",
-    "ceo",
-    "demands",
-    "energy",
-    "evolving",
-    "infrastructure",
-    "of",
-    "role",
-    "says",
-    "stands",
-    "storage",
-    "technology",
-    "test",
-    "that",
-    "the",
-    "time"
+    "cla",
+    "glc",
+    "가속",
+    "국내서",
+    "벤츠",
+    "전기차",
+    "전동화",
+    "전략",
+    "차세대",
+    "출시"
    ],
    "nums": [],
-   "url": "https://www.energy-storage.news/evolving-role-of-energy-storage-as-infrastructure-demands-that-technology-stands-the-test-of-time-catl-ceo-says/"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "엠플러스",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "엠플러스, 2차전지 장비주 상승 흐름에 합류",
-   "nt": "엠플러스2차전지장비주상승흐름에합류",
-   "tk": [
-    "2차전지",
-    "상승",
-    "엠플러스",
-    "장비주",
-    "합류",
-    "흐름에"
-   ],
-   "nums": [],
-   "url": "https://www.vegannews.co.kr/news/article.html?no=394364"
-  },
-  {
-   "date": "2026-10-20",
-   "entity": "ACC",
-   "cat": "customer",
-   "group": "global",
-   "h": "ACC 직원들이 APEC 2027을 준비하기 위해 건설 현장에서 일하고 있습니다.",
-   "nt": "acc직원들이apec2027을준비하기위해건설현장에서일하고있습니다",
-   "tk": [
-    "2027을",
-    "acc",
-    "apec",
-    "건설",
-    "위해",
-    "일하고",
-    "있습니다",
-    "준비하기",
-    "직원들이",
-    "현장에서"
-   ],
-   "nums": [
-    "2027"
-   ],
-   "url": "https://www.vietnam.vn/ko/linh-tho-acc-tren-cong-truong-phuc-vu-apec-2027"
+   "url": "https://www.yna.co.kr/view/AKR20261019133500003"
   }
  ]
 }

@@ -1,0 +1,525 @@
+{
+ "schema": 4,
+ "date": "2026-10-20",
+ "weekday": "화",
+ "edition": "조간",
+ "issue_no": 23,
+ "window_hours": 36,
+ "summary": "울란바타르에 BYD ‘스카이셔틀’ 전기 대중교통 도입… · 국내 유일 LFP배터리 상업 양산… 양극재 등 핵심소재 · \"中 철수·ESS 수요 겹호재\"…韓 이차전지 일제히 ' · 미국 반도체장비 기업 엑셀리스, 평택에 아태지역 제조거",
+ "top": [
+  "2026-10-20-5",
+  "2026-10-20-14",
+  "2026-10-20-6",
+  "2026-10-20-7"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-20-5",
+       "h": "울란바타르에 BYD ‘스카이셔틀’ 전기 대중교통 도입…2027년 3월 착공 목표",
+       "b": "by 몽골외신팀 | 2026-10-19 | 경제/산업 , 몽골뉴스 (몽골=하이몽골리아뉴스) 울란바타르시가 중국 전기차 기업 BYD와 손잡고 고가 궤도형 전기 대중교통 시스템 ‘스카이셔틀(Sky Shuttle)’ 도입을 추진한다.",
+       "src": "하이몽골리아뉴스",
+       "url": "https://himongolianews.net/ulaanbaatar-byd-sky-shuttle-electric-transit-2027/",
+       "date": "2026-10-19",
+       "cat": "project",
+       "group": "all",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "투자",
+        "RFQ"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-14",
+       "h": "국내 유일 LFP배터리 상업 양산… 양극재 등 핵심소재 국내산 사용",
+       "b": "국내 배터리 기업 중 유일하게 리튬인산철(LFP) 배터리 상업 양산 경험을 보유하고 있는 LG에너지솔루션은 이번 3차 입찰에서 ‘국산 LFP의 안전성’을 내세운다는 방침이다.",
+       "src": "문화일보",
+       "url": "https://www.munhwa.com/article/11624384",
+       "date": "2026-10-19",
+       "cat": "project",
+       "group": "all",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "ESS",
+        "RFQ"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-10-20-6",
+       "h": "\"中 철수·ESS 수요 겹호재\"…韓 이차전지 일제히 '쑥'",
+       "b": "19일 국내 이차전지주가 에너지저장장치(ESS) 수요",
+       "src": "진일보 | 전남일보",
+       "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000074476",
+       "date": "2026-10-19",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI"
+       ],
+       "tags": [
+        "ESS",
+        "투자",
+        "리스크",
+        "정책"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-11",
+       "h": "K-배터리 특허 증가율 ‘세계 2위’…삼성SDI·LG엔솔, 전고체 영토 넓힌다",
+       "b": "차세대 배터리 기술 경쟁이 치열해지고 있는 가운데, 삼성SDI와 LG에너지솔루션이 글로벌 시장에서 입지를 공고히 다져 나가고 있다.",
+       "src": "CEO스코어데일리",
+       "url": "http://m.ceoscoredaily.com/page/view/2026101914434976407",
+       "date": "2026-10-19",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "전고체",
+        "각형",
+        "특허"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-10-20-13",
+       "h": "삼성SDI, 전고체 배터리 내년 양산 본격화...휴머노이드 선점·전기차 확대 추진",
+       "b": "전고체 배터리 상용화를 추진하는 삼성SDI가 <b>2027년</b> 하반기 양산을 목표로 핵심 소재 공급망과 고객사 협력을 강화하고 있다.",
+       "src": "이코노미사이언스",
+       "url": "https://www.e-science.co.kr/news/articleView.html?idxno=137147",
+       "date": "2026-10-19",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": []
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-10-20-8",
+       "h": "BYD begins Racco’s global rollout with Sri Lanka and Macao",
+       "b": "Following a global market launch in Japan in July, BYD has commenced the global rollout…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/19/byd-begins-raccos-global-rollout-with-sri-lanka-and-macao/",
+       "date": "2026-10-19",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "수주",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-17",
+       "h": "Evolving role of energy storage as infrastructure demands that technology stands the test of time, CATL CEO says",
+       "b": "Energy storage is becoming an indispensable new-type power system infrastructure, CATL…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/evolving-role-of-energy-storage-as-infrastructure-demands-that-technology-stands-the-test-of-time-catl-ceo-says/",
+       "date": "2026-10-19",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-19",
+       "h": "ACC 직원들이 APEC 2027을 준비하기 위해 건설 현장에서 일하고 있습니다.",
+       "b": "최근 푸꾸옥 국제공항 확장 공사 현장에서는 ACC Corporation(공군 방공사령부 소속)의 공무원, 엔지니어, 근로자들이 APEC 2027 고위급 회의 주간을 위한 인프라 구축을 위해 주요",
+       "src": "Vietnam.vn",
+       "url": "https://www.vietnam.vn/ko/linh-tho-acc-tren-cong-truong-phuc-vu-apec-2027",
+       "date": "2026-10-19",
+       "cat": "customer",
+       "group": "global",
+       "entity": "ACC",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-10-20-18",
+       "h": "엠플러스, 2차전지 장비주 상승 흐름에 합류",
+       "b": "엠플러스가 19일 오전 2차전지·에너지저장장치(ESS) 관련 종목의 상승 흐름에 포함됐다.",
+       "src": "비건뉴스",
+       "url": "https://www.vegannews.co.kr/news/article.html?no=394364",
+       "date": "2026-10-19",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "엠플러스",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-20-3",
+       "h": "앰코, 광주공장 3조원 증축 착공…서남권 반도체 첫 신호탄",
+       "b": "19일 산업통상부에 따르면 앰코테크놀로지코리아는 이날 광주사업장에서 광주공장 증축 착공식을 개최했다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261018038500003",
+       "date": "2026-10-19",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-4",
+       "h": "배터리주 들썩…\"中 ESS 업체 美서 철수\"",
+       "b": "한국경제신문의 투자 전문 유료 플랫폼 '한경 프리미엄9'(www.hankyung.com/premium9)에 실린 기사입니다.",
+       "src": "한국경제",
+       "url": "https://www.hankyung.com/article/2026101915251",
+       "date": "2026-10-19",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "리스크",
+        "정책"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-7",
+       "h": "미국 반도체장비 기업 엑셀리스, 평택에 아태지역 제조거점 증설",
+       "b": "산업통상부는 20일 엑셀리스가 평택시 오성 산업단지 부지에서 '엑셀리스 아시아 오퍼레이션 센터'(AAOC) 증설 착공식을 연다고 밝혔다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261019170800003",
+       "date": "2026-10-20",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-10-20-16",
+       "h": "CX-6e: Mazda launches its second EV in Thailand",
+       "b": "Mazda has launched the CX-6e in Thailand, beginning the rollout of its latest EV in Southeast Asia.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/19/cx-6e-mazda-launches-its-second-ev-in-thailand/",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-10-20-10",
+       "h": "중국이 또 앞서가나? LFP 배터리 리사이클 경제성 확보가 관건",
+       "b": "다시쓰는 폐배터리④LFP 재활용 과제 보호무역주의의 강화, 국제 분쟁의 증가 추세 속에 자원이 곧 안보인 시대가 열렸다.",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/news/other/%EC%A4%91%EA%B5%AD%EC%9D%B4-%EB%98%90-%EC%95%9E%EC%84%9C%EA%B0%80%EB%82%98-lfp-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4-%EA%B2%BD%EC%A0%9C%EC%84%B1-%ED%99%95%EB%B3%B4%EA%B0%80-%EA%B4%80%EA%B1%B4/ar-AA2fyCvV",
+       "date": "2026-10-19",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-12",
+       "h": "전력 부족 시대 ESS가 뜬다… 배터리·냉각·전력기기주 '눈에 띄네'",
+       "b": "전력저장장치(ESS) 관련 종목들이 19 인공지능(AI) 데이터센터의 전력 수요",
+       "src": "핀포인트뉴스",
+       "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=496402",
+       "date": "2026-10-19",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-10-20-0",
+       "h": "삼성전기, 3605억원 규모 '메모리 반도체용 패키지기판' 장기 공급계약",
+       "b": "삼성전기가 글로벌 대형기업과 <b>3605억</b> 원 규모 '메모리 반도체용 패키지기판' 장기공급계약(LTA)을 체결했다고 19일 밝혔다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261019000417",
+       "date": "2026-10-19",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-1",
+       "h": "삼성전기, 글로벌 메모리 기업에 3천605억원 규모 기판 공급",
+       "b": "이번 계약으로 삼성전기가 최근 <b>5개월</b>간 체결한 장기공급계약의 누적 금액은 <b>4조</b>원을 넘어섰다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261019161300003",
+       "date": "2026-10-19",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-2",
+       "h": "앰코, 광주에 3조 투자 … 패키징 거점 육성",
+       "b": "Amkor Technology가 광주공장 증축 에 <b>2026년</b>부터 <b>2031년</b>까지 총 <b>3조</b>원을 투자해 생산 거점을 확대합니다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12179847",
+       "date": "2026-10-19",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": [
+      {
+       "id": "2026-10-20-9",
+       "h": "[테크 차이나] 일상 속으로 파고드는 외골격 로봇…소비자용 제품 중심으로 시장 확대",
+       "b": "인공지능(AI)과 로봇 기술 상용화 경쟁이 치열해지는 가운데 외골격 로봇이 휴머노이드 로봇보다",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261019000318",
+       "date": "2026-10-19",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-20-15",
+       "h": "두 팔로 500kg 든다…4m 초대형 산업용 로봇",
+       "b": "높이 4m에 달하는 초대형 휴머노이드 로봇이 등장했습니다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261019000350",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 78,
+  "published": 20,
+  "headline_only": 1,
+  "followup": 0,
+  "suppressed": 1,
+  "sameday": 0,
+  "nobody": 0,
+  "unclassified": 2,
+  "capped": 31
+ },
+ "sources": [
+  "CEO스코어데일리",
+  "Vietnam.vn",
+  "bing.com",
+  "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
+  "mk.co.kr",
+  "yna.co.kr",
+  "문화일보",
+  "비건뉴스",
+  "이코노미사이언스",
+  "진일보 | 전남일보",
+  "핀포인트뉴스",
+  "하이몽골리아뉴스",
+  "한국경제"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

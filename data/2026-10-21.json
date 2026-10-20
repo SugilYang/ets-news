@@ -1,0 +1,483 @@
+{
+ "schema": 4,
+ "date": "2026-10-21",
+ "weekday": "수",
+ "edition": "조간",
+ "issue_no": 24,
+ "window_hours": 36,
+ "summary": "LG엔솔, ESS 사업 비중 확대…실적 개선 이어질까 · 특허만 2만2천건…삼성SDI ‘초격차 성벽’ 쌓았다 · 모로코는 아프리카 최초의 초대형 리튬 배터리 공장 가동 · 전남광주시, 앰코 3조원 투자 행정절차 신속 지원",
+ "top": [
+  "2026-10-21-12",
+  "2026-10-21-13",
+  "2026-10-21-16",
+  "2026-10-21-0"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-10-21-12",
+       "h": "LG엔솔, ESS 사업 비중 확대…실적 개선 이어질까",
+       "b": "LG에너지솔루션이 전기차 배터리에 이어 에너지저장장치(ESS) 사업 확대에 나서고 있다.",
+       "src": "폴리뉴스 Polinews",
+       "url": "https://www.polinews.co.kr/news/articleView.html?idxno=746271",
+       "date": "2026-10-20",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "ESS",
+        "수주",
+        "정책",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-14",
+       "h": "S&amp;P \"韓 배터리 제조사, 보조금 없는 미래 직면…LG엔솔에 타격\"",
+       "b": "스탠더드앤드푸어스(S&amp;P) 글로벌은 20일 발표한 보고서에서 \"한국 배터리 제조사들은 보조금 없는 미래를 마주하고 있다\"면서 이같이 밝혔다.",
+       "src": "KB Think",
+       "url": "https://kbthink.com/news-list/view.html?newsId=20261020113050851",
+       "date": "2026-10-20",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-10-21-9",
+       "h": "배터리 적자 못 벗은 삼성SDI, 최주선이 꺼낸 무기 '사람'과 '양산'",
+       "b": "배터리 적자 못 벗은 삼성SDI, 최주선이 꺼낸 무기 '사람'과 '양산' 최주선 대표(사진)는 올해 경영 전략으로 선택과 집중, 시장 대응 속도 향상, 미래기술 준비를 제시했습니다.",
+       "src": "네이버 프리미엄콘텐츠",
+       "url": "https://contents.premium.naver.com/thebell/stock/contents/261020165714185eh",
+       "date": "2026-10-21",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "전고체",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-13",
+       "h": "특허만 2만2천건…삼성SDI ‘초격차 성벽’ 쌓았다",
+       "b": "10월20일 업계에 따르면 삼성SDI는 <b>2026년</b> 2분기 기준 총 <b>2만</b> <b>2,322건</b>의 특허 등록 건수를 기록하며 업계 최고 수준의 지식재산권을 구축했다.",
+       "src": "경제타임스",
+       "url": "https://www.ket.kr/news/article.html?no=41516",
+       "date": "2026-10-20",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형",
+        "투자",
+        "특허"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": []
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-10-21-8",
+       "h": "BYD begins Racco’s global rollout with Sri Lanka and Macao",
+       "b": "Following a global market launch in Japan in July, BYD has commenced the global rollout…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/19/byd-begins-raccos-global-rollout-with-sri-lanka-and-macao/",
+       "date": "2026-10-19",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "수주",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-11",
+       "h": "[中 거인의 공급망] ①LFP 양극재 공급사 '로팔테크' 없으면 'CATL'도 없다",
+       "b": "①LFP 양극재 공급사 '로팔테크' 없으면 'CATL'도 없다",
+       "src": "네이버 프리미엄콘텐츠",
+       "url": "https://contents.premium.naver.com/gam/money/contents/261020163050504ov",
+       "date": "2026-10-20",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-16",
+       "h": "모로코는 아프리카 최초의 초대형 리튬 배터리 공장 가동을 준비하고 있다.",
+       "b": "대규모 배터리 공장 건설은 모로코가 원자재 우위와 지리적 이점을 활용하여 유럽, 아프리카 및 중동 시장과 연결함으로써 전기 자동차 산업 가치 사슬을 확장하는 데 도움이 될 것으로 기대됩니다.",
+       "src": "Vietnam.vn",
+       "url": "https://www.vietnam.vn/ko/maroc-chuan-bi-van-hanh-sieu-nha-may-pin-lithium-dau-tien-o-chau-phi",
+       "date": "2026-10-20",
+       "cat": "customer",
+       "group": "global",
+       "entity": "Gotion",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": []
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-21-0",
+       "h": "전남광주시, 앰코 3조원 투자 행정절차 신속 지원",
+       "b": "통합시는 앰코코리아의 투자 확대에 따른 폐수처리 수요에 대응하기 위해 장성군과 협력해 관련 인허가와 시설 증설 절차에 속도를 낼 방침이다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261020130300054",
+       "date": "2026-10-20",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-10",
+       "h": "중국 체리, '꿈의 배터리' 전고체 2027년 양산 선언…K-배터리 비상",
+       "b": "",
+       "src": "글로벌이코노믹",
+       "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102021035540502bd56fbc3c_1",
+       "date": "2026-10-21",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-15",
+       "h": "토탈에너지 자회사 샤프트, 프랑스 최초 전고체 배터리 양산 라인 가동",
+       "b": "프랑스 보르도에서 차세대 이차전지로 주목받는 전고체 배터리 상용화의 막이 올랐다.",
+       "src": "https://www.2news.co.kr/",
+       "url": "https://www.2news.co.kr/news/articleView.html?idxno=29613",
+       "date": "2026-10-20",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-10-21-6",
+       "h": "[단독] \"韓 손잡고 개도국 성장 이끌 것 … 車·배터리 기업과 전방위 협력\"",
+       "b": "삼성전자가 세계은행과 중고스마트폰 재정비 를 개도국에 적용하는 방안을 논의했습니다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12180855",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-17",
+       "h": "Hydrovolt to recycle Iceland’s EV batteries in Future",
+       "b": "Norwegian battery recycler Hydrovolt has signed a cooperation agreement with the Icelandic Recycling Fund (IRF).",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/20/hydrovolt-to-recycle-icelands-ev-batteries-in-future/",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-10-21-1",
+       "h": "Akaysha Energy secures AU$1.75 billion portfolio financing for Australian BESS expansion",
+       "b": "Australian battery energy storage system (BESS) developer Akaysha Energy has refinanced…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/akaysha-energy-secures-au1-75-billion-portfolio-financing-for-australian-bess-expansion/",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-2",
+       "h": "배터리 다음은 ESS… 독일이 보여준 전력저장 시장의 변화",
+       "b": "전기차 시장을 중심으로 성장해 온 배터리 산업이 에너지저장장치(ESS)를 새로운 사업 영역으로 주목하고 있다.",
+       "src": "batterynews.co.kr",
+       "url": "https://www.batterynews.co.kr/news/articleView.html?idxno=822",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-7",
+       "h": "Hazelwood BESS expansion in Australia set to double storage capacity at former coal site",
+       "b": "ENGIE's Hazelwood battery energy storage system (BESS) expansion in Australia has moved…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/hazelwood-bess-expansion-in-australia-set-to-double-storage-capacity-at-former-coal-site/",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-10-21-3",
+       "h": "모두 다 던진 날, “470만닉스 간다”는 노무라…“67만전자” 파격 제시",
+       "b": "SK하이닉스 주가가 외국인과 기관에 이어 개인 투자자들의 매도세까지 겹치며 급락했다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261020000418",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-4",
+       "h": "“더 떨어지긴 힘들다고 봤는데”…삼전닉스 비중 늘린 개미들 ‘더 비명’",
+       "b": "올해 인공지능(AI) 인프라스트럭처 투자 열풍에 따른 반도체 랠리에 힘입어 국내 증시로 역대 최대 규모의 개인 자금 ‘머니무브’가 나타났다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12181027",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-5",
+       "h": "삼전닉스 고점대비 반토막 … 개미 10명중 7명 물려",
+       "b": "삼성전자의 고점대비 낙폭 이 <b>41.7%</b>에 달하며 개인 매수 집중 구간의 손실 우려가 커졌습니다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12180869",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": []
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 77,
+  "published": 18,
+  "headline_only": 2,
+  "followup": 0,
+  "suppressed": 0,
+  "sameday": 0,
+  "nobody": 0,
+  "unclassified": 0,
+  "capped": 35
+ },
+ "sources": [
+  "KB Think",
+  "Vietnam.vn",
+  "batterynews.co.kr",
+  "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
+  "https://www.2news.co.kr/",
+  "mk.co.kr",
+  "yna.co.kr",
+  "경제타임스",
+  "글로벌이코노믹",
+  "네이버 프리미엄콘텐츠",
+  "폴리뉴스 Polinews"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

@@ -5,12 +5,12 @@
  "edition": "조간",
  "issue_no": 24,
  "window_hours": 36,
- "summary": "LG엔솔, ESS 사업 비중 확대…실적 개선 이어질까 · 특허만 2만2천건…삼성SDI ‘초격차 성벽’ 쌓았다 · 모로코는 아프리카 최초의 초대형 리튬 배터리 공장 가동 · 전남광주시, 앰코 3조원 투자 행정절차 신속 지원",
+ "refined": true,
+ "summary": "고션–VW 발렌시아 29.1GWh 합작·모로코 20GWh 시험가동 · LG엔솔 BESS 엔비디아 DSX 레디 · 체리 전고체 파일럿 2027 · 솔리다임 뉴욕 낸드 공장 검토",
  "top": [
-  "2026-10-21-12",
-  "2026-10-21-13",
-  "2026-10-21-16",
-  "2026-10-21-0"
+  "2026-10-21-0",
+  "2026-10-21-1",
+  "2026-10-21-2"
  ],
  "sections": [
   {
@@ -35,9 +35,9 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-10-21-12",
-       "h": "LG엔솔, ESS 사업 비중 확대…실적 개선 이어질까",
-       "b": "LG에너지솔루션이 전기차 배터리에 이어 에너지저장장치(ESS) 사업 확대에 나서고 있다.",
+       "id": "2026-10-21-2",
+       "h": "LG엔솔 BESS 'JF2 AC 링크', 엔비디아 'DSX 레디' 프로그램 포함",
+       "b": "LFP 적용 모듈형(20일). 상반기 ESS 매출 전년比 <b>4.6배</b>·신규 수주 <b>3조</b>원 이상, 북미 SI 법인 버텍 병행.",
        "src": "폴리뉴스 Polinews",
        "url": "https://www.polinews.co.kr/news/articleView.html?idxno=746271",
        "date": "2026-10-20",
@@ -47,32 +47,28 @@
        "related": [],
        "tags": [
         "ESS",
-        "수주",
-        "정책",
-        "실적"
+        "수주"
        ],
-       "grade": "A",
+       "grade": "B",
        "rel": 2,
        "followup": null
       },
       {
-       "id": "2026-10-21-14",
-       "h": "S&amp;P \"韓 배터리 제조사, 보조금 없는 미래 직면…LG엔솔에 타격\"",
-       "b": "스탠더드앤드푸어스(S&amp;P) 글로벌은 20일 발표한 보고서에서 \"한국 배터리 제조사들은 보조금 없는 미래를 마주하고 있다\"면서 이같이 밝혔다.",
+       "id": "2026-10-21-3",
+       "h": "S&amp;P \"AMPC 2030년부터 단계 폐지…LG엔솔 수익 타격 가장 커\"",
+       "b": "20일 보고서. ESS 수요 향후 2~<b>3년</b> 견조, 보조금 종료 후 원가·기술 우위 없으면 신용지표 악화 가능.",
        "src": "KB Think",
        "url": "https://kbthink.com/news-list/view.html?newsId=20261020113050851",
        "date": "2026-10-20",
        "cat": "customer",
        "group": "lgensol",
        "entity": "LG에너지솔루션",
-       "related": [
-        "SK온"
-       ],
+       "related": [],
        "tags": [
-        "ESS",
-        "정책"
+        "정책",
+        "리스크"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -83,28 +79,9 @@
      "title": "삼성SDI",
      "items": [
       {
-       "id": "2026-10-21-9",
-       "h": "배터리 적자 못 벗은 삼성SDI, 최주선이 꺼낸 무기 '사람'과 '양산'",
-       "b": "배터리 적자 못 벗은 삼성SDI, 최주선이 꺼낸 무기 '사람'과 '양산' 최주선 대표(사진)는 올해 경영 전략으로 선택과 집중, 시장 대응 속도 향상, 미래기술 준비를 제시했습니다.",
-       "src": "네이버 프리미엄콘텐츠",
-       "url": "https://contents.premium.naver.com/thebell/stock/contents/261020165714185eh",
-       "date": "2026-10-21",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "전고체",
-        "실적"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-21-13",
-       "h": "특허만 2만2천건…삼성SDI ‘초격차 성벽’ 쌓았다",
-       "b": "10월20일 업계에 따르면 삼성SDI는 <b>2026년</b> 2분기 기준 총 <b>2만</b> <b>2,322건</b>의 특허 등록 건수를 기록하며 업계 최고 수준의 지식재산권을 구축했다.",
+       "id": "2026-10-21-4",
+       "h": "삼성SDI 특허 등록 2만2322건(2분기)…美 각형 특허 1200여건",
+       "b": "R&amp;D 투자 <b>2023년</b> <b>1.1조</b>→<b>2025년</b> <b>1.4조</b>원. 전고체 파일럿 라인 운영, <b>2027년</b> 양산 목표(20일).",
        "src": "경제타임스",
        "url": "https://www.ket.kr/news/article.html?no=41516",
        "date": "2026-10-20",
@@ -113,12 +90,29 @@
        "entity": "삼성SDI",
        "related": [],
        "tags": [
-        "ESS",
+        "특허",
         "각형",
-        "투자",
-        "특허"
+        "전고체"
        ],
-       "grade": "A",
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-5",
+       "h": "삼성SDI, 전고체 개발 인력 양산 부문으로 재배치",
+       "b": "지난해 말 중대형사업부장 교체·전고체 사업화 조직 책임자 신규 선임(더벨 21일).",
+       "src": "네이버 프리미엄콘텐츠",
+       "url": "https://contents.premium.naver.com/thebell/stock/contents/261020165714185eh",
+       "date": "2026-10-21",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -134,48 +128,27 @@
      "title": "글로벌 · 기타",
      "items": [
       {
-       "id": "2026-10-21-8",
-       "h": "BYD begins Racco’s global rollout with Sri Lanka and Macao",
-       "b": "Following a global market launch in Japan in July, BYD has commenced the global rollout…",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/19/byd-begins-raccos-global-rollout-with-sri-lanka-and-macao/",
-       "date": "2026-10-19",
-       "cat": "customer",
-       "group": "global",
-       "entity": "BYD",
-       "related": [],
-       "tags": [
-        "수주",
-        "정책"
-       ],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-21-11",
-       "h": "[中 거인의 공급망] ①LFP 양극재 공급사 '로팔테크' 없으면 'CATL'도 없다",
-       "b": "①LFP 양극재 공급사 '로팔테크' 없으면 'CATL'도 없다",
-       "src": "네이버 프리미엄콘텐츠",
-       "url": "https://contents.premium.naver.com/gam/money/contents/261020163050504ov",
+       "id": "2026-10-21-0",
+       "h": "고션, 폭스바겐과 스페인 발렌시아 29.1GWh 배터리 합작…11억유로로 49%",
+       "b": "사군토 기가팩토리 총 투자 약 <b>22.6억</b>유로, 배터리·양극재 생산. PowerCo Spain 증자 방식(20일 투자협약 승인).",
+       "src": "ICEX-Invest in Spain",
+       "url": "https://www.investinspain.org/en/noticias-main/2026/gotion",
        "date": "2026-10-20",
        "cat": "customer",
        "group": "global",
-       "entity": "CATL",
+       "entity": "Gotion",
        "related": [],
        "tags": [
-        "ESS",
-        "투자",
-        "수주"
+        "투자"
        ],
-       "grade": "B",
+       "grade": "A",
        "rel": 2,
        "followup": null
       },
       {
-       "id": "2026-10-21-16",
-       "h": "모로코는 아프리카 최초의 초대형 리튬 배터리 공장 가동을 준비하고 있다.",
-       "b": "대규모 배터리 공장 건설은 모로코가 원자재 우위와 지리적 이점을 활용하여 유럽, 아프리카 및 중동 시장과 연결함으로써 전기 자동차 산업 가치 사슬을 확장하는 데 도움이 될 것으로 기대됩니다.",
+       "id": "2026-10-21-1",
+       "h": "고션, 모로코 케니트라 LFP 20GWh 공장 20일 시험가동…아프리카 최초",
+       "b": "1단계 <b>128억</b>디르함, <b>100GWh</b> 증설 시 총 <b>650억</b>디르함. 현지 고용 <b>400명</b> 이상, <b>2024년</b> 6월 착수.",
        "src": "Vietnam.vn",
        "url": "https://www.vietnam.vn/ko/maroc-chuan-bi-van-hanh-sieu-nha-may-pin-lithium-dau-tien-o-chau-phi",
        "date": "2026-10-20",
@@ -187,6 +160,24 @@
         "투자"
        ],
        "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-6",
+       "h": "CATL 3분기 순이익 증가율 14%대로 둔화",
+       "b": "",
+       "src": "글로벌이코노믹",
+       "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102100493289340c8c1c064d_1",
+       "date": "2026-10-21",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [
+        "실적"
+       ],
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -221,30 +212,31 @@
      "title": "",
      "items": [
       {
-       "id": "2026-10-21-0",
-       "h": "전남광주시, 앰코 3조원 투자 행정절차 신속 지원",
-       "b": "통합시는 앰코코리아의 투자 확대에 따른 폐수처리 수요에 대응하기 위해 장성군과 협력해 관련 인허가와 시설 증설 절차에 속도를 낼 방침이다.",
-       "src": "yna.co.kr",
-       "url": "https://www.yna.co.kr/view/AKR20261020130300054",
+       "id": "2026-10-21-7",
+       "h": "체리, 전고체 '라이노세러스 S' 파일럿 라인 2027년 가동 계획",
+       "b": "20일 글로벌 혁신 콘퍼런스(IT之家). <b>400Wh</b>/kg 전고체·12C 액체 셀 병행, 차량 테스트 <b>2027년</b>.",
+       "src": "CarNewsChina.com",
+       "url": "https://carnewschina.com/2026/10/20/chery-pairs-12c-liquid-battery-cells-with-400-wh-kg-solid-state-technology/",
        "date": "2026-10-20",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
+        "전고체",
         "투자"
        ],
-       "grade": "A",
-       "rel": 4,
+       "grade": "B",
+       "rel": 3,
        "followup": null
       },
       {
-       "id": "2026-10-21-10",
-       "h": "중국 체리, '꿈의 배터리' 전고체 2027년 양산 선언…K-배터리 비상",
+       "id": "2026-10-21-8",
+       "h": "퀀텀스케이프, 전고체 배터리 파일럿 라인 개소",
        "b": "",
-       "src": "글로벌이코노믹",
-       "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102021035540502bd56fbc3c_1",
-       "date": "2026-10-21",
+       "src": "Denkstrom",
+       "url": "https://denkstrom.org/en/goodnews/quantumscape-inaugurates-solid-state-battery-pilot-line/",
+       "date": "2026-10-20",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
@@ -252,14 +244,14 @@
        "tags": [
         "전고체"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
        "followup": null
       },
       {
-       "id": "2026-10-21-15",
-       "h": "토탈에너지 자회사 샤프트, 프랑스 최초 전고체 배터리 양산 라인 가동",
-       "b": "프랑스 보르도에서 차세대 이차전지로 주목받는 전고체 배터리 상용화의 막이 올랐다.",
+       "id": "2026-10-21-9",
+       "h": "Saft 보르도 전고체 라인, 황화물·폴리머 양계 대응…건식전극 적용",
+       "b": "19일 준공식. 건식전극으로 공정 CO2 최대 <b>40%</b> 감축, 항공용 반전고체 셀 기인도.",
        "src": "https://www.2news.co.kr/",
        "url": "https://www.2news.co.kr/news/articleView.html?idxno=29613",
        "date": "2026-10-20",
@@ -270,8 +262,73 @@
        "tags": [
         "전고체"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
+       "followup": {
+        "prev_date": "2026-10-20",
+        "prev_h": "",
+        "change": "황화물·폴리머 양계 생산, 건식전극 공정 적용 확인"
+       }
+      },
+      {
+       "id": "2026-10-21-10",
+       "h": "전남광주시, 앰코 3조 증설 폐수 9천t 대응…장성 처리시설 2028년 6월 증설",
+       "b": "20일 발표. 하루 폐수 <b>6천</b>t→<b>9천</b>t 전망, 추가 <b>3천</b>t은 장성 공공폐수처리시설 증설로 처리.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261020130300054",
+       "date": "2026-10-20",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "정책"
+       ],
+       "grade": "C",
+       "rel": 4,
+       "followup": {
+        "prev_date": "2026-10-20",
+        "prev_h": "",
+        "change": "폐수처리시설 증설 2028년 6월 목표, 폐수 9천t/일"
+       }
+      },
+      {
+       "id": "2026-10-21-11",
+       "h": "광주 반도체 첨단패키징 실증센터, 행안부 중투위 재검토 통보",
+       "b": "국비 <b>290억</b>·시비 <b>50억</b>·민간 <b>80억</b>, 패키징 장비 <b>9대</b> 구축 사업. 중기재정계획 반영·규모 적정성 재검토 요구(20일).",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261020140000054",
+       "date": "2026-10-20",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책",
+        "투자",
+        "리스크"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-12",
+       "h": "안성시의회, 용인 SK하이닉스 처리수 방류 철회·상생협약 파기 요구",
+       "b": "20일 의원 <b>8명</b> 전원 기자회견. 방류 계획 하루 <b>36만</b>㎥(<b>2020년</b> 발표), 상생협약 <b>2021년</b> 1월 체결.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261020125500061",
+       "date": "2026-10-20",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "리스크"
+       ],
+       "grade": "C",
+       "rel": 4,
        "followup": null
       }
      ]
@@ -286,51 +343,35 @@
     {
      "id": "ev",
      "title": "전기차",
-     "items": [
-      {
-       "id": "2026-10-21-6",
-       "h": "[단독] \"韓 손잡고 개도국 성장 이끌 것 … 車·배터리 기업과 전방위 협력\"",
-       "b": "삼성전자가 세계은행과 중고스마트폰 재정비 를 개도국에 적용하는 방안을 논의했습니다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/economy/12180855",
-       "date": "2026-10-20",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-21-17",
-       "h": "Hydrovolt to recycle Iceland’s EV batteries in Future",
-       "b": "Norwegian battery recycler Hydrovolt has signed a cooperation agreement with the Icelandic Recycling Fund (IRF).",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/20/hydrovolt-to-recycle-icelands-ev-batteries-in-future/",
-       "date": "2026-10-20",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "battery",
      "title": "이차전지",
      "items": [
       {
-       "id": "2026-10-21-1",
-       "h": "Akaysha Energy secures AU$1.75 billion portfolio financing for Australian BESS expansion",
-       "b": "Australian battery energy storage system (BESS) developer Akaysha Energy has refinanced…",
+       "id": "2026-10-21-16",
+       "h": "中 ESS 업체 美 사실상 철수…상반기 북미 점유율 CATL·하이티움 56%",
+       "b": "디지타임스 19일. SNE 상반기 북미 ESS 출하 점유율 CATL <b>38.8%</b>·하이티움 <b>17.2%</b>, LG엔솔 <b>13.6%</b>·삼성SDI <b>6.1%</b>.",
+       "src": "뉴데일리",
+       "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/20/2026102000147.html",
+       "date": "2026-10-20",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "정책"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-21-17",
+       "h": "Akaysha, 호주 BESS 포트폴리오 17.5억 호주달러 리파이낸싱",
+       "b": "",
        "src": "energy-storage.news",
        "url": "https://www.energy-storage.news/akaysha-energy-secures-au1-75-billion-portfolio-financing-for-australian-bess-expansion/",
        "date": "2026-10-20",
@@ -342,44 +383,7 @@
         "ESS",
         "투자"
        ],
-       "grade": "A",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-21-2",
-       "h": "배터리 다음은 ESS… 독일이 보여준 전력저장 시장의 변화",
-       "b": "전기차 시장을 중심으로 성장해 온 배터리 산업이 에너지저장장치(ESS)를 새로운 사업 영역으로 주목하고 있다.",
-       "src": "batterynews.co.kr",
-       "url": "https://www.batterynews.co.kr/news/articleView.html?idxno=822",
-       "date": "2026-10-20",
-       "cat": "market",
-       "group": "battery",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "ESS"
-       ],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-21-7",
-       "h": "Hazelwood BESS expansion in Australia set to double storage capacity at former coal site",
-       "b": "ENGIE's Hazelwood battery energy storage system (BESS) expansion in Australia has moved…",
-       "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/hazelwood-bess-expansion-in-australia-set-to-double-storage-capacity-at-former-coal-site/",
-       "date": "2026-10-20",
-       "cat": "market",
-       "group": "battery",
-       "entity": "",
-       "related": [],
-       "tags": [
-        "ESS",
-        "투자"
-       ],
-       "grade": "B",
+       "grade": "C",
        "rel": 3,
        "followup": null
       }
@@ -390,12 +394,12 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-10-21-3",
-       "h": "모두 다 던진 날, “470만닉스 간다”는 노무라…“67만전자” 파격 제시",
-       "b": "SK하이닉스 주가가 외국인과 기관에 이어 개인 투자자들의 매도세까지 겹치며 급락했다.",
+       "id": "2026-10-21-13",
+       "h": "솔리다임, 美 뉴욕 유티카 인근 낸드 공장 검토…주지사 측과 협상",
+       "b": "NY포스트 20일. 그린칩스 세제 감면 제시, 최종 합의 없음. 솔리다임 \"전략적 대안 검토 중\".",
        "src": "etnews.com",
-       "url": "https://www.etnews.com/20261020000418",
-       "date": "2026-10-20",
+       "url": "https://www.etnews.com/20261021000003",
+       "date": "2026-10-21",
        "cat": "market",
        "group": "semi",
        "entity": "",
@@ -403,43 +407,39 @@
        "tags": [
         "투자"
        ],
-       "grade": "A",
+       "grade": "B",
        "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-21-4",
-       "h": "“더 떨어지긴 힘들다고 봤는데”…삼전닉스 비중 늘린 개미들 ‘더 비명’",
-       "b": "올해 인공지능(AI) 인프라스트럭처 투자 열풍에 따른 반도체 랠리에 힘입어 국내 증시로 역대 최대 규모의 개인 자금 ‘머니무브’가 나타났다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12181027",
+       "id": "2026-10-21-14",
+       "h": "삼성 투자 계측 스타트업 우프틱스, 국내 반도체 기업에 랩 장비 반입",
+       "b": "WFPI 기술로 웨이퍼 형상·휨·스트레스 단일 샷 측정(20일). 협력 기업·범위 비공개.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261020000298",
        "date": "2026-10-20",
        "cat": "market",
        "group": "semi",
        "entity": "",
        "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "A",
+       "tags": [],
+       "grade": "C",
        "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-21-5",
-       "h": "삼전닉스 고점대비 반토막 … 개미 10명중 7명 물려",
-       "b": "삼성전자의 고점대비 낙폭 이 <b>41.7%</b>에 달하며 개인 매수 집중 구간의 손실 우려가 커졌습니다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12180869",
+       "id": "2026-10-21-15",
+       "h": "삼성 파운드리, DUV 8나노 2세대 '8LPU+' 연내 공개",
+       "b": "8LPU 대비 성능 <b>12%</b>↑·전력 <b>15%</b>↓·면적 <b>8%</b>↓, 전장·로봇·엣지 AI 칩 대상(20일).",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261007000246",
        "date": "2026-10-20",
        "cat": "market",
        "group": "semi",
        "entity": "",
        "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "A",
+       "tags": [],
+       "grade": "C",
        "rel": 4,
        "followup": null
       }
@@ -453,31 +453,52 @@
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-10-21-0",
+   "say": "고션–폭스바겐 발렌시아 29.1GWh 합작(PowerCo Spain 증자) → 사군토 기가팩토리 장비 발주 주체가 JV로 바뀌는지, 중국계 장비"
+  },
+  {
+   "item_id": "2026-10-21-1",
+   "say": "고션 모로코 케니트라 LFP 20GWh 시험가동·100GWh 증설 계획 → 2단계 증설 장비 입찰 일정과 유럽 수출용 라인 사양 정보 수집"
+  },
+  {
+   "item_id": "2026-10-21-2",
+   "say": "LG엔솔 JF2 AC 링크 엔비디아 DSX 레디·상반기 ESS 수주 3조+ → 북미 ESS LFP 라인 추가 전환·증설 장비 RFQ 시점 확인"
+  },
+  {
+   "item_id": "2026-10-21-5",
+   "say": "삼성SDI 전고체 개발 인력 양산 부문 재배치 → 2027년 양산 라인 장비 사양 확정 시점에 맞춰 접촉 창구 정리"
+  },
+  {
+   "item_id": "2026-10-21-7",
+   "say": "체리 전고체 파일럿 라인 2027년 가동 → 중국 완성차 자체 전고체 라인의 장비 공급망 파악"
+  },
+  {
+   "item_id": "2026-10-21-11",
+   "say": "광주 첨단패키징 실증센터(장비 9대) 중투위 재검토 → 재상정 일정 추적, 장비 구축 입찰 지연 반영"
+  }
+ ],
  "stats": {
-  "fetched": 77,
   "published": 18,
-  "headline_only": 2,
-  "followup": 0,
-  "suppressed": 0,
-  "sameday": 0,
-  "nobody": 0,
-  "unclassified": 0,
-  "capped": 35
+  "refined_by": "claude",
+  "rule_published": 18
  },
  "sources": [
+  "CarNewsChina.com",
+  "Denkstrom",
+  "ICEX-Invest in Spain",
   "KB Think",
   "Vietnam.vn",
-  "batterynews.co.kr",
-  "electrive.com",
   "energy-storage.news",
   "etnews.com",
   "https://www.2news.co.kr/",
-  "mk.co.kr",
   "yna.co.kr",
   "경제타임스",
   "글로벌이코노믹",
   "네이버 프리미엄콘텐츠",
+  "뉴데일리",
   "폴리뉴스 Polinews"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

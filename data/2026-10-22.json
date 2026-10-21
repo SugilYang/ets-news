@@ -5,12 +5,11 @@
  "edition": "조간",
  "issue_no": 25,
  "window_hours": 36,
- "summary": "CATL unveils new battery solut · 美 ESS 탈중국 규제 심화에··국내 '소재·부품·장비 · 中 배터리 해외 투자 900억달러…韓 3사와 점유율 격 · 필에너지, 860억 규모 이차전지 조립설비 공급계약",
+ "refined": true,
+ "summary": "필에너지 860.8억 조립설비 수주 · 삼성전기–엔비디아 세종·부산 기판 라인 공동투자 · CATL 3Q 순익 +14.5%·ESS 비중 50% 목표 · 퀀텀스케이프 100MWh 전고체 라인",
  "top": [
-  "2026-10-22-0",
-  "2026-10-22-14",
-  "2026-10-22-1",
-  "2026-10-22-3"
+  "2026-10-22-4",
+  "2026-10-22-12"
  ],
  "sections": [
   {
@@ -21,26 +20,7 @@
     {
      "id": "all",
      "title": "",
-     "items": [
-      {
-       "id": "2026-10-22-0",
-       "h": "CATL unveils new battery solution for eHGVs",
-       "b": "CATL has presented a new swap battery system coupled with a permanently installed extra battery.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/21/catl-unveils-new-battery-solution-for-ehgvs/",
-       "date": "2026-10-21",
-       "cat": "project",
-       "group": "all",
-       "entity": "CATL",
-       "related": [],
-       "tags": [
-        "RFQ"
-       ],
-       "grade": "A",
-       "rel": 3,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   },
@@ -54,46 +34,22 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-10-22-14",
-       "h": "美 ESS 탈중국 규제 심화에··국내 '소재·부품·장비' 대체 공급 기회 가속화",
-       "b": "-LG엔솔·삼성SDI·SK온 북미 ESS 생산 확대…국내 배터리 소부장 공급망 재편 - 엘앤에프 <b>1.6조</b> 양극재 계약·한중엔시에스 현지화…",
+       "id": "2026-10-22-2",
+       "h": "LG엔솔, 북미 생산시설 일부 ESS 전환…미국 내 ESS 생산거점 5곳",
+       "b": "엘앤에프 <b>1.6조</b> 양극재 계약·한중엔시에스 현지화, 동국산업·HT로보틱스 등 국내 소부장 공급 확대(21일).",
        "src": "데이터투자",
        "url": "https://www.datatooza.com/article/202610211131208281661c44de84_80",
        "date": "2026-10-21",
        "cat": "customer",
        "group": "lgensol",
        "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
-       "tags": [
-        "ESS",
-        "투자",
-        "수주",
-        "정책"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-22",
-       "h": "“반도체만 규제푸나”…증손회사 특례서 배터리·디스플레이 제외",
-       "b": "여당이 초광역특구법을 통해 추진하는 증손회사 지분율 규제 완화가 반도체 업종에만 적용된다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/economy/12181781",
-       "date": "2026-10-21",
-       "cat": "customer",
-       "group": "lgensol",
-       "entity": "LG에너지솔루션",
        "related": [],
        "tags": [
-        "투자",
+        "ESS",
         "정책"
        ],
-       "grade": "B",
-       "rel": 4,
+       "grade": "C",
+       "rel": 2,
        "followup": null
       }
      ]
@@ -101,45 +57,7 @@
     {
      "id": "sdi",
      "title": "삼성SDI",
-     "items": [
-      {
-       "id": "2026-10-22-16",
-       "h": "[여의도 투자본부 2부] 삼성전기 vs 삼성SDI vs 스튜디오드래곤 vs 듀켐바이오, 공략법은? - 머니투데이",
-       "b": "- 목표가 <b>1,350,000원</b> / 손절가 <b>1,050,000원</b> - 美 ESS 성장, 비중국 LFP 양극재 수요",
-       "src": "머니투데이",
-       "url": "https://www.mt.co.kr/amp/stock/2026/10/21/2026102100177018869",
-       "date": "2026-10-21",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "ESS",
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-23",
-       "h": "AI 훈풍에 삼성그룹 ‘사자’…솔리다임 논란에 SK그룹 ‘팔자’ [주식 초고수는 지금]",
-       "b": "수익률 상위 <b>1%</b> ‘초고수’들은 21일 오전 삼성전기, 삼성SDI, 삼성전자, 한화솔루션, HD현대중공업 등을 가장 많이 순매수했다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12181542",
-       "date": "2026-10-21",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "skon",
@@ -151,49 +69,48 @@
      "title": "글로벌 · 기타",
      "items": [
       {
-       "id": "2026-10-22-1",
-       "h": "中 배터리 해외 투자 900억달러…韓 3사와 점유율 격차 확대",
-       "b": "中 <b>6개</b>사 해외시장 점유율 <b>56.2%</b>…韓 3사는 <b>26.8%</b> 韓 배터리 북미 탑재량 <b>46.5%</b> 감소…LFP 비중 확대",
-       "src": "bing.com",
-       "url": "https://m.joseilbo.com/news/view.htm?newsid=577869",
-       "date": "2026-10-21",
-       "cat": "customer",
-       "group": "global",
-       "entity": "CATL",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-10",
-       "h": "CATL 이익 둔화에 ‘ESS’ 눈독…K배터리 텃밭 ‘레드오션’ 우려",
-       "b": "세계 1위 배터리 기업인 중국 CATL의 이익 증가세가 꺾였다.",
+       "id": "2026-10-22-0",
+       "h": "CATL 3분기 순이익 212.5억위안(+14.5%)…ESS 매출 비중 2030년 50% 목표",
+       "b": "20일 공시. 2분기比 -<b>5.8%</b>, 1~9월 매출총이익률 -<b>2.6%</b>p. LG엔솔 북미 ESS 생산능력 올해 <b>57GWh</b>→내년 <b>73GWh</b> 계획(경향 21일).",
        "src": "경향신문",
        "url": "https://www.khan.co.kr/article/202610212026015",
        "date": "2026-10-21",
        "cat": "customer",
        "group": "global",
        "entity": "CATL",
-       "related": [
-        "LG에너지솔루션",
-        "삼성SDI"
-       ],
+       "related": [],
        "tags": [
-        "ESS",
-        "실적"
+        "실적",
+        "ESS"
        ],
        "grade": "B",
        "rel": 4,
+       "followup": {
+        "prev_date": "2026-10-21",
+        "prev_h": "",
+        "change": "순이익 212.5억위안·ESS 비중 25%→50% 목표 수치 확인"
+       }
+      },
+      {
+       "id": "2026-10-22-1",
+       "h": "CATL, 전기 대형트럭용 교환식 432·513kWh+고정 77kWh 배터리 공개",
+       "b": "20일 베이징 발표. 메인 배터리는 리스 모델, '듀얼 일렉트릭 레인지 익스텐더'로 출시 예정.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/21/catl-unveils-new-battery-solution-for-ehgvs/",
+       "date": "2026-10-21",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
        "followup": null
       },
       {
-       "id": "2026-10-22-20",
-       "h": "BYD adopts same partner as BMW for CKD assembly in Malaysia",
-       "b": "BYD has decided to collaborate with contract manufacturer Inokom on local assembly of electric cars in Malaysia.",
+       "id": "2026-10-22-3",
+       "h": "BYD, 말레이시아 CKD 조립 파트너로 Inokom 선정…BMW i5 현지 생산사",
+       "b": "",
        "src": "electrive.com",
        "url": "https://www.electrive.com/2026/10/21/byd-adopts-same-partner-as-bmw-for-ckd-assembly-in-malaysia/",
        "date": "2026-10-22",
@@ -202,8 +119,7 @@
        "entity": "BYD",
        "related": [],
        "tags": [
-        "투자",
-        "수주"
+        "투자"
        ],
        "grade": "C",
        "rel": 3,
@@ -223,11 +139,11 @@
      "title": "A등급 경쟁사",
      "items": [
       {
-       "id": "2026-10-22-2",
-       "h": "필에너지 수주공시 - 2차전지 조립설비 공급 860.8억원 (매출액대비 259.3%)",
-       "b": "10월 21일 필에너지(378340)는 수주공시를 발표했다.◆필에너지 수주공시 개요- 2차전지 조립설비 공급 <b>860.8억</b>원 (매출액대비 259.3…",
-       "src": "bing.com",
-       "url": "https://www.msn.com/ko-kr/news/other/%ED%95%84%EC%97%90%EB%84%88%EC%A7%80-%EC%88%98%EC%A3%BC%EA%B3%B5%EC%8B%9C-2%EC%B0%A8%EC%A0%84%EC%A7%80-%EC%A1%B0%EB%A6%BD%EC%84%A4%EB%B9%84-%EA%B3%B5%EA%B8%89-8608%EC%96%B5%EC%9B%90-%EB%A7%A4%EC%B6%9C%EC%95%A1%EB%8C%80%EB%B9%84-2593/ar-AA2fGxcX",
+       "id": "2026-10-22-4",
+       "h": "필에너지, 860.8억 이차전지 조립설비 공급계약…지난해 매출의 259%",
+       "b": "21일 공시, 계약기간 10월 20일~<b>2027년</b> 4월 1일, 상대방·지역 비공개. 5월 <b>147.7억</b>·7월 <b>711.9억</b> 이어 올해 <b>1720억</b> 초과.",
+       "src": "블로터",
+       "url": "https://www.bloter.net/news/articleViewAmp.html?idxno=676219",
        "date": "2026-10-21",
        "cat": "competitor",
        "group": "grade_A",
@@ -238,43 +154,6 @@
         "실적"
        ],
        "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-3",
-       "h": "필에너지, 860억 규모 이차전지 조립설비 공급계약",
-       "b": "필에너지가 <b>860억</b><b>8000만</b>원 규모의 이차전지 조립설비 공급계약을 체결했다.",
-       "src": "비건뉴스",
-       "url": "https://www.vegannews.co.kr/news/article.html?no=395288",
-       "date": "2026-10-22",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "필에너지",
-       "related": [],
-       "tags": [
-        "수주",
-        "실적"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-12",
-       "h": "디와이홀딩스 등, SFA 지분 43.44%로 변경 보고",
-       "b": "- 특별관계자 장내매매와 주식담보대출 만기 연장·교체에 따른 변경 공시 디와이홀딩스 등, SFA 지분 <b>43.44%</b>로 변경 보고",
-       "src": "데이터투자",
-       "url": "https://www.datatooza.com/article/20261021161305754552ef35518b_80",
-       "date": "2026-10-21",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "SFA",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
        "rel": 2,
        "followup": null
       }
@@ -285,31 +164,11 @@
      "title": "B등급 경쟁사",
      "items": [
       {
-       "id": "2026-10-22-8",
-       "h": "피엔티, 배터리 회복에도 장비는 찬바람…인도·동박서 돌파구",
-       "b": "장민지 숫자 너머의 가치를 읽고, 시장의 내일을 정확히 전달하겠습니다.",
-       "src": "bing.com",
-       "url": "https://www.ibtomato.com/ExternalView.aspx?type=1&no=19852",
-       "date": "2026-10-21",
-       "cat": "competitor",
-       "group": "grade_B",
-       "entity": "피엔티",
-       "related": [],
-       "tags": [
-        "ESS",
-        "수주",
-        "실적"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-11",
-       "h": "티로보틱스, 반도체 유리기판 이송로봇 관련 미국 특허 등록",
-       "b": "차세대 반도체 패키징 소재로 주목받는 유리기판 분야에서 티로보틱스가 정밀 이송 기술의 지식재산권 확보 범위를 미국까지 넓혔다.",
-       "src": "핀포인트뉴스",
-       "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=497373",
+       "id": "2026-10-22-5",
+       "h": "티로보틱스, 반도체 유리기판 진공 이송로봇 미국 특허 등록",
+       "b": "한국·일본 이어 확보(21일). 진공 챔버 내 기판 이송 장치, 8.6세대 OLED 이송로봇 기술 적용, 중국·대만도 출원 중.",
+       "src": "머니투데이",
+       "url": "https://www.mt.co.kr/amp/stock/2026/10/21/2026102109580443128",
        "date": "2026-10-21",
        "cat": "competitor",
        "group": "grade_B",
@@ -319,25 +178,7 @@
         "특허"
        ],
        "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-24",
-       "h": "티로보틱스, 진공 챔버용 유리기판 이송 기술 미국서 권리화…첨단 패키징 장비 시장 겨냥",
-       "b": "티로보틱스의 반도체 유리기판 이송로봇 기술이 미국에서 특허로 등록됐다.",
-       "src": "마켓잉크",
-       "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=13776",
-       "date": "2026-10-21",
-       "cat": "competitor",
-       "group": "grade_B",
-       "entity": "티로보틱스",
-       "related": [],
-       "tags": [
-        "특허"
-       ],
-       "grade": "B",
-       "rel": 2,
+       "rel": 4,
        "followup": null
       }
      ]
@@ -354,9 +195,51 @@
      "title": "",
      "items": [
       {
-       "id": "2026-10-22-9",
-       "h": "웰크론한텍, 전고체 배터리 시장 진입 추진…양산 전환 시 즉각 수주 경쟁",
-       "b": "플랜트 엔지니어링 전문기업 웰크론한텍이 기존 양극재·리튬 정제 공정에서 입증한 기술력을 바탕으로 '꿈의 배터리'라 불리는 차세대 전고체 배터리 소재 설비 시장 진입을 추진하고 있다.",
+       "id": "2026-10-22-6",
+       "h": "초광역특구법 증손회사 지분율 100→50% 완화, 반도체만 적용…배터리 제외",
+       "b": "20일 발의. 산업부의 배터리·디스플레이 확대안은 공정위 반대로 무산(21일).",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12181781",
+       "date": "2026-10-21",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책",
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-22-7",
+       "h": "퀀텀스케이프, 100MWh 전고체 셀 생산라인 계획…뮬바우어가 조립 장비",
+       "b": "21일 발표. AI 데이터센터·항공우주·방산 수요 대상, 독일 Muehlbauer Group이 셀 조립 장비 파트너.",
+       "src": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/technology/articles/quantumscape-announces-plans-100-mwh-201500421.html",
+       "date": "2026-10-22",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체",
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": {
+        "prev_date": "2026-10-21",
+        "prev_h": "",
+        "change": "100MWh 생산라인 계획·장비사 Muehlbauer 확정"
+       }
+      },
+      {
+       "id": "2026-10-22-8",
+       "h": "웰크론한텍, 전고체 배터리 소재 설비 시장 진입 추진",
+       "b": "양극재·리튬 정제 농축·결정 설비 레퍼런스 기반, 소재사 양산 투자 전환 시 수주 경쟁 참여(21일).",
        "src": "bing.com",
        "url": "https://www.msn.com/ko-kr/money/markets/%EC%9B%B0%ED%81%AC%EB%A1%A0%ED%95%9C%ED%85%8D-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%8B%9C%EC%9E%A5-%EC%A7%84%EC%9E%85-%EC%B6%94%EC%A7%84-%EC%96%91%EC%82%B0-%EC%A0%84%ED%99%98-%EC%8B%9C-%EC%A6%89%EA%B0%81-%EC%88%98%EC%A3%BC-%EA%B2%BD%EC%9F%81/ar-AA2fH5U3",
        "date": "2026-10-21",
@@ -365,50 +248,65 @@
        "entity": "",
        "related": [],
        "tags": [
-        "전고체",
-        "투자",
-        "수주"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-13",
-       "h": "중국 체리, '꿈의 배터리' 전고체 2027년 양산 선언…K-배터리 비상",
-       "b": "",
-       "src": "글로벌이코노믹",
-       "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102021035540502bd56fbc3c_1",
-       "date": "2026-10-21",
-       "cat": "tech_policy",
-       "group": "all",
-       "entity": "",
-       "related": [],
-       "tags": [
         "전고체"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 2,
        "followup": null
       },
       {
-       "id": "2026-10-22-15",
-       "h": "美 전기차 -10%인데 ESS는 29%↑…2차전지 성장축, 車에서 데이터센터로",
-       "b": "美 전기차 -<b>10%</b>인데 ESS는 <b>29%</b>↑…2차전지 성장축, 車에서 데이터센터로 <b>2027년</b> 글로벌 신차 판매 <b>1억</b>대·<b>1.3%</b> 성장…美 BEV는 <b>87만</b>대로 <b>10%</b> 감소 전망 美 BESS 설치 수요",
-       "src": "더파워",
-       "url": "https://www.thepowernews.co.kr/view.php?ud=202610201321193257de3f0aa1be_7",
+       "id": "2026-10-22-9",
+       "h": "중기부, 1500조 메가프로젝트 중소기업 참여 협의회 구성 착수",
+       "b": "21일 반도체·AI 데이터센터·피지컬 AI <b>9개</b>사 간담회. 권역별 협의회 구성, 공급망 진입~대금 지급 지원.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261021000346",
        "date": "2026-10-21",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
-        "ESS",
-        "수주",
         "정책"
        ],
        "grade": "B",
-       "rel": 2,
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-22-10",
+       "h": "경북도, 피지컬 AI 메가특구 기획 거버넌스 출범…포항 로봇 파운드리",
+       "b": "21일 안동. 포항 영일만 산단에 협동로봇·휴머노이드 생산·위탁생산 기반, 구미에 양자 부품 조립 기반.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261021111400053",
+       "date": "2026-10-21",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책",
+        "AMR"
+       ],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-22-11",
+       "h": "제19회 반도체의 날…9월 반도체 수출 603억달러, 1~9월 누적 3403억달러",
+       "b": "21일 기념식, 금탑산업훈장 이준혁 동진쎄미켐 회장. 누적 수출은 지난해 연간 <b>1734억</b>달러의 약 <b>2배</b>.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261021000454",
+       "date": "2026-10-21",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "C",
+       "rel": 4,
        "followup": null
       }
      ]
@@ -426,85 +324,35 @@
      "items": [
       {
        "id": "2026-10-22-17",
-       "h": "폴스타, 옥스퍼드대와 '운전자 체감 퍼포먼스' 측정 연구",
-       "b": "스웨덴 프리미엄 전기차 브랜드 폴스타가 옥스퍼드대 SDG 임팩트 랩 연구진과 운전자가 체감하는 주행 퍼포먼스를 측정하는 파일럿 연구를 진행했다고 21일 밝혔다.",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261021000442",
-       "date": "2026-10-22",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-18",
-       "h": "[기후테크, 산업을 바꾸다⑦]디밀리언, AI·로봇으로 배터리 해체·진단…1호기 현장 실증",
-       "b": "전기차에서 사용을 마친 배터리에도 에너지가 남아 있다.",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261021000239",
-       "date": "2026-10-22",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-22-19",
-       "h": "New rules make it much easier to install cross-pavement EV chargers in England",
-       "b": "Drivers in England can now install cross-pavement EV chargers without the need for…",
+       "h": "폭스바겐, ID.3·4·7·Buzz·쿠프라 본 배터리 리콜 확정…7만2700대",
+       "b": "독일 <b>1만</b>대. 2022~<b>2025년</b> 생산분 <b>3건</b> 리콜, 슈코다 제외.",
        "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/21/rule-changes-make-it-much-easier-to-install-cross-pavement-ev-chargers-in-england/",
-       "date": "2026-10-22",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
-      }
-     ]
-    },
-    {
-     "id": "battery",
-     "title": "이차전지",
-     "items": [
-      {
-       "id": "2026-10-22-7",
-       "h": "리튬을 가진 나라에서 가공하는 나라로… 글로벌 공급망 새 판 돌입",
-       "b": "미국은 자국 내 생산·정제 기반을, 일본은 폐배터리 재활용을, 유럽은 핵심원자재 공급망을 강화하고 있다.",
-       "src": "batterynews.co.kr",
-       "url": "https://www.batterynews.co.kr/news/articleView.html?idxno=823",
+       "url": "https://www.electrive.com/2026/10/21/vws-battery-recall-affects-72700-evs-including-10000-in-germany/",
        "date": "2026-10-21",
        "cat": "market",
-       "group": "battery",
+       "group": "ev",
        "entity": "",
        "related": [],
        "tags": [
-        "ESS"
+        "리스크"
        ],
-       "grade": "B",
+       "grade": "C",
        "rel": 3,
-       "followup": null
+       "followup": {
+        "prev_date": "2026-10-19",
+        "prev_h": "",
+        "change": "리콜 확정, 전 세계 7만2700대·독일 1만대"
+       }
       },
       {
-       "id": "2026-10-22-21",
-       "h": "GM shutters US battery assembly near Detroit",
-       "b": "General Motors is closing its battery assembly plant in Michigan.",
+       "id": "2026-10-22-18",
+       "h": "GM, 미시간 브라운스타운 배터리 조립공장 폐쇄…임차 만료",
+       "b": "셀레스틱 팩·E-Ray 모터 생산, 인력·생산은 다른 GM 공장으로 이전(TechCrunch).",
        "src": "electrive.com",
        "url": "https://www.electrive.com/2026/10/21/gm-shutters-us-battery-assembly-near-detroit/",
        "date": "2026-10-21",
        "cat": "market",
-       "group": "battery",
+       "group": "ev",
        "entity": "",
        "related": [],
        "tags": [
@@ -517,32 +365,74 @@
      ]
     },
     {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-10-22-15",
+       "h": "中 배터리 해외 투자 900억달러…中 6개사 해외 점유율 56.2%, 韓 3사 26.8%",
+       "b": "韓 배터리 북미 탑재량 <b>46.5%</b> 감소, LFP 비중 확대(21일).",
+       "src": "bing.com",
+       "url": "https://m.joseilbo.com/news/view.htm?newsid=577869",
+       "date": "2026-10-21",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-22-16",
+       "h": "美 BESS 설치 수요 80.6GWh(+28.7%)…데이터센터 연계 1.9→12.1GWh",
+       "b": "국내 셀 3사 북미 ESS 수주잔고 약 <b>200GWh</b>, 최소 <b>2028년</b>까지 물량 확보. <b>2027년</b> 美 BEV <b>87만</b>대(-<b>10%</b>)·유럽 <b>423만</b>대(+<b>20%</b>) 전망(21일).",
+       "src": "더파워",
+       "url": "https://www.thepowernews.co.kr/view.php?ud=202610201321193257de3f0aa1be_7",
+       "date": "2026-10-21",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
      "id": "semi",
      "title": "반도체",
      "items": [
       {
-       "id": "2026-10-22-4",
-       "h": "TI, 3분기 매출 60억달러 돌파… 데이터센터·산업용 수요 회복 확인",
-       "b": "텍사스인스트루먼트(TI)가 <b>2026년</b> 3분기 실적에서 매출과 이익이 모두 시장 기대를 웃돌며 반도체 수요",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261022000008",
-       "date": "2026-10-22",
+       "id": "2026-10-22-12",
+       "h": "삼성전기–엔비디아, 세종·부산 AI 패키지기판 전용 라인 공동 투자…장기 공급",
+       "b": "21일 GTC 베를린 발표. AI 칩셋·네트워크 스위치용 기판, 올해부터 다년 공급. 투자 규모 미공개.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261021170900003",
+       "date": "2026-10-21",
        "cat": "market",
        "group": "semi",
        "entity": "",
        "related": [],
        "tags": [
         "투자",
-        "실적"
+        "수주"
        ],
-       "grade": "B",
+       "grade": "A",
        "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-22-5",
-       "h": "램리서치, 분기 매출 82억달러 '사상 최대'…AI 반도체 투자에 성장",
-       "b": "반도체 장비기업 램리서치가 인공지능(AI) 반도체 수요",
+       "id": "2026-10-22-13",
+       "h": "램리서치 분기 매출 82.2억달러 사상 최대…신규 장비 매출 61.6%↑",
+       "b": "FY27 1Q(6/29~9/27) 전년比 <b>54.4%</b>·전분기比 <b>22.3%</b>↑. 시스템 부문 <b>57.3억</b>달러, 영업이익 <b>32.8억</b>달러(+<b>79.5%</b>).",
        "src": "etnews.com",
        "url": "https://www.etnews.com/20261022000002",
        "date": "2026-10-22",
@@ -551,7 +441,6 @@
        "entity": "",
        "related": [],
        "tags": [
-        "투자",
         "실적"
        ],
        "grade": "B",
@@ -559,20 +448,18 @@
        "followup": null
       },
       {
-       "id": "2026-10-22-6",
-       "h": "삼성전기, 엔비디아와 AI 반도체 깐부 됐다…AI 기판 장기 공급",
-       "b": "삼성전기가 글로벌 인공지능(AI) 반도체 시장을 주도하는 엔비디아와 손잡고 차세대 AI 반도체 패키지기판 공급망 강화에 나선다.",
-       "src": "mk.co.kr",
-       "url": "https://www.mk.co.kr/news/stock/12182179",
+       "id": "2026-10-22-14",
+       "h": "SK하이닉스, 'iHBM' 양산 대비 소부장 협력사와 공급망 협의 착수",
+       "b": "베이스다이 위 일체형 냉각 요소(ICE) 적용 기술, 5월 공개(21일).",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261021000240",
        "date": "2026-10-21",
        "cat": "market",
        "group": "semi",
        "entity": "",
        "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
+       "tags": [],
+       "grade": "C",
        "rel": 4,
        "followup": null
       }
@@ -581,36 +468,73 @@
     {
      "id": "fa",
      "title": "스마트팩토리 · AMR",
-     "items": []
+     "items": [
+      {
+       "id": "2026-10-22-19",
+       "h": "HD현대로보틱스, 피지컬 AI 양팔로봇 공개…가반하중 7kg·작업반경 630mm",
+       "b": "21일 대구 미래혁신기술박람회. 휠형 이동부 단계적 적용, 에이딘로보틱스와 힘·촉각 센서 고도화.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261021109600003",
+       "date": "2026-10-21",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "AMR"
+       ],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      }
+     ]
     }
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-10-22-4",
+   "say": "필에너지 860.8억 조립설비 수주(올해 1720억+, 상대 비공개, 2027년 4월 납기) → 동일 고객 라인의 주액·후공정 장비 발주 여부 "
+  },
+  {
+   "item_id": "2026-10-22-12",
+   "say": "삼성전기–엔비디아 세종·부산 기판 전용 라인 공동 투자 → 세종·부산 신규 라인 물류 자동화·AMR 입찰 일정 추적"
+  },
+  {
+   "item_id": "2026-10-22-0",
+   "say": "CATL ESS 비중 50% 목표·LG엔솔 북미 ESS 57→73GWh → LG엔솔 북미 ESS 전환 라인 추가 장비 RFQ 시점 확인"
+  },
+  {
+   "item_id": "2026-10-22-7",
+   "say": "퀀텀스케이프 100MWh 전고체 라인, 조립 장비는 독일 뮬바우어 → 해외 전고체 라인 장비 공급사 동향 파악, 전고체 셀 조립 장비 사양 정보"
+  },
+  {
+   "item_id": "2026-10-22-5",
+   "say": "티로보틱스 유리기판 진공 이송로봇 美 특허 → 첨단 패키징 라인 이송 자동화 경쟁사 동향 점검"
+  },
+  {
+   "item_id": "2026-10-22-9",
+   "say": "중기부 메가프로젝트 중소기업 협의회 구성 → 권역별 협의회 참여 신청, 반도체·피지컬 AI 공급망 진입 창구 확보"
+  }
+ ],
  "stats": {
-  "fetched": 101,
-  "published": 25,
-  "headline_only": 2,
-  "followup": 0,
-  "suppressed": 0,
-  "sameday": 4,
-  "nobody": 0,
-  "unclassified": 3,
-  "capped": 50
+  "published": 20,
+  "refined_by": "claude",
+  "rule_published": 25
  },
  "sources": [
-  "batterynews.co.kr",
+  "Yahoo Finance",
   "bing.com",
   "electrive.com",
   "etnews.com",
   "mk.co.kr",
+  "yna.co.kr",
   "경향신문",
-  "글로벌이코노믹",
   "더파워",
   "데이터투자",
-  "마켓잉크",
   "머니투데이",
-  "비건뉴스",
-  "핀포인트뉴스"
+  "블로터"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

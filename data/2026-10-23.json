@@ -5,12 +5,11 @@
  "edition": "조간",
  "issue_no": 26,
  "window_hours": 36,
- "summary": "中 배터리, 美·EU 무역장벽에 해외 투자 900억달러 · “中 딥시크, 20조원 투자 유치 막바지…CATL·텐센 · CATL, 판매량 급증에도 수익성 악화 · 필에너지, 860억 규모 이차전지 조립설비 공급계약",
+ "refined": true,
+ "summary": "삼성전기 세종 증설에 엔비디아 2조·빅테크 1조 투자 · 칭타오 전고체 10GWh 가동 · LG·GM 나트륨이온 피크에너지 투자 · 전기차 생산세액공제 검토",
  "top": [
-  "2026-10-23-2",
-  "2026-10-23-1",
-  "2026-10-23-10",
-  "2026-10-23-3"
+  "2026-10-23-8",
+  "2026-10-23-4"
  ],
  "sections": [
   {
@@ -35,43 +34,19 @@
      "title": "LG에너지솔루션",
      "items": [
       {
-       "id": "2026-10-23-2",
-       "h": "中 배터리, 美·EU 무역장벽에 해외 투자 900억달러…생산 현지화 가속",
-       "b": "중국 배터리 기업들이 미국과 유럽의 무역장벽에 대응해 해외 생산기지와 공급망 구축을 확대하고 있다.",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261022000261",
+       "id": "2026-10-23-0",
+       "h": "LG, GM 나트륨이온 파트너 美 피크에너지에 투자…LFP·LMR 이어 협력 확대",
+       "b": "더구루 22일. 북미 ESS 시장 대상, 투자 금액 미공개.",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%EA%B8%B0%EC%88%A0-%ED%9A%8C%EC%82%AC/lg-gm-%EB%82%98%ED%8A%B8%EB%A5%A8%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B0%9C%EB%B0%9C-%EB%8F%99%EB%A7%B9-%EA%B5%AC%EC%B6%95-%E7%BE%8E%ED%94%BC%ED%81%AC%EC%97%90%EB%84%88%EC%A7%80-%ED%88%AC%EC%9E%90-%EA%B3%B5%EB%8F%99-%EC%B0%B8%EC%97%AC/ar-AA2fMWoO",
        "date": "2026-10-22",
        "cat": "customer",
        "group": "lgensol",
        "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI",
-        "SK온"
-       ],
+       "related": [],
        "tags": [
         "투자",
-        "정책"
-       ],
-       "grade": "A",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-23-14",
-       "h": "삼성SDI·LG엔솔, 전고체 특허 2·3위…양산 경쟁은 어디까지 왔나",
-       "b": "삼성SDI와 LG에너지솔루션이 전고체 배터리 특허출원에서 각각 세계 2위와 3위에 올랐다.",
-       "src": "산학뉴스",
-       "url": "https://www.sanhaknews.kr/news/articleView.html?idxno=21919",
-       "date": "2026-10-22",
-       "cat": "customer",
-       "group": "lgensol",
-       "entity": "LG에너지솔루션",
-       "related": [
-        "삼성SDI"
-       ],
-       "tags": [
-        "전고체",
-        "특허"
+        "ESS"
        ],
        "grade": "B",
        "rel": 2,
@@ -82,24 +57,7 @@
     {
      "id": "sdi",
      "title": "삼성SDI",
-     "items": [
-      {
-       "id": "2026-10-23-19",
-       "h": "삼성SDI, 국제화학올림피아드 한국 대표단 후원 협약",
-       "b": "AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.",
-       "src": "뉴스핌",
-       "url": "https://www.newspim.com/news/view/20261022000071",
-       "date": "2026-10-22",
-       "cat": "customer",
-       "group": "sdi",
-       "entity": "삼성SDI",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 4,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "skon",
@@ -112,8 +70,8 @@
      "items": [
       {
        "id": "2026-10-23-1",
-       "h": "“中 딥시크, 20조원 투자 유치 막바지…CATL·텐센트 '큰손' 참여”",
-       "b": "중국의 인공지능(AI) 스타트업 딥시크가 <b>1000억</b>위안(약 <b>20조</b>원)의 투자 유치를 마무리하고 있는 것으로 전해졌다.",
+       "h": "딥시크, 1000억위안 투자 유치 마무리 단계…CATL·텐센트 주요 참여",
+       "b": "로이터 22일, 블룸버그는 <b>150억</b>달러로 보도. 당초 목표 <b>500억</b>위안의 <b>2배</b>, 6월 1차 <b>74억</b>달러 조달.",
        "src": "etnews.com",
        "url": "https://www.etnews.com/20261022000358",
        "date": "2026-10-22",
@@ -124,18 +82,36 @@
        "tags": [
         "투자"
        ],
-       "grade": "A",
+       "grade": "C",
        "rel": 4,
        "followup": {
         "prev_date": "2026-10-07",
-        "prev_h": "딥시크, 텐센트·CATL 등에서 800억위안 이상 투자 유치 임박",
-        "change": "20조, 1000억"
+        "prev_h": "",
+        "change": "유치액 800억위안 이상→1000억위안(약 150억달러)으로 확대"
        }
       },
       {
-       "id": "2026-10-23-9",
-       "h": "2027년 합의 하의 전고체 배터리: 대표 주자 EVE에너지와 체리, 제품 공개",
-       "b": "리드 <b>2026년</b> 10월 20일, EVE에너지와 체리자동차는 같은 날 전고체 배터리의 최신 엔지니어링 이정표를 공개했다.",
+       "id": "2026-10-23-2",
+       "h": "CATL 투자 휴머노이드 노에틱스 로보틱스, 홍콩 상장 비공개 신청",
+       "b": "블룸버그 22일. 3월 CATL 산하 천다오 캐피털 주도 <b>10억</b>위안 조달, 이르면 내년 상장.",
+       "src": "연합뉴스",
+       "url": "https://www.yna.co.kr/amp/view/AKR20261022127100009",
+       "date": "2026-10-22",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-23-3",
+       "h": "EVE에너지, 청두서 전고체 '룽취안 3호 2.0' 공개…1045Wh/L",
+       "b": "20일 발표. 무음극 구조, 지름 23mm·두께 4mm 티타늄 코인셀, 이식형 뇌-컴퓨터 인터페이스용.",
        "src": "bing.com",
        "url": "https://news.metal.com/ko/newscontent/104173879-2027%EB%85%84-%ED%95%A9%EC%9D%98-%ED%95%98%EC%9D%98-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%8C%80%ED%91%9C-%EC%A3%BC%EC%9E%90-eve%EC%97%90%EB%84%88%EC%A7%80%EC%99%80-%EC%B2%B4%EB%A6%AC-%EC%A0%9C%ED%92%88-%EA%B3%B5%EA%B0%9C",
        "date": "2026-10-22",
@@ -146,27 +122,7 @@
        "tags": [
         "전고체"
        ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      },
-      {
-       "id": "2026-10-23-10",
-       "h": "CATL, 판매량 급증에도 수익성 악화",
-       "b": "나스닥 종목인 CATL에 대해 NH투자증권은 22일 보고서를 내고, 판매량 증가에도 불구하고 제품 가격 하락과 비용 부담으로 수익성 악화를 겪고 있다고 지적했다.",
-       "src": "bing.com",
-       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=281843",
-       "date": "2026-10-22",
-       "cat": "customer",
-       "group": "global",
-       "entity": "CATL",
-       "related": [],
-       "tags": [
-        "투자",
-        "수주",
-        "실적"
-       ],
-       "grade": "A",
+       "grade": "C",
        "rel": 2,
        "followup": null
       }
@@ -182,75 +138,12 @@
     {
      "id": "grade_A",
      "title": "A등급 경쟁사",
-     "items": [
-      {
-       "id": "2026-10-23-3",
-       "h": "필에너지, 860억 규모 이차전지 조립설비 공급계약",
-       "b": "필에너지가 <b>860억</b><b>8000만</b>원 규모의 이차전지 조립설비 공급계약을 체결했다.",
-       "src": "비건뉴스",
-       "url": "https://www.vegannews.co.kr/news/article.html?no=395288",
-       "date": "2026-10-22",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "필에너지",
-       "related": [],
-       "tags": [
-        "수주",
-        "실적"
-       ],
-       "grade": "A",
-       "rel": 2,
-       "followup": {
-        "prev_date": "2026-10-22",
-        "prev_h": "필에너지, 860.8억 이차전지 조립설비 공급계약…지난해 매출의 259%",
-        "change": "860억, 8000만"
-       }
-      },
-      {
-       "id": "2026-10-23-13",
-       "h": "허준 부사장, SFA 주식 1062주 ↑…지분율 0.04%",
-       "b": "등록번호 : 서울,아54780 / 등록일자 : <b>2023년</b> 04월 04일 / 발행일자 : <b>2023년</b> 04월 04일 제호 : 데이터투자 / 발행인·편집인 : 주지숙…",
-       "src": "데이터투자",
-       "url": "https://www.datatooza.com/article/2026102213225066452ef372a71_80",
-       "date": "2026-10-22",
-       "cat": "competitor",
-       "group": "grade_A",
-       "entity": "SFA",
-       "related": [],
-       "tags": [
-        "투자"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     },
     {
      "id": "grade_B",
      "title": "B등급 경쟁사",
-     "items": [
-      {
-       "id": "2026-10-23-12",
-       "h": "피엔티, 배터리 회복에도 장비는 찬바람…인도·동박서 돌파구",
-       "b": "장민지 숫자 너머의 가치를 읽고, 시장의 내일을 정확히 전달하겠습니다.",
-       "src": "bing.com",
-       "url": "https://www.ibtomato.com/ExternalView.aspx?type=1&no=19852",
-       "date": "2026-10-22",
-       "cat": "competitor",
-       "group": "grade_B",
-       "entity": "피엔티",
-       "related": [],
-       "tags": [
-        "ESS",
-        "수주",
-        "실적"
-       ],
-       "grade": "B",
-       "rel": 2,
-       "followup": null
-      }
-     ]
+     "items": []
     }
    ]
   },
@@ -264,9 +157,28 @@
      "title": "",
      "items": [
       {
-       "id": "2026-10-23-6",
-       "h": "中전기차 공세에 … 이형일 \"생산세액공제 검토\"",
-       "b": "현대자동차가 생산세액공제 도입 검토와 관련해 다음",
+       "id": "2026-10-23-4",
+       "h": "칭타오 쿤산 전고체 1기 10GWh 가동…톈츠 황화물 전해질 100t 파일럿 시생산",
+       "b": "21일 준공식. 두 프로젝트 총 투자 <b>80억</b>위안 이상, 톈츠는 고객 샘플 테스트 진행 중.",
+       "src": "bing.com",
+       "url": "https://www.energytrend.com/news/20261022-52353.html",
+       "date": "2026-10-22",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "전고체",
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-23-5",
+       "h": "정부, 국내 생산 전기차 생산세액공제 도입 검토…부총리 내달 4일 남양연구소",
+       "b": "22일. 여야는 전기차 생산업체 법인세 감면 조세특례안 발의, 중국산 전기차 대응 목적.",
        "src": "mk.co.kr",
        "url": "https://www.mk.co.kr/news/economy/12183212",
        "date": "2026-10-22",
@@ -282,39 +194,40 @@
        "followup": null
       },
       {
-       "id": "2026-10-23-8",
-       "h": "'저가 中 전기차'에 줄줄이 안방 내줬다... 한국도 비상",
-       "b": "'유리장벽' 된 K전기차② 중국 전기차의 약진이 심상치않다.",
-       "src": "bing.com",
-       "url": "https://www.msn.com/ko-kr/news/other/%EC%A0%80%EA%B0%80-%E4%B8%AD-%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%97%90-%EC%A4%84%EC%A4%84%EC%9D%B4-%EC%95%88%EB%B0%A9-%EB%82%B4%EC%A4%AC%EB%8B%A4%ED%95%9C%EA%B5%AD%EB%8F%84-%EB%B9%84%EC%83%81/ar-AA2fNQz1",
+       "id": "2026-10-23-6",
+       "h": "한경협, '피지컬 AI 특별법' 연내 통과 건의…2027 정책의견서 119건",
+       "b": "22일 제출. AI 입법 <b>11건</b>, 총리 위원장 피지컬 AI 촉진위·시범지역 규제완화, AIDC 투자 지원 포함.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261022000246",
        "date": "2026-10-22",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
-        "정책"
+        "정책",
+        "AMR"
        ],
-       "grade": "B",
-       "rel": 2,
+       "grade": "C",
+       "rel": 4,
        "followup": null
       },
       {
-       "id": "2026-10-23-11",
-       "h": "토탈에너지스 자회사 '사프트', 佛 최초 전고체 배터리 생산 역량 확보",
-       "b": "프랑스 ‘토탈에너지스'의 배터리 자회사 '사프트(Saft)'가 자국 기업 최초로 황화물계·고분자계 전해질 기반 전고체 배터리 생산 역량을 확보했다.",
-       "src": "bing.com",
-       "url": "https://www.msn.com/ko-kr/news/other/%ED%86%A0%ED%83%88%EC%97%90%EB%84%88%EC%A7%80%EC%8A%A4-%EC%9E%90%ED%9A%8C%EC%82%AC-%EC%82%AC%ED%94%84%ED%8A%B8-%E4%BD%9B-%EC%B5%9C%EC%B4%88-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%83%9D%EC%82%B0-%EC%97%AD%EB%9F%89-%ED%99%95%EB%B3%B4/ar-AA2fMiNY",
+       "id": "2026-10-23-7",
+       "h": "국감 \"미군, 광주 군공항서 580억 시설공사\"…반도체 산단 일정 우려",
+       "b": "22일 산자위 종합감사. 공항 이전 <b>2028년</b> 9월 전 목표, 한국 측 현물 부담. 산업부 \"국방부 협의, 차질 없음\".",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261022122400054",
        "date": "2026-10-22",
        "cat": "tech_policy",
        "group": "all",
        "entity": "",
        "related": [],
        "tags": [
-        "전고체"
+        "리스크"
        ],
-       "grade": "B",
-       "rel": 2,
+       "grade": "C",
+       "rel": 4,
        "followup": null
       }
      ]
@@ -331,41 +244,9 @@
      "title": "전기차",
      "items": [
       {
-       "id": "2026-10-23-15",
-       "h": "First drive in the Xpeng L03: finally a Chinese EV that doesn’t beep",
-       "b": "With the L03, Xpeng introduces its well-known strengths into a new size and price class.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/22/first-drive-in-the-xpeng-l03-finally-a-chinese-ev-that-doesnt-beep/",
-       "date": "2026-10-23",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-23-16",
-       "h": "Electrify America opens its largest EV charging station to date",
-       "b": "The new charging site has opened in Orlando, Florida, and features 24 DC fast chargers capable of delivering up to <b>350 kW</b> each.",
-       "src": "electrive.com",
-       "url": "https://www.electrive.com/2026/10/22/electrify-america-opens-its-largest-ev-charging-station-to-date/",
-       "date": "2026-10-22",
-       "cat": "market",
-       "group": "ev",
-       "entity": "",
-       "related": [],
-       "tags": [],
-       "grade": "C",
-       "rel": 3,
-       "followup": null
-      },
-      {
-       "id": "2026-10-23-17",
-       "h": "GM announces new efficient EV platform",
-       "b": "GM has streamlined its development processes and introduced a new platform in a shorter…",
+       "id": "2026-10-23-12",
+       "h": "GM, 4세대 전기차 플랫폼 공개…2028년부터 고효율 배터리·중앙집중 컴퓨팅",
+       "b": "뉴욕 'GM Forward' 행사. 부품 수 축소, 크로스오버 SUV 등 양산 모델 우선 적용.",
        "src": "electrive.com",
        "url": "https://www.electrive.com/2026/10/22/gm-announces-new-efficient-ev-platform/",
        "date": "2026-10-22",
@@ -385,27 +266,47 @@
      "title": "이차전지",
      "items": [
       {
-       "id": "2026-10-23-4",
-       "h": "European Union battery supply chain policies show mixed results so far",
-       "b": "As demand for battery storage soars, the European Union (EU) has tried to grow its local…",
-       "src": "energy-storage.news",
-       "url": "https://www.energy-storage.news/european-union-battery-supply-chain-policies-show-mixed-results-so-far/",
+       "id": "2026-10-23-10",
+       "h": "삼기에너지솔루션즈, 사천에어쇼서 방산용 배터리팩 3종 첫 공개",
+       "b": "지난달 경기 광주 방산사업장 신설 후 첫 대외 행보(22일). 폭발물·지뢰탐지기용, 궤도차량 APU용.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12182585",
+       "date": "2026-10-22",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-23-11",
+       "h": "中 배터리 해외 투자 발표 2023년 이후 900억달러…올해 14건 120억달러",
+       "b": "FT 21일(CEF 집계). 셀 <b>520억</b>·소재 <b>380억</b>달러, 동남아 <b>352억</b>·유럽 <b>315억</b>달러.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261022000261",
        "date": "2026-10-22",
        "cat": "market",
        "group": "battery",
        "entity": "",
        "related": [],
        "tags": [
-        "ESS"
+        "투자"
        ],
-       "grade": "B",
-       "rel": 3,
-       "followup": null
+       "grade": "C",
+       "rel": 4,
+       "followup": {
+        "prev_date": "2026-10-22",
+        "prev_h": "",
+        "change": "올해 14건 120억달러, 셀·소재·지역별 내역 확인"
+       }
       },
       {
-       "id": "2026-10-23-5",
-       "h": "Greater range at the same weight: silicon battery passes laboratory test",
-       "b": "A critical breakthrough in battery research saw film cells with silicon-rich anodes…",
+       "id": "2026-10-23-13",
+       "h": "실리콘 리치 음극 파우치셀, 1000사이클 후 용량 80% 이상 유지…실험실 검증",
+       "b": "",
        "src": "electrive.com",
        "url": "https://www.electrive.com/2026/10/22/greater-range-at-the-same-weight-silicon-battery-passes-laboratory-test/",
        "date": "2026-10-22",
@@ -414,7 +315,7 @@
        "entity": "",
        "related": [],
        "tags": [],
-       "grade": "B",
+       "grade": "C",
        "rel": 3,
        "followup": null
       }
@@ -425,9 +326,9 @@
      "title": "반도체",
      "items": [
       {
-       "id": "2026-10-23-0",
-       "h": "삼성전기, 엔비디아 등 美 빅테크로부터 AI 반도체 기판 전용라인 증설 투자 유치",
-       "b": "삼성전기가 엔비디아 등 빅테크 기업으로부터 투자를 받아 인공지능(AI) 반도체용 기판 생산 시설을 증설한다.",
+       "id": "2026-10-23-8",
+       "h": "삼성전기 세종 기판 증설에 엔비디아 2조원대·빅테크 1조원대 투자",
+       "b": "22일. 지난달 결정한 세종 FC-BGA <b>4조</b><b>2700억</b> 증설의 일환, 전용 생산라인 구축.",
        "src": "etnews.com",
        "url": "https://www.etnews.com/20261022000470",
        "date": "2026-10-22",
@@ -440,12 +341,16 @@
        ],
        "grade": "A",
        "rel": 4,
-       "followup": null
+       "followup": {
+        "prev_date": "2026-10-22",
+        "prev_h": "",
+        "change": "엔비디아 2조원대·다른 빅테크 1조원대 투자 규모, 세종 4.27조 증설 연계"
+       }
       },
       {
-       "id": "2026-10-23-7",
-       "h": "[단독] SK텔레콤, 하이닉스 AI협력 전담 'Hy-TF' 가동...TF장에 유경상 CIC장",
-       "b": "SK텔레콤이 SK하이닉스 반도체 공장 인공지능(AI) 사업 협력을 전담할 태스크포스(TF)를 꾸린 것으로 확인됐다.",
+       "id": "2026-10-23-9",
+       "h": "SKT, SK하이닉스 팹 AI 협력 전담 'Hy-TF' 가동…2030 자율형 공장 지원",
+       "b": "AI CIC 산하 임원 20여명, TF장 유경상 CIC장. 엔비디아 옴니버스 디지털 트윈·제조 데이터 플랫폼 고도화(22일).",
        "src": "etnews.com",
        "url": "https://www.etnews.com/20261022000325",
        "date": "2026-10-22",
@@ -453,23 +358,9 @@
        "group": "semi",
        "entity": "",
        "related": [],
-       "tags": [],
-       "grade": "B",
-       "rel": 4,
-       "followup": null
-      },
-      {
-       "id": "2026-10-23-18",
-       "h": "'2026 전남광주 과학기술인 소통의 밤' 내달 13일 GIST서 열린다",
-       "b": "전남광주통합특별시 과학기술인들이 한 자리에 모여 미래 전략을 모색하고 네트워킹 및 교류를 확대하는 '2026 전남광주통합특별시 과학기술인 소통의 밤'이 11월…",
-       "src": "etnews.com",
-       "url": "https://www.etnews.com/20261022000475",
-       "date": "2026-10-22",
-       "cat": "market",
-       "group": "semi",
-       "entity": "",
-       "related": [],
-       "tags": [],
+       "tags": [
+        "AMR"
+       ],
        "grade": "C",
        "rel": 4,
        "followup": null
@@ -484,27 +375,40 @@
    ]
   }
  ],
+ "guide": [
+  {
+   "item_id": "2026-10-23-8",
+   "say": "삼성전기 세종 증설에 엔비디아 2조·빅테크 1조 투자 → 세종 FC-BGA 신공장(4.27조) 물류 자동화·AMR 입찰 일정 추적"
+  },
+  {
+   "item_id": "2026-10-23-4",
+   "say": "칭타오 쿤산 전고체 10GWh 가동·톈츠 황화물 전해질 100t 파일럿 → 중국 전고체 양산 라인 장비 구성과 주액 대체 공정 정보 수집"
+  },
+  {
+   "item_id": "2026-10-23-0",
+   "say": "LG·GM 나트륨이온 피크에너지 투자 → 북미 ESS용 나트륨이온 셀 라인의 장비 사양 변화 여부 확인"
+  },
+  {
+   "item_id": "2026-10-23-5",
+   "say": "정부 전기차 생산세액공제 검토·부총리 11월 4일 남양 방문 → 국내 전기차 생산 확대 시 배터리 라인 증설 연계 수요 추적"
+  },
+  {
+   "item_id": "2026-10-23-9",
+   "say": "SK하이닉스 2030 자율형 공장(SKT Hy-TF) → 팹 자동화·AMR 연동 디지털 트윈 요구사양 파악"
+  }
+ ],
  "stats": {
-  "fetched": 80,
-  "published": 20,
-  "headline_only": 2,
-  "followup": 2,
-  "suppressed": 2,
-  "sameday": 1,
-  "nobody": 0,
-  "unclassified": 1,
-  "capped": 25
+  "published": 14,
+  "refined_by": "claude",
+  "rule_published": 20
  },
  "sources": [
   "bing.com",
   "electrive.com",
-  "energy-storage.news",
   "etnews.com",
   "mk.co.kr",
-  "뉴스핌",
-  "데이터투자",
-  "비건뉴스",
-  "산학뉴스"
+  "yna.co.kr",
+  "연합뉴스"
  ],
- "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+ "note": "공개 보도·공시를 규칙표로 수집한 뒤 Claude가 회사·카테고리·등급을 확인하고 핵심 한 문장으로 정리한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
 }

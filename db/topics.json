@@ -12446,25 +12446,76 @@
   },
   {
    "date": "2026-10-23",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "삼성전기, 엔비디아 등 美 빅테크로부터 AI 반도체 기판 전용라인 증설 투자 유치",
-   "nt": "삼성전기엔비디아등빅테크로부터ai반도체기판전용라인증설투자유치",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG, GM 나트륨이온 파트너 美 피크에너지에 투자…LFP·LMR 이어 협력 확대",
+   "nt": "lggm나트륨이온파트너피크에너지에투자lfplmr이어협력확대",
    "tk": [
-    "ai",
-    "기판",
-    "반도체",
-    "빅테크로부터",
-    "삼성전기",
-    "엔비디아",
-    "유치",
-    "전용라인",
-    "증설",
-    "투자"
+    "gm",
+    "lfp",
+    "lg",
+    "lmr",
+    "나트륨이온",
+    "이어",
+    "투자",
+    "파트너",
+    "피크에너지에",
+    "협력",
+    "확대"
    ],
    "nums": [],
-   "url": "https://www.etnews.com/20261022000470"
+   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%EA%B8%B0%EC%88%A0-%ED%9A%8C%EC%82%AC/lg-gm-%EB%82%98%ED%8A%B8%EB%A5%A8%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B0%9C%EB%B0%9C-%EB%8F%99%EB%A7%B9-%EA%B5%AC%EC%B6%95-%E7%BE%8E%ED%94%BC%ED%81%AC%EC%97%90%EB%84%88%EC%A7%80-%ED%88%AC%EC%9E%90-%EA%B3%B5%EB%8F%99-%EC%B0%B8%EC%97%AC/ar-AA2fMWoO"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "'LG·GM 나트륨배터리 개발 동맹 구축' 美피크에너지 투자 공동 참여",
+   "nt": "lggm나트륨배터리개발동맹구축피크에너지투자공동참여",
+   "tk": [
+    "gm",
+    "lg",
+    "개발",
+    "공동",
+    "구축",
+    "나트륨배터리",
+    "동맹",
+    "참여",
+    "투자",
+    "피크에너지"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%EA%B8%B0%EC%88%A0-%ED%9A%8C%EC%82%AC/lg-gm-%EB%82%98%ED%8A%B8%EB%A5%A8%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B0%9C%EB%B0%9C-%EB%8F%99%EB%A7%B9-%EA%B5%AC%EC%B6%95-%E7%BE%8E%ED%94%BC%ED%81%AC%EC%97%90%EB%84%88%EC%A7%80-%ED%88%AC%EC%9E%90-%EA%B3%B5%EB%8F%99-%EC%B0%B8%EC%97%AC/ar-AA2fMWoO"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "딥시크, 1000억위안 투자 유치 마무리 단계…CATL·텐센트 주요 참여",
+   "nt": "딥시크1000억위안투자유치마무리단계catl텐센트주요참여",
+   "tk": [
+    "1000억위안",
+    "catl",
+    "단계",
+    "딥시크",
+    "마무리",
+    "유치",
+    "주요",
+    "참여",
+    "텐센트",
+    "투자"
+   ],
+   "nums": [
+    "1000억",
+    "150억",
+    "2배",
+    "500억",
+    "74억"
+   ],
+   "url": "https://www.etnews.com/20261022000358"
   },
   {
    "date": "2026-10-23",
@@ -12485,100 +12536,185 @@
     "투자"
    ],
    "nums": [
-    "1000억",
-    "20조"
+    "150억",
+    "20조",
+    "2배",
+    "500억",
+    "74억"
    ],
    "url": "https://www.etnews.com/20261022000358"
   },
   {
    "date": "2026-10-23",
-   "entity": "LG에너지솔루션",
+   "entity": "CATL",
    "cat": "customer",
-   "group": "lgensol",
-   "h": "中 배터리, 美·EU 무역장벽에 해외 투자 900억달러…생산 현지화 가속",
-   "nt": "배터리eu무역장벽에해외투자900억달러생산현지화가속",
+   "group": "global",
+   "h": "CATL 투자 휴머노이드 노에틱스 로보틱스, 홍콩 상장 비공개 신청",
+   "nt": "catl투자휴머노이드노에틱스로보틱스홍콩상장비공개신청",
    "tk": [
-    "900억달러",
-    "eu",
-    "가속",
-    "무역장벽에",
-    "배터리",
-    "생산",
+    "catl",
+    "노에틱스",
+    "로보틱스",
+    "비공개",
+    "상장",
+    "신청",
     "투자",
-    "해외",
-    "현지화"
+    "홍콩",
+    "휴머노이드"
    ],
    "nums": [
-    "900억"
+    "10억"
    ],
-   "url": "https://www.etnews.com/20261022000261"
+   "url": "https://www.yna.co.kr/amp/view/AKR20261022127100009"
   },
   {
    "date": "2026-10-23",
-   "entity": "필에너지",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "필에너지, 860억 규모 이차전지 조립설비 공급계약",
-   "nt": "필에너지860억규모이차전지조립설비공급계약",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "\"CATL 투자 휴머노이드 로봇기업, 홍콩 상장 추진\"",
+   "nt": "catl투자휴머노이드로봇기업홍콩상장추진",
    "tk": [
-    "860억",
-    "공급계약",
-    "규모",
-    "이차전지",
-    "조립설비",
-    "필에너지"
+    "catl",
+    "로봇기업",
+    "상장",
+    "추진",
+    "투자",
+    "홍콩",
+    "휴머노이드"
    ],
    "nums": [
-    "8000만",
-    "860억"
+    "10억"
    ],
-   "url": "https://www.vegannews.co.kr/news/article.html?no=395288"
+   "url": "https://www.yna.co.kr/amp/view/AKR20261022127100009"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "EVE",
+   "cat": "customer",
+   "group": "global",
+   "h": "EVE에너지, 청두서 전고체 '룽취안 3호 2.0' 공개…1045Wh/L",
+   "nt": "eve에너지청두서전고체룽취안3호20공개1045whl",
+   "tk": [
+    "1045wh",
+    "3호",
+    "eve에너지",
+    "공개",
+    "룽취안",
+    "전고체",
+    "청두서"
+   ],
+   "nums": [
+    "1045Wh"
+   ],
+   "url": "https://news.metal.com/ko/newscontent/104173879-2027%EB%85%84-%ED%95%A9%EC%9D%98-%ED%95%98%EC%9D%98-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%8C%80%ED%91%9C-%EC%A3%BC%EC%9E%90-eve%EC%97%90%EB%84%88%EC%A7%80%EC%99%80-%EC%B2%B4%EB%A6%AC-%EC%A0%9C%ED%92%88-%EA%B3%B5%EA%B0%9C"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "EVE",
+   "cat": "customer",
+   "group": "global",
+   "h": "2027년 합의 하의 전고체 배터리: 대표 주자 EVE에너지와 체리, 제품 공개",
+   "nt": "2027년합의하의전고체배터리대표주자eve에너지와체리제품공개",
+   "tk": [
+    "2027년",
+    "eve에너지와",
+    "공개",
+    "대표",
+    "배터리",
+    "전고체",
+    "제품",
+    "주자",
+    "체리",
+    "하의",
+    "합의"
+   ],
+   "nums": [
+    "2027년"
+   ],
+   "url": "https://news.metal.com/ko/newscontent/104173879-2027%EB%85%84-%ED%95%A9%EC%9D%98-%ED%95%98%EC%9D%98-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%8C%80%ED%91%9C-%EC%A3%BC%EC%9E%90-eve%EC%97%90%EB%84%88%EC%A7%80%EC%99%80-%EC%B2%B4%EB%A6%AC-%EC%A0%9C%ED%92%88-%EA%B3%B5%EA%B0%9C"
   },
   {
    "date": "2026-10-23",
    "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "European Union battery supply chain policies show mixed results so far",
-   "nt": "europeanunionbatterysupplychainpoliciess",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "칭타오 쿤산 전고체 1기 10GWh 가동…톈츠 황화물 전해질 100t 파일럿 시생산",
+   "nt": "칭타오쿤산전고체1기10gwh가동톈츠황화물전해질100t파일럿시생산",
    "tk": [
-    "battery",
-    "chain",
-    "european",
-    "far",
-    "mixed",
-    "policies",
-    "results",
-    "show",
-    "so",
-    "supply",
-    "union"
+    "100t",
+    "10gwh",
+    "1기",
+    "가동",
+    "시생산",
+    "전고체",
+    "전해질",
+    "칭타오",
+    "쿤산",
+    "톈츠",
+    "파일럿",
+    "황화물"
    ],
-   "nums": [],
-   "url": "https://www.energy-storage.news/european-union-battery-supply-chain-policies-show-mixed-results-so-far/"
+   "nums": [
+    "10GWh",
+    "80억"
+   ],
+   "url": "https://www.energytrend.com/news/20261022-52353.html"
   },
   {
    "date": "2026-10-23",
    "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Greater range at the same weight: silicon battery passes laboratory test",
-   "nt": "greaterrangeatthesameweightsiliconbatter",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Total Investment Exceeds RMB 8 Billion: Solid-State Battery Projects by Qingtao Power and Tinci Materials Mark New Progr",
+   "nt": "totalinvestmentexceedsrmb8billionsolidst",
    "tk": [
-    "at",
+    "and",
     "battery",
-    "greater",
-    "laboratory",
-    "passes",
-    "range",
-    "same",
-    "silicon",
-    "test",
-    "the",
-    "weight"
+    "billion",
+    "by",
+    "exceeds",
+    "investment",
+    "mark",
+    "materials",
+    "new",
+    "power",
+    "progress",
+    "projects",
+    "qingtao",
+    "rmb",
+    "solid",
+    "state",
+    "tinci",
+    "total"
+   ],
+   "nums": [
+    "80억"
+   ],
+   "url": "https://www.energytrend.com/news/20261022-52353.html"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "정부, 국내 생산 전기차 생산세액공제 도입 검토…부총리 내달 4일 남양연구소",
+   "nt": "정부국내생산전기차생산세액공제도입검토부총리내달4일남양연구소",
+   "tk": [
+    "4일",
+    "검토",
+    "국내",
+    "남양연구소",
+    "내달",
+    "도입",
+    "부총리",
+    "생산",
+    "생산세액공제",
+    "전기차",
+    "정부"
    ],
    "nums": [],
-   "url": "https://www.electrive.com/2026/10/22/greater-range-at-the-same-weight-silicon-battery-passes-laboratory-test/"
+   "url": "https://www.mk.co.kr/news/economy/12183212"
   },
   {
    "date": "2026-10-23",
@@ -12596,6 +12732,182 @@
    ],
    "nums": [],
    "url": "https://www.mk.co.kr/news/economy/12183212"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "한경협, '피지컬 AI 특별법' 연내 통과 건의…2027 정책의견서 119건",
+   "nt": "한경협피지컬ai특별법연내통과건의2027정책의견서119건",
+   "tk": [
+    "119건",
+    "2027",
+    "ai",
+    "건의",
+    "연내",
+    "정책의견서",
+    "통과",
+    "특별법",
+    "피지컬",
+    "한경협"
+   ],
+   "nums": [
+    "119건",
+    "11건",
+    "2027"
+   ],
+   "url": "https://www.etnews.com/20261022000246"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "경제계 “피지컬 AI 지원법 연내 통과 시급”…내년 AI 정책과제 11건 건의",
+   "nt": "경제계피지컬ai지원법연내통과시급내년ai정책과제11건건의",
+   "tk": [
+    "11건",
+    "ai",
+    "건의",
+    "경제계",
+    "내년",
+    "시급",
+    "연내",
+    "정책과제",
+    "지원법",
+    "통과",
+    "피지컬"
+   ],
+   "nums": [
+    "11건"
+   ],
+   "url": "https://www.etnews.com/20261022000246"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "국감 \"미군, 광주 군공항서 580억 시설공사\"…반도체 산단 일정 우려",
+   "nt": "국감미군광주군공항서580억시설공사반도체산단일정우려",
+   "tk": [
+    "580억",
+    "광주",
+    "국감",
+    "군공항서",
+    "미군",
+    "반도체",
+    "산단",
+    "시설공사",
+    "우려",
+    "일정"
+   ],
+   "nums": [
+    "2028년",
+    "580억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261022122400054"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "\"반도체 급한데\"…미군, 광주 군공항서 580억 시설 공사",
+   "nt": "반도체급한데미군광주군공항서580억시설공사",
+   "tk": [
+    "580억",
+    "공사",
+    "광주",
+    "군공항서",
+    "급한데",
+    "미군",
+    "반도체",
+    "시설"
+   ],
+   "nums": [
+    "2028년",
+    "580억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261022122400054"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전기 세종 기판 증설에 엔비디아 2조원대·빅테크 1조원대 투자",
+   "nt": "삼성전기세종기판증설에엔비디아2조원대빅테크1조원대투자",
+   "tk": [
+    "1조원대",
+    "2조원대",
+    "기판",
+    "빅테크",
+    "삼성전기",
+    "세종",
+    "엔비디아",
+    "증설에",
+    "투자"
+   ],
+   "nums": [
+    "1조",
+    "2700억",
+    "2조",
+    "4조"
+   ],
+   "url": "https://www.etnews.com/20261022000470"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성전기, 엔비디아 등 美 빅테크로부터 AI 반도체 기판 전용라인 증설 투자 유치",
+   "nt": "삼성전기엔비디아등빅테크로부터ai반도체기판전용라인증설투자유치",
+   "tk": [
+    "ai",
+    "기판",
+    "반도체",
+    "빅테크로부터",
+    "삼성전기",
+    "엔비디아",
+    "유치",
+    "전용라인",
+    "증설",
+    "투자"
+   ],
+   "nums": [
+    "2700억",
+    "4조"
+   ],
+   "url": "https://www.etnews.com/20261022000470"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "SKT, SK하이닉스 팹 AI 협력 전담 'Hy-TF' 가동…2030 자율형 공장 지원",
+   "nt": "sktsk하이닉스팹ai협력전담hytf가동2030자율형공장지원",
+   "tk": [
+    "2030",
+    "ai",
+    "hy",
+    "skt",
+    "sk하이닉스",
+    "tf",
+    "가동",
+    "공장",
+    "자율형",
+    "전담",
+    "지원",
+    "협력"
+   ],
+   "nums": [
+    "2030"
+   ],
+   "url": "https://www.etnews.com/20261022000325"
   },
   {
    "date": "2026-10-23",
@@ -12623,198 +12935,125 @@
   {
    "date": "2026-10-23",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "'저가 中 전기차'에 줄줄이 안방 내줬다... 한국도 비상",
-   "nt": "저가전기차에줄줄이안방내줬다한국도비상",
+   "cat": "market",
+   "group": "battery",
+   "h": "삼기에너지솔루션즈, 사천에어쇼서 방산용 배터리팩 3종 첫 공개",
+   "nt": "삼기에너지솔루션즈사천에어쇼서방산용배터리팩3종첫공개",
    "tk": [
-    "내줬다",
-    "비상",
-    "안방",
-    "저가",
-    "전기차",
-    "줄줄이",
-    "한국도"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/news/other/%EC%A0%80%EA%B0%80-%E4%B8%AD-%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%97%90-%EC%A4%84%EC%A4%84%EC%9D%B4-%EC%95%88%EB%B0%A9-%EB%82%B4%EC%A4%AC%EB%8B%A4%ED%95%9C%EA%B5%AD%EB%8F%84-%EB%B9%84%EC%83%81/ar-AA2fNQz1"
-  },
-  {
-   "date": "2026-10-23",
-   "entity": "EVE",
-   "cat": "customer",
-   "group": "global",
-   "h": "2027년 합의 하의 전고체 배터리: 대표 주자 EVE에너지와 체리, 제품 공개",
-   "nt": "2027년합의하의전고체배터리대표주자eve에너지와체리제품공개",
-   "tk": [
-    "2027년",
-    "eve에너지와",
+    "3종",
     "공개",
-    "대표",
-    "배터리",
-    "전고체",
-    "제품",
-    "주자",
-    "체리",
-    "하의",
-    "합의"
-   ],
-   "nums": [
-    "10월20일",
-    "2026년",
-    "2027년"
-   ],
-   "url": "https://news.metal.com/ko/newscontent/104173879-2027%EB%85%84-%ED%95%A9%EC%9D%98-%ED%95%98%EC%9D%98-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%8C%80%ED%91%9C-%EC%A3%BC%EC%9E%90-eve%EC%97%90%EB%84%88%EC%A7%80%EC%99%80-%EC%B2%B4%EB%A6%AC-%EC%A0%9C%ED%92%88-%EA%B3%B5%EA%B0%9C"
-  },
-  {
-   "date": "2026-10-23",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "CATL, 판매량 급증에도 수익성 악화",
-   "nt": "catl판매량급증에도수익성악화",
-   "tk": [
-    "catl",
-    "급증에도",
-    "수익성",
-    "악화",
-    "판매량"
+    "방산용",
+    "배터리팩",
+    "사천에어쇼서",
+    "삼기에너지솔루션즈"
    ],
    "nums": [],
-   "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=281843"
+   "url": "https://www.mk.co.kr/news/stock/12182585"
   },
   {
    "date": "2026-10-23",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "토탈에너지스 자회사 '사프트', 佛 최초 전고체 배터리 생산 역량 확보",
-   "nt": "토탈에너지스자회사사프트최초전고체배터리생산역량확보",
+   "cat": "market",
+   "group": "battery",
+   "h": "삼기에너지솔루션즈, ‘2026 사천에어쇼’ 참가…방산용 배터리팩 3종 최초 공개",
+   "nt": "삼기에너지솔루션즈2026사천에어쇼참가방산용배터리팩3종최초공개",
    "tk": [
+    "2026",
+    "3종",
+    "공개",
+    "방산용",
+    "배터리팩",
+    "사천에어쇼",
+    "삼기에너지솔루션즈",
+    "참가",
+    "최초"
+   ],
+   "nums": [
+    "2026"
+   ],
+   "url": "https://www.mk.co.kr/news/stock/12182585"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "中 배터리 해외 투자 발표 2023년 이후 900억달러…올해 14건 120억달러",
+   "nt": "배터리해외투자발표2023년이후900억달러올해14건120억달러",
+   "tk": [
+    "120억달러",
+    "14건",
+    "2023년",
+    "900억달러",
+    "발표",
     "배터리",
-    "사프트",
+    "올해",
+    "이후",
+    "투자",
+    "해외"
+   ],
+   "nums": [
+    "120억",
+    "14건",
+    "2023년",
+    "315억",
+    "352억",
+    "380억",
+    "520억",
+    "900억"
+   ],
+   "url": "https://www.etnews.com/20261022000261"
+  },
+  {
+   "date": "2026-10-23",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "中 배터리, 美·EU 무역장벽에 해외 투자 900억달러…생산 현지화 가속",
+   "nt": "배터리eu무역장벽에해외투자900억달러생산현지화가속",
+   "tk": [
+    "900억달러",
+    "eu",
+    "가속",
+    "무역장벽에",
+    "배터리",
     "생산",
-    "역량",
-    "자회사",
-    "전고체",
-    "최초",
-    "토탈에너지스",
-    "확보"
+    "투자",
+    "해외",
+    "현지화"
    ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/news/other/%ED%86%A0%ED%83%88%EC%97%90%EB%84%88%EC%A7%80%EC%8A%A4-%EC%9E%90%ED%9A%8C%EC%82%AC-%EC%82%AC%ED%94%84%ED%8A%B8-%E4%BD%9B-%EC%B5%9C%EC%B4%88-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%83%9D%EC%82%B0-%EC%97%AD%EB%9F%89-%ED%99%95%EB%B3%B4/ar-AA2fMiNY"
+   "nums": [
+    "315억",
+    "352억",
+    "380억",
+    "520억",
+    "900억"
+   ],
+   "url": "https://www.etnews.com/20261022000261"
   },
   {
    "date": "2026-10-23",
-   "entity": "피엔티",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "피엔티, 배터리 회복에도 장비는 찬바람…인도·동박서 돌파구",
-   "nt": "피엔티배터리회복에도장비는찬바람인도동박서돌파구",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "GM, 4세대 전기차 플랫폼 공개…2028년부터 고효율 배터리·중앙집중 컴퓨팅",
+   "nt": "gm4세대전기차플랫폼공개2028년부터고효율배터리중앙집중컴퓨팅",
    "tk": [
-    "돌파구",
-    "동박서",
+    "2028년부터",
+    "4세대",
+    "gm",
+    "고효율",
+    "공개",
     "배터리",
-    "인도",
-    "장비는",
-    "찬바람",
-    "피엔티",
-    "회복에도"
-   ],
-   "nums": [],
-   "url": "https://www.ibtomato.com/ExternalView.aspx?type=1&no=19852"
-  },
-  {
-   "date": "2026-10-23",
-   "entity": "SFA",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "허준 부사장, SFA 주식 1062주 ↑…지분율 0.04%",
-   "nt": "허준부사장sfa주식1062주지분율004",
-   "tk": [
-    "04",
-    "1062주",
-    "sfa",
-    "부사장",
-    "주식",
-    "지분율",
-    "허준"
+    "전기차",
+    "중앙집중",
+    "컴퓨팅",
+    "플랫폼"
    ],
    "nums": [
-    "0.04%",
-    "04월04일",
-    "2023년"
+    "2028년"
    ],
-   "url": "https://www.datatooza.com/article/2026102213225066452ef372a71_80"
-  },
-  {
-   "date": "2026-10-23",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "삼성SDI·LG엔솔, 전고체 특허 2·3위…양산 경쟁은 어디까지 왔나",
-   "nt": "삼성sdilg엔솔전고체특허23위양산경쟁은어디까지왔나",
-   "tk": [
-    "3위",
-    "lg엔솔",
-    "경쟁은",
-    "삼성sdi",
-    "양산",
-    "어디까지",
-    "왔나",
-    "전고체",
-    "특허"
-   ],
-   "nums": [],
-   "url": "https://www.sanhaknews.kr/news/articleView.html?idxno=21919"
-  },
-  {
-   "date": "2026-10-23",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "First drive in the Xpeng L03: finally a Chinese EV that doesn’t beep",
-   "nt": "firstdriveinthexpengl03finallyachineseev",
-   "tk": [
-    "beep",
-    "chinese",
-    "doesn",
-    "drive",
-    "ev",
-    "finally",
-    "first",
-    "in",
-    "l03",
-    "that",
-    "the",
-    "xpeng"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/22/first-drive-in-the-xpeng-l03-finally-a-chinese-ev-that-doesnt-beep/"
-  },
-  {
-   "date": "2026-10-23",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "Electrify America opens its largest EV charging station to date",
-   "nt": "electrifyamericaopensitslargestevchargin",
-   "tk": [
-    "america",
-    "charging",
-    "date",
-    "electrify",
-    "ev",
-    "its",
-    "largest",
-    "opens",
-    "station",
-    "to"
-   ],
-   "nums": [
-    "350kW"
-   ],
-   "url": "https://www.electrive.com/2026/10/22/electrify-america-opens-its-largest-ev-charging-station-to-date/"
+   "url": "https://www.electrive.com/2026/10/22/gm-announces-new-efficient-ev-platform/"
   },
   {
    "date": "2026-10-23",
@@ -12838,41 +13077,49 @@
    "date": "2026-10-23",
    "entity": "",
    "cat": "market",
-   "group": "semi",
-   "h": "'2026 전남광주 과학기술인 소통의 밤' 내달 13일 GIST서 열린다",
-   "nt": "2026전남광주과학기술인소통의밤내달13일gist서열린다",
+   "group": "battery",
+   "h": "실리콘 리치 음극 파우치셀, 1000사이클 후 용량 80% 이상 유지…실험실 검증",
+   "nt": "실리콘리치음극파우치셀1000사이클후용량80이상유지실험실검증",
    "tk": [
-    "13일",
-    "2026",
-    "gist서",
-    "과학기술인",
-    "내달",
-    "소통의",
-    "열린다",
-    "전남광주"
+    "1000사이클",
+    "80",
+    "검증",
+    "리치",
+    "실리콘",
+    "실험실",
+    "용량",
+    "유지",
+    "음극",
+    "이상",
+    "파우치셀"
    ],
    "nums": [
-    "2026"
+    "80%"
    ],
-   "url": "https://www.etnews.com/20261022000475"
+   "url": "https://www.electrive.com/2026/10/22/greater-range-at-the-same-weight-silicon-battery-passes-laboratory-test/"
   },
   {
    "date": "2026-10-23",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "삼성SDI, 국제화학올림피아드 한국 대표단 후원 협약",
-   "nt": "삼성sdi국제화학올림피아드한국대표단후원협약",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Greater range at the same weight: silicon battery passes laboratory test",
+   "nt": "greaterrangeatthesameweightsiliconbatter",
    "tk": [
-    "국제화학올림피아드",
-    "대표단",
-    "삼성sdi",
-    "한국",
-    "협약",
-    "후원"
+    "at",
+    "battery",
+    "greater",
+    "laboratory",
+    "passes",
+    "range",
+    "same",
+    "silicon",
+    "test",
+    "the",
+    "weight"
    ],
    "nums": [],
-   "url": "https://www.newspim.com/news/view/20261022000071"
+   "url": "https://www.electrive.com/2026/10/22/greater-range-at-the-same-weight-silicon-battery-passes-laboratory-test/"
   }
  ]
 }

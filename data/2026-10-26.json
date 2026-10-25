@@ -1,0 +1,595 @@
+{
+ "schema": 4,
+ "date": "2026-10-26",
+ "weekday": "월",
+ "edition": "조간",
+ "issue_no": 27,
+ "window_hours": 84,
+ "summary": "삼성SDI, 미국 에너지기업 AOP에 각형 ESS솔루션 · 삼성SDI, 美 ESS 1.5GWh 수주…'각형 배터리 · 서진시스템, 삼성SDI 인디애나 공장 가동 '수혜'…美 · 엠플러스, 배터리 불황에도 OPM 17%…로봇·전고체 ",
+ "top": [
+  "2026-10-26-4",
+  "2026-10-26-13",
+  "2026-10-26-14",
+  "2026-10-26-16"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-26-4",
+       "h": "삼성SDI, 미국 에너지기업 AOP에 각형 ESS솔루션 대규모 공급",
+       "b": "삼성SDI는 26일 미주법인 '삼성SDI 아메리카(SDI America, SDIA)가 미국 에너지 전문기업인 알파오메가파워(AOP)와 <b>1GWh</b> 규모의 ESS 솔루션 공급 계약을 체결했다고 밝혔다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261026018800003",
+       "date": "2026-10-26",
+       "cat": "project",
+       "group": "all",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형",
+        "투자",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-13",
+       "h": "삼성SDI, 美 ESS 1.5GWh 수주…'각형 배터리'로 북미 공략 속도",
+       "b": "삼성SDI가 미국 에너지저장장치(ESS) 시장에서 <b>1.5GWh</b>(기가와트시) 규모의 공급 물량을 확보하며 북미 시장 공략에 속도를 내고 있다.",
+       "src": "파이낸셜뉴스",
+       "url": "https://www.fnnews.com/news/202610260817200697",
+       "date": "2026-10-26",
+       "cat": "project",
+       "group": "all",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형",
+        "투자",
+        "수주"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-10-26-5",
+       "h": "[글로벌 배터리 대전 (39)] K-배터리, 중국 배제 시장에서 활로 찾았지만 ‘대체 불가’의 증명은 여전히 과제(中)",
+       "b": "K-배터리, 중국 배제 시장에서 활로 찾았지만 ‘대체 불가’의 증명은 여전히 과제(中) [글로벌 배터리 대전 (38)] LG에너지솔루션, 중국의 ‘LFP 천하’…",
+       "src": "bing.com",
+       "url": "https://www.news2day.co.kr/article/20261024500016",
+       "date": "2026-10-26",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "BYD"
+       ],
+       "tags": [
+        "ESS",
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-19",
+       "h": "\"AI 반도체 고도화 맞춰 MLCC·기판 성장 주목\"",
+       "b": "LG에너지솔루션은 미국의 중국산 배터리 의존 축소에 따라 ESS 수요",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12185148",
+       "date": "2026-10-25",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI"
+       ],
+       "tags": [
+        "ESS",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-10-26-8",
+       "h": "삼성, CEO 승계 후보군 이사회 보고 제도 확대…삼성SDI·삼성전기 도입",
+       "b": "삼성이 최고경영자(CEO) 승계 후보군을 이사회에 정기적으로 보고하는 시스템을 주요",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261025000075",
+       "date": "2026-10-25",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-14",
+       "h": "서진시스템, 삼성SDI 인디애나 공장 가동 '수혜'…美 SOFC 업체 수주까지 '주목'",
+       "b": "목표주가는 초기 비용 부담을 반영해 기존 <b>6만</b><b>8000원</b>에서 <b>6만</b><b>5000원</b>으로 <b>4.4%</b> 하향 조정했다.",
+       "src": "프라임경제",
+       "url": "https://www.newsprime.co.kr/news/article/?no=752244",
+       "date": "2026-10-26",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": []
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-10-26-15",
+       "h": "China's BYD plans to double capacity at Brazilian plant",
+       "b": "",
+       "src": "Reuters",
+       "url": "https://www.reuters.com/business/autos-transportation/chinas-byd-plans-double-capacity-brazilian-plant-2026-10-23/",
+       "date": "2026-10-23",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-21",
+       "h": "Chery launches megawatt charging system for passenger EVs",
+       "b": "In China, Chery has entered the megawatt charging race.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/23/chery-launches-megawatt-charging-system-for-passenger-evs/",
+       "date": "2026-10-23",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-22",
+       "h": "BAIC and CATL aim to accelerate battery swap approach",
+       "b": "Chinese automakers BAIC Group and CATL are deepening their partnership in the field of…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/23/baic-and-catl-aim-to-accelerate-battery-swap-approach/",
+       "date": "2026-10-23",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-10-26-16",
+       "h": "엠플러스, 배터리 불황에도 OPM 17%…로봇·전고체 배터리 기술 주목 - 머니투데이",
+       "b": "투자의견과 목표주가는 제시하지 않았다.",
+       "src": "머니투데이",
+       "url": "https://www.mt.co.kr/stock/2026/10/23/2026102310280937154",
+       "date": "2026-10-23",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "엠플러스",
+       "related": [],
+       "tags": [
+        "전고체",
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-17",
+       "h": "엠플러스, 이차전지 불황에도 영업익률 17%…로봇·전고체로 성장동력 확대",
+       "b": "",
+       "src": "마켓인",
+       "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=03280006645615872",
+       "date": "2026-10-23",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "엠플러스",
+       "related": [],
+       "tags": [
+        "전고체"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-23",
+       "h": "WUXI LEAD INTELLIGENT EQUIPMENT CO LTD",
+       "b": "Sie erhalten auf FinanzNachrichten.de kostenlose Realtime-Aktienkurse von und sowie Kurse und Daten von ARIVA.DE AG.",
+       "src": "bing.com",
+       "url": "https://www.finanznachrichten.de/nachrichten-aktien/wuxi-lead-intelligent-equipment-co-ltd.htm",
+       "date": "2026-10-23",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "LEAD Intelligent",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-10-26-18",
+       "h": "피엔티, 中 디스플레이·필름 전시회 참가…글로벌 수주 확대 박차",
+       "b": "롤투롤 설비 적용 분야 넓히고 중국을 비롯한 글로벌 고객 기반 지속 강화해 나갈 계획 2차전지 제조장비 전문기업 피엔티가 중국 선전에서 열리는 디스플레이 및 필름 전문 전시회에 참가해 글로벌 수주 확대에 나선다.",
+       "src": "파이낸스스코프",
+       "url": "https://www.finance-scope.com/article/view/scp202610230004",
+       "date": "2026-10-23",
+       "cat": "competitor",
+       "group": "grade_B",
+       "entity": "피엔티",
+       "related": [],
+       "tags": [
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-10-26-3",
+       "h": "K배터리, 中 ESS업체 美 철수 가능성에 기대감↑…생산능력 확보는 관건",
+       "b": "특히 미국의 대중국 관세와 공급망 규제가 강화되면서 인공지능(AI) 데이터센터를 중심으로 ESS 수요까지 확대되면서 현지 생산거점을 확보한 한국 기업들에 추가 수주 기회가 열릴 수 있다는 전망이다.",
+       "src": "팝콘뉴스",
+       "url": "http://www.popcornnews.net/news/articleView.html?idxno=137123",
+       "date": "2026-10-23",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주",
+        "리스크",
+        "정책"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-7",
+       "h": "중국산 중고 전기차, EU 관세 장벽 우회…유럽 판매 280% 급증",
+       "b": "유럽연합(EU)이 중국산 신형 전기차에 최대 <b>45.3%</b>의 관세를 부과하는 가운데 중국산 중고 전기차가 새로운 유럽 시장 진출 경로로 떠오르고 있다.",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%EA%B8%B0%EC%88%A0-%ED%9A%8C%EC%82%AC/%EC%A4%91%EA%B5%AD%EC%82%B0-%EC%A4%91%EA%B3%A0-%EC%A0%84%EA%B8%B0%EC%B0%A8-eu-%EA%B4%80%EC%84%B8-%EC%9E%A5%EB%B2%BD-%EC%9A%B0%ED%9A%8C-%EC%9C%A0%EB%9F%BD-%ED%8C%90%EB%A7%A4-280-%EA%B8%89%EC%A6%9D/ar-AA2g2IaF",
+       "date": "2026-10-25",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-9",
+       "h": "[2027 정기 인사] 현대차그룹, '불확실성 방어'와 '실행력' 방점…공급망·피지컬AI 전진배치 유력",
+       "b": "현대자동차그룹의 사장단·임원 인사는 글로벌 통상 파고와 시장 침체를 정면 돌파하기 위한 '실전형 불확실성 대응'과 '피지컬 AI·미래차 기술 격차 확보'에 방점이 찍힐 전망이다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261023000165",
+       "date": "2026-10-25",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-10-26-20",
+       "h": "Fast DC EV Charger Manufacturers Focus on Charging Speed, Safety, and Reliability",
+       "b": "Shanghai, China.-October 24, 2026 Choosing a Fast DC Ev Charger Manufacturer is now an…",
+       "src": "bing.com",
+       "url": "https://www.wboc.com/online_features/press_releases/fast-dc-ev-charger-manufacturers-focus-on-charging-speed-safety-and-reliability/article_88356ac2-5d02-5ebb-af7f-e40685431679.html",
+       "date": "2026-10-25",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-10-26-10",
+       "h": "\"AI 데이터센터·재생에너지 확대에 ESS 성장 가속\"",
+       "b": "AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.",
+       "src": "그로쓰리서치",
+       "url": "https://www.newspim.com/news/view/20261026000093",
+       "date": "2026-10-25",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-11",
+       "h": "Fraunhofer researchers aim to unlock the potential of lithium-metal anodes",
+       "b": "Researchers from two Fraunhofer Institutes are exploring new approaches to improving the…",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/10/24/fraunhofer-researchers-aim-to-unlock-the-potential-of-lithium-metal-anodes/",
+       "date": "2026-10-24",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-12",
+       "h": "European Union battery supply chain policies show mixed results so far",
+       "b": "As demand for battery storage soars, the European Union (EU) has tried to grow its local…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/european-union-battery-supply-chain-policies-show-mixed-results-so-far/",
+       "date": "2026-10-22",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-10-26-0",
+       "h": "“요샌 주식계좌 확인 안합니다”…대기업 시총 한달만에 1100조 사라져",
+       "b": "증권시장이 흔들리면서 <b>10대</b> 그룹의 시가총액이 한 달 사이에 <b>1000조</b>원 이상 증발했다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12185039",
+       "date": "2026-10-25",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-1",
+       "h": "반도체가 끌어올린 한국 경상흑자…독일·일본 합계 첫 추월",
+       "b": "한국의 올해 2분기 경상수지 흑자가 독일·일본의 합계를 처음",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261025000066",
+       "date": "2026-10-25",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-10-26-2",
+       "h": "[AI 투자 경고등 ②] AI 거품 경고에 K-반도체 긴장···900조 투자 시험대",
+       "b": "인공지능(AI)이 세계 산업의 판도를 바꾸고 있다.",
+       "src": "bing.com",
+       "url": "https://www.seoulfn.com/news/articleView.html?idxno=640563",
+       "date": "2026-10-23",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": [
+      {
+       "id": "2026-10-26-6",
+       "h": "피지컬 AI 로봇 전문 '로보아이', 내년 상반기 코넥스 상장 추진",
+       "b": "비정형 산업환경 특화 피지컬 AI 로봇 전문기업 로보아이(ROBOi·대표 김대영)는 교보증권과 기업공개(IPO) 대표주관사 지정자문인 계약을 체결하고, 내년 상반기 코넥스에 상장한다고 밝혔다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261023000030",
+       "date": "2026-10-25",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 88,
+  "published": 24,
+  "headline_only": 6,
+  "followup": 0,
+  "suppressed": 1,
+  "sameday": 1,
+  "nobody": 0,
+  "unclassified": 0,
+  "capped": 36
+ },
+ "sources": [
+  "Reuters",
+  "bing.com",
+  "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
+  "mk.co.kr",
+  "yna.co.kr",
+  "그로쓰리서치",
+  "마켓인",
+  "머니투데이",
+  "파이낸셜뉴스",
+  "파이낸스스코프",
+  "팝콘뉴스",
+  "프라임경제"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

@@ -29,9 +29,30 @@ REPORT = ROOT / "reports"
 WL = B.load_watchlist()
 SITE = (WL.get("site") or {}).get("name", "이티에스 영업 브리핑")
 SITE_EN = (WL.get("site") or {}).get("name_en", "ETS SALES BRIEFING")
-NAV = [("index.html", "오늘 브리핑", "today"), ("archive.html", "지난 호", "archive"),
-       ("companies/index.html", "회사별", "companies"), ("search.html", "검색", "search"),
-       ("weekly.html", "주간 종합", "weekly")]
+# 주간 발행(watchlist.yml schedule.publish_weekdays 가 있음)이면 '주간 종합' 메뉴·페이지를 만들지 않고 문구를 '이번 주'로.
+# publish_weekdays 줄을 지우면(일간 복귀) 메뉴와 '오늘' 문구가 그대로 돌아옵니다.
+WEEKLY = bool((WL.get("schedule") or {}).get("publish_weekdays"))
+NAV = [("index.html", "이번 주 브리핑" if WEEKLY else "오늘 브리핑", "today"), ("archive.html", "지난 호", "archive"),
+       ("companies/index.html", "회사별", "companies"), ("search.html", "검색", "search")]
+if not WEEKLY:
+    NAV.append(("weekly.html", "주간 종합", "weekly"))
+
+
+def is_week_issue(d: dict) -> bool:
+    """호마다 판단: 7일 창으로 모은 호는 '이번 주', 일간 호는 '오늘' (지난 일간 호 문구는 그대로 유지)."""
+    return int(d.get("window_hours") or 0) >= 168
+
+
+def w_now(d: dict) -> str:      # 이번 주 / 오늘
+    return "이번 주" if is_week_issue(d) else "오늘"
+
+
+def w_of(d: dict) -> str:       # 이번 주 / 오늘의
+    return "이번 주" if is_week_issue(d) else "오늘의"
+
+
+def w_topic(d: dict) -> str:    # 이번 주는 / 오늘은
+    return "이번 주는" if is_week_issue(d) else "오늘은"
 CAT_TITLE = {c["id"]: c.get("title", c["id"]) for c in WL.get("categories") or []}
 CUSTOMER_NAMES = [c["name"] for c in WL.get("customers") or []]
 COMPETITORS = WL.get("competitors") or []
@@ -470,14 +491,14 @@ def sales_guide_html(d: dict) -> str:
     if d.get("guide"):
         by_id = {it["id"]: it for it in all_items(d)}
         lis = []
-        for g in d["guide"][:6]:
+        for g in d["guide"][:8]:
             it = by_id.get(g.get("item_id"))
             if not it:
                 continue
             lis.append(f'<li><a href="#{esc(it["id"])}">{grade_badge(it.get("grade","C"))} {soft(esc(g.get("say","")))}</a>'
                        f'<small>{soft(esc(B.strip_tags(it.get("h",""))[:44]))}</small></li>')
-        body = f'<ul>{"".join(lis)}</ul>' if lis else '<p class="empty">오늘은 영업 신호가 없습니다.</p>'
-        return f'<div class="guide"><h2>오늘의 영업 포인트 <small>Claude 정제</small></h2>{body}</div>'
+        body = f'<ul>{"".join(lis)}</ul>' if lis else f'<p class="empty">{w_topic(d)} 영업 신호가 없습니다.</p>'
+        return f'<div class="guide"><h2>{w_of(d)} 영업 포인트 <small>Claude 정제</small></h2>{body}</div>'
     rules = WL.get("sales_guide") or []
     lines, seen = [], set()
     for it in all_items(d):
@@ -499,8 +520,8 @@ def sales_guide_html(d: dict) -> str:
             break
         if len(lines) >= 5:
             break
-    body = f'<ul>{"".join(lines)}</ul>' if lines else '<p class="empty">오늘은 규칙에 걸린 영업 신호가 없습니다.</p>'
-    return f'<div class="guide"><h2>오늘의 영업 포인트 <small>규칙표(watchlist.yml sales_guide) 자동 연결</small></h2>{body}</div>'
+    body = f'<ul>{"".join(lines)}</ul>' if lines else f'<p class="empty">{w_topic(d)} 규칙에 걸린 영업 신호가 없습니다.</p>'
+    return f'<div class="guide"><h2>{w_of(d)} 영업 포인트 <small>규칙표(watchlist.yml sales_guide) 자동 연결</small></h2>{body}</div>'
 
 
 LEGEND = (
@@ -561,14 +582,14 @@ def front_html(d: dict) -> str:
     if url:
         meta_parts.append(f'<a class="more" href="{esc(url)}" target="_blank" rel="noopener">원문 보기 ↗</a>')
     meta = f'<div class="meta">{" ".join(meta_parts)}</div>'
-    lead_html = (f'<div class="lead-story"><div class="kicker">오늘의 1면 · {kicker}</div><h1>{h1}</h1>'
+    lead_html = (f'<div class="lead-story"><div class="kicker">{w_of(d)} 1면 · {kicker}</div><h1>{h1}</h1>'
                  f'<p class="b">{soft(clamp_brief(lead.get("b",""), BRIEF_MAX + 40))}</p>{meta}</div>')
     side_html = ('<div class="side"><h2>주요 기사</h2>' + "".join(render_item(it, brief=False) for it in side) + "</div>") if side else ""
     return (f'<div class="front"><div class="lcol">{lead_html}{side_html}</div>'
             f'<div class="rcol">{sales_guide_html(d)}</div></div>')
 
 
-def section_html(sec: dict, no: int, exclude: set[str]) -> str:
+def section_html(sec: dict, no: int, exclude: set[str], when: str = "오늘") -> str:
     groups = []
     total = 0
     for g in sec.get("groups", []):
@@ -582,7 +603,7 @@ def section_html(sec: dict, no: int, exclude: set[str]) -> str:
     n_front = sum(1 for g in sec.get("groups", []) for it in g.get("items", []) if it["id"] in exclude)
     circ = "①②③④⑤⑥⑦⑧⑨"[no - 1] if 1 <= no <= 9 else str(no)
     if not groups:   # 빈 면은 제목 한 줄로만(공백 없이)
-        note = "오늘 소식은 1면에 실렸습니다" if n_front else "새 소식 없음"
+        note = f"{when} 소식은 1면에 실렸습니다" if n_front else "새 소식 없음"
         return (f'<section class="section thin" id="{esc(sec["id"])}"><div class="sec-head"><span class="no">{circ}</span>'
                 f'<h2>{esc(sec.get("title",""))}</h2><span class="cnt">{note}</span></div></section>')
     cnt = f'{total}건' + (f' · 1면 {n_front}건' if n_front else "")
@@ -595,7 +616,7 @@ def section_html(sec: dict, no: int, exclude: set[str]) -> str:
 def brief_page(d: dict, dates: list[str], base: str, active: str, week_link: str = "") -> str:
     right, dl = issue_meta_html(d)
     tops = set(d.get("top", []))
-    secs = "".join(section_html(s, i + 1, tops) for i, s in enumerate(d.get("sections", [])))
+    secs = "".join(section_html(s, i + 1, tops, w_now(d)) for i, s in enumerate(d.get("sections", [])))
     n = len(all_items(d))
     guide = '' if d.get('top') else f'<div class="guide-row">{sales_guide_html(d)}</div>'
     wk = f'<div class="summary">이번 주 <a href="{week_link}">주간 종합면</a>이 준비되었습니다.</div>' if week_link else ""
@@ -603,7 +624,7 @@ def brief_page(d: dict, dates: list[str], base: str, active: str, week_link: str
     src_line = ("출처: " + esc("·".join(srcs[:16])) + (" 등" if len(srcs) > 16 else "")) if srcs else ""
     return (head(f"{SITE} 제{d.get('issue_no',0)}호 — {d.get('date','')}", active, base, right, dl) +
             LEGEND_BAR + issuenav(dates, d.get("date", ""), base, "paper", active) + front_html(d) + guide + wk + secs +
-            foot(f"{src_line} · 오늘 {n}건"))
+            foot(f"{src_line} · {w_now(d)} {n}건"))
 
 
 
@@ -688,14 +709,14 @@ def report_page(d: dict, dates: list[str], base: str, active: str) -> str:
                       f'<td>{soft(esc(sig))}</td><td class="act">{soft(esc(act))}</td>'
                       f'<td class="src">{esc(it.get("src",""))} {stars(it.get("rel",2))}<br>{link}</td></tr>')
     if not grow_html:
-        grow_html = '<tr><td colspan="6" class="empty">오늘은 영업 신호가 없습니다.</td></tr>'
+        grow_html = f'<tr><td colspan="6" class="empty">{w_topic(d)} 영업 신호가 없습니다.</td></tr>'
     summary = d.get("summary") or ""
     cover = (f'<section class="rp cover"><div class="rp-head"><span class="rp-tag">갑지 · 요약</span>'
              f'<h1>영업 정보보고</h1><div class="rp-meta">제{no}호 · {esc(B.kdate(date))} · {esc(d.get("edition","조간"))}'
              f'{" · Claude 정제판" if d.get("refined") else " · 규칙표 판"}</div></div>'
              f'<div class="kpis">{kpis}</div>'
-             + (f'<div class="rp-summary"><b>오늘의 요약</b> {soft(esc(summary))}</div>' if summary else "") +
-             f'<h2 class="rp-h2">오늘의 영업 포인트</h2>'
+             + (f'<div class="rp-summary"><b>{w_of(d)} 요약</b> {soft(esc(summary))}</div>' if summary else "") +
+             f'<h2 class="rp-h2">{w_of(d)} 영업 포인트</h2>'
              f'<table class="rt"><thead><tr><th>No</th><th>등급</th><th>회사</th><th>사실(신호)</th><th>영업이 할 일</th><th>출처</th></tr></thead>'
              f'<tbody>{grow_html}</tbody></table></section>')
 
@@ -970,16 +991,22 @@ def main() -> int:
         print("data/*.json 없음 — 첫 호 발행 전 안내 페이지를 생성했습니다."); return 0
     dates = [d["date"] for d in issues]
     BRIEF.mkdir(exist_ok=True); COMP.mkdir(exist_ok=True); WEEK.mkdir(exist_ok=True); REPORT.mkdir(exist_ok=True)
-    wpages, latest_week, date_label = weekly_pages(issues)
+    if WEEKLY:   # 주간 발행: 호 자체가 일주일치라 '주간 종합' 페이지는 만들지 않음(일간 복귀 시 data 로 다시 생성됨)
+        wpages, latest_week, date_label = {}, "", {}
+        for f in WEEK.glob("*.html"):
+            f.unlink()
+        (ROOT / "weekly.html").unlink(missing_ok=True)
+    else:
+        wpages, latest_week, date_label = weekly_pages(issues)
     for name, html_ in wpages.items():
         (WEEK / name).write_text(html_, encoding="utf-8")
     for d in issues:
-        wl = f'../weekly/{date_label[d["date"]]}.html' if parse_date(d["date"]).weekday() == 4 else ""
+        wl = f'../weekly/{date_label[d["date"]]}.html' if d["date"] in date_label and parse_date(d["date"]).weekday() == 4 else ""
         act = "today" if d["date"] == issues[0]["date"] else "archive"
         (BRIEF / f'{d["date"]}.html').write_text(brief_page(d, dates, "../", act, wl), encoding="utf-8")
         (REPORT / f'{d["date"]}.html').write_text(report_page(d, dates, "../", act), encoding="utf-8")
     top = issues[0]
-    wl0 = f'weekly/{date_label[top["date"]]}.html' if parse_date(top["date"]).weekday() == 4 else ""
+    wl0 = f'weekly/{date_label[top["date"]]}.html' if top["date"] in date_label and parse_date(top["date"]).weekday() == 4 else ""
     (ROOT / "index.html").write_text(brief_page(top, dates, "", "today", wl0), encoding="utf-8")
     (ROOT / "archive.html").write_text(archive_page(issues), encoding="utf-8")
     (ROOT / "report.html").write_text(report_page(top, dates, "", "today"), encoding="utf-8")

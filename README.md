@@ -1,9 +1,9 @@
 # 이티에스 시장 동향
 
 「일일·주간 시장동향 정보보고 체계」(PPT)와 Market Intelligence(엑셀)의 틀을 그대로 웹 신문으로 옮긴 사이트입니다.
-매일 아침(월~금) 두 단계로 발행됩니다.
-1. **07:20 GitHub Actions(무료)** — 뉴스 수집·규칙표 분류 → 규칙표 판 먼저 게시 + 후보 목록(`db/candidates-<날짜>.json`)
-2. **07:40 Claude 예약(Max 요금제 안, 추가 비용 0)** — 후보를 읽고 회사·카테고리·등급을 확인, 핵심 한 문장·영업 포인트를 정리한 **정제판**으로 덮어씀 (`scripts/refine.py`)
+**매주 월요일** 아침, 지난 일주일(168시간)치를 한 호로 묶어 두 단계로 발행됩니다. (2026-10-26까지는 매일 발행)
+1. **06:50 GitHub Actions(무료)** — 뉴스 수집·규칙표 분류 → 규칙표 판 먼저 게시 + 후보 목록(`db/candidates-<날짜>.json`)
+2. **07:40 Claude 예약(Max 요금제 안, 추가 비용 0, 월요일만)** — 후보를 읽고 회사·카테고리·등급을 확인, 핵심 한 문장·영업 포인트를 정리한 **정제판**으로 덮어씀 (`scripts/refine.py`)
 
 Claude 단계가 실패해도 규칙표 판이 그대로 남습니다. 판단 문장 없음(사실만).
 
@@ -19,14 +19,14 @@ Claude 단계가 실패해도 규칙표 판이 그대로 남습니다. 판단 �
 
 > 멈추려면: `.github/workflows/daily.yml` 의 `schedule` 두 줄 앞에 `#` 을 붙이고, claude.ai/code → Routines 에서 정제 예약을 끄면 됩니다.
 
-## 매일 어떻게 도나 (무료·무인)
-`.github/workflows/daily.yml` 이 일~목 22:20 UTC(=월~금 07:20 KST) 실행:
+## 매주 어떻게 도나 (무료·무인)
+`.github/workflows/daily.yml` 이 일요일 21:50 UTC(=월요일 06:50 KST) 실행:
 1. `scripts/collect.py` — `watchlist.yml` 기준으로 언론사·기관 RSS(DART 공시·정책브리핑 포함) + Google News·Bing News 검색(한/영)
    → 원문 리드 추출 → 1~2문장 브리프 → 카테고리·등급·신뢰도·태그 판정 → 사안 기억과 대조(후속/제외) → `data/<오늘>.json`
 2. `render.py` — 오늘·지난 호(달력)·회사별·검색·주간 종합 페이지 재생성
 3. 커밋·푸시 → Pages 자동 반영
 
-월요일은 주말 포함 84시간, 화~금은 36시간 창으로 찾습니다. 주말·공휴일은 발행하지 않습니다.
+주간 발행은 최근 168시간(7일) 창으로 찾고, 월요일이 공휴일이어도 발행합니다. 일간으로 되돌리려면 `watchlist.yml` 의 `publish_weekdays` 줄을 지우고 `daily.yml` 의 cron 을 `50 21 * * 0-4` 로 바꾸세요.
 
 ## 감시 대상·규칙 바꾸기 — `watchlist.yml` 하나만
 | 바꾸고 싶은 것 | 어디를 고치나 |
@@ -52,7 +52,7 @@ render.py                 신문 지면 생성기 (오늘·지난 호 달력·�
 watchlist.yml             감시 대상·규칙 (여기만 고치면 됨)
 data/<날짜>.json          하루치 내용(영구 보관)   db/topics.json  사안 기억(30일)
 index.html archive.html search.html weekly.html briefings/ companies/ weekly/   자동 생성
-.github/workflows/daily.yml   월~금 07:20 수집(무료)   build.yml  data 수정 시 지면 재생성
+.github/workflows/daily.yml   매주 월 06:50 수집(무료)   build.yml  data 수정 시 지면 재생성
 assets/logo.png           회사 로고(원본, 44px 높이로 축소 표시)
 ```
 

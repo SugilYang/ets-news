@@ -14,16 +14,20 @@
 site:
   name: "이티에스 시장 동향"
   name_en: "ETS MARKET INTELLIGENCE"
-  edition: "조간"
+  edition: "주간"
   first_issue_date: ""                  # 제1호 날짜(호수 계산 기준). 비워 두면 첫 발행일이 자동으로 제1호
 
 # ── 발행 일정 ─────────────────────────────────────────────────────
 # (수집 수동 트리거 기록: 2026-09-16 08:05 KST — 07:20 예약 실행이 오지 않아 푸시로 1회 실행)
 schedule:
-  weekdays_only: true                    # 월~금만 발행 (토·일은 건너뜀)
-  window_hours: 36                       # 화~금: 최근 36시간 기사
-  window_hours_monday: 84                # 월요일: 금요일 저녁 이후(주말 포함) 84시간
-  holidays:                              # 이 날짜는 발행하지 않음 (YYYY-MM-DD)
+  # ★ 2026-10-26 부터 주 1회(월요일) 발행. 지난 일주일치(월 아침~다음 월 아침 168시간)를 한 호에 담음.
+  #   일간 발행으로 되돌리려면 아래 publish_weekdays 줄을 지우면 됨(월~금 매일, 아래 window_hours 규칙 적용).
+  publish_weekdays: [0]                  # 발행 요일 (0=월). 이 요일에만 수집·발행하고, 공휴일이어도 발행
+  window_hours_weekly: 168               # 주간 발행 시 수집 창: 최근 7일
+  weekdays_only: true                    # (일간 발행용) 월~금만 발행
+  window_hours: 36                       # (일간 발행용) 화~금: 최근 36시간 기사
+  window_hours_monday: 84                # (일간 발행용) 월요일: 금요일 저녁 이후 84시간
+  holidays:                              # (일간 발행용) 이 날짜는 발행하지 않음 (YYYY-MM-DD)
     - "2026-09-24"   # 추석 연휴
     - "2026-09-25"
     - "2026-10-03"   # 개천절
@@ -36,9 +40,9 @@ rules:
   style: "사실만. 주체·수치·날짜·출처. 판단·시사점·전망 문장은 쓰지 않음."
   brief_sentences: 1                     # 항목당 본문 문장 수. 핵심 한 문장만, 나머지는 원문 링크로.
   brief_max_chars: 90
-  items_per_section_max: 8               # 면당 최대 건수
-  items_per_group_max: 3                 # 소제목(LG엔솔·전기차 등)당 최대 건수
-  items_per_company_max: 2               # 한 면에서 같은 회사 기사는 최대 2건
+  items_per_section_max: 15              # 면당 최대 건수 (주간 발행: 일주일치라 일간 8 → 15)
+  items_per_group_max: 6                 # 소제목(LG엔솔·전기차 등)당 최대 건수 (일간 3)
+  items_per_company_max: 3               # 한 면에서 같은 회사 기사는 최대 3건 (일간 2)
   topic_memory_days: 30                  # 한 번 실은 사안은 30일간 기억, 바뀐 것만 '후속'으로 재게재
   followup_needs_change: true            # 수치·일정이 달라져야만 후속으로 실음
   min_items_to_publish: 2                # 이보다 적으면 그날 호를 만들지 않음

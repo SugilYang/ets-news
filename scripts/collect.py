@@ -265,6 +265,11 @@ def build_queries(wl: dict) -> list[tuple[str, str, str]]:
 def should_publish(now: datetime, wl: dict) -> tuple[bool, str]:
     sch = wl.get("schedule") or {}
     today = now.strftime("%Y-%m-%d")
+    pub_days = sch.get("publish_weekdays")
+    if pub_days:      # 주간 발행: 지정한 요일(0=월)에만 발행. 공휴일이어도 발행(주 1회라 건너뛰지 않음)
+        if now.weekday() not in set(pub_days):
+            return False, f"{today} 은 발행 요일이 아니라 발행하지 않습니다."
+        return True, ""
     if sch.get("weekdays_only", True) and now.weekday() >= 5:
         return False, f"{today} 은 주말이라 발행하지 않습니다."
     if today in set(sch.get("holidays") or []):
@@ -272,8 +277,26 @@ def should_publish(now: datetime, wl: dict) -> tuple[bool, str]:
     return True, ""
 
 
+def is_weekly(wl: dict) -> bool:
+    return bool((wl.get("schedule") or {}).get("publish_weekdays"))
+
+
+def next_issue_no(today: str) -> int:
+    """주간 발행: 앞선 호들 중 가장 큰 호수 + 1 (평일 수 계산은 일간 발행용)."""
+    nums = []
+    for f in DATA.glob("????-??-??.json"):
+        if f.stem < today:
+            try:
+                nums.append(int(json.loads(f.read_text(encoding="utf-8")).get("issue_no") or 0))
+            except Exception:
+                pass
+    return (max(nums) if nums else 0) + 1
+
+
 def window_hours(now: datetime, wl: dict) -> int:
     sch = wl.get("schedule") or {}
+    if is_weekly(wl):
+        return int(sch.get("window_hours_weekly", 168))
     if now.weekday() == 0:
         return int(sch.get("window_hours_monday", 84))
     return int(sch.get("window_hours", 36))
@@ -281,12 +304,17 @@ def window_hours(now: datetime, wl: dict) -> int:
 
 # ----------------------------------------------------------------- 본체
 def main() -> int:
+    global MAX_ARTICLE_FETCH, MAX_ENTRIES_PER_FEED
     now = now_kst()
     today = now.strftime("%Y-%m-%d")
     wl = B.load_watchlist()
     ok, why = should_publish(now, wl)
     if not ok:
         print(why); return 0
+    weekly = is_weekly(wl)
+    if weekly:       # 일주일치를 한 번에 훑으므로 검색 결과·원문 확인 한도를 넓힘
+        MAX_ARTICLE_FETCH = 320
+        MAX_ENTRIES_PER_FEED = 30
     out = DATA / f"{today}.json"
     if out.exists():
         print(f"이미 생성됨: {out.name}"); return 0
@@ -446,7 +474,7 @@ def main() -> int:
         "schema": 4,
         "date": today, "weekday": B.WEEKDAYS[now.weekday()],
         "edition": site.get("edition", "조간"),
-        "issue_no": B.issue_no(first, today, hol),
+        "issue_no": next_issue_no(today) if weekly else B.issue_no(first, today, hol),
         "window_hours": hours,
         "summary": " · ".join(B.strip_tags(it["h"])[:30] for it in tops[:4]),
         "top": [it["id"] for it in tops],

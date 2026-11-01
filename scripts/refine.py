@@ -122,7 +122,7 @@ def apply(path: str) -> None:
     if not top:
         top = [it["id"] for it in sorted(items, key=lambda it: (it["grade"], -it["rel"]))[:3]]
     guide = [{"item_id": cid_to_id[g["cid"]], "say": B.strip_tags(str(g.get("say", "")))[:80]}
-             for g in (ref.get("guide") or []) if g.get("cid") in cid_to_id and g.get("say")][:6]
+             for g in (ref.get("guide") or []) if g.get("cid") in cid_to_id and g.get("say")][:8]
     site = wl.get("site") or {}
     hol = set((wl.get("schedule") or {}).get("holidays") or [])
     first = str(site.get("first_issue_date") or "").strip()

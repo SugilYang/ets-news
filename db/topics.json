@@ -9744,80 +9744,1263 @@
   },
   {
    "date": "2026-11-02",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "한투·日 SBI, 1조엔 AI인프라 펀드 추진",
-   "nt": "한투sbi1조엔ai인프라펀드추진",
+   "entity": "SK온",
+   "cat": "project",
+   "group": "all",
+   "h": "SK온, 3차 ESS 중앙계약시장 입찰 참여…2차 물량 50.3% 확보",
+   "nt": "sk온3차ess중앙계약시장입찰참여2차물량503확보",
    "tk": [
-    "1조엔",
-    "ai인프라",
-    "sbi",
+    "2차",
+    "3차",
+    "50",
+    "ess",
+    "sk온",
+    "물량",
+    "입찰",
+    "중앙계약시장",
+    "참여",
+    "확보"
+   ],
+   "nums": [
+    "2조",
+    "50.3%"
+   ],
+   "url": "http://www.srtimes.kr/news/articleView.html?idxno=215880"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SK온",
+   "cat": "project",
+   "group": "all",
+   "h": "SK온, ESS 3차 입찰 도전…수주 경쟁력과 과제는",
+   "nt": "sk온ess3차입찰도전수주경쟁력과과제는",
+   "tk": [
+    "3차",
+    "ess",
+    "sk온",
+    "경쟁력과",
+    "과제는",
+    "도전",
+    "수주",
+    "입찰"
+   ],
+   "nums": [
+    "2조",
+    "50.3%"
+   ],
+   "url": "http://www.srtimes.kr/news/articleView.html?idxno=215880"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, SPE 1공장 LFP 라인 2개 추가 전환…내년 중반부터",
+   "nt": "삼성sdispe1공장lfp라인2개추가전환내년중반부터",
+   "tk": [
+    "1공장",
+    "2개",
+    "lfp",
+    "spe",
+    "내년",
+    "라인",
+    "삼성sdi",
+    "전환",
+    "중반부터",
+    "추가"
+   ],
+   "nums": [
+    "2개",
+    "3개",
+    "4개"
+   ],
+   "url": "https://www.newspim.com/news/view/20261029000441"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "[컨콜] 삼성SDI \"美 ESS용 LFP 배터리 정상 양산…12월부터 완제품 인도\"",
+   "nt": "컨콜삼성sdiess용lfp배터리정상양산12월부터완제품인도",
+   "tk": [
+    "12월부터",
+    "ess용",
+    "lfp",
+    "배터리",
+    "삼성sdi",
+    "양산",
+    "완제품",
+    "인도",
+    "정상",
+    "컨콜"
+   ],
+   "nums": [
+    "3개",
+    "4개"
+   ],
+   "url": "https://www.newspim.com/news/view/20261029000441"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI 시너지셀즈, ESS용 설계 전환…2028년 하반기 양산 목표",
+   "nt": "삼성sdi시너지셀즈ess용설계전환2028년하반기양산목표",
+   "tk": [
+    "2028년",
+    "ess용",
+    "목표",
+    "삼성sdi",
+    "설계",
+    "시너지셀즈",
+    "양산",
+    "전환",
+    "하반기"
+   ],
+   "nums": [
+    "2028년",
+    "2029년"
+   ],
+   "url": "https://www.newspim.com/news/view/20261029000474"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "[컨콜] 삼성SDI \"美 시너지셀즈서 ESS 중장기 공급모델 논의 중\"",
+   "nt": "컨콜삼성sdi시너지셀즈서ess중장기공급모델논의중",
+   "tk": [
+    "ess",
+    "공급모델",
+    "논의",
+    "삼성sdi",
+    "시너지셀즈서",
+    "중장기",
+    "컨콜"
+   ],
+   "nums": [
+    "2028년",
+    "2029년"
+   ],
+   "url": "https://www.newspim.com/news/view/20261029000474"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI 3Q 영업익 4078억 흑자전환…SPE·울산 2028년까지 풀가동 수주",
+   "nt": "삼성sdi3q영업익4078억흑자전환spe울산2028년까지풀가동수주",
+   "tk": [
+    "2028년까지",
+    "3q",
+    "4078억",
+    "spe",
+    "삼성sdi",
+    "수주",
+    "영업익",
+    "울산",
+    "풀가동",
+    "흑자전환"
+   ],
+   "nums": [
+    "2028년",
+    "2038억",
+    "2배",
+    "4078억",
+    "4조",
+    "52.6%",
+    "6856억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261029042651003"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, 영업익 4천78억원 깜짝실적…\"2028년까지 수주 확보\"(종합2보)",
+   "nt": "삼성sdi영업익4천78억원깜짝실적2028년까지수주확보종합2보",
+   "tk": [
+    "2028년까지",
+    "4천78억원",
+    "깜짝실적",
+    "삼성sdi",
+    "수주",
+    "영업익",
+    "종합2보",
+    "확보"
+   ],
+   "nums": [
+    "2028년",
+    "2038억",
+    "2배",
+    "4조",
+    "4천",
+    "52.6%",
+    "6856억",
+    "78억"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261029042651003"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔–에너직스 ESS MOU…24개월 내 유럽·북미 2GWh",
+   "nt": "lg엔솔에너직스essmou24개월내유럽북미2gwh",
+   "tk": [
+    "24개월",
+    "2gwh",
+    "ess",
+    "lg엔솔",
+    "mou",
+    "북미",
+    "에너직스",
+    "유럽"
+   ],
+   "nums": [
+    "0.5GWh",
+    "1.5GWh",
+    "24개월",
+    "2GWh",
+    "4.5GWh"
+   ],
+   "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904255"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG에너지솔루션, 에너직스와 ESS 공급 협력…최대 1.8조원 규모 계약 추진",
+   "nt": "lg에너지솔루션에너직스와ess공급협력최대18조원규모계약추진",
+   "tk": [
+    "8조원",
+    "ess",
+    "lg에너지솔루션",
+    "계약",
+    "공급",
+    "규모",
+    "에너직스와",
+    "최대",
     "추진",
-    "펀드",
-    "한투"
+    "협력"
    ],
    "nums": [
-    "1조"
+    "0.5GWh",
+    "1.5GWh",
+    "1.8조",
+    "4.5GWh"
    ],
-   "url": "https://www.mk.co.kr/news/stock/12192990"
+   "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904255"
   },
   {
    "date": "2026-11-02",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "Pennsylvania allocates $37m for more than 500 new EV charging ports",
-   "nt": "pennsylvaniaallocates37mformorethan500ne",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG화학, LG엔솔 주식 653만주 2.5조 PRS 처분…지분 76.59%로",
+   "nt": "lg화학lg엔솔주식653만주25조prs처분지분7659로",
    "tk": [
-    "37m",
-    "500",
-    "allocates",
-    "charging",
+    "59",
+    "5조",
+    "653만주",
+    "76",
+    "lg엔솔",
+    "lg화학",
+    "prs",
+    "주식",
+    "지분",
+    "처분"
+   ],
+   "nums": [
+    "11월27일",
+    "12월24일",
+    "2.5조",
+    "2500원",
+    "2년",
+    "38만",
+    "653만",
+    "76.59%",
+    "79.38%"
+   ],
+   "url": "https://www.jabon.co.kr/news/articleView.html?idxno=8139"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "[10.29 개장 전 주요공시] LG화학, LG에너지솔루션 지분 2조 원대 매각 외",
+   "nt": "1029개장전주요공시lg화학lg에너지솔루션지분2조원대매각외",
+   "tk": [
+    "10",
+    "29",
+    "2조",
+    "lg에너지솔루션",
+    "lg화학",
+    "개장",
+    "매각",
+    "원대",
+    "주요공시",
+    "지분"
+   ],
+   "nums": [
+    "10.29개",
+    "11월27일",
+    "12월24일",
+    "2500원",
+    "2년",
+    "2조",
+    "38만",
+    "76.59%",
+    "79.38%"
+   ],
+   "url": "https://www.jabon.co.kr/news/articleView.html?idxno=8139"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG엔솔, 캐나다 에네온에 LFP 'JF2 DC Link' ESS 공급 계약",
+   "nt": "lg엔솔캐나다에네온에lfpjf2dclinkess공급계약",
+   "tk": [
+    "dc",
+    "ess",
+    "jf2",
+    "lfp",
+    "lg엔솔",
+    "link",
+    "계약",
+    "공급",
+    "에네온에",
+    "캐나다"
+   ],
+   "nums": [
+    "5.1MWh",
+    "9월30일"
+   ],
+   "url": "https://biz.chosun.com/industry/company/2026/10/27/6F6WLGKBENDF7BRM5JFZVL4ZXI/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "﻿LG에너지솔루션, 북미 ESS 시장 공략 속도… 생산 거점 확보 이어 신규 수주 잇따라",
+   "nt": "lg에너지솔루션북미ess시장공략속도생산거점확보이어신규수주잇따라",
+   "tk": [
+    "ess",
+    "lg에너지솔루션",
+    "거점",
+    "공략",
+    "북미",
+    "생산",
+    "속도",
+    "수주",
+    "시장",
+    "신규",
+    "이어",
+    "잇따라",
+    "확보"
+   ],
+   "nums": [
+    "5.1MWh",
+    "9월30일"
+   ],
+   "url": "https://biz.chosun.com/industry/company/2026/10/27/6F6WLGKBENDF7BRM5JFZVL4ZXI/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "SK온, 서산2공장·조지아 EV 라인 일부 ESS용 LFP로 전환",
+   "nt": "sk온서산2공장조지아ev라인일부ess용lfp로전환",
+   "tk": [
+    "ess용",
     "ev",
-    "for",
-    "more",
-    "new",
-    "pennsylvania",
-    "ports",
-    "than"
+    "lfp로",
+    "sk온",
+    "라인",
+    "서산2공장",
+    "일부",
+    "전환",
+    "조지아"
    ],
    "nums": [
-    "$37m"
+    "9GWh"
    ],
-   "url": "https://www.electrive.com/2026/10/30/pennsylvania-allocates-37m-for-more-than-500-new-ev-charging-ports/"
+   "url": "https://www.newspim.com/news/view/20261029000644"
   },
   {
    "date": "2026-11-02",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "삼성전자, 설비투자 85조 승부수…역대최대 투자로 반도체 호황대응",
-   "nt": "삼성전자설비투자85조승부수역대최대투자로반도체호황대응",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "[컨콜] SK이노베이션 \"SK온 ESS, 신규 증설보다 기존 라인 활용\"",
+   "nt": "컨콜sk이노베이션sk온ess신규증설보다기존라인활용",
    "tk": [
-    "85조",
-    "반도체",
-    "삼성전자",
-    "설비투자",
-    "승부수",
-    "역대최대",
-    "투자로",
-    "호황대응"
+    "ess",
+    "sk온",
+    "sk이노베이션",
+    "기존",
+    "라인",
+    "신규",
+    "증설보다",
+    "컨콜",
+    "활용"
    ],
    "nums": [
-    "107조",
-    "2024년",
-    "3분기",
-    "54조",
-    "85조"
+    "9GWh"
    ],
-   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EC%84%A4%EB%B9%84%ED%88%AC%EC%9E%90-85%EC%A1%B0-%EC%8A%B9%EB%B6%80%EC%88%98-%EC%97%AD%EB%8C%80%EC%B5%9C%EB%8C%80-%ED%88%AC%EC%9E%90%EB%A1%9C-%EB%B0%98%EB%8F%84%EC%B2%B4-%ED%98%B8%ED%99%A9%EB%8C%80%EC%9D%91/ar-AA2gjr6G"
+   "url": "https://www.newspim.com/news/view/20261029000644"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "SK온 헝가리 이반차공장, 환경 위반으로 2년간 정부 지원 배제",
+   "nt": "sk온헝가리이반차공장환경위반으로2년간정부지원배제",
+   "tk": [
+    "2년간",
+    "sk온",
+    "배제",
+    "위반으로",
+    "이반차공장",
+    "정부",
+    "지원",
+    "헝가리",
+    "환경"
+   ],
+   "nums": [
+    "1억",
+    "2년"
+   ],
+   "url": "http://www.newskr.kr/news/articleView.html?idxno=107579"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "SK온 헝가리공장, 2년간 정부 지원 배제…환경오염 제재에 투자 부담 커지나",
+   "nt": "sk온헝가리공장2년간정부지원배제환경오염제재에투자부담커지나",
+   "tk": [
+    "2년간",
+    "sk온",
+    "배제",
+    "부담",
+    "정부",
+    "제재에",
+    "지원",
+    "커지나",
+    "투자",
+    "헝가리공장",
+    "환경오염"
+   ],
+   "nums": [
+    "1억",
+    "2년"
+   ],
+   "url": "http://www.newskr.kr/news/articleView.html?idxno=107579"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL, 황화물 전고체 20Ah 셀 시험 생산…2027년 소량 생산",
+   "nt": "catl황화물전고체20ah셀시험생산2027년소량생산",
+   "tk": [
+    "2027년",
+    "20ah",
+    "catl",
+    "생산",
+    "소량",
+    "시험",
+    "전고체",
+    "황화물"
+   ],
+   "nums": [
+    "2027년",
+    "500Wh"
+   ],
+   "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=710868"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL, 전고체 배터리 상용화 속도…2030년 대량 생산 추진",
+   "nt": "catl전고체배터리상용화속도2030년대량생산추진",
+   "tk": [
+    "2030년",
+    "catl",
+    "대량",
+    "배터리",
+    "상용화",
+    "생산",
+    "속도",
+    "전고체",
+    "추진"
+   ],
+   "nums": [
+    "2030년",
+    "500Wh"
+   ],
+   "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=710868"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL, 9MWh 'TENER+' ESS 호주 출시…히타치에너지와 PCS 협약",
+   "nt": "catl9mwhteneress호주출시히타치에너지와pcs협약",
+   "tk": [
+    "9mwh",
+    "catl",
+    "ess",
+    "pcs",
+    "tener",
+    "출시",
+    "협약",
+    "호주",
+    "히타치에너지와"
+   ],
+   "nums": [
+    "2026",
+    "9MWh"
+   ],
+   "url": "https://www.energy-storage.news/catl-holds-global-launch-for-9mwh-tener-bess-at-all-energy-australia-signs-pcs-agreement-with-hitachi-energy/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "CATL holds global launch for 9MWh TENER+ BESS at All-Energy Australia, signs PCS agreement with Hitachi Energy",
+   "nt": "catlholdsgloballaunchfor9mwhtenerbessata",
+   "tk": [
+    "9mwh",
+    "agreement",
+    "all",
+    "at",
+    "australia",
+    "bess",
+    "catl",
+    "energy",
+    "for",
+    "global",
+    "hitachi",
+    "holds",
+    "launch",
+    "pcs",
+    "signs",
+    "tener",
+    "with"
+   ],
+   "nums": [
+    "2026",
+    "9MWh"
+   ],
+   "url": "https://www.energy-storage.news/catl-holds-global-launch-for-9mwh-tener-bess-at-all-energy-australia-signs-pcs-agreement-with-hitachi-energy/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD 3분기 순이익 100.2억위안(+28%)…재고 연초 대비 60%↑",
+   "nt": "byd3분기순이익1002억위안28재고연초대비60",
+   "tk": [
+    "100",
+    "28",
+    "2억위안",
+    "3분기",
+    "60",
+    "byd",
+    "대비",
+    "순이익",
+    "연초",
+    "재고"
+   ],
+   "nums": [
+    "100.2억",
+    "28%",
+    "3개월",
+    "3분기",
+    "50만",
+    "60%"
+   ],
+   "url": "https://electrek.co/2026/10/29/byd-q3-2026-earnings-profit-exports-inventory/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD (BYDDY) Q3 profit jumps 28% on exports, but inventory balloons 60%",
+   "nt": "bydbyddyq3profitjumps28onexportsbutinven",
+   "tk": [
+    "28",
+    "60",
+    "balloons",
+    "but",
+    "byd",
+    "byddy",
+    "exports",
+    "inventory",
+    "jumps",
+    "on",
+    "profit",
+    "q3"
+   ],
+   "nums": [
+    "28%",
+    "3개월",
+    "50만",
+    "60%",
+    "Q3"
+   ],
+   "url": "https://electrek.co/2026/10/29/byd-q3-2026-earnings-profit-exports-inventory/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "Panasonic Energy",
+   "cat": "customer",
+   "group": "global",
+   "h": "파나소닉 에너지 2분기 영업익 556억엔…연간 전망 상향",
+   "nt": "파나소닉에너지2분기영업익556억엔연간전망상향",
+   "tk": [
+    "2분기",
+    "556억엔",
+    "상향",
+    "에너지",
+    "연간",
+    "영업익",
+    "전망",
+    "파나소닉"
+   ],
+   "nums": [
+    "12억",
+    "2분기",
+    "556억"
+   ],
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/panasonic-stock-gains-after-battery-profit-outlook-rises/70435339"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "Panasonic Energy",
+   "cat": "customer",
+   "group": "global",
+   "h": "Panasonic stock gains after battery profit outlook rises",
+   "nt": "panasonicstockgainsafterbatteryprofitout",
+   "tk": [
+    "after",
+    "battery",
+    "gains",
+    "outlook",
+    "panasonic",
+    "profit",
+    "rises",
+    "stock"
+   ],
+   "nums": [
+    "12억"
+   ],
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/panasonic-stock-gains-after-battery-profit-outlook-rises/70435339"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SVOLT",
+   "cat": "customer",
+   "group": "global",
+   "h": "SVOLT, 100kWh 반고체 배터리 양산품 첫 출하…900V·6C",
+   "nt": "svolt100kwh반고체배터리양산품첫출하900v6c",
+   "tk": [
+    "100kwh",
+    "6c",
+    "900v",
+    "svolt",
+    "반고체",
+    "배터리",
+    "양산품",
+    "출하"
+   ],
+   "nums": [
+    "100kWh"
+   ],
+   "url": "https://www.autotribune.co.kr/news/articleView.html?idxno=46955"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SVOLT",
+   "cat": "customer",
+   "group": "global",
+   "h": "\"전고체 기다리는 사이 양산부터\"... SVOLT, 100kWh 반고체 배터리 출하",
+   "nt": "전고체기다리는사이양산부터svolt100kwh반고체배터리출하",
+   "tk": [
+    "100kwh",
+    "svolt",
+    "기다리는",
+    "반고체",
+    "배터리",
+    "사이",
+    "양산부터",
+    "전고체",
+    "출하"
+   ],
+   "nums": [
+    "100kWh"
+   ],
+   "url": "https://www.autotribune.co.kr/news/articleView.html?idxno=46955"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "티로보틱스",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "티로보틱스 AMR·AGV, 美 전쟁부 조건부 승인 획득",
+   "nt": "티로보틱스amragv전쟁부조건부승인획득",
+   "tk": [
+    "agv",
+    "amr",
+    "승인",
+    "전쟁부",
+    "조건부",
+    "티로보틱스",
+    "획득"
+   ],
+   "nums": [],
+   "url": "https://m.etoday.co.kr/news/view/2639992?trc=main_list_news"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "티로보틱스",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "티로보틱스 AMR, 美 전쟁부 조건부 승인 획득…북미 공급 가속",
+   "nt": "티로보틱스amr전쟁부조건부승인획득북미공급가속",
+   "tk": [
+    "amr",
+    "가속",
+    "공급",
+    "북미",
+    "승인",
+    "전쟁부",
+    "조건부",
+    "티로보틱스",
+    "획득"
+   ],
+   "nums": [],
+   "url": "https://m.etoday.co.kr/news/view/2639992?trc=main_list_news"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "Yinghe",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "Yinghe, 전고체 핵심 장비 다수 고객 납품…습식·건식 병행",
+   "nt": "yinghe전고체핵심장비다수고객납품습식건식병행",
+   "tk": [
+    "yinghe",
+    "건식",
+    "고객",
+    "납품",
+    "다수",
+    "병행",
+    "습식",
+    "장비",
+    "전고체",
+    "핵심"
+   ],
+   "nums": [],
+   "url": "https://news.metal.com/newscontent/104186595-solid-state-battery-yinghe-technology-has-delivered-core-solid-state-battery-equipment-to-multiple-clients-with-dual-line-layout-for-wet-and-dry-processes"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "Yinghe",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "Solid-State Battery: Yinghe Technology Has Delivered Core Solid-State Battery Equipment to Multiple Clients, with Dual-L",
+   "nt": "solidstatebatteryyinghetechnologyhasdeli",
+   "tk": [
+    "and",
+    "battery",
+    "clients",
+    "core",
+    "delivered",
+    "dry",
+    "dual",
+    "equipment",
+    "for",
+    "has",
+    "layout",
+    "line",
+    "multiple",
+    "processes",
+    "solid",
+    "state",
+    "technology",
+    "to",
+    "wet",
+    "with",
+    "yinghe"
+   ],
+   "nums": [],
+   "url": "https://news.metal.com/newscontent/104186595-solid-state-battery-yinghe-technology-has-delivered-core-solid-state-battery-equipment-to-multiple-clients-with-dual-line-layout-for-wet-and-dry-processes"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "LEAD Intelligent",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "LEAD, 전고체용 수평형 온간등방압(WIP) 장비 공개…최대 600MPa",
+   "nt": "lead전고체용수평형온간등방압wip장비공개최대600mpa",
+   "tk": [
+    "600mpa",
+    "lead",
+    "wip",
+    "공개",
+    "수평형",
+    "온간등방압",
+    "장비",
+    "전고체용",
+    "최대"
+   ],
+   "nums": [
+    "2%"
+   ],
+   "url": "https://finance.yahoo.com/technology/articles/strengthening-foundation-mass-production-lead-053100395.html"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "LEAD Intelligent",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "Strengthening the Foundation for Mass Production: Lead Intelligent's Warm Isostatic Pressing Machine Accelerates Solid-S",
+   "nt": "strengtheningthefoundationformassproduct",
+   "tk": [
+    "accelerates",
+    "battery",
+    "for",
+    "foundation",
+    "industrialization",
+    "intelligent",
+    "isostatic",
+    "lead",
+    "machine",
+    "mass",
+    "pressing",
+    "production",
+    "solid",
+    "state",
+    "strengthening",
+    "the",
+    "warm"
+   ],
+   "nums": [
+    "2%"
+   ],
+   "url": "https://finance.yahoo.com/technology/articles/strengthening-foundation-mass-production-lead-053100395.html"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "SFA, 삼성전기에 MLCC 이어 유리기판 장비 공급 타진",
+   "nt": "sfa삼성전기에mlcc이어유리기판장비공급타진",
+   "tk": [
+    "mlcc",
+    "sfa",
+    "공급",
+    "삼성전기에",
+    "유리기판",
+    "이어",
+    "장비",
+    "타진"
+   ],
+   "nums": [
+    "400억"
+   ],
+   "url": "https://www.thebell.co.kr/front/newsview.asp?key=202610282320106480104463"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "SFA",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "이 기사는 2026년 10월 30일 11:00에 무료로 공개된 기사입니다.",
+   "nt": "이기사는2026년10월30일1100에무료로공개된기사입니다",
+   "tk": [
+    "00에",
+    "10월",
+    "11",
+    "2026년",
+    "30일",
+    "공개된",
+    "기사는",
+    "기사입니다",
+    "무료로"
+   ],
+   "nums": [
+    "10월30일",
+    "2026년",
+    "400억"
+   ],
+   "url": "https://www.thebell.co.kr/front/newsview.asp?key=202610282320106480104463"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "필에너지",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "필옵틱스, 삼성SDI 필에너지 풋옵션 누락…5개년 재무제표 정정",
+   "nt": "필옵틱스삼성sdi필에너지풋옵션누락5개년재무제표정정",
+   "tk": [
+    "5개년",
+    "누락",
+    "삼성sdi",
+    "재무제표",
+    "정정",
+    "풋옵션",
+    "필에너지",
+    "필옵틱스"
+   ],
+   "nums": [
+    "20%",
+    "2020",
+    "2020년",
+    "2024년",
+    "2025년",
+    "50억",
+    "5개",
+    "9월18일"
+   ],
+   "url": "https://www.bloter.net/news/articleView.html?idxno=677047"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "필에너지",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "[필옵틱스 5년치 정정의 의문]① 감사인 셋이 놓친 SDI 풋옵션 부채",
+   "nt": "필옵틱스5년치정정의의문감사인셋이놓친sdi풋옵션부채",
+   "tk": [
+    "5년치",
+    "sdi",
+    "감사인",
+    "놓친",
+    "부채",
+    "셋이",
+    "의문",
+    "정정의",
+    "풋옵션",
+    "필옵틱스"
+   ],
+   "nums": [
+    "20%",
+    "2020",
+    "2020년",
+    "2024년",
+    "2025년",
+    "50억",
+    "5년",
+    "9월18일"
+   ],
+   "url": "https://www.bloter.net/news/articleView.html?idxno=677047"
   },
   {
    "date": "2026-11-02",
    "entity": "",
-   "cat": "market",
-   "group": "battery",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Solid Power, 황화물 전해질 연속생산 'MOBIUS' 라인 시운전…연 45t",
+   "nt": "solidpower황화물전해질연속생산mobius라인시운전연45t",
+   "tk": [
+    "45t",
+    "mobius",
+    "power",
+    "solid",
+    "라인",
+    "시운전",
+    "연속생산",
+    "전해질",
+    "황화물"
+   ],
+   "nums": [
+    "150%",
+    "4분기"
+   ],
+   "url": "https://news.metal.com/ko/newscontent/104186613-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-solid-power%EC%9D%98-%ED%99%A9%ED%99%94%EB%AC%BC-%EC%A0%84%ED%95%B4%EC%A7%88-%EC%97%B0%EC%86%8D-%EC%83%9D%EC%82%B0%EC%9D%84-%EC%9C%84%ED%95%9C-mobius-%ED%8C%8C%EC%9D%BC%EB%9F%BF-%EB%9D%BC%EC%9D%B8-%EA%B0%80%EB%8F%99-%EC%8B%9C%EC%9E%91-%EC%83%9D%EC%82%B0%EB%8A%A5%EB%A0%A5-150-%EC%A6%9D%EB%8C%80"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "[Solid-state battery: Solid Power’s MOBIUS pilot line for continuous production of sulphide electrolyte begins commissio",
+   "nt": "solidstatebatterysolidpowersmobiuspilotl",
+   "tk": [
+    "150",
+    "battery",
+    "begins",
+    "by",
+    "capacity",
+    "commissioning",
+    "continuous",
+    "electrolyte",
+    "for",
+    "increase",
+    "line",
+    "mobius",
+    "of",
+    "pilot",
+    "power",
+    "production",
+    "solid",
+    "state",
+    "sulphide",
+    "to"
+   ],
+   "nums": [
+    "150%",
+    "4분기"
+   ],
+   "url": "https://news.metal.com/ko/newscontent/104186613-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-solid-power%EC%9D%98-%ED%99%A9%ED%99%94%EB%AC%BC-%EC%A0%84%ED%95%B4%EC%A7%88-%EC%97%B0%EC%86%8D-%EC%83%9D%EC%82%B0%EC%9D%84-%EC%9C%84%ED%95%9C-mobius-%ED%8C%8C%EC%9D%BC%EB%9F%BF-%EB%9D%BC%EC%9D%B8-%EA%B0%80%EB%8F%99-%EC%8B%9C%EC%9E%91-%EC%83%9D%EC%82%B0%EB%8A%A5%EB%A0%A5-150-%EC%A6%9D%EB%8C%80"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "파라시스, 1세대 황화물 전고체 샘플 발송…60Ah 연말 출하",
+   "nt": "파라시스1세대황화물전고체샘플발송60ah연말출하",
+   "tk": [
+    "1세대",
+    "60ah",
+    "발송",
+    "샘플",
+    "연말",
+    "전고체",
+    "출하",
+    "파라시스",
+    "황화물"
+   ],
+   "nums": [],
+   "url": "https://news.metal.com/ko/newscontent/104188825-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%ED%8C%8C%EB%9D%BC%EC%8B%9C%EC%8A%A4-%EC%97%90%EB%84%88%EC%A7%80%EC%9D%98-1%EC%84%B8%EB%8C%80-%ED%99%A9%ED%99%94%EB%AC%BC%EA%B3%84-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC%EA%B0%80-%EC%83%98%ED%94%8C%EB%A7%81%EB%90%98%EC%97%88%EC%9C%BC%EB%A9%B0-2%EC%84%B8%EB%8C%80%EB%8A%94-%EA%B8%B0%EC%88%A0-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%99%84%EB%A3%8C%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "[Solid-state battery: Farasis Energy's first-generation sulphide all-solid-state battery has been sampled, and the secon",
+   "nt": "solidstatebatteryfarasisenergysfirstgene",
+   "tk": [
+    "all",
+    "and",
+    "battery",
+    "been",
+    "completed",
+    "development",
+    "energy",
+    "farasis",
+    "first",
+    "generation",
+    "has",
+    "sampled",
+    "second",
+    "solid",
+    "state",
+    "sulphide",
+    "technology",
+    "the"
+   ],
+   "nums": [],
+   "url": "https://news.metal.com/ko/newscontent/104188825-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%ED%8C%8C%EB%9D%BC%EC%8B%9C%EC%8A%A4-%EC%97%90%EB%84%88%EC%A7%80%EC%9D%98-1%EC%84%B8%EB%8C%80-%ED%99%A9%ED%99%94%EB%AC%BC%EA%B3%84-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC%EA%B0%80-%EC%83%98%ED%94%8C%EB%A7%81%EB%90%98%EC%97%88%EC%9C%BC%EB%A9%B0-2%EC%84%B8%EB%8C%80%EB%8A%94-%EA%B8%B0%EC%88%A0-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%99%84%EB%A3%8C%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "샤오펑, 휴머노이드 IRON 전용 전고체 배터리 소량 생산",
+   "nt": "샤오펑휴머노이드iron전용전고체배터리소량생산",
+   "tk": [
+    "iron",
+    "배터리",
+    "생산",
+    "샤오펑",
+    "소량",
+    "전고체",
+    "전용",
+    "휴머노이드"
+   ],
+   "nums": [],
+   "url": "https://www.energytrend.com/news/20261029-52408.html"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "XPENG Begins Small-Batch Production of Dedicated Solid-State Batteries for Humanoid Robots",
+   "nt": "xpengbeginssmallbatchproductionofdedicat",
+   "tk": [
+    "batch",
+    "batteries",
+    "begins",
+    "dedicated",
+    "for",
+    "humanoid",
+    "of",
+    "production",
+    "robots",
+    "small",
+    "solid",
+    "state",
+    "xpeng"
+   ],
+   "nums": [],
+   "url": "https://www.energytrend.com/news/20261029-52408.html"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "선우다 전고체, 고객 샘플 테스트 진행 중",
+   "nt": "선우다전고체고객샘플테스트진행중",
+   "tk": [
+    "고객",
+    "샘플",
+    "선우다",
+    "전고체",
+    "진행",
+    "테스트"
+   ],
+   "nums": [
+    "1GWh",
+    "2024년",
+    "2026년"
+   ],
+   "url": "https://xenospectrum.com/en/sunwoda-solid-state-battery-sample/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Sunwoda's Solid-State Battery Still in Customer Sample Testing, Putting 2026 Mass-Production Goal in Doubt",
+   "nt": "sunwodassolidstatebatterystillincustomer",
+   "tk": [
+    "2026",
+    "battery",
+    "customer",
+    "doubt",
+    "goal",
+    "in",
+    "mass",
+    "production",
+    "putting",
+    "sample",
+    "solid",
+    "state",
+    "still",
+    "sunwoda",
+    "testing"
+   ],
+   "nums": [
+    "1GWh",
+    "2024년",
+    "2026",
+    "2026년"
+   ],
+   "url": "https://xenospectrum.com/en/sunwoda-solid-state-battery-sample/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "호남 반도체 국가산단 환경평가 1년→6개월…이르면 내년 3월 착공",
+   "nt": "호남반도체국가산단환경평가1년6개월이르면내년3월착공",
+   "tk": [
+    "1년",
+    "3월",
+    "6개월",
+    "국가산단",
+    "내년",
+    "반도체",
+    "이르면",
+    "착공",
+    "호남",
+    "환경평가"
+   ],
+   "nums": [
+    "1년",
+    "6개월"
+   ],
+   "url": "https://www.mk.co.kr/news/economy/12192938"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "광주 반도체팹 속도 … 환경평가 기간 절반 단축",
+   "nt": "광주반도체팹속도환경평가기간절반단축",
+   "tk": [
+    "광주",
+    "기간",
+    "단축",
+    "반도체팹",
+    "속도",
+    "절반",
+    "환경평가"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12192938"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "경북도, 구미에 BaaS 시험실증센터 준공…이차전지 실증 거점",
+   "nt": "경북도구미에baas시험실증센터준공이차전지실증거점",
+   "tk": [
+    "baas",
+    "거점",
+    "경북도",
+    "구미에",
+    "시험실증센터",
+    "실증",
+    "이차전지",
+    "준공"
+   ],
+   "nums": [
+    "23조"
+   ],
+   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4/%EA%B2%BD%EB%B6%81%EB%8F%84-%EA%B5%AC%EB%AF%B8%EC%97%90-%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80-%EC%8B%A4%EC%A6%9D-%EA%B1%B0%EC%A0%90-%EA%B5%AC%EC%B6%95-23%EC%A1%B0-5%EC%B2%9C%EC%96%B5-%EC%B2%A8%EB%8B%A8%EC%82%B0%EC%97%85-%ED%88%AC%EC%9E%90-%ED%99%9C%EC%84%B1%ED%99%94-%EB%82%A0%EA%B0%9C/ar-AA2gdZIv"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
    "h": "경북도, 구미에 이차전지 실증 거점 구축… 23조 5천억 첨단산업 투자 활성화 날개",
    "nt": "경북도구미에이차전지실증거점구축23조5천억첨단산업투자활성화날개",
    "tk": [
@@ -9842,185 +11025,163 @@
   },
   {
    "date": "2026-11-02",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "[삼성SDI] 삼성SDI, ESS 60GWh 수주에 영업이익 4,078억…2028년까지 성장 이어질까?(2026년_2Q)",
-   "nt": "삼성sdi삼성sdiess60gwh수주에영업이익4078억2028년까지성장이",
-   "tk": [
-    "078억",
-    "2026년",
-    "2028년까지",
-    "2q",
-    "60gwh",
-    "ess",
-    "삼성sdi",
-    "성장",
-    "수주에",
-    "영업이익",
-    "이어질까"
-   ],
-   "nums": [
-    "2026년",
-    "2028년",
-    "4,078억",
-    "60GWh"
-   ],
-   "url": "https://contents.premium.naver.com/bilanxlyc/curiousir/contents/261030164242578iz"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "삼성SDI 3분기 영업익 4,078억원으로 흑자전환…2028년까지 수주 확보",
-   "nt": "삼성sdi3분기영업익4078억원으로흑자전환2028년까지수주확보",
-   "tk": [
-    "078억원으로",
-    "2028년까지",
-    "3분기",
-    "삼성sdi",
-    "수주",
-    "영업익",
-    "확보",
-    "흑자전환"
-   ],
-   "nums": [
-    "2028년",
-    "3분기",
-    "4,078억"
-   ],
-   "url": "https://www.yonhapnewstv.co.kr/news/AKR20261029090709mQY"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "SK이노베이션 정유·윤활유로 3분기 영업이익 3.7조 역대 최대 : 자회사 SK온은 ESS에서 추가 수주 나선다",
-   "nt": "sk이노베이션정유윤활유로3분기영업이익37조역대최대자회사sk온은ess에서추",
-   "tk": [
-    "3분기",
-    "7조",
-    "ess에서",
-    "sk온은",
-    "sk이노베이션",
-    "나선다",
-    "수주",
-    "역대",
-    "영업이익",
-    "윤활유로",
-    "자회사",
-    "정유",
-    "최대",
-    "추가"
-   ],
-   "nums": [
-    "3.7조",
-    "3분기"
-   ],
-   "url": "https://www.huffingtonpost.kr/article/261640"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "삼성SDI, 3분기 영업이익 4078억원…미국 ESS 수주 확대 효과",
-   "nt": "삼성sdi3분기영업이익4078억원미국ess수주확대효과",
-   "tk": [
-    "3분기",
-    "4078억원",
-    "ess",
-    "미국",
-    "삼성sdi",
-    "수주",
-    "영업이익",
-    "확대",
-    "효과"
-   ],
-   "nums": [
-    "3분기",
-    "4078억"
-   ],
-   "url": "https://www.ngetnews.com/news/articleView.html?idxno=555263"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG화학, 2.5조 규모 LG에너지솔루션 지분 매각…\"재무구조 개선·미래 사업 투자\"",
-   "nt": "lg화학25조규모lg에너지솔루션지분매각재무구조개선미래사업투자",
-   "tk": [
-    "5조",
-    "lg에너지솔루션",
-    "lg화학",
-    "개선",
-    "규모",
-    "매각",
-    "미래",
-    "사업",
-    "재무구조",
-    "지분",
-    "투자"
-   ],
-   "nums": [
-    "2.5조",
-    "2조",
-    "5000억"
-   ],
-   "url": "https://www.fnnews.com/news/202610281650293225"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG화학, LG엔솔 지분 2.5조 추가 유동화…PRS 계약 체결",
-   "nt": "lg화학lg엔솔지분25조추가유동화prs계약체결",
-   "tk": [
-    "5조",
-    "lg엔솔",
-    "lg화학",
-    "prs",
-    "계약",
-    "유동화",
-    "지분",
-    "체결",
-    "추가"
-   ],
-   "nums": [
-    "2.5조",
-    "2030년",
-    "2조",
-    "4.5조",
-    "70%",
-    "76.59%"
-   ],
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/28/2026102880148.html"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "SK온",
-   "cat": "project",
+   "entity": "",
+   "cat": "tech_policy",
    "group": "all",
-   "h": "SK온, ESS 3차 입찰 도전…수주 경쟁력과 과제는",
-   "nt": "sk온ess3차입찰도전수주경쟁력과과제는",
+   "h": "日 다카이치 총리 EV 보조금 삭감 검토…경제산업성 반대",
+   "nt": "다카이치총리ev보조금삭감검토경제산업성반대",
    "tk": [
-    "3차",
-    "ess",
-    "sk온",
-    "경쟁력과",
-    "과제는",
-    "도전",
-    "수주",
-    "입찰"
+    "ev",
+    "검토",
+    "경제산업성",
+    "다카이치",
+    "반대",
+    "보조금",
+    "삭감",
+    "총리"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/money/%EA%B2%BD%EC%A0%9C/%EC%9D%BC%EB%B3%B8-%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98-%EC%B4%9D%EB%A6%AC-%EC%A0%84%EA%B8%B0%EC%B0%A8-%EB%B3%B4%EC%A1%B0%EA%B8%88-%EC%82%AD%EA%B0%90-%EA%B3%84%ED%9A%8D-%EA%B2%BD%EC%A0%9C%EC%82%B0%EC%97%85%EC%84%B1-%EB%B0%98%EB%8C%80-%EB%B6%80%EB%94%AA%ED%98%80-%EB%82%B4%EC%88%98-%EC%B0%BD%EC%B6%9C-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%8B%9C%EA%B8%B0%EC%83%81%EC%A1%B0/ar-AA2gcIE2"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "일본 다카이치 총리 전기차 보조금 삭감 계획 경제산업성 반대 부딪혀: \"내수 창출 단계에서 시기상조\"",
+   "nt": "일본다카이치총리전기차보조금삭감계획경제산업성반대부딪혀내수창출단계에서시기상조",
+   "tk": [
+    "경제산업성",
+    "계획",
+    "내수",
+    "다카이치",
+    "단계에서",
+    "반대",
+    "보조금",
+    "부딪혀",
+    "삭감",
+    "시기상조",
+    "일본",
+    "전기차",
+    "창출",
+    "총리"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/money/%EA%B2%BD%EC%A0%9C/%EC%9D%BC%EB%B3%B8-%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98-%EC%B4%9D%EB%A6%AC-%EC%A0%84%EA%B8%B0%EC%B0%A8-%EB%B3%B4%EC%A1%B0%EA%B8%88-%EC%82%AD%EA%B0%90-%EA%B3%84%ED%9A%8D-%EA%B2%BD%EC%A0%9C%EC%82%B0%EC%97%85%EC%84%B1-%EB%B0%98%EB%8C%80-%EB%B6%80%EB%94%AA%ED%98%80-%EB%82%B4%EC%88%98-%EC%B0%BD%EC%B6%9C-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%8B%9C%EA%B8%B0%EC%83%81%EC%A1%B0/ar-AA2gcIE2"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "포르투갈, 저소득층 EV 구매 최대 80% 보조 검토…약 2만대",
+   "nt": "포르투갈저소득층ev구매최대80보조검토약2만대",
+   "tk": [
+    "2만대",
+    "80",
+    "ev",
+    "검토",
+    "구매",
+    "보조",
+    "저소득층",
+    "최대",
+    "포르투갈"
    ],
    "nums": [
-    "2조"
+    "2만",
+    "80%"
    ],
-   "url": "http://www.srtimes.kr/news/articleView.html?idxno=215880"
+   "url": "https://www.electrive.com/2026/10/29/portugal-considers-80-per-cent-ev-purchase-subsidies/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "Portugal considers 80 per cent EV purchase subsidies",
+   "nt": "portugalconsiders80percentevpurchasesubs",
+   "tk": [
+    "80",
+    "cent",
+    "considers",
+    "ev",
+    "per",
+    "portugal",
+    "purchase",
+    "subsidies"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/29/portugal-considers-80-per-cent-ev-purchase-subsidies/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "배터리 3사 3Q: LG엔솔 영업익 7560억·SDI 전분기 2배·SK온 적자",
+   "nt": "배터리3사3qlg엔솔영업익7560억sdi전분기2배sk온적자",
+   "tk": [
+    "2배",
+    "3q",
+    "3사",
+    "7560억",
+    "lg엔솔",
+    "sdi",
+    "sk온",
+    "배터리",
+    "영업익",
+    "적자",
+    "전분기"
+   ],
+   "nums": [
+    "2배",
+    "7560억"
+   ],
+   "url": "https://news.mtn.co.kr/article/2026102917550016350"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "ESS가 가른 배터리 3사 실적…삼성·LG 개선, SK는 적자",
+   "nt": "ess가가른배터리3사실적삼성lg개선sk는적자",
+   "tk": [
+    "3사",
+    "ess가",
+    "lg",
+    "sk는",
+    "가른",
+    "개선",
+    "배터리",
+    "삼성",
+    "실적",
+    "적자"
+   ],
+   "nums": [],
+   "url": "https://news.mtn.co.kr/article/2026102917550016350"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "파키스탄 MHIL, 中 파트너와 22.5억달러 리튬이온 공장 추진",
+   "nt": "파키스탄mhil파트너와225억달러리튬이온공장추진",
+   "tk": [
+    "22",
+    "5억달러",
+    "mhil",
+    "공장",
+    "리튬이온",
+    "추진",
+    "파키스탄",
+    "파트너와"
+   ],
+   "nums": [
+    "22.5억"
+   ],
+   "url": "https://www.thenews.pk/print/1445232-govt-plans-2-25bn-battery-gigafactory-as-demand-projected-to-hit-100-000mw-in-four-years"
   },
   {
    "date": "2026-11-02",
@@ -10056,40 +11217,99 @@
    "entity": "",
    "cat": "market",
    "group": "battery",
-   "h": "'전력망 특수' 올라탄 배터리 3사, 본업 반등 속 성적표 희비",
-   "nt": "전력망특수올라탄배터리3사본업반등속성적표희비",
+   "h": "GAC 배터리 자회사 Inpow, 태국 촌부리 공장 생산 개시",
+   "nt": "gac배터리자회사inpow태국촌부리공장생산개시",
    "tk": [
-    "3사",
-    "반등",
+    "gac",
+    "inpow",
+    "개시",
+    "공장",
     "배터리",
-    "본업",
-    "성적표",
-    "올라탄",
-    "전력망",
-    "특수",
-    "희비"
+    "생산",
+    "자회사",
+    "촌부리",
+    "태국"
    ],
    "nums": [],
-   "url": "https://news.bizwatch.co.kr/article/industry/2026/10/30/0031"
+   "url": "https://www.electrive.com/2026/10/31/gac-launches-battery-production-in-thailand/"
   },
   {
    "date": "2026-11-02",
    "entity": "",
    "cat": "market",
-   "group": "semi",
-   "h": "[기획/경제] ⑲ AI 반도체 성장, 한국의 몫은?",
-   "nt": "기획경제ai반도체성장한국의몫은",
+   "group": "battery",
+   "h": "GAC launches battery production in Thailand",
+   "nt": "gaclaunchesbatteryproductioninthailand",
    "tk": [
-    "ai",
-    "경제",
-    "기획",
-    "몫은",
-    "반도체",
-    "성장",
-    "한국의"
+    "battery",
+    "gac",
+    "in",
+    "launches",
+    "production",
+    "thailand"
    ],
    "nums": [],
-   "url": "https://www.efn.co.kr/news/articleView.html?idxno=3189"
+   "url": "https://www.electrive.com/2026/10/31/gac-launches-battery-production-in-thailand/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Group14, 스페인 사군토에 실리콘 음극재 공장 건설",
+   "nt": "group14스페인사군토에실리콘음극재공장건설",
+   "tk": [
+    "group14",
+    "건설",
+    "공장",
+    "사군토에",
+    "스페인",
+    "실리콘",
+    "음극재"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/30/group14-to-build-battery-material-factory-in-sagunt/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Group14 to build battery material factory in Sagunt",
+   "nt": "group14tobuildbatterymaterialfactoryinsa",
+   "tk": [
+    "battery",
+    "build",
+    "factory",
+    "group14",
+    "in",
+    "material",
+    "sagunt",
+    "to"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/30/group14-to-build-battery-material-factory-in-sagunt/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "코발트 가격 두 달 새 40% 이상 하락…中 LFP 확산",
+   "nt": "코발트가격두달새40이상하락lfp확산",
+   "tk": [
+    "40",
+    "lfp",
+    "가격",
+    "이상",
+    "코발트",
+    "하락",
+    "확산"
+   ],
+   "nums": [
+    "40%"
+   ],
+   "url": "https://www.msn.com/ko-kr/news/other/%E4%B8%AD-lfp-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%9C%A8%EC%9E%90-%EC%82%BC%EC%9B%90%EA%B3%84%EC%9A%A9-%EC%BD%94%EB%B0%9C%ED%8A%B8%EA%B0%92-%EB%9A%9D/ar-AA2gw7KQ"
   },
   {
    "date": "2026-11-02",
@@ -10105,9 +11325,7 @@
     "삼원계용",
     "코발트값"
    ],
-   "nums": [
-    "40%"
-   ],
+   "nums": [],
    "url": "https://www.msn.com/ko-kr/news/other/%E4%B8%AD-lfp-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EB%9C%A8%EC%9E%90-%EC%82%BC%EC%9B%90%EA%B3%84%EC%9A%A9-%EC%BD%94%EB%B0%9C%ED%8A%B8%EA%B0%92-%EB%9A%9D/ar-AA2gw7KQ"
   },
   {
@@ -10115,776 +11333,357 @@
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "삼성전자 창사 첫 2개 창립기념사…최대실적 속 '원삼성' 물음표",
-   "nt": "삼성전자창사첫2개창립기념사최대실적속원삼성물음표",
+   "h": "삼성전자 올해 설비투자 85조…역대 최대, 평택5공장 가동 앞당겨",
+   "nt": "삼성전자올해설비투자85조역대최대평택5공장가동앞당겨",
    "tk": [
-    "2개",
-    "물음표",
+    "85조",
+    "가동",
     "삼성전자",
-    "원삼성",
-    "창립기념사",
-    "창사",
-    "최대실적"
+    "설비투자",
+    "앞당겨",
+    "역대",
+    "올해",
+    "최대",
+    "평택5공장"
    ],
    "nums": [
-    "2개"
+    "2024년",
+    "2028년",
+    "54조",
+    "85조"
    ],
-   "url": "https://www.yna.co.kr/view/AKR20261031028400003"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "전기차 충전기 만들고 충전소도 운영…채비, 2년 연속 20%대 성장 전망",
-   "nt": "전기차충전기만들고충전소도운영채비2년연속20대성장전망",
-   "tk": [
-    "20",
-    "2년",
-    "만들고",
-    "성장",
-    "연속",
-    "운영",
-    "전기차",
-    "전망",
-    "채비",
-    "충전기",
-    "충전소도"
-   ],
-   "nums": [
-    "20%",
-    "2년"
-   ],
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500222"
+   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EC%84%A4%EB%B9%84%ED%88%AC%EC%9E%90-85%EC%A1%B0-%EC%8A%B9%EB%B6%80%EC%88%98-%EC%97%AD%EB%8C%80%EC%B5%9C%EB%8C%80-%ED%88%AC%EC%9E%90%EB%A1%9C-%EB%B0%98%EB%8F%84%EC%B2%B4-%ED%98%B8%ED%99%A9%EB%8C%80%EC%9D%91/ar-AA2gjr6G"
   },
   {
    "date": "2026-11-02",
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "“‘반도체 업황 연동’ 보안株라 불러주세요”…36% 반등한 한화비전 [이주의 Bull기둥]",
-   "nt": "반도체업황연동보안라불러주세요36반등한한화비전이주의bull기둥",
+   "h": "삼성전자, 설비투자 85조 승부수…역대최대 투자로 반도체 호황대응",
+   "nt": "삼성전자설비투자85조승부수역대최대투자로반도체호황대응",
    "tk": [
-    "36",
-    "bull기둥",
+    "85조",
     "반도체",
-    "반등한",
-    "보안",
-    "불러주세요",
-    "업황",
-    "연동",
-    "이주의",
-    "한화비전"
+    "삼성전자",
+    "설비투자",
+    "승부수",
+    "역대최대",
+    "투자로",
+    "호황대응"
    ],
    "nums": [
-    "30%",
-    "36%",
-    "3분기"
+    "2024년",
+    "2028년",
+    "54조",
+    "85조"
    ],
-   "url": "https://www.mk.co.kr/news/stock/12192400"
+   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EC%84%A4%EB%B9%84%ED%88%AC%EC%9E%90-85%EC%A1%B0-%EC%8A%B9%EB%B6%80%EC%88%98-%EC%97%AD%EB%8C%80%EC%B5%9C%EB%8C%80-%ED%88%AC%EC%9E%90%EB%A1%9C-%EB%B0%98%EB%8F%84%EC%B2%B4-%ED%98%B8%ED%99%A9%EB%8C%80%EC%9D%91/ar-AA2gjr6G"
   },
   {
    "date": "2026-11-02",
    "entity": "",
    "cat": "market",
    "group": "semi",
-   "h": "샘 올트먼, 삼성전자·SK하이닉스 동시 접촉…HBM 공급 확대될까, AI 반도체 전망은",
-   "nt": "샘올트먼삼성전자sk하이닉스동시접촉hbm공급확대될까ai반도체전망은",
+   "h": "삼성 내년 HBM 완판·SK하이닉스 2029년까지 D램·HBM 장기계약",
+   "nt": "삼성내년hbm완판sk하이닉스2029년까지d램hbm장기계약",
    "tk": [
-    "ai",
+    "2029년까지",
+    "d램",
     "hbm",
     "sk하이닉스",
-    "공급",
-    "동시",
-    "반도체",
-    "삼성전자",
-    "올트먼",
-    "전망은",
-    "접촉",
-    "확대될까"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/news/other/%EC%83%98-%EC%98%AC%ED%8A%B8%EB%A8%BC-%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-sk%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4-%EB%8F%99%EC%8B%9C-%EC%A0%91%EC%B4%89-hbm-%EA%B3%B5%EA%B8%89-%ED%99%95%EB%8C%80%EB%90%A0%EA%B9%8C-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A0%84%EB%A7%9D%EC%9D%80/ar-AA2gt8Ri"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "AC 측 통합 ESS 솔루션 중심으로 사업 전환…전력변환·시스템 통합 등 부가가치 확대",
-   "nt": "ac측통합ess솔루션중심으로사업전환전력변환시스템통합등부가가치확대",
-   "tk": [
-    "ac",
-    "ess",
-    "부가가치",
-    "사업",
-    "솔루션",
-    "시스템",
-    "전력변환",
-    "전환",
-    "중심으로",
-    "통합",
-    "확대"
-   ],
-   "nums": [],
-   "url": "https://www.theguru.co.kr/news/article.html?no=108888"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Miele orders 840 electric transporters from Volkswagen Commercial Vehicles",
-   "nt": "mieleorders840electrictransportersfromvo",
-   "tk": [
-    "840",
-    "commercial",
-    "electric",
-    "from",
-    "miele",
-    "orders",
-    "transporters",
-    "vehicles",
-    "volkswagen"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/30/miele-orders-840-electric-transporters-from-volkswagen-commercial-vehicles/"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "정유 마진·ESS 수요가 끌어올린 실적…연5%대 최대 4배까지",
-   "nt": "정유마진ess수요가끌어올린실적연5대최대4배까지",
-   "tk": [
-    "4배까지",
-    "ess",
-    "끌어올린",
-    "마진",
-    "수요가",
-    "실적",
-    "연5",
-    "정유",
-    "최대"
+    "내년",
+    "삼성",
+    "완판",
+    "장기계약"
    ],
    "nums": [
-    "4배",
-    "5%"
+    "2029년"
    ],
-   "url": "https://www.sedaily.com/article/20107764"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "포스코퓨처엠, K배터리 3사 모두 잡았다…LFP·인조흑연 공급 확대",
-   "nt": "포스코퓨처엠k배터리3사모두잡았다lfp인조흑연공급확대",
-   "tk": [
-    "3사",
-    "k배터리",
-    "lfp",
-    "공급",
-    "모두",
-    "인조흑연",
-    "잡았다",
-    "포스코퓨처엠",
-    "확대"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/%EA%B8%B0%EC%88%A0/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4/%ED%8F%AC%EC%8A%A4%EC%BD%94%ED%93%A8%EC%B2%98%EC%97%A0-k%EB%B0%B0%ED%84%B0%EB%A6%AC-3%EC%82%AC-%EB%AA%A8%EB%91%90-%EC%9E%A1%EC%95%98%EB%8B%A4-lfp-%EC%9D%B8%EC%A1%B0%ED%9D%91%EC%97%B0-%EA%B3%B5%EA%B8%89-%ED%99%95%EB%8C%80/ar-AA2godF9"
+   "url": "https://www.thebigdata.co.kr/view.php?ud=2026103014083028260ecbf9426b_23"
   },
   {
    "date": "2026-11-02",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "10월 전고체 배터리 산업 동향: 저조한 흐름 속 역량 강화, 실속과 허상 구분 [SMM 분석]",
-   "nt": "10월전고체배터리산업동향저조한흐름속역량강화실속과허상구분smm분석",
+   "cat": "market",
+   "group": "semi",
+   "h": "삼성 HBM 내년 물량 완판…SK도 2년치 생산능력 절반 계약",
+   "nt": "삼성hbm내년물량완판sk도2년치생산능력절반계약",
    "tk": [
-    "10월",
-    "smm",
-    "강화",
-    "구분",
-    "동향",
-    "배터리",
-    "분석",
-    "산업",
-    "실속과",
-    "역량",
-    "저조한",
-    "전고체",
-    "허상",
-    "흐름"
+    "2년치",
+    "hbm",
+    "sk도",
+    "계약",
+    "내년",
+    "물량",
+    "삼성",
+    "생산능력",
+    "완판",
+    "절반"
    ],
-   "nums": [],
-   "url": "https://news.metal.com/ko/newscontent/104189012-10%EC%9B%94-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85-%EB%8F%99%ED%96%A5-%EC%A0%80%EC%A1%B0%ED%95%9C-%ED%9D%90%EB%A6%84-%EC%86%8D-%EC%97%AD%EB%9F%89-%EA%B0%95%ED%99%94-%EC%8B%A4%EC%86%8D%EA%B3%BC-%ED%97%88%EC%83%81-%EA%B5%AC%EB%B6%84-smm-%EB%B6%84%EC%84%9D"
+   "nums": [
+    "2년"
+   ],
+   "url": "https://www.thebigdata.co.kr/view.php?ud=2026103014083028260ecbf9426b_23"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "한미반도체 3Q 영업이익률 50.2%…대만에 2.5D 패키징 장비 공급",
+   "nt": "한미반도체3q영업이익률502대만에25d패키징장비공급",
+   "tk": [
+    "3q",
+    "50",
+    "5d",
+    "공급",
+    "대만에",
+    "영업이익률",
+    "장비",
+    "패키징",
+    "한미반도체"
+   ],
+   "nums": [
+    "1810억",
+    "33.9%",
+    "50.2%",
+    "8.9%",
+    "908억"
+   ],
+   "url": "https://www.mt.co.kr/industry/2026/10/30/2026103010252581828"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "영업이익률 50% 찍은 한미반도체…HBM 넘어 패키징 영토 확장 - 머니투데이",
+   "nt": "영업이익률50찍은한미반도체hbm넘어패키징영토확장머니투데이",
+   "tk": [
+    "50",
+    "hbm",
+    "넘어",
+    "머니투데이",
+    "영업이익률",
+    "영토",
+    "찍은",
+    "패키징",
+    "한미반도체",
+    "확장"
+   ],
+   "nums": [
+    "1810억",
+    "33.9%",
+    "50%",
+    "8.9%",
+    "908억"
+   ],
+   "url": "https://www.mt.co.kr/industry/2026/10/30/2026103010252581828"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "이재용, 요코하마 첨단 패키징 연구거점(APL) 점검…日 소부장 협력",
+   "nt": "이재용요코하마첨단패키징연구거점apl점검소부장협력",
+   "tk": [
+    "apl",
+    "소부장",
+    "연구거점",
+    "요코하마",
+    "이재용",
+    "점검",
+    "첨단",
+    "패키징",
+    "협력"
+   ],
+   "nums": [
+    "2024년",
+    "400억",
+    "5년",
+    "9월8일"
+   ],
+   "url": "https://www.etnews.com/20261101000090"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "日 APL 찾은 이재용, AI승부처 '첨단 패키징' 챙겼다…소부장 협력 논의",
+   "nt": "apl찾은이재용ai승부처첨단패키징챙겼다소부장협력논의",
+   "tk": [
+    "ai승부처",
+    "apl",
+    "논의",
+    "소부장",
+    "이재용",
+    "찾은",
+    "챙겼다",
+    "첨단",
+    "패키징",
+    "협력"
+   ],
+   "nums": [
+    "2024년",
+    "400억",
+    "5년",
+    "9월8일"
+   ],
+   "url": "https://www.etnews.com/20261101000090"
   },
   {
    "date": "2026-11-02",
    "entity": "",
    "cat": "market",
    "group": "ev",
-   "h": "[모빌리티 인사이트] 벤츠도 '중국발 쇼크' 전기차 호조에도 수익성 하락 전망",
-   "nt": "모빌리티인사이트벤츠도중국발쇼크전기차호조에도수익성하락전망",
+   "h": "빈그룹, 필리핀에 5억달러 EV 공장 건설",
+   "nt": "빈그룹필리핀에5억달러ev공장건설",
    "tk": [
-    "모빌리티",
-    "벤츠도",
-    "쇼크",
-    "수익성",
-    "인사이트",
-    "전기차",
-    "전망",
-    "중국발",
-    "하락",
-    "호조에도"
+    "5억달러",
+    "ev",
+    "건설",
+    "공장",
+    "빈그룹",
+    "필리핀에"
    ],
-   "nums": [],
-   "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=62034"
+   "nums": [
+    "5억"
+   ],
+   "url": "https://www.electrive.com/2026/10/30/vingroup-to-build-a-e449-million-ev-plant-in-the-philippines/"
   },
   {
    "date": "2026-11-02",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "[Solid-state battery: Solid Power’s MOBIUS pilot line for continuous production of sulphide electrolyte begins commissio",
-   "nt": "solidstatebatterysolidpowersmobiuspilotl",
+   "cat": "market",
+   "group": "ev",
+   "h": "Vingroup to build a €449-million EV plant in the Philippines",
+   "nt": "vingrouptobuilda449millionevplantintheph",
    "tk": [
-    "150",
+    "449",
+    "build",
+    "ev",
+    "in",
+    "million",
+    "philippines",
+    "plant",
+    "the",
+    "to",
+    "vingroup"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/30/vingroup-to-build-a-e449-million-ev-plant-in-the-philippines/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "유럽 1~9월 전기트럭 판매 50%↑·전기버스 38%↑(ACEA)",
+   "nt": "유럽19월전기트럭판매50전기버스38acea",
+   "tk": [
+    "38",
+    "50",
+    "9월",
+    "acea",
+    "유럽",
+    "전기버스",
+    "전기트럭",
+    "판매"
+   ],
+   "nums": [
+    "38%",
+    "50%"
+   ],
+   "url": "https://www.electrive.com/2026/10/29/battery-electric-trucks-gain-ground-in-key-markets-electric-buses-near-ubiquitous/"
+  },
+  {
+   "date": "2026-11-02",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "Battery-electric trucks gain ground in key markets; electric buses near-ubiquitous",
+   "nt": "batteryelectrictrucksgaingroundinkeymark",
+   "tk": [
     "battery",
-    "begins",
-    "by",
-    "capacity",
-    "commissioning",
-    "continuous",
-    "electrolyte",
-    "for",
-    "increase",
-    "line",
-    "mobius",
-    "of",
-    "pilot",
-    "power",
-    "production",
-    "solid",
-    "state",
-    "sulphide",
-    "to"
+    "buses",
+    "electric",
+    "gain",
+    "ground",
+    "in",
+    "key",
+    "markets",
+    "near",
+    "trucks",
+    "ubiquitous"
    ],
-   "nums": [
-    "10월26일",
-    "150%",
-    "2026년"
-   ],
-   "url": "https://news.metal.com/ko/newscontent/104186613-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%B0%B0%ED%84%B0%EB%A6%AC-solid-power%EC%9D%98-%ED%99%A9%ED%99%94%EB%AC%BC-%EC%A0%84%ED%95%B4%EC%A7%88-%EC%97%B0%EC%86%8D-%EC%83%9D%EC%82%B0%EC%9D%84-%EC%9C%84%ED%95%9C-mobius-%ED%8C%8C%EC%9D%BC%EB%9F%BF-%EB%9D%BC%EC%9D%B8-%EA%B0%80%EB%8F%99-%EC%8B%9C%EC%9E%91-%EC%83%9D%EC%82%B0%EB%8A%A5%EB%A0%A5-150-%EC%A6%9D%EB%8C%80"
+   "nums": [],
+   "url": "https://www.electrive.com/2026/10/29/battery-electric-trucks-gain-ground-in-key-markets-electric-buses-near-ubiquitous/"
   },
   {
    "date": "2026-11-02",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "일본 다카이치 총리 전기차 보조금 삭감 계획 경제산업성 반대 부딪혀: \"내수 창출 단계에서 시기상조\"",
-   "nt": "일본다카이치총리전기차보조금삭감계획경제산업성반대부딪혀내수창출단계에서시기상조",
-   "tk": [
-    "경제산업성",
-    "계획",
-    "내수",
-    "다카이치",
-    "단계에서",
-    "반대",
-    "보조금",
-    "부딪혀",
-    "삭감",
-    "시기상조",
-    "일본",
-    "전기차",
-    "창출",
-    "총리"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/money/%EA%B2%BD%EC%A0%9C/%EC%9D%BC%EB%B3%B8-%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98-%EC%B4%9D%EB%A6%AC-%EC%A0%84%EA%B8%B0%EC%B0%A8-%EB%B3%B4%EC%A1%B0%EA%B8%88-%EC%82%AD%EA%B0%90-%EA%B3%84%ED%9A%8D-%EA%B2%BD%EC%A0%9C%EC%82%B0%EC%97%85%EC%84%B1-%EB%B0%98%EB%8C%80-%EB%B6%80%EB%94%AA%ED%98%80-%EB%82%B4%EC%88%98-%EC%B0%BD%EC%B6%9C-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%8B%9C%EA%B8%B0%EC%83%81%EC%A1%B0/ar-AA2gcIE2"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "배터리 3사 중 SK온만 적자…ESS가 돌파구 될까",
-   "nt": "배터리3사중sk온만적자ess가돌파구될까",
-   "tk": [
-    "3사",
-    "ess가",
-    "sk온만",
-    "돌파구",
-    "될까",
-    "배터리",
-    "적자"
-   ],
-   "nums": [
-    "3분기"
-   ],
-   "url": "https://it.chosun.com/news/articleView.html?idxno=2023092173237"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "[SK이노베이션] SK이노베이션, 영업이익 3.7조 원…SK온 ESS가 새로운 성장동력 될까?(2026년_2Q)",
-   "nt": "sk이노베이션sk이노베이션영업이익37조원sk온ess가새로운성장동력될까20",
-   "tk": [
-    "2026년",
-    "2q",
-    "7조",
-    "ess가",
-    "sk온",
-    "sk이노베이션",
-    "될까",
-    "새로운",
-    "성장동력",
-    "영업이익"
-   ],
-   "nums": [
-    "2026년",
-    "3.7조",
-    "3분기",
-    "3조"
-   ],
-   "url": "https://contents.premium.naver.com/bilanxlyc/curiousir/contents/261030162402711ft"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "피엔티",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "피엔티엠에스, 온빛과 23억9305만원 규모 PVA 롤 생산라인 공급계약",
-   "nt": "피엔티엠에스온빛과23억9305만원규모pva롤생산라인공급계약",
-   "tk": [
-    "23억9305만원",
-    "pva",
-    "공급계약",
-    "규모",
-    "생산라인",
-    "온빛과",
-    "피엔티엠에스"
-   ],
-   "nums": [
-    "23억",
-    "9305만"
-   ],
-   "url": "https://www.digitaltoday.co.kr/disclosure/articleView.html?idxno=711384"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "SK온",
-   "cat": "project",
-   "group": "all",
-   "h": "SK온 헝가리공장, 2년간 정부 지원 배제…환경오염 제재에 투자 부담 커지나",
-   "nt": "sk온헝가리공장2년간정부지원배제환경오염제재에투자부담커지나",
-   "tk": [
-    "2년간",
-    "sk온",
-    "배제",
-    "부담",
-    "정부",
-    "제재에",
-    "지원",
-    "커지나",
-    "투자",
-    "헝가리공장",
-    "환경오염"
-   ],
-   "nums": [
-    "2년"
-   ],
-   "url": "http://www.newskr.kr/news/articleView.html?idxno=107579"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "ACC",
-   "cat": "customer",
-   "group": "global",
-   "h": "실적발표: ACC, 2026년 2분기 비용 부담에 예상 밖 주당손실",
-   "nt": "실적발표acc2026년2분기비용부담에예상밖주당손실",
-   "tk": [
-    "2026년",
-    "2분기",
-    "acc",
-    "부담에",
-    "비용",
-    "실적발표",
-    "예상",
-    "주당손실"
-   ],
-   "nums": [
-    "2026년",
-    "2분기"
-   ],
-   "url": "https://kr.investing.com/news/transcripts/article-93CH-2148934"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "ACC",
-   "cat": "customer",
-   "group": "global",
-   "h": "네이블, 192억원 규모 SK텔레콤 Acc·유선 TAG 패키지·Confluent 라이선스 공급계약",
-   "nt": "네이블192억원규모sk텔레콤acc유선tag패키지confluent라이선스공",
-   "tk": [
-    "192억원",
-    "acc",
-    "confluent",
-    "sk텔레콤",
-    "tag",
-    "공급계약",
-    "규모",
-    "네이블",
-    "라이선스",
-    "유선",
-    "패키지"
-   ],
-   "nums": [
-    "192억"
-   ],
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16261723"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "CATL, 전고체 배터리 상용화 속도…2030년 대량 생산 추진",
-   "nt": "catl전고체배터리상용화속도2030년대량생산추진",
+   "cat": "market",
+   "group": "fa",
+   "h": "LG전자, 제조·물류 로봇 우선 확대…2030년 홈 휴머노이드",
+   "nt": "lg전자제조물류로봇우선확대2030년홈휴머노이드",
    "tk": [
     "2030년",
-    "catl",
-    "대량",
-    "배터리",
-    "상용화",
-    "생산",
-    "속도",
-    "전고체",
-    "추진"
+    "lg전자",
+    "로봇",
+    "물류",
+    "우선",
+    "제조",
+    "확대",
+    "휴머노이드"
    ],
    "nums": [
     "2030년"
    ],
-   "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=710868"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "엠플러스",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "이차전지 장비업계 연달아 수주…캐즘 마무리 단계 기대감 ↑",
-   "nt": "이차전지장비업계연달아수주캐즘마무리단계기대감",
-   "tk": [
-    "기대감",
-    "단계",
-    "마무리",
-    "수주",
-    "연달아",
-    "이차전지",
-    "장비업계",
-    "캐즘"
-   ],
-   "nums": [],
-   "url": "https://news.mtn.co.kr/article/2026102814405799588"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "K배터리 활로는 ESS… CATL도 성장 둔화",
-   "nt": "k배터리활로는esscatl도성장둔화",
-   "tk": [
-    "catl도",
-    "ess",
-    "k배터리",
-    "둔화",
-    "성장",
-    "활로는"
-   ],
-   "nums": [],
-   "url": "https://www.sidae.com/article/2026102515451812584"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "ACC",
-   "cat": "customer",
-   "group": "global",
-   "h": "ACC Q2 Results: Improved Trade Mix, Capacity Expansion, Progress On One Cement Platform",
-   "nt": "accq2resultsimprovedtrademixcapacityexpa",
-   "tk": [
-    "acc",
-    "capacity",
-    "cement",
-    "expansion",
-    "improved",
-    "mix",
-    "on",
-    "one",
-    "platform",
-    "progress",
-    "q2",
-    "results",
-    "trade"
-   ],
-   "nums": [
-    "Q2"
-   ],
-   "url": "https://www.ndtvprofit.com/markets/acc-q2-results-improved-trade-mix-capacity-expansion-progress-on-one-cement-platform-12242749"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "필에너지",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "장비·소재 나란히 수주 릴레이… 이차전지 ‘캐즘’ 끝 보인다",
-   "nt": "장비소재나란히수주릴레이이차전지캐즘끝보인다",
-   "tk": [
-    "나란히",
-    "릴레이",
-    "보인다",
-    "소재",
-    "수주",
-    "이차전지",
-    "장비",
-    "캐즘"
-   ],
-   "nums": [],
-   "url": "https://www.fnnews.com/news/202610271809390790"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "하나기술",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "하나기술 최대주주 오태봉, 담보 제공 지분 7.29%로 축소",
-   "nt": "하나기술최대주주오태봉담보제공지분729로축소",
-   "tk": [
-    "29",
-    "담보",
-    "오태봉",
-    "제공",
-    "지분",
-    "최대주주",
-    "축소",
-    "하나기술"
-   ],
-   "nums": [
-    "29.32%",
-    "7.29%"
-   ],
-   "url": "https://www.datatooza.com/article/20261027180545108352ef353bce_80"
+   "url": "https://biz.chosun.com/it-science/ict/2026/10/28/5ZOLM2UJBZGO5OETO5VYYI7ZFY/"
   },
   {
    "date": "2026-11-02",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "북미 ESS 수요가 추가 계약으로…배터리주 투자 포인트",
-   "nt": "북미ess수요가추가계약으로배터리주투자포인트",
+   "cat": "market",
+   "group": "fa",
+   "h": "[컨콜] LG전자 “2030년 홈 휴머노이드 시장 공략… 제조·물류 로봇부터 확대”",
+   "nt": "컨콜lg전자2030년홈휴머노이드시장공략제조물류로봇부터확대",
    "tk": [
-    "ess",
-    "계약으로",
-    "배터리주",
-    "북미",
-    "수요가",
-    "추가",
-    "투자",
-    "포인트"
-   ],
-   "nums": [],
-   "url": "https://www.sedaily.com/article/20106163"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "하나기술",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "[IB토마토]하나기술, 비용 절감 삼킨 매출 공백…인도 수주로 반전 모색",
-   "nt": "ib토마토하나기술비용절감삼킨매출공백인도수주로반전모색",
-   "tk": [
-    "ib토마토",
-    "공백",
-    "매출",
-    "모색",
-    "반전",
-    "비용",
-    "삼킨",
-    "수주로",
-    "인도",
-    "절감",
-    "하나기술"
-   ],
-   "nums": [],
-   "url": "https://www.newstomato.com/readnews.aspx?no=1317765"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "삼성SDI",
-   "cat": "project",
-   "group": "all",
-   "h": "'북미 수주 얼마나 많길래' 삼성SDI 2028년이면 \"생산능력 초과\"",
-   "nt": "북미수주얼마나많길래삼성sdi2028년이면생산능력초과",
-   "tk": [
-    "2028년이면",
-    "많길래",
-    "북미",
-    "삼성sdi",
-    "생산능력",
-    "수주",
-    "얼마나",
-    "초과"
+    "2030년",
+    "lg전자",
+    "공략",
+    "로봇부터",
+    "물류",
+    "시장",
+    "제조",
+    "컨콜",
+    "확대",
+    "휴머노이드"
    ],
    "nums": [
-    "2028년"
+    "2030년"
    ],
-   "url": "https://economist.co.kr/article/view/ecn202610260023"
+   "url": "https://biz.chosun.com/it-science/ict/2026/10/28/5ZOLM2UJBZGO5OETO5VYYI7ZFY/"
   },
   {
    "date": "2026-11-02",
    "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "수출 1조시대, 알고보니 49%가 반도체…삐끗하면 나라 흔들린다",
-   "nt": "수출1조시대알고보니49가반도체삐끗하면나라흔들린다",
+   "cat": "market",
+   "group": "fa",
+   "h": "HD현대로보틱스, 팔란티어와 피지컬 AI 설루션 고도화",
+   "nt": "hd현대로보틱스팔란티어와피지컬ai설루션고도화",
    "tk": [
-    "1조시대",
-    "49",
-    "나라",
-    "반도체",
-    "삐끗하면",
-    "수출",
-    "알고보니",
-    "흔들린다"
-   ],
-   "nums": [
-    "1조",
-    "49%"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12193048"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "광주 반도체팹 속도 … 환경평가 기간 절반 단축",
-   "nt": "광주반도체팹속도환경평가기간절반단축",
-   "tk": [
-    "광주",
-    "기간",
-    "단축",
-    "반도체팹",
-    "속도",
-    "절반",
-    "환경평가"
-   ],
-   "nums": [
-    "1년",
-    "6개월"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12192938"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "필에너지",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "[필옵틱스 5년치 정정의 의문]① 감사인 셋이 놓친 SDI 풋옵션 부채",
-   "nt": "필옵틱스5년치정정의의문감사인셋이놓친sdi풋옵션부채",
-   "tk": [
-    "5년치",
-    "sdi",
-    "감사인",
-    "놓친",
-    "부채",
-    "셋이",
-    "의문",
-    "정정의",
-    "풋옵션",
-    "필옵틱스"
-   ],
-   "nums": [
-    "5개",
-    "5년"
-   ],
-   "url": "https://www.bloter.net/news/articleView.html?idxno=677047"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "SFA",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "이 기사는 2026년 10월 30일 11:00에 무료로 공개된 기사입니다.",
-   "nt": "이기사는2026년10월30일1100에무료로공개된기사입니다",
-   "tk": [
-    "00에",
-    "10월",
-    "11",
-    "2026년",
-    "30일",
-    "공개된",
-    "기사는",
-    "기사입니다",
-    "무료로"
-   ],
-   "nums": [
-    "04월03일",
-    "04월05일",
-    "10월30일",
-    "2026년"
-   ],
-   "url": "https://www.thebell.co.kr/front/newsview.asp?key=202610282320106480104463"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "LG에너지솔루션",
-   "cat": "project",
-   "group": "all",
-   "h": "[10.29 개장 전 주요공시] LG화학, LG에너지솔루션 지분 2조 원대 매각 외",
-   "nt": "1029개장전주요공시lg화학lg에너지솔루션지분2조원대매각외",
-   "tk": [
-    "10",
-    "29",
-    "2조",
-    "lg에너지솔루션",
-    "lg화학",
-    "개장",
-    "매각",
-    "원대",
-    "주요공시",
-    "지분"
-   ],
-   "nums": [
-    "10.29개",
-    "2조"
-   ],
-   "url": "https://www.jabon.co.kr/news/articleView.html?idxno=8139"
-  },
-  {
-   "date": "2026-11-02",
-   "entity": "티로보틱스",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "티로보틱스 AMR, 美 전쟁부 조건부 승인 획득…북미 공급 가속",
-   "nt": "티로보틱스amr전쟁부조건부승인획득북미공급가속",
-   "tk": [
-    "amr",
-    "가속",
-    "공급",
-    "북미",
-    "승인",
-    "전쟁부",
-    "조건부",
-    "티로보틱스",
-    "획득"
+    "ai",
+    "hd현대로보틱스",
+    "고도화",
+    "설루션",
+    "팔란티어와",
+    "피지컬"
    ],
    "nums": [],
-   "url": "https://m.etoday.co.kr/news/view/2639992?trc=main_list_news"
+   "url": "https://www.yna.co.kr/view/AKR20261101015700003"
   }
  ]
 }

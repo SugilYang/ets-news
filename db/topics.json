@@ -2,2275 +2,6 @@
  "days": 30,
  "topics": [
   {
-   "date": "2026-10-05",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG엔솔, 벤츠 차세대 EV에 46100 원통형 셀 공급…2028년 납품",
-   "nt": "lg엔솔벤츠차세대ev에46100원통형셀공급2028년납품",
-   "tk": [
-    "2028년",
-    "46100",
-    "ev에",
-    "lg엔솔",
-    "공급",
-    "납품",
-    "벤츠",
-    "원통형",
-    "차세대"
-   ],
-   "nums": [
-    "2028년",
-    "46100원"
-   ],
-   "url": "https://www.electrive.com/2026/10/03/lg-energy-solution-to-supply-46100-round-cells-to-mercedes/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG Energy Solution to supply 46,100 round cells to Mercedes",
-   "nt": "lgenergysolutiontosupply46100roundcellst",
-   "tk": [
-    "100",
-    "46",
-    "cells",
-    "energy",
-    "lg",
-    "mercedes",
-    "round",
-    "solution",
-    "supply",
-    "to"
-   ],
-   "nums": [
-    "2028년"
-   ],
-   "url": "https://www.electrive.com/2026/10/03/lg-energy-solution-to-supply-46100-round-cells-to-mercedes/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG엔솔, 폴란드 공장도 LFP로 전환…유럽 ESS 시장 대응",
-   "nt": "lg엔솔폴란드공장도lfp로전환유럽ess시장대응",
-   "tk": [
-    "ess",
-    "lfp로",
-    "lg엔솔",
-    "공장도",
-    "대응",
-    "시장",
-    "유럽",
-    "전환",
-    "폴란드"
-   ],
-   "nums": [],
-   "url": "https://www.businesspost.co.kr/BP?command=article_view&num=448544"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG에너지솔루션 폴란드 공장도 LFP로 체질 전환, 김동명 유럽 ESS 시장 정조준",
-   "nt": "lg에너지솔루션폴란드공장도lfp로체질전환김동명유럽ess시장정조준",
-   "tk": [
-    "ess",
-    "lfp로",
-    "lg에너지솔루션",
-    "공장도",
-    "김동명",
-    "시장",
-    "유럽",
-    "전환",
-    "정조준",
-    "체질",
-    "폴란드"
-   ],
-   "nums": [],
-   "url": "https://www.businesspost.co.kr/BP?command=article_view&num=448544"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "현대차·SK온 美 배터리 합작법인 'HSBMA' 확정",
-   "nt": "현대차sk온배터리합작법인hsbma확정",
-   "tk": [
-    "hsbma",
-    "sk온",
-    "배터리",
-    "합작법인",
-    "현대차",
-    "확정"
-   ],
-   "nums": [],
-   "url": "https://www.kukinews.com/article/view/kuk202603270083"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "현대차·SK온 美 배터리 JV ‘HSBMA’로 확정…IRA 대응 공급망 본격 가동",
-   "nt": "현대차sk온배터리jvhsbma로확정ira대응공급망본격가동",
-   "tk": [
-    "hsbma",
-    "ira",
-    "jv",
-    "sk온",
-    "가동",
-    "공급망",
-    "대응",
-    "배터리",
-    "본격",
-    "현대차",
-    "확정"
-   ],
-   "nums": [],
-   "url": "https://www.kukinews.com/article/view/kuk202603270083"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "BYD",
-   "cat": "customer",
-   "group": "global",
-   "h": "BYD 9월 NEV 46만3561대…올해 최다, 전년比 17%↑",
-   "nt": "byd9월nev46만3561대올해최다전년17",
-   "tk": [
-    "17",
-    "46만3561대",
-    "9월",
-    "byd",
-    "nev",
-    "올해",
-    "전년",
-    "최다"
-   ],
-   "nums": [
-    "17%",
-    "293대",
-    "3561대",
-    "44만",
-    "46만",
-    "5.3%"
-   ],
-   "url": "https://www.electrive.com/2026/10/02/september-was-byds-strongest-month-of-the-year-so-far/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "BYD",
-   "cat": "customer",
-   "group": "global",
-   "h": "September was BYD’s strongest month of the year so far",
-   "nt": "septemberwasbydsstrongestmonthoftheyears",
-   "tk": [
-    "byd",
-    "far",
-    "month",
-    "of",
-    "september",
-    "so",
-    "strongest",
-    "the",
-    "was",
-    "year"
-   ],
-   "nums": [
-    "293대",
-    "44만",
-    "5.3%"
-   ],
-   "url": "https://www.electrive.com/2026/10/02/september-was-byds-strongest-month-of-the-year-so-far/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "피엔티",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "피엔티엠에스, 태국 OSMEP와 MOU…연내 태국법인 설립",
-   "nt": "피엔티엠에스태국osmep와mou연내태국법인설립",
-   "tk": [
-    "mou",
-    "osmep와",
-    "설립",
-    "연내",
-    "태국",
-    "태국법인",
-    "피엔티엠에스"
-   ],
-   "nums": [],
-   "url": "https://www.mt.co.kr/index.php/stock/2026/10/02/2026100213553689306"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "피엔티",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "피엔티엠에스, 태국정부 2차전지 핵심 파트너로…\"연내 태국법인 설립\" - 머니투데이",
-   "nt": "피엔티엠에스태국정부2차전지핵심파트너로연내태국법인설립머니투데이",
-   "tk": [
-    "2차전지",
-    "머니투데이",
-    "설립",
-    "연내",
-    "태국법인",
-    "태국정부",
-    "파트너로",
-    "피엔티엠에스",
-    "핵심"
-   ],
-   "nums": [],
-   "url": "https://www.mt.co.kr/index.php/stock/2026/10/02/2026100213553689306"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "중국, 2030년 전고체 양산 공식화…지리·니오 동맹 출범",
-   "nt": "중국2030년전고체양산공식화지리니오동맹출범",
-   "tk": [
-    "2030년",
-    "공식화",
-    "니오",
-    "동맹",
-    "양산",
-    "전고체",
-    "중국",
-    "지리",
-    "출범"
-   ],
-   "nums": [
-    "2030년"
-   ],
-   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026100505530020382bd56fbc3c_1"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "중국, 2030년 전고체 배터리 양산 공식화…지리·니오 동맹 출범",
-   "nt": "중국2030년전고체배터리양산공식화지리니오동맹출범",
-   "tk": [
-    "2030년",
-    "공식화",
-    "니오",
-    "동맹",
-    "배터리",
-    "양산",
-    "전고체",
-    "중국",
-    "지리",
-    "출범"
-   ],
-   "nums": [
-    "2030년"
-   ],
-   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026100505530020382bd56fbc3c_1"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "삼성전자 용인 국가산단 360조 투자…소부장·팹리스 70여 곳 입주 전망",
-   "nt": "삼성전자용인국가산단360조투자소부장팹리스70여곳입주전망",
-   "tk": [
-    "360조",
-    "70여",
-    "국가산단",
-    "삼성전자",
-    "소부장",
-    "용인",
-    "입주",
-    "전망",
-    "투자",
-    "팹리스"
-   ],
-   "nums": [
-    "160만",
-    "360조"
-   ],
-   "url": "https://www.etnews.com/20261004000009"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "삼성전자 '2026 용인 사이버 과학축제' 참가…용인 국가산단 청사진 제시",
-   "nt": "삼성전자2026용인사이버과학축제참가용인국가산단청사진제시",
-   "tk": [
-    "2026",
-    "과학축제",
-    "국가산단",
-    "사이버",
-    "삼성전자",
-    "용인",
-    "제시",
-    "참가",
-    "청사진"
-   ],
-   "nums": [
-    "160만",
-    "2026"
-   ],
-   "url": "https://www.etnews.com/20261004000009"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "마이크론, 2027 회계연도 상반기 설비투자 250억달러…하반기 더 확대",
-   "nt": "마이크론2027회계연도상반기설비투자250억달러하반기더확대",
-   "tk": [
-    "2027",
-    "250억달러",
-    "마이크론",
-    "상반기",
-    "설비투자",
-    "하반기",
-    "확대",
-    "회계연도"
-   ],
-   "nums": [
-    "2027",
-    "250억",
-    "542.3억",
-    "5배"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261002179200008"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",
-   "nt": "반도체설비투자확대로공급확대내후년하반기는돼야",
-   "tk": [
-    "공급",
-    "내후년",
-    "돼야",
-    "반도체",
-    "설비투자",
-    "하반기는",
-    "확대",
-    "확대로"
-   ],
-   "nums": [
-    "542.3억",
-    "5배"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261002179200008"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "SK하이닉스, HBM·호남 투자 속 솔리다임 자금조달 고심",
-   "nt": "sk하이닉스hbm호남투자속솔리다임자금조달고심",
-   "tk": [
-    "hbm",
-    "sk하이닉스",
-    "고심",
-    "솔리다임",
-    "자금조달",
-    "투자",
-    "호남"
-   ],
-   "nums": [
-    "201만",
-    "93만",
-    "96만",
-    "99만"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261002140900003"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "HBM에 호남까지 갈길 바쁜 SK하이닉스…솔리다임 자금조달 고심",
-   "nt": "hbm에호남까지갈길바쁜sk하이닉스솔리다임자금조달고심",
-   "tk": [
-    "hbm에",
-    "sk하이닉스",
-    "갈길",
-    "고심",
-    "바쁜",
-    "솔리다임",
-    "자금조달",
-    "호남까지"
-   ],
-   "nums": [
-    "201만",
-    "93만",
-    "96만",
-    "99만"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261002140900003"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "BMW 이를바흐 배터리 공장 양산 개시…Gen6 고전압 배터리",
-   "nt": "bmw이를바흐배터리공장양산개시gen6고전압배터리",
-   "tk": [
-    "bmw",
-    "gen6",
-    "개시",
-    "고전압",
-    "공장",
-    "배터리",
-    "양산",
-    "이를바흐"
-   ],
-   "nums": [
-    "2년"
-   ],
-   "url": "https://www.electrive.com/2026/10/02/bmw-begins-gen6-battery-production-in-irlbach-straskirchen/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "BMW begins Gen6 battery production in Irlbach-Straßkirchen",
-   "nt": "bmwbeginsgen6batteryproductioninirlbachs",
-   "tk": [
-    "battery",
-    "begins",
-    "bmw",
-    "gen6",
-    "in",
-    "irlbach",
-    "kirchen",
-    "production",
-    "stra"
-   ],
-   "nums": [
-    "2년"
-   ],
-   "url": "https://www.electrive.com/2026/10/02/bmw-begins-gen6-battery-production-in-irlbach-straskirchen/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "LA 메트로, ENC 전기버스 220대 발주…美 교통당국 40피트 최대",
-   "nt": "la메트로enc전기버스220대발주교통당국40피트최대",
-   "tk": [
-    "220대",
-    "40피트",
-    "enc",
-    "la",
-    "교통당국",
-    "메트로",
-    "발주",
-    "전기버스",
-    "최대"
-   ],
-   "nums": [
-    "220대"
-   ],
-   "url": "https://www.electrive.com/2026/10/02/la-metro-orders-200-electric-buses-from-enc/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "LA Metro orders 200 electric buses from ENC",
-   "nt": "lametroorders200electricbusesfromenc",
-   "tk": [
-    "200",
-    "buses",
-    "electric",
-    "enc",
-    "from",
-    "la",
-    "metro",
-    "orders"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/02/la-metro-orders-200-electric-buses-from-enc/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "영국 9월 BEV 등록 9만9199대, 36.3%↑…월간 최다",
-   "nt": "영국9월bev등록9만9199대363월간최다",
-   "tk": [
-    "36",
-    "9만9199대",
-    "9월",
-    "bev",
-    "등록",
-    "영국",
-    "월간",
-    "최다"
-   ],
-   "nums": [
-    "36.3%",
-    "9199대",
-    "9만"
-   ],
-   "url": "https://www.electrive.com/2026/10/02/uk-posts-strongest-ever-month-for-bev-registrations-in-september/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "UK posts strongest-ever month for BEV registrations in September",
-   "nt": "ukpostsstrongestevermonthforbevregistrat",
-   "tk": [
-    "bev",
-    "ever",
-    "for",
-    "in",
-    "month",
-    "posts",
-    "registrations",
-    "september",
-    "strongest",
-    "uk"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/02/uk-posts-strongest-ever-month-for-bev-registrations-in-september/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "노스랜드파워, 폴란드 CM 계약 BESS 1.2GWh 금융 종결",
-   "nt": "노스랜드파워폴란드cm계약bess12gwh금융종결",
-   "tk": [
-    "2gwh",
-    "bess",
-    "cm",
-    "계약",
-    "금융",
-    "노스랜드파워",
-    "종결",
-    "폴란드"
-   ],
-   "nums": [
-    "1.2GWh"
-   ],
-   "url": "https://www.energy-storage.news/canadas-northland-power-closes-financing-on-1-2gwh-of-cm-contracted-bess-projects-in-poland/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Canada’s Northland Power closes financing on 1.2GWh of CM-contracted BESS projects in Poland",
-   "nt": "canadasnorthlandpowerclosesfinancingon12",
-   "tk": [
-    "2gwh",
-    "bess",
-    "canada",
-    "closes",
-    "cm",
-    "contracted",
-    "financing",
-    "in",
-    "northland",
-    "of",
-    "on",
-    "poland",
-    "power",
-    "projects"
-   ],
-   "nums": [
-    "1.2GWh"
-   ],
-   "url": "https://www.energy-storage.news/canadas-northland-power-closes-financing-on-1-2gwh-of-cm-contracted-bess-projects-in-poland/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "불가리아 242MWp 태양광+773MWh BESS 하이브리드 상업운전",
-   "nt": "불가리아242mwp태양광773mwhbess하이브리드상업운전",
-   "tk": [
-    "242mwp",
-    "773mwh",
-    "bess",
-    "불가리아",
-    "상업운전",
-    "태양광",
-    "하이브리드"
-   ],
-   "nums": [
-    "242MW",
-    "773MWh"
-   ],
-   "url": "https://www.energy-storage.news/renalfa-ipp-eurowind-inaugurate-solar-plus-storage-hybrid-renewable-energy-park-in-bulgaria/"
-  },
-  {
-   "date": "2026-10-05",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Renalfa IPP, Eurowind inaugurate solar-plus-storage hybrid renewable energy park in Bulgaria",
-   "nt": "renalfaippeurowindinauguratesolarplussto",
-   "tk": [
-    "bulgaria",
-    "energy",
-    "eurowind",
-    "hybrid",
-    "in",
-    "inaugurate",
-    "ipp",
-    "park",
-    "plus",
-    "renalfa",
-    "renewable",
-    "solar",
-    "storage"
-   ],
-   "nums": [],
-   "url": "https://www.energy-storage.news/renalfa-ipp-eurowind-inaugurate-solar-plus-storage-hybrid-renewable-energy-park-in-bulgaria/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "테슬라–LG엔솔 43억달러 LFP 셀 계약 추진…랜싱 내년 생산",
-   "nt": "테슬라lg엔솔43억달러lfp셀계약추진랜싱내년생산",
-   "tk": [
-    "43억달러",
-    "lfp",
-    "lg엔솔",
-    "계약",
-    "내년",
-    "랜싱",
-    "생산",
-    "추진",
-    "테슬라"
-   ],
-   "nums": [
-    "43억"
-   ],
-   "url": "https://theguru.co.kr/mobile/article.html?no=107790"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "플루언스·테슬라, 배터리 공급망 강화 총력…EVE파워·LG엔솔과 맞손",
-   "nt": "플루언스테슬라배터리공급망강화총력eve파워lg엔솔과맞손",
-   "tk": [
-    "eve파워",
-    "lg엔솔과",
-    "강화",
-    "공급망",
-    "맞손",
-    "배터리",
-    "총력",
-    "테슬라",
-    "플루언스"
-   ],
-   "nums": [],
-   "url": "https://theguru.co.kr/mobile/article.html?no=107790"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "CATL, 오슬로에 아시아 외 최대 'Ning Service' 센터 개소…8000㎡",
-   "nt": "catl오슬로에아시아외최대ningservice센터개소8000",
-   "tk": [
-    "8000",
-    "catl",
-    "ning",
-    "service",
-    "개소",
-    "센터",
-    "아시아",
-    "오슬로에",
-    "최대"
-   ],
-   "nums": [
-    "9월24일"
-   ],
-   "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "CATL opens largest Ning Service Centre outside Asia in Oslo",
-   "nt": "catlopenslargestningservicecentreoutside",
-   "tk": [
-    "asia",
-    "catl",
-    "centre",
-    "in",
-    "largest",
-    "ning",
-    "opens",
-    "oslo",
-    "outside",
-    "service"
-   ],
-   "nums": [
-    "9월24일"
-   ],
-   "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "한-사우디 비즈니스 투자 포럼…전기차·AI·방산 협력 확대",
-   "nt": "한사우디비즈니스투자포럼전기차ai방산협력확대",
-   "tk": [
-    "ai",
-    "방산",
-    "비즈니스",
-    "사우디",
-    "전기차",
-    "투자",
-    "포럼",
-    "협력",
-    "확대"
-   ],
-   "nums": [
-    "20개",
-    "90개"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261005039600003"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "한-사우디, 전기차·AI·방산 등 첨단산업 협력 강화",
-   "nt": "한사우디전기차ai방산등첨단산업협력강화",
-   "tk": [
-    "ai",
-    "강화",
-    "방산",
-    "사우디",
-    "전기차",
-    "첨단산업",
-    "협력"
-   ],
-   "nums": [
-    "20개",
-    "90개"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261005039600003"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "도요타·이데미츠 황화물계 전고체 2027~28년 초기 도입, 2030년 전후 양산",
-   "nt": "도요타이데미츠황화물계전고체202728년초기도입2030년전후양산",
-   "tk": [
-    "2027",
-    "2030년",
-    "28년",
-    "도요타",
-    "도입",
-    "양산",
-    "이데미츠",
-    "전고체",
-    "전후",
-    "초기",
-    "황화물계"
-   ],
-   "nums": [
-    "2027",
-    "2030년",
-    "28년"
-   ],
-   "url": "https://note.com/taktempest222tt/n/n223d1386784b?hl=ko"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "16 전고체 배터리 차량이 2030년 이후 세계 EV 시장에 가져올 수 있는 임팩트",
-   "nt": "16전고체배터리차량이2030년이후세계ev시장에가져올수있는임팩트",
-   "tk": [
-    "16",
-    "2030년",
-    "ev",
-    "가져올",
-    "배터리",
-    "세계",
-    "시장에",
-    "이후",
-    "임팩트",
-    "있는",
-    "전고체",
-    "차량이"
-   ],
-   "nums": [
-    "2030년"
-   ],
-   "url": "https://note.com/taktempest222tt/n/n223d1386784b?hl=ko"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "경기도 \"SK하이닉스 이천 방류 하천 염소·황산이온 FAO 권고치 초과\"",
-   "nt": "경기도sk하이닉스이천방류하천염소황산이온fao권고치초과",
-   "tk": [
-    "fao",
-    "sk하이닉스",
-    "경기도",
-    "권고치",
-    "방류",
-    "염소",
-    "이천",
-    "초과",
-    "하천",
-    "황산이온"
-   ],
-   "nums": [
-    "9개"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261005036300061"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "SK하이닉스 방류 하천 염소·황산이온 농도, 'FAO 권고치' 초과",
-   "nt": "sk하이닉스방류하천염소황산이온농도fao권고치초과",
-   "tk": [
-    "fao",
-    "sk하이닉스",
-    "권고치",
-    "농도",
-    "방류",
-    "염소",
-    "초과",
-    "하천",
-    "황산이온"
-   ],
-   "nums": [
-    "9개"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261005036300061"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "도요타, 미시간 세일린에 북미 배터리 센터 개소…약 2800㎡",
-   "nt": "도요타미시간세일린에북미배터리센터개소약2800",
-   "tk": [
-    "2800",
-    "개소",
-    "도요타",
-    "미시간",
-    "배터리",
-    "북미",
-    "세일린에",
-    "센터"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/05/toyota-battery-center-in-north-america-opens-in-michigan/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "‘Toyota Battery Center in North America’ opens in Michigan",
-   "nt": "toyotabatterycenterinnorthamericaopensin",
-   "tk": [
-    "america",
-    "battery",
-    "center",
-    "in",
-    "michigan",
-    "north",
-    "opens",
-    "toyota"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/05/toyota-battery-center-in-north-america-opens-in-michigan/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Statkraft–Greenvolt, 폴란드 BESS 400MW 10년 톨링 계약…EU 최대",
-   "nt": "statkraftgreenvolt폴란드bess400mw10년톨링계약eu최",
-   "tk": [
-    "10년",
-    "400mw",
-    "bess",
-    "eu",
-    "greenvolt",
-    "statkraft",
-    "계약",
-    "최대",
-    "톨링",
-    "폴란드"
-   ],
-   "nums": [
-    "10년",
-    "2개",
-    "400MW"
-   ],
-   "url": "https://www.energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Statkraft and Greenvolt sign largest EU battery energy storage tolling agreement for projects in Poland",
-   "nt": "statkraftandgreenvoltsignlargesteubatter",
-   "tk": [
-    "agreement",
-    "and",
-    "battery",
-    "energy",
-    "eu",
-    "for",
-    "greenvolt",
-    "in",
-    "largest",
-    "poland",
-    "projects",
-    "sign",
-    "statkraft",
-    "storage",
-    "tolling"
-   ],
-   "nums": [
-    "2개"
-   ],
-   "url": "https://www.energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland/"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "경북도, 美 유타주·유타대와 AI·반도체 협력 협약",
-   "nt": "경북도유타주유타대와ai반도체협력협약",
-   "tk": [
-    "ai",
-    "경북도",
-    "반도체",
-    "유타대와",
-    "유타주",
-    "협력",
-    "협약"
-   ],
-   "nums": [
-    "9월21일"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261005015400053"
-  },
-  {
-   "date": "2026-10-06",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "경북도, 미국 유타주·유타대와 AI·반도체 등 첨단산업 협력",
-   "nt": "경북도미국유타주유타대와ai반도체등첨단산업협력",
-   "tk": [
-    "ai",
-    "경북도",
-    "미국",
-    "반도체",
-    "유타대와",
-    "유타주",
-    "첨단산업",
-    "협력"
-   ],
-   "nums": [
-    "9월21일"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261005015400053"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "포스코퓨처엠–삼성SDI, LFP 포함 소재 장기공급 6조원 본계약",
-   "nt": "포스코퓨처엠삼성sdilfp포함소재장기공급6조원본계약",
-   "tk": [
-    "6조원",
-    "lfp",
-    "본계약",
-    "삼성sdi",
-    "소재",
-    "장기공급",
-    "포스코퓨처엠",
-    "포함"
-   ],
-   "nums": [
-    "19만",
-    "2027",
-    "2배",
-    "45%",
-    "6조"
-   ],
-   "url": "https://www.etnews.com/20261006000408"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "포스코퓨처엠, 삼성SDI와 LFP 6조원 규모 공급계약 체결",
-   "nt": "포스코퓨처엠삼성sdi와lfp6조원규모공급계약체결",
-   "tk": [
-    "6조원",
-    "lfp",
-    "공급계약",
-    "규모",
-    "삼성sdi와",
-    "체결",
-    "포스코퓨처엠"
-   ],
-   "nums": [
-    "19만",
-    "2027",
-    "2배",
-    "45%",
-    "6조"
-   ],
-   "url": "https://www.etnews.com/20261006000408"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "에코프로비엠–삼성SDI 전고체 소재 MOU…2027년 황화물계 상용화",
-   "nt": "에코프로비엠삼성sdi전고체소재mou2027년황화물계상용화",
-   "tk": [
-    "2027년",
-    "mou",
-    "삼성sdi",
-    "상용화",
-    "소재",
-    "에코프로비엠",
-    "전고체",
-    "황화물계"
-   ],
-   "nums": [
-    "2027년"
-   ],
-   "url": "https://www.yna.co.kr/amp/view/AKR20261006075200003"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "삼성SDI",
-   "cat": "customer",
-   "group": "sdi",
-   "h": "에코프로비엠·삼성SDI, 전고체 배터리 소재 개발 협력",
-   "nt": "에코프로비엠삼성sdi전고체배터리소재개발협력",
-   "tk": [
-    "개발",
-    "배터리",
-    "삼성sdi",
-    "소재",
-    "에코프로비엠",
-    "전고체",
-    "협력"
-   ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/amp/view/AKR20261006075200003"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG엔솔, 국산 LFP 양극재 확보 추진…美 PFE 규제 대응",
-   "nt": "lg엔솔국산lfp양극재확보추진pfe규제대응",
-   "tk": [
-    "lfp",
-    "lg엔솔",
-    "pfe",
-    "국산",
-    "규제",
-    "대응",
-    "양극재",
-    "추진",
-    "확보"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/news/other/lg%EC%97%94%EC%86%94-%EA%B5%AD%EC%82%B0-lfp-%EC%96%91%EA%B7%B9%EC%9E%AC-%ED%99%95%EB%B3%B4-%EC%86%8D%EB%8F%84-%E7%BE%8E-pfe-%EB%8C%80%EC%9D%91-%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%A0%88%EC%9D%B4%EB%8B%A4/ar-AA2dEp2S"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG엔솔, 국산 LFP 양극재 확보 속도…美 PFE 대응 [배터리레이다]",
-   "nt": "lg엔솔국산lfp양극재확보속도pfe대응배터리레이다",
-   "tk": [
-    "lfp",
-    "lg엔솔",
-    "pfe",
-    "국산",
-    "대응",
-    "배터리레이다",
-    "속도",
-    "양극재",
-    "확보"
-   ],
-   "nums": [],
-   "url": "https://www.msn.com/ko-kr/news/other/lg%EC%97%94%EC%86%94-%EA%B5%AD%EC%82%B0-lfp-%EC%96%91%EA%B7%B9%EC%9E%AC-%ED%99%95%EB%B3%B4-%EC%86%8D%EB%8F%84-%E7%BE%8E-pfe-%EB%8C%80%EC%9D%91-%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%A0%88%EC%9D%B4%EB%8B%A4/ar-AA2dEp2S"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "딥시크, 텐센트·CATL 등에서 800억위안 이상 투자 유치 임박",
-   "nt": "딥시크텐센트catl등에서800억위안이상투자유치임박",
-   "tk": [
-    "800억위안",
-    "catl",
-    "등에서",
-    "딥시크",
-    "유치",
-    "이상",
-    "임박",
-    "텐센트",
-    "투자"
-   ],
-   "nums": [
-    "120억",
-    "800억"
-   ],
-   "url": "https://yellow.com/ko/news/%ED%85%90%EC%84%BC%ED%8A%B8%C2%B7catl-%EC%B0%B8%EC%97%AC%ED%95%9C-%EB%94%A5%EC%8B%9C%ED%81%AC-12%EC%A1%B0-%EC%9B%90-%EA%B7%9C%EB%AA%A8-%EC%B4%88%EB%8C%80%ED%98%95-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98-%EC%9E%84%EB%B0%95"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "CATL",
-   "cat": "customer",
-   "group": "global",
-   "h": "텐센트·CATL 참여한 딥시크, 12조 원 규모 초대형 투자 유치 임박",
-   "nt": "텐센트catl참여한딥시크12조원규모초대형투자유치임박",
-   "tk": [
-    "12조",
-    "catl",
-    "규모",
-    "딥시크",
-    "유치",
-    "임박",
-    "참여한",
-    "초대형",
-    "텐센트",
-    "투자"
-   ],
-   "nums": [
-    "120억",
-    "12조",
-    "800억"
-   ],
-   "url": "https://yellow.com/ko/news/%ED%85%90%EC%84%BC%ED%8A%B8%C2%B7catl-%EC%B0%B8%EC%97%AC%ED%95%9C-%EB%94%A5%EC%8B%9C%ED%81%AC-12%EC%A1%B0-%EC%9B%90-%EA%B7%9C%EB%AA%A8-%EC%B4%88%EB%8C%80%ED%98%95-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98-%EC%9E%84%EB%B0%95"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "엠플러스",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "엠플러스, 유럽 산업용 배터리 기업에 각형 노칭·스태킹 장비 수주",
-   "nt": "엠플러스유럽산업용배터리기업에각형노칭스태킹장비수주",
-   "tk": [
-    "각형",
-    "기업에",
-    "노칭",
-    "배터리",
-    "산업용",
-    "수주",
-    "스태킹",
-    "엠플러스",
-    "유럽",
-    "장비"
-   ],
-   "nums": [
-    "250억",
-    "373억"
-   ],
-   "url": "https://www.etnews.com/20261006000361"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "엠플러스",
-   "cat": "competitor",
-   "group": "grade_A",
-   "h": "엠플러스, 유럽 글로벌 배터리 기업에 각형 장비 수주",
-   "nt": "엠플러스유럽글로벌배터리기업에각형장비수주",
-   "tk": [
-    "각형",
-    "글로벌",
-    "기업에",
-    "배터리",
-    "수주",
-    "엠플러스",
-    "유럽",
-    "장비"
-   ],
-   "nums": [
-    "250억",
-    "373억"
-   ],
-   "url": "https://www.etnews.com/20261006000361"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "산업부, 1600조 메가프로젝트 가속…매월 대통령 주재 점검회의",
-   "nt": "산업부1600조메가프로젝트가속매월대통령주재점검회의",
-   "tk": [
-    "1600조",
-    "가속",
-    "대통령",
-    "매월",
-    "메가프로젝트",
-    "산업부",
-    "점검회의",
-    "주재"
-   ],
-   "nums": [
-    "1600조"
-   ],
-   "url": "https://www.etnews.com/20261006000365"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "[2026 국감]정부, 반도체 생태계 확장 사활…메가프로젝트 입지 논란은 여전",
-   "nt": "2026국감정부반도체생태계확장사활메가프로젝트입지논란은여전",
-   "tk": [
-    "2026",
-    "국감",
-    "논란은",
-    "메가프로젝트",
-    "반도체",
-    "사활",
-    "생태계",
-    "여전",
-    "입지",
-    "정부",
-    "확장"
-   ],
-   "nums": [
-    "2026"
-   ],
-   "url": "https://www.etnews.com/20261006000365"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "국감서 ESS 중앙계약시장 낙찰단가 첫 확인…수익 과다 지적",
-   "nt": "국감서ess중앙계약시장낙찰단가첫확인수익과다지적",
-   "tk": [
-    "ess",
-    "과다",
-    "국감서",
-    "낙찰단가",
-    "수익",
-    "중앙계약시장",
-    "지적",
-    "확인"
-   ],
-   "nums": [
-    "15년",
-    "1600억",
-    "1900억",
-    "19원",
-    "23MW",
-    "27원",
-    "50원",
-    "730억",
-    "96MW"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12169403"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "“ESS 중앙계약시장, 사업자에 과도한 수익 보장”",
-   "nt": "ess중앙계약시장사업자에과도한수익보장",
-   "tk": [
-    "ess",
-    "과도한",
-    "보장",
-    "사업자에",
-    "수익",
-    "중앙계약시장"
-   ],
-   "nums": [
-    "15년",
-    "1600억",
-    "1900억",
-    "19원",
-    "23MW",
-    "27원",
-    "50원",
-    "730억",
-    "96MW"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12169403"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "국감 \"이차전지 세액공제만으론 한계…생산보조금 투트랙 필요\"",
-   "nt": "국감이차전지세액공제만으론한계생산보조금투트랙필요",
-   "tk": [
-    "국감",
-    "생산보조금",
-    "세액공제만으론",
-    "이차전지",
-    "투트랙",
-    "필요",
-    "한계"
-   ],
-   "nums": [
-    "2023년",
-    "2025년",
-    "35%",
-    "42%",
-    "55%",
-    "61%",
-    "6개",
-    "8개"
-   ],
-   "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=453535"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "[국감]김종민 의원 “中저가공세에 韓이차전지 고사위기”",
-   "nt": "국감김종민의원저가공세에이차전지고사위기",
-   "tk": [
-    "고사위기",
-    "국감",
-    "김종민",
-    "의원",
-    "이차전지",
-    "저가공세에"
-   ],
-   "nums": [
-    "2023년",
-    "2025년",
-    "35%",
-    "42%",
-    "55%",
-    "61%",
-    "6개",
-    "8개"
-   ],
-   "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=453535"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "기후장관 \"호남 반도체 산단 전력 6.3GW·용수 65만t 지역 내 공급 가능\"",
-   "nt": "기후장관호남반도체산단전력63gw용수65만t지역내공급가능",
-   "tk": [
-    "3gw",
-    "65만t",
-    "가능",
-    "공급",
-    "기후장관",
-    "반도체",
-    "산단",
-    "용수",
-    "전력",
-    "지역",
-    "호남"
-   ],
-   "nums": [
-    "5GW",
-    "6.3GW",
-    "65만"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261006125300530"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "기후장관 \"호남 반도체산단에 전기 6.3GW·용수 65만t 공급가능\"",
-   "nt": "기후장관호남반도체산단에전기63gw용수65만t공급가능",
-   "tk": [
-    "3gw",
-    "65만t",
-    "공급가능",
-    "기후장관",
-    "반도체산단에",
-    "용수",
-    "전기",
-    "호남"
-   ],
-   "nums": [
-    "5GW",
-    "6.3GW",
-    "65만"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261006125300530"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "마이크론–넷리스트 특허소송 합의…5년 6억달러 라이선스",
-   "nt": "마이크론넷리스트특허소송합의5년6억달러라이선스",
-   "tk": [
-    "5년",
-    "6억달러",
-    "넷리스트",
-    "라이선스",
-    "마이크론",
-    "특허소송",
-    "합의"
-   ],
-   "nums": [
-    "1000만",
-    "100만",
-    "2031년",
-    "20개",
-    "3000만",
-    "3분기",
-    "5년",
-    "6억"
-   ],
-   "url": "https://www.etnews.com/20261007000002"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "tech_policy",
-   "group": "all",
-   "h": "마이크론, 넷리스트와 특허소송 합의…8000억원 라이선스 계약",
-   "nt": "마이크론넷리스트와특허소송합의8000억원라이선스계약",
-   "tk": [
-    "8000억원",
-    "계약",
-    "넷리스트와",
-    "라이선스",
-    "마이크론",
-    "특허소송",
-    "합의"
-   ],
-   "nums": [
-    "1000만",
-    "100만",
-    "2031년",
-    "20개",
-    "3000만",
-    "3분기",
-    "8000억"
-   ],
-   "url": "https://www.etnews.com/20261007000002"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "한미반도체, 삼성전기에 244.8억 MSVP 후공정 장비 공급",
-   "nt": "한미반도체삼성전기에2448억msvp후공정장비공급",
-   "tk": [
-    "244",
-    "8억",
-    "msvp",
-    "공급",
-    "삼성전기에",
-    "장비",
-    "한미반도체",
-    "후공정"
-   ],
-   "nums": [
-    "2021년",
-    "244.8억"
-   ],
-   "url": "https://www.etnews.com/20261006000217"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "한미반도체, 삼성전기에 244억원 규모 'MSVP' 반도체 장비 공급",
-   "nt": "한미반도체삼성전기에244억원규모msvp반도체장비공급",
-   "tk": [
-    "244억원",
-    "msvp",
-    "공급",
-    "규모",
-    "반도체",
-    "삼성전기에",
-    "장비",
-    "한미반도체"
-   ],
-   "nums": [
-    "2021년",
-    "244억"
-   ],
-   "url": "https://www.etnews.com/20261006000217"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "세계 반도체 1~8월 누적 매출 1조달러 돌파…연간 1.6조달러 전망",
-   "nt": "세계반도체18월누적매출1조달러돌파연간16조달러전망",
-   "tk": [
-    "1조달러",
-    "6조달러",
-    "8월",
-    "누적",
-    "돌파",
-    "매출",
-    "반도체",
-    "세계",
-    "연간",
-    "전망"
-   ],
-   "nums": [
-    "1.6조",
-    "144.3%",
-    "1597.4억",
-    "1조",
-    "20%",
-    "27.2%"
-   ],
-   "url": "https://www.etnews.com/20261006000211"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "세계 반도체 매출, 1조 달러 넘어섰다…18개월 연속 성장",
-   "nt": "세계반도체매출1조달러넘어섰다18개월연속성장",
-   "tk": [
-    "18개월",
-    "1조",
-    "넘어섰다",
-    "달러",
-    "매출",
-    "반도체",
-    "성장",
-    "세계",
-    "연속"
-   ],
-   "nums": [
-    "144.3%",
-    "1597.4억",
-    "18개월",
-    "1조",
-    "20%",
-    "27.2%"
-   ],
-   "url": "https://www.etnews.com/20261006000211"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "수은, 7대 핵심광물 금융지원 올해 3조1322억…구리 2조1157억",
-   "nt": "수은7대핵심광물금융지원올해3조1322억구리2조1157억",
-   "tk": [
-    "2조1157억",
-    "3조1322억",
-    "7대",
-    "구리",
-    "금융지원",
-    "수은",
-    "올해",
-    "핵심광물"
-   ],
-   "nums": [
-    "1.97조",
-    "1157억",
-    "1322억",
-    "2.64조",
-    "2023년",
-    "2025년",
-    "2조",
-    "3.13조",
-    "3조",
-    "7대",
-    "9개월"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12169308"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "“첨단산업에 필수”…수은, 구리 등 ‘7대 핵심광물’에 3조원 풀었다",
-   "nt": "첨단산업에필수수은구리등7대핵심광물에3조원풀었다",
-   "tk": [
-    "3조원",
-    "7대",
-    "구리",
-    "수은",
-    "첨단산업에",
-    "풀었다",
-    "필수",
-    "핵심광물"
-   ],
-   "nums": [
-    "1.97조",
-    "2.64조",
-    "2023년",
-    "2025년",
-    "3.13조",
-    "3조",
-    "7대",
-    "9개월"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12169308"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "프라운호퍼 배터리 얼라이언스, 포스텍·포항시·환경공단과 LOI",
-   "nt": "프라운호퍼배터리얼라이언스포스텍포항시환경공단과loi",
-   "tk": [
-    "loi",
-    "배터리",
-    "얼라이언스",
-    "포스텍",
-    "포항시",
-    "프라운호퍼",
-    "환경공단과"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/06/fraunhofer-expands-south-korean-battery-research-partnership/"
-  },
-  {
-   "date": "2026-10-07",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Fraunhofer expands South Korean battery research partnership",
-   "nt": "fraunhoferexpandssouthkoreanbatteryresea",
-   "tk": [
-    "battery",
-    "expands",
-    "fraunhofer",
-    "korean",
-    "partnership",
-    "research",
-    "south"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/06/fraunhofer-expands-south-korean-battery-research-partnership/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "LG엔솔, 랜싱 조립장비 사양 변경 추가비용 100억 지급 합의",
-   "nt": "lg엔솔랜싱조립장비사양변경추가비용100억지급합의",
-   "tk": [
-    "100억",
-    "lg엔솔",
-    "랜싱",
-    "변경",
-    "사양",
-    "조립장비",
-    "지급",
-    "추가비용",
-    "합의"
-   ],
-   "nums": [
-    "100억",
-    "4개",
-    "538억"
-   ],
-   "url": "https://www.thelec.net/news/articleView.html?idxno=14469"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "LG에너지솔루션",
-   "cat": "customer",
-   "group": "lgensol",
-   "h": "​LG Energy Solution to Compensate Battery Equipment Maker 10 Billion Won - THE ELEC, Korea Electronics Industry Media",
-   "nt": "lgenergysolutiontocompensatebatteryequip",
-   "tk": [
-    "10",
-    "battery",
-    "billion",
-    "compensate",
-    "elec",
-    "electronics",
-    "energy",
-    "equipment",
-    "industry",
-    "korea",
-    "lg",
-    "maker",
-    "media",
-    "solution",
-    "the",
-    "to",
-    "won"
-   ],
-   "nums": [
-    "4개",
-    "538억"
-   ],
-   "url": "https://www.thelec.net/news/articleView.html?idxno=14469"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "SK온 \"올해 ESS 수주목표 20GWh 달성 긍정적\"",
-   "nt": "sk온올해ess수주목표20gwh달성긍정적",
-   "tk": [
-    "20gwh",
-    "ess",
-    "sk온",
-    "긍정적",
-    "달성",
-    "수주목표",
-    "올해"
-   ],
-   "nums": [
-    "20GWh",
-    "284MW",
-    "50.3%"
-   ],
-   "url": "https://www.mt.co.kr/industry/2026/10/07/2026100611040848837"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "\"올해 수주목표 20GWh 긍정적\"…SK온, 한·미·유럽 맞춤 전략 공개 - 머니투데이",
-   "nt": "올해수주목표20gwh긍정적sk온한미유럽맞춤전략공개머니투데이",
-   "tk": [
-    "20gwh",
-    "sk온",
-    "공개",
-    "긍정적",
-    "맞춤",
-    "머니투데이",
-    "수주목표",
-    "올해",
-    "유럽",
-    "전략"
-   ],
-   "nums": [
-    "20GWh",
-    "284MW",
-    "50.3%"
-   ],
-   "url": "https://www.mt.co.kr/industry/2026/10/07/2026100611040848837"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "SK온 헝가리 이반차 공장, 포드 'Q1 어워드' 품질 인증",
-   "nt": "sk온헝가리이반차공장포드q1어워드품질인증",
-   "tk": [
-    "q1",
-    "sk온",
-    "공장",
-    "어워드",
-    "이반차",
-    "인증",
-    "포드",
-    "품질",
-    "헝가리"
-   ],
-   "nums": [
-    "2024년",
-    "2년",
-    "2분기",
-    "30GWh",
-    "47.5GWh",
-    "Q1"
-   ],
-   "url": "https://www.asiae.co.kr/article/2026100708104553806"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "SK온",
-   "cat": "customer",
-   "group": "skon",
-   "h": "SK온 헝가리공장, 포드 'Q1' 인증…양산 2년 만에 품질 경쟁력 인정",
-   "nt": "sk온헝가리공장포드q1인증양산2년만에품질경쟁력인정",
-   "tk": [
-    "2년",
-    "q1",
-    "sk온",
-    "경쟁력",
-    "만에",
-    "양산",
-    "인정",
-    "인증",
-    "포드",
-    "품질",
-    "헝가리공장"
-   ],
-   "nums": [
-    "2024년",
-    "2년",
-    "2분기",
-    "30GWh",
-    "47.5GWh",
-    "Q1"
-   ],
-   "url": "https://www.asiae.co.kr/article/2026100708104553806"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "피엔티",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "피엔티, 美·인도 배터리쇼 연속 참가…장비·소재·셀 턴키 제시",
-   "nt": "피엔티인도배터리쇼연속참가장비소재셀턴키제시",
-   "tk": [
-    "배터리쇼",
-    "소재",
-    "연속",
-    "인도",
-    "장비",
-    "제시",
-    "참가",
-    "턴키",
-    "피엔티"
-   ],
-   "nums": [],
-   "url": "https://www.the-stock.kr/news/articleView.html?idxno=33517"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "피엔티",
-   "cat": "competitor",
-   "group": "grade_B",
-   "h": "피엔티, 美·인도 배터리쇼 연속 참가…글로벌 ‘배터리 턴키’ 역량 과시",
-   "nt": "피엔티인도배터리쇼연속참가글로벌배터리턴키역량과시",
-   "tk": [
-    "과시",
-    "글로벌",
-    "배터리",
-    "배터리쇼",
-    "역량",
-    "연속",
-    "인도",
-    "참가",
-    "턴키",
-    "피엔티"
-   ],
-   "nums": [],
-   "url": "https://www.the-stock.kr/news/articleView.html?idxno=33517"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "SK하이닉스, 'AI 환경연구소' 설립 추진…협력사 1700곳 탈탄소 지원",
-   "nt": "sk하이닉스ai환경연구소설립추진협력사1700곳탈탄소지원",
-   "tk": [
-    "1700곳",
-    "ai",
-    "sk하이닉스",
-    "설립",
-    "지원",
-    "추진",
-    "탈탄소",
-    "협력사",
-    "환경연구소"
-   ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20261007189000003"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "SK하이닉스, AI환경연구소 설립한다…반도체 환경문제 선제대응",
-   "nt": "sk하이닉스ai환경연구소설립한다반도체환경문제선제대응",
-   "tk": [
-    "ai환경연구소",
-    "sk하이닉스",
-    "반도체",
-    "선제대응",
-    "설립한다",
-    "환경문제"
-   ],
-   "nums": [],
-   "url": "https://www.yna.co.kr/view/AKR20261007189000003"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "BGF, 반도체 소재 KNW 지분 56.9% 매입…무수불산 사업 직접 관리",
-   "nt": "bgf반도체소재knw지분569매입무수불산사업직접관리",
-   "tk": [
-    "56",
-    "bgf",
-    "knw",
-    "관리",
-    "매입",
-    "무수불산",
-    "반도체",
-    "사업",
-    "소재",
-    "지분",
-    "직접"
-   ],
-   "nums": [
-    "56.9%",
-    "5만"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261007167551008"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "BGF, 반도체 소재 손자회사 지분 전량 매입…지배구조 개편(종합)",
-   "nt": "bgf반도체소재손자회사지분전량매입지배구조개편종합",
-   "tk": [
-    "bgf",
-    "개편",
-    "매입",
-    "반도체",
-    "소재",
-    "손자회사",
-    "전량",
-    "종합",
-    "지배구조",
-    "지분"
-   ],
-   "nums": [
-    "5만"
-   ],
-   "url": "https://www.yna.co.kr/view/AKR20261007167551008"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "1~3분기 외국인직접투자 148.65억달러 사상 최대…소재·부품 151.8%↑",
-   "nt": "13분기외국인직접투자14865억달러사상최대소재부품1518",
-   "tk": [
-    "148",
-    "151",
-    "3분기",
-    "65억달러",
-    "부품",
-    "사상",
-    "소재",
-    "외국인직접투자",
-    "최대"
-   ],
-   "nums": [
-    "110.6%",
-    "148.65억",
-    "151.8%",
-    "228.96억",
-    "3분기",
-    "62.53억"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12170703"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "semi",
-   "h": "올 국내 외국인투자 149억弗 … 1년새 30% 늘어 사상 최대",
-   "nt": "올국내외국인투자149억1년새30늘어사상최대",
-   "tk": [
-    "149억",
-    "1년새",
-    "30",
-    "국내",
-    "늘어",
-    "사상",
-    "외국인투자",
-    "최대"
-   ],
-   "nums": [
-    "110.6%",
-    "149억",
-    "1년",
-    "228.96억",
-    "30%",
-    "62.53억"
-   ],
-   "url": "https://www.mk.co.kr/news/economy/12170703"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Atmos, 호주 퀸즐랜드 400MW/1.6GWh Teebar BESS 금융 종결",
-   "nt": "atmos호주퀸즐랜드400mw16gwhteebarbess금융종결",
-   "tk": [
-    "400mw",
-    "6gwh",
-    "atmos",
-    "bess",
-    "teebar",
-    "금융",
-    "종결",
-    "퀸즐랜드",
-    "호주"
-   ],
-   "nums": [
-    "1.6GWh",
-    "400MW"
-   ],
-   "url": "https://www.energy-storage.news/atmos-renewables-closes-financing-on-1-6gwh-capacity-investment-scheme-backed-battery-storage-system-in-australia/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "Atmos Renewables closes financing on 1.6GWh Capacity Investment Scheme-backed battery storage system in Australia",
-   "nt": "atmosrenewablesclosesfinancingon16gwhcap",
-   "tk": [
-    "6gwh",
-    "atmos",
-    "australia",
-    "backed",
-    "battery",
-    "capacity",
-    "closes",
-    "financing",
-    "in",
-    "investment",
-    "on",
-    "renewables",
-    "scheme",
-    "storage",
-    "system"
-   ],
-   "nums": [
-    "1.6GWh"
-   ],
-   "url": "https://www.energy-storage.news/atmos-renewables-closes-financing-on-1-6gwh-capacity-investment-scheme-backed-battery-storage-system-in-australia/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "BW ESS, 이탈리아 828MWh BESS 착공…한 달 새 두 번째 대형 프로젝트",
-   "nt": "bwess이탈리아828mwhbess착공한달새두번째대형프로젝트",
-   "tk": [
-    "828mwh",
-    "bess",
-    "bw",
-    "ess",
-    "대형",
-    "번째",
-    "이탈리아",
-    "착공",
-    "프로젝트"
-   ],
-   "nums": [
-    "828MWh"
-   ],
-   "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "battery",
-   "h": "BW ESS starts building 828MWh BESS in Italy as ‘market moves to execution’",
-   "nt": "bwessstartsbuilding828mwhbessinitalyasma",
-   "tk": [
-    "828mwh",
-    "as",
-    "bess",
-    "building",
-    "bw",
-    "ess",
-    "execution",
-    "in",
-    "italy",
-    "market",
-    "moves",
-    "starts",
-    "to"
-   ],
-   "nums": [
-    "828MWh"
-   ],
-   "url": "https://www.energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "지오디스, 르노·볼보 44t 전기트럭 110대 발주…2027년 5월까지 인도",
-   "nt": "지오디스르노볼보44t전기트럭110대발주2027년5월까지인도",
-   "tk": [
-    "110대",
-    "2027년",
-    "44t",
-    "5월까지",
-    "르노",
-    "발주",
-    "볼보",
-    "인도",
-    "전기트럭",
-    "지오디스"
-   ],
-   "nums": [
-    "110대",
-    "2027년"
-   ],
-   "url": "https://www.electrive.com/2026/10/06/geodis-orders-110-battery-electric-trucks-from-renault-and-volvo/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "Geodis orders 110 battery-electric trucks from Renault and Volvo",
-   "nt": "geodisorders110batteryelectrictrucksfrom",
-   "tk": [
-    "110",
-    "and",
-    "battery",
-    "electric",
-    "from",
-    "geodis",
-    "orders",
-    "renault",
-    "trucks",
-    "volvo"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/06/geodis-orders-110-battery-electric-trucks-from-renault-and-volvo/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "크로아티아, 10월부터 EV 구매 보조금 최대 9000유로",
-   "nt": "크로아티아10월부터ev구매보조금최대9000유로",
-   "tk": [
-    "10월부터",
-    "9000유로",
-    "ev",
-    "구매",
-    "보조금",
-    "최대",
-    "크로아티아"
-   ],
-   "nums": [
-    "9000유로"
-   ],
-   "url": "https://www.electrive.com/2026/10/07/new-ev-incentive-scheme-promises-up-to-e9000-in-croatia/"
-  },
-  {
-   "date": "2026-10-08",
-   "entity": "",
-   "cat": "market",
-   "group": "ev",
-   "h": "New EV incentive scheme promises ‘up to €9,000’ in Croatia",
-   "nt": "newevincentiveschemepromisesupto9000incr",
-   "tk": [
-    "000",
-    "croatia",
-    "ev",
-    "in",
-    "incentive",
-    "new",
-    "promises",
-    "scheme",
-    "to",
-    "up"
-   ],
-   "nums": [],
-   "url": "https://www.electrive.com/2026/10/07/new-ev-incentive-scheme-promises-up-to-e9000-in-croatia/"
-  },
-  {
    "date": "2026-10-12",
    "entity": "LG에너지솔루션",
    "cat": "customer",
@@ -11684,6 +9415,929 @@
    ],
    "nums": [],
    "url": "https://www.yna.co.kr/view/AKR20261101015700003"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "재고평가손실에 발목 잡힌 엘앤에프…시장은 LFP 성장성 주목",
+   "nt": "재고평가손실에발목잡힌엘앤에프시장은lfp성장성주목",
+   "tk": [
+    "lfp",
+    "발목",
+    "성장성",
+    "시장은",
+    "엘앤에프",
+    "잡힌",
+    "재고평가손실에",
+    "주목"
+   ],
+   "nums": [
+    "3분기"
+   ],
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=502046"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Norwegian central bank buys US$300 million stake in Brookfield’s soon-to-be acquired BESS developer Aypa Power",
+   "nt": "norwegiancentralbankbuysus300millionstak",
+   "tk": [
+    "300",
+    "acquired",
+    "aypa",
+    "bank",
+    "be",
+    "bess",
+    "brookfield",
+    "buys",
+    "central",
+    "developer",
+    "in",
+    "million",
+    "norwegian",
+    "power",
+    "soon",
+    "stake",
+    "to",
+    "us"
+   ],
+   "nums": [
+    "$300million"
+   ],
+   "url": "https://www.energy-storage.news/norwegian-central-bank-buys-us300-million-stake-in-brookfields-soon-to-be-acquired-bess-developer-aypa-power/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "Tata Agratas",
+   "cat": "customer",
+   "group": "global",
+   "h": "Bound Digital, Scale Armed: Inside Agratas’ Dual-Continent Battery Blueprint",
+   "nt": "bounddigitalscalearmedinsideagratasdualc",
+   "tk": [
+    "agratas",
+    "armed",
+    "battery",
+    "blueprint",
+    "bound",
+    "continent",
+    "digital",
+    "dual",
+    "inside",
+    "scale"
+   ],
+   "nums": [],
+   "url": "https://www.autocarpro.in/news/bound-digital-scale-armed-inside-agratas-dual-continent-battery-blueprint-135720"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "NCM에서 LFP로… K-배터리 무게중심 이동, 소부장도 새 국면",
+   "nt": "ncm에서lfp로k배터리무게중심이동소부장도새국면",
+   "tk": [
+    "lfp로",
+    "ncm에서",
+    "국면",
+    "무게중심",
+    "배터리",
+    "소부장도",
+    "이동"
+   ],
+   "nums": [],
+   "url": "https://www.batterynews.co.kr/news/articleView.html?idxno=827"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "LG에너지솔루션",
+   "cat": "project",
+   "group": "all",
+   "h": "`3Q 주춤` 양극재, 내년 반등 노린다…LG엔솔 빠진 韓 ESS 3차 입찰 [위클리배터리]",
+   "nt": "3q주춤양극재내년반등노린다lg엔솔빠진ess3차입찰위클리배터리",
+   "tk": [
+    "3q",
+    "3차",
+    "ess",
+    "lg엔솔",
+    "내년",
+    "노린다",
+    "반등",
+    "빠진",
+    "양극재",
+    "위클리배터리",
+    "입찰",
+    "주춤"
+   ],
+   "nums": [],
+   "url": "https://www.ddaily.co.kr/page/view/2026110802215406547"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "LG화학, LG엔솔 지분으로 2.5조 마련···석화 재편·미래 투자 배분 시험대",
+   "nt": "lg화학lg엔솔지분으로25조마련석화재편미래투자배분시험대",
+   "tk": [
+    "5조",
+    "lg엔솔",
+    "lg화학",
+    "마련",
+    "미래",
+    "배분",
+    "석화",
+    "시험대",
+    "재편",
+    "지분으로",
+    "투자"
+   ],
+   "nums": [
+    "2.5조",
+    "2조",
+    "5000억"
+   ],
+   "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424859"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "LG에너지솔루션",
+   "cat": "project",
+   "group": "all",
+   "h": "\"수주보다 수익성\"…LG엔솔 빠진 역대 최대 ESS 입찰, 삼성SDI·SK온 셈법은?",
+   "nt": "수주보다수익성lg엔솔빠진역대최대ess입찰삼성sdisk온셈법은",
+   "tk": [
+    "ess",
+    "lg엔솔",
+    "sk온",
+    "빠진",
+    "삼성sdi",
+    "셈법은",
+    "수익성",
+    "수주보다",
+    "역대",
+    "입찰",
+    "최대"
+   ],
+   "nums": [],
+   "url": "https://www.econovill.com/news/articleView.html?idxno=756318"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "LG에너지솔루션",
+   "cat": "project",
+   "group": "all",
+   "h": "ESS 시장 커지는데 LG엔솔은 2조원 입찰 포기…삼성SDI·SK온, 수익성 시험대",
+   "nt": "ess시장커지는데lg엔솔은2조원입찰포기삼성sdisk온수익성시험대",
+   "tk": [
+    "2조원",
+    "ess",
+    "lg엔솔은",
+    "sk온",
+    "삼성sdi",
+    "수익성",
+    "시장",
+    "시험대",
+    "입찰",
+    "커지는데",
+    "포기"
+   ],
+   "nums": [
+    "2조"
+   ],
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16269967"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "LG에너지솔루션",
+   "cat": "customer",
+   "group": "lgensol",
+   "h": "[뉴스락 주식네비] LG에너지솔루션, 내년 ESS 영업익 2.4조 전망… 빅테크 수주 '주목'",
+   "nt": "뉴스락주식네비lg에너지솔루션내년ess영업익24조전망빅테크수주주목",
+   "tk": [
+    "4조",
+    "ess",
+    "lg에너지솔루션",
+    "내년",
+    "뉴스락",
+    "빅테크",
+    "수주",
+    "영업익",
+    "전망",
+    "주목",
+    "주식네비"
+   ],
+   "nums": [
+    "2.4조"
+   ],
+   "url": "http://www.newslock.co.kr/news/articleView.html?idxno=139239"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "“개미들은 이번 월요일만 기다립니다”…일단 美 반도체는 회복 성공",
+   "nt": "개미들은이번월요일만기다립니다일단반도체는회복성공",
+   "tk": [
+    "개미들은",
+    "기다립니다",
+    "반도체는",
+    "성공",
+    "월요일만",
+    "이번",
+    "일단",
+    "회복"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/stock/12201946"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "美 데이터센터 규제 공포 과도, “장기 수요 이상 無”",
+   "nt": "데이터센터규제공포과도장기수요이상",
+   "tk": [
+    "공포",
+    "과도",
+    "규제",
+    "데이터센터",
+    "수요",
+    "이상",
+    "장기"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261108000051"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "fa",
+   "h": "“품목 전환 시간 75% 단축”…농심, 녹산 스마트팩토리로 수출 생산혁신",
+   "nt": "품목전환시간75단축농심녹산스마트팩토리로수출생산혁신",
+   "tk": [
+    "75",
+    "녹산",
+    "농심",
+    "단축",
+    "생산혁신",
+    "수출",
+    "스마트팩토리로",
+    "시간",
+    "전환",
+    "품목"
+   ],
+   "nums": [
+    "75%"
+   ],
+   "url": "https://www.etnews.com/20261108000028"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "[연합뉴스 이 시각 헤드라인]",
+   "nt": "연합뉴스이시각헤드라인",
+   "tk": [
+    "시각",
+    "연합뉴스",
+    "헤드라인"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261108017400011"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "[美선거 산업여파] ① 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각",
+   "nt": "선거산업여파텍사스도블루웨이브반도체공장보조금변동촉각",
+   "tk": [
+    "공장",
+    "반도체",
+    "변동",
+    "보조금",
+    "블루웨이브",
+    "산업여파",
+    "선거",
+    "촉각",
+    "텍사스도"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261106146900003"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "“이 숫자를 봐라 … 반도체 투자 둔화기에 메모리가 가장 먼저 꺾인다”",
+   "nt": "이숫자를봐라반도체투자둔화기에메모리가가장먼저꺾인다",
+   "tk": [
+    "가장",
+    "꺾인다",
+    "둔화기에",
+    "먼저",
+    "메모리가",
+    "반도체",
+    "봐라",
+    "숫자를",
+    "투자"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/business/12200478"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "[단독] 은행, 반도체·배터리 기업 재무평가 우대한다",
+   "nt": "단독은행반도체배터리기업재무평가우대한다",
+   "tk": [
+    "기업",
+    "단독",
+    "반도체",
+    "배터리",
+    "우대한다",
+    "은행",
+    "재무평가"
+   ],
+   "nums": [],
+   "url": "https://www.mk.co.kr/news/economy/12201384"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "[긴급진단]AI 투자 호황에 제동… 반도체 슈퍼사이클 분수령 맞았다",
+   "nt": "긴급진단ai투자호황에제동반도체슈퍼사이클분수령맞았다",
+   "tk": [
+    "ai",
+    "긴급진단",
+    "맞았다",
+    "반도체",
+    "분수령",
+    "슈퍼사이클",
+    "제동",
+    "투자",
+    "호황에"
+   ],
+   "nums": [],
+   "url": "https://www.bizcheck.co.kr/news/articleView.html?idxno=3634063"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "美민주 신재생에너지 확대 정책 기대감 속 ESS 수요 증가 관측",
+   "nt": "민주신재생에너지확대정책기대감속ess수요증가관측",
+   "tk": [
+    "ess",
+    "관측",
+    "기대감",
+    "민주",
+    "수요",
+    "신재생에너지",
+    "정책",
+    "증가",
+    "확대"
+   ],
+   "nums": [],
+   "url": "https://www.msn.com/ko-kr/money/topstories/%E7%BE%8E%EB%AF%BC%EC%A3%BC-%EC%8B%A0%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80-%ED%99%95%EB%8C%80-%EC%A0%95%EC%B1%85-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%86%8D-ess-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EA%B4%80%EC%B8%A1/ar-AA2gReFP"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "tech_policy",
+   "group": "all",
+   "h": "美 덮친 '블루 쓰나미'…배터리업계, ESS·EV '순풍'",
+   "nt": "덮친블루쓰나미배터리업계essev순풍",
+   "tk": [
+    "ess",
+    "ev",
+    "덮친",
+    "배터리업계",
+    "블루",
+    "순풍",
+    "쓰나미"
+   ],
+   "nums": [],
+   "url": "https://dealsite.co.kr/articles/172203"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Could BESS move towards LMFP battery chemistry?",
+   "nt": "couldbessmovetowardslmfpbatterychemistry",
+   "tk": [
+    "battery",
+    "bess",
+    "chemistry",
+    "could",
+    "lmfp",
+    "move",
+    "towards"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/could-bess-move-towards-lmfp-battery-chemistry/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Return finances 220MWh in Spain, BW ESS buys 800MWh in France",
+   "nt": "returnfinances220mwhinspainbwessbuys800m",
+   "tk": [
+    "220mwh",
+    "800mwh",
+    "buys",
+    "bw",
+    "ess",
+    "finances",
+    "france",
+    "in",
+    "return",
+    "spain"
+   ],
+   "nums": [
+    "220MWh",
+    "800MWh"
+   ],
+   "url": "https://www.energy-storage.news/return-finances-220mwh-in-spain-bw-ess-buys-800mwh-in-france/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "battery",
+   "h": "Vastly different fortunes for BESS in Belgium and Germany’s capacity market auctions",
+   "nt": "vastlydifferentfortunesforbessinbelgiuma",
+   "tk": [
+    "and",
+    "auctions",
+    "belgium",
+    "bess",
+    "capacity",
+    "different",
+    "for",
+    "fortunes",
+    "germany",
+    "in",
+    "market",
+    "vastly"
+   ],
+   "nums": [
+    "40%"
+   ],
+   "url": "https://www.energy-storage.news/vastly-different-fortunes-for-bess-in-belgium-and-germanys-capacity-market-auctions/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "투자는 40배 더 쓰는데 AMPC 빼면 남는 게 없다…삼성SDI 배터리, 언제쯤 ’제값’ 벌어올래?",
+   "nt": "투자는40배더쓰는데ampc빼면남는게없다삼성sdi배터리언제쯤제값벌어올래",
+   "tk": [
+    "40배",
+    "ampc",
+    "남는",
+    "배터리",
+    "벌어올래",
+    "빼면",
+    "삼성sdi",
+    "쓰는데",
+    "언제쯤",
+    "없다",
+    "제값",
+    "투자는"
+   ],
+   "nums": [
+    "40배"
+   ],
+   "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=304437"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "삼성SDI, 美 전기차 배터리 라인 ESS로 돌린다…저가동 설비 재활용",
+   "nt": "삼성sdi전기차배터리라인ess로돌린다저가동설비재활용",
+   "tk": [
+    "ess로",
+    "돌린다",
+    "라인",
+    "배터리",
+    "삼성sdi",
+    "설비",
+    "재활용",
+    "저가동",
+    "전기차"
+   ],
+   "nums": [],
+   "url": "https://www.smarttoday.co.kr/ko-kr/articles/113527"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "삼성SDI",
+   "cat": "customer",
+   "group": "sdi",
+   "h": "[기후청구서 得⑥] 삼성SDI, 탄소중립 바람 타고 ESS 시장 공략",
+   "nt": "기후청구서삼성sdi탄소중립바람타고ess시장공략",
+   "tk": [
+    "ess",
+    "공략",
+    "기후청구서",
+    "바람",
+    "삼성sdi",
+    "시장",
+    "타고",
+    "탄소중립"
+   ],
+   "nums": [],
+   "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=880645"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "ESS가 가른 배터리 3사 실적···삼성·LG 수익화, SK온은 수주 단계(종합)",
+   "nt": "ess가가른배터리3사실적삼성lg수익화sk온은수주단계종합",
+   "tk": [
+    "3사",
+    "ess가",
+    "lg",
+    "sk온은",
+    "가른",
+    "단계",
+    "배터리",
+    "삼성",
+    "수익화",
+    "수주",
+    "실적",
+    "종합"
+   ],
+   "nums": [
+    "4078억",
+    "7560억"
+   ],
+   "url": "https://www.newsway.co.kr/news/view?ud=2026110316103067567"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "[중국 비즈니스 트렌드&동향] 유니트리는 투자로, BYD는 수출로, 텐센트는 업무 AI로",
+   "nt": "중국비즈니스트렌드동향유니트리는투자로byd는수출로텐센트는업무ai로",
+   "tk": [
+    "ai로",
+    "byd는",
+    "동향",
+    "비즈니스",
+    "수출로",
+    "업무",
+    "유니트리는",
+    "중국",
+    "텐센트는",
+    "투자로",
+    "트렌드"
+   ],
+   "nums": [
+    "10월28일",
+    "2026년",
+    "3분기"
+   ],
+   "url": "https://platum.kr/archives/297507"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "티로보틱스",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "티로보틱스, 美 포드에너지향 ESS 자동화 설비 추가 수주…누적 230억 달성",
+   "nt": "티로보틱스포드에너지향ess자동화설비추가수주누적230억달성",
+   "tk": [
+    "230억",
+    "ess",
+    "누적",
+    "달성",
+    "설비",
+    "수주",
+    "자동화",
+    "추가",
+    "티로보틱스",
+    "포드에너지향"
+   ],
+   "nums": [
+    "230억",
+    "40억"
+   ],
+   "url": "https://www.etoday.co.kr/news/view/2643029"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "[경제잇슈] 중국산 전기차 44%…관세·보조금 문턱에도 점유율 확대",
+   "nt": "경제잇슈중국산전기차44관세보조금문턱에도점유율확대",
+   "tk": [
+    "44",
+    "경제잇슈",
+    "관세",
+    "문턱에도",
+    "보조금",
+    "전기차",
+    "점유율",
+    "중국산",
+    "확대"
+   ],
+   "nums": [
+    "35.0%",
+    "3분기",
+    "44%",
+    "44.2%"
+   ],
+   "url": "https://www.issuevalley.com/news/articleView.html?idxno=57699"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "맞춤형 HBM이 바꾼 SK·삼성 인사…기술통이 미주사업 이끈다",
+   "nt": "맞춤형hbm이바꾼sk삼성인사기술통이미주사업이끈다",
+   "tk": [
+    "hbm이",
+    "sk",
+    "기술통이",
+    "맞춤형",
+    "미주사업",
+    "바꾼",
+    "삼성",
+    "이끈다",
+    "인사"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261108042900003"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "TSMC '메모리 반도체 사업 진출설' 공식 부인…“기존 파운드리 집중”",
+   "nt": "tsmc메모리반도체사업진출설공식부인기존파운드리집중",
+   "tk": [
+    "tsmc",
+    "공식",
+    "기존",
+    "메모리",
+    "반도체",
+    "부인",
+    "사업",
+    "진출설",
+    "집중",
+    "파운드리"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261108000094"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "로보로드, '도로파손 피지컬 AI' 시대 연다…탐측부터 복구까지 전 과정 자동화",
+   "nt": "로보로드도로파손피지컬ai시대연다탐측부터복구까지전과정자동화",
+   "tk": [
+    "ai",
+    "과정",
+    "도로파손",
+    "로보로드",
+    "복구까지",
+    "시대",
+    "연다",
+    "자동화",
+    "탐측부터",
+    "피지컬"
+   ],
+   "nums": [],
+   "url": "https://www.etnews.com/20261106000139"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "광주송정역·금호타이어공장 일대 '반도체 관문도시' 조성",
+   "nt": "광주송정역금호타이어공장일대반도체관문도시조성",
+   "tk": [
+    "관문도시",
+    "광주송정역",
+    "금호타이어공장",
+    "반도체",
+    "일대",
+    "조성"
+   ],
+   "nums": [
+    "119만",
+    "394만"
+   ],
+   "url": "https://www.yna.co.kr/view/AKR20261106086200054"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "semi",
+   "h": "'LH 불참 비상' 반도체 배후도시 조성에 광주도시공사 참여",
+   "nt": "lh불참비상반도체배후도시조성에광주도시공사참여",
+   "tk": [
+    "lh",
+    "광주도시공사",
+    "반도체",
+    "배후도시",
+    "불참",
+    "비상",
+    "조성에",
+    "참여"
+   ],
+   "nums": [],
+   "url": "https://www.yna.co.kr/view/AKR20261106054700054"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "BYD",
+   "cat": "customer",
+   "group": "global",
+   "h": "BYD’s Yangwang U9 Xtreme breaks the 500 km/h barrier",
+   "nt": "bydsyangwangu9xtremebreaksthe500kmhbarri",
+   "tk": [
+    "500",
+    "barrier",
+    "breaks",
+    "byd",
+    "km",
+    "the",
+    "u9",
+    "xtreme",
+    "yangwang"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/11/07/byds-yangwang-u9-xtreme-breaks-the-500-km-h-barrier/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "",
+   "cat": "market",
+   "group": "ev",
+   "h": "JBM EV introduces Ecolife e12 electric bus in Singapore",
+   "nt": "jbmevintroducesecolifee12electricbusinsi",
+   "tk": [
+    "bus",
+    "e12",
+    "ecolife",
+    "electric",
+    "ev",
+    "in",
+    "introduces",
+    "jbm",
+    "singapore"
+   ],
+   "nums": [],
+   "url": "https://www.electrive.com/2026/11/06/jbm-ev-introduces-ecolife-e12-electric-bus-in-singapore/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "EVE",
+   "cat": "customer",
+   "group": "global",
+   "h": "Anthropic Tests Claude Trading and Sabotage Detection in EVE",
+   "nt": "anthropictestsclaudetradingandsabotagede",
+   "tk": [
+    "and",
+    "anthropic",
+    "claude",
+    "detection",
+    "eve",
+    "in",
+    "sabotage",
+    "tests",
+    "trading"
+   ],
+   "nums": [
+    "2026"
+   ],
+   "url": "https://www.unite.ai/anthropic-tests-claude-trading-and-sabotage-detection-in-eve/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "CATL",
+   "cat": "customer",
+   "group": "global",
+   "h": "‘It’s a no-brainer’: Alfen CEO on sodium-ion BESS plans with CATL",
+   "nt": "itsanobraineralfenceoonsodiumionbessplan",
+   "tk": [
+    "alfen",
+    "bess",
+    "brainer",
+    "catl",
+    "ceo",
+    "ion",
+    "it",
+    "no",
+    "on",
+    "plans",
+    "sodium",
+    "with"
+   ],
+   "nums": [],
+   "url": "https://www.energy-storage.news/alfen-ceo-sodium-ion-bess-plans-catl/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "LEAD Intelligent",
+   "cat": "competitor",
+   "group": "grade_A",
+   "h": "Wuxi Lead Intelligent Equipment CO.,LTD. (B581.F) valuation measures and financial statistics",
+   "nt": "wuxileadintelligentequipmentcoltdb581fva",
+   "tk": [
+    "and",
+    "b581",
+    "co",
+    "equipment",
+    "financial",
+    "intelligent",
+    "lead",
+    "ltd",
+    "measures",
+    "statistics",
+    "valuation",
+    "wuxi"
+   ],
+   "nums": [],
+   "url": "https://uk.finance.yahoo.com/quote/B581.F/key-statistics/"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "SK온",
+   "cat": "customer",
+   "group": "skon",
+   "h": "SK이노, 리밸런싱 넘어 에너지 통합…마지막 퍼즐은 'SK온 합병'",
+   "nt": "sk이노리밸런싱넘어에너지통합마지막퍼즐은sk온합병",
+   "tk": [
+    "sk온",
+    "sk이노",
+    "넘어",
+    "리밸런싱",
+    "마지막",
+    "에너지",
+    "통합",
+    "퍼즐은",
+    "합병"
+   ],
+   "nums": [],
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680112.html"
+  },
+  {
+   "date": "2026-11-09",
+   "entity": "나인테크",
+   "cat": "competitor",
+   "group": "grade_B",
+   "h": "나인테크, 8.6세대 잉크젯 OLED 라인 장비 공급 확대",
+   "nt": "나인테크86세대잉크젯oled라인장비공급확대",
+   "tk": [
+    "6세대",
+    "oled",
+    "공급",
+    "나인테크",
+    "라인",
+    "잉크젯",
+    "장비",
+    "확대"
+   ],
+   "nums": [
+    "254억"
+   ],
+   "url": "https://www.finance-scope.com/article/view/scp202611060006"
   }
  ]
 }

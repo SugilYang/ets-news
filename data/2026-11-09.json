@@ -1,0 +1,927 @@
+{
+ "schema": 4,
+ "date": "2026-11-09",
+ "weekday": "월",
+ "edition": "주간",
+ "issue_no": 29,
+ "window_hours": 168,
+ "summary": "\"수주보다 수익성\"…LG엔솔 빠진 역대 최대 ESS 입 · ESS 시장 커지는데 LG엔솔은 2조원 입찰 포기…삼성 · NCM에서 LFP로… K-배터리 무게중심 이동, 소부장 · LG화학, LG엔솔 지분으로 2.5조 마련···석화 재",
+ "top": [
+  "2026-11-09-6",
+  "2026-11-09-7",
+  "2026-11-09-3",
+  "2026-11-09-5"
+ ],
+ "sections": [
+  {
+   "id": "project",
+   "title": "Project · RFQ",
+   "subtitle": "투자지역·규모·일정 · RFQ/발주 신호",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-11-09-4",
+       "h": "`3Q 주춤` 양극재, 내년 반등 노린다…LG엔솔 빠진 韓 ESS 3차 입찰 [위클리배터리]",
+       "b": "",
+       "src": "디지털데일리",
+       "url": "https://www.ddaily.co.kr/page/view/2026110802215406547",
+       "date": "2026-11-08",
+       "cat": "project",
+       "group": "all",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "RFQ",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-6",
+       "h": "\"수주보다 수익성\"…LG엔솔 빠진 역대 최대 ESS 입찰, 삼성SDI·SK온 셈법은?",
+       "b": "국내 배터리 업계가 앞다퉈 에너지저장장치(ESS)를 신성장동력으로 육성하고 있는 가운데 LG에너지솔루션이 역대 최대 규모의 정부 ESS 입찰에 불참하면서 기업별 수주 전략이 엇갈리고 있다.",
+       "src": "ER 이코노믹리뷰",
+       "url": "https://www.econovill.com/news/articleView.html?idxno=756318",
+       "date": "2026-11-06",
+       "cat": "project",
+       "group": "all",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "수주",
+        "RFQ"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-7",
+       "h": "ESS 시장 커지는데 LG엔솔은 2조원 입찰 포기…삼성SDI·SK온, 수익성 시험대",
+       "b": "(톱스타뉴스 김명수 기자) 국내 에너지저장장치(ESS) 시장에서 역대 최대 규모의 정부 입찰을 앞두고 배터리 업계의 수익성 경쟁이 새로운 국면에 접어들었다.",
+       "src": "톱스타뉴스",
+       "url": "https://www.topstarnews.net/news/articleView.html?idxno=16269967",
+       "date": "2026-11-06",
+       "cat": "project",
+       "group": "all",
+       "entity": "LG에너지솔루션",
+       "related": [
+        "삼성SDI",
+        "SK온"
+       ],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주",
+        "RFQ",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "customer",
+   "title": "고객사 동향",
+   "subtitle": "CAPEX · 신공장 · 증설 · JV · 연기/취소",
+   "groups": [
+    {
+     "id": "lgensol",
+     "title": "LG에너지솔루션",
+     "items": [
+      {
+       "id": "2026-11-09-3",
+       "h": "NCM에서 LFP로… K-배터리 무게중심 이동, 소부장도 새 국면",
+       "b": "국내 배터리 산업에서 LFP(리튬·인산·철) 양극재 사업이 새로운 경쟁 분야로 부상하고 있다.",
+       "src": "batterynews.co.kr",
+       "url": "https://www.batterynews.co.kr/news/articleView.html?idxno=827",
+       "date": "2026-11-03",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-5",
+       "h": "LG화학, LG엔솔 지분으로 2.5조 마련···석화 재편·미래 투자 배분 시험대",
+       "b": "LG화학이 LG에너지솔루션 지분을 활용해 <b>2조</b><b>5000억</b>원 규모의 유동성 확보에 나서면서 석유화학 재편과 미래 투자를 병행할 자금 운용이 시험대에 올랐다.",
+       "src": "시사저널e",
+       "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424859",
+       "date": "2026-11-08",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-8",
+       "h": "[뉴스락 주식네비] LG에너지솔루션, 내년 ESS 영업익 2.4조 전망… 빅테크 수주 '주목'",
+       "b": "LG에너지솔루션(373220) 이 에너지저장장치(ESS) 수주 지연으로 단기 모멘텀은 약해졌지만 빅테크 기업과의 직접 계약과 유럽 전기차(EV) 공장 가동률 회복을 바탕으로 중장기 성장 동력을 확대하고 있다는 분석이 나왔다.",
+       "src": "뉴스락",
+       "url": "http://www.newslock.co.kr/news/articleView.html?idxno=139239",
+       "date": "2026-11-04",
+       "cat": "customer",
+       "group": "lgensol",
+       "entity": "LG에너지솔루션",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "수주",
+        "정책",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "sdi",
+     "title": "삼성SDI",
+     "items": [
+      {
+       "id": "2026-11-09-22",
+       "h": "투자는 40배 더 쓰는데 AMPC 빼면 남는 게 없다…삼성SDI 배터리, 언제쯤 ’제값’ 벌어올래?",
+       "b": "【뉴스퀘스트=이승주 기자】삼성SDI가 에너지저장장치(ESS)를 중심으로 배터리 사업 확대에 힘을 싣고 있지만 사업별 수익성은 다른 양상을 보이고 있다.",
+       "src": "뉴스퀘스트",
+       "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=304437",
+       "date": "2026-11-06",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "정책",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-23",
+       "h": "삼성SDI, 美 전기차 배터리 라인 ESS로 돌린다…저가동 설비 재활용",
+       "b": "|스마트투데이=송호길 기자| 삼성SDI가 미국 전기차 배터리 생산라인을 에너지저장장치(ESS)용으로 전환하며 생산설비 활용도를 높이고 있다.",
+       "src": "스마트투데이",
+       "url": "https://www.smarttoday.co.kr/ko-kr/articles/113527",
+       "date": "2026-11-06",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-24",
+       "h": "[기후청구서 得⑥] 삼성SDI, 탄소중립 바람 타고 ESS 시장 공략",
+       "b": "| 서울=한스경제 김혜지 기자 | 삼성SDI가 글로벌 탄소중립 전환과 재생에너지 확대를 새로운 성장 기회로 삼아 에너지저장장치(ESS) 사업을 강화하는 가운데…",
+       "src": "한스경제",
+       "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=880645",
+       "date": "2026-11-06",
+       "cat": "customer",
+       "group": "sdi",
+       "entity": "삼성SDI",
+       "related": [],
+       "tags": [
+        "ESS",
+        "각형",
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "skon",
+     "title": "SK온",
+     "items": [
+      {
+       "id": "2026-11-09-25",
+       "h": "ESS가 가른 배터리 3사 실적···삼성·LG 수익화, SK온은 수주 단계(종합)",
+       "b": "삼성SDI <b>4078억</b>·LG엔솔 <b>7560억</b> 영업익···AI 데이터센터 수요",
+       "src": "뉴스웨이",
+       "url": "https://www.newsway.co.kr/news/view?ud=2026110316103067567",
+       "date": "2026-11-03",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [
+        "LG에너지솔루션",
+        "삼성SDI"
+       ],
+       "tags": [
+        "ESS",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-39",
+       "h": "SK이노, 리밸런싱 넘어 에너지 통합…마지막 퍼즐은 'SK온 합병'",
+       "b": "SKIET 이어 SK온까지 사업·조직 정비 속도 분할·외부자본 유치 한계…통합·대형화 전환 AI 에너지 사업 중요성…사업형 리더십 출범 차입 부담·주주 피로…",
+       "src": "인베스트조선",
+       "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680112.html",
+       "date": "2026-11-06",
+       "cat": "customer",
+       "group": "skon",
+       "entity": "SK온",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "global",
+     "title": "글로벌 · 기타",
+     "items": [
+      {
+       "id": "2026-11-09-2",
+       "h": "Bound Digital, Scale Armed: Inside Agratas’ Dual-Continent Battery Blueprint",
+       "b": "Tata's battery arm is combining zero-‘shadow IT’ plant architecture across Sanand and…",
+       "src": "bing.com",
+       "url": "https://www.autocarpro.in/news/bound-digital-scale-armed-inside-agratas-dual-continent-battery-blueprint-135720",
+       "date": "2026-11-04",
+       "cat": "customer",
+       "group": "global",
+       "entity": "Tata Agratas",
+       "related": [],
+       "tags": [],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-26",
+       "h": "[중국 비즈니스 트렌드&amp;동향] 유니트리는 투자로, BYD는 수출로, 텐센트는 업무 AI로",
+       "b": "유니트리, 상장 후 첫 분기 실적과 세쿼이아차이나 공동 투자 플랜 중국 휴머노이드 로봇 기업 유니트리(Unitree·宇树科技)가 10월 28일 <b>2026년</b> 3분기…",
+       "src": "플래텀(Platum)",
+       "url": "https://platum.kr/archives/297507",
+       "date": "2026-11-03",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-28",
+       "h": "[경제잇슈] 중국산 전기차 44%…관세·보조금 문턱에도 점유율 확대",
+       "b": "파이낸셜뉴스가 한국자동차모빌리티산업협회(KAMA) 자료를 분석한 결과, 중국산 전기차 비중은 올해 상반기 <b>35.0%</b>에서 3분기 <b>44.2%</b>로 상승했다.",
+       "src": "이슈밸리",
+       "url": "https://www.issuevalley.com/news/articleView.html?idxno=57699",
+       "date": "2026-11-02",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-34",
+       "h": "BYD’s Yangwang U9 Xtreme breaks the 500 km/h barrier",
+       "b": "503.17 km/h: The Yangwang U9 Xtreme has become the first production car to exceed 500 km/h in a one-way attempt in Abu Dhabi.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/11/07/byds-yangwang-u9-xtreme-breaks-the-500-km-h-barrier/",
+       "date": "2026-11-07",
+       "cat": "customer",
+       "group": "global",
+       "entity": "BYD",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-36",
+       "h": "Anthropic Tests Claude Trading and Sabotage Detection in EVE",
+       "b": "Anthropic published Project EVE research on November 6, 2026, showing that Claude agents…",
+       "src": "bing.com",
+       "url": "https://www.unite.ai/anthropic-tests-claude-trading-and-sabotage-detection-in-eve/",
+       "date": "2026-11-06",
+       "cat": "customer",
+       "group": "global",
+       "entity": "EVE",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-37",
+       "h": "‘It’s a no-brainer’: Alfen CEO on sodium-ion BESS plans with CATL",
+       "b": "We catch up with the CEO of Netherlands-headquartered system integrator Alfen to discuss…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/alfen-ceo-sodium-ion-bess-plans-catl/",
+       "date": "2026-11-05",
+       "cat": "customer",
+       "group": "global",
+       "entity": "CATL",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitor",
+   "title": "업계 동향",
+   "subtitle": "경쟁사 수주 · 신규장비 · 기술 · 해외진출",
+   "groups": [
+    {
+     "id": "grade_A",
+     "title": "A등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-11-09-38",
+       "h": "Wuxi Lead Intelligent Equipment CO.,LTD. (B581.F) valuation measures and financial statistics",
+       "b": "",
+       "src": "Yahoo Finance UK",
+       "url": "https://uk.finance.yahoo.com/quote/B581.F/key-statistics/",
+       "date": "2026-11-08",
+       "cat": "competitor",
+       "group": "grade_A",
+       "entity": "LEAD Intelligent",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "grade_B",
+     "title": "B등급 경쟁사",
+     "items": [
+      {
+       "id": "2026-11-09-27",
+       "h": "티로보틱스, 美 포드에너지향 ESS 자동화 설비 추가 수주…누적 230억 달성",
+       "b": "<b>40억</b> 규모 컨베이어 프로젝트 수주…로봇 이어 생산ㆍ물류 라인 전반으로 영역 확장 美 전쟁부 조건부 승인으로 북미 공급 기반 확보…현지 수주 확대 기대…",
+       "src": "이투데이",
+       "url": "https://www.etoday.co.kr/news/view/2643029",
+       "date": "2026-11-02",
+       "cat": "competitor",
+       "group": "grade_B",
+       "entity": "티로보틱스",
+       "related": [],
+       "tags": [
+        "AMR",
+        "ESS",
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-40",
+       "h": "나인테크, 8.6세대 잉크젯 OLED 라인 장비 공급 확대",
+       "b": "해외 패널사에 진공·질소 물류 이송 시스템 설치 예정 지난 6월 국내 대기업과 <b>254억</b>원 규모 공급계약 체결 나인테크가 노트북·태블릿용 차세대…",
+       "src": "파이낸스스코프",
+       "url": "https://www.finance-scope.com/article/view/scp202611060006",
+       "date": "2026-11-06",
+       "cat": "competitor",
+       "group": "grade_B",
+       "entity": "나인테크",
+       "related": [],
+       "tags": [
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech_policy",
+   "title": "기술 · 정책",
+   "subtitle": "특허 · 공정변화 · 보조금 · 국가별 정책",
+   "groups": [
+    {
+     "id": "all",
+     "title": "",
+     "items": [
+      {
+       "id": "2026-11-09-10",
+       "h": "美 데이터센터 규제 공포 과도, “장기 수요 이상 無”",
+       "b": "미국 중간선거에서 민주당이 압승하면서 데이터센터 인허가 규제 우려로 한·미 반도체 주가가 홍역을 치렀다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261108000051",
+       "date": "2026-11-08",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-12",
+       "h": "[연합뉴스 이 시각 헤드라인]",
+       "b": "■ [美선거 산업여파] 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각 국내 반도체 업계가 미국 현지 생산거점을 구축하는 미국 주요",
+       "src": "10:30",
+       "url": "https://www.yna.co.kr/view/AKR20261108017400011",
+       "date": "2026-11-08",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-13",
+       "h": "[美선거 산업여파] ① 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각",
+       "b": "지역이 이른바 '블루 웨이브' 영향권에 들면서 삼성전자와 SK하이닉스가 향후 반도체 정책 변화를 예의주시하고 있다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261106146900003",
+       "date": "2026-11-08",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "리스크",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-16",
+       "h": "[긴급진단]AI 투자 호황에 제동… 반도체 슈퍼사이클 분수령 맞았다",
+       "b": "세계 증시를 이끌어온 인공지능(AI)·반도체 호황이 중대한 분수령을 맞았다.",
+       "src": "bing.com",
+       "url": "https://www.bizcheck.co.kr/news/articleView.html?idxno=3634063",
+       "date": "2026-11-06",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "정책",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-17",
+       "h": "美민주 신재생에너지 확대 정책 기대감 속 ESS 수요 증가 관측",
+       "b": "미국 중간선거에서 민주당이 상·하원을 모두 장악하면서 국내 배터리업계는 에너지저장장치(ESS) 수요",
+       "src": "bing.com",
+       "url": "https://www.msn.com/ko-kr/money/topstories/%E7%BE%8E%EB%AF%BC%EC%A3%BC-%EC%8B%A0%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80-%ED%99%95%EB%8C%80-%EC%A0%95%EC%B1%85-%EA%B8%B0%EB%8C%80%EA%B0%90-%EC%86%8D-ess-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80-%EA%B4%80%EC%B8%A1/ar-AA2gReFP",
+       "date": "2026-11-06",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "정책"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-18",
+       "h": "美 덮친 '블루 쓰나미'…배터리업계, ESS·EV '순풍'",
+       "b": "미국 중간선거에서 민주당이 상원 최소 54석, 하원 최소 240석을 확보하며 상·하원을 모두 석권했다.",
+       "src": "bing.com",
+       "url": "https://dealsite.co.kr/articles/172203",
+       "date": "2026-11-06",
+       "cat": "tech_policy",
+       "group": "all",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS",
+        "투자",
+        "정책",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 2,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "시장 · 산업",
+   "subtitle": "시장규모 · 수요전망 · 기술 Trend",
+   "groups": [
+    {
+     "id": "ev",
+     "title": "전기차",
+     "items": [
+      {
+       "id": "2026-11-09-31",
+       "h": "로보로드, '도로파손 피지컬 AI' 시대 연다…탐측부터 복구까지 전 과정 자동화",
+       "b": "로보로드(대표 김남호)가 인공지능(AI), 신소재, 로보틱스 기술을 융합해 기존 도로 보수 시장의 고질적 문제 해결과 유지관리 디지털 전환 선도에 나섰다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261106000139",
+       "date": "2026-11-08",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-35",
+       "h": "JBM EV introduces Ecolife e12 electric bus in Singapore",
+       "b": "Indian electric bus manufacturer JBM Electric Vehicles (JBM EV) has launched the Ecolife e12 in Singapore.",
+       "src": "electrive.com",
+       "url": "https://www.electrive.com/2026/11/06/jbm-ev-introduces-ecolife-e12-electric-bus-in-singapore/",
+       "date": "2026-11-07",
+       "cat": "market",
+       "group": "ev",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "battery",
+     "title": "이차전지",
+     "items": [
+      {
+       "id": "2026-11-09-0",
+       "h": "재고평가손실에 발목 잡힌 엘앤에프…시장은 LFP 성장성 주목",
+       "b": "엘앤에프가 올해 3분기 리튬 가격 하락에 따른 재고평가손실과 환율 하락의 영향으로 영업적자로 돌아서며 시장 기대치를 밑도는 실적을 기록했다.",
+       "src": "bing.com",
+       "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=502046",
+       "date": "2026-11-07",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "수주",
+        "실적"
+       ],
+       "grade": "A",
+       "rel": 2,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-1",
+       "h": "Norwegian central bank buys US$300 million stake in Brookfield’s soon-to-be acquired BESS developer Aypa Power",
+       "b": "Norges Bank Investment Management (NBIM), the asset management unit of the central bank…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/norwegian-central-bank-buys-us300-million-stake-in-brookfields-soon-to-be-acquired-bess-developer-aypa-power/",
+       "date": "2026-11-06",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-15",
+       "h": "[단독] 은행, 반도체·배터리 기업 재무평가 우대한다",
+       "b": "앞으로 인공지능(AI), 반도체, 배터리 등 대규모 설비투자로 빚 부담이 큰 전략산업 계열사를 보유한 대기업집단이 은행으로부터 받는 재무관리 부담이 완화된다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/economy/12201384",
+       "date": "2026-11-07",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-19",
+       "h": "Could BESS move towards LMFP battery chemistry?",
+       "b": "What is LMFP battery chemistry, and why is interest growing in it as a possible…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/could-bess-move-towards-lmfp-battery-chemistry/",
+       "date": "2026-11-04",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-20",
+       "h": "Return finances 220MWh in Spain, BW ESS buys 800MWh in France",
+       "b": "BESS owner-operators Return and BW ESS have financed and acquired large-scale projects in…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/return-finances-220mwh-in-spain-bw-ess-buys-800mwh-in-france/",
+       "date": "2026-11-04",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "ESS"
+       ],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-21",
+       "h": "Vastly different fortunes for BESS in Belgium and Germany’s capacity market auctions",
+       "b": "Battery storage projects have won nearly <b>40%</b> of the capacity in Belgium’s latest capacity…",
+       "src": "energy-storage.news",
+       "url": "https://www.energy-storage.news/vastly-different-fortunes-for-bess-in-belgium-and-germanys-capacity-market-auctions/",
+       "date": "2026-11-03",
+       "cat": "market",
+       "group": "battery",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 3,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "semi",
+     "title": "반도체",
+     "items": [
+      {
+       "id": "2026-11-09-9",
+       "h": "“개미들은 이번 월요일만 기다립니다”…일단 美 반도체는 회복 성공",
+       "b": "블루쓰나미 파장이 잦아들며 6일(현지시간) 미국 증시에서 인공지능(AI)·반도체 관련주 급락세가 다소 진정됐다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/stock/12201946",
+       "date": "2026-11-08",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자",
+        "실적"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-14",
+       "h": "“이 숫자를 봐라 … 반도체 투자 둔화기에 메모리가 가장 먼저 꺾인다”",
+       "b": "중국 반도체 굴기의 여파가 하반기 국내 주식 시장을 강타하고 있는 가운데, 권석준 성균관대 화학공학과 교수에게 한·중·일 반도체 산업의 이모저모를 물어봤다.",
+       "src": "mk.co.kr",
+       "url": "https://www.mk.co.kr/news/business/12200478",
+       "date": "2026-11-07",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-29",
+       "h": "맞춤형 HBM이 바꾼 SK·삼성 인사…기술통이 미주사업 이끈다",
+       "b": "엔비디아 같은 미국 빅테크 고객이 인공지능(AI) 가속기를 설계할 때부터 연구개발에 참여해야 물량을 따낼 수 있는 만큼 주요",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261108042900003",
+       "date": "2026-11-09",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "수주"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-30",
+       "h": "TSMC '메모리 반도체 사업 진출설' 공식 부인…“기존 파운드리 집중”",
+       "b": "세계 최대 파운드리(반도체 위탁생산) 기업 TSMC가 엔비디아 요청으로 차세대 '3차원(3D) D램' 생산을 검토 중이라는 외신 보도와 관련해 “기존 파운드리 사업에 집중한다”는 입장을 내놨다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261108000094",
+       "date": "2026-11-08",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-32",
+       "h": "광주송정역·금호타이어공장 일대 '반도체 관문도시' 조성",
+       "b": "8일 전남광주시에 따르면 통합시는 송정역세권과 금호타이어 이전부지, 송정 생활권, 군공항 이전부지 등 <b>394만</b>㎡(약 <b>119만</b>평)를 연계하는 'NOVA 통합 마스터플랜'을 수립할 계획이다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261106086200054",
+       "date": "2026-11-08",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "B",
+       "rel": 4,
+       "followup": null
+      },
+      {
+       "id": "2026-11-09-33",
+       "h": "'LH 불참 비상' 반도체 배후도시 조성에 광주도시공사 참여",
+       "b": "8일 전남광주통합특별시에 따르면 통합시는 광주도시공사의 광주 상무지구 도심융합특구 사업 참여 의향을 확인하고 예비사업시행자 지정을 위한 내부 방침을 마련하고 있다.",
+       "src": "yna.co.kr",
+       "url": "https://www.yna.co.kr/view/AKR20261106054700054",
+       "date": "2026-11-08",
+       "cat": "market",
+       "group": "semi",
+       "entity": "",
+       "related": [],
+       "tags": [],
+       "grade": "C",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    },
+    {
+     "id": "fa",
+     "title": "스마트팩토리 · AMR",
+     "items": [
+      {
+       "id": "2026-11-09-11",
+       "h": "“품목 전환 시간 75% 단축”…농심, 녹산 스마트팩토리로 수출 생산혁신",
+       "b": "농심이 수출 국가별로 다른 제품과 포장 규격에 신속하게 대응하기 위해 생산품목 전환시간을 기존 2시간에서 30분으로 줄인 스마트팩토리를 가동했다.",
+       "src": "etnews.com",
+       "url": "https://www.etnews.com/20261108000028",
+       "date": "2026-11-08",
+       "cat": "market",
+       "group": "fa",
+       "entity": "",
+       "related": [],
+       "tags": [
+        "투자"
+       ],
+       "grade": "A",
+       "rel": 4,
+       "followup": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "fetched": 167,
+  "published": 41,
+  "headline_only": 11,
+  "followup": 0,
+  "suppressed": 0,
+  "sameday": 4,
+  "nobody": 0,
+  "unclassified": 2,
+  "capped": 89
+ },
+ "sources": [
+  "10:30",
+  "ER 이코노믹리뷰",
+  "Yahoo Finance UK",
+  "batterynews.co.kr",
+  "bing.com",
+  "electrive.com",
+  "energy-storage.news",
+  "etnews.com",
+  "mk.co.kr",
+  "yna.co.kr",
+  "뉴스락",
+  "뉴스웨이",
+  "뉴스퀘스트",
+  "디지털데일리",
+  "스마트투데이",
+  "시사저널e",
+  "이슈밸리",
+  "이투데이",
+  "인베스트조선",
+  "톱스타뉴스",
+  "파이낸스스코프",
+  "플래텀(Platum)",
+  "한스경제"
+ ],
+ "note": "공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 수치·계약 세부는 원문/공시로 확인하십시오."
+}

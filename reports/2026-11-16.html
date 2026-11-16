@@ -1,0 +1,284 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>이티에스 시장 동향 보고서 제30호 — 2026-11-16</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet"><style>
+:root{
+  --ink:#111417;--text:#2a2f36;--muted:#6b7280;--faint:#9aa3ad;--rule:#1b1f24;--hair:#d9d5cc;--hair2:#e8e4da;
+  --paper:#efece4;--sheet:#fbfaf6;--accent:#b3261e;--accent-bg:#fbeeed;--brand:#0e9b86;--brand-bg:#e4f3ef;
+  --serif:'Noto Serif KR','Apple SD Gothic Neo','Malgun Gothic',serif;
+  --sans:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--sans);line-height:1.6;
+  font-variant-numeric:tabular-nums;word-break:keep-all;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+b,strong{font-weight:700}
+.sheet{max-width:1180px;margin:14px auto 40px;background:var(--sheet);border:1px solid var(--hair);box-shadow:0 1px 3px rgba(0,0,0,.06);padding:0 28px 34px}
+
+/* ── 제호 ── */
+.mast{border-top:4px solid var(--rule);border-bottom:1px solid var(--rule);padding:16px 0 12px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px}
+.mast .left{display:flex;align-items:center;gap:14px}
+.mast .logo{height:44px;width:auto;display:block}
+.mast .center{text-align:center}
+.mast .en{font-family:var(--sans);font-size:11px;letter-spacing:.32em;color:var(--muted);font-weight:500;margin-bottom:2px}
+.mast .name{font-family:var(--serif);font-weight:900;font-size:40px;line-height:1.1;color:var(--ink);letter-spacing:.02em;text-decoration:none;display:block}
+.mast .right{text-align:right;font-size:12.5px;color:var(--muted);line-height:1.5}
+.mast .right b{display:block;color:var(--ink);font-size:14px;font-family:var(--serif)}
+.dateline{border-bottom:3px double var(--rule);display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;font-size:13px;color:var(--ink)}
+.dateline .issue{font-family:var(--serif);font-weight:700}
+.dateline .pub{color:var(--muted)}
+.nav{display:flex;justify-content:center;gap:0;border-bottom:1px solid var(--rule);margin-bottom:6px;overflow-x:auto}
+.nav a{padding:9px 18px;font-size:13.5px;font-weight:700;text-decoration:none;color:var(--ink);border-left:1px solid var(--hair);white-space:nowrap;letter-spacing:.02em}
+.nav a:first-child{border-left:0}
+.nav a.on{color:var(--brand);box-shadow:inset 0 -3px 0 var(--brand)}
+.nav a:hover{background:#f1efe8}
+
+/* ── 호 이동 ── */
+.issuenav{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);padding:8px 0 0}
+.issuenav a{color:var(--ink);text-decoration:none;font-weight:700}
+.issuenav a:hover{color:var(--brand)}
+.issuenav .dis{color:var(--faint)}
+
+/* ── 1면 톱 ── */
+.front{display:grid;grid-template-columns:3fr 2fr;gap:0 24px;padding:12px 0 10px;border-bottom:1px solid var(--rule);margin-bottom:0}
+.front .lcol{border-right:1px solid var(--hair);padding-right:24px;min-width:0} .front .rcol{min-width:0}
+.front .guide{border-right:0;padding-right:0;margin-top:10px} .front .legend{margin-top:10px}
+.kicker{font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin-bottom:6px}
+.lead-story h1{font-family:var(--serif);font-weight:900;font-size:27px;line-height:1.3;margin:0 0 6px;color:var(--ink)}
+.lead-story h1 a{text-decoration:none}
+.lead-story h1 a:hover{color:var(--accent)}
+.lead-story .b{font-size:14.5px;line-height:1.7;margin:0 0 4px;color:var(--text);text-wrap:pretty}
+.front .side h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--muted);font-weight:700;margin:0 0 6px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
+.front .side .item{padding:4px 0}
+.front .side .item .h{font-size:14.5px}
+.front .side .item .b{display:none}
+.summary{font-size:13px;color:var(--muted);padding:6px 0 0;border-top:1px dotted var(--hair);margin-top:6px}
+.front{border-bottom:3px double var(--rule)}
+.guide-row{display:grid;grid-template-columns:3fr 2fr;gap:0 24px;border-bottom:3px double var(--rule);padding:8px 0 8px}
+.guide{border-right:1px solid var(--hair);padding-right:20px}
+.guide h2,.legend h2{font-family:var(--sans);font-size:11.5px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin:0 0 5px;padding-bottom:4px;border-bottom:1px solid var(--rule)}
+.legend h2{color:var(--muted)} .guide h2 small{letter-spacing:0;font-weight:500;color:var(--muted);margin-left:8px;font-size:11px}
+.guide ul{list-style:none;margin:0;padding:0} .guide li{padding:4px 0;border-bottom:1px dotted var(--hair);font-size:13.5px;line-height:1.5;color:var(--ink);text-wrap:pretty}
+.guide li:last-child{border-bottom:0} .guide li a{text-decoration:none;font-weight:700} .guide li a:hover{color:var(--accent)}
+.guide li small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
+.legend dl{margin:0;font-size:11.5px;line-height:1.55;color:var(--text);display:grid;grid-template-columns:auto 1fr;gap:2px 8px}
+.legend dt{font-weight:700;color:var(--ink);white-space:nowrap} .legend dd{margin:0}
+.summary b{color:var(--ink)}
+
+
+/* ── 한 줄 항목 ── */
+.item .row{display:block}
+.item .row .g{display:inline-block;vertical-align:2px;margin-right:6px}
+.item .row .h{display:inline}
+.legend-bar{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:11px;line-height:1.7;color:var(--muted);
+  background:#f3f1ea;border:1px solid var(--hair);padding:5px 10px;margin:8px 0 0}
+.legend-bar .lb-t{font-weight:700;color:var(--ink);letter-spacing:.12em;font-size:10.5px;padding-right:8px;border-right:1px solid var(--hair)}
+.legend-bar .lb-g b{color:var(--ink);font-weight:700}
+.legend-bar .lb-note{color:var(--faint);margin-left:auto}
+.fu-mini{display:inline-block;font-size:10.5px;font-weight:700;color:var(--accent);border-left:3px solid var(--accent);background:var(--accent-bg);padding:0 5px}
+.front .side{margin-top:8px;border-top:1px solid var(--rule)}
+.front .side h2{border-bottom:0;padding-top:6px}
+.front .rcol .guide{margin-top:0}
+
+/* ── 섹션 ── */
+.section{margin:10px 0 0} .section.thin .sec-head{border-top-width:1px;padding:4px 0;margin-bottom:0}
+.sec-head{display:flex;align-items:baseline;gap:10px;border-top:3px solid var(--rule);border-bottom:1px solid var(--rule);padding:5px 0 4px;margin-bottom:4px}
+.sec-head .no{font-family:var(--serif);font-weight:900;font-size:18px;color:var(--ink)}
+.sec-head h2{font-family:var(--serif);font-weight:900;font-size:19px;margin:0;color:var(--ink);letter-spacing:.01em}
+.sec-head .sub{font-size:12.5px;color:var(--muted)}
+.sec-head .cnt{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.cols{column-count:3;column-gap:24px;column-rule:1px solid var(--hair)}
+.cols.two{column-count:2} .cols.one{column-count:1}
+.group{break-inside:avoid;margin-bottom:4px}
+.group h3{font-family:var(--serif);font-size:13.5px;font-weight:700;color:var(--ink);margin:0;padding:3px 0 2px;border-bottom:2px solid var(--ink);display:flex;align-items:center;gap:8px}
+.group h3 .gcnt{font-family:var(--sans);font-size:11px;color:var(--muted);font-weight:500;margin-left:auto}
+.item{break-inside:avoid;padding:4px 0;border-bottom:1px dotted var(--hair)}
+.item:last-child{border-bottom:0}
+.item .h{margin:0;font-family:var(--serif);font-size:14.5px;font-weight:700;line-height:1.4;color:var(--ink);text-wrap:pretty}
+.item .h a{text-decoration:none}
+.item .h a:hover{color:var(--accent)}
+.item .b{margin:2px 0 0;font-size:13px;line-height:1.55;color:var(--text);text-wrap:pretty}
+.item .b b{color:var(--ink)}
+.meta{margin-top:1px;font-size:10.5px;line-height:1.5;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 7px;align-items:center}
+.meta .src{color:var(--ink);font-weight:500}
+.meta .more{margin-left:auto;text-decoration:none;color:var(--brand);font-weight:700;white-space:nowrap}
+.meta .more:hover{text-decoration:underline}
+.stars{color:#c9a227;letter-spacing:-.05em;font-size:11px}
+.stars .off{color:#d9d5cc}
+.g{display:inline-block;font-size:10.5px;font-weight:700;line-height:1.4;padding:0 6px;border-radius:2px;border:1px solid var(--ink);color:var(--ink);letter-spacing:.04em;white-space:nowrap}
+.g.A{background:var(--accent);border-color:var(--accent);color:#fff}
+.g.B{background:var(--ink);color:#fff}
+.g.C{color:var(--muted);border-color:var(--faint)}
+.tag{display:inline-block;font-size:10.5px;line-height:1.5;padding:0 6px;border-radius:2px;background:#eeece5;color:#4b5563}
+.tag.key{background:var(--brand-bg);color:#0b6f60;font-weight:700}
+.ent{font-weight:700;color:var(--ink)}
+.rel{color:var(--faint)}
+.fu{margin-top:3px;font-size:12px;color:var(--accent);background:var(--accent-bg);border-left:3px solid var(--accent);padding:4px 8px;line-height:1.55}
+.fu b{color:var(--accent)}
+.empty{font-size:13px;color:var(--faint);font-style:italic;padding:6px 0 10px}
+
+/* ── 지난 호(달력) ── */
+.page-title{font-family:var(--serif);font-size:26px;font-weight:900;color:var(--ink);margin:22px 0 4px}
+.page-sub{font-size:13px;color:var(--muted);margin:0 0 12px}
+.months{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:8px}
+.month{border:1px solid var(--hair);background:#fff;padding:12px 14px 14px}
+.month h3{font-family:var(--serif);font-size:17px;margin:0 0 8px;color:var(--ink);display:flex;justify-content:space-between;align-items:baseline}
+.month h3 small{font-family:var(--sans);font-size:11.5px;color:var(--muted);font-weight:500}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center;font-size:12.5px}
+.cal .wd{font-size:11px;color:var(--muted);font-weight:700;padding:2px 0 4px}
+.cal .wd.sun,.cal .d.sun{color:#b3261e}
+.cal .wd.sat,.cal .d.sat{color:#1d4f8a}
+.cal .d{padding:6px 0;border:1px solid transparent;color:var(--faint);border-radius:3px;line-height:1.2}
+.cal .d.has{border-color:var(--ink);color:var(--ink);font-weight:700;text-decoration:none;background:#fff}
+.cal .d.has:hover{background:var(--ink);color:#fff}
+.cal .d.has small{display:block;font-size:9.5px;font-weight:500;color:var(--muted)}
+.cal .d.has:hover small{color:#ddd}
+.cal .d.off{opacity:.35}
+.arc-list{margin-top:18px;border-top:1px solid var(--rule)}
+.arc{display:flex;gap:14px;align-items:baseline;padding:10px 2px;border-bottom:1px dotted var(--hair);text-decoration:none}
+.arc:hover{background:#f4f2ec}
+.arc .no{font-family:var(--serif);font-weight:700;width:60px;flex:none;color:var(--ink)}
+.arc .date{flex:none;width:170px;color:var(--ink);font-weight:500}
+.arc .top{font-size:13px;color:var(--muted)}
+
+/* ── 회사별 ── */
+.co-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin:8px 0 18px}
+.co{background:#fff;border:1px solid var(--hair);padding:12px 14px;text-decoration:none}
+.co:hover{border-color:var(--ink)}
+.co .n{font-family:var(--serif);font-weight:700;font-size:16px;color:var(--ink)}
+.co .m{font-size:12px;color:var(--muted);margin-top:3px}
+.co .m b{color:var(--brand)}
+.dgroup{margin-top:16px}
+.dgroup h3{font-family:var(--serif);font-size:15px;color:var(--ink);margin:0 0 4px;padding-bottom:4px;border-bottom:2px solid var(--ink)}
+.dgroup h3 small{font-family:var(--sans);font-weight:500;color:var(--muted);font-size:12px;margin-left:8px}
+.list{padding:0 2px}
+
+/* ── 검색 ── */
+.sbar{display:grid;grid-template-columns:2fr 1fr 1fr 1fr auto;gap:8px;margin-top:8px}
+.btn{font:inherit;font-size:14px;font-weight:700;padding:9px 18px;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--brand);border-color:var(--brand)} .btn.ghost{background:#fff;color:var(--ink);font-weight:500;padding:6px 12px;font-size:12.5px}
+.sbar2{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:8px;align-items:center}
+.sbar input,.sbar select,.sbar2 input,.sbar2 select{font:inherit;font-size:14px;padding:9px 11px;border:1px solid var(--hair);background:#fff;width:100%}
+.sbar input:focus,.sbar select:focus,.sbar2 input:focus{outline:2px solid var(--brand);outline-offset:1px}
+.sbar2 label{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.scount{font-size:12.5px;color:var(--muted);margin:10px 2px 0}
+.sres{margin-top:6px;border-top:1px solid var(--rule)}
+
+/* ── 주간 종합 ── */
+.wk-page{margin-top:18px;border:1px solid var(--rule);padding:14px 18px 16px;background:#fff}
+.wk-head{display:flex;align-items:baseline;gap:12px;border-bottom:3px double var(--rule);padding-bottom:8px;margin-bottom:12px}
+.wk-head .p{font-family:var(--serif);font-weight:900;font-size:22px;color:var(--ink)}
+.wk-head .t{font-family:var(--serif);font-weight:700;font-size:17px;color:var(--ink)}
+.wk-head .r{margin-left:auto;font-size:12.5px;color:var(--muted)}
+.wk-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:0 18px}
+.wk-cols.three{grid-template-columns:repeat(3,1fr)}
+.wk-col{border-left:1px solid var(--hair);padding-left:14px;min-width:0}
+.wk-col:first-child{border-left:0;padding-left:0}
+.wk-col h4{font-family:var(--serif);font-size:15px;font-weight:700;color:var(--ink);margin:0 0 6px;padding:4px 0;border-bottom:2px solid var(--ink);display:flex;gap:8px;align-items:baseline}
+.wk-col h4 small{margin-left:auto;font-family:var(--sans);font-weight:500;font-size:11px;color:var(--muted)}
+.wk-col .item{padding:8px 0}
+.wk-col .item .h{font-size:14.5px}
+.wk-col .item .b{font-size:12.5px;line-height:1.6}
+.wk-table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:14px}
+.wk-table th,.wk-table td{border-bottom:1px solid var(--hair);padding:6px 8px;text-align:left;vertical-align:top}
+.wk-table th{background:#f3f1ea;color:var(--ink);font-weight:700;border-bottom:2px solid var(--ink)}
+.wk-table td.c{text-align:center}
+.wk-table tr.g td:first-child{font-weight:700}
+.wk-nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.wk-nav a{font-size:12.5px;padding:4px 10px;border:1px solid var(--hair);text-decoration:none;color:var(--ink);background:#fff}
+.wk-nav a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ── 가시성 강화 ── */
+.sec-head{background:var(--ink);color:#fff;padding:6px 12px;border:0;border-left:8px solid var(--secc,#0e9b86);margin-bottom:6px}
+.sec-head .no,.sec-head h2{color:#fff} .sec-head .sub{color:#c9d3df} .sec-head .cnt{color:#e6ebf1}
+.section.thin .sec-head{background:#e9e6de;color:var(--ink);padding:4px 12px}
+.section.thin .sec-head .no,.section.thin .sec-head h2{color:var(--ink)} .section.thin .sec-head .cnt{color:var(--muted)}
+#project{--secc:#b3261e} #customer{--secc:#1d4f8a} #competitor{--secc:#5b3fb8} #tech_policy{--secc:#946400} #market{--secc:#0e9b86}
+.group h3{color:var(--secc,var(--ink));border-bottom-color:var(--secc,var(--ink))}
+.item.gA{background:#fdf3f2;border-left:4px solid var(--accent);padding-left:8px;margin:2px 0}
+.item.gA .h{font-size:15.5px}
+.g{font-size:11px;padding:1px 7px}
+.g.A{box-shadow:0 1px 0 rgba(0,0,0,.15)}
+.lead-story{background:#fff;border:1px solid var(--hair);border-top:5px solid var(--accent);padding:12px 14px 10px;margin-top:6px}
+.lead-story h1{font-size:28px}
+.front .rcol .guide{background:var(--brand-bg);border:1px solid #bfe3d9;padding:10px 12px}
+.guide h2{color:#0b6f60;border-bottom-color:#0b6f60;font-size:13px;letter-spacing:.12em}
+.guide li{font-size:14px;border-bottom-color:#cfe6df}
+.guide li a{color:#0b3d35}
+.refined{display:inline-block;background:var(--brand);color:#fff;font-size:11px;padding:0 7px;border-radius:2px;font-family:var(--sans);font-weight:700;vertical-align:1px}
+.legend-bar{background:#fff}
+@media(max-width:640px){ .lead-story h1{font-size:22px} .item.gA .h{font-size:15.5px} .sec-head{padding:5px 10px} }
+
+/* ── 형식 전환·보고서 ── */
+.issuenav .mid{display:flex;align-items:center;gap:10px}
+.fmt{display:inline-flex;border:1px solid var(--ink);border-radius:3px;overflow:hidden}
+.fmt a{padding:3px 12px;font-size:12.5px;font-weight:700;text-decoration:none;color:var(--ink);background:#fff}
+.fmt a.on{background:var(--ink);color:#fff}
+.fmt a:hover{color:var(--brand)} .fmt a.on:hover{color:#fff}
+.arc .fmt{margin-left:auto} .arc .fmt a{padding:2px 9px;font-size:11.5px} .arc .no{text-decoration:none}
+.rp{background:#fff;border:1px solid var(--hair);padding:18px 22px 20px;margin-top:12px}
+.rp-head{border-bottom:3px double var(--rule);padding-bottom:8px;margin-bottom:12px}
+.rp-tag{display:inline-block;font-size:11px;letter-spacing:.18em;font-weight:700;color:#fff;background:var(--ink);padding:2px 10px;margin-bottom:6px}
+.rp h1{font-family:var(--sans);font-size:24px;font-weight:700;margin:0;color:var(--ink)}
+.rp-meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:6px 0 12px}
+.tile{border:1px solid var(--hair);padding:10px 12px;background:#fbfaf6}
+.tile.a{border-top:4px solid var(--accent)}
+.tile .tl{font-size:11.5px;color:var(--muted)}
+.tile .tv{font-family:var(--sans);font-size:30px;font-weight:600;color:var(--ink);line-height:1.15;font-variant-numeric:proportional-nums}
+.tile.a .tv{color:var(--accent)}
+.tile .tn{font-size:10.5px;color:var(--faint);line-height:1.4;margin-top:2px}
+.rp-summary{font-size:13.5px;line-height:1.6;color:var(--text);background:#f3f1ea;padding:8px 12px;margin-bottom:12px}
+.rp-summary b{color:var(--ink);margin-right:6px}
+.rp-h2{font-family:var(--sans);font-size:15px;font-weight:700;color:var(--ink);margin:10px 0 6px;padding-left:8px;border-left:4px solid var(--brand)}
+.rt{width:100%;border-collapse:collapse;font-size:12.5px;table-layout:fixed}
+.rt th{background:#eeece5;color:var(--ink);font-weight:700;text-align:left;padding:6px 8px;border-bottom:2px solid var(--ink)}
+.rt td{padding:7px 8px;border-bottom:1px solid var(--hair);vertical-align:top;line-height:1.5}
+.rt td.c,.rt th:first-child{text-align:center;width:64px}
+.rt td.ent{font-weight:700;color:var(--ink);width:120px}
+.rt td.act{color:#0b3d35;font-weight:700}
+.rt td.src{font-size:11px;color:var(--muted);width:120px}
+.rt td.t{font-family:var(--serif);font-weight:700} .rt td.t a{text-decoration:none} .rt td.t a:hover{color:var(--accent)}
+.rt td.b{color:var(--text)} .rt td.tg{width:110px}
+.rt .fu{font-weight:400}
+.rp-sec{margin-top:14px} .rp-sec h3{font-family:var(--sans);font-size:14px;font-weight:700;margin:0 0 4px;color:var(--ink)} .rp-sec h3 small{color:var(--muted);font-weight:500}
+.rp .empty{padding:4px 0 8px}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}
+  .rt,.rt tbody,.rt tr,.rt td{display:block;width:auto} .rt thead{display:none}
+  .rt tr{border:1px solid var(--hair);padding:8px 10px;margin-bottom:8px;background:#fff}
+  .rt td{padding:2px 0;border:0;line-height:1.5} .rt td.c,.rt td.ent{display:inline-block;margin-right:8px;width:auto}
+  .rt td.src{font-size:11px;width:auto} .rt td.src br{display:none} .rt td.tg{width:auto}
+  .rt td.act::before{content:"→ ";color:var(--brand)}}
+@media(max-width:640px){.rp{padding:12px 12px 14px} .rp h1{font-size:20px} .tile .tv{font-size:24px} .issuenav .mid{flex-direction:column;gap:4px}}
+@media print{.rp{border:0;padding:0} .rp.detail{break-before:page;page-break-before:always} .kpis{grid-template-columns:repeat(5,1fr)} .fmt{display:none}}
+
+/* ── 푸터 ── */
+.footer{margin-top:26px;border-top:3px double var(--rule);padding-top:10px;font-size:11.5px;color:var(--muted);line-height:1.7}
+
+@media(max-width:1000px){.cols.three{column-count:2} .front{grid-template-columns:1fr} .front .lcol{border-right:0;padding-right:0;padding-bottom:10px;border-bottom:1px solid var(--hair);margin-bottom:6px}
+  .wk-cols{grid-template-columns:1fr 1fr} .wk-cols.three{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){
+  .sheet{margin:0;border:0;padding:0 14px 30px;box-shadow:none}
+  .mast{grid-template-columns:1fr;gap:6px;text-align:center;padding:12px 0 8px}
+  .mast .left{justify-content:center} .mast .logo{height:34px}
+  .mast .name{font-size:26px} .mast .en{font-size:9.5px;letter-spacing:.22em}
+  .mast .right{text-align:center;font-size:12px} .mast .right b{display:inline;margin-right:8px;font-size:13px}
+  .dateline{font-size:12px;flex-wrap:wrap} .dateline .pub{display:none}
+  .nav{justify-content:flex-start} .nav a{padding:9px 11px;font-size:13px}
+  .lead-story h1{font-size:21px} .lead-story .b{font-size:14px}
+  .cols,.cols.two,.cols.three{column-count:1}
+  .legend-bar{font-size:10.5px;gap:2px 10px} .legend-bar .lb-note{display:none}
+  .guide-row{grid-template-columns:1fr} .guide{border-right:0;padding-right:0}
+  .front .lcol{border-right:0;padding-right:0;border-bottom:1px solid var(--hair);padding-bottom:8px;margin-bottom:6px}
+  .item .h{font-size:15px} .item .b{font-size:13.5px;line-height:1.6}
+  .sec-head h2{font-size:19px} .sec-head .sub{display:none}
+  .wk-cols,.wk-cols.three{grid-template-columns:1fr} .wk-col{border-left:0;padding-left:0}
+  .wk-page{padding:12px 12px 14px}
+  .sbar{grid-template-columns:1fr 1fr} .sbar input{grid-column:1 / -1} .sbar .btn{grid-column:1 / -1} .sbar2{grid-template-columns:1fr 1fr}
+  .arc .date{width:auto} .arc .no{width:48px}
+}
+@media print{
+  body{background:#fff} .sheet{margin:0;border:0;box-shadow:none;max-width:none;padding:0}
+  .nav,.issuenav,.sbar,.sbar2,.scount,.wk-nav{display:none!important}
+  .meta .more{display:none} a{text-decoration:none}
+  .section,.group,.item,.wk-page{break-inside:avoid;page-break-inside:avoid}
+}
+</style></head><body><div class="sheet"><header class="mast"><div class="left"><img class="logo" src="../assets/logo.png" alt="ETS"></div><div class="center"><div class="en">ETS MARKET INTELLIGENCE</div><a class="name" href="../index.html">이티에스 시장 동향</a></div><div class="right"><b>제30호</b>2026년 11월 16일 월요일</div></header><div class="dateline"><span class="issue">제30호 · 2026년 11월 16일 월요일 · 주간</span><span class="pub">월~금 아침 발행 · 공개 보도·공시 기반 · 사실만 기록</span></div><nav class="nav"><a href="../index.html" class="on">이번 주 브리핑</a><a href="../archive.html" class="">지난 호</a><a href="../companies/index.html" class="">회사별</a><a href="../search.html" class="">검색</a></nav><div class="issuenav"><a href="../reports/2026-11-09.html">◀ 이전 호 2026-11-09</a><span class="mid"><span class="fmt"><a href="../index.html" class="">신문</a><a href="../report.html" class="on">보고서</a></span><span class="cur">2026-11-16</span></span><span class="dis">다음 호 ▶</span></div><section class="rp cover"><div class="rp-head"><span class="rp-tag">갑지 · 요약</span><h1>영업 정보보고</h1><div class="rp-meta">제30호 · 2026년 11월 16일 월요일 · 주간 · 규칙표 판</div></div><div class="kpis"><div class="tile a"><div class="tl">즉시보고(A)</div><div class="tv">23</div><div class="tn">대규모 투자·RFQ·취소/연기·경쟁사 대형수주</div></div><div class="tile "><div class="tl">고객사·Project 신호</div><div class="tv">13</div><div class="tn">LG엔솔·삼성SDI·SK온·글로벌</div></div><div class="tile "><div class="tl">경쟁사 동향</div><div class="tv">6</div><div class="tn">장비·AMR 22개사</div></div><div class="tile "><div class="tl">영업 포인트</div><div class="tv">8</div><div class="tn">확인·준비할 일</div></div><div class="tile "><div class="tl">보고 항목 / 수집</div><div class="tv">35 / 42</div><div class="tn">C등급·일반 동향 7건은 신문 형식에서</div></div></div><div class="rp-summary"><b>이번 주 요약</b> 삼성SDI,​ 美 LFP ESS 수조원 수주⁠…​2029년부 ·​ Reliance,​ Waaree among 22 shor ·​ 삼성SDI,​ 美에 ESS용 16GWh LFP 배터리 공 ·​ BYD: The World Is Buying Its C</div><h2 class="rp-h2">이번 주 영업 포인트</h2><table class="rt"><thead><tr><th>No</th><th>등급</th><th>회사</th><th>사실(신호)</th><th>영업이 할 일</th><th>출처</th></tr></thead><tbody><tr><td class="c">1</td><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">ACC</td><td>ACC 입찰⁠·​발주 신호</td><td class="act">장비 사양⁠·​일정 확인,​ 견적 준비</td><td class="src">Livemint <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.livemint.com/news/india/reliance-waaree-among-22-shortlisted-for-battery-storage-tender-pli-scheme-cell-making-incentives-technology-11794499983710.html" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">2</td><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">삼성SDI</td><td>삼성SDI ESS 물량 확대</td><td class="act">ESS 셀 라인 증설 여부⁠·​주액/​조립 장비 수요 확인</td><td class="src">지디넷코리아 <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://zdnet.co.kr/view/?no=20261116085205" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">3</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">삼성SDI</td><td>삼성SDI 신⁠·​증설 투자</td><td class="act">라인 구성⁠·​장비 발주​(RFQ)​ 시점 확인</td><td class="src">코리아포스트 한글판 <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.koreapost.co.kr/news/articleView.html?idxno=90137" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">4</td><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">LG에너지솔루션</td><td>LG에너지솔루션 신⁠·​증설 투자</td><td class="act">라인 구성⁠·​장비 발주​(RFQ)​ 시점 확인</td><td class="src">마켓인 <span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span><br><a href="https://marketin.edaily.co.kr/News/ReadE?newsId=03624406645645392" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">5</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">LG에너지솔루션</td><td>LG에너지솔루션 신규 폼팩터​(각형⁠·​46⁠·​전고체)​</td><td class="act">신규 라인 장비 수요 가능성 점검</td><td class="src">bing.com <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.koreasprint.com/news/articleView.html?idxno=23047" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">6</td><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">BYD</td><td>BYD 신⁠·​증설 투자</td><td class="act">라인 구성⁠·​장비 발주​(RFQ)​ 시점 확인</td><td class="src">bing.com <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://seekingalpha.com/article/4966714-byd-the-world-is-buying-its-cars-but-the-market-isnt-buying-its-stock-upgrade" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">7</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">ACC</td><td>ACC 연기⁠·​취소 신호</td><td class="act">진행 중 견적⁠·​납기 재확인</td><td class="src">Saur Energy <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.saurenergy.com/solar-energy-news/mhi-receives-22-bids-for-10-gwh-battery-manufacturing-capacity-earmarked-for-grid-scale-storage-12805438" target="_blank" rel="noopener">원문 ↗</a></td></tr><tr><td class="c">8</td><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">ACC</td><td>ACC 신⁠·​증설 투자</td><td class="act">라인 구성⁠·​장비 발주​(RFQ)​ 시점 확인</td><td class="src">Business Today <span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span><br><a href="https://www.businesstoday.in/latest/economy/story/auto-telecom-pli-schemes-show-progress-acc-battery-capacity-creation-remains-at-early-stage-niti-report-567194-2026-11-12" target="_blank" rel="noopener">원문 ↗</a></td></tr></tbody></table></section><section class="rp detail"><div class="rp-head"><span class="rp-tag">을지 · 상세</span><h1>카테고리별 정리</h1><div class="rp-meta">A·B등급만 수록. 시장·산업은 투자·수주·RFQ·ESS·리스크 관련만. 제목을 누르면 원문.</div></div><div class="rp-sec" id="project"><h3>① Project · RFQ <small>3건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">ACC</td><td class="t"><a href="https://www.livemint.com/news/india/reliance-waaree-among-22-shortlisted-for-battery-storage-tender-pli-scheme-cell-making-incentives-technology-11794499983710.html" target="_blank" rel="noopener">Reliance,​ Waaree among 22 shortlisted for battery storage tender</a></td><td class="b">Reliance Industries Ltd,​ Waaree Energy Storage Solutions Pvt.</td><td class="src">Livemint<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/13</td><td class="tg"><span class="tag">ESS</span><span class="tag key">RFQ</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">삼성SDI</td><td class="t"><a href="https://zdnet.co.kr/view/?no=20261116085205" target="_blank" rel="noopener">삼성SDI,​ 美 LFP ESS 수조원 수주⁠…​2029년부터 공급</a></td><td class="b">삼성SDI가 미국의 대형 에너지 기업에 수조원 규모의 리튬인산철​(LFP)​ 에너지저장장치​(ESS)​ 배터리를 공급한다.</td><td class="src">지디넷코리아<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/16</td><td class="tg"><span class="tag">ESS</span><span class="tag">수주</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">삼성SDI</td><td class="t"><a href="https://www.koreapost.co.kr/news/articleView.html?idxno=90137" target="_blank" rel="noopener">[ 글로벌 배터리 산업]​ 헝가리 배터리 규제 강화에 한국 기업 80억 달러 투자 흔들⁠…​SK온⁠·​삼성SDI 증설 전략 재검토 가능성</a></td><td class="b">헝가리 신정부가 배터리 산업에 대한 환경⁠·​안전 규제를 강화하면서 현지에 <b>80억</b> 달러 이상을 투자한 한국 배터리 기업들의 생산 및 후속 투자 전략에 변화가 예상되고 있다.</td><td class="src">코리아포스트 한글판<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/15</td><td class="tg"><span class="tag">투자</span><span class="tag key">리스크</span><span class="tag">정책</span></td></tr></tbody></table></div><div class="rp-sec" id="customer"><h3>② 고객사 동향 <small>10건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">LG에너지솔루션</td><td class="t"><a href="https://marketin.edaily.co.kr/News/ReadE?newsId=03624406645645392" target="_blank" rel="noopener">LG엔솔,​ 배터리 가동률 57.1%로 회복⁠…​R&amp;D 투자 1.1조 돌파</a></td><td class="b">—</td><td class="src">마켓인<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/13</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">LG에너지솔루션</td><td class="t"><a href="https://www.koreasprint.com/news/articleView.html?idxno=23047" target="_blank" rel="noopener">K-배터리,​ 전고체 양산 가속화와 미국 AMPC 수혜 속 초격차 생존 전략</a></td><td class="b">(코리아스프린트=전기호)​ 국내 배터리 3사가 차세대 '꿈의 배터리'로 불리는 전고체 배터리​(All-Solid-State Battery)​ 상용화를 앞당기기 위해 연구개발​(R&amp;D)​과 양산 체제 구축에 총력 을 기울인다.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/15</td><td class="tg"><span class="tag">전고체</span><span class="tag">정책</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">삼성SDI</td><td class="t"><a href="https://www.news1.kr/industry/general-industry/6354699" target="_blank" rel="noopener">삼성SDI,​ 美에 ESS용 16GWh LFP 배터리 공급⁠…​2조 이상 추정​(종합)​</a></td><td class="b">주피터파워와 계약,​ <b>2029년</b>부터 <b>3년</b>간 공급⁠…​美인디애나 공장 생산 기존 계약 포함</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/15</td><td class="tg"><span class="tag">ESS</span><span class="tag">수주</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">삼성SDI</td><td class="t"><a href="https://www.batterynews.co.kr/news/articleView.html?idxno=834" target="_blank" rel="noopener">삼성SDI,​ 북미 ESS 시장에 새 판 짠다⁠…​ 美 현지 생산 기반 16GWh 수주</a></td><td class="b">삼성SDI가 미국 에너지저장장치​(ESS)​ 전문기업 주피터파워​(Jupiter Power)​와 <b>16GWh</b> 규모의 LFP​(리튬인산철)​ 배터리 공급 계약을 체결하며 북미 ESS 시장 공략을 확대하고 있다.</td><td class="src">batterynews.co.kr<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 11/16</td><td class="tg"><span class="tag">ESS</span><span class="tag">수주</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">삼성SDI</td><td class="t"><a href="https://www.yna.co.kr/view/AKR20261116016700003" target="_blank" rel="noopener">삼성SDI,​ 미국서 수조원대 ESS배터리 수주⁠…​LFP시장공략 본격화</a></td><td class="b">삼성SDI는 미주법인 삼성SDI 아메리카​(SDIA)​가 미국의 대표적인 에너지저장장치​(ESS)​ 개발⁠·​운영 전문업체인 주피터파워와 LFP 배터리 공급 계약을 체결했다고 16일 밝혔다.</td><td class="src">yna.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/16</td><td class="tg"><span class="tag">ESS</span><span class="tag">수주</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">BYD</td><td class="t"><a href="https://seekingalpha.com/article/4966714-byd-the-world-is-buying-its-cars-but-the-market-isnt-buying-its-stock-upgrade" target="_blank" rel="noopener">BYD: The World Is Buying Its Cars,​ But The Market Isn't Buying Its Stock (Rating Upgrade)​</a></td><td class="b">Analyst rates BYD Company Limited a cautious Buy: $116 billion in TTM revenue and <b>13.6%</b>…​</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/12</td><td class="tg"><span class="tag">투자</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">BYD</td><td class="t"><a href="https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/" target="_blank" rel="noopener">Legal proceedings should establish whether the BYD Ti7 is a Copy of JLR’s Defender</a></td><td class="b">British automaker JLR is taking legal action against Chinese competitor BYD for alleged patent infringements.</td><td class="src">electrive.com<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 11/14</td><td class="tg"><span class="tag">수주</span><span class="tag">특허</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">BYD</td><td class="t"><a href="https://www.theguru.co.kr/news/article.html?no=109742" target="_blank" rel="noopener">BYD 환율 변동에 현금 2300억원 감소⁠…​해외 판매 확대가 수익성 부담으로</a></td><td class="b">14일 블룸버그통신에 따르면 중국 지리자동차는 올해 1~9월 외환손익이 전년 동기 흑자에서 적자로 전환됐다.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/14</td><td class="tg"><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">ACC</td><td class="t"><a href="https://www.saurenergy.com/solar-energy-news/mhi-receives-22-bids-for-10-gwh-battery-manufacturing-capacity-earmarked-for-grid-scale-storage-12805438" target="_blank" rel="noopener">MHI Receives 22 Bids for 10 GWh Battery Manufacturing Capacity Earmarked for Grid-Scale Storage</a></td><td class="b">The Ministry of Heavy Industries (MHI)​ has received 22 bids for establishing <b>10 GWh</b> of⁠…​</td><td class="src">Saur Energy<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/13</td><td class="tg"><span class="tag key">리스크</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">ACC</td><td class="t"><a href="https://www.businesstoday.in/latest/economy/story/auto-telecom-pli-schemes-show-progress-acc-battery-capacity-creation-remains-at-early-stage-niti-report-567194-2026-11-12" target="_blank" rel="noopener">Auto,​ telecom PLI schemes show progress; ACC battery capacity creation remains at early stage: Niti Report</a></td><td class="b">India’s Production Linked Incentive (PLI)​ schemes for automobiles and auto components⁠…​</td><td class="src">Business Today<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/12</td><td class="tg"><span class="tag">투자</span></td></tr></tbody></table></div><div class="rp-sec" id="competitor"><h3>③ 업계 동향 <small>6건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">엠플러스</td><td class="t"><a href="https://www.msn.com/ko-kr/money/topstories/%EC%97%A0%ED%94%8C%EB%9F%AC%EC%8A%A4-550%EC%96%B5%EC%9B%90-%EC%A4%91%EC%9E%A5%EA%B8%B0-%ED%88%AC%EC%9E%90%EC%9E%AC%EC%9B%90-%ED%99%95%EB%B3%B4-3%EB%8C%80-%EC%8B%A0%EC%84%B1%EC%9E%A5%EB%8F%99%EB%A0%A5-%EC%A7%80%EC%9B%90-%EC%9E%90%EA%B8%88%EB%A0%A5-%EA%B0%95%ED%99%94/ar-AA2h7lD9" target="_blank" rel="noopener">엠플러스,​ 550억원 중장기 투자재원 확보⁠…​ 3대 신성장동력 지원 자금력 강화</a></td><td class="b">이차전지 조립장비 전문기업 엠플러스가 10일 총 <b>550억</b>원 규모의 중장기 투자재원을 확보하고 방산⁠·​전고체 배터리⁠·​자율이동로봇​(AIMR)​ 등 <b>3대</b> 신성장동력 사업에 대한 선제적 자금 유동성을 확보했다고 밝혔다.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/10</td><td class="tg"><span class="tag">전고체</span><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">엠플러스</td><td class="t"><a href="https://www.msn.com/ko-kr/autos/%EC%A0%84%EA%B8%B0%EC%B0%A8/%EC%97%A0%ED%94%8C%EB%9F%AC%EC%8A%A4-550%EC%96%B5%EC%9B%90-%EC%A4%91%EC%9E%A5%EA%B8%B0-%EC%9E%90%EA%B8%88-%ED%99%95%EB%B3%B4-%EB%B0%A9%EC%82%B0-%EC%A0%84%EA%B3%A0%EC%B2%B4-%EB%8C%80%EA%B7%9C%EB%AA%A8-%EC%88%98%EC%A3%BC-%EC%B1%84%EB%B9%84/ar-AA2h6xBb" target="_blank" rel="noopener">엠플러스,​ 550억원 중장기 자금 확보⁠…​ 방산⁠·​전고체 대규모 수주 채비</a></td><td class="b">이차전지 조립공정 장비 전문기업 엠플러스가 총 <b>550억</b>원 규모의 중장기 투자재원을 확보하고 방산,​ 전고체 배터리,​ 자율이동로봇​(AIMR)​ 등 <b>3대</b> 신사업 추진을 위한 선제적 유동성을 마련했다고 10일 밝혔다.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/10</td><td class="tg"><span class="tag">전고체</span><span class="tag">투자</span><span class="tag">수주</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">SFA</td><td class="t"><a href="https://www.thelec.net/news/articleView.html?idxno=15588" target="_blank" rel="noopener">SFA's Semiconductor Orders Rise to 57% of Total in Third Quarter</a></td><td class="b">SFA is expanding its order portfolio around semiconductor equipment.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/13</td><td class="tg"><span class="tag">수주</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">엠플러스</td><td class="t"><a href="https://www.ddaily.co.kr/page/view/2026111517164990504" target="_blank" rel="noopener">엠플러스,​ 200억원대 전고체 배터리 양산장비 수주⁠…​글로벌 기업에 납품</a></td><td class="b">—</td><td class="src">디지털데일리<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/16</td><td class="tg"><span class="tag">전고체</span><span class="tag">수주</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">SFA</td><td class="t"><a href="https://www.fajournal.com/news/articleView.html?idxno=21518" target="_blank" rel="noopener">SFA,​ 3분기 별도 영업이익률 13.8%…​ 반도체 수주 비중 확대</a></td><td class="b">SFA​(대표 김상경)​가 올해 3분기 별도기준 영업이익률 <b>13.8%</b>를 기록하며 수익성 개선 흐름을 이어갔다.</td><td class="src">FA저널<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/14</td><td class="tg"><span class="tag">수주</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">코윈테크</td><td class="t"><a href="https://www.finance-scope.com/article/view/scp202611100019" target="_blank" rel="noopener">코윈로보틱스,​ 글로벌 ESS 기업 중대형 ESS 제조 라인용 로봇 통합 시스템 신규 수주</a></td><td class="b">해당 고객의 다른 북미 지역 기가팩토리향 추가 공급 협의도 진행 산업용 풀스택 로봇 기업 코윈로보틱스​(옛 코윈테크)​는 글로벌 ESS 기업으로부터 중대형 ESS 제조 라인용 로봇 통합 시스템을 신규 수주했다고 10일 밝혔다.</td><td class="src">파이낸스스코프<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/10</td><td class="tg"><span class="tag">AMR</span><span class="tag">ESS</span><span class="tag">투자</span><span class="tag">수주</span></td></tr></tbody></table></div><div class="rp-sec" id="tech_policy"><h3>④ 기술 · 정책 <small>6건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.thelec.kr/news/articleView.html?idxno=65448" target="_blank" rel="noopener">에코프로,​ 포항 배터리엑스포서 차세대 양극재 기술 공개</a></td><td class="b">에코프로가 포항에서 열린 배터리 전문 박람회에서 글로벌 공급망과 차세대 배터리 소재 기술을 공개했다.</td><td class="src">thelec.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/15</td><td class="tg"><span class="tag">전고체</span><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.pressian.com/pages/articles/2026111609583042153" target="_blank" rel="noopener">에코프로,​ 포항 배터리 생태계 경쟁력 과시⁠…​3조3000억 투자 성과 조명</a></td><td class="b">에코프로가 경북 포항에 구축한 이차전지 소재 산업 기반과 글로벌 공급망 경쟁력을 공개하며 지역 산업 생태계의 성장 성과를 조명했다.</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/15</td><td class="tg"><span class="tag">전고체</span><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.asiatoday.co.kr/kn/view.php?key=20261115010005496" target="_blank" rel="noopener">에코프로,​ 포항 3.3조 투자 성과 한자리⁠…​배터리 소재 밸류체인 공개</a></td><td class="b">전구체⁠·​양극재⁠·​리사이클링 연결한 순환체계 소개 하이니켈 넘어 SIB⁠·​LFP⁠·​고체전해질로 제품군 확대 20261114_130141263_40510 0⁠…​</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/15</td><td class="tg"><span class="tag">전고체</span><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.electrive.com/2026/11/12/eu-and-uk-could-delay-mutual-ev-tariffs-once-more/" target="_blank" rel="noopener">EU and UK could delay mutual EV tariffs once more</a></td><td class="b">The EU Commission is reportedly considering postponing tariffs on the electric car trade with the UK,​ which were planned for 2027.</td><td class="src">electrive.com<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 11/12</td><td class="tg"><span class="tag key">리스크</span><span class="tag">정책</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.indexbox.io/ko/blog/battery-primer-coatings-market-forecast-to-2035-driven-by-ev-platform-launches-and-gigafactory-scale-up/" target="_blank" rel="noopener">배터리 프라이머 코팅 시장 2035년 전망: 전기차 수요와 기가팩토리 확장이 성장 견인 - 뉴스 및 통계</a></td><td class="b">샘플을 받을 주소와 보고서 맞춤화가 필요한지 알려주세요.</td><td class="src">IndexBox<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/12</td><td class="tg"></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=451642" target="_blank" rel="noopener">[블루웨이브 청구서③]​ 정의선 현대차그룹 미국 35조 투자 '블루웨이브' 올라탄다,​ 관세 인하⁠·​전기차보조금 부활 기대 '파란불'</a></td><td class="b">정의선 현대차그룹 미국 <b>35조</b> 투자 '블루웨이브' 올라탄다,​ 관세 인하⁠·​전기차보조금 부활 기대 '파란불' 비즈니스포스트</td><td class="src">비즈니스포스트<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/10</td><td class="tg"><span class="tag">투자</span><span class="tag">정책</span></td></tr></tbody></table></div><div class="rp-sec" id="market"><h3>⑤ 시장 · 산업 <small>10건</small></h3><table class="rt"><thead><tr><th>등급</th><th>회사</th><th>제목</th><th>핵심</th><th>출처</th><th>태그</th></tr></thead><tbody><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.electrive.com/2026/11/14/canada-invests-billions-in-charging-infrastructure-and-grid-upgrades/" target="_blank" rel="noopener">Canada invests billions in charging infrastructure and grid upgrades</a></td><td class="b">The Canadian government is investing in the expansion of electric vehicle charging and⁠…​</td><td class="src">electrive.com<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 11/14</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">-</td><td class="t"><a href="https://www.electrive.com/2026/11/11/northumberland-to-sport-36-more-public-charge-points/" target="_blank" rel="noopener">Northumberland to sport 36 more public charge points</a></td><td class="b">A new suite of electric vehicle chargers is being added to Northumberland County Council's existing network.</td><td class="src">electrive.com<br><span class="stars" title="출처 신뢰도 3/5">★★★<span class="off">★★</span></span> 11/12</td><td class="tg"><span class="tag">수주</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">-</td><td class="t"><a href="https://www.nocutnews.co.kr/news/6606826" target="_blank" rel="noopener">"포항 이차전지 산업 성과 알린다"…​국제 배터리 엑스포 개막</a></td><td class="b">강원 경남 광주 대구 대전 부산 영동 울산 전남 전북 제주 청주 포항 경인 강원 경남 광주 대구 대전 부산 영동 울산 전남 전북 제주 청주 포항 전국 일반</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/13</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g B" title="중요도 B">B</span></td><td class="ent">-</td><td class="t"><a href="https://www.edaily.co.kr/News/Read?newsId=04250886645644080&amp;mediaCodeNo=257" target="_blank" rel="noopener">가정용 ESS 152% 급성장에도⁠…​K배터리 3사는 '전력망' 집중</a></td><td class="b">—</td><td class="src">이데일리<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/9</td><td class="tg"><span class="tag">ESS</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.g-enews.com/article/Global-Biz/2026/11/202611160617079024fbbec65dfb_1" target="_blank" rel="noopener">삼성전자 46조원 HBM 증설,​ 美 투자 매체가 2028년 가동률부터 따진 이유</a></td><td class="b">—</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/15</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.etnews.com/20261115000013" target="_blank" rel="noopener">[지방시대 新성장엔진]​​〈3〉​중부 '착공',​ 서남 '부지'…​메가프로젝트 이행 속도 갈린다</a></td><td class="b">메가프로젝트 발표 이후 중부권과 서남권의 사업 이행 속도가 갈리고 있다.</td><td class="src">etnews.com<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/15</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.yna.co.kr/view/AKR20261113101100002" target="_blank" rel="noopener">반도체설계자동화SW 입찰서 20년 담합한 9개 업체⁠…​과징금 2억원</a></td><td class="b">공정거래위원회는 <b>2005년</b> 2월부터 지난해 10월까지 한국전자통신연구원 등이 추진한 95차례의 EDA 소프트웨어와 관련 품목 입찰에서 사전에 낙찰 예정자나 투찰⁠…​</td><td class="src">yna.co.kr<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/15</td><td class="tg"><span class="tag key">RFQ</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.ajunews.com/view/20261112151948579" target="_blank" rel="noopener">[반도체 392조 충청권 투자]​ HBM 패키징 경쟁 격화⁠…​삼성,​ 온양 투자로 글로벌 1강 승부수</a></td><td class="b">삼성,​ HBM4 매출 확대에 내년 시장점유율 1위 전망도 메모리⁠·​파운드리⁠·​첨단 패키징 등 맞춤형 HBM 개발 주력 SK하이닉스⁠·​마이크론 등 국내외 첨단 패키징⁠…​</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 4/5">★★★★<span class="off">★</span></span> 11/12</td><td class="tg"><span class="tag">투자</span><span class="tag">실적</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.msn.com/ko-kr/news/other/46%EC%A1%B0-hbm-%ED%88%AC%EC%9E%90-%EC%B2%AB-%EC%82%BD-%EC%82%BC%EC%84%B1-%EC%98%A8%EC%96%91-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%ED%95%B5%EC%8B%AC-%EA%B1%B0%EC%A0%90%EC%9C%BC%EB%A1%9C-%EB%A9%94%EA%B0%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B2%AB-%EC%82%BD/ar-AA2hg8px" target="_blank" rel="noopener">46조 HBM 투자 첫 삽⁠…​삼성 온양,​ AI 반도체 핵심 거점으로 [메가프로젝트 첫 삽]​</a></td><td class="b">온양에 HBM 첨단 패키징 전용 팹 신설⁠…​<b>2029년</b> 5월 양산 목표 반도체 조립⁠·​검사 거점서 고부가 생산기지로⁠…​천안과 후공정 양대 축 구축 삼성전자가 충남 아산⁠…​</td><td class="src">bing.com<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/12</td><td class="tg"><span class="tag">투자</span></td></tr><tr><td class="c"><span class="g A" title="중요도 A">A 즉시</span></td><td class="ent">-</td><td class="t"><a href="https://www.newsyonhap.com/news/137009" target="_blank" rel="noopener">삼성전자,​ 아산 HBM 생산시설 착공⁠…​ 6조 원 공장 건설⁠·​40조 원 첨단장비 투자로 AI 반도체 경쟁력 강화</a></td><td class="b">—</td><td class="src">뉴스N연합<br><span class="stars" title="출처 신뢰도 2/5">★★<span class="off">★★★</span></span> 11/13</td><td class="tg"><span class="tag">투자</span><span class="tag">실적</span></td></tr></tbody></table></div></section><div class="footer">본 브리핑은 공개 보도·공시의 제목과 리드 문장을 규칙표(watchlist.yml)에 따라 자동 분류·등급화한 사실 정보입니다. 등급 A=즉시보고 B=Daily C=Weekly, ★=출처 신뢰도(공시·IR 5, 정부·주요언론 4, 협회·채용·특허 3). 수치·계약 세부는 원문/공시로 확인하십시오.<br>이티에스 시장 동향</div></div></body></html>
